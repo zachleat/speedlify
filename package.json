@@ -7,7 +7,8 @@
     "clean": "rm -rf _data/results/* && rm -rf .log && rm -rf _site",
     "test-pages": "node run-tests",
     "build": "npx @11ty/eleventy --quiet",
-    "start": "npx @11ty/eleventy --quiet --serve"
+    "start": "npx @11ty/eleventy --quiet --serve",
+    "build-production": "npm run test-pages && npm run build"
   },
   "keywords": [
     "performance",
