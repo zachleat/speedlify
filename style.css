@@ -1,0 +1,102 @@
+body {
+	font-family: system-ui, sans-serif;
+	background-color: #2e2e2e;
+	color: #fff;
+}
+code {
+	font-family: Monaco, monospace;
+}
+
+:link,
+:visited {
+	color: #fff;
+}
+
+h2 {
+	margin-top: 1em;
+	padding: 1em 0;
+	border-top: 1px solid #888;
+}
+
+table {
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+th, td {
+	margin: 0;
+	padding: .25em .5em;
+}
+th {
+	border: 1px solid #555;
+	font-weight: normal;
+}
+tr:first-child th,
+th[class^="results-series"] {
+	font-weight: bold;
+}
+
+/* Charts */
+
+.ct-line.ct-line {
+	stroke-width: 3px;
+}
+.ct-label.ct-label {
+	fill: rgba(255, 255, 255, 0.4);
+	color: rgba(255, 255, 255, 0.4);
+}
+.ct-grid.ct-grid {
+	stroke: rgba(255, 255, 255, 0.2);
+}
+/* via https://learnui.design/tools/data-color-picker.html */
+.results-series-a {
+	background-color: #003f5c;
+}
+.ct-series-a.ct-series-a .ct-line {
+	stroke: #003f5c;
+}
+.results-series-b {
+	background-color: #58508d;
+}
+.ct-series-b.ct-series-b .ct-line {
+	stroke: #58508d;
+}
+.results-series-c {
+	background-color: #bc5090;
+}
+.ct-series-c.ct-series-c .ct-line {
+	stroke: #bc5090;
+}
+.results-series-d {
+	background-color: #ff6361;
+}
+.ct-series-d.ct-series-d .ct-line {
+	stroke: #ff6361;
+}
+.results-series-e {
+	background-color: #ffa600;
+}
+.ct-series-e.ct-series-e .ct-line {
+	stroke: #ffa600;
+}
+
+/* Results table */
+.results th,
+.results td {
+	white-space: nowrap;
+}
+.count {
+	color: #999;
+	font-size: 0.875em; /* 14px /16 */
+}
+
+/* Layout */
+.layout {
+	display: grid;
+	grid-gap: 1em;
+	margin-bottom: 2em;
+}
+@media (min-width: 75em) { /* 1200px */
+	.layout {
+		grid-template-columns: repeat(auto-fill, 49%);
+	}
+}

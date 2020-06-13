@@ -1,0 +1,37 @@
+{
+  "name": "speedlify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf _data/results/* && rm -rf .log && rm -rf _site",
+    "test-pages": "node run-tests",
+    "build": "npx @11ty/eleventy --quiet",
+    "start": "npx @11ty/eleventy --quiet --serve"
+  },
+  "keywords": [
+    "performance",
+    "lighthouse"
+  ],
+  "author": {
+    "name": "Zach Leatherman",
+    "email": "zachleatherman@gmail.com",
+    "url": "https://zachleat.com/"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zachleat/speedlify.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zachleat/speedlify/issues"
+  },
+  "homepage": "https://github.com/zachleat/speedlify#readme",
+  "dependencies": {
+    "@11ty/eleventy": "0.11.0",
+    "chartist": "^0.11.4",
+    "performance-leaderboard": "^3.0.0",
+    "pretty-bytes": "^5.3.0",
+    "short-hash": "^1.0.0"
+  }
+}
