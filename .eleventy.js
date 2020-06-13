@@ -64,6 +64,5 @@ module.exports = function(eleventyConfig) {
 		"./node_modules/chartist/dist/chartist.js": "chartist.js",
 	});
 	eleventyConfig.addPassthroughCopy("chart.js");
-	eleventyConfig.addPassthroughCopy("plugins");
 	eleventyConfig.addTemplateFormats("css");
 };
