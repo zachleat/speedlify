@@ -9,7 +9,7 @@
 	</head>
 	<body>
 		<h1>Speedlify</h1>
-		<p>Benchmark Netlify pages over time.</p>
+		<p>Benchmark web pages over time.</p>
 		{%- for site in results | sortObject %}
 			{% set key = site | getFirstObjectKey %}
 			<h2><a href="{{ site[key].url }}"><code>{{ site[key].url }}</code></a></h2>
