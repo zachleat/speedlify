@@ -8,7 +8,7 @@ function makeTable(table) {
   rows = rows.reverse();
 
   for(let row of rows) {
-    labels.push(row.children[0].innerText.split(" ")[0]);
+    labels.push(row.children[0].innerText.substr(5, 5));
     let childCount = row.children.length - 1;
     let seriesIndex = 0;
     for(let j = 0, k = childCount; j<k; j++) {
