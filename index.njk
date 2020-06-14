@@ -91,12 +91,14 @@
 						<thead>
 							<tr>
 								<th rowspan="2">Date</th>
-								<th colspan="5">Core Web Vitals</th>
+								<th colspan="5">Web Vitals</th>
 							</tr>
 							<tr>
 								<th class="results-series-a"><abbr title="Cumulative Layout Shift">CLS</abbr></th>
 								<th class="results-series-b"><abbr title="Max Potential First Input Delay">Max Potential FID</abbr></th>
 								<th class="results-series-c"><abbr title="Largest Contentful Paint">LCP</abbr></th>
+								<th class="results-series-d"><abbr title="Total Blocking Time">TBT</abbr></th>
+								<th class="results-series-e"><abbr title="Speed Index">SI</abbr></th>
 							</tr>
 						</thead>
 						<tbody>
@@ -105,7 +107,9 @@
 								<td><code class="date">{{ entry.timestamp | displayDate }}</code></td>
 								<td data-numeric-value="{{ entry.cumulativeLayoutShift }}">{% if entry.cumulativeLayoutShift === 0 %}✅ {% endif %}{{ entry.cumulativeLayoutShift }}</td>
 								<td data-numeric-value="{{ entry.maxPotentialFirstInputDelay }}">{{ entry.maxPotentialFirstInputDelay }}ms</td>
-								<td data-numeric-value="{{ entry.largestContentfulPaint }}">{{ entry.largestContentfulPaint | digits(1) }}ms</td>
+								<td data-numeric-value="{{ entry.largestContentfulPaint }}">{{ entry.largestContentfulPaint | digits(0) }}ms</td>
+								<td data-numeric-value="{{ entry.totalBlockingTime }}">{{ entry.totalBlockingTime | digits(0) }}ms</td>
+								<td data-numeric-value="{{ entry.speedIndex }}">{{ entry.speedIndex | digits(0) }}ms</td>
 							</tr>
 						{%- endfor %}
 						</tbody>
