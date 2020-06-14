@@ -7,6 +7,13 @@ module.exports = function(eleventyConfig) {
 		return shortHash(value);
 	});
 
+	eleventyConfig.addFilter("head", function(arr, num) {
+		if(num) {
+			return arr.slice(0, num);
+		}
+		return arr;
+	});
+
 	function pad(num) {
 		return (num < 10 ? "0" : "") + num;
 	}
