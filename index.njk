@@ -106,7 +106,7 @@
 							<tr>
 								<td><code class="date">{{ entry.timestamp | displayDate }}</code></td>
 								<td data-numeric-value="{{ entry.cumulativeLayoutShift }}">{% if entry.cumulativeLayoutShift === 0 %}✅ {% endif %}{{ entry.cumulativeLayoutShift }}</td>
-								<td data-numeric-value="{{ entry.maxPotentialFirstInputDelay }}">{{ entry.maxPotentialFirstInputDelay }}ms</td>
+								<td data-numeric-value="{{ entry.maxPotentialFirstInputDelay }}">{{ entry.maxPotentialFirstInputDelay | digits(0) }}ms</td>
 								<td data-numeric-value="{{ entry.largestContentfulPaint }}">{{ entry.largestContentfulPaint | digits(0) }}ms</td>
 								<td data-numeric-value="{{ entry.totalBlockingTime }}">{{ entry.totalBlockingTime | digits(0) }}ms</td>
 								<td data-numeric-value="{{ entry.speedIndex }}">{{ entry.speedIndex | digits(0) }}ms</td>
