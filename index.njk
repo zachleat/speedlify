@@ -1,3 +1,6 @@
+---
+maxResults: 14
+---
 <!doctype html>
 <html lang="en">
 	<head>
@@ -39,7 +42,7 @@
 							</tr>
 						</thead>
 						<tbody>
-						{%- for entry in site | sortObject | head(10) %}
+						{%- for entry in site | sortObject | head(maxResults) %}
 							<tr>
 								<td><code class="date">{{ entry.timestamp | displayDate }}</code></td>
 								<td>{% if entry.ranks.hundos %}{% if entry.ranks.hundos === 1 %}🏆 {% endif %}#{{ entry.ranks.hundos }}{% endif %}</td>
@@ -73,7 +76,7 @@
 							</tr>
 						</thead>
 						<tbody>
-						{%- for entry in site | sortObject | head(10) %}
+						{%- for entry in site | sortObject | head(maxResults) %}
 							<tr>
 								<td><code class="date">{{ entry.timestamp | displayDate }}</code></td>
 								<td data-numeric-value="{{ entry.firstContentfulPaint }}">{% if entry.firstContentfulPaint <= 1350 %}✅ {% endif %}{{ entry.firstContentfulPaint | digits(0) }}ms</td>
@@ -107,7 +110,7 @@
 							</tr>
 						</thead>
 						<tbody>
-						{%- for entry in site | sortObject | head(10) %}
+						{%- for entry in site | sortObject | head(maxResults) %}
 							<tr>
 								<td><code class="date">{{ entry.timestamp | displayDate }}</code></td>
 								<td data-numeric-value="{{ entry.weight.total / 1024 }}">{{ entry.weight.total | displayFilesize }}</td>
