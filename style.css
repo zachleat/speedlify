@@ -13,6 +13,7 @@ code {
 }
 
 summary {
+	display: block;
 	font-size: 1.25em; /* 20px /16 */
 	margin-top: 1em;
 	padding: 1em 0;
@@ -97,8 +98,14 @@ a[href].external {
 }
 
 /* Results table */
+.results {
+	width: 100%;
+}
 .results td {
 	white-space: nowrap;
+}
+.results-date {
+	width: 6.25rem; /* 100px /16 */
 }
 .count,
 .date {

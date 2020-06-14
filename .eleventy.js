@@ -99,6 +99,34 @@ module.exports = function(eleventyConfig) {
 		return ret;
 	});
 
+	eleventyConfig.addFilter("hundoCount", (entry) => {
+		let count = 0;
+		if(entry.lighthouse.performance === 1) {
+			count++;
+		}
+		if(entry.lighthouse.accessibility === 1) {
+			count++;
+		}
+		if(entry.lighthouse.bestPractices === 1) {
+			count++;
+		}
+		if(entry.lighthouse.seo === 1) {
+			count++;
+		}
+
+		return `💯×${count}`;
+	});
+
+	eleventyConfig.addFilter("lighthouseTotal", (entry) => {
+		let total = 0;
+		total += entry.lighthouse.performance;
+		total += entry.lighthouse.accessibility;
+		total += entry.lighthouse.bestPractices;
+		total += entry.lighthouse.seo;
+		return Math.round(total * 100);
+	});
+
+
 	eleventyConfig.addFilter("displayTableCellValue", (value) => {
 		if(value === 1) {
 			return `✅ ${value * 100}`;
