@@ -12,7 +12,7 @@ maxResults: 14
 	</head>
 	<body>
 		<h1>Speedlify</h1>
-		<p>Benchmark web pages over time (ordered by Lighthouse scores).</p>
+		<p>Benchmark web pages over time (ordered by Lighthouse scores). Updates <em>at most</em> once an hour and automatically once a day. Only the last {{ maxResults }} result{% if maxResults != 1 %}s{% endif %} are shown.</p>
 		<ol>
 			{%- for site in results | sortObject([':lastkey', 'ranks', 'hundos']) | reverse %}
 			{%- set key = site | getObjectKey("last") %}
@@ -134,6 +134,10 @@ maxResults: 14
 				</div>
 			</details>
 		{%- endfor %}
+
+		<footer>
+			MIT licensed. Source code at <a href="https://github.com/zachleat/speedlify/"><code>github.com/zachleat/speedlify/</code></a>
+		</footer>
 
 		<script src="chartist.js"></script>
 		<script src="chart.js"></script>
