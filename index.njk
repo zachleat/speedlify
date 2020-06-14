@@ -31,17 +31,17 @@
 								<th>Axe</th>
 							</tr>
 							<tr>
-								<th class="results-series-a">Performance</th>
-								<th class="results-series-b">Accessibility</th>
+								<th class="results-series-a"><abbr title="Performance">Perf</abbr></th>
+								<th class="results-series-b"><abbr title="Accessibility">A11Y</abbr></th>
 								<th class="results-series-c">Best Practices</th>
 								<th class="results-series-d">SEO</th>
 								<th>Violations</th>
 							</tr>
 						</thead>
 						<tbody>
-						{%- for date,entry in site %}
+						{%- for entry in site | sortObject %}
 							<tr>
-								<td>{{ entry.timestamp | displayDate }}</td>
+								<td><code class="date">{{ entry.timestamp | displayDate }}</code></td>
 								<td>{% if entry.ranks.hundos %}{% if entry.ranks.hundos === 1 %}🏆 {% endif %}#{{ entry.ranks.hundos }}{% endif %}</td>
 								<td data-numeric-value="{{ entry.lighthouse.performance * 100 }}">{{ entry.lighthouse.performance | displayTableCellValue }}</td>
 								<td data-numeric-value="{{ entry.lighthouse.accessibility * 100 }}">{{ entry.lighthouse.accessibility | displayTableCellValue }}</td>
@@ -65,15 +65,15 @@
 							<tr>
 								<th class="results-series-a">Total</th>
 								<th class="results-series-b">HTML</th>
-								<th class="results-series-c">JS</th>
-								<th class="results-series-d">Image</th>
+								<th class="results-series-c"><abbr title="JavaScript">JS</abbr></th>
+								<th class="results-series-d">Images</th>
 								<th class="results-series-e">Fonts</th>
 							</tr>
 						</thead>
 						<tbody>
-						{%- for date,entry in site %}
+						{%- for entry in site | sortObject %}
 							<tr>
-								<td>{{ entry.timestamp | displayDate }}</td>
+								<td><code class="date">{{ entry.timestamp | displayDate }}</code></td>
 								<td data-numeric-value="{{ entry.weight.total / 1024 }}">{{ entry.weight.total | displayFilesize }}</td>
 								<td data-numeric-value="{{ entry.weight.document / 1024 }}">{{ entry.weight.document | displayFilesize }}</td>
 								<td data-numeric-value="{{ entry.weight.script / 1024 }}">{{ entry.weight.script | displayFilesize }} <span class="count">×{{ entry.weight.scriptCount }}</span></td>
@@ -94,15 +94,15 @@
 								<th colspan="5">Core Web Vitals</th>
 							</tr>
 							<tr>
-								<th class="results-series-a">Cumulative Layout Shift</th>
-								<th class="results-series-b">Max Potential First Input Delay</th>
-								<th class="results-series-c">Largest Contentful Paint</th>
+								<th class="results-series-a"><abbr title="Cumulative Layout Shift">CLS</abbr></th>
+								<th class="results-series-b"><abbr title="Max Potential First Input Delay">Max Potential FID</abbr></th>
+								<th class="results-series-c"><abbr title="Largest Contentful Paint">LCP</abbr></th>
 							</tr>
 						</thead>
 						<tbody>
-						{%- for date,entry in site %}
+						{%- for entry in site | sortObject %}
 							<tr>
-								<td>{{ entry.timestamp | displayDate }}</td>
+								<td><code class="date">{{ entry.timestamp | displayDate }}</code></td>
 								<td data-numeric-value="{{ entry.cumulativeLayoutShift }}">{% if entry.cumulativeLayoutShift === 0 %}✅ {% endif %}{{ entry.cumulativeLayoutShift }}</td>
 								<td data-numeric-value="{{ entry.maxPotentialFirstInputDelay }}">{{ entry.maxPotentialFirstInputDelay }}ms</td>
 								<td data-numeric-value="{{ entry.largestContentfulPaint }}">{{ entry.largestContentfulPaint | digits(1) }}ms</td>

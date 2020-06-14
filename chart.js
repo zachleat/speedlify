@@ -2,9 +2,11 @@ function makeTable(table) {
   let labels = [];
   let series = [];
 
-  let rows = table.querySelectorAll(":scope tbody tr");
+  let rows = Array.from(table.querySelectorAll(":scope tbody tr"));
   let minY = 90;
   let maxY = 100;
+  rows = rows.reverse();
+
   for(let row of rows) {
     labels.push(row.children[0].innerText);
     let childCount = row.children.length - 1;

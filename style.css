@@ -36,6 +36,10 @@ th[class^="results-series"] {
 	font-weight: bold;
 }
 
+abbr {
+	text-decoration: none;
+}
+
 a[href].external {
 	float: right;
 }
@@ -89,9 +93,10 @@ a[href].external {
 .results td {
 	white-space: nowrap;
 }
-.count {
-	color: #999;
-	font-size: 0.875em; /* 14px /16 */
+.count,
+.date {
+	color: #aaa;
+	font-size: 0.8125em; /* 13px /16 */
 }
 
 /* Layout */

@@ -12,7 +12,8 @@ module.exports = function(eleventyConfig) {
 	}
 	eleventyConfig.addFilter("displayDate", function(timestamp) {
 		let date = new Date(timestamp);
-		return `${date.getFullYear()}-${pad(date.getMonth() + 1)}-${pad(date.getDate())}`;
+		let day = `${date.getFullYear()}-${pad(date.getMonth() + 1)}-${pad(date.getDate())}`;
+		return `${day} ${date.getHours()}:${pad(date.getMinutes())}`;
 	});
 
 	eleventyConfig.addFilter("displayFilesize", function(size) {
