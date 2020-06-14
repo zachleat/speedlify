@@ -8,7 +8,8 @@ function makeTable(table) {
   rows = rows.reverse();
 
   for(let row of rows) {
-    labels.push(row.children[0].innerText.substr(5, 5));
+    let label = row.children[0].innerText.split(" ");
+    labels.push(label.slice(0,2).join(" "));
     let childCount = row.children.length - 1;
     let seriesIndex = 0;
     for(let j = 0, k = childCount; j<k; j++) {
@@ -28,6 +29,7 @@ function makeTable(table) {
   let options = {
     high: Math.max(maxY, 100),
     low: Math.max(0, minY - 5),
+    fullWidth: true,
     onlyInteger: true,
     showPoint: false,
     lineSmooth: true,
@@ -35,6 +37,9 @@ function makeTable(table) {
       showGrid: true,
       showLabel: true
     },
+    chartPadding: {
+      right: 40
+    }
   };
 
   new Chartist.Line(table.nextElementSibling, {

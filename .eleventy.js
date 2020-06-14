@@ -14,12 +14,19 @@ module.exports = function(eleventyConfig) {
 		return arr;
 	});
 
+	eleventyConfig.addFilter("displayUrl", function(url) {
+		url = url.replace("https://www.", "");
+		url = url.replace("https://", "");
+		return url;
+	});
+
 	function pad(num) {
 		return (num < 10 ? "0" : "") + num;
 	}
 	eleventyConfig.addFilter("displayDate", function(timestamp) {
+		let months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 		let date = new Date(timestamp);
-		let day = `${date.getFullYear()}-${pad(date.getMonth() + 1)}-${pad(date.getDate())}`;
+		let day = `${months[date.getMonth()]} ${pad(date.getDate())}`;
 		return `${day} ${date.getHours()}:${pad(date.getMinutes())}`;
 	});
 

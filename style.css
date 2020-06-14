@@ -42,6 +42,7 @@ abbr {
 
 a[href].external {
 	float: right;
+	margin-right: 1em;
 }
 
 /* Charts */
@@ -52,6 +53,7 @@ a[href].external {
 .ct-label.ct-label {
 	fill: rgba(255, 255, 255, 0.4);
 	color: rgba(255, 255, 255, 0.4);
+	white-space: nowrap;
 }
 .ct-grid.ct-grid {
 	stroke: rgba(255, 255, 255, 0.2);
@@ -87,9 +89,14 @@ a[href].external {
 .ct-series-e.ct-series-e .ct-line {
 	stroke: #ffa600;
 }
+.results-series-f {
+	background-color: #59922b;
+}
+.results-series-g {
+	background-color: #0544d3;
+}
 
 /* Results table */
-.results th,
 .results td {
 	white-space: nowrap;
 }
@@ -105,7 +112,7 @@ a[href].external {
 	grid-gap: 1em;
 	margin-bottom: 2em;
 }
-@media (min-width: 75em) { /* 1200px */
+@media (min-width: 87.5em) { /* 1400px */
 	.layout {
 		grid-template-columns: repeat(auto-fill, 49%);
 	}
