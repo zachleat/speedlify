@@ -5,7 +5,7 @@ const PerfLeaderboard = require("performance-leaderboard");
 const NUMBER_OF_RUNS = 1;
 
 (async function() {
-	let urls = require("./test-sites.json");
+	let urls = require("./test-sites.js");
 
 	let results = await PerfLeaderboard(urls, NUMBER_OF_RUNS, {
 		freshChrome: "site"
