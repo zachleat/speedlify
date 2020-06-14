@@ -14,10 +14,21 @@ code {
 
 summary {
 	display: block;
-	font-size: 1.25em; /* 20px /16 */
 	margin-top: 1em;
 	padding: 1em 0;
 	border-top: 1px solid #888;
+}
+
+.url {
+	font-size: 1em; /* 20px /16 */
+	-ms-word-break: break-all;
+	word-break: break-all;
+	word-break: break-word;
+}
+@media (min-width: 37.5em) { /* 600px */
+	.url {
+		font-size: 1.25em; /* 20px /16 */
+	}
 }
 
 table {
@@ -114,12 +125,16 @@ a[href].external {
 }
 
 /* Layout */
-.layout {
-	display: grid;
-	grid-gap: 1em;
-	margin-bottom: 2em;
+.tablewrap {
+	width: 100%;
+	overflow-x: auto;
 }
 @media (min-width: 87.5em) { /* 1400px */
+	.layout {
+		display: grid;
+		grid-gap: 1em;
+		margin-bottom: 2em;
+	}
 	.layout {
 		grid-template-columns: repeat(auto-fill, 49%);
 	}

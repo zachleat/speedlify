@@ -42,7 +42,7 @@ function makeTable(table) {
     }
   };
 
-  new Chartist.Line(table.nextElementSibling, {
+  new Chartist.Line(table.parentNode.nextElementSibling, {
     labels: labels,
     series: series
   }, options);
