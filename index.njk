@@ -39,7 +39,7 @@
 							</tr>
 						</thead>
 						<tbody>
-						{%- for entry in site | sortObject | head(1) %}
+						{%- for entry in site | sortObject | head(10) %}
 							<tr>
 								<td><code class="date">{{ entry.timestamp | displayDate }}</code></td>
 								<td>{% if entry.ranks.hundos %}{% if entry.ranks.hundos === 1 %}🏆 {% endif %}#{{ entry.ranks.hundos }}{% endif %}</td>
@@ -71,7 +71,7 @@
 							</tr>
 						</thead>
 						<tbody>
-						{%- for entry in site | sortObject | head(1) %}
+						{%- for entry in site | sortObject | head(10) %}
 							<tr>
 								<td><code class="date">{{ entry.timestamp | displayDate }}</code></td>
 								<td data-numeric-value="{{ entry.weight.total / 1024 }}">{{ entry.weight.total | displayFilesize }}</td>
