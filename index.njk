@@ -9,99 +9,110 @@
 	</head>
 	<body>
 		<h1>Speedlify</h1>
-		<p>Benchmark web pages over time.</p>
+		<p>Benchmark web pages over time (ordered by Lighthouse rank).</p>
+		<ol>
+			{%- for site in results | sortObject([':lastkey', 'ranks', 'hundos']) | reverse %}
+			{%- set key = site | getObjectKey("last") %}
+			<li><a href="#{{ site[key].url | shortHash }}"><code>{{ site[key].url }}</code></a></li>
+			{%- endfor %}
+		</ol>
+
 		{%- for site in results | sortObject %}
-			{% set key = site | getFirstObjectKey %}
-			<h2><a href="{{ site[key].url }}"><code>{{ site[key].url }}</code></a></h2>
-			<div class="layout">
-				<table data-make-chart class="results">
-					<thead>
-						<tr>
-							<th rowspan="2">Date</th>
-							<th colspan="4">Lighthouse</th>
-							<th>Axe</th>
-						</tr>
-						<tr>
-							<th class="results-series-a">Performance</th>
-							<th class="results-series-b">Accessibility</th>
-							<th class="results-series-c">Best Practices</th>
-							<th class="results-series-d">SEO</th>
-							<th>Violations</th>
-						</tr>
-					</thead>
-					<tbody>
-					{%- for date,entry in site %}
-						<tr>
-							<td>{{ entry.timestamp | displayDate }}</td>
-							<td data-numeric-value="{{ entry.lighthouse.performance * 100 }}">{{ entry.lighthouse.performance | displayTableCellValue }}</td>
-							<td data-numeric-value="{{ entry.lighthouse.accessibility * 100 }}">{{ entry.lighthouse.accessibility | displayTableCellValue }}</td>
-							<td data-numeric-value="{{ entry.lighthouse.bestPractices * 100 }}">{{ entry.lighthouse.bestPractices | displayTableCellValue }}</td>
-							<td data-numeric-value="{{ entry.lighthouse.seo * 100 }}">{{ entry.lighthouse.seo | displayTableCellValue }}</td>
-							<td>{% if entry.axe.violations == 0 %}✅{% else %}🚫 {{ entry.axe.violations }}{% endif %}</td>
-						</tr>
-					{%- endfor %}
-					</tbody>
-				</table>
-				<div class="ct-chart ct-double-octave"></div>
-			</div>
+			{%- set key = site | getObjectKey %}
+			<details open>
+				<summary id="{{ site[key].url | shortHash }}"><code>{{ site[key].url }}</code> <a href="{{ site[key].url }}" class="external">Go to site →</a></summary>
+				<div class="layout">
+					<table data-make-chart class="results">
+						<thead>
+							<tr>
+								<th rowspan="2">Date</th>
+								<th rowspan="2">Rank</th>
+								<th colspan="4">Lighthouse</th>
+								<th>Axe</th>
+							</tr>
+							<tr>
+								<th class="results-series-a">Performance</th>
+								<th class="results-series-b">Accessibility</th>
+								<th class="results-series-c">Best Practices</th>
+								<th class="results-series-d">SEO</th>
+								<th>Violations</th>
+							</tr>
+						</thead>
+						<tbody>
+						{%- for date,entry in site %}
+							<tr>
+								<td>{{ entry.timestamp | displayDate }}</td>
+								<td>{% if entry.ranks.hundos === 1 %}🏆 {% endif %}#{{ entry.ranks.hundos }}</td>
+								<td data-numeric-value="{{ entry.lighthouse.performance * 100 }}">{{ entry.lighthouse.performance | displayTableCellValue }}</td>
+								<td data-numeric-value="{{ entry.lighthouse.accessibility * 100 }}">{{ entry.lighthouse.accessibility | displayTableCellValue }}</td>
+								<td data-numeric-value="{{ entry.lighthouse.bestPractices * 100 }}">{{ entry.lighthouse.bestPractices | displayTableCellValue }}</td>
+								<td data-numeric-value="{{ entry.lighthouse.seo * 100 }}">{{ entry.lighthouse.seo | displayTableCellValue }}</td>
+								<td>{% if entry.axe.violations == 0 %}✅{% else %}🚫 {{ entry.axe.violations }}{% endif %}</td>
+							</tr>
+						{%- endfor %}
+						</tbody>
+					</table>
+					<div class="ct-chart ct-double-octave"></div>
+				</div>
 
-			<div class="layout">
-				<table data-make-chart class="results">
-					<thead>
-						<tr>
-							<th rowspan="2">Date</th>
-							<th colspan="5">Weight</th>
-						</tr>
-						<tr>
-							<th class="results-series-a">Total</th>
-							<th class="results-series-b">HTML</th>
-							<th class="results-series-c">JS</th>
-							<th class="results-series-d">Image</th>
-							<th class="results-series-e">Fonts</th>
-						</tr>
-					</thead>
-					<tbody>
-					{%- for date,entry in site %}
-						<tr>
-							<td>{{ entry.timestamp | displayDate }}</td>
-							<td data-numeric-value="{{ entry.weight.total / 1024 }}">{{ entry.weight.total | displayFilesize }}</td>
-							<td data-numeric-value="{{ entry.weight.document / 1024 }}">{{ entry.weight.document | displayFilesize }}</td>
-							<td data-numeric-value="{{ entry.weight.script / 1024 }}">{{ entry.weight.script | displayFilesize }} <span class="count">×{{ entry.weight.scriptCount }}</span></td>
-							<td data-numeric-value="{{ entry.weight.image / 1024 }}">{{ entry.weight.image | displayFilesize }} <span class="count">×{{ entry.weight.imageCount }}</span></td>
-							<td data-numeric-value="{{ entry.weight.font / 1024 }}">{{ entry.weight.font | displayFilesize }} <span class="count">×{{ entry.weight.fontCount }}</span></td>
-						</tr>
-					{%- endfor %}
-					</tbody>
-				</table>
-				<div class="ct-chart ct-double-octave"></div>
-			</div>
+				<div class="layout">
+					<table data-make-chart class="results">
+						<thead>
+							<tr>
+								<th rowspan="2">Date</th>
+								<th colspan="5">Weight</th>
+							</tr>
+							<tr>
+								<th class="results-series-a">Total</th>
+								<th class="results-series-b">HTML</th>
+								<th class="results-series-c">JS</th>
+								<th class="results-series-d">Image</th>
+								<th class="results-series-e">Fonts</th>
+							</tr>
+						</thead>
+						<tbody>
+						{%- for date,entry in site %}
+							<tr>
+								<td>{{ entry.timestamp | displayDate }}</td>
+								<td data-numeric-value="{{ entry.weight.total / 1024 }}">{{ entry.weight.total | displayFilesize }}</td>
+								<td data-numeric-value="{{ entry.weight.document / 1024 }}">{{ entry.weight.document | displayFilesize }}</td>
+								<td data-numeric-value="{{ entry.weight.script / 1024 }}">{{ entry.weight.script | displayFilesize }} <span class="count">×{{ entry.weight.scriptCount }}</span></td>
+								<td data-numeric-value="{{ entry.weight.image / 1024 }}">{{ entry.weight.image | displayFilesize }} <span class="count">×{{ entry.weight.imageCount }}</span></td>
+								<td data-numeric-value="{{ entry.weight.font / 1024 }}">{{ entry.weight.font | displayFilesize }} <span class="count">×{{ entry.weight.fontCount }}</span></td>
+							</tr>
+						{%- endfor %}
+						</tbody>
+					</table>
+					<div class="ct-chart ct-double-octave"></div>
+				</div>
 
-			<div class="layout">
-				<table data-make-chart class="results">
-					<thead>
-						<tr>
-							<th rowspan="2">Date</th>
-							<th colspan="5">Core Web Vitals</th>
-						</tr>
-						<tr>
-							<th class="results-series-a">Cumulative Layout Shift</th>
-							<th class="results-series-b">Max Potential First Input Delay</th>
-							<th class="results-series-c">Largest Contentful Paint</th>
-						</tr>
-					</thead>
-					<tbody>
-					{%- for date,entry in site %}
-						<tr>
-							<td>{{ entry.timestamp | displayDate }}</td>
-							<td data-numeric-value="{{ entry.cumulativeLayoutShift }}">{% if entry.cumulativeLayoutShift === 0 %}✅ {% endif %}{{ entry.cumulativeLayoutShift }}</td>
-							<td data-numeric-value="{{ entry.maxPotentialFirstInputDelay }}">{{ entry.maxPotentialFirstInputDelay }}ms</td>
-							<td data-numeric-value="{{ entry.largestContentfulPaint }}">{{ entry.largestContentfulPaint | digits(1) }}ms</td>
-						</tr>
-					{%- endfor %}
-					</tbody>
-				</table>
-				<div class="ct-chart ct-double-octave"></div>
-			</div>
+				<div class="layout">
+					<table data-make-chart class="results">
+						<thead>
+							<tr>
+								<th rowspan="2">Date</th>
+								<th colspan="5">Core Web Vitals</th>
+							</tr>
+							<tr>
+								<th class="results-series-a">Cumulative Layout Shift</th>
+								<th class="results-series-b">Max Potential First Input Delay</th>
+								<th class="results-series-c">Largest Contentful Paint</th>
+							</tr>
+						</thead>
+						<tbody>
+						{%- for date,entry in site %}
+							<tr>
+								<td>{{ entry.timestamp | displayDate }}</td>
+								<td data-numeric-value="{{ entry.cumulativeLayoutShift }}">{% if entry.cumulativeLayoutShift === 0 %}✅ {% endif %}{{ entry.cumulativeLayoutShift }}</td>
+								<td data-numeric-value="{{ entry.maxPotentialFirstInputDelay }}">{{ entry.maxPotentialFirstInputDelay }}ms</td>
+								<td data-numeric-value="{{ entry.largestContentfulPaint }}">{{ entry.largestContentfulPaint | digits(1) }}ms</td>
+							</tr>
+						{%- endfor %}
+						</tbody>
+					</table>
+					<div class="ct-chart ct-double-octave"></div>
+				</div>
+			</details>
 		{%- endfor %}
 
 		<script src="chartist.js"></script>

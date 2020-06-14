@@ -1,6 +1,12 @@
 const prettyBytes = require("pretty-bytes");
+const shortHash = require("short-hash");
+const lodash = require("lodash");
 
 module.exports = function(eleventyConfig) {
+	eleventyConfig.addFilter("shortHash", function(value) {
+		return shortHash(value);
+	});
+
 	function pad(num) {
 		return (num < 10 ? "0" : "") + num;
 	}
@@ -13,38 +19,69 @@ module.exports = function(eleventyConfig) {
 		return prettyBytes(size);
 	});
 
+
+	function mapProp(prop, targetObj) {
+		if(Array.isArray(prop)) {
+			prop =  prop.map(entry => {
+				if(entry === ":lastkey") {
+					let ret;
+					for(let key in targetObj) {
+						ret = key;
+					}
+					return ret;
+				}
+
+				return entry;
+			});
+		}
+
+		return prop;
+	}
+
 	// Sort an object that has `order` props in values.
 	// If prop is not passed in, sorts by object keys
 	// Returns an array
 	eleventyConfig.addFilter("sortObject", (obj, prop = "___key") => {
 		let arr = [];
+		let defaultKey = "___key";
 
 		for(let key in obj) {
-			obj[key].___key = key;
+			if(prop === defaultKey) {
+				obj[key][defaultKey] = key;
+			}
 			arr.push(obj[key]);
 		}
 
 		let sorted = arr.sort((a, b) => {
-			if(a[prop] > b[prop]) {
+			let aVal = lodash.get(a, mapProp(prop, a));
+			let bVal = lodash.get(b, mapProp(prop, b));
+			if(aVal > bVal) {
 				return -1;
 			}
-			if(a[prop] < b[prop]) {
+			if(aVal < bVal) {
 				return 1;
 			}
 			return 0;
 		});
 
-		for(let entry of sorted) {
-			delete entry.___key;
+		if(prop === defaultKey) {
+			for(let entry of sorted) {
+				delete entry[defaultKey];
+			}
 		}
 
 		return sorted;
 	});
 
-	eleventyConfig.addFilter("getFirstObjectKey", (obj) => {
+	eleventyConfig.addFilter("getObjectKey", (obj, which = "first") => {
+		let ret;
 		for(let key in obj) {
-			return key;
+			ret = key;
+			if(which === "first") {
+				return ret;
+			}
 		}
+		return ret;
 	});
 
 	eleventyConfig.addFilter("displayTableCellValue", (value) => {

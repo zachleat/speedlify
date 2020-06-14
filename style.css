@@ -12,7 +12,8 @@ code {
 	color: #fff;
 }
 
-h2 {
+summary {
+	font-size: 1.25em; /* 20px /16 */
 	margin-top: 1em;
 	padding: 1em 0;
 	border-top: 1px solid #888;
@@ -33,6 +34,10 @@ th {
 tr:first-child th,
 th[class^="results-series"] {
 	font-weight: bold;
+}
+
+a[href].external {
+	float: right;
 }
 
 /* Charts */

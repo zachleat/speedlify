@@ -8,18 +8,21 @@ function makeTable(table) {
   for(let row of rows) {
     labels.push(row.children[0].innerText);
     let childCount = row.children.length - 1;
+    let seriesIndex = 0;
     for(let j = 0, k = childCount; j<k; j++) {
       let data = row.children[j + 1].dataset;
       if(data && data.numericValue) {
         minY = Math.min(data.numericValue, minY);
         maxY = Math.max(data.numericValue, maxY);
-        if(!series[j]) {
-          series[j] = [];
+        if(!series[seriesIndex]) {
+          series[seriesIndex] = [];
         }
-        series[j].push(data.numericValue);
+        series[seriesIndex].push(data.numericValue);
+        seriesIndex++;
       }
     }
   }
+  console.log( series );
 
   let options = {
     high: Math.max(maxY, 100),
