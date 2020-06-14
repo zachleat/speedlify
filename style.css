@@ -53,8 +53,11 @@ abbr {
 }
 
 a[href].external {
-	float: right;
 	margin-right: 1em;
+}
+a[href].external,
+a[href].external:visited {
+	color: #aaa;
 }
 
 /* Charts */
