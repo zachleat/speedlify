@@ -2,7 +2,7 @@ const fs = require("fs").promises;
 const shortHash = require('short-hash');
 const PerfLeaderboard = require("performance-leaderboard");
 
-const NUMBER_OF_RUNS = 1;
+const NUMBER_OF_RUNS = 3;
 
 (async function() {
 	let urls = require("./test-sites.js");
