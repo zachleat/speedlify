@@ -13,7 +13,7 @@
 		<ol>
 			{%- for site in results | sortObject([':lastkey', 'ranks', 'hundos']) | reverse %}
 			{%- set key = site | getObjectKey("last") %}
-			<li><a href="#{{ site[key].url | shortHash }}"><code>{{ site[key].url }}</code></a></li>
+			<li><a href="#{{ site[key].url | shortHash }}"><code>{{ site[key].url }}</code></a>{% if loop.index0 === 0 %} 🏆{% endif %}</li>
 			{%- endfor %}
 		</ol>
 
