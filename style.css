@@ -16,7 +16,6 @@ code {
 }
 
 summary {
-	display: block;
 	margin-top: 1em;
 	padding: 1em 0;
 	border-top: 1px solid #888;
@@ -134,6 +133,7 @@ a[href].external:visited {
 .tablewrap {
 	width: 100%;
 	overflow-x: auto;
+	margin: 2em 0;
 }
 @media (min-width: 87.5em) { /* 1400px */
 	.layout {
