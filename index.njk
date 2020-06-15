@@ -85,14 +85,14 @@ maxResults: 14
 							{%- for entry in site | sortObject | head(maxResults) %}
 								<tr>
 									<td><code class="date">{{ entry.timestamp | displayDate }}</code></td>
-									<td data-numeric-value="{{ entry.largestContentfulPaint }}">{% if entry.largestContentfulPaint <= 1550 %}✅ {% endif %}{{ entry.largestContentfulPaint | digits(0) }}ms</td>
+									<td data-numeric-value="{{ entry.largestContentfulPaint }}">{% if entry.largestContentfulPaint <= 1550 %}✅ {% endif %}{{ entry.largestContentfulPaint | displayTime }}</td>
 									{# https://web.dev/lighthouse-max-potential-fid/#how-lighthouse-determines-your-max-potential-fid-score #}
-									<td data-numeric-value="{{ entry.maxPotentialFirstInputDelay }}">{% if entry.maxPotentialFirstInputDelay <= 130 %}✅ {% endif %}{{ entry.maxPotentialFirstInputDelay | digits(0) }}ms</td>
-									<td data-numeric-value="{{ entry.totalBlockingTime }}">{% if entry.totalBlockingTime <= 130 %}✅ {% endif %}{{ entry.totalBlockingTime | digits(0) }}ms</td>
-									<td>{% if entry.cumulativeLayoutShift <= 0.03 %}✅ {% endif %}{{ entry.cumulativeLayoutShift }}</td>
-									<td data-numeric-value="{{ entry.firstContentfulPaint }}">{% if entry.firstContentfulPaint <= 1350 %}✅ {% endif %}{{ entry.firstContentfulPaint | digits(0) }}ms</td>
-									<td data-numeric-value="{{ entry.speedIndex }}">{% if entry.speedIndex <= 1960 %}✅ {% endif %}{{ entry.speedIndex | digits(0) }}ms</td>
-									<td data-numeric-value="{{ entry.timeToInteractive }}">{% if entry.timeToInteractive <= 1940 %}✅ {% endif %}{{ entry.timeToInteractive | digits(0) }}ms</td>
+									<td data-numeric-value="{{ entry.maxPotentialFirstInputDelay }}">{% if entry.maxPotentialFirstInputDelay <= 130 %}✅ {% endif %}{{ entry.maxPotentialFirstInputDelay | displayTime }}</td>
+									<td data-numeric-value="{{ entry.totalBlockingTime }}">{% if entry.totalBlockingTime <= 130 %}✅ {% endif %}{{ entry.totalBlockingTime | displayTime }}</td>
+									<td >{% if entry.cumulativeLayoutShift <= 0.03 %}✅ {% endif %}{{ entry.cumulativeLayoutShift }}</td>
+									<td data-numeric-value="{{ entry.firstContentfulPaint }}">{% if entry.firstContentfulPaint <= 1350 %}✅ {% endif %}{{ entry.firstContentfulPaint | displayTime }}</td>
+									<td data-numeric-value="{{ entry.speedIndex }}">{% if entry.speedIndex <= 1960 %}✅ {% endif %}{{ entry.speedIndex | displayTime }}</td>
+									<td data-numeric-value="{{ entry.timeToInteractive }}">{% if entry.timeToInteractive <= 1940 %}✅ {% endif %}{{ entry.timeToInteractive | displayTime }}</td>
 								</tr>
 							{%- endfor %}
 							</tbody>

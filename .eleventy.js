@@ -2,6 +2,10 @@ const prettyBytes = require("pretty-bytes");
 const shortHash = require("short-hash");
 const lodash = require("lodash");
 
+function showDigits(num, digits = 2) {
+	return parseFloat(num).toFixed(digits);
+}
+
 module.exports = function(eleventyConfig) {
 	eleventyConfig.addFilter("shortHash", function(value) {
 		return shortHash(value);
@@ -24,6 +28,18 @@ module.exports = function(eleventyConfig) {
 		return url;
 	});
 
+	eleventyConfig.addFilter("displayTime", function(time) {
+		let num = parseFloat(time);
+		if(num > 1000) {
+			return `${showDigits(num / 1000, 2)}s`;
+		}
+		return `${showDigits(num, 0)}ms`;
+	});
+
+	eleventyConfig.addFilter("displayFilesize", function(size) {
+		return prettyBytes(size);
+	});
+
 	function pad(num) {
 		return (num < 10 ? "0" : "") + num;
 	}
@@ -33,11 +49,6 @@ module.exports = function(eleventyConfig) {
 		let day = `${months[date.getMonth()]} ${pad(date.getDate())}`;
 		return `${day} ${date.getHours()}:${pad(date.getMinutes())}`;
 	});
-
-	eleventyConfig.addFilter("displayFilesize", function(size) {
-		return prettyBytes(size);
-	});
-
 
 	function mapProp(prop, targetObj) {
 		if(Array.isArray(prop)) {
@@ -139,9 +150,7 @@ module.exports = function(eleventyConfig) {
 		}
 	});
 
-	eleventyConfig.addFilter("digits", (num, digits = 2) => {
-		return parseFloat(num).toFixed(digits);
-	});
+	eleventyConfig.addFilter("digits", showDigits);
 
 	eleventyConfig.addPassthroughCopy({
 		"./node_modules/chartist/dist/chartist.css": "chartist.css",
