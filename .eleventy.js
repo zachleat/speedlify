@@ -7,6 +7,10 @@ module.exports = function(eleventyConfig) {
 		return shortHash(value);
 	});
 
+	eleventyConfig.addFilter("repeat", function(str, times) {
+		return (new Array(times)).join(str) + str;
+	});
+
 	eleventyConfig.addFilter("head", function(arr, num) {
 		if(num) {
 			return arr.slice(0, num);
