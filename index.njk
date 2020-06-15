@@ -21,7 +21,7 @@ maxResults: 14
 			{%- endfor %}
 		</ol>
 
-		{%- for site in results | sortObject %}
+		{%- for site in results | sortObject([':lastkey', 'ranks', 'hundos']) | reverse %}
 			{%- set key = site | getObjectKey %}
 			<details open>
 				<summary id="{{ site[key].url | shortHash }}"><code class="url">{{ site[key].url | displayUrl }}</code> <a href="{{ site[key].url }}" class="external">Go →</a></summary>
