@@ -16,7 +16,8 @@ maxResults: 14
 		<ol>
 			{%- for site in results | sortObject([':lastkey', 'ranks', 'hundos']) | reverse %}
 			{%- set key = site | getObjectKey("last") %}
-			<li><a href="#{{ site[key].url | shortHash }}"><code class="url">{{ site[key].url | displayUrl }}</code></a>{% if loop.index0 === 0 %} 🏆{% endif %} <span class="count">{{ site[key] | hundoCount }} ({{ site[key] | lighthouseTotal }} Total)</span></li>
+			{%- set hundos = site[key] | hundoCount %}
+			<li><a href="#{{ site[key].url | shortHash }}"><code class="url">{{ site[key].url | displayUrl }}</code></a>{% if loop.index0 === 0 %} 🏆{% endif %} <span class="count">{% if hundos === 4 %}😍 FOUR HUNDOS 💯💯💯💯{% else %}{{ hundos }} ({{ site[key] | lighthouseTotal }} Total){% endif %}</span></li>
 			{%- endfor %}
 		</ol>
 

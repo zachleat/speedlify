@@ -114,7 +114,7 @@ module.exports = function(eleventyConfig) {
 			count++;
 		}
 
-		return `${count === 4 ? "😍 FOUR HUNDOS 💯💯💯💯" : `💯×${count}`}`;
+		return count;
 	});
 
 	eleventyConfig.addFilter("lighthouseTotal", (entry) => {
