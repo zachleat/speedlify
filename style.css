@@ -64,6 +64,9 @@ a[href].external:visited {
 
 /* Charts */
 
+.ct-chart.ct-chart {
+	margin-bottom: 2em;
+}
 .ct-line.ct-line {
 	stroke-width: 3px;
 }
@@ -133,7 +136,7 @@ a[href].external:visited {
 .tablewrap {
 	width: 100%;
 	overflow-x: auto;
-	margin: 2em 0;
+	margin: 0 0 2em;
 }
 @media (min-width: 87.5em) { /* 1400px */
 	.layout {
