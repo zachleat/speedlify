@@ -22,7 +22,7 @@ module.exports = {
 			"https://gohugo.io/",
 			"https://nextjs.org/",
 			"https://nuxtjs.org/",
-			"https://vuepress.vuejs.org/",
+			// "https://vuepress.vuejs.org/", // kept timing out in lighthouse
 			"https://gridsome.org/",
 		]
 	}
