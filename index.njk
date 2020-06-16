@@ -39,7 +39,7 @@ maxResults: 14
 			{%- set key = site | getObjectKey %}
 			<details open>
 				<summary id="{{ site[key].url | shortHash }}"><code class="url">{{ site[key].url | displayUrl }}</code> <a href="{{ site[key].url }}" class="external">Go →</a></summary>
-				<div class="layout">
+				<div class="layout color--lighthouse">
 					<div class="tablewrap">
 						<table data-make-chart class="results">
 							<thead>
@@ -81,7 +81,7 @@ maxResults: 14
 					<div class="ct-chart ct-double-octave"></div>
 				</div>
 
-				<div class="layout">
+				<div class="layout color--vitals">
 					<div class="tablewrap">
 						<table data-make-chart class="results">
 							<thead>
@@ -128,7 +128,7 @@ maxResults: 14
 					<div class="ct-chart ct-double-octave"></div>
 				</div>
 
-				<div class="layout">
+				<div class="layout color--weight">
 					<div class="tablewrap">
 						<table data-make-chart class="results">
 							<thead>

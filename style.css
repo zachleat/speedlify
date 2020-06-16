@@ -153,39 +153,61 @@ a[href].external:visited {
 	stroke: rgba(255, 255, 255, 0.2);
 }
 /* via https://learnui.design/tools/data-color-picker.html */
+:root {
+	--speedlify-color-1: #374c80;
+	--speedlify-color-2: #7a5195;
+	--speedlify-color-3: #bc5090;
+	--speedlify-color-4: #ef5675;
+	--speedlify-color-5: #ff764a;
+	--speedlify-color-6: #ffa600;
+}
+.color--lighthouse {
+	--speedlify-color-1: #004e5f;
+	--speedlify-color-2: #00705f;
+	--speedlify-color-3: #248e41;
+	--speedlify-color-4: #91a302;
+	--speedlify-color-5: #ffa600;
+}
+.color--weight {
+	--speedlify-color-1: #5100ff;
+	--speedlify-color-2: #f000b3;
+	--speedlify-color-3: #ff0069;
+	--speedlify-color-4: #ff5a2d;
+	--speedlify-color-5: #ffa600;
+}
 .results-series-a {
-	background-color: #003f5c;
+	background-color: var(--speedlify-color-1);
 }
 .ct-series-a.ct-series-a .ct-line {
-	stroke: #003f5c;
+	stroke: var(--speedlify-color-1);
 }
 .results-series-b {
-	background-color: #58508d;
+	background-color: var(--speedlify-color-2);
 }
 .ct-series-b.ct-series-b .ct-line {
-	stroke: #58508d;
+	stroke: var(--speedlify-color-2);
 }
 .results-series-c {
-	background-color: #bc5090;
+	background-color: var(--speedlify-color-3);
 }
 .ct-series-c.ct-series-c .ct-line {
-	stroke: #bc5090;
+	stroke: var(--speedlify-color-3);
 }
 .results-series-d {
-	background-color: #ff6361;
+	background-color: var(--speedlify-color-4);
 }
 .ct-series-d.ct-series-d .ct-line {
-	stroke: #ff6361;
+	stroke: var(--speedlify-color-4);
 }
 .results-series-e {
-	background-color: #ffa600;
+	background-color: var(--speedlify-color-5);
 }
 .ct-series-e.ct-series-e .ct-line {
-	stroke: #ffa600;
+	stroke: var(--speedlify-color-5);
 }
 .results-series-f {
-	background-color: #59922b;
+	background-color: var(--speedlify-color-6);
 }
-.results-series-g {
-	background-color: #0544d3;
+.ct-series-f.ct-series-f .ct-line {
+	stroke: var(--speedlify-color-6);
 }
