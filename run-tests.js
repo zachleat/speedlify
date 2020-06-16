@@ -10,8 +10,10 @@ const NUMBER_OF_RUNS = 3;
 	let lastRunFilename = `${dataDir}results-last-run.json`;
 	try {
 		const lastRun = require(lastRunFilename);
-		if(today - lastRun.timestamp < 1000*60*60) {
-			console.log( "Test ran less than an hour ago, just building the site." );
+		const lastRunHoursAgo = (today - lastRun.timestamp) / (1000*60*60);
+		console.log( `Tests ran ${lastRunHoursAgo} hours ago.`, lastRun );
+		if(lastRunHoursAgo < 1) {
+			console.log( "Test ran less than an hour ago, skipping." );
 			return;
 		}
 	} catch(e) {
