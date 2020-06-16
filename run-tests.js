@@ -1,5 +1,5 @@
 const fs = require("fs").promises;
-const shortHash = require('short-hash');
+const shortHash = require("short-hash");
 const PerfLeaderboard = require("performance-leaderboard");
 
 const NUMBER_OF_RUNS = 3;

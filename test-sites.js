@@ -5,4 +5,4 @@ module.exports = [
 	"https://www.netlify.com/with/sitecore/",
 	"https://jamstackconf.com/",
 	"https://jamstackconf.com/virtual/",
-]
+];

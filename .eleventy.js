@@ -103,11 +103,18 @@ module.exports = function(eleventyConfig) {
 		return sorted;
 	});
 
-	eleventyConfig.addFilter("getObjectKey", (obj, which = "first") => {
+	eleventyConfig.addFilter("getObjectKey", (obj, which = ":first") => {
 		let ret;
+		let newestTimestamp = 0;
 		for(let key in obj) {
 			ret = key;
-			if(which === "first") {
+			if(which === ":newest") {
+				if(obj[key].timestamp > newestTimestamp) {
+					newestTimestamp = obj[key].timestamp;
+					ret = key;
+				}
+			}
+			if(which === ":first") {
 				return ret;
 			}
 		}
@@ -140,17 +147,6 @@ module.exports = function(eleventyConfig) {
 		total += entry.lighthouse.seo;
 		return Math.round(total * 100);
 	});
-
-
-	eleventyConfig.addFilter("displayTableCellValue", (value) => {
-		if(value === 1) {
-			return `✅ ${value * 100}`;
-		} else {
-			return `🚫 ${value * 100}`;
-		}
-	});
-
-	eleventyConfig.addFilter("digits", showDigits);
 
 	eleventyConfig.addPassthroughCopy({
 		"./node_modules/chartist/dist/chartist.css": "chartist.css",

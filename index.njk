@@ -24,7 +24,7 @@ maxResults: 14
 			</thead>
 			<tbody>
 			{%- for site in results | sortObject([':lastkey', 'ranks', 'hundos']) | reverse %}
-			{%- set key = site | getObjectKey("last") %}
+			{%- set key = site | getObjectKey(":newest") %}
 			{%- set hundos = site[key] | hundoCount %}
 				<tr>
 					<td class="leaderboard-data-right">{% if loop.index0 === 0 %}🏆 {% endif %}#{{ loop.index }}</td>
