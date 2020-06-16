@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Speedlify</title>
+		<link rel="stylesheet" href="/style.css">
+		<link rel="stylesheet" href="/chartist.css">
+	</head>
+	<body>
+		<h1 class="speedlify-hed">Speedlify</h1>
+		<p class="speedlify-subhed">Benchmark web pages over time (ordered by Lighthouse scores). Updates <em>at most</em> once an hour and automatically once a day. Only the last {{ maxResults }} result{% if maxResults != 1 %}s{% endif %} are shown.</p>
+
+		{{ content | safe }}
+
+		<footer>
+			MIT licensed. Source code at <a href="https://github.com/zachleat/speedlify/"><code>github.com/zachleat/speedlify/</code></a>
+		</footer>
+
+		<script src="/chartist.js"></script>
+		<script src="/chart.js"></script>
+	</body>
+</html>

@@ -68,18 +68,24 @@ module.exports = function(eleventyConfig) {
 		return prop;
 	}
 
+	// Works with arrays too
 	// Sort an object that has `order` props in values.
 	// If prop is not passed in, sorts by object keys
 	// Returns an array
-	eleventyConfig.addFilter("sortObject", (obj, prop = "___key") => {
-		let arr = [];
+	eleventyConfig.addFilter("sort", (obj, prop = "___key") => {
+		let arr;
 		let defaultKey = "___key";
+		if(Array.isArray(obj)) {
+			arr = obj;
+		} else {
+			arr = [];
 
-		for(let key in obj) {
-			if(prop === defaultKey) {
-				obj[key][defaultKey] = key;
+			for(let key in obj) {
+				if(prop === defaultKey) {
+					obj[key][defaultKey] = key;
+				}
+				arr.push(obj[key]);
 			}
-			arr.push(obj[key]);
 		}
 
 		let sorted = arr.sort((a, b) => {
@@ -94,9 +100,11 @@ module.exports = function(eleventyConfig) {
 			return 0;
 		});
 
-		if(prop === defaultKey) {
-			for(let entry of sorted) {
-				delete entry[defaultKey];
+		if(!Array.isArray(obj)) {
+			if(prop === defaultKey) {
+				for(let entry of sorted) {
+					delete entry[defaultKey];
+				}
 			}
 		}
 
@@ -119,6 +127,21 @@ module.exports = function(eleventyConfig) {
 			}
 		}
 		return ret;
+	});
+
+	eleventyConfig.addFilter("filterToUrls", (obj, urls = []) => {
+		let arr = [];
+		for(let key in obj) {
+			let result;
+			for(let filename in obj[key]) {
+				result = obj[key][filename];
+				break;
+			}
+			if(urls.indexOf(result.requestedUrl) > -1) {
+				arr.push(obj[key]);
+			}
+		}
+		return arr;
 	});
 
 	eleventyConfig.addFilter("hundoCount", (entry) => {
