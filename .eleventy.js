@@ -47,7 +47,7 @@ module.exports = function(eleventyConfig) {
 		let months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 		let date = new Date(timestamp);
 		let day = `${months[date.getMonth()]} ${pad(date.getDate())}`;
-		return `${day} ${date.getHours()}:${pad(date.getMinutes())}`;
+		return `${day} ${pad(date.getHours())}:${pad(date.getMinutes())}`;
 	});
 
 	function mapProp(prop, targetObj) {

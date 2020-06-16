@@ -31,28 +31,34 @@ maxResults: 14
 							<thead>
 								<tr>
 									<th rowspan="2" class="results-date">Date</th>
-									<th rowspan="2">Rank</th>
-									<th colspan="4">Lighthouse</th>
-									<th>Axe</th>
+									<th rowspan="2" colspan="2">Rank</th>
+									<th colspan="8">Lighthouse</th>
+									<th colspan="2">Axe</th>
 								</tr>
 								<tr>
-									<th class="results-series-a"><abbr title="Performance">Perf</abbr></th>
-									<th class="results-series-b"><abbr title="Accessibility">A11Y</abbr></th>
-									<th class="results-series-c">Best Practices</th>
-									<th class="results-series-d">SEO</th>
-									<th>Violations</th>
+									<th class="results-series-a" colspan="2"><abbr title="Performance">Perf</abbr></th>
+									<th class="results-series-b" colspan="2"><abbr title="Accessibility">A11Y</abbr></th>
+									<th class="results-series-c" colspan="2">Best Practices</th>
+									<th class="results-series-d" colspan="2">SEO</th>
+									<th colspan="2">Violations</th>
 								</tr>
 							</thead>
 							<tbody>
 							{%- for entry in site | sortObject | head(maxResults) %}
 								<tr>
 									<td><code class="date">{{ entry.timestamp | displayDate }}</code></td>
-									<td>{% if entry.ranks.hundos %}{% if entry.ranks.hundos === 1 %}🏆 {% endif %}#{{ entry.ranks.hundos }}{% endif %}</td>
-									<td data-numeric-value="{{ entry.lighthouse.performance * 100 }}">{{ entry.lighthouse.performance | displayTableCellValue }}</td>
-									<td data-numeric-value="{{ entry.lighthouse.accessibility * 100 }}">{{ entry.lighthouse.accessibility | displayTableCellValue }}</td>
-									<td data-numeric-value="{{ entry.lighthouse.bestPractices * 100 }}">{{ entry.lighthouse.bestPractices | displayTableCellValue }}</td>
-									<td data-numeric-value="{{ entry.lighthouse.seo * 100 }}">{{ entry.lighthouse.seo | displayTableCellValue }}</td>
-									<td>{% if entry.axe.violations == 0 %}✅{% else %}🚫 {{ entry.axe.violations }}{% endif %}</td>
+									<td class="results-bool">{% if entry.ranks.hundos %}{% if entry.ranks.hundos === 1 %}🏆{% endif %}</td>
+									<td>#{{ entry.ranks.hundos }}{% endif %}</td>
+									<td class="results-bool">{% if entry.lighthouse.performance === 1 %}✅{% else %}🚫{% endif %}</td>
+									<td data-numeric-value="{{ entry.lighthouse.performance * 100 }}">{{ entry.lighthouse.performance * 100 }}</td>
+									<td class="results-bool">{% if entry.lighthouse.accessibility === 1 %}✅{% else %}🚫{% endif %}</td>
+									<td data-numeric-value="{{ entry.lighthouse.accessibility * 100 }}">{{ entry.lighthouse.accessibility * 100 }}</td>
+									<td class="results-bool">{% if entry.lighthouse.bestPractices === 1 %}✅{% else %}🚫{% endif %}</td>
+									<td data-numeric-value="{{ entry.lighthouse.bestPractices * 100 }}">{{ entry.lighthouse.bestPractices * 100 }}</td>
+									<td class="results-bool">{% if entry.lighthouse.seo === 1 %}✅{% else %}🚫{% endif %}</td>
+									<td data-numeric-value="{{ entry.lighthouse.seo * 100 }}">{{ entry.lighthouse.seo * 100 }}</td>
+									<td class="results-bool">{% if entry.axe.violations == 0 %}✅{% else %}🚫{% endif %}</td>
+									<td>{{ entry.axe.violations }}</td>
 								</tr>
 							{%- endfor %}
 							</tbody>
@@ -67,32 +73,39 @@ maxResults: 14
 							<thead>
 								<tr>
 									<th rowspan="2" class="results-date">Date</th>
-									<th colspan="4">Core Web Vitals</th>
-									<th colspan="3">Web Vitals</th>
+									<th colspan="8">Core Web Vitals</th>
+									<th colspan="6">Web Vitals</th>
 								</tr>
 								<tr>
-									<th class="results-series-a"><abbr title="Largest Contentful Paint">LCP</abbr></th>
-									<th class="results-series-b">Max Potential <abbr title="First Input Delay">FID</abbr></th>
-									<th class="results-series-c"><abbr title="Total Blocking Time">TBT</abbr></th>
-									<th><abbr title="Cumulative Layout Shift">CLS</abbr></th>
+									<th class="results-series-a" colspan="2"><abbr title="Largest Contentful Paint">LCP</abbr></th>
+									<th class="results-series-b" colspan="2">Max Potential <abbr title="First Input Delay">FID</abbr></th>
+									<th class="results-series-c" colspan="2"><abbr title="Total Blocking Time">TBT</abbr></th>
+									<th colspan="2"><abbr title="Cumulative Layout Shift">CLS</abbr></th>
 
-									<th class="results-series-d"><abbr title="First Contentful Paint">FCP</abbr></th>
-									<th class="results-series-e"><abbr title="Speed Index">SI</abbr></th>
-									<th class="results-series-f"><abbr title="Time to Interactive">TTI</abbr></th>
+									<th class="results-series-d" colspan="2"><abbr title="First Contentful Paint">FCP</abbr></th>
+									<th class="results-series-e" colspan="2"><abbr title="Speed Index">SI</abbr></th>
+									<th class="results-series-f" colspan="2"><abbr title="Time to Interactive">TTI</abbr></th>
 								</tr>
 							</thead>
 							<tbody>
 							{%- for entry in site | sortObject | head(maxResults) %}
 								<tr>
 									<td><code class="date">{{ entry.timestamp | displayDate }}</code></td>
-									<td data-numeric-value="{{ entry.largestContentfulPaint }}">{% if entry.largestContentfulPaint <= 1550 %}✅ {% endif %}{{ entry.largestContentfulPaint | displayTime }}</td>
+									<td class="results-bool">{% if entry.largestContentfulPaint <= 1550 %}✅{% endif %}</td>
+									<td data-numeric-value="{{ entry.largestContentfulPaint }}">{{ entry.largestContentfulPaint | displayTime }}</td>
 									{# https://web.dev/lighthouse-max-potential-fid/#how-lighthouse-determines-your-max-potential-fid-score #}
-									<td data-numeric-value="{{ entry.maxPotentialFirstInputDelay }}">{% if entry.maxPotentialFirstInputDelay <= 130 %}✅ {% endif %}{{ entry.maxPotentialFirstInputDelay | displayTime }}</td>
-									<td data-numeric-value="{{ entry.totalBlockingTime }}">{% if entry.totalBlockingTime <= 130 %}✅ {% endif %}{{ entry.totalBlockingTime | displayTime }}</td>
-									<td >{% if entry.cumulativeLayoutShift <= 0.03 %}✅ {% endif %}{{ entry.cumulativeLayoutShift }}</td>
-									<td data-numeric-value="{{ entry.firstContentfulPaint }}">{% if entry.firstContentfulPaint <= 1350 %}✅ {% endif %}{{ entry.firstContentfulPaint | displayTime }}</td>
-									<td data-numeric-value="{{ entry.speedIndex }}">{% if entry.speedIndex <= 1960 %}✅ {% endif %}{{ entry.speedIndex | displayTime }}</td>
-									<td data-numeric-value="{{ entry.timeToInteractive }}">{% if entry.timeToInteractive <= 1940 %}✅ {% endif %}{{ entry.timeToInteractive | displayTime }}</td>
+									<td class="results-bool">{% if entry.maxPotentialFirstInputDelay <= 130 %}✅{% endif %}</td>
+									<td data-numeric-value="{{ entry.maxPotentialFirstInputDelay }}">{{ entry.maxPotentialFirstInputDelay | displayTime }}</td>
+									<td class="results-bool">{% if entry.totalBlockingTime <= 130 %}✅{% endif %}</td>
+									<td data-numeric-value="{{ entry.totalBlockingTime }}">{{ entry.totalBlockingTime | displayTime }}</td>
+									<td class="results-bool">{% if entry.cumulativeLayoutShift <= 0.03 %}✅{% endif %}</td>
+									<td>{{ entry.cumulativeLayoutShift }}</td>
+									<td class="results-bool">{% if entry.firstContentfulPaint <= 1350 %}✅{% endif %}</td>
+									<td data-numeric-value="{{ entry.firstContentfulPaint }}">{{ entry.firstContentfulPaint | displayTime }}</td>
+									<td class="results-bool">{% if entry.speedIndex <= 1960 %}✅{% endif %}</td>
+									<td data-numeric-value="{{ entry.speedIndex }}">{{ entry.speedIndex | displayTime }}</td>
+									<td class="results-bool">{% if entry.timeToInteractive <= 1940 %}✅{% endif %}</td>
+									<td data-numeric-value="{{ entry.timeToInteractive }}">{{ entry.timeToInteractive | displayTime }}</td>
 								</tr>
 							{%- endfor %}
 							</tbody>
