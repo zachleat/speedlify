@@ -8,10 +8,14 @@ const NUMBER_OF_RUNS = 3;
 	let today = Date.now();
 	let dataDir = `./_data/`;
 	let lastRunFilename = `${dataDir}results-last-run.json`;
-	const lastRun = require(lastRunFilename);
-	if(today - lastRun.timestamp < 1000*60*60) {
-		console.log( "Test ran less than an hour ago, just building the site." );
-		return;
+	try {
+		const lastRun = require(lastRunFilename);
+		if(today - lastRun.timestamp < 1000*60*60) {
+			console.log( "Test ran less than an hour ago, just building the site." );
+			return;
+		}
+	} catch(e) {
+		console.log( `Error comparing ${lastRunFilename}`, e );
 	}
 
 	let groups = require("./_data/sites.js");
