@@ -15,6 +15,18 @@ code {
 	color: #fff;
 }
 
+[data-sr-only] {
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	white-space: nowrap; /* 1 */
+	width: 1px;
+}
+
 summary {
 	margin-top: 1em;
 	padding: 1em 0;
@@ -87,7 +99,12 @@ a[href].external:visited {
 	text-align: right;
 }
 @media (max-width: 37.4375em) { /* 599px */
-	.leaderboard-hidesm {
+	.leaderboard-hide-sm {
+		display: none;
+	}
+}
+@media (max-width: 63.9375em) { /* 1023px */
+	.leaderboard-hide-md {
 		display: none;
 	}
 }

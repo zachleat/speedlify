@@ -8,11 +8,11 @@ pagination:
 permalink: "{% if vertical == 'netlify' %}/{% else %}/{{ vertical }}/{% endif %}"
 ---
 <table class="leaderboard">
-	<thead>
+	<thead data-sr-only>
 		<tr>
 			<th>Rank</th>
 			<th>URL</th>
-			<th class="leaderboard-hidesm" colspan="2">Lighthouse</th>
+			<th class="leaderboard-hide-sm" colspan="2">Lighthouse</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -22,8 +22,8 @@ permalink: "{% if vertical == 'netlify' %}/{% else %}/{{ vertical }}/{% endif %}
 		<tr>
 			<td class="leaderboard-data-right">{% if loop.index0 === 0 %}🏆 {% endif %}#{{ loop.index }}</td>
 			<td><a href="#{{ site[key].url | shortHash }}"><code class="url">{{ site[key].url | displayUrl }}</code></a></td>
-			<td class="leaderboard-hidesm leaderboard-data-right"><span class="count">{{ site[key] | lighthouseTotal }}</span></td>
-			<td class="leaderboard-hidesm"><span class="count">{{ "💯" | repeat(hundos) }} {% if hundos === 4 %}FOUR HUNDOS 😍{% endif %}</span></td>
+			<td class="leaderboard-hide-sm leaderboard-data-right"><span class="count"><span class="leaderboard-hide-md">Lighthouse: </span>{{ site[key] | lighthouseTotal }}</span></td>
+			<td class="leaderboard-hide-sm"><span class="count">{{ "💯" | repeat(hundos) }}{% if hundos === 4 %}<span class="leaderboard-hide-md"> FOUR HUNDOS 😍</span>{% endif %}</span></td>
 		</tr>
 	{%- endfor %}
 	</tbody>
