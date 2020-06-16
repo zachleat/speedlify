@@ -1,5 +1,6 @@
 module.exports = {
 	netlify: {
+		description: "Netlify web sites",
 		options: {
 			freshChrome: "site",
 		},
@@ -13,6 +14,7 @@ module.exports = {
 		]
 	},
 	ssg: {
+		description: "Static Site Generator web sites",
 		options: {
 			freshChrome: "site"
 		},

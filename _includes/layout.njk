@@ -8,8 +8,8 @@
 		<link rel="stylesheet" href="/chartist.css">
 	</head>
 	<body>
-		<h1 class="speedlify-hed">Speedlify</h1>
-		<p class="speedlify-subhed">Benchmark web pages over time (ordered by Lighthouse scores). Updates <em>at most</em> once an hour and automatically once a day. Only the last {{ maxResults }} result{% if maxResults != 1 %}s{% endif %} are shown.</p>
+		<h1 class="speedlify-hed">speedlify{% if vertical and vertical != "netlify" %}:{{ vertical }}{% endif %}</h1>
+		<p class="speedlify-subhed">Benchmark {{ sites[vertical].description or "web pages" }} over time (ordered by Lighthouse scores). Updates <em>at most</em> once an hour and automatically once a day. Only the last {{ maxResults }} result{% if maxResults != 1 %}s{% endif %} are shown.</p>
 
 		{{ content | safe }}
 
