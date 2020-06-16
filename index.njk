@@ -11,15 +11,30 @@ maxResults: 14
 		<link rel="stylesheet" href="chartist.css">
 	</head>
 	<body>
-		<h1>Speedlify</h1>
-		<p>Benchmark web pages over time (ordered by Lighthouse scores). Updates <em>at most</em> once an hour and automatically once a day. Only the last {{ maxResults }} result{% if maxResults != 1 %}s{% endif %} are shown.</p>
-		<ol>
+		<h1 class="speedlify-hed">Speedlify</h1>
+		<p class="speedlify-subhed">Benchmark web pages over time (ordered by Lighthouse scores). Updates <em>at most</em> once an hour and automatically once a day. Only the last {{ maxResults }} result{% if maxResults != 1 %}s{% endif %} are shown.</p>
+		<table class="leaderboard">
+			<thead>
+				<tr>
+					<th>Rank</th>
+					<th>URL</th>
+					<th class="leaderboard-hidesm">Hundos</th>
+					<th class="leaderboard-hidesm">Lighthouse</th>
+				</tr>
+			</thead>
+			<tbody>
 			{%- for site in results | sortObject([':lastkey', 'ranks', 'hundos']) | reverse %}
 			{%- set key = site | getObjectKey("last") %}
 			{%- set hundos = site[key] | hundoCount %}
-			<li><a href="#{{ site[key].url | shortHash }}"><code class="url">{{ site[key].url | displayUrl }}</code></a> <span class="count">{{ "💯" | repeat(hundos) }} {% if hundos === 4 %}(FOUR HUNDOS 😍){% else %}({{ site[key] | lighthouseTotal }} Total){% endif %}</span>{% if loop.index0 === 0 %} 🏆{% endif %}</li>
+				<tr>
+					<td class="leaderboard-data-right">{% if loop.index0 === 0 %}🏆 {% endif %}#{{ loop.index }}</td>
+					<td><a href="#{{ site[key].url | shortHash }}"><code class="url">{{ site[key].url | displayUrl }}</code></a></td>
+					<td class="leaderboard-hidesm"><span class="count">{{ "💯" | repeat(hundos) }} {% if hundos === 4 %}FOUR HUNDOS 😍{% endif %}</span></td>
+					<td class="leaderboard-hidesm">{{ site[key] | lighthouseTotal }}</td>
+				</tr>
 			{%- endfor %}
-		</ol>
+			</tbody>
+		</table>
 
 		{%- for site in results | sortObject([':lastkey', 'ranks', 'hundos']) | reverse %}
 			{%- set key = site | getObjectKey %}
