@@ -11,21 +11,5 @@ module.exports = {
 			"https://jamstackconf.com/",
 			"https://jamstackconf.com/virtual/",
 		]
-	},
-	ssg: {
-		options: {
-			freshChrome: "site"
-		},
-		urls: [
-			"https://www.11ty.dev/",
-			"https://www.gatsbyjs.org/",
-			"https://gohugo.io/",
-			"https://nextjs.org/",
-			"https://nuxtjs.org/",
-			"https://docusaurus.io/",
-			"https://vuepress.vuejs.org/",
-			"https://hexo.io/",
-			"https://gridsome.org/",
-		]
 	}
 };
