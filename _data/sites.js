@@ -11,6 +11,7 @@ module.exports = {
 			"https://www.netlify.com/with/sitecore/",
 			"https://jamstackconf.com/",
 			"https://jamstackconf.com/virtual/",
+			"https://www.netlify.com/webinar/a-drupal-journey-to-the-jamstack/",
 		]
 	},
 	ssg: {
