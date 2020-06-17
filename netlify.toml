@@ -1,2 +1,8 @@
 [[plugins]]
 package = "./plugins/keep-data-cache"
+
+[[redirects]]
+	from = "/"
+	to = "/netlify/"
+	status = 302
+	force = true
