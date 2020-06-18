@@ -2,7 +2,7 @@ const fs = require("fs").promises;
 const shortHash = require("short-hash");
 const PerfLeaderboard = require("performance-leaderboard");
 
-const NUMBER_OF_RUNS = 5;
+const NUMBER_OF_RUNS = 3;
 
 (async function() {
 	let today = Date.now();
