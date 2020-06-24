@@ -60,13 +60,13 @@ permalink: "/{{ vertical }}/"
 							<td class="results-bool">{% if entry.ranks.hundos %}{% if entry.ranks.hundos === 1 %}🏆{% endif %}</td>
 							<td>#{{ entry.ranks.hundos }}{% endif %}</td>
 							<td class="results-bool">{% if entry.lighthouse.performance === 1 %}✅{% else %}🚫{% endif %}</td>
-							<td data-numeric-value="{{ entry.lighthouse.performance * 100 }}">{{ entry.lighthouse.performance * 100 }}</td>
+							<td data-numeric-value="{{ entry.lighthouse.performance * 100 }}">{{ entry.lighthouse.performance * 100 | int }}</td>
 							<td class="results-bool">{% if entry.lighthouse.accessibility === 1 %}✅{% else %}🚫{% endif %}</td>
-							<td data-numeric-value="{{ entry.lighthouse.accessibility * 100 }}">{{ entry.lighthouse.accessibility * 100 }}</td>
+							<td data-numeric-value="{{ entry.lighthouse.accessibility * 100 }}">{{ entry.lighthouse.accessibility * 100 | int }}</td>
 							<td class="results-bool">{% if entry.lighthouse.bestPractices === 1 %}✅{% else %}🚫{% endif %}</td>
-							<td data-numeric-value="{{ entry.lighthouse.bestPractices * 100 }}">{{ entry.lighthouse.bestPractices * 100 }}</td>
+							<td data-numeric-value="{{ entry.lighthouse.bestPractices * 100 }}">{{ entry.lighthouse.bestPractices * 100 | int }}</td>
 							<td class="results-bool">{% if entry.lighthouse.seo === 1 %}✅{% else %}🚫{% endif %}</td>
-							<td data-numeric-value="{{ entry.lighthouse.seo * 100 }}">{{ entry.lighthouse.seo * 100 }}</td>
+							<td data-numeric-value="{{ entry.lighthouse.seo * 100 }}">{{ entry.lighthouse.seo * 100 | int }}</td>
 							<td class="results-bool">{% if entry.axe.violations == 0 %}✅{% else %}🚫{% endif %}</td>
 							<td>{{ entry.axe.violations }}</td>
 						</tr>
