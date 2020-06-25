@@ -1,5 +1,5 @@
 module.exports = {
-	netlify: {
+	dtui: {
 		description: "dertagundich.de",
 		options: {
 			freshChrome: "site",
@@ -8,9 +8,11 @@ module.exports = {
 			"https://www.dertagundich.de/",
 			"https://www.dertagundich.de/kategorie/reisen/",
 			"https://www.dertagundich.de/2018/06/16/graue-tage-in-paris/",
+			"https://www.dertagundich.de/2020/05/31/timeless/",
+			"https://www.dertagundich.de/kategorie/fotografie/",
 		]
 	},
-	ssg: {
+	msme: {
 		description: "martinschneider.me",
 		options: {
 			freshChrome: "site"
