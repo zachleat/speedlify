@@ -1,19 +1,13 @@
 module.exports = {
 	netlify: {
-		description: "Netlify web sites",
+		description: "dertagundich.de",
 		options: {
 			freshChrome: "site",
 		},
 		urls: [
-			"https://www.netlify.com/",
-			"https://www.netlify.com/donation-matching/",
-			"https://www.netlify.com/products/build/plugins/",
-			"https://www.netlify.com/with/sitecore/",
-			"https://www.netlify.com/with/drupal/",
-			"https://www.netlify.com/with/wordpress/",
-			"https://www.netlify.com/webinar/a-drupal-journey-to-the-jamstack/",
-			"https://jamstackconf.com/",
-			"https://jamstackconf.com/virtual/",
+			"https://www.dertagundich.de/",
+			"https://www.dertagundich.de/kategorie/reisen/",
+			"https://www.dertagundich.de/2018/06/16/graue-tage-in-paris/",
 		]
 	},
 	ssg: {
@@ -22,13 +16,13 @@ module.exports = {
 			freshChrome: "site"
 		},
 		urls: [
-			"https://www.11ty.dev/",
-			"https://www.gatsbyjs.org/",
-			"https://gohugo.io/",
-			"https://nextjs.org/",
-			"https://nuxtjs.org/",
-			// "https://vuepress.vuejs.org/", // kept timing out in lighthouse
-			"https://gridsome.org/",
+			"https://martinschneider.me/",
+			"https://martinschneider.me/about/",
+			"https://martinschneider.me/articles/",
+			"https://martinschneider.me/articles/firefox-is-shortening-long-attributes-in-its-developer-tools/",
+			"https://martinschneider.me/articles/testing-my-eleventy-website-with-cypress-and-netlify/",
+			"https://martinschneider.me/articles/going-dark-switching-color-modes-on-my-website/",
+			"https://martinschneider.me/blogroll/",
 		]
 	}
 };
