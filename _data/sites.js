@@ -11,7 +11,7 @@ module.exports = {
 		]
 	},
 	ssg: {
-		description: "Static Site Generator web sites",
+		description: "martinschneider.me",
 		options: {
 			freshChrome: "site"
 		},
