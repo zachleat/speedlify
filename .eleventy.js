@@ -12,7 +12,13 @@ module.exports = function(eleventyConfig) {
 	});
 
 	eleventyConfig.addFilter("repeat", function(str, times) {
-		return (new Array(times)).join(str) + str;
+		let result = '';
+
+		for (let i = 0; i < times; i++) {
+			result += str;
+		}
+
+		return result;
 	});
 
 	eleventyConfig.addFilter("head", function(arr, num) {
