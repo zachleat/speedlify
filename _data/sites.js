@@ -12,7 +12,7 @@ module.exports = {
 			"https://www.netlify.com/with/drupal/",
 			"https://www.netlify.com/with/wordpress/",
 			"https://www.netlify.com/webinar/a-drupal-journey-to-the-jamstack/",
-			"https://www.netlify.com/pricing/",
+			// "https://www.netlify.com/pricing/", // Having Lighthouse issues with LCP on this page
 			"https://jamstackconf.com/",
 			"https://jamstackconf.com/virtual/",
 		]
