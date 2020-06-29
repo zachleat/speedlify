@@ -149,7 +149,7 @@ permalink: "/{{ vertical }}/"
 							<td><code class="date">{{ entry.timestamp | displayDate }}</code></td>
 							<td data-numeric-value="{{ entry.weight.total / 1024 }}">{{ entry.weight.total | displayFilesize }}</td>
 							<td data-numeric-value="{{ entry.weight.document / 1024 }}">{{ entry.weight.document | displayFilesize }}</td>
-							<td data-numeric-value="{{ entry.weight.stylesheet / 1024 }}">{% if entry.weight.stylesheet %}{{ entry.weight.stylesheet | displayFilesize }} <span class="count">×{{ entry.weight.stylesheetCount }}</span>{% else %}❓{% endif %}</td>
+							<td data-numeric-value="{{ entry.weight.stylesheet / 1024 }}">{% if entry.weight.stylesheet or entry.weight.stylesheet === 0 %}{{ entry.weight.stylesheet | displayFilesize }} <span class="count">×{{ entry.weight.stylesheetCount }}</span>{% else %}❓{% endif %}</td>
 							<td data-numeric-value="{{ entry.weight.script / 1024 }}">{{ entry.weight.script | displayFilesize }} <span class="count">×{{ entry.weight.scriptCount }}</span></td>
 							<td data-numeric-value="{{ entry.weight.image / 1024 }}">{{ entry.weight.image | displayFilesize }} <span class="count">×{{ entry.weight.imageCount }}</span></td>
 							<td data-numeric-value="{{ entry.weight.font / 1024 }}">{{ entry.weight.font | displayFilesize }} <span class="count">×{{ entry.weight.fontCount }}</span></td>
