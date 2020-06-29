@@ -46,11 +46,10 @@ permalink: "/{{ vertical }}/"
 							<th colspan="2">Axe</th>
 						</tr>
 						<tr>
-							<th class="results-series-a" colspan="2"><abbr title="Performance">Perf</abbr></th>
+							<th class="results-series-a" colspan="3"><abbr title="Performance">Perf</abbr></th>
 							<th class="results-series-b" colspan="2"><abbr title="Accessibility">A11Y</abbr></th>
 							<th class="results-series-c" colspan="2">Best Practices</th>
 							<th class="results-series-d" colspan="2">SEO</th>
-							<th class="results-calc">Calculator</th>
 							<th colspan="2">Violations</th>
 						</tr>
 					</thead>
@@ -62,13 +61,13 @@ permalink: "/{{ vertical }}/"
 							<td>#{{ entry.ranks.hundos }}{% endif %}</td>
 							<td class="results-bool">{% if entry.lighthouse.performance === 1 %}✅{% else %}🚫{% endif %}</td>
 							<td data-numeric-value="{{ (entry.lighthouse.performance * 100) | round }}">{{ (entry.lighthouse.performance * 100) | round }}</td>
+							<td class="results-calc"><a href="https://googlechrome.github.io/lighthouse/scorecalc/#FCP={{ entry.firstContentfulPaint }}&SI={{ entry.speedIndex }}&LCP={{ entry.largestContentfulPaint }}&TTI={{ entry.timeToInteractive }}&TBT={{ entry.totalBlockingTime }}&CLS={{ entry.cumulativeLayoutShift }}&FCI=&FMP=&device={{ entry.lighthouse.type or "mobile" }}&version={{ entry.lighthouse.version or "6.0.0" }}" target="_blank" rel="noopener noreferrer">Calculator</a></td>
 							<td class="results-bool">{% if entry.lighthouse.accessibility === 1 %}✅{% else %}🚫{% endif %}</td>
 							<td data-numeric-value="{{ (entry.lighthouse.accessibility * 100) | round }}">{{ (entry.lighthouse.accessibility * 100) | round }}</td>
 							<td class="results-bool">{% if entry.lighthouse.bestPractices === 1 %}✅{% else %}🚫{% endif %}</td>
 							<td data-numeric-value="{{ (entry.lighthouse.bestPractices * 100) | round }}">{{ (entry.lighthouse.bestPractices * 100) | round }}</td>
 							<td class="results-bool">{% if entry.lighthouse.seo === 1 %}✅{% else %}🚫{% endif %}</td>
 							<td data-numeric-value="{{ (entry.lighthouse.seo * 100) | round }}">{{ (entry.lighthouse.seo * 100) | round }}</td>
-							<td class="results-calc"><a href="https://googlechrome.github.io/lighthouse/scorecalc/#FCP={{ entry.firstContentfulPaint }}&SI={{ entry.speedIndex }}&LCP={{ entry.largestContentfulPaint }}&TTI={{ entry.timeToInteractive }}&TBT={{ entry.totalBlockingTime }}&CLS={{ entry.cumulativeLayoutShift }}&FCI=&FMP=&device={{ entry.lighthouse.type or "mobile" }}&version={{ entry.lighthouse.version or "6.0.0" }}" target="_blank" rel="noopener noreferrer">Calculator</a></td>
 							<td class="results-bool">{% if entry.axe.violations == 0 %}✅{% else %}🚫{% endif %}</td>
 							<td>{{ entry.axe.violations }}</td>
 						</tr>
