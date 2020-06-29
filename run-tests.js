@@ -13,8 +13,8 @@ const NUMBER_OF_RUNS = 3;
 		const lastRunHoursAgo = (today - lastRun.timestamp) / (1000*60*60);
 		console.log( `Tests ran ${lastRunHoursAgo} hours ago.`, lastRun );
 		if(lastRunHoursAgo < 1) {
-			console.log( "Test ran less than an hour ago, skipping." );
-			return;
+			// console.log( "Test ran less than an hour ago, skipping." );
+			// return;
 		}
 	} catch(e) {
 		console.log( `Error comparing ${lastRunFilename}`, e );
@@ -22,10 +22,10 @@ const NUMBER_OF_RUNS = 3;
 
 	let groups = require("./_data/sites.js");
 	for(let key in groups) {
-		if(key === "ssg") {
-			// save some time
-			continue;
-		}
+		// if(key === "ssg") {
+		// 	// save some time
+		// 	continue;
+		// }
 		let group = groups[key];
 		let runCount = group.options && group.options.runs ? group.options.runs : NUMBER_OF_RUNS;
 		let results = await PerfLeaderboard(group.urls, runCount, group.options || {});
