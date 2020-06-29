@@ -137,9 +137,10 @@ permalink: "/{{ vertical }}/"
 						<tr>
 							<th class="results-series-a">Total</th>
 							<th class="results-series-b">HTML</th>
-							<th class="results-series-c"><abbr title="JavaScript">JS</abbr></th>
-							<th class="results-series-d">Images</th>
-							<th class="results-series-e">Fonts</th>
+							<th class="results-series-c"><abbr title="Cascading Style Sheets">CSS</abbr></th>
+							<th class="results-series-d"><abbr title="JavaScript">JS</abbr></th>
+							<th class="results-series-e">Images</th>
+							<th class="results-series-f">Fonts</th>
 						</tr>
 					</thead>
 					<tbody>
@@ -148,6 +149,7 @@ permalink: "/{{ vertical }}/"
 							<td><code class="date">{{ entry.timestamp | displayDate }}</code></td>
 							<td data-numeric-value="{{ entry.weight.total / 1024 }}">{{ entry.weight.total | displayFilesize }}</td>
 							<td data-numeric-value="{{ entry.weight.document / 1024 }}">{{ entry.weight.document | displayFilesize }}</td>
+							<td data-numeric-value="{{ entry.weight.stylesheet / 1024 }}">{% if entry.weight.stylesheet %}{{ entry.weight.stylesheet | displayFilesize }} <span class="count">×{{ entry.weight.stylesheetCount }}</span>{% else %}❓{% endif %}</td>
 							<td data-numeric-value="{{ entry.weight.script / 1024 }}">{{ entry.weight.script | displayFilesize }} <span class="count">×{{ entry.weight.scriptCount }}</span></td>
 							<td data-numeric-value="{{ entry.weight.image / 1024 }}">{{ entry.weight.image | displayFilesize }} <span class="count">×{{ entry.weight.imageCount }}</span></td>
 							<td data-numeric-value="{{ entry.weight.font / 1024 }}">{{ entry.weight.font | displayFilesize }} <span class="count">×{{ entry.weight.fontCount }}</span></td>
