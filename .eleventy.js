@@ -28,6 +28,15 @@ module.exports = function(eleventyConfig) {
 		return arr;
 	});
 
+	eleventyConfig.addFilter("headAndLast", function(arr, num) {
+		if(num && num < arr.length) {
+			let newArr = arr.slice(0, num);
+			newArr.push(arr[arr.length - 1]);
+			return newArr;
+		}
+		return arr;
+	});
+
 	eleventyConfig.addFilter("displayUrl", function(url) {
 		url = url.replace("https://www.", "");
 		url = url.replace("https://", "");

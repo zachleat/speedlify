@@ -54,7 +54,7 @@ permalink: "/{{ vertical }}/"
 						</tr>
 					</thead>
 					<tbody>
-					{%- for entry in site | sort | head(maxResults) %}
+					{%- for entry in site | sort | headAndLast(maxResults) %}
 						<tr>
 							<td><code class="date">{{ entry.timestamp | displayDate }}</code></td>
 							<td class="results-bool">{% if entry.ranks.hundos %}{% if entry.ranks.hundos === 1 %}🏆{% endif %}</td>
@@ -99,7 +99,7 @@ permalink: "/{{ vertical }}/"
 						</tr>
 					</thead>
 					<tbody>
-					{%- for entry in site | sort | head(maxResults) %}
+					{%- for entry in site | sort | headAndLast(maxResults) %}
 						<tr>
 							<td><code class="date">{{ entry.timestamp | displayDate }}</code></td>
 							<td class="results-bool">{% if entry.largestContentfulPaint <= 1550 %}✅{% endif %}</td>
@@ -143,7 +143,7 @@ permalink: "/{{ vertical }}/"
 						</tr>
 					</thead>
 					<tbody>
-					{%- for entry in site | sort | head(maxResults) %}
+					{%- for entry in site | sort | headAndLast(maxResults) %}
 						<tr>
 							<td><code class="date">{{ entry.timestamp | displayDate }}</code></td>
 							<td data-numeric-value="{{ entry.weight.total / 1024 }}">{{ entry.weight.total | displayFilesize }}</td>
