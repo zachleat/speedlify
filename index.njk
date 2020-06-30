@@ -57,8 +57,8 @@ permalink: "/{{ vertical }}/"
 					{%- for entry in site | sort | headAndLast(maxResults) %}
 						<tr>
 							<td><code class="date">{{ entry.timestamp | displayDate }}</code></td>
-							<td class="results-bool">{% if entry.ranks.hundos %}{% if entry.ranks.hundos === 1 %}🏆{% endif %}</td>
-							<td>#{{ entry.ranks.hundos }}{% endif %}</td>
+							<td class="results-bool">{% if entry.ranks.hundos %}{% if entry.ranks.hundos === 1 %}🏆{% endif %}{% endif %}</td>
+							<td>{% if entry.ranks.hundos %}#{{ entry.ranks.hundos }}{% endif %}</td>
 							<td class="results-bool">{% if entry.lighthouse.performance === 1 %}✅{% else %}🚫{% endif %}</td>
 							<td data-numeric-value="{{ (entry.lighthouse.performance * 100) | round }}">{{ (entry.lighthouse.performance * 100) | round }}</td>
 							<td class="results-calc"><a href="https://googlechrome.github.io/lighthouse/scorecalc/#FCP={{ entry.firstContentfulPaint }}&SI={{ entry.speedIndex }}&LCP={{ entry.largestContentfulPaint }}&TTI={{ entry.timeToInteractive }}&TBT={{ entry.totalBlockingTime }}&CLS={{ entry.cumulativeLayoutShift }}&FCI=&FMP=&device={{ entry.lighthouse.type or "mobile" }}&version={{ entry.lighthouse.version or "6.0.0" }}" target="_blank" rel="noopener noreferrer">Calculator</a></td>
