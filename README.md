@@ -9,6 +9,7 @@ After you make a fast web site, keep it fast by measuring it over time.
 
 ```
 npm install
+npm run test-pages
 npm run start
 ```
 
