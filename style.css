@@ -110,6 +110,24 @@ abbr {
 .leaderboard-list-entry-details.expanded {
 	background-color: #181818;
 }
+.leaderboard-expand-icon {
+	display: inline-block;
+	transition: .3s all;
+	transform-origin: center;
+	margin-right: 4px;
+}
+.leaderboard-expand-icon:before {
+	content: "";
+	display: inline-block;
+	width: 0;
+	height: 0;
+	border-top: 7px solid transparent;
+	border-bottom: 7px solid transparent;
+	border-left: 7px solid #aaa;
+}
+.leaderboard-list-entry.expanded .leaderboard-expand-icon {
+	transform: rotate(90deg);
+}
 .leaderboard-list-entry-details > td {
 	padding: 0;
 }
@@ -137,6 +155,7 @@ abbr {
 }
 
 [data-expand-alias] {
+	white-space: nowrap;
 	display: inline-block;
 	text-decoration: none;
 	background-color: #444;
@@ -219,7 +238,14 @@ abbr {
 .hundo-emojis {
 	letter-spacing: 4px;
 }
-
+.hundo-emojis-400 {
+	white-space: nowrap;
+}
+@media (min-width: 64em) { /* 1024px */
+	.hundo-emojis-400:after {
+		content: " 😍";
+	}
+}
 
 /* Layout */
 .tablewrap {
