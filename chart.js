@@ -48,7 +48,46 @@ function makeTable(table) {
   }, options);
 }
 
-let tables = document.querySelectorAll("[data-make-chart]");
-for(let table of tables) {
-  makeTable(table);
+function initializeAllTables(scope) {
+  let tables = scope.querySelectorAll("[data-make-chart]");
+  for(let table of tables) {
+    // make sure not in a closed details
+    if(table.closest("details[open]") || !table.closest("details")) {
+      makeTable(table);
+    }
+  }
+}
+
+initializeAllTables(document);
+
+let details = document.querySelectorAll("details");
+let first = true;
+for(let detail of details) {
+  if(first) {
+    detail.open = true;
+    first = false;
+  }
+  detail.addEventListener("toggle", function(e) {
+    let open = e.target.hasAttribute("open");
+    if(open) {
+      initializeAllTables(e.target);
+    }
+    let row = e.target.closest(".leaderboard-list-entry-details");
+    row.classList.toggle("expanded", open);
+    row.previousElementSibling.classList.toggle("expanded", open);
+  });
+}
+
+let expandAliases = document.querySelectorAll("[data-expand-alias]");
+for(let alias of expandAliases) {
+  alias.addEventListener("click", function(e) {
+    e.preventDefault();
+    let href = e.target.closest("a[href]").getAttribute("href");
+    if(href) {
+      let details = document.querySelector(href);
+      if(details) {
+        details.open = !details.hasAttribute("open");
+      }
+    }
+  }, false);
 }

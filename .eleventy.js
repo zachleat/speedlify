@@ -54,7 +54,7 @@ module.exports = function(eleventyConfig) {
 
 	eleventyConfig.addFilter("displayTime", function(time) {
 		let num = parseFloat(time);
-		if(num > 1000) {
+		if(num > 850) {
 			return `${showDigits(num / 1000, 2)}s`;
 		}
 		return `${showDigits(num, 0)}ms`;
@@ -71,7 +71,7 @@ module.exports = function(eleventyConfig) {
 		let months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 		let date = new Date(timestamp);
 		let day = `${months[date.getMonth()]} ${pad(date.getDate())}`;
-		return `${day} ${pad(date.getHours())}:${pad(date.getMinutes())}`;
+		return `${day} <span class="leaderboard-hide-md">${pad(date.getHours())}:${pad(date.getMinutes())}</span>`;
 	});
 
 	function mapProp(prop, targetObj) {
