@@ -5,6 +5,7 @@ body {
 }
 footer {
 	font-style: italic;
+	text-align: center;
 }
 code {
 	font-family: Monaco, monospace;
@@ -94,6 +95,15 @@ a[href].external:visited {
 .leaderboard {
 	width: 100%;
 	margin: 5em 0;
+}
+.leaderboard-list {
+	width: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+.leaderboard caption {
+	font-size: 1.5em;
+	margin: 0 0 1em;
 }
 .leaderboard-data-right {
 	text-align: right;
