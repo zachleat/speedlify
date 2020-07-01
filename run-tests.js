@@ -3,11 +3,13 @@ const shortHash = require("short-hash");
 const PerfLeaderboard = require("performance-leaderboard");
 
 const NUMBER_OF_RUNS = 3;
-const FREQUENCY = 60;
+const FREQUENCY = 60; // in minutes
 
 (async function() {
 	let today = Date.now();
 	let dataDir = `./_data/`;
+	// Careful here, this filename needs to be .gitignore’d and
+	// listed in the keep-data-cache plugin.
 	let lastRunsFilename = `${dataDir}results-last-runs.json`;
 	let lastRuns;
 	try {
