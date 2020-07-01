@@ -18,7 +18,7 @@ const FREQUENCY = 60;
 	}
 
 	let groups = require("./_data/sites.js");
-	for (let key in groups) {
+	for(let key in groups) {
 		let group = groups[key];
 		let runFrequency =
 			group.options && group.options.frequency
@@ -50,7 +50,7 @@ const FREQUENCY = 60;
 		);
 
 		let promises = [];
-		for (let result of results) {
+		for(let result of results) {
 			let id = shortHash(result.url);
 			let dir = `${dataDir}results/${id}/`;
 			let filename = `${dir}date-${today}.json`;
@@ -61,7 +61,7 @@ const FREQUENCY = 60;
 
 		await Promise.all(promises);
 		lastRuns[key] = { timestamp: today };
-		console.log(`Finished testing "${key}".`);
+		console.log( `Finished testing "${key}".` );
 	}
 
 	// Write the last run time to avoid re-runs
