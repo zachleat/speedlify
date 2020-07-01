@@ -2,8 +2,13 @@ const prettyBytes = require("pretty-bytes");
 const shortHash = require("short-hash");
 const lodash = require("lodash");
 
-function showDigits(num, digits = 2) {
-	return parseFloat(num).toFixed(digits);
+function showDigits(num, digits = 2, alwaysShowDigits = true) {
+	let toNum = parseFloat(num);
+	if(!alwaysShowDigits && toNum === Math.floor(toNum)) {
+		// if a whole number like 0, just show 0 and not 0.00
+		return toNum;
+	}
+	return toNum.toFixed(digits);
 }
 
 module.exports = function(eleventyConfig) {
@@ -41,6 +46,10 @@ module.exports = function(eleventyConfig) {
 		url = url.replace("https://www.", "");
 		url = url.replace("https://", "");
 		return url;
+	});
+
+	eleventyConfig.addFilter("showDigits", function(num, digits) {
+		return showDigits(num, digits, false);
 	});
 
 	eleventyConfig.addFilter("displayTime", function(time) {

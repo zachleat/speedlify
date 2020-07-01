@@ -110,7 +110,7 @@ permalink: "/{{ vertical }}/"
 							<td class="results-bool">{% if entry.totalBlockingTime <= 130 %}✅{% endif %}</td>
 							<td data-numeric-value="{{ entry.totalBlockingTime }}">{{ entry.totalBlockingTime | displayTime }}</td>
 							<td class="results-bool">{% if entry.cumulativeLayoutShift <= 0.03 %}✅{% endif %}</td>
-							<td>{{ entry.cumulativeLayoutShift.toFixed(2) }}</td>
+							<td>{{ entry.cumulativeLayoutShift | showDigits(2) }}</td>
 							<td class="results-bool">{% if entry.firstContentfulPaint <= 1350 %}✅{% endif %}</td>
 							<td data-numeric-value="{{ entry.firstContentfulPaint }}">{{ entry.firstContentfulPaint | displayTime }}</td>
 							<td class="results-bool">{% if entry.speedIndex <= 1960 %}✅{% endif %}</td>
