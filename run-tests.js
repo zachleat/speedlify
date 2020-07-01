@@ -51,11 +51,11 @@ const prettyTime = (seconds) => {
 			const lastRunMinutesAgo = lastRunSecondsAgo / 60;
 			if (lastRunMinutesAgo < runFrequency) {
 				console.log(
-					`Test for ${key} ran ${lastRunSecondsAgoPretty}, less than ${runFrequency} minutes, skipping.`
+					`Previous test for ${key} ran ${lastRunSecondsAgoPretty}, less than ${runFrequency} minutes, skipping.`
 				);
 				continue;
 			} else {
-				console.log(`Tests for ${key} ran ${lastRunSecondsAgoPretty}.`);
+				console.log(`Previous test for ${key} ran ${lastRunSecondsAgoPretty}, more than ${runFrequency} minutes, running.`);
 
 			}
 		}
