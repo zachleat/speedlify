@@ -56,7 +56,7 @@ const FREQUENCY = 60;
 			let filename = `${dir}date-${today}.json`;
 			await fs.mkdir(dir, { recursive: true });
 			promises.push(fs.writeFile(filename, JSON.stringify(result, null, 2)));
-			console.log(`Writing ${filename}.`);
+			console.log( `Writing ${filename}.` );
 		}
 
 		await Promise.all(promises);
