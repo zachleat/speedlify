@@ -10,8 +10,6 @@ module.exports = {
       "https://nicolas-hoizey.com/articles/2018/08/01/using-cloudinary-s-fetch-api-to-convert-an-animated-gif-to-a-video/",
       "https://nicolas-hoizey.com/links/",
       "https://nicolas-hoizey.com/links/2020/01/29/humans-can-t-read-urls-how-can-we-fix-it/",
-      "https://nicolas-hoizey.com/notes/",
-      "https://nicolas-hoizey.com/talks/",
     ],
   },
   pack11ty: {
@@ -19,7 +17,10 @@ module.exports = {
     options: {
       freshChrome: "site",
     },
-    urls: ["https://pack11ty.dev/"],
+    urls: [
+      "https://pack11ty.dev/",
+      "https://pack11ty.dev/news/2020/04/14/layout-and-design/",
+    ],
   },
   esviji: {
     description: "esviji.com",
@@ -40,6 +41,9 @@ module.exports = {
     options: {
       freshChrome: "site",
     },
-    urls: ["https://precious-prana.com/"],
+    urls: [
+      "https://precious-prana.com/",
+      "https://precious-prana.com/blog/2020/04/30/decouvrez-le-bain-de-gong-pour-apprivoiser-et-apprecier-la-guerison-par-le-son/",
+    ],
   },
 };
