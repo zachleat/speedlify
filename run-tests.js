@@ -3,28 +3,51 @@ const shortHash = require("short-hash");
 const PerfLeaderboard = require("performance-leaderboard");
 
 const NUMBER_OF_RUNS = 3;
+const FREQUENCY = 60;
 
 (async function() {
 	let today = Date.now();
 	let dataDir = `./_data/`;
-	let lastRunFilename = `${dataDir}results-last-run.json`;
+	let lastRunsFilename = `${dataDir}results-last-runs.json`;
+	let lastRuns;
 	try {
-		const lastRun = require(lastRunFilename);
-		const lastRunHoursAgo = (today - lastRun.timestamp) / (1000*60*60);
-		console.log( `Tests ran ${lastRunHoursAgo} hours ago.`, lastRun );
-		if(lastRunHoursAgo < 1) {
-			console.log( "Test ran less than an hour ago, skipping." );
-			return;
-		}
-	} catch(e) {
-		console.log( `Error comparing ${lastRunFilename}`, e );
+		lastRuns = require(lastRunsFilename);
+	} catch (e) {
+		console.log(`There are no known last run timestamps`);
+		lastRuns = {};
 	}
 
 	let groups = require("./_data/sites.js");
 	for(let key in groups) {
 		let group = groups[key];
-		let runCount = group.options && group.options.runs ? group.options.runs : NUMBER_OF_RUNS;
-		let results = await PerfLeaderboard(group.urls, runCount, group.options || {});
+		let runFrequency =
+			group.options && group.options.frequency
+				? group.options.frequency
+				: FREQUENCY;
+		if (!lastRuns[key]) {
+			console.log(`First tests for ${key}.`);
+		} else {
+			const lastRun = lastRuns[key];
+			const lastRunMinutesAgo = (today - lastRun.timestamp) / (1000 * 60);
+			console.log(
+				`Tests for ${key} ran ${lastRunMinutesAgo} minutes ago.`,
+				lastRun
+			);
+			if (lastRunMinutesAgo < runFrequency) {
+				console.log(
+					`Test ran less than ${runFrequency} minutes ago, skipping.`
+				);
+				continue;
+			}
+		}
+
+		let runCount =
+			group.options && group.options.runs ? group.options.runs : NUMBER_OF_RUNS;
+		let results = await PerfLeaderboard(
+			group.urls,
+			runCount,
+			group.options || {}
+		);
 
 		let promises = [];
 		for(let result of results) {
@@ -37,9 +60,10 @@ const NUMBER_OF_RUNS = 3;
 		}
 
 		await Promise.all(promises);
+		lastRuns[key] = { timestamp: today };
 		console.log( `Finished testing "${key}".` );
 	}
 
 	// Write the last run time to avoid re-runs
-	await fs.writeFile(lastRunFilename, JSON.stringify({ timestamp: today }, null, 2));
+	await fs.writeFile(lastRunsFilename, JSON.stringify(lastRuns, null, 2));
 })();
