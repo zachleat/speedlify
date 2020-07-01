@@ -151,6 +151,9 @@ abbr {
 		display: none;
 	}
 }
+.leaderboard > thead > tr > th {
+	font-size: 0.8125em; /* 13px /16 */
+}
 @media (min-width: 50em) { /* 800px */
 	.leaderboard > tbody > tr > td {
 		font-size: 1.3125em; /* 21px /16 */
@@ -196,6 +199,14 @@ abbr {
 	color: #fff;
 	border: 1px solid #555;
 	text-align: center;
+}
+.results th:first-child {
+	border-left: none;
+}
+@media (max-width: 87.4375em) { /* 1399px */
+	.results th:last-child {
+		border-right: none;
+	}
 }
 .results tr:first-child th {
 	font-weight: bold;
