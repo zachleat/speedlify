@@ -8,7 +8,7 @@ const FREQUENCY = 60;
 (async function() {
 	let today = Date.now();
 	let dataDir = `./_data/`;
-	let lastRunsFilename = `${dataDir}results-last-run.json`;
+	let lastRunsFilename = `${dataDir}results-last-runs.json`;
 	let lastRuns;
 	try {
 		lastRuns = require(lastRunsFilename);
