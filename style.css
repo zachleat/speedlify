@@ -1,3 +1,6 @@
+html {
+	overflow-y: scroll;
+}
 body {
 	font-family: system-ui, sans-serif;
 	background-color: #2e2e2e;
@@ -11,11 +14,9 @@ code {
 	font-family: Monaco, monospace;
 }
 
-:link,
-:visited {
-	color: #fff;
+html:not(.js) [data-js-only] {
+	display: none !important;
 }
-
 [data-sr-only] {
 	border: 0;
 	clip: rect(0 0 0 0);
@@ -28,10 +29,14 @@ code {
 	width: 1px;
 }
 
+
+:link,
+:visited {
+	color: #fff;
+}
+
 summary {
-	margin-top: 1em;
-	padding: 1em 0;
-	border-top: 1px solid #888;
+	padding: .25em 0;
 }
 
 .url {
@@ -52,35 +57,29 @@ table {
 }
 th, td {
 	margin: 0;
-	padding: .25em .5em;
+	padding: .75rem .5rem;
 }
 th {
-	border: 1px solid #555;
+	text-align: left;
+	color: #ddd;
 	font-weight: normal;
-}
-tr:first-child th,
-th[class^="results-series"] {
-	font-weight: bold;
 }
 
 abbr {
 	text-decoration: none;
 }
 
-a[href].external {
-	margin-right: 1em;
-}
-a[href].external,
-a[href].external:visited {
-	color: #aaa;
-}
-
 /* Speedlify specific styles */
 .speedlify-hed {
 	text-align: center;
-	font-size: 3em;
+	font-size: 2em;
 	text-transform: lowercase;
 	font-style: italic;
+}
+@media (min-width: 37.5em) { /* 600px */
+	.speedlify-hed {
+		font-size: 3em;
+	}
 }
 .speedlify-subhed {
 	padding: 0 2em;
@@ -96,10 +95,44 @@ a[href].external:visited {
 	width: 100%;
 	margin: 5em 0;
 }
+.leaderboard-number {
+	font-weight: 600;
+}
 .leaderboard-list {
 	width: auto;
 	margin-left: auto;
 	margin-right: auto;
+}
+.leaderboard-list-entry {
+	border-top: 1px solid #888;
+}
+.js .leaderboard-list-entry-details:not(.expanded) {
+	display: none;
+}
+.leaderboard-list-entry.expanded,
+.leaderboard-list-entry-details.expanded {
+	background-color: #181818;
+}
+.leaderboard-expand-icon {
+	display: inline-block;
+	transition: .3s all;
+	transform-origin: center;
+	margin-right: 4px;
+}
+.leaderboard-expand-icon:before {
+	content: "";
+	display: inline-block;
+	width: 0;
+	height: 0;
+	border-top: 7px solid transparent;
+	border-bottom: 7px solid transparent;
+	border-left: 7px solid #aaa;
+}
+.leaderboard-list-entry.expanded .leaderboard-expand-icon {
+	transform: rotate(90deg);
+}
+.leaderboard-list-entry-details > td {
+	padding: 0;
 }
 .leaderboard caption {
 	font-size: 1.5em;
@@ -119,14 +152,53 @@ a[href].external:visited {
 	}
 }
 @media (min-width: 50em) { /* 800px */
-	.leaderboard td {
+	.leaderboard > tbody > tr > td {
 		font-size: 1.3125em; /* 21px /16 */
 	}
+}
+
+[data-expand-alias] {
+	white-space: nowrap;
+	display: inline-block;
+	text-decoration: none;
+	background-color: #444;
+	padding: .5em 1em;
+	text-align: center;
+}
+.js .leaderboard-details > summary {
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	white-space: nowrap; /* 1 */
+	width: 1px;
 }
 
 /* Results table */
 .results {
 	width: 100%;
+}
+.results th,
+.results td {
+	padding: .25em;
+}
+@media (min-width: 25em) { /* 400px */
+	.results th,
+	.results td {
+		padding-left: .5em;
+		padding-right: .5em;
+	}
+}
+.results th {
+	color: #fff;
+	border: 1px solid #555;
+	text-align: center;
+}
+.results tr:first-child th {
+	font-weight: bold;
 }
 .results td {
 	white-space: nowrap;
@@ -143,16 +215,44 @@ a[href].external:visited {
 .results-date {
 	width: 6.25rem; /* 100px /16 */
 }
+.leaderboard .results th,
+.leaderboard .results td {
+	font-size: 0.6875em; /* 11px /16 */
+}
+@media (min-width: 31.25em) { /* 500px */
+	.leaderboard .results th,
+	.leaderboard .results td {
+		font-size: 0.875em; /* 14px /16 */
+	}
+}
+@media (min-width: 50em) { /* 800px */
+	.leaderboard .results th,
+	.leaderboard .results td {
+		font-size: 0.7619047619048em; /* 16px /21 */
+	}
+}
+
 .count,
-.date {
+.date,
+.heart-hundo {
 	color: #aaa;
 	font-size: 0.8125em; /* 13px /16 */
+}
+.hundo-emojis {
+	letter-spacing: 4px;
+}
+.hundo-emojis-400 {
+	white-space: nowrap;
+}
+@media (min-width: 64em) { /* 1024px */
+	.hundo-emojis-400:after {
+		content: " 😍";
+	}
 }
 
 /* Layout */
 .tablewrap {
 	width: 100%;
-	overflow-x: auto;
 	margin: 0 0 2em;
 }
 @media (min-width: 87.5em) { /* 1400px */
@@ -161,7 +261,7 @@ a[href].external:visited {
 		grid-gap: 1em;
 		margin-bottom: 2em;
 	}
-	.layout {
+	.js .layout {
 		grid-template-columns: repeat(auto-fill, 49%);
 	}
 }
