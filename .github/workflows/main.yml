@@ -1,0 +1,14 @@
+# https://ericjinks.com/blog/2019/netlify-scheduled-build/
+
+name: Trigger Netlify Build
+on:
+  schedule:
+    # Run at 0815 daily
+    - cron: "0 8 * * *"
+jobs:
+  build:
+    name: Request Netlify Webhook
+    runs-on: ubuntu-latest
+    steps:
+      - name: Curl request
+        run: curl -X POST -d {} https://api.netlify.com/build_hooks/5efca1153d3f87cfc72081e7
