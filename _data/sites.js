@@ -12,7 +12,6 @@ module.exports = {
 			"https://www.netlify.com/with/drupal/",
 			"https://www.netlify.com/with/wordpress/",
 			"https://www.netlify.com/webinar/a-drupal-journey-to-the-jamstack/",
-			// "https://www.netlify.com/pricing/", // Having Lighthouse issues with LCP on this page
 			"https://jamstackconf.com/",
 			"https://jamstackconf.com/virtual/",
 		]
@@ -20,7 +19,9 @@ module.exports = {
 	ssg: {
 		description: "Static Site Generator web sites",
 		options: {
-			freshChrome: "site"
+			// if the sites don’t share assets on the same domain, we can reset
+			// chrome with each run instead of each site in every run (it’s faster)
+			freshChrome: "run"
 		},
 		urls: [
 			"https://www.11ty.dev/",
