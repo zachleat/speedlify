@@ -1,0 +1,21 @@
+---
+maxResults: 14
+layout: layout.njk
+---
+<table class="leaderboard leaderboard-list">
+	<caption>Choose your category</caption>
+	<thead>
+		<tr>
+			<th>Category</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+	{%- for key, category in sites %} 
+		<tr>
+			<td><a href="/{{ key | slug }}/">{{ key }}</a></td>
+			<td>{{ category.description }}</td>
+		</tr>
+	{%- endfor %}
+	</tbody>
+</table>
