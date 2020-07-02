@@ -5,6 +5,22 @@ const PerfLeaderboard = require("performance-leaderboard");
 const NUMBER_OF_RUNS = 3;
 const FREQUENCY = 60; // in minutes
 
+const prettyTime = (seconds) => {
+	// Based on https://johnresig.com/blog/javascript-pretty-date/
+	const days = Math.floor(seconds / (60*60*24));
+
+	return (
+		(days === 0 &&
+			((seconds < 60 && "just now") ||
+				(seconds < 60 * 2 && "1 minute ago") ||
+				(seconds < 3600 && Math.floor(seconds / 60) + " minutes ago") ||
+				(seconds < 7200 && "1 hour ago") ||
+				(seconds < 86400 * 2 && Math.floor(seconds / 3600) + " hours ago"))) ||
+		(days < 7 && days + " days ago") ||
+		(Math.ceil(days / 7) + " weeks ago")
+	);
+}
+
 (async function() {
 	let today = Date.now();
 	let dataDir = `./_data/`;
@@ -30,16 +46,17 @@ const FREQUENCY = 60; // in minutes
 			console.log(`First tests for ${key}.`);
 		} else {
 			const lastRun = lastRuns[key];
-			const lastRunMinutesAgo = (today - lastRun.timestamp) / (1000 * 60);
-			console.log(
-				`Tests for ${key} ran ${lastRunMinutesAgo} minutes ago.`,
-				lastRun
-			);
+			const lastRunSecondsAgo = (today - lastRun.timestamp) / 1000;
+			const lastRunSecondsAgoPretty = prettyTime(lastRunSecondsAgo);
+			const lastRunMinutesAgo = lastRunSecondsAgo / 60;
 			if (lastRunMinutesAgo < runFrequency) {
 				console.log(
-					`Test ran less than ${runFrequency} minutes ago, skipping.`
+					`Previous test for ${key} ran ${lastRunSecondsAgoPretty}, less than ${runFrequency} minutes, skipping.`
 				);
 				continue;
+			} else {
+				console.log(`Previous test for ${key} ran ${lastRunSecondsAgoPretty}, more than ${runFrequency} minutes, running.`);
+
 			}
 		}
 
