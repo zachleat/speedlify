@@ -1,8 +1,9 @@
 module.exports = {
 	netlify: {
+		name: "Netlify", // optional, falls back to object key
 		description: "Netlify web sites",
 		options: {
-			frequency: 60 * 2, // 2 hours
+			frequency: 60 * 24, // 24 hours
 			freshChrome: "site",
 		},
 		urls: [
@@ -18,6 +19,7 @@ module.exports = {
 		]
 	},
 	ssg: {
+		name: "SSG", // optional, falls back to object key
 		description: "Static Site Generator web sites",
 		options: {
 			frequency: 60 * 24, // 24 hours

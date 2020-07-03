@@ -5,7 +5,7 @@ pagination:
   data: "sites"
   size: 1
   alias: vertical
-permalink: "/{{ vertical | slug }}/"
+permalink: "/{{ (sites[vertical].name or vertical) | slug }}/"
 ---
 <div class="leaderboard-wrapper">
 	<table class="leaderboard">
