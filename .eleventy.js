@@ -11,10 +11,37 @@ function showDigits(num, digits = 2, alwaysShowDigits = true) {
 	return toNum.toFixed(digits);
 }
 
+function pad(num) {
+	return (num < 10 ? "0" : "") + num;
+}
+
+function mapProp(prop, targetObj) {
+	if(Array.isArray(prop)) {
+		prop =  prop.map(entry => {
+			if(entry === ":lastkey") {
+				let ret;
+				for(let key in targetObj) {
+					ret = key;
+				}
+				return ret;
+			}
+
+			return entry;
+		});
+	}
+
+	return prop;
+}
+
+function getLighthouseTotal(entry) {
+	return entry.lighthouse.performance * 100 +
+		entry.lighthouse.accessibility * 100 +
+		entry.lighthouse.bestPractices * 100 +
+		entry.lighthouse.seo * 100;
+}
+
 module.exports = function(eleventyConfig) {
-	eleventyConfig.addFilter("shortHash", function(value) {
-		return shortHash(value);
-	});
+	eleventyConfig.addFilter("shortHash", shortHash);
 
 	eleventyConfig.addFilter("repeat", function(str, times) {
 		let result = '';
@@ -26,13 +53,7 @@ module.exports = function(eleventyConfig) {
 		return result;
 	});
 
-	eleventyConfig.addFilter("head", function(arr, num) {
-		if(num) {
-			return arr.slice(0, num);
-		}
-		return arr;
-	});
-
+	// first ${num} entries (and the last entry too)
 	eleventyConfig.addFilter("headAndLast", function(arr, num) {
 		if(num && num < arr.length) {
 			let newArr = arr.slice(0, num);
@@ -64,47 +85,11 @@ module.exports = function(eleventyConfig) {
 		return prettyBytes(size);
 	});
 
-	function pad(num) {
-		return (num < 10 ? "0" : "") + num;
-	}
 	eleventyConfig.addFilter("displayDate", function(timestamp) {
 		let months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 		let date = new Date(timestamp);
 		let day = `${months[date.getMonth()]} ${pad(date.getDate())}`;
 		return `${day} <span class="leaderboard-hide-md">${pad(date.getHours())}:${pad(date.getMinutes())}</span>`;
-	});
-
-	function mapProp(prop, targetObj) {
-		if(Array.isArray(prop)) {
-			prop =  prop.map(entry => {
-				if(entry === ":lastkey") {
-					let ret;
-					for(let key in targetObj) {
-						ret = key;
-					}
-					return ret;
-				}
-
-				return entry;
-			});
-		}
-
-		return prop;
-	}
-
-	eleventyConfig.addFilter("addHundoCount", (arr) => {
-		/* special case */
-		for(let obj of arr) {
-			for(let entry in obj) {
-				if(obj[entry].lighthouse) {
-					obj[entry].lighthouse[":hundocount"] = obj[entry].lighthouse.performance * 100 +
-						obj[entry].lighthouse.accessibility * 100 +
-						obj[entry].lighthouse.bestPractices * 100 +
-						obj[entry].lighthouse.seo * 100;
-				}
-			}
-		}
-		return arr;
 	});
 
 	// Works with arrays too
@@ -201,15 +186,21 @@ module.exports = function(eleventyConfig) {
 		return count;
 	});
 
-	eleventyConfig.addFilter("lighthouseTotal", (entry) => {
-		let total = 0;
-		total += entry.lighthouse.performance;
-		total += entry.lighthouse.accessibility;
-		total += entry.lighthouse.bestPractices;
-		total += entry.lighthouse.seo;
-		return Math.round(total * 100);
+	eleventyConfig.addFilter("lighthouseTotal", getLighthouseTotal);
+
+	eleventyConfig.addFilter("addLighthouseTotals", (arr) => {
+		/* special case */
+		for(let obj of arr) {
+			for(let entry in obj) {
+				if(obj[entry].lighthouse) {
+					obj[entry].lighthouse[":lhtotal"] = getLighthouseTotal(obj[entry]);
+				}
+			}
+		}
+		return arr;
 	});
 
+	// Assets
 	eleventyConfig.addPassthroughCopy({
 		"./node_modules/chartist/dist/chartist.css": "chartist.css",
 		"./node_modules/chartist/dist/chartist.js": "chartist.js",

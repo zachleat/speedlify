@@ -19,10 +19,10 @@ permalink: "/{{ (sites[vertical].name or vertical) | slug }}/"
 			</tr>
 		</thead>
 		<tbody>
-		{%- for site in results | filterToUrls(sites[vertical].urls) | addHundoCount | sort([':lastkey', 'lighthouse', ':hundocount']) %}
-		{%- set newestKey = site | getObjectKey(":newest") %}
-		{%- set key = site | getObjectKey %}
-		{%- set hundos = site[newestKey] | hundoCount %}
+		{%- for site in results | filterToUrls(sites[vertical].urls) | addLighthouseTotals | sort([':lastkey', 'lighthouse', ':lhtotal']) %}
+			{%- set newestKey = site | getObjectKey(":newest") %}
+			{%- set key = site | getObjectKey %}
+			{%- set hundos = site[newestKey] | hundoCount %}
 			<tr class="leaderboard-list-entry">
 				<td class="leaderboard-number">#{{ loop.index }}</td>
 				<td class="leaderboard-hide-md">{% if loop.index0 === 0 %}🏆{% elseif loop.index0 === 1 %}🥈{% elseif loop.index0 === 2 %}🥉{% endif %}</td>
