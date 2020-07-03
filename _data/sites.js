@@ -35,5 +35,22 @@ module.exports = {
 			"https://nuxtjs.org/",
 			"https://gridsome.org/",
 		]
+	},
+	zachleat: {
+		name: "zachleat.com", // optional, falls back to object key
+		description: "My personal blog",
+		options: {
+			frequency: 60 * 24, // 24 hours
+			freshChrome: "site"
+		},
+		urls: [
+			"https://www.zachleat.com/",
+			"https://www.zachleat.com/web/",
+			"https://www.zachleat.com/web/about/",
+			"https://www.zachleat.com/twitter/",
+			"https://www.zachleat.com/resume/",
+			"https://www.zachleat.com/web/comprehensive-webfonts/",
+			"https://www.zachleat.com/web/google-fonts-display/",
+		]
 	}
 };
