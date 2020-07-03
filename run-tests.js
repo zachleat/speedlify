@@ -1,9 +1,12 @@
+require("dotenv").config();
 const fs = require("fs").promises;
 const shortHash = require("short-hash");
+const fetch = require("node-fetch");
 const PerfLeaderboard = require("performance-leaderboard");
 
 const NUMBER_OF_RUNS = 3;
 const FREQUENCY = 60; // in minutes
+const BUILD_HOOK_TRIGGER_URL = process.env.BUILD_HOOK_TRIGGER_URL;
 
 const prettyTime = (seconds) => {
 	// Based on https://johnresig.com/blog/javascript-pretty-date/
@@ -37,6 +40,16 @@ const prettyTime = (seconds) => {
 
 	let groups = require("./_data/sites.js");
 	for(let key in groups) {
+		if(Date.now() - today > 1000 * 60) {
+			console.log( "Build took longer than 60 seconds, saving future test runs for the next build!" );
+			if(BUILD_HOOK_TRIGGER_URL) {
+				console.log( "Trying to trigger another build using a build hook." );
+				let res = await fetch(BUILD_HOOK_TRIGGER_URL, { method: 'POST', body: '{}' })
+				console.log( res.text() );
+			}
+			break;
+		}
+
 		let group = groups[key];
 		let runFrequency =
 			group.options && group.options.frequency
@@ -79,7 +92,7 @@ const prettyTime = (seconds) => {
 		}
 
 		await Promise.all(promises);
-		lastRuns[key] = { timestamp: today };
+		lastRuns[key] = { timestamp: Date.now() };
 		console.log( `Finished testing "${key}".` );
 	}
 
