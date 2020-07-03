@@ -40,8 +40,8 @@ const prettyTime = (seconds) => {
 
 	let groups = require("./_data/sites.js");
 	for(let key in groups) {
-		if(Date.now() - today > 1000 * 60) {
-			console.log( "Build took longer than 60 seconds, saving future test runs for the next build!" );
+		if(Date.now() - today > 1000 * 60 * 8) {
+			console.log( "run-tests has been running for longer than 8 minutes, saving future test runs for the next build." );
 			if(BUILD_HOOK_TRIGGER_URL) {
 				console.log( "Trying to trigger another build using a build hook." );
 				let res = await fetch(BUILD_HOOK_TRIGGER_URL, { method: 'POST', body: '{}' })
