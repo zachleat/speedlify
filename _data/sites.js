@@ -38,7 +38,7 @@ module.exports = {
 	},
 	zachleat: {
 		name: "zachleat.com", // optional, falls back to object key
-		description: "My personal blog",
+		description: "Personal web site",
 		options: {
 			frequency: 60 * 24, // 24 hours
 			freshChrome: "site"
