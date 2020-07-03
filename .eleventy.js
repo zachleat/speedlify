@@ -92,6 +92,21 @@ module.exports = function(eleventyConfig) {
 		return prop;
 	}
 
+	eleventyConfig.addFilter("addHundoCount", (arr) => {
+		/* special case */
+		for(let obj of arr) {
+			for(let entry in obj) {
+				if(obj[entry].lighthouse) {
+					obj[entry].lighthouse[":hundocount"] = obj[entry].lighthouse.performance * 100 +
+						obj[entry].lighthouse.accessibility * 100 +
+						obj[entry].lighthouse.bestPractices * 100 +
+						obj[entry].lighthouse.seo * 100;
+				}
+			}
+		}
+		return arr;
+	});
+
 	// Works with arrays too
 	// Sort an object that has `order` props in values.
 	// If prop is not passed in, sorts by object keys

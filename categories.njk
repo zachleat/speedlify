@@ -19,7 +19,7 @@ permalink: "/{{ (sites[vertical].name or vertical) | slug }}/"
 			</tr>
 		</thead>
 		<tbody>
-		{%- for site in results | filterToUrls(sites[vertical].urls) | sort([':lastkey', 'ranks', 'hundos']) | reverse %}
+		{%- for site in results | filterToUrls(sites[vertical].urls) | addHundoCount | sort([':lastkey', 'lighthouse', ':hundocount']) %}
 		{%- set newestKey = site | getObjectKey(":newest") %}
 		{%- set key = site | getObjectKey %}
 		{%- set hundos = site[newestKey] | hundoCount %}
