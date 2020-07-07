@@ -13,7 +13,7 @@ layout: layout.njk
 	{%- for key, category in sites %} 
 		<tr>
 			<td><a href="/{{ (category.name or key) | lower | slug }}/">{{ category.name or key }}</a></td>
-			<td><span class="count">×{{ category.urls.length }} site{% if category.urls.length != 1 %}s{% endif %}</span></td>
+			<td><span class="count">×{{ category.urls.length }}<span class="leaderboard-hide-sm"> site{% if category.urls.length != 1 %}s{% endif %}</span></span></td>
 			<td>{{ category.description }}</td>
 		</tr>
 	{%- endfor %}

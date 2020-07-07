@@ -45,7 +45,7 @@ const prettyTime = (seconds) => {
 			if(BUILD_HOOK_TRIGGER_URL) {
 				console.log( "Trying to trigger another build using a build hook." );
 				let res = await fetch(BUILD_HOOK_TRIGGER_URL, { method: 'POST', body: '{}' })
-				console.log( res.text() );
+				console.log( await res.text() );
 			}
 			break;
 		}
