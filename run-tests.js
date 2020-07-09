@@ -27,6 +27,11 @@ const prettyTime = (seconds) => {
 }
 
 (async function() {
+	if(process.env.CONTEXT && process.env.CONTEXT !== "production") {
+		console.log( "Skipping all test runs because we’re in a build or deploy previews!" );
+		return;
+	}
+
 	let today = Date.now();
 	let dataDir = `./_data/`;
 	// Careful here, this filename needs to be .gitignore’d and
@@ -55,10 +60,6 @@ const prettyTime = (seconds) => {
 				console.log( await res.text() );
 			}
 			break;
-		}
-
-		if(process.env.CONTEXT && process.env.CONTEXT !== "production") {
-			console.log( "Skipping all test runs because we’re in a build or deploy previews!" );
 		}
 
 		if(group.skip) {
