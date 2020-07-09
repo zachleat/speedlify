@@ -3,7 +3,7 @@ module.exports = {
 		name: "Netlify", // optional, falls back to object key
 		description: "Netlify web sites",
 		options: {
-			frequency: 60 * 24, // 24 hours
+			frequency: 60 * 23, // 24 hours
 			freshChrome: "site",
 		},
 		urls: [
@@ -22,7 +22,7 @@ module.exports = {
 		name: "SSG", // optional, falls back to object key
 		description: "Static Site Generator web sites",
 		options: {
-			frequency: 60 * 24, // 24 hours
+			frequency: 60 * 23, // 24 hours
 			// if the sites don’t share assets on the same domain, we can reset
 			// chrome with each run instead of each site in every run (it’s faster)
 			freshChrome: "run"
@@ -40,7 +40,7 @@ module.exports = {
 		name: "zachleat.com", // optional, falls back to object key
 		description: "Personal web site",
 		options: {
-			frequency: 60 * 24, // 24 hours
+			frequency: 60 * 23, // 23 hours
 			freshChrome: "site"
 		},
 		urls: [
