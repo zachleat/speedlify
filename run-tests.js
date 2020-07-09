@@ -57,8 +57,12 @@ const prettyTime = (seconds) => {
 			break;
 		}
 
+		if(process.env.CONTEXT && process.env.CONTEXT !== "production") {
+			console.log( "Skipping all test runs because we’re in a build or deploy previews!" );
+		}
+
 		if(group.skip) {
-			console.log( `Skipping ${key} (you told me to in sites.js)` );
+			console.log( `Skipping ${key} (you told me to in your site config)` );
 			continue;
 		}
 
