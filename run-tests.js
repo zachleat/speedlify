@@ -2,11 +2,13 @@ require("dotenv").config();
 const fs = require("fs").promises;
 const shortHash = require("short-hash");
 const fetch = require("node-fetch");
+const fastglob = require("fast-glob");
 const PerfLeaderboard = require("performance-leaderboard");
 
 const NUMBER_OF_RUNS = 3;
 const FREQUENCY = 60; // in minutes
 const BUILD_HOOK_TRIGGER_URL = process.env.BUILD_HOOK_TRIGGER_URL;
+const TESTS_MAX_TIME = 0; // in minutes, 0 is no limit
 
 const prettyTime = (seconds) => {
 	// Based on https://johnresig.com/blog/javascript-pretty-date/
@@ -38,10 +40,15 @@ const prettyTime = (seconds) => {
 		lastRuns = {};
 	}
 
-	let groups = require("./_data/sites.js");
-	for(let key in groups) {
-		if(Date.now() - today > 1000 * 60 * 8) {
-			console.log( "run-tests has been running for longer than 8 minutes, saving future test runs for the next build." );
+	let verticals = await fastglob("./_data/sites/*.js", {
+		caseSensitiveMatch: false
+	});
+	for(let file of verticals) {
+		let group = require(file);
+		let key = file.split("/").pop().replace(/\.js$/, "");
+
+		if(TESTS_MAX_TIME && Date.now() - today > TESTS_MAX_TIME) {
+			console.log( `run-tests has been running for longer than ${TESTS_MAX_TIME} minutes, saving future test runs for the next build.` );
 			if(BUILD_HOOK_TRIGGER_URL) {
 				console.log( "Trying to trigger another build using a build hook." );
 				let res = await fetch(BUILD_HOOK_TRIGGER_URL, { method: 'POST', body: '{}' })
@@ -50,11 +57,16 @@ const prettyTime = (seconds) => {
 			break;
 		}
 
-		let group = groups[key];
+		if(group.skip) {
+			console.log( `Skipping ${key} (you told me to in sites.js)` );
+			continue;
+		}
+
 		let runFrequency =
 			group.options && group.options.frequency
 				? group.options.frequency
 				: FREQUENCY;
+
 		if (!lastRuns[key]) {
 			console.log(`First tests for ${key}.`);
 		} else {
