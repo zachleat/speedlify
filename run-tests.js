@@ -26,7 +26,7 @@ const prettyTime = (seconds) => {
 	);
 }
 
-function maybeTriggerAnotherNetlifyBuild(dateTestsStarted) {
+async function maybeTriggerAnotherNetlifyBuild(dateTestsStarted) {
 	// Use build hook to trigger another build if we’re nearing the 15 minute limit
 	if(process.env.CONTEXT &&
 		process.env.CONTEXT === "production" &&
@@ -70,7 +70,7 @@ function maybeTriggerAnotherNetlifyBuild(dateTestsStarted) {
 		let group = require(file);
 		let key = file.split("/").pop().replace(/\.js$/, "");
 
-		if(maybeTriggerAnotherNetlifyBuild(dateTestsStarted)) {
+		if(await maybeTriggerAnotherNetlifyBuild(dateTestsStarted)) {
 			break;
 		}
 
