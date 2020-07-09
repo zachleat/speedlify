@@ -8,7 +8,7 @@ const PerfLeaderboard = require("performance-leaderboard");
 const NUMBER_OF_RUNS = 3;
 const FREQUENCY = 60; // in minutes
 const BUILD_HOOK_TRIGGER_URL = process.env.BUILD_HOOK_TRIGGER_URL;
-const TESTS_MAX_TIME = 0; // in minutes, 0 is no limit
+const TESTS_MAX_TIME = 8; // in minutes, 0 is no limit
 
 const prettyTime = (seconds) => {
 	// Based on https://johnresig.com/blog/javascript-pretty-date/
@@ -26,13 +26,31 @@ const prettyTime = (seconds) => {
 	);
 }
 
+function maybeTriggerAnotherNetlifyBuild(dateTestsStarted) {
+	// Use build hook to trigger another build if we’re nearing the 15 minute limit
+	if(process.env.CONTEXT &&
+		process.env.CONTEXT === "production" &&
+		TESTS_MAX_TIME &&
+		(Date.now() - dateTestsStarted)/(1000*60) > TESTS_MAX_TIME) {
+		console.log( `run-tests has been running for longer than ${TESTS_MAX_TIME} minutes, saving future test runs for the next build.` );
+		if(BUILD_HOOK_TRIGGER_URL) {
+			console.log( "Trying to trigger another build using a build hook." );
+			let res = await fetch(BUILD_HOOK_TRIGGER_URL, { method: 'POST', body: '{}' })
+			console.log( await res.text() );
+		}
+		return true;
+	}
+	return false;
+}
+
 (async function() {
+	// Netlify specific check (works fine without this env variable too)
 	if(process.env.CONTEXT && process.env.CONTEXT !== "production") {
-		console.log( "Skipping all test runs because we’re in a build or deploy previews!" );
+		console.log( "Skipping all test runs because we’re in a Netlify build or deploy preview!" );
 		return;
 	}
 
-	let today = Date.now();
+	let dateTestsStarted = Date.now();
 	let dataDir = `./_data/`;
 	// Careful here, this filename needs to be .gitignore’d and
 	// listed in the keep-data-cache plugin.
@@ -52,13 +70,7 @@ const prettyTime = (seconds) => {
 		let group = require(file);
 		let key = file.split("/").pop().replace(/\.js$/, "");
 
-		if(TESTS_MAX_TIME && Date.now() - today > TESTS_MAX_TIME) {
-			console.log( `run-tests has been running for longer than ${TESTS_MAX_TIME} minutes, saving future test runs for the next build.` );
-			if(BUILD_HOOK_TRIGGER_URL) {
-				console.log( "Trying to trigger another build using a build hook." );
-				let res = await fetch(BUILD_HOOK_TRIGGER_URL, { method: 'POST', body: '{}' })
-				console.log( await res.text() );
-			}
+		if(maybeTriggerAnotherNetlifyBuild(dateTestsStarted)) {
 			break;
 		}
 
@@ -76,7 +88,7 @@ const prettyTime = (seconds) => {
 			console.log(`First tests for ${key}.`);
 		} else {
 			const lastRun = lastRuns[key];
-			const lastRunSecondsAgo = (today - lastRun.timestamp) / 1000;
+			const lastRunSecondsAgo = (dateTestsStarted - lastRun.timestamp) / 1000;
 			const lastRunSecondsAgoPretty = prettyTime(lastRunSecondsAgo);
 			const lastRunMinutesAgo = lastRunSecondsAgo / 60;
 			if (lastRunMinutesAgo < runFrequency) {
@@ -102,7 +114,7 @@ const prettyTime = (seconds) => {
 		for(let result of results) {
 			let id = shortHash(result.url);
 			let dir = `${dataDir}results/${id}/`;
-			let filename = `${dir}date-${today}.json`;
+			let filename = `${dir}date-${dateTestsStarted}.json`;
 			await fs.mkdir(dir, { recursive: true });
 			promises.push(fs.writeFile(filename, JSON.stringify(result, null, 2)));
 			console.log( `Writing ${filename}.` );
