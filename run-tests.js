@@ -66,6 +66,7 @@ async function maybeTriggerAnotherNetlifyBuild(dateTestsStarted) {
 	let verticals = await fastglob("./_data/sites/*.js", {
 		caseSensitiveMatch: false
 	});
+
 	for(let file of verticals) {
 		let group = require(file);
 		let key = file.split("/").pop().replace(/\.js$/, "");
@@ -123,8 +124,9 @@ async function maybeTriggerAnotherNetlifyBuild(dateTestsStarted) {
 		await Promise.all(promises);
 		lastRuns[key] = { timestamp: Date.now() };
 		console.log( `Finished testing "${key}".` );
-	}
 
-	// Write the last run time to avoid re-runs
-	await fs.writeFile(lastRunsFilename, JSON.stringify(lastRuns, null, 2));
+		// Write the last run time to avoid re-runs
+		await fs.writeFile(lastRunsFilename, JSON.stringify(lastRuns, null, 2));
+		console.log( `Wrote new ${lastRunsFilenam}` );
+	}
 })();
