@@ -127,6 +127,6 @@ async function maybeTriggerAnotherNetlifyBuild(dateTestsStarted) {
 
 		// Write the last run time to avoid re-runs
 		await fs.writeFile(lastRunsFilename, JSON.stringify(lastRuns, null, 2));
-		console.log( `Wrote new ${lastRunsFilenam}` );
+		console.log( `Wrote new ${lastRunsFilename}` );
 	}
 })();
