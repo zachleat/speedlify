@@ -8,7 +8,8 @@ const PerfLeaderboard = require("performance-leaderboard");
 const NUMBER_OF_RUNS = 3;
 const FREQUENCY = 60; // in minutes
 const BUILD_HOOK_TRIGGER_URL = process.env.BUILD_HOOK_TRIGGER_URL;
-const TESTS_MAX_TIME = 8; // in minutes, 0 is no limit
+const NETLIFY_MAX_LIMIT = 15; // in minutes, netlify limit
+const ESTIMATED_MAX_TIME_PER_TEST = 0.75; // in minutes, estimate based on looking at past builds
 
 const prettyTime = (seconds) => {
 	// Based on https://johnresig.com/blog/javascript-pretty-date/
@@ -26,13 +27,14 @@ const prettyTime = (seconds) => {
 	);
 }
 
-async function maybeTriggerAnotherNetlifyBuild(dateTestsStarted) {
+async function maybeTriggerAnotherNetlifyBuild(dateTestsStarted, numberOfUrls) {
+	let minutesRemaining = NETLIFY_MAX_LIMIT - (Date.now() - dateTestsStarted)/(1000*60)
 	// Use build hook to trigger another build if we’re nearing the 15 minute limit
 	if(process.env.CONTEXT &&
 		process.env.CONTEXT === "production" &&
-		TESTS_MAX_TIME &&
-		(Date.now() - dateTestsStarted)/(1000*60) > TESTS_MAX_TIME) {
-		console.log( `run-tests has been running for longer than ${TESTS_MAX_TIME} minutes, saving future test runs for the next build.` );
+		NETLIFY_MAX_LIMIT &&
+		minutesRemaining < numberOfUrls * ESTIMATED_MAX_TIME_PER_TEST) {
+		console.log( `run-tests has about ${minutesRemaining} minutes left, but the next run has ${numberOfUrls} urls. Saving it for the next build.` );
 		if(BUILD_HOOK_TRIGGER_URL) {
 			console.log( "Trying to trigger another build using a build hook." );
 			let res = await fetch(BUILD_HOOK_TRIGGER_URL, { method: 'POST', body: '{}' })
@@ -71,7 +73,7 @@ async function maybeTriggerAnotherNetlifyBuild(dateTestsStarted) {
 		let group = require(file);
 		let key = file.split("/").pop().replace(/\.js$/, "");
 
-		if(await maybeTriggerAnotherNetlifyBuild(dateTestsStarted)) {
+		if(await maybeTriggerAnotherNetlifyBuild(dateTestsStarted, group.urls.length)) {
 			break;
 		}
 
