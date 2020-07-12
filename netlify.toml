@@ -4,3 +4,8 @@
 
 [[plugins]]
 package = "./plugins/keep-data-cache"
+
+[[headers]]
+  for = "/api/*"
+    [headers.values]
+    Access-Control-Allow-Origin = "*"
