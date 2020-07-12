@@ -1,6 +1,7 @@
 const prettyBytes = require("pretty-bytes");
 const shortHash = require("short-hash");
 const lodash = require("lodash");
+const getObjectKey = require("./utils/getObjectKey.js");
 
 function showDigits(num, digits = 2, alwaysShowDigits = true) {
 	let toNum = parseFloat(num);
@@ -135,23 +136,7 @@ module.exports = function(eleventyConfig) {
 		return sorted;
 	});
 
-	eleventyConfig.addFilter("getObjectKey", (obj, which = ":first") => {
-		let ret;
-		let newestTimestamp = 0;
-		for(let key in obj) {
-			ret = key;
-			if(which === ":newest") {
-				if(obj[key].timestamp > newestTimestamp) {
-					newestTimestamp = obj[key].timestamp;
-					ret = key;
-				}
-			}
-			if(which === ":first") {
-				return ret;
-			}
-		}
-		return ret;
-	});
+	eleventyConfig.addFilter("getObjectKey", getObjectKey);
 
 	eleventyConfig.addFilter("filterToUrls", (obj, urls = []) => {
 		let arr = [];
