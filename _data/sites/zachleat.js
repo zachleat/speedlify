@@ -14,6 +14,7 @@ module.exports = {
 		"https://www.zachleat.com/resume/",
 		"https://www.zachleat.com/twitter/",
 		// Popular Posts
+		"https://www.zachleat.com/web/lighthouse-in-footer/",
 		"https://www.zachleat.com/web/speedlify/",
 		"https://www.zachleat.com/web/comprehensive-webfonts/",
 		"https://www.zachleat.com/web/google-fonts-display/",
