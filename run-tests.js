@@ -7,7 +7,6 @@ const PerfLeaderboard = require("performance-leaderboard");
 
 const NUMBER_OF_RUNS = 3;
 const FREQUENCY = 60; // in minutes
-const BUILD_HOOK_TRIGGER_URL = process.env.BUILD_HOOK_TRIGGER_URL;
 const NETLIFY_MAX_LIMIT = 15; // in minutes, netlify limit
 const ESTIMATED_MAX_TIME_PER_TEST = 0.75; // in minutes, estimate based on looking at past builds
 
@@ -35,11 +34,6 @@ async function maybeTriggerAnotherNetlifyBuild(dateTestsStarted, numberOfUrls) {
 		NETLIFY_MAX_LIMIT &&
 		minutesRemaining < numberOfUrls * ESTIMATED_MAX_TIME_PER_TEST) {
 		console.log( `run-tests has about ${minutesRemaining} minutes left, but the next run has ${numberOfUrls} urls. Saving it for the next build.` );
-		if(BUILD_HOOK_TRIGGER_URL) {
-			console.log( "Trying to trigger another build using a build hook." );
-			let res = await fetch(BUILD_HOOK_TRIGGER_URL, { method: 'POST', body: '{}' })
-			console.log( await res.text() );
-		}
 		return true;
 	}
 	return false;
