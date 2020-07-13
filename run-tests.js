@@ -60,6 +60,7 @@ async function maybeTriggerAnotherNetlifyBuild(dateTestsStarted, numberOfUrls) {
 	let lastRuns;
 	try {
 		lastRuns = require(lastRunsFilename);
+		console.log( "Last runs at start: ", JSON.stringify(lastRuns) );
 	} catch (e) {
 		console.log(`There are no known last run timestamps`);
 		lastRuns = {};
@@ -74,7 +75,8 @@ async function maybeTriggerAnotherNetlifyBuild(dateTestsStarted, numberOfUrls) {
 		let key = file.split("/").pop().replace(/\.js$/, "");
 
 		if(await maybeTriggerAnotherNetlifyBuild(dateTestsStarted, group.urls.length)) {
-			break;
+			// stop everything
+			return;
 		}
 
 		if(group.skip) {
@@ -129,6 +131,6 @@ async function maybeTriggerAnotherNetlifyBuild(dateTestsStarted, numberOfUrls) {
 
 		// Write the last run time to avoid re-runs
 		await fs.writeFile(lastRunsFilename, JSON.stringify(lastRuns, null, 2));
-		console.log( `Wrote new ${lastRunsFilename}` );
+		console.log( `Last runs after "${key}":`, JSON.stringify(lastRuns) );
 	}
 })();
