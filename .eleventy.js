@@ -1,4 +1,4 @@
-const prettyBytes = require("pretty-bytes");
+const byteSize = require("byte-size");
 const shortHash = require("short-hash");
 const lodash = require("lodash");
 const getObjectKey = require("./utils/getObjectKey.js");
@@ -83,7 +83,10 @@ module.exports = function(eleventyConfig) {
 	});
 
 	eleventyConfig.addFilter("displayFilesize", function(size) {
-		return prettyBytes(size);
+		let normalizedSize = byteSize(size, { units: 'iec', precision: 0 });
+		let unit = normalizedSize.unit;
+		let value = normalizedSize.value;
+		return `<span class="filesize">${value}<span class="filesize-label-sm">${unit.substr(0,1)}</span><span class="filesize-label-lg"> ${unit}</span></span>`;
 	});
 
 	eleventyConfig.addFilter("displayDate", function(timestamp) {

@@ -131,7 +131,7 @@ permalink: "/{{ (sites[vertical].name or vertical) | slug }}/"
 									<thead>
 										<tr>
 											<th rowspan="2" class="results-date">Date</th>
-											<th colspan="6">Weight</th>
+											<th colspan="7">Weight</th>
 										</tr>
 										<tr>
 											<th class="results-series-a">Total</th>
@@ -140,18 +140,20 @@ permalink: "/{{ (sites[vertical].name or vertical) | slug }}/"
 											<th class="results-series-d"><abbr title="JavaScript">JS</abbr></th>
 											<th class="results-series-e">Images</th>
 											<th class="results-series-f">Fonts</th>
+											<th>Third Party</th>
 										</tr>
 									</thead>
 									<tbody>
 									{%- for entry in site | sort | headAndLast(maxResults) %}
 										<tr>
 											<td><code class="date">{{ entry.timestamp | displayDate | safe }}</code></td>
-											<td data-numeric-value="{{ entry.weight.total / 1024 }}">{{ entry.weight.total | displayFilesize }}</td>
-											<td data-numeric-value="{{ entry.weight.document / 1024 }}">{{ entry.weight.document | displayFilesize }}</td>
-											<td data-numeric-value="{{ entry.weight.stylesheet / 1024 }}">{% if entry.weight.stylesheet or entry.weight.stylesheet === 0 %}{{ entry.weight.stylesheet | displayFilesize }} <span class="count leaderboard-hide-sm">×{{ entry.weight.stylesheetCount }}</span>{% else %}❓{% endif %}</td>
-											<td data-numeric-value="{{ entry.weight.script / 1024 }}">{{ entry.weight.script | displayFilesize }} <span class="count leaderboard-hide-sm">×{{ entry.weight.scriptCount }}</span></td>
-											<td data-numeric-value="{{ entry.weight.image / 1024 }}">{{ entry.weight.image | displayFilesize }} <span class="count leaderboard-hide-sm">×{{ entry.weight.imageCount }}</span></td>
-											<td data-numeric-value="{{ entry.weight.font / 1024 }}">{{ entry.weight.font | displayFilesize }} <span class="count leaderboard-hide-sm">×{{ entry.weight.fontCount }}</span></td>
+											<td data-numeric-value="{{ entry.weight.total / 1024 }}">{{ entry.weight.total | displayFilesize | safe }}</td>
+											<td data-numeric-value="{{ entry.weight.document / 1024 }}">{{ entry.weight.document | displayFilesize | safe }}</td>
+											<td data-numeric-value="{{ entry.weight.stylesheet / 1024 }}">{% if entry.weight.stylesheet or entry.weight.stylesheet === 0 %}{{ entry.weight.stylesheet | displayFilesize | safe }} <span class="count leaderboard-hide-sm">×{{ entry.weight.stylesheetCount }}</span>{% else %}❓{% endif %}</td>
+											<td data-numeric-value="{{ entry.weight.script / 1024 }}">{{ entry.weight.script | displayFilesize | safe }} <span class="count leaderboard-hide-sm">×{{ entry.weight.scriptCount }}</span></td>
+											<td data-numeric-value="{{ entry.weight.image / 1024 }}">{{ entry.weight.image | displayFilesize | safe }} <span class="count leaderboard-hide-sm">×{{ entry.weight.imageCount }}</span></td>
+											<td data-numeric-value="{{ entry.weight.font / 1024 }}">{{ entry.weight.font | displayFilesize | safe }} <span class="count leaderboard-hide-sm">×{{ entry.weight.fontCount }}</span></td>
+											<td data-numeric-value="{{ entry.weight.thirdParty / 1024 }}">{{ entry.weight.thirdParty | displayFilesize | safe }} <span class="count leaderboard-hide-sm">×{{ entry.weight.thirdPartyCount }}</span></td>
 										</tr>
 									{%- endfor %}
 									</tbody>
