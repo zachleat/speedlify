@@ -1,5 +1,5 @@
 module.exports = {
-	name: "eleventy-starter-projects", // optional, falls back to object key
+	name: "eleventy-starters", // optional, falls back to object key
 	description: "Eleventy Starter Projects",
 	options: {
 		frequency: 60 * 23, // 23 hours
