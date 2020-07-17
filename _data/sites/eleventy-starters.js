@@ -27,5 +27,6 @@ module.exports = {
 		"https://disjfa.github.io/eleventy-encore/",
 		"https://danfascia.github.io/tai11s/",
 		"https://eleventastic.netlify.app/",
+		"https://supermaya-demo.netlify.app/",
 	]
 };
