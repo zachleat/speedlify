@@ -18,6 +18,7 @@ module.exports = {
 		"https://www.netlify.com/with/wordpress/",
 		"https://www.netlify.com/webinar/a-drupal-journey-to-the-jamstack/",
 		"https://www.netlify.com/partners/agency/",
+		"https://www.netlify.com/careers/",
 		"https://jamstackconf.com/",
 		"https://jamstackconf.com/virtual/",
 	]
