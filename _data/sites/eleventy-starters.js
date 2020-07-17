@@ -26,5 +26,6 @@ module.exports = {
 		"https://11st-starter-kit.netlify.app/",
 		"https://disjfa.github.io/eleventy-encore/",
 		"https://danfascia.github.io/tai11s/",
+		"https://eleventastic.netlify.app/",
 	]
 };
