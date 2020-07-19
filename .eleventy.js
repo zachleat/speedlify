@@ -18,14 +18,20 @@ function pad(num) {
 
 function mapProp(prop, targetObj) {
 	if(Array.isArray(prop)) {
+		let otherprops = [];
 		prop =  prop.map(entry => {
+			// TODO this only works as the first entry
 			if(entry === ":lastkey") {
-				let ret;
-				for(let key in targetObj) {
-					ret = key;
+				entry = Object.keys(targetObj).sort().pop();
+			} else if(entry.indexOf("||") > -1) {
+				for(let key of entry.split("||")) {
+					if(lodash.get(targetObj, [...otherprops, key])) {
+						entry = key;
+						break;
+					}
 				}
-				return ret;
 			}
+			otherprops.push(entry);
 
 			return entry;
 		});

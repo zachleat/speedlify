@@ -26,9 +26,8 @@ const prettyTime = (seconds) => {
 	);
 }
 
-async function maybeTriggerAnotherNetlifyBuild(dateTestsStarted, numberOfUrls) {
+async function tryToPreventNetlifyBuildTimeout(dateTestsStarted, numberOfUrls) {
 	let minutesRemaining = NETLIFY_MAX_LIMIT - (Date.now() - dateTestsStarted)/(1000*60)
-	// Use build hook to trigger another build if we’re nearing the 15 minute limit
 	if(process.env.CONTEXT &&
 		process.env.CONTEXT === "production" &&
 		NETLIFY_MAX_LIMIT &&
@@ -68,7 +67,7 @@ async function maybeTriggerAnotherNetlifyBuild(dateTestsStarted, numberOfUrls) {
 		let group = require(file);
 		let key = file.split("/").pop().replace(/\.js$/, "");
 
-		if(await maybeTriggerAnotherNetlifyBuild(dateTestsStarted, group.urls.length)) {
+		if(await tryToPreventNetlifyBuildTimeout(dateTestsStarted, group.urls.length)) {
 			// stop everything
 			return;
 		}
