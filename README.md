@@ -3,7 +3,7 @@
 After you make a fast web site, keep it fast by measuring it over time. Read [Use Speedlify to Continuously Measure Site Performance](https://www.zachleat.com/web/speedlify/). Created by [@zachleat](https://www.zachleat.com/).
 
 * Requires Node 12+
-* Each file in `_data/sites/*.js` is a category and contains a list of sites for comparison.
+* Each file in `_data/sites/*.js` is a category and contains a list of sites for comparison. I have a bunch of my own categories/sites in here but you’ll probably want to delete these files and create a `.js` file in that folder with a list of your own sites!
 
 ## Run locally
 
