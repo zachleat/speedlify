@@ -26,9 +26,9 @@ permalink: "/{{ (sites[vertical].name or vertical) | slug }}/"
 			<tr class="leaderboard-list-entry">
 				<td class="leaderboard-number">#{{ loop.index }}</td>
 				<td class="leaderboard-hide-md">{% if loop.index0 === 0 %}🏆{% elseif loop.index0 === 1 %}🥈{% elseif loop.index0 === 2 %}🥉{% endif %}</td>
-				<td><a href="{{ site[newestKey].url }}"><code class="url">{{ site[newestKey].url | displayUrl }}</code></a></td>
+				<td class="leaderboard-url"><a href="{{ site[newestKey].url }}"><code class="url">{{ site[newestKey].url | displayUrl }}</code></a></td>
 				<td class="leaderboard-number leaderboard-hide-sm">{{ site[newestKey] | lighthouseTotal }}</td>
-				<td class="hundo-emojis{% if hundos === 4 %} hundo-emojis-400{% endif %} leaderboard-hide-sm"><span class="leaderboard-hide-md">{{ "💯" | repeat(hundos) }}</span></td>
+				<td class="leaderboard-score{% if hundos === 4 %} leaderboard-score-400{% endif %} leaderboard-hide-sm"><speedlify-score raw-data='{{ site[newestKey] | toJSON | safe }}' class="leaderboard-hide-md"></speedlify-score></td>
 				<td class="leaderboard-data-right"><a href="#details-{{ site[key].url | shortHash }}" data-expand-alias data-js-only><span class="leaderboard-expand-icon"></span> Data<span class="leaderboard-hide-md"> and Graphs</span></a></td>
 			</tr>
 

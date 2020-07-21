@@ -108,6 +108,9 @@ abbr {
 .leaderboard-number {
 	font-weight: 600;
 }
+.leaderboard-url {
+	width: 100%;
+}
 .leaderboard-list {
 	width: auto;
 	margin-left: auto;
@@ -260,16 +263,19 @@ abbr {
 	color: #aaa;
 	font-size: 0.8125em; /* 13px /16 */
 }
-.hundo-emojis {
-	letter-spacing: 4px;
-}
-.hundo-emojis-400 {
+.leaderboard-score {
 	white-space: nowrap;
 }
-@media (min-width: 64em) { /* 1024px */
-	.hundo-emojis-400:after {
-		content: " 😍";
-	}
+.leaderboard-score .speedlify-score {
+	font-size: 1rem; /* 16px /16 */
+	font-weight: 600;
+}
+.leaderboard-score .speedlify-summary {
+	display: none;
+}
+.leaderboard-score-400 .speedlify-score {
+	border-color: currentColor;
+	color: #bcffc2;
 }
 
 /* Layout */

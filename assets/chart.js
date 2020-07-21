@@ -61,13 +61,13 @@ function initializeAllTables(scope) {
 initializeAllTables(document);
 
 let details = document.querySelectorAll("details");
-let first = true;
+// let first = true;
 for(let detail of details) {
   // open the first details by default
-  if(first) {
-    detail.open = true;
-    first = false;
-  }
+  // if(first) {
+  //   detail.open = true;
+  //   first = false;
+  // }
   detail.addEventListener("toggle", function(e) {
     let open = e.target.hasAttribute("open");
     if(open) {
