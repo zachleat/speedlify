@@ -206,6 +206,13 @@ module.exports = function(eleventyConfig) {
 
 	eleventyConfig.addWatchTarget("./assets/");
 
+	eleventyConfig.addPairedShortcode("starterMessage", (htmlContent, results) => {
+		if(process.env.SITE_NAME !== "speedlify") {
+			return htmlContent;
+		}
+		return "";
+	});
+
 	eleventyConfig.setBrowserSyncConfig({
 		ui: false,
 		ghostMode: false
