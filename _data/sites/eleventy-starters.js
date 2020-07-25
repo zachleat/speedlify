@@ -31,5 +31,6 @@ module.exports = {
 		"https://danfascia.github.io/tai11s/",
 		"https://eleventastic.netlify.app/",
 		"https://supermaya-demo.netlify.app/",
+		"https://creativedesignsguru.com/demo/Eleventy-Starter-Boilerplate",
 	]
 };
