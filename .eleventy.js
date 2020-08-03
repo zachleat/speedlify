@@ -2,6 +2,7 @@ const byteSize = require("byte-size");
 const shortHash = require("short-hash");
 const lodash = require("lodash");
 const getObjectKey = require("./utils/getObjectKey.js");
+const calc = require("./utils/calc.js");
 
 function showDigits(num, digits = 2, alwaysShowDigits = true) {
 	let toNum = parseFloat(num);
@@ -21,7 +22,7 @@ function mapProp(prop, targetObj) {
 		let otherprops = [];
 		prop =  prop.map(entry => {
 			// TODO this only works as the first entry
-			if(entry === ":lastkey") {
+			if(entry === ":newest") {
 				entry = Object.keys(targetObj).sort().pop();
 			} else if(entry.indexOf("||") > -1) {
 				for(let key of entry.split("||")) {
@@ -73,6 +74,9 @@ module.exports = function(eleventyConfig) {
 	eleventyConfig.addFilter("displayUrl", function(url) {
 		url = url.replace("https://www.", "");
 		url = url.replace("https://", "");
+		if(url.endsWith("/index.html")) {
+			url = url.replace("/index.html", "/");
+		}
 		return url;
 	});
 
@@ -100,6 +104,24 @@ module.exports = function(eleventyConfig) {
 		let date = new Date(timestamp);
 		let day = `${months[date.getMonth()]} ${pad(date.getDate())}`;
 		return `${day} <span class="leaderboard-hide-md">${pad(date.getHours())}:${pad(date.getMinutes())}</span>`;
+	});
+
+	eleventyConfig.addFilter("sortCumulativeScore", (obj) => {
+		return obj.sort((a, b) => {
+			let newestKeyA = Object.keys(a).sort().pop();
+			let newestKeyB = Object.keys(b).sort().pop();
+
+			if(a[newestKeyA].lighthouse.total !== b[newestKeyB].lighthouse.total) {
+				// higher is better
+				return b[newestKeyB].lighthouse.total - a[newestKeyA].lighthouse.total;
+			}
+			if(a[newestKeyA].axe.violations !== b[newestKeyB].axe.violations) {
+				// lower is better
+				return a[newestKeyA].axe.violations - b[newestKeyB].axe.violations;
+			}
+			// lower speed index, higher page weight is better
+			return a[newestKeyA].speedIndex / a[newestKeyA].weight.total - b[newestKeyB].speedIndex / b[newestKeyB].weight.total;
+		});
 	});
 
 	// Works with arrays too
@@ -198,13 +220,7 @@ module.exports = function(eleventyConfig) {
 		return JSON.stringify(obj);
 	});
 
-	// Assets
-	eleventyConfig.addPassthroughCopy({
-		"./node_modules/chartist/dist/chartist.js": "chartist.js",
-		"./node_modules/chartist/dist/chartist.css.map": "chartist.css.map",
-	});
-
-	eleventyConfig.addWatchTarget("./assets/");
+	eleventyConfig.addFilter("calc", calc);
 
 	eleventyConfig.addPairedShortcode("starterMessage", (htmlContent, results) => {
 		if(process.env.SITE_NAME !== "speedlify") {
@@ -212,6 +228,14 @@ module.exports = function(eleventyConfig) {
 		}
 		return "";
 	});
+
+	// Assets
+	eleventyConfig.addPassthroughCopy({
+		"./node_modules/chartist/dist/chartist.js": "chartist.js",
+		"./node_modules/chartist/dist/chartist.css.map": "chartist.css.map",
+	});
+
+	eleventyConfig.addWatchTarget("./assets/");
 
 	eleventyConfig.setBrowserSyncConfig({
 		ui: false,

@@ -65,10 +65,13 @@ async function tryToPreventNetlifyBuildTimeout(dateTestsStarted, numberOfUrls) {
 
 	for(let file of verticals) {
 		let group = require(file);
+		if(typeof group === "function") {
+			group = await group();
+		}
 		let key = file.split("/").pop().replace(/\.js$/, "");
 
 		if(await tryToPreventNetlifyBuildTimeout(dateTestsStarted, group.urls.length)) {
-			// stop everything
+			// stop everything, we’re too close to the timeout
 			return;
 		}
 
@@ -107,11 +110,12 @@ async function tryToPreventNetlifyBuildTimeout(dateTestsStarted, numberOfUrls) {
 			runCount,
 			group.options || {}
 		);
+		let isIsolated = group.options && group.options.isolated;
 
 		let promises = [];
 		for(let result of results) {
 			let id = shortHash(result.url);
-			let dir = `${dataDir}results/${id}/`;
+			let dir = `${dataDir}results/${isIsolated ? `${key}/` : ""}${id}/`;
 			let filename = `${dir}date-${dateTestsStarted}.json`;
 			await fs.mkdir(dir, { recursive: true });
 			promises.push(fs.writeFile(filename, JSON.stringify(result, null, 2)));

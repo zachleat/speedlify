@@ -8,16 +8,22 @@ class Api {
 			pagination: {
 				size: 1,
 				data: "sites",
-				before: function(paginationData) {
+				before: async function(paginationData) {
+					let urlLookup = {};
 					let data = [];
 					for(let vertical of paginationData) {
 						let verticalData = require(`./_data/sites/${vertical}.js`);
+						if(typeof verticalData === "function") {
+							verticalData = await verticalData();
+						}
 						for(let url of verticalData.urls) {
-							data.push({
-								vertical: vertical,
-								url: url,
-								hash: shortHash(url),
-							});
+							if(!urlLookup[url]) {
+								data.push({
+									url: url,
+									hash: shortHash(url),
+								});
+								urlLookup[url] = true;
+							}
 						}
 					}
 					return data;

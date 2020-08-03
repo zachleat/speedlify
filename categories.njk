@@ -19,7 +19,9 @@ permalink: "/{{ (sites[vertical].name or vertical) | slug }}/"
 			</tr>
 		</thead>
 		<tbody>
-		{%- for site in results | filterToUrls(sites[vertical].urls) | addLighthouseTotals | sort([':lastkey', 'ranks', 'cumulative||hundos']) | reverse %}
+		{%- set categoryResults = results -%}
+		{%- if sites[vertical].options.isolated %}{% set categoryResults = results[vertical] %}{% endif -%}
+		{%- for site in categoryResults | filterToUrls(sites[vertical].urls) | sortCumulativeScore %}
 			{%- set newestKey = site | getObjectKey(":newest") %}
 			{%- set key = site | getObjectKey %}
 			{%- set hundos = site[newestKey] | hundoCount %}
