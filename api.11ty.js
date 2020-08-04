@@ -1,33 +1,12 @@
-const shortHash = require("short-hash");
 const getObjectKey = require("./utils/getObjectKey.js");
 
-class Api {
-	data() {
+class ApiEntry {
+	async data() {
 		return {
 			layout: false,
 			pagination: {
 				size: 1,
-				data: "sites",
-				before: async function(paginationData) {
-					let urlLookup = {};
-					let data = [];
-					for(let vertical of paginationData) {
-						let verticalData = require(`./_data/sites/${vertical}.js`);
-						if(typeof verticalData === "function") {
-							verticalData = await verticalData();
-						}
-						for(let url of verticalData.urls) {
-							if(!urlLookup[url]) {
-								data.push({
-									url: url,
-									hash: shortHash(url),
-								});
-								urlLookup[url] = true;
-							}
-						}
-					}
-					return data;
-				},
+				data: "urls",
 				alias: "site"
 			},
 			permalink: function(data) {
@@ -49,4 +28,4 @@ class Api {
 	}
 }
 
-module.exports = Api;
+module.exports = ApiEntry;
