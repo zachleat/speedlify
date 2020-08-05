@@ -13,6 +13,10 @@ module.exports = async function() {
 		// don’t run in Production or on Branch/Deploy previews
 		// this one is localhost only.
 		skip: process.env.CONTEXT,
+
+		// Hide from category list
+		hide: process.env.SITE_NAME !== "speedlify",
+
 		options: {
 			// You probably won’t need this, unless the same URL lives in multiple
 			// verticals/categories share the same URLs.
