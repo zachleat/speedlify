@@ -70,14 +70,14 @@ async function tryToPreventNetlifyBuildTimeout(dateTestsStarted, numberOfUrls) {
 		}
 		let key = file.split("/").pop().replace(/\.js$/, "");
 
-		if(await tryToPreventNetlifyBuildTimeout(dateTestsStarted, group.urls.length)) {
-			// stop everything, we’re too close to the timeout
-			return;
-		}
-
 		if(group.skip) {
 			console.log( `Skipping ${key} (you told me to in your site config)` );
 			continue;
+		}
+
+		if(await tryToPreventNetlifyBuildTimeout(dateTestsStarted, group.urls.length)) {
+			// stop everything, we’re too close to the timeout
+			return;
 		}
 
 		let runFrequency =
