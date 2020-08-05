@@ -21,6 +21,10 @@ module.exports = async function() {
 			// with existing data on Netlify cache, Speedlify won’t be able to find your
 			// results!
 			isolated: true,
+
+			// Data directory
+			useManualResultsDir: true,
+
 			runs: 3,
 			// frequency: 60 * 24 * 7 - 30, // 7 days - 30 minutes
 			frequency: 1, // 1 minute

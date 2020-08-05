@@ -26,7 +26,13 @@ counts:
 			</tr>
 		</thead>
 		<tbody>
-		{%- for site in results | getSites(sites, vertical, isolatedKeys) | sortCumulativeScore %}
+		{%- if sites[vertical].options.useManualResultsDir %}
+		{%- set categoryResults = manual %}
+		{%- else %}
+		{%- set categoryResults = results %}
+		{%- endif %}
+
+		{%- for site in categoryResults | getSites(sites, vertical, isolatedKeys) | sortCumulativeScore %}
 			{%- set newestKey = site | getObjectKey(":newest") %}
 			{%- set key = site | getObjectKey %}
 			<tr class="leaderboard-list-entry">
