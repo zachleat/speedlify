@@ -420,7 +420,8 @@ abbr {
 
 /* Category stats */
 .category-stats {
-	margin: 2em 0 4em;
+	margin: 2em auto 4em;
+	max-width: 25em; /* 400px /16 */
 }
 .category-stats,
 .category-stats-entry {
@@ -430,7 +431,6 @@ abbr {
 	align-items: center;
 }
 .category-stats-entry {
-	margin-left: 1em;
 	flex-basis: 17.5em; /* 280px /16 */
 }
 .category-stats dt {
