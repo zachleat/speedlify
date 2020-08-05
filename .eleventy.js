@@ -292,7 +292,7 @@ module.exports = function(eleventyConfig) {
 
 	eleventyConfig.addFilter("calc", calc);
 
-	eleventyConfig.addPairedShortcode("starterMessage", (htmlContent, results) => {
+	eleventyConfig.addPairedShortcode("starterMessage", (htmlContent) => {
 		if(process.env.SITE_NAME !== "speedlify") {
 			return htmlContent;
 		}
