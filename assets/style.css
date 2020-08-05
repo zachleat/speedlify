@@ -417,3 +417,33 @@ abbr {
 	stroke: var(--speedlify-color-6);
 }
 
+
+/* Category stats */
+.category-stats {
+	margin: 2em 0 4em;
+}
+.category-stats,
+.category-stats-entry {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+.category-stats-entry {
+	margin-left: 1em;
+	flex-basis: 17.5em; /* 280px /16 */
+}
+.category-stats dt {
+	flex-grow: 999;
+	text-align: right;
+}
+.category-stats dd {
+	flex-grow: 1;
+	flex-basis: 4.375em; /* 140px /32 */
+	text-align: right;
+	margin: 0 0 0 .5em;
+	font-size: 2em;
+}
+.category-stats dd span {
+	font-weight: 100;
+}

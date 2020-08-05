@@ -4,6 +4,14 @@ const lodash = require("lodash");
 const getObjectKey = require("./utils/getObjectKey.js");
 const calc = require("./utils/calc.js");
 
+function hasUrl(urls, url) {
+	if(urls.indexOf(url) > -1 || url.endsWith("/") && urls.indexOf(url.substr(0, url.length - 1)) > -1) {
+		return true;
+	}
+
+	return false;
+}
+
 function showDigits(num, digits = 2, alwaysShowDigits = true) {
 	let toNum = parseFloat(num);
 	if(!alwaysShowDigits && toNum === Math.floor(toNum)) {
@@ -108,13 +116,35 @@ module.exports = function(eleventyConfig) {
 
 	eleventyConfig.addFilter("sortCumulativeScore", (obj) => {
 		return obj.sort((a, b) => {
+
 			let newestKeyA = Object.keys(a).sort().pop();
 			let newestKeyB = Object.keys(b).sort().pop();
+
+			// Lighthouse error
+			// e.g. { url: 'https://mangoweb.net/', error: 'Unknown error.' }
+			if(b[newestKeyB].error && a[newestKeyA].error) {
+				return 0;
+			} else if(b[newestKeyB].error) {
+				return -1;
+			} else if(a[newestKeyA].error) {
+				return 1;
+			}
 
 			if(a[newestKeyA].lighthouse.total !== b[newestKeyB].lighthouse.total) {
 				// higher is better
 				return b[newestKeyB].lighthouse.total - a[newestKeyA].lighthouse.total;
 			}
+
+			// Axe error
+			// axe: { error: { name: 'TimeoutError' } } }
+			if(b[newestKeyB].axe.error && a[newestKeyA].axe.error) {
+				return 0;
+			} else if(b[newestKeyB].axe.error) {
+				return -1;
+			} else if(a[newestKeyA].axe.error) {
+				return 1;
+			}
+
 			if(a[newestKeyA].axe.violations !== b[newestKeyB].axe.violations) {
 				// lower is better
 				return a[newestKeyA].axe.violations - b[newestKeyB].axe.violations;
@@ -169,20 +199,35 @@ module.exports = function(eleventyConfig) {
 
 	eleventyConfig.addFilter("getObjectKey", getObjectKey);
 
-	eleventyConfig.addFilter("filterToUrls", (obj, urls = []) => {
+	function filterResultsToUrls(obj, urls = [], skipKeys = []) {
 		let arr = [];
 		for(let key in obj) {
+			if(skipKeys.indexOf(key) > -1) {
+				continue;
+			}
+
 			let result;
 			for(let filename in obj[key]) {
 				result = obj[key][filename];
 				break;
 			}
-			if(urls.indexOf(result.requestedUrl) > -1) {
+
+			if(urls === true || hasUrl(urls, result.requestedUrl || result.url)) {
 				arr.push(obj[key]);
 			}
 		}
 		return arr;
+	}
+
+	eleventyConfig.addFilter("getSites", (results, sites, vertical, skipKeys = []) => {
+		let urls = sites[vertical].urls;
+		let isIsolated = sites[vertical].options && sites[vertical].options.isolated === true;
+		let prunedResults = isIsolated ? results[vertical] : results;
+		return filterResultsToUrls(prunedResults, urls, skipKeys);
 	});
+
+	// Deprecated, use `getSites` instead, it works with isolated categories
+	eleventyConfig.addFilter("filterToUrls", filterResultsToUrls);
 
 	eleventyConfig.addFilter("hundoCount", (entry) => {
 		let count = 0;
@@ -200,6 +245,31 @@ module.exports = function(eleventyConfig) {
 		}
 
 		return count;
+	});
+
+	eleventyConfig.addFilter("hundoCountTotals", (counts, entry) => {
+		if(!entry.error && !isNaN(entry.lighthouse.performance)) {
+			counts.total++;
+		}
+
+		if(entry.lighthouse.performance === 1) {
+			counts.performance++;
+		}
+		if(entry.lighthouse.accessibility === 1) {
+			counts.accessibility++;
+		}
+		if(entry.lighthouse.bestPractices === 1) {
+			counts.bestPractices++;
+		}
+		if(entry.lighthouse.seo === 1) {
+			counts.seo++;
+		}
+
+		if(entry.lighthouse.performance === 1 && entry.lighthouse.accessibility === 1 && entry.lighthouse.bestPractices === 1 && entry.lighthouse.seo === 1) {
+			counts.perfect++;
+		}
+
+		return counts;
 	});
 
 	eleventyConfig.addFilter("lighthouseTotal", getLighthouseTotal);
