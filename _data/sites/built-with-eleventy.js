@@ -22,7 +22,7 @@ module.exports = async function() {
 			// results!
 			isolated: true,
 
-			// Data directory
+			// Data directory, results go into `_data/manual`
 			useManualResultsDir: true,
 
 			runs: 3,
