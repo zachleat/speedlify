@@ -14,8 +14,8 @@ module.exports = async function() {
 		// this one is localhost only.
 		skip: process.env.CONTEXT,
 
-		// Hide from category list
-		hide: process.env.SITE_NAME !== "speedlify",
+		// Hide from category list when hosted
+		hide: process.env.CONTEXT && process.env.SITE_NAME !== "speedlify",
 
 		options: {
 			// You probably won’t need this, unless the same URL lives in multiple
