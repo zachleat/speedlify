@@ -439,10 +439,12 @@ abbr {
 }
 .category-stats dd {
 	flex-grow: 1;
-	flex-basis: 4.375em; /* 140px /32 */
+	flex-basis: 4.6875em; /* 150px /32 */
 	text-align: right;
 	margin: 0 0 0 .5em;
 	font-size: 2em;
+	font-variant-numeric: tabular-nums;
+	font-weight: 700;
 }
 .category-stats dd span {
 	font-weight: 100;
