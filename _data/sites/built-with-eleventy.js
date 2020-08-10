@@ -18,6 +18,9 @@ module.exports = async function() {
 		hide: process.env.CONTEXT && process.env.SITE_NAME !== "speedlify",
 
 		options: {
+			// Don’t show speedlify score or rank for sites with more than 2 or more yellow circles
+			noShame: true,
+
 			// You probably won’t need this, unless the same URL lives in multiple
 			// verticals/categories share the same URLs.
 
@@ -26,12 +29,12 @@ module.exports = async function() {
 			// results!
 			isolated: true,
 
-			// Data directory, results go into `_data/manual`
+			// Data directory, results go into `_data/manual` instead of `_data/results`
 			useManualResultsDir: true,
 
 			runs: 3,
-			// frequency: 60 * 24 * 7 - 30, // 7 days - 30 minutes
-			frequency: 1, // 1 minute
+			frequency: 60 * 24 * 1 - 30, // 1 day - 30 minutes
+
 			// Use "run" if the sites don’t share assets on the same origin
 			//           and we can reset chrome with each run instead of
 			//           each site in every run (it’s faster)

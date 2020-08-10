@@ -247,6 +247,24 @@ module.exports = function(eleventyConfig) {
 		return count;
 	});
 
+	eleventyConfig.addFilter("notGreenCircleCount", (entry) => {
+		let count = 0;
+		if(entry.lighthouse.performance < .9) {
+			count++;
+		}
+		if(entry.lighthouse.accessibility < .9) {
+			count++;
+		}
+		if(entry.lighthouse.bestPractices < .9) {
+			count++;
+		}
+		if(entry.lighthouse.seo < .9) {
+			count++;
+		}
+
+		return count;
+	});
+
 	eleventyConfig.addFilter("hundoCountTotals", (counts, entry) => {
 		if(!entry.error && !isNaN(entry.lighthouse.performance)) {
 			counts.total++;
