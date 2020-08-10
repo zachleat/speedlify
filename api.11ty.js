@@ -20,9 +20,15 @@ class ApiEntry {
 		if(!resultSet) {
 			return false;
 		}
+
 		let newestKey = getObjectKey(resultSet, ":newest");
 		if(!newestKey) {
 			return false;
+		}
+
+		let secondNewestKey = getObjectKey(resultSet, ":secondnewest");
+		if(resultSet[secondNewestKey]) {
+			resultSet[newestKey].previousRanks = resultSet[secondNewestKey].ranks;
 		}
 		return JSON.stringify(resultSet[newestKey], null, 2);
 	}
