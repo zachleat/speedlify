@@ -45,7 +45,7 @@ counts:
 			{% endif %}
 			<tr class="leaderboard-list-entry">
 				<td class="leaderboard-number">{% if showRank %}#{{ loop.index }}{% endif %}</td>
-				<td class="leaderboard-hide-md">{% if hundos === 4 %}🏆{% endif %}{% if loop.index0 === 0 %}🥇{% elseif loop.index0 === 1 %}🥈{% elseif loop.index0 === 2 %}🥉{% endif %}</td>
+				<td class="leaderboard-hide-md leaderboard-trophies">{% if hundos === 4 %}🏆{% endif %}{% if loop.index0 === 0 %}🥇{% elseif loop.index0 === 1 %}🥈{% elseif loop.index0 === 2 %}🥉{% endif %}</td>
 				<td class="leaderboard-url"><a href="{{ site[newestKey].url }}"><code class="url">{{ site[newestKey].url | displayUrl }}</code></a></td>
 			{%- if site[newestKey].error %}
 				<td colspan="2"><strong>Error</strong></td>
