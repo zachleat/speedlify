@@ -2,9 +2,6 @@
   publish = "_site"
   command = "npm run build-production"
 
-[[plugins]]
-package = "./plugins/keep-data-cache"
-
 [[headers]]
   for = "/api/*"
     [headers.values]
