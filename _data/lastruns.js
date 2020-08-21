@@ -1,3 +1,10 @@
 // Nunjucks workaround for dashes in global `results-last-runs.json` variable name
 
-module.exports = require("./results-last-runs.json");
+let lastruns = {};
+
+try {
+	lastruns = require("./results-last-runs.json");
+} catch(e) {
+}
+
+module.exports = lastruns;
