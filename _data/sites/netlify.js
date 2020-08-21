@@ -23,7 +23,13 @@ module.exports = {
 		"https://www.netlify.com/partners/agency/",
 		"https://www.netlify.com/careers/",
 		"https://www.netlify.com/pricing/",
+		"https://www.netlify.com/pricing/pro/",
+		"https://www.netlify.com/pricing/business/",
+		"https://www.netlify.com/privacy/",
+		"https://www.netlify.com/gdpr-ccpa/",
+		"https://www.netlify.com/with/gatsby/",
 		"https://jamstackconf.com/",
 		"https://jamstackconf.com/virtual/",
+		"https://headlesscommercesummit.com/",
 	]
 };
