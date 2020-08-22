@@ -15,7 +15,7 @@
 		<p class="speedlify-subhed">
 			Benchmark {{ sites[vertical].description or "web pages" }} over time.
 			{%- if maxResults %}
-				{% if not sites[vertical].options.useManualResultsDir %}Updates <em>at most</em> once every {{ sites[vertical].options.frequency or 60 }} minutes. {% endif %}Only the last {{ maxResults }} result{% if maxResults != 1 %}s{% endif %} (and the oldest result) are shown.
+				Updates every two weeks on Sunday. Only the last {{ maxResults }} result{% if maxResults != 1 %}s{% endif %} (and the oldest result) are shown.
 			{% endif %}
 			Created by <a href="https://www.zachleat.com/">@zachleat</a>.
 		</p>
