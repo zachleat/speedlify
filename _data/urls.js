@@ -7,6 +7,8 @@ module.exports = async function() {
 	});
 
 	let sites = {};
+	// TODO what if a site is in multiple categories?
+	// TODO api JSON ranks should be dependent on category
 	for(let file of categories) {
 		let category = file.split("/").pop().replace(/\.js$/, "");
 		let categoryData = require(`./sites/${category}.js`);
