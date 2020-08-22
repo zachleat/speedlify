@@ -5,7 +5,10 @@ const getObjectKey = require("./utils/getObjectKey.js");
 const calc = require("./utils/calc.js");
 
 function hasUrl(urls, url) {
-	if(urls.indexOf(url) > -1 || url.endsWith("/") && urls.indexOf(url.substr(0, url.length - 1)) > -1) {
+	url = url.toLowerCase();
+	let lowercaseUrls = urls.map(url => url.toLowerCase());
+
+	if(lowercaseUrls.indexOf(url) > -1 || url.endsWith("/") && lowercaseUrls.indexOf(url.substr(0, url.length - 1)) > -1) {
 		return true;
 	}
 
