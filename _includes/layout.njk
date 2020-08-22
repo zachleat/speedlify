@@ -11,9 +11,12 @@
 		</script>
 	</head>
 	<body>
-		<h1 class="speedlify-hed"><a href="/">Eleventy</a> Leaderboards</h1>
+		<h1 class="speedlify-hed">Eleventy Leaderboards</h1>
 		<p class="speedlify-subhed">
-			Return to <a href="/docs/">the Eleventy Documentation</a>. Benchmark {{ sites[vertical].description or "web pages" }} over time. Updates every two weeks on Sunday.
+			Return to the <a href="/docs/">Eleventy Documentation</a>.
+		</p>
+		<p class="speedlify-subhed">
+			Benchmark {{ sites[vertical].description or "web pages" }} over time. Updates every two weeks on Sunday.
 			{%- if maxResults %}
 				Only the last {{ maxResults }} result{% if maxResults != 1 %}s{% endif %} (and the oldest result) are shown.
 			{% endif %}
