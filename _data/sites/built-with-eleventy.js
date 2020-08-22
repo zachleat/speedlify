@@ -8,7 +8,7 @@ module.exports = async function() {
 	});
 
 	return {
-		name: "built-with-eleventy", // optional, falls back to object key
+		name: "speedlify",
 		description: "Web Sites Built with Eleventy",
 
 		// don’t run in Production or on Branch/Deploy previews
