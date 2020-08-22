@@ -18,11 +18,13 @@ class ApiEntry {
 	render(data) {
 		let resultSet = data.results[data.site.hash];
 		if(!resultSet) {
+			// TODO better error message here, returns `false` string
 			return false;
 		}
 
 		let newestKey = getObjectKey(resultSet, ":newest");
 		if(!newestKey) {
+			// TODO better error message here, returns `false` string
 			return false;
 		}
 

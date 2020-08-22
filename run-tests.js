@@ -114,13 +114,9 @@ async function tryToPreventNetlifyBuildTimeout(dateTestsStarted, numberOfUrls) {
 
 		let promises = [];
 		for(let result of results) {
-			let id = shortHash(result.url);
+			let id = shortHash(result.requestedUrl);
 			let isIsolated = group.options && group.options.isolated;
 			let dir = `${dataDir}results/${isIsolated ? `${key}/` : ""}${id}/`;
-
-			if(group.options && group.options.useManualResultsDir) {
-				dir = path.join(dataDir, "manual", key, id);
-			}
 
 			let filename = `${dir}date-${dateTestsStarted}.json`;
 			await fs.mkdir(dir, { recursive: true });
