@@ -5,7 +5,7 @@ class ApiUrls {
 		return {
 			layout: false,
 			permalink: function(data) {
-				return `/api/urls.json`;
+				return `/speedlify/api/urls.json`;
 			}
 		};
 	}

@@ -3,6 +3,6 @@
   command = "npm run build"
 
 [[headers]]
-  for = "/api/*"
+  for = "/speedlify/api/*"
     [headers.values]
     Access-Control-Allow-Origin = "*"
