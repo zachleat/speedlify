@@ -113,6 +113,19 @@ abbr {
 .leaderboard-url {
 	width: 100%;
 }
+.leaderboard-redirect-error,
+.leaderboard-redirect-warn {
+	text-transform: uppercase;
+	font-size: 0.75em; /* 12px /16 */
+	font-weight: 900;
+	margin-left: 1em;
+}
+.leaderboard-redirect-warn {
+	color: hsl(58, 100%, 71%);
+}
+.leaderboard-redirect-error {
+	color: hsl(1, 100%, 58%);
+}
 .leaderboard-list {
 	width: auto;
 	margin-left: auto;
