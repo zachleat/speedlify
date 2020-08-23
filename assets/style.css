@@ -118,6 +118,15 @@ abbr {
 	font-weight: 900;
 	margin-left: 1em;
 }
+.leaderboard-redirect-error:before {
+	content: "⛔️ ";
+}
+.leaderboard-redirect-warn:before {
+	content: "⚠️ ";
+}
+.leaderboard-redirect-warn code {
+	text-transform: none;
+}
 .leaderboard-redirect-warn {
 	color: hsl(58, 100%, 71%);
 }
