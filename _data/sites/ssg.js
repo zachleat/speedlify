@@ -14,7 +14,7 @@ module.exports = {
 	},
 	urls: [
 		"https://www.11ty.dev/",
-		"https://www.gatsbyjs.org/",
+		"https://www.gatsbyjs.com/",
 		"https://gohugo.io/",
 		"https://nextjs.org/",
 		"https://nuxtjs.org/",
