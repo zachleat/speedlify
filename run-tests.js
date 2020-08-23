@@ -114,7 +114,7 @@ async function tryToPreventNetlifyBuildTimeout(dateTestsStarted, numberOfUrls) {
 
 		let promises = [];
 		for(let result of results) {
-			let id = shortHash(result.requestedUrl);
+			let id = shortHash(result.url);
 			let isIsolated = group.options && group.options.isolated;
 			let dir = `${dataDir}results/${isIsolated ? `${key}/` : ""}${id}/`;
 
