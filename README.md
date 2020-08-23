@@ -27,6 +27,11 @@ Speedlify will also save your data to `/results.zip` so that you can download la
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/7298a132-e366-460a-a4da-1ea352a4e790/deploy-status)](https://app.netlify.com/sites/speedlify/deploys)
 
+## Known Limitations
+
+* A single category has a max limit on the number of sites it can test, upper bound on how many tests it can complete in the 15 minute Netlify build limit.
+* The same URL cannot be listed in two different categories (yet).
+
 ## Pay for something better
 
 Speedlify is intended as a stepping stone to more robust performance monitoring solutions like:
