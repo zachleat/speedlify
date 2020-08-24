@@ -5,6 +5,7 @@ const getObjectKey = require("./utils/getObjectKey.js");
 const calc = require("./utils/calc.js");
 
 function hasUrl(urls, url, requestedUrl) {
+	// TODO lowercase just the origins
 	url = url.toLowerCase();
 	let lowercaseUrls = urls.map(url => url.toLowerCase());
 
