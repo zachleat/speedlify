@@ -143,6 +143,10 @@ abbr {
 .leaderboard-list-entry {
 	border-top: 1px solid #888;
 }
+.leaderboard-list-entry-badrank {
+	border-top: 1px solid hsl(333, 100%, 50%);
+	border-bottom: 1px solid hsl(333, 100%, 50%);
+}
 .js .leaderboard-list-entry-details:not(.expanded) {
 	display: none;
 }

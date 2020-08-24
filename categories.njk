@@ -37,8 +37,10 @@ counts:
 				{%- set notGreenCircleCount = site[newestKey] | notGreenCircleCount %}
 				{%- if notGreenCircleCount >= 3 and sites[vertical].options and sites[vertical].options.noShame %}{% set showRank = false %}{% endif %}
 			{% endif %}
-			<tr class="leaderboard-list-entry">
-				<td class="leaderboard-number">{% if showRank %}#{{ loop.index }}{% endif %}</td>
+			<tr class="leaderboard-list-entry{% if site[newestKey].ranks and loop.index != site[newestKey].ranks.cumulative %} leaderboard-list-entry-badrank{% endif %}">
+				<td class="leaderboard-number">
+					{% if showRank %}#{{ loop.index }}{% endif %}
+				</td>
 				<td class="leaderboard-hide-md leaderboard-trophies">{% if hundos === 4 %}🏆{% endif %}{% if loop.index0 === 0 %}🥇{% elseif loop.index0 === 1 %}🥈{% elseif loop.index0 === 2 %}🥉{% endif %}</td>
 				<td class="leaderboard-url"><a href="{{ site[newestKey].url }}"><code class="url">{{ site[newestKey].url | displayUrl }}</code></a>
 					{%- if site[newestKey].requestedUrl and site[newestKey].url != site[newestKey].requestedUrl %}<span class="leaderboard-redirect-warn">Redirect from <code class="url">{{ site[newestKey].requestedUrl | displayUrl(false) }}</code></span>{% endif -%}

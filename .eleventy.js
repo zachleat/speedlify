@@ -4,17 +4,11 @@ const lodash = require("lodash");
 const getObjectKey = require("./utils/getObjectKey.js");
 const calc = require("./utils/calc.js");
 
-function hasUrl(urls, url, requestedUrl) {
+function hasUrl(urls, requestedUrl) {
+	// urls comes from sites[vertical].urls, all requestedUrls (may not include trailing slash)
+
 	// TODO lowercase just the origins
 	let lowercaseUrls = urls.map(url => url.toLowerCase());
-
-	if(url && typeof url === "string") {
-		// TODO lowercase just the origins
-		url = url.toLowerCase();
-		if(lowercaseUrls.indexOf(url) > -1 || url.endsWith("/") && lowercaseUrls.indexOf(url.substr(0, url.length - 1)) > -1) {
-			return true;
-		}
-	}
 
 	if(requestedUrl && typeof requestedUrl === "string") {
 		// TODO lowercase just the origins
@@ -147,27 +141,8 @@ module.exports = function(eleventyConfig) {
 				return 1;
 			}
 
-			if(a[newestKeyA].lighthouse.total !== b[newestKeyB].lighthouse.total) {
-				// higher is better
-				return b[newestKeyB].lighthouse.total - a[newestKeyA].lighthouse.total;
-			}
-
-			// Axe error
-			// axe: { error: { name: 'TimeoutError' } } }
-			if(b[newestKeyB].axe.error && a[newestKeyA].axe.error) {
-				return 0;
-			} else if(b[newestKeyB].axe.error) {
-				return -1;
-			} else if(a[newestKeyA].axe.error) {
-				return 1;
-			}
-
-			if(a[newestKeyA].axe.violations !== b[newestKeyB].axe.violations) {
-				// lower is better
-				return a[newestKeyA].axe.violations - b[newestKeyB].axe.violations;
-			}
-			// lower speed index, higher page weight is better
-			return a[newestKeyA].speedIndex / a[newestKeyA].weight.total - b[newestKeyB].speedIndex / b[newestKeyB].weight.total;
+			// lower is better
+			return a[newestKeyA].ranks.cumulative - b[newestKeyB].ranks.cumulative;
 		});
 	});
 
@@ -224,12 +199,10 @@ module.exports = function(eleventyConfig) {
 			}
 
 			let result;
-			for(let filename in obj[key]) {
-				result = obj[key][filename];
-				break;
-			}
-
-			if(urls === true || hasUrl(urls, result.url, result.requestedUrl)) {
+			let newestFilename = Object.keys(obj[key]).sort().pop();
+			result = obj[key][newestFilename];
+			// urls comes from sites[vertical].urls, all requestedUrls (may not include trailing slash)
+			if(urls === true || result && hasUrl(urls, result.requestedUrl)) {
 				arr.push(obj[key]);
 			}
 		}
