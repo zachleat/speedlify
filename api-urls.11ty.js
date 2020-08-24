@@ -11,7 +11,11 @@ class ApiUrls {
 	}
 
 	render(data) {
-		return JSON.stringify(data.urlsForApi, null, 2);
+		let resultData = {};
+		for(let urlData of data.urlsForApi) {
+			resultData[urlData.requestedUrl] = urlData;
+		}
+		return JSON.stringify(resultData, null, 2);
 	}
 }
 
