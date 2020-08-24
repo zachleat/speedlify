@@ -6,7 +6,7 @@ class ApiEntry {
 			layout: false,
 			pagination: {
 				size: 1,
-				data: "urls",
+				data: "urlsForApi",
 				alias: "site"
 			},
 			permalink: function(data) {
