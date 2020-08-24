@@ -94,8 +94,10 @@ module.exports = function(eleventyConfig) {
 		return arr;
 	});
 
-	eleventyConfig.addFilter("displayUrl", function(url) {
-		url = url.replace("https://www.", "");
+	eleventyConfig.addFilter("displayUrl", function(url, removeWww = true) {
+		if(removeWww) {
+			url = url.replace("https://www.", "");
+		}
 		url = url.replace("https://", "");
 		if(url.endsWith("/index.html")) {
 			url = url.replace("/index.html", "/");
