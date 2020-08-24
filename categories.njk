@@ -42,8 +42,9 @@ counts:
 					{% if showRank %}#{{ loop.index }}{% endif %}
 				</td>
 				<td class="leaderboard-hide-md leaderboard-trophies">{% if hundos === 4 %}🏆{% endif %}{% if loop.index0 === 0 %}🥇{% elseif loop.index0 === 1 %}🥈{% elseif loop.index0 === 2 %}🥉{% endif %}</td>
-				<td class="leaderboard-url"><a href="{{ site[newestKey].url }}"><code class="url">{{ site[newestKey].url | displayUrl }}</code></a>
-					{%- if site[newestKey].requestedUrl and site[newestKey].url != site[newestKey].requestedUrl %}<span class="leaderboard-redirect-warn">Redirect from <code class="url">{{ site[newestKey].requestedUrl | displayUrl(false) }}</code></span>{% endif -%}
+				{%- set hasRedirect = site[newestKey].requestedUrl and site[newestKey].url != site[newestKey].requestedUrl %}
+				<td class="leaderboard-url"><a href="{{ site[newestKey].url }}"><code class="url">{{ site[newestKey].url | displayUrl(hasRedirect) }}</code></a>
+					{%- if hasRedirect %}<span class="leaderboard-redirect-warn">Redirect from <code class="url">{{ site[newestKey].requestedUrl | displayUrl(true) }}</code></span>{% endif -%}
 					{%- if site[newestKey].error %}<span class="leaderboard-redirect-error">Error</span>{% endif -%}
 				</td>
 			{%- if site[newestKey].error %}
