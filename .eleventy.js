@@ -88,8 +88,8 @@ module.exports = function(eleventyConfig) {
 		return arr;
 	});
 
-	eleventyConfig.addFilter("displayUrl", function(url, removeWww = true) {
-		if(removeWww) {
+	eleventyConfig.addFilter("displayUrl", function(url, keepWww = false) {
+		if(!keepWww) {
 			url = url.replace("https://www.", "");
 		}
 		url = url.replace("https://", "");
