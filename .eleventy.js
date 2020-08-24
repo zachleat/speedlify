@@ -4,11 +4,15 @@ const lodash = require("lodash");
 const getObjectKey = require("./utils/getObjectKey.js");
 const calc = require("./utils/calc.js");
 
-function hasUrl(urls, url) {
+function hasUrl(urls, url, requestedUrl) {
 	url = url.toLowerCase();
 	let lowercaseUrls = urls.map(url => url.toLowerCase());
 
 	if(lowercaseUrls.indexOf(url) > -1 || url.endsWith("/") && lowercaseUrls.indexOf(url.substr(0, url.length - 1)) > -1) {
+		return true;
+	}
+
+	if(lowercaseUrls.indexOf(requestedUrl) > -1 || requestedUrl.endsWith("/") && lowercaseUrls.indexOf(requestedUrl.substr(0, requestedUrl.length - 1)) > -1) {
 		return true;
 	}
 
@@ -215,7 +219,7 @@ module.exports = function(eleventyConfig) {
 				break;
 			}
 
-			if(urls === true || hasUrl(urls, result.requestedUrl || result.url)) {
+			if(urls === true || hasUrl(urls, result.url, result.requestedUrl)) {
 				arr.push(obj[key]);
 			}
 		}

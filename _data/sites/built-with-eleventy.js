@@ -19,7 +19,7 @@ module.exports = async function() {
 		hide: false,
 
 		options: {
-			// Don’t show speedlify score or rank for sites with more than 2 or more yellow circles
+			// Don’t show speedlify score or rank for sites with more than 2 yellow circles
 			noShame: true,
 		},
 		urls: urlsJson
