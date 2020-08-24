@@ -29,7 +29,8 @@ Speedlify will also save your data to `/results.zip` so that you can download la
 
 ## Known Limitations
 
-* A single category has a max limit on the number of sites it can test, upper bound on how many tests it can complete in the 15 minute Netlify build limit.
+* If you change a URL to remove a redirect (to remove or add a `www.`, moved domains, etc), you probably want to delete the old URL’s data otherwise you’ll have two entries in the results list.
+* When running on Netlify, a single category has a max limit on the number of sites it can test, upper bound on how many tests it can complete in the 15 minute Netlify build limit.
 * The same URL cannot be listed in two different categories (yet).
 
 ## Pay for something better
