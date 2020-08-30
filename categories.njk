@@ -51,7 +51,11 @@ counts:
 				<td colspan="2"></td>
 			{%- else %}
 				{%- set counts = counts | hundoCountTotals(site[newestKey]) %}
-				<td class="leaderboard-score">{% if showRank %}<speedlify-score class="leaderboard-score-circles{% if hundos === 4 %} leaderboard-score-circles-400{% endif %}" raw-data='{{ site[newestKey] | toJSON | safe }}'></speedlify-score><span class="leaderboard-score-sum leaderboard-number">{% if hundos === 4 %}😍{% else %}{{ site[newestKey] | lighthouseTotal }}{% endif %}</span>{% endif %}</td>
+				<td class="leaderboard-score">
+					{%- if showRank -%}
+					<speedlify-score class="leaderboard-score-circles{% if hundos === 4 %} leaderboard-score-circles-400{% endif %}" raw-data='{{ site[newestKey] | toJSON | safe }}'></speedlify-score><span class="leaderboard-score-sum leaderboard-number">{% if hundos === 4 %}😍{% else %}{{ site[newestKey] | lighthouseTotal }}{% endif %}</span>
+					{%- endif -%}
+				</td>
 				<td class="leaderboard-data-right"><a href="#details-{{ site[key].url | shortHash }}" data-expand-alias data-js-only><span class="leaderboard-expand-icon"></span> Data<span class="leaderboard-hide-md"> and Graphs</span></a></td>
 			{%- endif %}
 			</tr>
@@ -61,6 +65,21 @@ counts:
 				<td colspan="6">
 					<details class="leaderboard-details" id="details-{{ site[key].url | shortHash }}">
 						<summary>Show Data</summary>
+						{%- if showRank -%}
+						<details class="pommel-source">
+							<summary>Embed Lighthouse Score</summary>
+							{%- highlight "html" %}
+<!-- Warning this widget may impact performance! -->
+<!-- Async CSS -->
+<link rel="stylesheet" href="https://unpkg.com/speedlify-score@1.0.2/speedlify-score.css" media="print" onload="this.media='all'">
+{#- <noscript><link href="https://unpkg.com/speedlify-score@1.0.2/speedlify-score.css" rel="stylesheet"></noscript> #}
+<!-- Async JS -->
+<script src="https://unpkg.com/speedlify-score@1.0.2/speedlify-score.js" async defer></script>
+<!-- Web component -->
+<speedlify-score speedlify-url="https://www.11ty.dev/speedlify" hash="{{ site[key].url | shortHash }}"></speedlify-score>
+							{%- endhighlight %}
+						</details>
+						{%- endif -%}
 						<div class="layout color--lighthouse">
 							<div class="tablewrap">
 								<table data-make-chart class="results">

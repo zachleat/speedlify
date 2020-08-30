@@ -476,3 +476,33 @@ abbr {
 .category-stats dd span {
 	font-weight: 100;
 }
+
+/* Pommel source */
+.pommel-source {
+	overflow: hidden;
+	border-radius: 0;
+}
+.pommel-source[open] {
+	margin-bottom: 1em;
+}
+.pommel-source summary {
+	border-color: transparent;
+	text-transform: none;
+	color: #aaa;
+	float: right;
+}
+.pommel-source summary + pre {
+	clear: both;
+}
+.pommel-source[open] summary {
+	border-radius: 4px 0 0 0;
+}
+.pommel-source pre[class*="language-"] {
+	border-radius: 0;
+}
+.pommel-source pre[class*="language-"] code {
+	white-space: pre-wrap;
+	-ms-word-break: break-all;
+	word-break: break-all;
+	word-break: break-word;
+}

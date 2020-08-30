@@ -69,13 +69,19 @@ for(let detail of details) {
   //   first = false;
   // }
   detail.addEventListener("toggle", function(e) {
+    if(e.target.classList.contains("pommel-source")) {
+      return;
+    }
+
     let open = e.target.hasAttribute("open");
     if(open) {
       initializeAllTables(e.target);
     }
     let row = e.target.closest(".leaderboard-list-entry-details");
-    row.classList.toggle("expanded", open);
-    row.previousElementSibling.classList.toggle("expanded", open);
+    if(row) {
+      row.classList.toggle("expanded", open);
+      row.previousElementSibling.classList.toggle("expanded", open);
+    }
   });
 }
 

@@ -1,3 +1,4 @@
+const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const byteSize = require("byte-size");
 const shortHash = require("short-hash");
 const lodash = require("lodash");
@@ -66,6 +67,8 @@ function getLighthouseTotal(entry) {
 }
 
 module.exports = function(eleventyConfig) {
+	eleventyConfig.addPlugin(syntaxHighlight);
+
 	eleventyConfig.addFilter("shortHash", shortHash);
 
 	eleventyConfig.addFilter("repeat", function(str, times) {
