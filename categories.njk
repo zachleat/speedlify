@@ -66,18 +66,12 @@ counts:
 					<details class="leaderboard-details" id="details-{{ site[key].url | shortHash }}">
 						<summary>Show Data</summary>
 						{%- if showRank -%}
-						<details class="pommel-source">
+						<details class="pommel-source speedlify-pommel-source">
 							<summary>Embed Lighthouse Score</summary>
 							{%- highlight "html" %}
-<!-- Warning this widget may impact performance! -->
-<!-- Async CSS -->
-<link rel="stylesheet" href="https://unpkg.com/speedlify-score@1.0.2/speedlify-score.css" media="print" onload="this.media='all'">
-{#- <noscript><link href="https://unpkg.com/speedlify-score@1.0.2/speedlify-score.css" rel="stylesheet"></noscript> #}
-<!-- Async JS -->
-<script src="https://unpkg.com/speedlify-score@1.0.2/speedlify-score.js" async defer></script>
-<!-- Web component -->
-<speedlify-score speedlify-url="https://www.11ty.dev/speedlify" hash="{{ site[key].url | shortHash }}"></speedlify-score>
+<speedlify-score speedlify-url="https://www.11ty.dev/speedlify" hash="{{ site[key].url | shortHash }}" score weight rank rank-change></speedlify-score>
 							{%- endhighlight %}
+							<p>Don’t forget to add <code>speedlify-score.css</code> and <code>speedlify-score.js</code> to your site assets. Read more at <a href="https://github.com/zachleat/speedlify-score/"><code>https://github.com/zachleat/speedlify-score/</code></a></p>
 						</details>
 						{%- endif -%}
 						<div class="layout color--lighthouse">
