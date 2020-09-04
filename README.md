@@ -39,3 +39,4 @@ Speedlify is intended as a stepping stone to more robust performance monitoring 
 
 * [SpeedCurve](https://speedcurve.com/)
 * [Calibre](https://calibreapp.com/)
+* [DebugBear](https://www.debugbear.com/)
