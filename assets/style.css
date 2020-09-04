@@ -122,7 +122,7 @@ abbr {
 .leaderboard-redirect-warn {
 	text-transform: uppercase;
 	font-size: 0.75em; /* 12px /16 */
-	font-weight: 900;
+	font-weight: 400;
 	margin-left: 1em;
 }
 .leaderboard-redirect-error:before {
@@ -476,15 +476,20 @@ abbr {
 	align-items: center;
 }
 .category-stats-entry {
-	flex-basis: 17.5em; /* 280px /16 */
+	flex-basis: 20em;
+	padding: 0 1em;
+}
+.category-stats dt,
+.category-stats dd {
+	flex-basis: 4.6875em; /* 150px /32 */
 }
 .category-stats dt {
 	flex-grow: 999;
+	min-width: 9.375em; /* 150px /16 */
 	text-align: right;
 }
 .category-stats dd {
 	flex-grow: 1;
-	flex-basis: 4.6875em; /* 150px /32 */
 	text-align: right;
 	margin: 0 0 0 .5em;
 	font-size: 2em;
