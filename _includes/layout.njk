@@ -5,13 +5,13 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Speedlify</title>
 		<meta name="description" content="Benchmark web pages over time.">
-		<link rel="stylesheet" href="/style.css">
+		<link rel="stylesheet" href="{{ '/style.css' | url }}">
 		<script>
 		document.documentElement.classList.add("js");
 		</script>
 	</head>
 	<body>
-		<h1 class="speedlify-hed"><a href="/">speedlify</a>{% if vertical %}:{{ vertical }}{% endif %}</h1>
+		<h1 class="speedlify-hed"><a href="{{ '/' | url }}">speedlify</a>{% if vertical %}:{{ vertical }}{% endif %}</h1>
 		<p class="speedlify-subhed">
 			Benchmark {{ sites[vertical].description or "web pages" }} over time.
 			{%- if maxResults %}
@@ -29,7 +29,7 @@
 			MIT licensed. Read <a href="https://www.zachleat.com/web/speedlify/">the blog post</a>. Source code on <a href="https://github.com/zachleat/speedlify/">GitHub</a>. Created by <a href="https://www.zachleat.com/">@zachleat</a>.
 		</footer>
 
-		<script defer src="/chartist.js"></script>
-		<script defer src="/script.js"></script>
+		<script defer src="{{ '/chartist.js' | url }}"></script>
+		<script defer src="{{ '/script.js' | url }}"></script>
 	</body>
 </html>

@@ -39,7 +39,7 @@ layout: layout.njk
 	{%- for key, category in sites %}
 		{%- if not category.hide %}
 		<tr>
-			<td><a href="/{{ (category.name or key) | lower | slug }}/">{{ category.description or category.name or key }}</a></td>
+			<td><a href="{{ ('/' + (category.name or key) | lower | slug + '/') | url }}">{{ category.description or category.name or key }}">{{ category.description or category.name or key }}</a></td>
 			<td><span class="count">×{{ category.urls.length }}<span class="leaderboard-hide-sm"> site{% if category.urls.length != 1 %}s{% endif %}</span></span></td>
 			<td class="leaderboard-hide-sm">{% if lastruns[key].timestamp %}<span class="small"><timestamp-ago timestamp="{{ lastruns[key].timestamp }}">{{ lastruns[key].timestamp | displayDate | safe }}</timestamp-ago></span>{% endif %}</td>
 		</tr>
