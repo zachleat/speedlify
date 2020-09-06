@@ -76,6 +76,7 @@ async function tryToPreventNetlifyBuildTimeout(dateTestsStarted, numberOfUrls, e
 			continue;
 		}
 
+		// TODO maybe skip this step if it’s the first build?
 		if(await tryToPreventNetlifyBuildTimeout(dateTestsStarted, group.urls.length, group.estimatedTimePerBuild)) {
 			// stop everything, we’re too close to the timeout
 			return;
