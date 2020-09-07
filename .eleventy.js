@@ -200,6 +200,9 @@ module.exports = function(eleventyConfig) {
 			if(skipKeys.indexOf(key) > -1) {
 				continue;
 			}
+			if(key && key.startsWith("_skip_")) {
+				continue;
+			}
 
 			let result;
 			let newestFilename = Object.keys(obj[key]).sort().pop();
