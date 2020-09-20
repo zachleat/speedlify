@@ -27,6 +27,7 @@ module.exports = {
 		"https://www.netlify.com/privacy/",
 		"https://www.netlify.com/gdpr-ccpa/",
 		"https://www.netlify.com/with/gatsby/",
+		"https://www.netlify.com/for/ecommerce/",
 		"https://www.netlify.com/",
 		"https://jamstackconf.com/",
 		"https://jamstackconf.com/virtual/",
