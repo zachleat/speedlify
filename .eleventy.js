@@ -14,7 +14,8 @@ function hasUrl(urls, requestedUrl) {
 	if(requestedUrl && typeof requestedUrl === "string") {
 		// TODO lowercase just the origins
 		requestedUrl = requestedUrl.toLowerCase();
-		if(lowercaseUrls.indexOf(requestedUrl) > -1 || requestedUrl.endsWith("/") && lowercaseUrls.indexOf(requestedUrl.substr(0, requestedUrl.length - 1)) > -1) {
+		if(lowercaseUrls.indexOf(requestedUrl) > -1 ||
+			requestedUrl.endsWith("/") && lowercaseUrls.indexOf(requestedUrl.substr(0, requestedUrl.length - 1)) > -1) {
 			return true;
 		}
 	}
