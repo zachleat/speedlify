@@ -30,7 +30,7 @@ module.exports = {
 		"https://www.netlify.com/for/ecommerce/",
 		"https://www.netlify.com/",
 		"https://jamstackconf.com/",
-		"https://jamstackconf.com/virtual/",
+		// "https://jamstackconf.com/virtual/", // redirect was breaking a thing
 		"https://headlesscommercesummit.com/",
 	]
 };
