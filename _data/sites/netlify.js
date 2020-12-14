@@ -13,12 +13,12 @@ module.exports = {
 		freshChrome: "site",
 	},
 	urls: [
-		"https://www.netlify.com/donation-matching/",
+		// "https://www.netlify.com/donation-matching/",
 		"https://www.netlify.com/products/build/plugins/",
 		"https://www.netlify.com/with/sitecore/",
 		"https://www.netlify.com/with/drupal/",
 		"https://www.netlify.com/with/wordpress/",
-		"https://www.netlify.com/webinar/a-drupal-journey-to-the-jamstack/",
+		// "https://www.netlify.com/webinar/a-drupal-journey-to-the-jamstack/",
 		"https://www.netlify.com/partners/agency/",
 		"https://www.netlify.com/careers/",
 		"https://www.netlify.com/pricing/",
@@ -32,5 +32,6 @@ module.exports = {
 		"https://jamstackconf.com/",
 		// "https://jamstackconf.com/virtual/", // redirect was breaking a thing
 		"https://headlesscommercesummit.com/",
+		"https://jamstack.org/",
 	]
 };
