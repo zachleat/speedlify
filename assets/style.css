@@ -310,6 +310,7 @@ abbr {
 .leaderboard-score-circles {
 	display: inline-flex;
 	margin-right: 8px;
+	flex-wrap: nowrap;
 }
 .leaderboard-score-sum {
 	display: inline-block;
