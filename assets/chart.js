@@ -41,11 +41,13 @@ function makeTable(table) {
       right: 40
     }
   };
-
-  new Chartist.Line(table.parentNode.nextElementSibling, {
-    labels: labels,
-    series: series
-  }, options);
+  let chartDiv = table.parentNode.nextElementSibling;
+  if(chartDiv && chartDiv.classList.contains("ct-chart")) {
+    new Chartist.Line(table.parentNode.nextElementSibling, {
+      labels: labels,
+      series: series
+    }, options);
+  }
 }
 
 function initializeAllTables(scope) {
