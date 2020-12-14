@@ -1,5 +1,7 @@
 ---
-maxResults: 10
+topCutoff: 50
+maxResultsTop: 12
+maxResultsRest: 3
 layout: layout.njk
 pagination:
   data: "sites"
@@ -36,7 +38,13 @@ counts:
 				{%- set hundos = site[newestKey] | hundoCount %}
 				{%- set notGreenCircleCount = site[newestKey] | notGreenCircleCount %}
 				{%- if notGreenCircleCount >= 3 and sites[vertical].options and sites[vertical].options.noShame %}{% set showRank = false %}{% endif %}
-			{% endif %}
+			{%- endif %}
+			{%- set isInTop = loop.index0 < topCutoff or hundos === 4 %}
+			{%- set maxResults = maxResultsRest %}
+			{%- if isInTop %}
+				{%- set maxResults = maxResultsTop %}
+			{%- endif %}
+
 			<tr class="leaderboard-list-entry{% if site[newestKey].ranks and loop.index != site[newestKey].ranks.cumulative %} leaderboard-list-entry-badrank{% endif %}" id="site-{{ site[key].url | shortHash }}">
 				<td class="leaderboard-number">
 					{%- if showRank %}<a href="#site-{{ site[key].url | shortHash }}" class="leaderboard-directlink"><span>#</span>{{ loop.index }}</a>{% endif -%}
@@ -52,11 +60,13 @@ counts:
 			{%- else %}
 				{%- set counts = counts | hundoCountTotals(site[newestKey]) %}
 				<td class="leaderboard-score">
-					{%- if showRank -%}
 					<speedlify-score class="leaderboard-score-circles{% if hundos === 4 %} leaderboard-score-circles-400{% endif %}" raw-data='{{ site[newestKey] | toJSON | safe }}'></speedlify-score><span class="leaderboard-score-sum leaderboard-number">{% if hundos === 4 %}😍{% else %}{{ site[newestKey] | lighthouseTotal }}{% endif %}</span>
+				</td>
+				<td class="leaderboard-data-right">
+					{%- if showRank -%}
+					<a href="#details-{{ site[key].url | shortHash }}" data-expand-alias data-js-only><span class="leaderboard-expand-icon"></span> Data<span class="leaderboard-hide-md"> and Graphs</span></a>
 					{%- endif -%}
 				</td>
-				<td class="leaderboard-data-right"><a href="#details-{{ site[key].url | shortHash }}" data-expand-alias data-js-only><span class="leaderboard-expand-icon"></span> Data<span class="leaderboard-hide-md"> and Graphs</span></a></td>
 			{%- endif %}
 			</tr>
 
@@ -126,7 +136,9 @@ counts:
 									</tbody>
 								</table>
 							</div>
+							{%- if isInTop %}
 							<div data-js-only class="ct-chart ct-double-octave"></div>
+							{%- endif %}
 						</div>
 
 						<div class="layout color--vitals">
@@ -173,7 +185,9 @@ counts:
 									</tbody>
 								</table>
 							</div>
+							{%- if isInTop %}
 							<div data-js-only class="ct-chart ct-double-octave"></div>
+							{%- endif %}
 						</div>
 
 						<div class="layout color--weight">
@@ -210,7 +224,9 @@ counts:
 									</tbody>
 								</table>
 							</div>
+							{%- if isInTop %}
 							<div data-js-only class="ct-chart ct-double-octave"></div>
+							{%- endif %}
 						</div>
 					</details>
 				</td>
