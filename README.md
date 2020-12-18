@@ -1,3 +1,5 @@
+![Daily Build](https://github.com/dnb-hugo/speedlify/workflows/Daily%20Build/badge.svg)
+
 # speedlify
 
 After you make a fast web site, keep it fast by measuring it over time. Read [Use Speedlify to Continuously Measure Site Performance](https://www.zachleat.com/web/speedlify/). Created by [@zachleat](https://www.zachleat.com/).
