@@ -1,4 +1,4 @@
-![Daily Build](https://github.com/dnb-hugo/speedlify/workflows/Daily%20Build/badge.svg)
+![Daily Build](https://github.com/dnb-hugo/speedlify/workflows/Daily%20Build/badge.svg) [![Netlify Status](https://api.netlify.com/api/v1/badges/1fcfb1be-8ca5-4f7f-a653-9385bc64473c/deploy-status)](https://app.netlify.com/sites/dnb-hugo-speedlify/deploys)
 
 # speedlify
 
