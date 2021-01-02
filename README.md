@@ -29,6 +29,7 @@ Speedlify will also save your data to `/results.zip` so that you can download la
 
 ## Show off scores in README's
 
+![Custom badge](https://img.shields.io/endpoint?url=https%3A%2F%2F5feffb7d42d898fad979e6ef--cocky-engelbart-56fc92.netlify.app%2Fapi%2Fb2d9d426-shield.json)
 
 ## Known Limitations
 
