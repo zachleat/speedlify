@@ -27,6 +27,10 @@ Speedlify will also save your data to `/results.zip` so that you can download la
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/7298a132-e366-460a-a4da-1ea352a4e790/deploy-status)](https://app.netlify.com/sites/speedlify/deploys)
 
+## Show off scores in README's
+
+![Custom badge](https://img.shields.io/endpoint?url=https%3A%2F%2F5feffb7d42d898fad979e6ef--cocky-engelbart-56fc92.netlify.app%2Fapi%2Fb2d9d426-shield.json)
+
 ## Known Limitations
 
 * If you change a URL to remove a redirect (to remove or add a `www.`, moved domains, etc), you probably want to delete the old URL’s data otherwise you’ll have two entries in the results list.
