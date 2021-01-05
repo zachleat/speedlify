@@ -5,5 +5,6 @@ module.exports = {
         frequency: 60 * 23, // 23 hours
         freshChrome: 'site'
     },
-    urls: ['https://eleventastic.netlify.app/']
+    urls: ['https://eleventastic.netlify.app/'],
+    skip: false
 }

@@ -15,5 +15,6 @@ module.exports = {
         'https://mxb.dev/blog/color-theme-switcher/',
         'https://mxb.dev/blog/using-webmentions-on-static-sites/',
         'https://mxb.dev/blog/emergency-website-kit/'
-    ]
+    ],
+    skip: false
 }
