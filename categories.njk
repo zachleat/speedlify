@@ -18,8 +18,10 @@ counts:
 	<table class="leaderboard">
 		<thead>
 			<tr>
+{%- if not sites[vertical].unordered %}
 				<th>Rank</th>
 				<th class="leaderboard-hide-md">Trophy</th>
+{%- endif %}
 				<th>URL</th>
 				<th class="leaderboard-score">Lighthouse</th>
 				<th class="leaderboard-data-right"><span data-sr-only>Data and Graphs</span></th>
@@ -37,11 +39,16 @@ counts:
 				{%- set notGreenCircleCount = site[newestKey] | notGreenCircleCount %}
 				{%- if notGreenCircleCount >= 3 and sites[vertical].options and sites[vertical].options.noShame %}{% set showRank = false %}{% endif %}
 			{% endif %}
-			<tr class="leaderboard-list-entry{% if site[newestKey].ranks and loop.index != site[newestKey].ranks.cumulative %} leaderboard-list-entry-badrank{% endif %}" id="site-{{ site[key].url | shortHash }}">
+			<tr class="leaderboard-list-entry{% if not sites[vertical].unordered and site[newestKey].ranks and loop.index != site[newestKey].ranks.cumulative %} leaderboard-list-entry-badrank{% endif %}" id="site-{{ site[key].url | shortHash }}">
+{%- if not sites[vertical].unordered %}
 				<td class="leaderboard-number">
 					{%- if showRank %}<a href="#site-{{ site[key].url | shortHash }}" class="leaderboard-directlink"><span>#</span>{{ loop.index }}</a>{% endif -%}
 				</td>
-				<td class="leaderboard-hide-md leaderboard-trophies">{% if hundos === 4 %}🏆{% endif %}{% if loop.index0 === 0 %}🥇{% elseif loop.index0 === 1 %}🥈{% elseif loop.index0 === 2 %}🥉{% endif %}</td>
+				<td class="leaderboard-hide-md leaderboard-trophies">
+					{%- if hundos === 4 %}🏆{% endif %}
+					{%- if loop.index0 === 0 %}🥇{% elseif loop.index0 === 1 %}🥈{% elseif loop.index0 === 2 %}🥉{% endif %}
+				</td>
+{%- endif %}
 				{%- set hasRedirect = site[newestKey].requestedUrl and site[newestKey].url != site[newestKey].requestedUrl %}
 				<td class="leaderboard-url"><a href="{{ site[newestKey].url }}"><code class="url">{{ site[newestKey].url | displayUrl(hasRedirect) }}</code></a>
 					{%- if hasRedirect %}<span class="leaderboard-redirect-warn">Redirect from <code class="url">{{ site[newestKey].requestedUrl | displayUrl(true) }}</code></span>{% endif -%}
@@ -67,7 +74,9 @@ counts:
 									<thead>
 										<tr>
 											<th rowspan="2" class="results-date">Date</th>
+{%- if not sites[vertical].unordered %}
 											<th rowspan="2" colspan="2">Rank</th>
+{%- endif %}
 											<th colspan="9">Lighthouse</th>
 											<th colspan="2" rowspan="2">Axe</th>
 										</tr>
@@ -82,6 +91,7 @@ counts:
 									{%- for entry in site | sort | headAndLast(maxResults) %}
 										<tr>
 											<td><code class="date">{{ entry.timestamp | displayDate | safe }}</code></td>
+{%- if not sites[vertical].unordered %}
 											<td class="results-bool">
 												{%- if entry.ranks.cumulative %}
 													{%- if entry.ranks.cumulative === 1 %}🥇{% endif %}
@@ -94,6 +104,7 @@ counts:
 												{%- endif -%}
 											</td>
 											<td>{% if entry.ranks.cumulative %}#{{ entry.ranks.cumulative }}{% elseif entry.ranks.hundos %}#{{ entry.ranks.hundos }} {% endif %}</td>
+{%- endif %}
 											<td class="results-bool">{% if entry.lighthouse.performance === 1 %}<span class="leaderboard-hide-sm">✅</span>{% else %}🚫{% endif %}</td>
 											<td data-numeric-value="{{ (entry.lighthouse.performance * 100) | round }}">{{ (entry.lighthouse.performance * 100) | round }}</td>
 											<td class="results-calc"><a href="https://googlechrome.github.io/lighthouse/scorecalc/#FCP={{ entry.firstContentfulPaint }}&SI={{ entry.speedIndex }}&LCP={{ entry.largestContentfulPaint }}&TTI={{ entry.timeToInteractive }}&TBT={{ entry.totalBlockingTime }}&CLS={{ entry.cumulativeLayoutShift }}&FCI=&FMP=&device={{ entry.lighthouse.type or "mobile" }}&version={{ entry.lighthouse.version or "6.0.0" }}" target="_blank" rel="noopener noreferrer" class="leaderboard-hide-md">Calculator</a></td>

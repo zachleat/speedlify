@@ -19,6 +19,7 @@ module.exports = async function() {
 	return {
 		name: "eleventy-starters", // optional, falls back to object key
 		description: "Eleventy Starter Projects",
+		unordered: true,
 		// skip if localhost
 		// skip if this is a new fork of the speedlify (not Zach’s)
 		skip: !process.env.CONTEXT || process.env.SITE_NAME !== "speedlify",

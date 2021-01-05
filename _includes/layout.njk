@@ -14,9 +14,12 @@
 		<h1 class="speedlify-hed"><a href="{{ '/' | url }}">speedlify</a>{% if vertical %}:{{ vertical }}{% endif %}</h1>
 		<p class="speedlify-subhed">
 			Benchmark {{ sites[vertical].description or "web pages" }} over time.
+			{%- if sites[vertical].unordered %}
+				Results for this category are unordered.
+			{%- endif %}
 			{%- if maxResults %}
-				Updates <em>at most</em> once every {{ sites[vertical].options.frequency or 60 }} minutes. Only the last {{ maxResults }} result{% if maxResults != 1 %}s{% endif %} (and the oldest result) are shown.
-			{% endif %}
+				Updates <em>at most</em> once every {{ sites[vertical].options.frequency or 60 }} minutes. Only the last {{ maxResults }} run{% if maxResults != 1 %}s{% endif %} (and the oldest run) are shown.
+			{%- endif %}
 			Created by <a href="https://www.zachleat.com/">@zachleat</a>.
 		</p>
 		<p class="speedlify-subhed">
