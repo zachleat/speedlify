@@ -5,13 +5,6 @@ After you make a fast web site, keep it fast by measuring it over time. Read [Us
 * Requires Node 12+
 * Each file in `_data/sites/*.js` is a category and contains a list of sites for comparison.
 
-## Related
-
-* [The Eleventy Leaderboards](https://www.zachleat.com/web/eleventy-leaderboard-speedlify/) are running on Speedlify
-* [speedlify.dev](https://www.speedlify.dev/) shows some sample categories
-* Use the [`<speedlify-score>` component](https://github.com/zachleat/speedlify-score) to show your scores on your page. Read more at [I added Lighthouse Scores to my Site’s Footer and You Can Too](https://www.zachleat.com/web/lighthouse-in-footer/)
-* The [Eleventy Starter Projects list](https://www.11ty.dev/docs/starter/) shows Lighthouse scores from Speedlify. Read more at [The Lighthouse Scores Will Continue Until Morale Improves](https://www.zachleat.com/web/11ty-lighthouse/).
-
 ## Run locally
 
 _After cloning you’ll probably want to delete the initial `_data/sites/*.js` files and create your own file with a list of your own site URLs!_
@@ -21,6 +14,13 @@ npm install
 npm run test-pages
 npm run start
 ```
+
+## Related
+
+* [The Eleventy Leaderboards](https://www.zachleat.com/web/eleventy-leaderboard-speedlify/) are running on Speedlify
+* [speedlify.dev](https://www.speedlify.dev/) shows some sample categories
+* Use the [`<speedlify-score>` component](https://github.com/zachleat/speedlify-score) to show your scores on your page. Read more at [I added Lighthouse Scores to my Site’s Footer and You Can Too](https://www.zachleat.com/web/lighthouse-in-footer/)
+* The [Eleventy Starter Projects list](https://www.11ty.dev/docs/starter/) shows Lighthouse scores from Speedlify. Read more at [The Lighthouse Scores Will Continue Until Morale Improves](https://www.zachleat.com/web/11ty-lighthouse/).
 
 ## Deploy to Netlify
 
