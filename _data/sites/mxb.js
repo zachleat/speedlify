@@ -2,7 +2,7 @@ module.exports = {
     name: 'mxb.dev',
     description: 'Personal website',
     options: {
-        frequency: 1, // 23 hours
+        frequency: 60 * 23, // 23 hours
         freshChrome: 'site'
     },
     urls: [
