@@ -27,6 +27,8 @@ Speedlify will also save your data to `/results.zip` so that you can download la
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/7298a132-e366-460a-a4da-1ea352a4e790/deploy-status)](https://app.netlify.com/sites/speedlify/deploys)
 
+You can set Speedlify to run at a specified interval using a Netlify Build Hook, read more on the Eleventy docs: [Quick Tip #008—Trigger a Netlify Build Every Day with IFTTT](https://www.11ty.dev/docs/quicktips/netlify-ifttt/).
+
 ## Known Limitations
 
 * If you change a URL to remove a redirect (to remove or add a `www.`, moved domains, etc), you probably want to delete the old URL’s data otherwise you’ll have two entries in the results list.
