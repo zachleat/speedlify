@@ -1,8 +1,8 @@
 name: Trigger Netlify Build
 on:
   schedule:
-    # Every day at midnight
-    - cron: '0 0 * * *'
+    # Every monday at midnight
+    - cron: '0 0 * * 1'
 jobs:
   build:
     name: Netlify Build
