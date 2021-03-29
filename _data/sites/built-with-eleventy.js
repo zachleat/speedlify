@@ -17,10 +17,13 @@ module.exports = async function() {
 
 		// Hide from category list when hosted
 		hide: false,
-
+		
 		options: {
 			// Don’t show speedlify score or rank for sites with more than 2 yellow circles
 			noShame: true,
+
+			// reuse
+			// readFromLogDirectory: true,
 		},
 		urls: urlsJson
 	};
