@@ -120,14 +120,54 @@ counts:
 												{%- endif -%}
 											</td>
 											<td>{% if entry.ranks.cumulative %}#{{ entry.ranks.cumulative }}{% elseif entry.ranks.hundos %}#{{ entry.ranks.hundos }} {% endif %}</td>
-											<td class="results-bool">{% if entry.lighthouse.performance === 1 %}<span class="leaderboard-hide-sm">✅</span>{% else %}🚫{% endif %}</td>
+											<td class="results-bool">{%
+											if entry.lighthouse.performance === 1
+												%}<span class="leaderboard-hide-sm">✅</span>{%
+											elseif entry.lighthouse.performance >= 0.9
+												%}{%
+											elseif entry.lighthouse.performance >= 0.5
+												%}<span class="leaderboard-hide-sm">⚠️</span>{%
+											else
+												%}🚫{%
+											endif
+											%}</td>
 											<td data-numeric-value="{{ (entry.lighthouse.performance * 100) | round }}">{{ (entry.lighthouse.performance * 100) | round }}</td>
 											<td class="results-calc"><a href="https://googlechrome.github.io/lighthouse/scorecalc/#FCP={{ entry.firstContentfulPaint }}&SI={{ entry.speedIndex }}&LCP={{ entry.largestContentfulPaint }}&TTI={{ entry.timeToInteractive }}&TBT={{ entry.totalBlockingTime }}&CLS={{ entry.cumulativeLayoutShift }}&FCI=&FMP=&device={{ entry.lighthouse.type or "mobile" }}&version={{ entry.lighthouse.version or "6.0.0" }}" target="_blank" rel="noopener noreferrer" class="leaderboard-hide-md">Calculator</a></td>
-											<td class="results-bool">{% if entry.lighthouse.accessibility === 1 %}<span class="leaderboard-hide-sm">✅</span>{% else %}🚫{% endif %}</td>
+											<td class="results-bool">{% 
+											if entry.lighthouse.accessibility === 1
+												%}<span class="leaderboard-hide-sm">✅</span>{%
+											elseif entry.lighthouse.accessibility >= 0.9
+												%}{%
+											elseif entry.lighthouse.accessibility >= 0.5
+												%}<span class="leaderboard-hide-sm">⚠️</span>{%
+											else
+												%}🚫{%
+											endif
+											%}</td>
 											<td data-numeric-value="{{ (entry.lighthouse.accessibility * 100) | round }}">{{ (entry.lighthouse.accessibility * 100) | round }}</td>
-											<td class="results-bool">{% if entry.lighthouse.bestPractices === 1 %}<span class="leaderboard-hide-sm">✅</span>{% else %}🚫{% endif %}</td>
+											<td class="results-bool">{%
+											if entry.lighthouse.bestPractices === 1
+												%}<span class="leaderboard-hide-sm">✅</span>{%
+											elseif entry.lighthouse.bestPractices >= 0.9
+												%}{%
+											elseif entry.lighthouse.bestPractices >= 0.5
+												%}<span class="leaderboard-hide-sm">⚠️</span>{%
+											else
+												%}🚫{%
+											endif
+											%}</td>
 											<td data-numeric-value="{{ (entry.lighthouse.bestPractices * 100) | round }}">{{ (entry.lighthouse.bestPractices * 100) | round }}</td>
-											<td class="results-bool">{% if entry.lighthouse.seo === 1 %}<span class="leaderboard-hide-sm">✅</span>{% else %}🚫{% endif %}</td>
+											<td class="results-bool">{%
+											if entry.lighthouse.seo === 1
+												%}<span class="leaderboard-hide-sm">✅</span>{%
+											elseif entry.lighthouse.seo >= 0.9
+												%}{%
+											elseif entry.lighthouse.seo >= 0.5
+												%}<span class="leaderboard-hide-sm">⚠️</span>{%
+											else
+												%}🚫{%
+											endif
+											%}</td>
 											<td data-numeric-value="{{ (entry.lighthouse.seo * 100) | round }}">{{ (entry.lighthouse.seo * 100) | round }}</td>
 											<td class="results-bool">{% if entry.axe.violations == 0 %}<span class="leaderboard-hide-sm">✅</span>{% else %}🚫{% endif %}</td>
 											<td>{% if entry.axe.error %}Error{% else %}{{ entry.axe.violations }}{% endif %}</td>
@@ -165,20 +205,56 @@ counts:
 									{%- for entry in site | sort | headAndLast(maxResults) %}
 										<tr>
 											<td><code class="date">{{ entry.timestamp | displayDate | safe }}</code></td>
-											<td class="results-bool">{% if entry.largestContentfulPaint <= 1550 %}<span class="leaderboard-hide-sm">✅</span>{% endif %}</td>
+											<td class="results-bool">{%
+												if entry.largestContentfulPaint > lighthouseMaximums.average.lcp
+													%}<span class="leaderboard-hide-sm">🚫</span>{%
+												elseif entry.largestContentfulPaint > lighthouseMaximums.good.lcp
+													%}<span class="leaderboard-hide-sm">⚠️</span>{%
+												endif
+											%}</td>
 											<td data-numeric-value="{{ entry.largestContentfulPaint }}">{{ entry.largestContentfulPaint | displayTime }}</td>
 											{# https://web.dev/lighthouse-max-potential-fid/#how-lighthouse-determines-your-max-potential-fid-score #}
-											<td class="results-bool">{% if entry.maxPotentialFirstInputDelay <= 130 %}<span class="leaderboard-hide-sm">✅</span>{% endif %}</td>
+											<td class="results-bool"></td>
 											<td data-numeric-value="{{ entry.maxPotentialFirstInputDelay }}">{{ entry.maxPotentialFirstInputDelay | displayTime }}</td>
-											<td class="results-bool">{% if entry.totalBlockingTime <= 130 %}<span class="leaderboard-hide-sm">✅</span>{% endif %}</td>
+											<td class="results-bool">{%
+											if entry.totalBlockingTime > lighthouseMaximums.average.tbt
+												%}<span class="leaderboard-hide-sm">🚫</span>{%
+											elseif entry.totalBlockingTime > lighthouseMaximums.good.tbt
+												%}<span class="leaderboard-hide-sm">⚠️</span>{%
+											endif
+											%}</td>
 											<td data-numeric-value="{{ entry.totalBlockingTime }}">{{ entry.totalBlockingTime | displayTime }}</td>
-											<td class="results-bool">{% if entry.cumulativeLayoutShift <= 0.03 %}<span class="leaderboard-hide-sm">✅</span>{% endif %}</td>
+											<td class="results-bool">{%
+											if entry.cumulativeLayoutShift > lighthouseMaximums.average.cls
+												%}<span class="leaderboard-hide-sm">🚫</span>{%
+											elseif entry.cumulativeLayoutShift > lighthouseMaximums.good.cls
+												%}<span class="leaderboard-hide-sm">⚠️</span>{%
+											endif
+											%}</td>
 											<td>{{ entry.cumulativeLayoutShift | showDigits(2) }}</td>
-											<td class="results-bool">{% if entry.firstContentfulPaint <= 1350 %}<span class="leaderboard-hide-sm">✅</span>{% endif %}</td>
+											<td class="results-bool">{%
+											if entry.firstContentfulPaint > lighthouseMaximums.average.fcp
+												%}<span class="leaderboard-hide-sm">🚫</span>{%
+											elseif entry.firstContentfulPaint > lighthouseMaximums.good.fcp
+												%}<span class="leaderboard-hide-sm">⚠️</span>{%
+											endif
+											%}</td>
 											<td data-numeric-value="{{ entry.firstContentfulPaint }}">{{ entry.firstContentfulPaint | displayTime }}</td>
-											<td class="results-bool">{% if entry.speedIndex <= 1960 %}<span class="leaderboard-hide-sm">✅</span>{% endif %}</td>
+											<td class="results-bool">{%
+											if entry.speedIndex > lighthouseMaximums.average.si
+												%}<span class="leaderboard-hide-sm">🚫</span>{%
+											elseif entry.speedIndex > lighthouseMaximums.good.si
+												%}<span class="leaderboard-hide-sm">⚠️</span>{%
+											endif
+											%}</td>
 											<td data-numeric-value="{{ entry.speedIndex }}">{{ entry.speedIndex | displayTime }}</td>
-											<td class="results-bool">{% if entry.timeToInteractive <= 1940 %}<span class="leaderboard-hide-sm">✅</span>{% endif %}</td>
+											<td class="results-bool">{%
+											if entry.timeToInteractive > lighthouseMaximums.average.tti
+												%}<span class="leaderboard-hide-sm">🚫</span>{%
+											elseif entry.timeToInteractive > lighthouseMaximums.good.tti
+												%}<span class="leaderboard-hide-sm">⚠️</span>{%
+											endif
+											%}</td>
 											<td data-numeric-value="{{ entry.timeToInteractive }}">{{ entry.timeToInteractive | displayTime }}</td>
 										</tr>
 									{%- endfor %}

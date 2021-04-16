@@ -23,13 +23,10 @@ function hasUrl(urls, requestedUrl) {
 	return false;
 }
 
-function showDigits(num, digits = 2, alwaysShowDigits = true) {
+function showDigits(num, digits = 2) {
 	let toNum = parseFloat(num);
-	if(!alwaysShowDigits && toNum === Math.floor(toNum)) {
-		// if a whole number like 0, just show 0 and not 0.00
-		return toNum;
-	}
-	return toNum.toFixed(digits);
+	let afterFixed = toNum.toFixed(digits);
+	return afterFixed;
 }
 
 function pad(num) {
@@ -104,7 +101,7 @@ module.exports = function(eleventyConfig) {
 	});
 
 	eleventyConfig.addFilter("showDigits", function(num, digits) {
-		return showDigits(num, digits, false);
+		return showDigits(num, digits);
 	});
 
 	eleventyConfig.addFilter("displayTime", function(time) {
