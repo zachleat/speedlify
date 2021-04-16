@@ -33,6 +33,6 @@ module.exports = async function() {
 			freshChrome: "run"
 		},
 
-		urls: randomizeArray(urlsJson).slice(0,40) // a random sample of 40
+		urls: randomizeArray(urlsJson).slice(0,30) // a random sample of 30
 	};
 };
