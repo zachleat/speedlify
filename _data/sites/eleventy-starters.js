@@ -25,7 +25,7 @@ module.exports = async function() {
 		skip: !process.env.CONTEXT || process.env.SITE_NAME !== "speedlify",
 		estimatedTimePerBuild: .2,
 		options: {
-			frequency: 60 * 11.5, // 11.5 hours
+			frequency: 60 * 23.5, // 23.5 hours
 			// Use "run" if the sites don’t share assets on the same origin
 			//           and we can reset chrome with each run instead of
 			//           each site in every run (it’s faster)
@@ -33,6 +33,6 @@ module.exports = async function() {
 			freshChrome: "run"
 		},
 
-		urls: randomizeArray(urlsJson).slice(0,30) // a random sample of 30
+		urls: randomizeArray(urlsJson).slice(0, 20) // a random sample of 20
 	};
 };
