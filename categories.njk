@@ -26,7 +26,7 @@ counts:
 			</tr>
 		</thead>
 		<tbody>
-		{%- set showRank = true %}
+		{%- set showExtras = true %}
 		{%- for site in results | getSites(sites, vertical, isolatedKeys) | sortCumulativeScore %}
 			{%- set newestKey = site | getObjectKey(":newest") %}
 			{%- set key = site | getObjectKey %}
@@ -35,9 +35,9 @@ counts:
 			{%- if not site[newestKey].error %}
 				{%- set hundos = site[newestKey] | hundoCount %}
 				{%- if hundos < 4 -%}
-					{%- set showRank = false -%}
+					{%- set showExtras = false -%}
 				{%- else -%}
-					{%- set showRank = true -%}
+					{%- set showExtras = true -%}
 				{%- endif -%}
 			{%- endif %}
 
@@ -48,7 +48,7 @@ counts:
 				<td class="leaderboard-hide-md leaderboard-trophies">{% if hundos === 4 %}🏆{% endif %}{% if loop.index0 === 0 %}🥇{% elseif loop.index0 === 1 %}🥈{% elseif loop.index0 === 2 %}🥉{% endif %}</td>
 				{%- set hasRedirect = site[newestKey].requestedUrl and site[newestKey].url != site[newestKey].requestedUrl %}
 				<td class="leaderboard-url"><a href="{{ site[newestKey].url }}">
-						{%- if loop.index < 51 %}<img src="https://v1.screenshot.11ty.dev/{{ site[newestKey].url | urlencode }}/small/" width="375" height="375" alt="Screenshot of {{ site[newestKey].url | displayUrl }}" class="leaderboard-list-entry-thumbnail" loading="lazy" decoding="async">{% endif -%}
+						{%- if loop.index0 < 11 %}<img src="https://v1.screenshot.11ty.dev/{{ site[newestKey].url | urlencode }}/small/" width="375" height="375" alt="Screenshot of {{ site[newestKey].url | displayUrl }}" class="leaderboard-list-entry-thumbnail" loading="lazy" decoding="async">{% endif -%}
 						<code class="url">{{ site[newestKey].url | displayUrl(hasRedirect) }}</code>{#
 					#}</a>
 					{%- if hasRedirect %}<span class="leaderboard-redirect-warn">Redirect from <code class="url">{{ site[newestKey].requestedUrl | displayUrl(true) }}</code></span>{% endif -%}
@@ -62,19 +62,19 @@ counts:
 					<speedlify-score class="leaderboard-score-circles{% if hundos === 4 %} leaderboard-score-circles-400{% endif %}" raw-data='{{ site[newestKey] | toJSON | safe }}'></speedlify-score><span class="leaderboard-score-sum leaderboard-number">{% if hundos === 4 %}😍{% else %}{{ site[newestKey] | lighthouseTotal }}{% endif %}</span>
 				</td>
 				<td class="leaderboard-data-right">
-					{%- if showRank -%}
+					{%- if showExtras -%}
 					<a href="#details-{{ site[key].url | shortHash }}" data-expand-alias data-js-only><span class="leaderboard-expand-icon"></span> Data<span class="leaderboard-hide-md"> and Graphs</span></a>
 					{%- endif -%}
 				</td>
 			{%- endif %}
 			</tr>
 
-			{%- if not site[newestKey].error and showRank %}
+			{%- if not site[newestKey].error and showExtras %}
 			<tr class="leaderboard-list-entry-details">
 				<td colspan="6">
 					<details class="leaderboard-details" id="details-{{ site[key].url | shortHash }}">
 						<summary>Show Data</summary>
-						{%- if showRank -%}
+						{%- if showExtras -%}
 						<details class="pommel-source speedlify-pommel-source">
 							<summary>
 								Embed Lighthouse Score
