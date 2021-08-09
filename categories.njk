@@ -1,7 +1,5 @@
 ---
-topCutoff: 50
-maxResultsTop: 12
-maxResultsRest: 3
+maxResults: 6
 layout: layout.njk
 pagination:
   data: "sites"
@@ -36,13 +34,11 @@ counts:
 
 			{%- if not site[newestKey].error %}
 				{%- set hundos = site[newestKey] | hundoCount %}
-				{%- set notGreenCircleCount = site[newestKey] | notGreenCircleCount %}
-				{%- if notGreenCircleCount >= 3 and sites[vertical].options and sites[vertical].options.noShame %}{% set showRank = false %}{% endif %}
-			{%- endif %}
-			{%- set isInTop = loop.index0 < topCutoff or hundos === 4 %}
-			{%- set maxResults = maxResultsRest %}
-			{%- if isInTop %}
-				{%- set maxResults = maxResultsTop %}
+				{%- if hundos < 4 -%}
+					{%- set showRank = false -%}
+				{%- else -%}
+					{%- set showRank = true -%}
+				{%- endif -%}
 			{%- endif %}
 
 			<tr class="leaderboard-list-entry{% if site[newestKey].ranks and loop.index != site[newestKey].ranks.cumulative %} leaderboard-list-entry-badrank{% endif %}" id="site-{{ site[key].url | shortHash }}">
@@ -51,7 +47,10 @@ counts:
 				</td>
 				<td class="leaderboard-hide-md leaderboard-trophies">{% if hundos === 4 %}🏆{% endif %}{% if loop.index0 === 0 %}🥇{% elseif loop.index0 === 1 %}🥈{% elseif loop.index0 === 2 %}🥉{% endif %}</td>
 				{%- set hasRedirect = site[newestKey].requestedUrl and site[newestKey].url != site[newestKey].requestedUrl %}
-				<td class="leaderboard-url"><a href="{{ site[newestKey].url }}"><code class="url">{{ site[newestKey].url | displayUrl(hasRedirect) }}</code></a>
+				<td class="leaderboard-url"><a href="{{ site[newestKey].url }}">
+						{%- if loop.index < 12 %}<img src="https://v1.screenshot.11ty.dev/{{ site[newestKey].url | urlencode }}/small/" width="375" height="375" alt="Screenshot of {{ site[newestKey].url | displayUrl }}" class="leaderboard-list-entry-thumbnail" loading="lazy" decoding="async">{% endif -%}
+						<code class="url">{{ site[newestKey].url | displayUrl(hasRedirect) }}</code>{#
+					#}</a>
 					{%- if hasRedirect %}<span class="leaderboard-redirect-warn">Redirect from <code class="url">{{ site[newestKey].requestedUrl | displayUrl(true) }}</code></span>{% endif -%}
 					{%- if site[newestKey].error %}<span class="leaderboard-redirect-error">Error</span>{% endif -%}
 				</td>
@@ -70,7 +69,7 @@ counts:
 			{%- endif %}
 			</tr>
 
-			{%- if not site[newestKey].error %}
+			{%- if not site[newestKey].error and showRank %}
 			<tr class="leaderboard-list-entry-details">
 				<td colspan="6">
 					<details class="leaderboard-details" id="details-{{ site[key].url | shortHash }}">
@@ -176,9 +175,7 @@ counts:
 									</tbody>
 								</table>
 							</div>
-							{%- if isInTop %}
 							<div data-js-only class="ct-chart ct-double-octave"></div>
-							{%- endif %}
 						</div>
 
 						<div class="layout color--vitals">
@@ -261,9 +258,7 @@ counts:
 									</tbody>
 								</table>
 							</div>
-							{%- if isInTop %}
 							<div data-js-only class="ct-chart ct-double-octave"></div>
-							{%- endif %}
 						</div>
 
 						<div class="layout color--weight">
@@ -300,9 +295,7 @@ counts:
 									</tbody>
 								</table>
 							</div>
-							{%- if isInTop %}
 							<div data-js-only class="ct-chart ct-double-octave"></div>
-							{%- endif %}
 						</div>
 					</details>
 				</td>
