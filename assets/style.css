@@ -116,6 +116,9 @@ abbr {
 .leaderboard-url {
 	width: 100%;
 }
+.leaderboard-url a[href] {
+	display: flex;
+}
 .leaderboard-redirect-error,
 .leaderboard-redirect-warn {
 	text-transform: uppercase;
