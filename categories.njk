@@ -48,7 +48,7 @@ counts:
 				<td class="leaderboard-hide-md leaderboard-trophies">{% if hundos === 4 %}🏆{% endif %}{% if loop.index0 === 0 %}🥇{% elseif loop.index0 === 1 %}🥈{% elseif loop.index0 === 2 %}🥉{% endif %}</td>
 				{%- set hasRedirect = site[newestKey].requestedUrl and site[newestKey].url != site[newestKey].requestedUrl %}
 				<td class="leaderboard-url"><a href="{{ site[newestKey].url }}">
-						{%- if loop.index0 < 11 %}<img src="https://v1.screenshot.11ty.dev/{{ site[newestKey].url | urlencode }}/small/" width="375" height="375" alt="Screenshot of {{ site[newestKey].url | displayUrl }}" class="leaderboard-list-entry-thumbnail" loading="lazy" decoding="async">{% endif -%}
+						<img src="https://v1.indieweb-avatar.11ty.dev/{{ site[newestKey].url | urlencode }}/" width="150" height="150" alt="IndieWeb Avatar for {{ site[newestKey].url | displayUrl }}" class="leaderboard-list-entry-thumbnail" loading="lazy" decoding="async">
 						<code class="url">{{ site[newestKey].url | displayUrl(hasRedirect) }}</code>{#
 					#}</a>
 					{%- if hasRedirect %}<span class="leaderboard-redirect-warn">Redirect from <code class="url">{{ site[newestKey].requestedUrl | displayUrl(true) }}</code></span>{% endif -%}
