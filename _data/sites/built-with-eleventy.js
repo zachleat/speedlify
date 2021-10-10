@@ -25,6 +25,14 @@ module.exports = async function() {
 			// reuse
 			// readFromLogDirectory: true,
 		},
-		urls: urlsJson
+		urls: urlsJson,
+
+		// removed from urls but still exist in result data
+		deleted: [
+			"https://hire.treypiepmeier.com/",
+			"https://nho.io/",
+			"https://sk.listsofbooks.com/",
+			"https://yatil.net/"
+		]
 	};
 };

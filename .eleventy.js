@@ -217,6 +217,12 @@ module.exports = function(eleventyConfig) {
 		let urls = sites[vertical].urls;
 		let isIsolated = sites[vertical].options && sites[vertical].options.isolated === true;
 		let prunedResults = isIsolated ? results[vertical] : results;
+
+		// Add deleted sites
+		for(let site of sites[vertical].deleted) {
+			urls.push(site);
+		}
+
 		return filterResultsToUrls(prunedResults, urls, skipKeys);
 	});
 
