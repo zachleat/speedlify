@@ -3,7 +3,7 @@ const CacheAsset = require("@11ty/eleventy-cache-assets");
 module.exports = async function() {
 	let url = "https://www.11ty.dev/api/urls.json";
 	let urlsJson = await CacheAsset(url, {
-		duration: "10m",
+		duration: "1h",
 		type: "json",
 	});
 
@@ -24,15 +24,21 @@ module.exports = async function() {
 
 			// reuse
 			// readFromLogDirectory: true,
+
+			// Skip URL for axe (hanging without timeout even on axe cli)
+			bypassAxe: [
+				"https://personalsit.es/"
+			]
 		},
 		urls: urlsJson,
 
 		// removed from urls but still exist in result data
-		deleted: [
-			"https://hire.treypiepmeier.com/",
-			"https://nho.io/",
-			"https://sk.listsofbooks.com/",
-			"https://yatil.net/"
+		missing: [],
+
+		// this was a bug when two different URLs resolved to the same URL and conflicted in resolvedUrl results.
+		// 1-indexed
+		skipIndeces: [
+			207
 		]
 	};
 };

@@ -192,6 +192,17 @@ module.exports = function(eleventyConfig) {
 
 	eleventyConfig.addFilter("getObjectKey", getObjectKey);
 
+	eleventyConfig.addFilter("addSkippedIndeces", function (results, indeces = []) {
+		let out = [];
+		for(let j = 0, k = results.length; j<k; j++) {
+			if(indeces.includes(j + 1)) { // 1-index
+				out.push(false);
+			}
+			out.push(results[j]);
+		}
+		return out;
+	});
+
 	function filterResultsToUrls(obj, urls = [], skipKeys = []) {
 		let arr = [];
 		for(let key in obj) {
@@ -219,7 +230,7 @@ module.exports = function(eleventyConfig) {
 		let prunedResults = isIsolated ? results[vertical] : results;
 
 		// Add deleted sites
-		for(let site of sites[vertical].deleted) {
+		for(let site of sites[vertical].missing) {
 			urls.push(site);
 		}
 
