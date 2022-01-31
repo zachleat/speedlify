@@ -1,0 +1,51 @@
+{
+  "url": "https://webperformancereport.com/",
+  "requestedUrl": "https://webperformancereport.com/",
+  "timestamp": 1643583296267,
+  "ranks": {
+    "hundos": 439,
+    "performance": 467,
+    "accessibility": 391,
+    "cumulative": 439
+  },
+  "lighthouse": {
+    "version": "9.2.0",
+    "performance": 0.87,
+    "accessibility": 0.97,
+    "bestPractices": 0.92,
+    "seo": 1,
+    "total": 376
+  },
+  "firstContentfulPaint": 1977.654,
+  "firstMeaningfulPaint": 1977.654,
+  "speedIndex": 2841.2338849646385,
+  "largestContentfulPaint": 3334.2704999999996,
+  "totalBlockingTime": 94.5,
+  "cumulativeLayoutShift": 0.020225819322797985,
+  "timeToInteractive": 5230.588999999999,
+  "maxPotentialFirstInputDelay": 191,
+  "timeToFirstByte": 441.07300000000004,
+  "weight": {
+    "summary": "30 requests • 472 KiB",
+    "total": 483278,
+    "image": 120946,
+    "imageCount": 16,
+    "script": 285250,
+    "scriptCount": 4,
+    "document": 9461,
+    "font": 53577,
+    "fontCount": 2,
+    "stylesheet": 13651,
+    "stylesheetCount": 3,
+    "thirdParty": 356622,
+    "thirdPartyCount": 13
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "axe": {
+    "passes": 520,
+    "violations": 20
+  }
+}
