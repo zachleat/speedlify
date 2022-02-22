@@ -1,6 +1,6 @@
 module.exports = {
   name: "emcasa-home", // optional, falls back to object key
-  description: "Páginas emcasa.com",
+  description: "emcasa.com",
   options: {
     frequency: 60 * 23, // (in minutes), 23 hours
     freshChrome: "site", // Use "site" if sites are all on the same origin and share assets.
