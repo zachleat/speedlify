@@ -1,0 +1,76 @@
+name: Generate Reports
+
+on:
+  push:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 11 * * *' # Everyday UTC 11:00AM -> UTC-3 08:00AM
+
+jobs:
+  generate-reports:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout results'
+        id: checkout-results
+        uses: actions/checkout@v2
+        continue-on-error: true
+        with:
+          ref: refs/heads/results
+          path: results
+      - name: Checkout speedlify
+        uses: actions/checkout@v2
+        with:
+          path: default
+      - name: Copy existing results
+        if: steps.checkout-results.outcome == 'success'
+        run: cp -r results/. default/_data
+      - name: Install dependencies
+        run: yarn install
+        working-directory: default
+      - name: Run test-pages
+        run: yarn run test-pages
+        working-directory: default
+      - name: Upload results artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: results
+          path: default/_data/results
+      - name: Upload results-last-runs artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: results-last-runs.json
+          path: default/_data/results-last-runs.json
+      - name: Push results
+        run: |
+          mkdir -p results
+          rm -rf results/*
+          cp -r default/_data/results* results
+          cd results
+          ORIGIN=https://${{ github.repository_owner }}:${{ github.token }}@github.com/${{ github.repository }}.git
+          git init
+          git switch results || git switch -c results
+          if [[ `git status --porcelain` ]]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add .
+            git commit -m "Commit results"
+            git push -u $ORIGIN results
+          fi
+      - name: Build speedlify
+        run: |
+          yarn run build -- --pathprefix=${GITHUB_REPOSITORY#*/}
+          yarn run zip-results
+        working-directory: default
+      - name: Deploy to gh-pages branch
+        run: |
+          mkdir gh-pages
+          cp -r default/_site/* gh-pages
+          cd gh-pages
+          ORIGIN=https://${{ github.repository_owner }}:${{ github.token }}@github.com/${{ github.repository }}.git
+          git init
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout -b gh-pages
+          git add .
+          git commit -m "Deploy gh-pages"
+          git push -uf $ORIGIN gh-pages
