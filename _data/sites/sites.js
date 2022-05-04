@@ -1,6 +1,6 @@
 module.exports = {
-	name: "Sample", // optional, falls back to object key
-	description: "The default sites that get tested",
+	name: "Sites", // optional, falls back to object key
+	description: "Main websites test",
 	options: {
 		frequency: 60 * 23, // (in minutes), 23 hours
 	},
