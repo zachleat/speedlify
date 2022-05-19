@@ -10,7 +10,6 @@ module.exports = {
 		"https://www.atelierunearchitecture.com/",
 		"https://website-702.eventmaker.io/",
 		"https://www.convention-usf.fr/",
-		"https://eurofa.eventmaker.io/",
-		"https://www.eventmaker.com/"
+		"https://eurofa.eventmaker.io/"
 	]
 };
