@@ -8,9 +8,10 @@ module.exports = {
 	urls: [
 		"https://www.laurent.la/",
 		"https://www.atelierunearchitecture.com/",
-		"https://website-702.eventmaker.io/",
+		//"https://website-702.eventmaker.io/", // fix issue with youtube
 		"https://www.convention-usf.fr/",
-		"https://eurofa.eventmaker.io/",
+		// "https://eurofa.eventmaker.io/", // fix issue with youtube
+		"https://website-29177.eventmaker.io/",
 		"https://www.losangexpo.com/",
 		"https://www.eventmaker.com/"
 	]
