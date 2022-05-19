@@ -3,7 +3,7 @@ module.exports = {
 	description: "Main websites test",
 	options: {
 		// frequency: 60 * 23, // (in minutes), 23 hours
-		frequency: 60 * 12, // (in minutes), 12 hours
+		frequency: 1, // (in minutes), 12 hours
 	},
 	urls: [
 		"https://www.laurent.la/",
