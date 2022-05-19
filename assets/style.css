@@ -4,8 +4,8 @@ html {
 }
 body {
 	font-family: system-ui, sans-serif;
-	background-color: #2e2e2e;
-	color: #fff;
+	background-color: var(--main-bg-color-2);
+	color: var(--text-color);
 	margin: 0.5rem; /* 8px /16 */
 }
 footer {
@@ -163,7 +163,7 @@ abbr {
 }
 .leaderboard-list-entry.expanded,
 .leaderboard-list-entry-details.expanded {
-	background-color: #181818;
+	background-color: var(--main-bg-color-2);
 }
 .leaderboard-expand-icon {
 	display: inline-block;
@@ -409,6 +409,9 @@ abbr {
 	--speedlify-color-4: #ef5675;
 	--speedlify-color-5: #ff764a;
 	--speedlify-color-6: #ffa600;
+	--main-bg-color: #181818;
+	--main-bg-color-2: #2e2e2e;
+	--text-color: #fff;
 }
 .color--lighthouse {
 	--speedlify-color-1: #004e5f;
