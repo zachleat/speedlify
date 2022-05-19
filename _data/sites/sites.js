@@ -8,8 +8,6 @@ module.exports = {
 	urls: [
 		"https://www.laurent.la/",
 		"https://www.atelierunearchitecture.com/",
-		"https://www.eventmaker.com/",
-		"https://www.convention-usf.fr/",
 		"https://website-702.eventmaker.io/"
 	]
 };
