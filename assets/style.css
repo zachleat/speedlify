@@ -20,6 +20,7 @@ footer {
 	font-style: italic;
 	text-align: center;
 	font-size: small;
+	margin: 1em 0;
 }
 code {
 	font-family: Monaco, monospace;
@@ -83,15 +84,17 @@ abbr {
 /* Speedlify specific styles */
 .speedlify-hed {
 	/* text-align: center; */
-	font-size: 2em;
+	font-size: 1.5em;
 	/* text-transform: lowercase;
 	font-style: italic; */
 }
-@media (min-width: 37.5em) { /* 600px */
+
+/* @media (min-width: 37.5em) {
 	.speedlify-hed {
-		font-size: 2em;
+		font-size: 1.5em;
 	}
-}
+} */
+
 .speedlify-subhed {
 	padding: 0 2em;
 	margin: 0 auto;
@@ -320,12 +323,18 @@ abbr {
 .leaderboard-score-circles {
 	display: inline-flex;
 	margin-right: 8px;
+	margin-right: 1.5em;
 	flex-wrap: nowrap;
 }
 .leaderboard-score-sum {
 	display: inline-block;
 	vertical-align: middle;
 }
+
+.speedlify-score {
+	margin-left: 1.5em;
+}
+
 .leaderboard-score-circles .speedlify-score {
 	font-size: 0.6875rem; /* 11px /16 */
 	font-weight: 600;
@@ -341,6 +350,7 @@ abbr {
 @media (min-width: 37.5em) { /* 600px */
 	.leaderboard-score-circles .speedlify-score {
 		font-size: 0.8125rem; /* 13px /16 */
+		font-size: 1rem;
 	}
 }
 
@@ -348,13 +358,20 @@ abbr {
 .leaderboard-score{
 	white-space: nowrap;
 }
+th.leaderboard-score span{
+	width: 4.1rem;
+	display: inline-block;
+}
 @media (max-width: 28.0625em) { /* 449px */
-	.leaderboard-score{
+	.leaderboard-score,
+	th.leaderboard-score span {
 		display: none;
 	}
+
 }
 @media (max-width: 37.4375em) { /* 599px */
-	.leaderboard-score-circles {
+	.leaderboard-score-circles,
+	th.leaderboard-score span {
 		display: none;
 	}
 }
