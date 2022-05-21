@@ -14,7 +14,7 @@ counts:
   perfect: 0
   total: 0
 ---
-<div class="leaderboard-wrapper">
+<div class="leaderboard-wrapper f-grow">
 	<table class="leaderboard">
 		<thead>
 			<tr>
@@ -118,7 +118,7 @@ counts:
 											%}</td>
 											<td data-numeric-value="{{ (entry.lighthouse.performance * 100) | round }}">{{ (entry.lighthouse.performance * 100) | round }}</td>
 											<td class="results-calc"><a href="https://googlechrome.github.io/lighthouse/scorecalc/#FCP={{ entry.firstContentfulPaint }}&SI={{ entry.speedIndex }}&LCP={{ entry.largestContentfulPaint }}&TTI={{ entry.timeToInteractive }}&TBT={{ entry.totalBlockingTime }}&CLS={{ entry.cumulativeLayoutShift }}&FCI=&FMP=&device={{ entry.lighthouse.type or "mobile" }}&version={{ entry.lighthouse.version or "6.0.0" }}" target="_blank" rel="noopener noreferrer" class="leaderboard-hide-md">Calculator</a></td>
-											<td class="results-bool">{% 
+											<td class="results-bool">{%
 											if entry.lighthouse.accessibility === 1
 												%}<span class="leaderboard-hide-sm">✅</span>{%
 											elseif entry.lighthouse.accessibility >= 0.9
@@ -290,7 +290,7 @@ counts:
 		{%- endfor %}
 		</tbody>
 	</table><!-- /leaderboard -->
-	<dl class="category-stats">
+	{# <dl class="category-stats">
 		<div class="category-stats-entry">
 			<dt>Performance 💯</dt>
 			<dd>{{ counts.performance }}<span> / {{ counts.total }}</span></dd>
@@ -311,5 +311,5 @@ counts:
 			<dt>Perfect 4×💯</dt>
 			<dd>{{ counts.perfect }}<span> / {{ counts.total }}</span></dd>
 		</div>
-	</dl>
+	</dl> #}
 </div><!-- /leaderboard-wrapper -->
