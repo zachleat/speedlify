@@ -7,10 +7,20 @@ body {
 	background-color: var(--main-bg-color-2);
 	color: var(--text-color);
 	margin: 0.5rem; /* 8px /16 */
+	display: flex;
+	flex-direction: column;
+	min-height: calc(100vh - 1rem);
 }
+
+.f-grow {
+	flex-grow: 1;
+}
+
 footer {
 	font-style: italic;
 	text-align: center;
+	font-size: small;
+	margin: 1em 0;
 }
 code {
 	font-family: Monaco, monospace;
@@ -34,7 +44,7 @@ html:not(.js) [data-js-only] {
 
 :link,
 :visited {
-	color: #fff;
+	color: var(--text-color);
 }
 
 summary {
@@ -63,7 +73,7 @@ th, td {
 }
 th {
 	text-align: left;
-	color: #ddd;
+	color: var(--table-header-color);
 	font-weight: normal;
 }
 
@@ -73,16 +83,18 @@ abbr {
 
 /* Speedlify specific styles */
 .speedlify-hed {
-	text-align: center;
-	font-size: 2em;
-	text-transform: lowercase;
-	font-style: italic;
+	/* text-align: center; */
+	font-size: 1.5em;
+	/* text-transform: lowercase;
+	font-style: italic; */
 }
-@media (min-width: 37.5em) { /* 600px */
+
+/* @media (min-width: 37.5em) {
 	.speedlify-hed {
-		font-size: 3em;
+		font-size: 1.5em;
 	}
-}
+} */
+
 .speedlify-subhed {
 	padding: 0 2em;
 	margin: 0 auto;
@@ -95,14 +107,14 @@ abbr {
 
 /* Leaderboard */
 
-.leaderboard-wrapper {
+/* .leaderboard-wrapper {
 	margin-left: -.5rem;
-	margin-right: -.4375rem; /* 7px /16 */
-}
+	margin-right: -.4375rem;
+} */
 .leaderboard {
 	width: 100%;
 	margin: 5em auto;
-	max-width: 100rem; /* 1600px /16 */
+	/* max-width: 100rem; */
 }
 .leaderboard-directlink {
 	text-decoration: none;
@@ -209,17 +221,18 @@ abbr {
 .leaderboard > thead > tr > th {
 	font-size: 0.8125em; /* 13px /16 */
 }
-@media (min-width: 50em) { /* 800px */
+
+/* @media (min-width: 50em) {
 	.leaderboard > tbody > tr > td {
-		font-size: 1.3125em; /* 21px /16 */
+		font-size: 1.3125em;
 	}
-}
+} */
 
 [data-expand-alias] {
 	white-space: nowrap;
 	display: inline-block;
 	text-decoration: none;
-	background-color: #444;
+	background-color: var(--main-bg-color);
 	border-radius: 50px;
 	border: 1px solid #aaa;
 	padding: .5em 1em;
@@ -253,7 +266,7 @@ abbr {
 	}
 }
 .results th {
-	color: #fff;
+	color: var(--text-color);
 	border: 1px solid #555;
 	text-align: center;
 }
@@ -304,18 +317,24 @@ abbr {
 .count,
 .date,
 .heart-hundo {
-	color: #aaa;
+	color: var(--text-color);
 	font-size: 0.8125em; /* 13px /16 */
 }
 .leaderboard-score-circles {
 	display: inline-flex;
 	margin-right: 8px;
+	margin-right: 1.5em;
 	flex-wrap: nowrap;
 }
 .leaderboard-score-sum {
 	display: inline-block;
 	vertical-align: middle;
 }
+
+.speedlify-score {
+	margin-left: 1.5em;
+}
+
 .leaderboard-score-circles .speedlify-score {
 	font-size: 0.6875rem; /* 11px /16 */
 	font-weight: 600;
@@ -331,6 +350,7 @@ abbr {
 @media (min-width: 37.5em) { /* 600px */
 	.leaderboard-score-circles .speedlify-score {
 		font-size: 0.8125rem; /* 13px /16 */
+		font-size: 1rem;
 	}
 }
 
@@ -338,13 +358,20 @@ abbr {
 .leaderboard-score{
 	white-space: nowrap;
 }
+th.leaderboard-score span{
+	width: 4.1rem;
+	display: inline-block;
+}
 @media (max-width: 28.0625em) { /* 449px */
-	.leaderboard-score{
+	.leaderboard-score,
+	th.leaderboard-score span {
 		display: none;
 	}
+
 }
 @media (max-width: 37.4375em) { /* 599px */
-	.leaderboard-score-circles {
+	.leaderboard-score-circles,
+	th.leaderboard-score span {
 		display: none;
 	}
 }
@@ -394,12 +421,12 @@ abbr {
 	stroke-width: 3px;
 }
 .ct-label.ct-label {
-	fill: rgba(255, 255, 255, 0.4);
-	color: rgba(255, 255, 255, 0.4);
+	fill: var(--table-header-color);
+	color: var(--table-header-color);
 	white-space: nowrap;
 }
 .ct-grid.ct-grid {
-	stroke: rgba(255, 255, 255, 0.2);
+	stroke: var(--table-header-color);
 }
 /* via https://learnui.design/tools/data-color-picker.html */
 :root {
@@ -409,9 +436,14 @@ abbr {
 	--speedlify-color-4: #ef5675;
 	--speedlify-color-5: #ff764a;
 	--speedlify-color-6: #ffa600;
-	--main-bg-color: #181818;
+	/* --main-bg-color: #181818;
 	--main-bg-color-2: #2e2e2e;
 	--text-color: #fff;
+	--table-header-color: #ddd; */
+	--main-bg-color: #ffffff;
+	--main-bg-color-2: #ffffff;
+	--text-color: #111;
+	--table-header-color: #767676;
 }
 .color--lighthouse {
 	--speedlify-color-1: #004e5f;
