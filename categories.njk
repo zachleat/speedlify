@@ -58,7 +58,7 @@ counts:
 				<td colspan="2"></td>
 			{%- else %}
 				{%- set counts = counts | hundoCountTotals(site[newestKey]) %}
-				<td class="leaderboard-score">{% if showRank %}<speedlify-score class="leaderboard-score-circles{% if hundos === 4 %} leaderboard-score-circles-400{% endif %}" raw-data='{{ site[newestKey] | toJSON | safe }}'></speedlify-score><span class="leaderboard-score-sum leaderboard-number">{% if hundos === 4 %}😍{% else %}{{ site[newestKey] | lighthouseTotal }}{% endif %}</span>{% endif %}</td>
+				<td class="leaderboard-score">{% if showRank %}<is-land on:visible><speedlify-score class="leaderboard-score-circles{% if hundos === 4 %} leaderboard-score-circles-400{% endif %}" raw-data='{{ site[newestKey] | toJSON | safe }}'></speedlify-score></is-land><span class="leaderboard-score-sum leaderboard-number">{% if hundos === 4 %}😍{% else %}{{ site[newestKey] | lighthouseTotal }}{% endif %}</span>{% endif %}</td>
 				<td class="leaderboard-data-right"><a href="#details-{{ site[key].url | shortHash }}" data-expand-alias data-js-only><span class="leaderboard-expand-icon"></span> Data<span class="leaderboard-hide-md"> and Graphs</span></a></td>
 			{%- endif %}
 			</tr>
