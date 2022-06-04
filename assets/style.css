@@ -189,6 +189,19 @@ abbr {
 .leaderboard-list-entry-details > td {
 	padding: 0;
 }
+.leaderboard-list-entry-thumbnail {
+	width: 2em;
+	height: 2em;
+	margin-right: .5em;
+	vertical-align: middle;
+	border: none;
+	border-radius: .2em;
+}
+.leaderboard-list-entry-thumbnail.small {
+	width: 1.5em;
+	height: 1.5em;
+}
+
 .leaderboard caption {
 	font-size: 1.5em;
 	margin: 0 0 1em;
