@@ -21,6 +21,7 @@ counts:
 				<th>Rank</th>
 				<th class="leaderboard-hide-md">Trophy</th>
 				<th>URL</th>
+				<th class="leaderboard-hide-md">Built With</th>
 				<th class="leaderboard-score">Lighthouse</th>
 				<th class="leaderboard-data-right"><span data-sr-only>Data and Graphs</span></th>
 			</tr>
@@ -56,6 +57,9 @@ counts:
 						{%- if hasRedirect %}<span class="leaderboard-redirect-warn">Redirect from <code class="url">{{ site[newestKey].requestedUrl | displayUrl(true) }}</code></span>{% endif -%}
 						{%- if site[newestKey].error %}<span class="leaderboard-redirect-error">Error</span>{% endif -%}
 					</td>
+					<td class="leaderboard-hide-md">
+						<img src="{{ site[newestKey].url | generatorImageUrl }}" width="60" height="60" alt="Generator for {{ site[newestKey].url | displayUrl }}" class="leaderboard-list-entry-thumbnail small" loading="lazy" decoding="async">
+					</td>
 				{%- if site[newestKey].error %}
 					<td colspan="2"></td>
 				{%- else %}
@@ -73,7 +77,7 @@ counts:
 
 				{%- if not site[newestKey].error and showExtras %}
 				<tr class="leaderboard-list-entry-details">
-					<td colspan="6">
+					<td colspan="7">
 						<details class="leaderboard-details" id="details-{{ site[key].url | shortHash }}">
 							<summary>Show Data</summary>
 							{%- if showExtras -%}
