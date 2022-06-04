@@ -21,9 +21,10 @@ module.exports = {
 		"https://gridsome.org/",
 		"https://vuepress.vuejs.org/",
 		"https://docusaurus.io/",
-		"https://docsify.js.org/",
+		"https://astro.build/",
 		"https://jekyllrb.com/",
 		"https://hexo.io/",
-		"https://sapper.svelte.dev/",
+		"https://kit.svelte.dev/",
+		"https://remix.run/",
 	]
 };
