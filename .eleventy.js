@@ -303,7 +303,7 @@ module.exports = function(eleventyConfig) {
 		return `_${d.getFullYear()}${pad(d.getMonth()+1)}_${d.getDate() % 7}`;
 	}
 	eleventyConfig.addFilter("generatorImageUrl", (url) => {
-		return `https://v1.generator.11ty.dev/image/${encodeURIComponent(url)}}/${getWeeklyServiceCacheBuster()}/`;
+		return `https://v1.generator.11ty.dev/image/${encodeURIComponent(url)}/${getWeeklyServiceCacheBuster()}/`;
 	});
 
 	eleventyConfig.addPairedShortcode("starterMessage", (htmlContent) => {
