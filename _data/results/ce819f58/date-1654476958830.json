@@ -1,0 +1,67 @@
+{
+  "url": "https://grochtdreis.de/",
+  "requestedUrl": "https://grochtdreis.de/",
+  "timestamp": 1654489570710,
+  "ranks": {
+    "hundos": 345,
+    "performance": 183,
+    "accessibility": 80,
+    "cumulative": 339
+  },
+  "lighthouse": {
+    "version": "9.6.1",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 0.92,
+    "seo": 0.99,
+    "total": 391
+  },
+  "firstContentfulPaint": 899.939,
+  "firstMeaningfulPaint": 1285.9389999999999,
+  "speedIndex": 1401.7565699996412,
+  "largestContentfulPaint": 1435.9389999999999,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.056942017873128255,
+  "timeToInteractive": 1285.9389999999999,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 129.78699999999998,
+  "weight": {
+    "summary": "8 requests • 123 KiB",
+    "total": 125681,
+    "image": 74801,
+    "imageCount": 4,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 4620,
+    "font": 43960,
+    "fontCount": 2,
+    "stylesheet": 2300,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 254,
+    "+weight.total": 386,
+    "-weight.document": 245,
+    "+weight.document": 385,
+    "-weight.script": 1,
+    "+weight.script": 431,
+    "-weight.image": 195,
+    "+weight.image": 283,
+    "-weight.font": 154,
+    "+weight.font": 264,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 427,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 203
+  },
+  "axe": {
+    "passes": 366,
+    "violations": 0
+  }
+}

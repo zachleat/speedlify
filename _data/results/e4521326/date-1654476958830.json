@@ -1,0 +1,67 @@
+{
+  "url": "https://akademia.instytutsprawobywatelskich.pl/",
+  "requestedUrl": "https://akademia.instytutsprawobywatelskich.pl/",
+  "timestamp": 1654493663988,
+  "ranks": {
+    "hundos": 579,
+    "performance": 564,
+    "accessibility": 536,
+    "cumulative": 578
+  },
+  "lighthouse": {
+    "version": "9.6.1",
+    "performance": 0.82,
+    "accessibility": 0.93,
+    "bestPractices": 0.83,
+    "seo": 0.98,
+    "total": 356
+  },
+  "firstContentfulPaint": 1333.985,
+  "firstMeaningfulPaint": 2913.8559999999998,
+  "speedIndex": 3484.198660214152,
+  "largestContentfulPaint": 2809.85,
+  "totalBlockingTime": 303,
+  "cumulativeLayoutShift": 0.012609167098999022,
+  "timeToInteractive": 7661.678999999999,
+  "maxPotentialFirstInputDelay": 184,
+  "timeToFirstByte": 43.19799999999998,
+  "weight": {
+    "summary": "47 requests • 1,429 KiB",
+    "total": 1462831,
+    "image": 889677,
+    "imageCount": 22,
+    "script": 268979,
+    "scriptCount": 8,
+    "document": 59443,
+    "font": 191565,
+    "fontCount": 5,
+    "stylesheet": 29266,
+    "stylesheetCount": 4,
+    "thirdParty": 1175055,
+    "thirdPartyCount": 33
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 585,
+    "+weight.total": 55,
+    "-weight.document": 607,
+    "+weight.document": 23,
+    "-weight.script": 395,
+    "+weight.script": 36,
+    "-weight.image": 415,
+    "+weight.image": 63,
+    "-weight.font": 354,
+    "+weight.font": 64,
+    "+weight.fontCount": 10,
+    "-timeToFirstByte": 172,
+    "-totalBlockingTime": 141,
+    "-largestContentfulPaint": 569
+  },
+  "axe": {
+    "passes": 726,
+    "violations": 4
+  }
+}

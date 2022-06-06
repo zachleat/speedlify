@@ -1,0 +1,67 @@
+{
+  "url": "https://lewisdale.dev/",
+  "requestedUrl": "https://lewisdale.dev/",
+  "timestamp": 1654493750079,
+  "ranks": {
+    "hundos": 159,
+    "performance": 241,
+    "accessibility": 234,
+    "cumulative": 118
+  },
+  "lighthouse": {
+    "version": "9.6.1",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 957.811,
+  "firstMeaningfulPaint": 957.811,
+  "speedIndex": 2595.970014000372,
+  "largestContentfulPaint": 957.811,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 957.811,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 1193.068,
+  "weight": {
+    "summary": "2 requests • 3 KiB",
+    "total": 2592,
+    "image": 0,
+    "imageCount": 0,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 662,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 1930,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 9,
+    "+weight.total": 631,
+    "-weight.document": 3,
+    "+weight.document": 627,
+    "-weight.script": 1,
+    "+weight.script": 431,
+    "-weight.image": 1,
+    "+weight.image": 478,
+    "-weight.font": 1,
+    "+weight.font": 418,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 607,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 87
+  },
+  "axe": {
+    "passes": 70,
+    "violations": 0
+  }
+}

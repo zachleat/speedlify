@@ -1,0 +1,67 @@
+{
+  "url": "https://timothymiller.dev/",
+  "requestedUrl": "https://timothymiller.dev/",
+  "timestamp": 1654493195526,
+  "ranks": {
+    "hundos": 344,
+    "performance": 249,
+    "accessibility": 120,
+    "cumulative": 338
+  },
+  "lighthouse": {
+    "version": "9.6.1",
+    "performance": 0.99,
+    "accessibility": 1,
+    "bestPractices": 0.92,
+    "seo": 1,
+    "total": 391
+  },
+  "firstContentfulPaint": 795.4630000000001,
+  "firstMeaningfulPaint": 795.4630000000001,
+  "speedIndex": 795.4630000000001,
+  "largestContentfulPaint": 795.4630000000001,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.08079946872923109,
+  "timeToInteractive": 795.4630000000001,
+  "maxPotentialFirstInputDelay": 23,
+  "timeToFirstByte": 38.238,
+  "weight": {
+    "summary": "6 requests • 64 KiB",
+    "total": 65702,
+    "image": 394,
+    "imageCount": 1,
+    "script": 3242,
+    "scriptCount": 1,
+    "document": 3857,
+    "font": 55035,
+    "fontCount": 2,
+    "stylesheet": 3174,
+    "stylesheetCount": 1,
+    "thirdParty": 3636,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 166,
+    "+weight.total": 474,
+    "-weight.document": 193,
+    "+weight.document": 437,
+    "-weight.script": 106,
+    "+weight.script": 325,
+    "-weight.image": 8,
+    "+weight.image": 470,
+    "-weight.font": 194,
+    "+weight.font": 224,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 77,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 6
+  },
+  "axe": {
+    "passes": 257,
+    "violations": 0
+  }
+}

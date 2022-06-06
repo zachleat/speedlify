@@ -1,0 +1,67 @@
+{
+  "url": "https://www.ineliagestion.com/",
+  "requestedUrl": "https://www.ineliagestion.com/",
+  "timestamp": 1654485551227,
+  "ranks": {
+    "hundos": 213,
+    "performance": 352,
+    "accessibility": 385,
+    "cumulative": 222
+  },
+  "lighthouse": {
+    "version": "9.6.1",
+    "performance": 0.98,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 398
+  },
+  "firstContentfulPaint": 1754.4720000000002,
+  "firstMeaningfulPaint": 1754.4720000000002,
+  "speedIndex": 1754.4720000000002,
+  "largestContentfulPaint": 1988.441,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.0010937499999999999,
+  "timeToInteractive": 1754.4720000000002,
+  "maxPotentialFirstInputDelay": 41,
+  "timeToFirstByte": 36.77799999999996,
+  "weight": {
+    "summary": "10 requests • 135 KiB",
+    "total": 138301,
+    "image": 39167,
+    "imageCount": 3,
+    "script": 20053,
+    "scriptCount": 3,
+    "document": 29470,
+    "font": 48425,
+    "fontCount": 2,
+    "stylesheet": 1186,
+    "stylesheetCount": 1,
+    "thirdParty": 52229,
+    "thirdPartyCount": 5
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 270,
+    "+weight.total": 370,
+    "-weight.document": 575,
+    "+weight.document": 55,
+    "-weight.script": 215,
+    "+weight.script": 216,
+    "-weight.image": 151,
+    "+weight.image": 327,
+    "-weight.font": 168,
+    "+weight.font": 250,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 45,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 318
+  },
+  "axe": {
+    "passes": 325,
+    "violations": 21
+  }
+}

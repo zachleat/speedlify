@@ -1,0 +1,67 @@
+{
+  "url": "https://nordhealth.design/",
+  "requestedUrl": "https://nordhealth.design/",
+  "timestamp": 1654478083978,
+  "ranks": {
+    "hundos": 172,
+    "performance": 276,
+    "accessibility": 42,
+    "cumulative": 167
+  },
+  "lighthouse": {
+    "version": "9.6.1",
+    "performance": 0.99,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 399
+  },
+  "firstContentfulPaint": 1389.158,
+  "firstMeaningfulPaint": 1389.158,
+  "speedIndex": 1389.158,
+  "largestContentfulPaint": 1839.158,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1389.158,
+  "maxPotentialFirstInputDelay": 48,
+  "timeToFirstByte": 52.68599999999999,
+  "weight": {
+    "summary": "9 requests • 181 KiB",
+    "total": 185619,
+    "image": 336,
+    "imageCount": 1,
+    "script": 84223,
+    "scriptCount": 3,
+    "document": 18026,
+    "font": 67402,
+    "fontCount": 2,
+    "stylesheet": 14518,
+    "stylesheetCount": 1,
+    "thirdParty": 3959,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 326,
+    "+weight.total": 314,
+    "-weight.document": 540,
+    "+weight.document": 90,
+    "-weight.script": 330,
+    "+weight.script": 101,
+    "-weight.image": 5,
+    "+weight.image": 473,
+    "-weight.font": 226,
+    "+weight.font": 192,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 253,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 289
+  },
+  "axe": {
+    "passes": 555,
+    "violations": 0
+  }
+}

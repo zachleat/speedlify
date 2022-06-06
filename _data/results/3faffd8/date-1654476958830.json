@@ -1,0 +1,67 @@
+{
+  "url": "https://barcia.dev/",
+  "requestedUrl": "https://barcia.dev/",
+  "timestamp": 1654495385699,
+  "ranks": {
+    "hundos": 419,
+    "performance": 172,
+    "accessibility": 446,
+    "cumulative": 425
+  },
+  "lighthouse": {
+    "version": "9.6.1",
+    "performance": 1,
+    "accessibility": 0.97,
+    "bestPractices": 0.92,
+    "seo": 0.97,
+    "total": 386
+  },
+  "firstContentfulPaint": 1296.127,
+  "firstMeaningfulPaint": 1296.127,
+  "speedIndex": 1296.127,
+  "largestContentfulPaint": 1763.695,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.00694427490234375,
+  "timeToInteractive": 1296.127,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 81.70600000000002,
+  "weight": {
+    "summary": "27 requests • 172 KiB",
+    "total": 175921,
+    "image": 3507,
+    "imageCount": 4,
+    "script": 81940,
+    "scriptCount": 10,
+    "document": 1898,
+    "font": 84260,
+    "fontCount": 2,
+    "stylesheet": 2423,
+    "stylesheetCount": 2,
+    "thirdParty": 1578,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 317,
+    "+weight.total": 323,
+    "-weight.document": 59,
+    "+weight.document": 571,
+    "-weight.script": 327,
+    "+weight.script": 104,
+    "-weight.image": 41,
+    "+weight.image": 437,
+    "-weight.font": 267,
+    "+weight.font": 151,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 369,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 272
+  },
+  "axe": {
+    "passes": 100,
+    "violations": 5
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://chriskirknielsen.com/",
+  "requestedUrl": "https://chriskirknielsen.com/",
+  "timestamp": 1654499425617,
+  "ranks": {
+    "hundos": 101,
+    "performance": 63,
+    "accessibility": 49,
+    "cumulative": 71
+  },
+  "lighthouse": {
+    "version": "9.6.1",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 900.111,
+  "firstMeaningfulPaint": 900.111,
+  "speedIndex": 973.6684259995985,
+  "largestContentfulPaint": 1050.1109999999999,
+  "totalBlockingTime": 10,
+  "cumulativeLayoutShift": 0.002158203125,
+  "timeToInteractive": 943.111,
+  "maxPotentialFirstInputDelay": 70,
+  "timeToFirstByte": 35.79400000000001,
+  "weight": {
+    "summary": "5 requests • 31 KiB",
+    "total": 31987,
+    "image": 0,
+    "imageCount": 0,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 13364,
+    "font": 18016,
+    "fontCount": 3,
+    "stylesheet": 607,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 107,
+    "+weight.total": 533,
+    "-weight.document": 502,
+    "+weight.document": 128,
+    "-weight.script": 1,
+    "+weight.script": 431,
+    "-weight.image": 1,
+    "+weight.image": 478,
+    "-weight.font": 40,
+    "+weight.font": 378,
+    "+weight.fontCount": 12,
+    "-timeToFirstByte": 23,
+    "-totalBlockingTime": 25,
+    "-largestContentfulPaint": 471
+  },
+  "axe": {
+    "passes": 494,
+    "violations": 0
+  }
+}

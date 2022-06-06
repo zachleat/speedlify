@@ -1,0 +1,67 @@
+{
+  "url": "https://wiltomakesfood.com/",
+  "requestedUrl": "https://wiltomakesfood.com/",
+  "timestamp": 1654499669129,
+  "ranks": {
+    "hundos": 270,
+    "performance": 341,
+    "accessibility": 342,
+    "cumulative": 280
+  },
+  "lighthouse": {
+    "version": "9.6.1",
+    "performance": 0.98,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 0.97,
+    "total": 395
+  },
+  "firstContentfulPaint": 1243.3160000000003,
+  "firstMeaningfulPaint": 1243.3160000000003,
+  "speedIndex": 1243.3160000000003,
+  "largestContentfulPaint": 2380.4845000000005,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.003515625,
+  "timeToInteractive": 1243.3160000000003,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 38.67599999999999,
+  "weight": {
+    "summary": "20 requests • 1,289 KiB",
+    "total": 1319644,
+    "image": 1205491,
+    "imageCount": 12,
+    "script": 1832,
+    "scriptCount": 3,
+    "document": 6679,
+    "font": 92528,
+    "fontCount": 3,
+    "stylesheet": 13114,
+    "stylesheetCount": 1,
+    "thirdParty": 166194,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 576,
+    "+weight.total": 64,
+    "-weight.document": 354,
+    "+weight.document": 276,
+    "-weight.script": 76,
+    "+weight.script": 355,
+    "-weight.image": 427,
+    "+weight.image": 51,
+    "-weight.font": 279,
+    "+weight.font": 139,
+    "+weight.fontCount": 12,
+    "-timeToFirstByte": 92,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 356
+  },
+  "axe": {
+    "passes": 383,
+    "violations": 4
+  }
+}

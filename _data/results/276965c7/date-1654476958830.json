@@ -1,0 +1,67 @@
+{
+  "url": "https://kaicataldo.com/",
+  "requestedUrl": "https://kaicataldo.com/",
+  "timestamp": 1654489071045,
+  "ranks": {
+    "hundos": 12,
+    "performance": 42,
+    "accessibility": 282,
+    "cumulative": 121
+  },
+  "lighthouse": {
+    "version": "9.6.1",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 816.338,
+  "firstMeaningfulPaint": 839.338,
+  "speedIndex": 920.7649691959118,
+  "largestContentfulPaint": 1706.338,
+  "totalBlockingTime": 57.5,
+  "cumulativeLayoutShift": 0.0009028263092041016,
+  "timeToInteractive": 1796.338,
+  "maxPotentialFirstInputDelay": 165,
+  "timeToFirstByte": 69.07099999999997,
+  "weight": {
+    "summary": "12 requests • 295 KiB",
+    "total": 301965,
+    "image": 36880,
+    "imageCount": 1,
+    "script": 118235,
+    "scriptCount": 6,
+    "document": 10095,
+    "font": 135772,
+    "fontCount": 3,
+    "stylesheet": 983,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 422,
+    "+weight.total": 218,
+    "-weight.document": 450,
+    "+weight.document": 180,
+    "-weight.script": 352,
+    "+weight.script": 79,
+    "-weight.image": 146,
+    "+weight.image": 332,
+    "-weight.font": 321,
+    "+weight.font": 97,
+    "+weight.fontCount": 12,
+    "-timeToFirstByte": 341,
+    "-totalBlockingTime": 80,
+    "-largestContentfulPaint": 510
+  },
+  "axe": {
+    "passes": 197,
+    "violations": 1
+  }
+}

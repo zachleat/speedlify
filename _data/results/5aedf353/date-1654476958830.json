@@ -1,0 +1,67 @@
+{
+  "url": "https://shotplot.app/",
+  "requestedUrl": "https://shotplot.app/",
+  "timestamp": 1654490613664,
+  "ranks": {
+    "hundos": 519,
+    "performance": 594,
+    "accessibility": 253,
+    "cumulative": 515
+  },
+  "lighthouse": {
+    "version": "9.6.1",
+    "performance": 0.73,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 373
+  },
+  "firstContentfulPaint": 3645.5469999999996,
+  "firstMeaningfulPaint": 3720.8239999999996,
+  "speedIndex": 4083.564186307732,
+  "largestContentfulPaint": 3796.1009999999997,
+  "totalBlockingTime": 2,
+  "cumulativeLayoutShift": 0.19251846313476564,
+  "timeToInteractive": 3796.1009999999997,
+  "maxPotentialFirstInputDelay": 52,
+  "timeToFirstByte": 44.03,
+  "weight": {
+    "summary": "11 requests • 185 KiB",
+    "total": 189772,
+    "image": 1101,
+    "imageCount": 1,
+    "script": 151342,
+    "scriptCount": 4,
+    "document": 2913,
+    "font": 13063,
+    "fontCount": 1,
+    "stylesheet": 17690,
+    "stylesheetCount": 2,
+    "thirdParty": 60759,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 334,
+    "+weight.total": 306,
+    "-weight.document": 132,
+    "+weight.document": 498,
+    "-weight.script": 372,
+    "+weight.script": 59,
+    "-weight.image": 22,
+    "+weight.image": 456,
+    "-weight.font": 21,
+    "+weight.font": 397,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 197,
+    "-totalBlockingTime": 7,
+    "-largestContentfulPaint": 398
+  },
+  "axe": {
+    "passes": 488,
+    "violations": 1
+  }
+}

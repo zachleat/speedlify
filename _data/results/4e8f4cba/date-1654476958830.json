@@ -1,0 +1,67 @@
+{
+  "url": "https://cassettenest.com/",
+  "requestedUrl": "https://cassettenest.com/",
+  "timestamp": 1654499064019,
+  "ranks": {
+    "hundos": 478,
+    "performance": 261,
+    "accessibility": 417,
+    "cumulative": 482
+  },
+  "lighthouse": {
+    "version": "9.6.1",
+    "performance": 0.99,
+    "accessibility": 0.98,
+    "bestPractices": 0.92,
+    "seo": 0.9,
+    "total": 379
+  },
+  "firstContentfulPaint": 1009.6960000000003,
+  "firstMeaningfulPaint": 1009.6960000000003,
+  "speedIndex": 1009.6960000000003,
+  "largestContentfulPaint": 2073.4170000000004,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1009.6960000000003,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 50.929,
+  "weight": {
+    "summary": "6 requests • 159 KiB",
+    "total": 163056,
+    "image": 148218,
+    "imageCount": 2,
+    "script": 1312,
+    "scriptCount": 1,
+    "document": 5208,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 8047,
+    "stylesheetCount": 1,
+    "thirdParty": 1312,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 295,
+    "+weight.total": 345,
+    "-weight.document": 278,
+    "+weight.document": 352,
+    "-weight.script": 48,
+    "+weight.script": 383,
+    "-weight.image": 268,
+    "+weight.image": 210,
+    "-weight.font": 1,
+    "+weight.font": 418,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 234,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 338
+  },
+  "axe": {
+    "passes": 303,
+    "violations": 21
+  }
+}

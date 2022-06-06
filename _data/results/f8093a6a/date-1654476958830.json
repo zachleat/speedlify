@@ -1,0 +1,67 @@
+{
+  "url": "https://www.ogarcia.es/",
+  "requestedUrl": "https://www.ogarcia.es/",
+  "timestamp": 1654478727653,
+  "ranks": {
+    "hundos": 145,
+    "performance": 240,
+    "accessibility": 113,
+    "cumulative": 108
+  },
+  "lighthouse": {
+    "version": "9.6.1",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 1010.139,
+  "firstMeaningfulPaint": 1048.6390000000001,
+  "speedIndex": 2589.1315090510025,
+  "largestContentfulPaint": 1048.6390000000001,
+  "totalBlockingTime": 20.000000000000114,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1080.1390000000001,
+  "maxPotentialFirstInputDelay": 77.00000000000011,
+  "timeToFirstByte": 910.545,
+  "weight": {
+    "summary": "2 requests • 9 KiB",
+    "total": 9231,
+    "image": 0,
+    "imageCount": 0,
+    "script": 1042,
+    "scriptCount": 1,
+    "document": 8189,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 46,
+    "+weight.total": 594,
+    "-weight.document": 405,
+    "+weight.document": 225,
+    "-weight.script": 32,
+    "+weight.script": 399,
+    "-weight.image": 1,
+    "+weight.image": 478,
+    "-weight.font": 1,
+    "+weight.font": 418,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 567,
+    "-totalBlockingTime": 44,
+    "-largestContentfulPaint": 416
+  },
+  "axe": {
+    "passes": 271,
+    "violations": 0
+  }
+}

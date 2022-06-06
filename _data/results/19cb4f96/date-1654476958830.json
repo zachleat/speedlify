@@ -1,0 +1,67 @@
+{
+  "url": "https://www.wisc.edu/",
+  "requestedUrl": "https://www.wisc.edu/",
+  "timestamp": 1654490002820,
+  "ranks": {
+    "hundos": 541,
+    "performance": 607,
+    "accessibility": 15,
+    "cumulative": 539
+  },
+  "lighthouse": {
+    "version": "9.6.1",
+    "performance": 0.69,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 369
+  },
+  "firstContentfulPaint": 1104.6600000000003,
+  "firstMeaningfulPaint": 1104.6600000000003,
+  "speedIndex": 6186.578893086661,
+  "largestContentfulPaint": 8570.987500000001,
+  "totalBlockingTime": 12,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 2194.3575,
+  "maxPotentialFirstInputDelay": 74,
+  "timeToFirstByte": 153.4720000000002,
+  "weight": {
+    "summary": "46 requests • 2,578 KiB",
+    "total": 2639607,
+    "image": 1108754,
+    "imageCount": 13,
+    "script": 261558,
+    "scriptCount": 10,
+    "document": 24584,
+    "font": 141084,
+    "fontCount": 10,
+    "stylesheet": 21168,
+    "stylesheetCount": 3,
+    "thirdParty": 255690,
+    "thirdPartyCount": 14
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 607,
+    "+weight.total": 33,
+    "-weight.document": 568,
+    "+weight.document": 62,
+    "-weight.script": 394,
+    "+weight.script": 37,
+    "-weight.image": 425,
+    "+weight.image": 53,
+    "-weight.font": 328,
+    "+weight.font": 90,
+    "+weight.fontCount": 5,
+    "-timeToFirstByte": 457,
+    "-totalBlockingTime": 29,
+    "-largestContentfulPaint": 628
+  },
+  "axe": {
+    "passes": 945,
+    "violations": 0
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "http://www.grupapir.pl/",
+  "requestedUrl": "http://www.grupapir.pl/",
+  "timestamp": 1654501335950,
+  "ranks": {
+    "hundos": 504,
+    "performance": 422,
+    "accessibility": 570,
+    "cumulative": 503
+  },
+  "lighthouse": {
+    "version": "9.6.1",
+    "performance": 0.96,
+    "accessibility": 0.89,
+    "bestPractices": 0.92,
+    "seo": 0.98,
+    "total": 375
+  },
+  "firstContentfulPaint": 967.3140000000001,
+  "firstMeaningfulPaint": 992.8140000000001,
+  "speedIndex": 1939.90972858141,
+  "largestContentfulPaint": 2554.628,
+  "totalBlockingTime": 37.5,
+  "cumulativeLayoutShift": 0.07859375,
+  "timeToInteractive": 1154.814,
+  "maxPotentialFirstInputDelay": 85,
+  "timeToFirstByte": 138.12600000000003,
+  "weight": {
+    "summary": "6 requests • 273 KiB",
+    "total": 279889,
+    "image": 72838,
+    "imageCount": 2,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 57930,
+    "font": 149121,
+    "fontCount": 3,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 407,
+    "+weight.total": 233,
+    "-weight.document": 606,
+    "+weight.document": 24,
+    "-weight.script": 1,
+    "+weight.script": 431,
+    "-weight.image": 191,
+    "+weight.image": 287,
+    "-weight.font": 331,
+    "+weight.font": 87,
+    "+weight.fontCount": 12,
+    "-timeToFirstByte": 444,
+    "-totalBlockingTime": 63,
+    "-largestContentfulPaint": 558
+  },
+  "axe": {
+    "passes": 478,
+    "violations": 3
+  }
+}

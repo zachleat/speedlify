@@ -1,0 +1,67 @@
+{
+  "url": "https://mxb.dev/",
+  "requestedUrl": "https://mxb.dev/",
+  "timestamp": 1654490501218,
+  "ranks": {
+    "hundos": 34,
+    "performance": 166,
+    "accessibility": 81,
+    "cumulative": 24
+  },
+  "lighthouse": {
+    "version": "9.6.1",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 1082.386,
+  "firstMeaningfulPaint": 1096.886,
+  "speedIndex": 1266.2026760688946,
+  "largestContentfulPaint": 1621.886,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1096.886,
+  "maxPotentialFirstInputDelay": 29,
+  "timeToFirstByte": 62.347999999999985,
+  "weight": {
+    "summary": "15 requests • 157 KiB",
+    "total": 160317,
+    "image": 89697,
+    "imageCount": 8,
+    "script": 17310,
+    "scriptCount": 1,
+    "document": 7801,
+    "font": 31587,
+    "fontCount": 1,
+    "stylesheet": 10316,
+    "stylesheetCount": 2,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 291,
+    "+weight.total": 349,
+    "-weight.document": 390,
+    "+weight.document": 240,
+    "-weight.script": 202,
+    "+weight.script": 229,
+    "-weight.image": 214,
+    "+weight.image": 264,
+    "-weight.font": 105,
+    "+weight.font": 313,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 318,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 237
+  },
+  "axe": {
+    "passes": 361,
+    "violations": 0
+  }
+}

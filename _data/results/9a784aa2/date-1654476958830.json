@@ -1,0 +1,67 @@
+{
+  "url": "https://www.guangshi.io/",
+  "requestedUrl": "https://www.guangshi.io/",
+  "timestamp": 1654497045101,
+  "ranks": {
+    "hundos": 400,
+    "performance": 55,
+    "accessibility": 582,
+    "cumulative": 403
+  },
+  "lighthouse": {
+    "version": "9.6.1",
+    "performance": 1,
+    "accessibility": 0.87,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 387
+  },
+  "firstContentfulPaint": 960.5010000000001,
+  "firstMeaningfulPaint": 988.5010000000001,
+  "speedIndex": 960.5010000000001,
+  "largestContentfulPaint": 988.5010000000001,
+  "totalBlockingTime": 3,
+  "cumulativeLayoutShift": 0.009228659921222262,
+  "timeToInteractive": 994.5010000000001,
+  "maxPotentialFirstInputDelay": 56,
+  "timeToFirstByte": 36.43899999999999,
+  "weight": {
+    "summary": "9 requests • 193 KiB",
+    "total": 197269,
+    "image": 134913,
+    "imageCount": 4,
+    "script": 1317,
+    "scriptCount": 1,
+    "document": 8140,
+    "font": 52899,
+    "fontCount": 3,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 1317,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 343,
+    "+weight.total": 297,
+    "-weight.document": 404,
+    "+weight.document": 226,
+    "-weight.script": 49,
+    "+weight.script": 382,
+    "-weight.image": 257,
+    "+weight.image": 221,
+    "-weight.font": 179,
+    "+weight.font": 239,
+    "+weight.fontCount": 12,
+    "-timeToFirstByte": 40,
+    "-totalBlockingTime": 10,
+    "-largestContentfulPaint": 469
+  },
+  "axe": {
+    "passes": 246,
+    "violations": 2
+  }
+}

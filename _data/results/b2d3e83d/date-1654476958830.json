@@ -1,0 +1,67 @@
+{
+  "url": "https://www.troyv.dev/",
+  "requestedUrl": "https://www.troyv.dev/",
+  "timestamp": 1654477565556,
+  "ranks": {
+    "hundos": 347,
+    "performance": 513,
+    "accessibility": 125,
+    "cumulative": 340
+  },
+  "lighthouse": {
+    "version": "9.6.1",
+    "performance": 0.91,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 391
+  },
+  "firstContentfulPaint": 1837.0339999999999,
+  "firstMeaningfulPaint": 1837.0339999999999,
+  "speedIndex": 7531.793947999968,
+  "largestContentfulPaint": 2052.7725,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.010215728123982748,
+  "timeToInteractive": 1837.0339999999999,
+  "maxPotentialFirstInputDelay": 46,
+  "timeToFirstByte": 43.26099999999997,
+  "weight": {
+    "summary": "22 requests • 335 KiB",
+    "total": 343031,
+    "image": 205844,
+    "imageCount": 4,
+    "script": 37235,
+    "scriptCount": 13,
+    "document": 6852,
+    "font": 92109,
+    "fontCount": 3,
+    "stylesheet": 991,
+    "stylesheetCount": 1,
+    "thirdParty": 168108,
+    "thirdPartyCount": 15
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 440,
+    "+weight.total": 200,
+    "-weight.document": 361,
+    "+weight.document": 269,
+    "-weight.script": 247,
+    "+weight.script": 184,
+    "-weight.image": 306,
+    "+weight.image": 172,
+    "-weight.font": 278,
+    "+weight.font": 140,
+    "+weight.fontCount": 12,
+    "-timeToFirstByte": 177,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 332
+  },
+  "axe": {
+    "passes": 251,
+    "violations": 0
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://cssnano.co/",
+  "requestedUrl": "https://cssnano.co/",
+  "timestamp": 1654489764037,
+  "ranks": {
+    "hundos": 111,
+    "performance": 40,
+    "accessibility": 69,
+    "cumulative": 81
+  },
+  "lighthouse": {
+    "version": "9.6.1",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 809.635,
+  "firstMeaningfulPaint": 874.135,
+  "speedIndex": 913.3260250188112,
+  "largestContentfulPaint": 874.135,
+  "totalBlockingTime": 63,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 927.635,
+  "maxPotentialFirstInputDelay": 129,
+  "timeToFirstByte": 50.99900000000001,
+  "weight": {
+    "summary": "7 requests • 21 KiB",
+    "total": 21644,
+    "image": 15381,
+    "imageCount": 5,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 3433,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 2830,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 81,
+    "+weight.total": 559,
+    "-weight.document": 163,
+    "+weight.document": 467,
+    "-weight.script": 1,
+    "+weight.script": 431,
+    "-weight.image": 93,
+    "+weight.image": 385,
+    "-weight.font": 1,
+    "+weight.font": 418,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 237,
+    "-totalBlockingTime": 84,
+    "-largestContentfulPaint": 453
+  },
+  "axe": {
+    "passes": 410,
+    "violations": 0
+  }
+}

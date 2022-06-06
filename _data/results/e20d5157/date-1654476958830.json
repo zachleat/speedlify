@@ -1,0 +1,67 @@
+{
+  "url": "https://www.mapledesign.co.uk/",
+  "requestedUrl": "https://www.mapledesign.co.uk/",
+  "timestamp": 1654498877627,
+  "ranks": {
+    "hundos": 272,
+    "performance": 394,
+    "accessibility": 357,
+    "cumulative": 282
+  },
+  "lighthouse": {
+    "version": "9.6.1",
+    "performance": 0.97,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 0.98,
+    "total": 395
+  },
+  "firstContentfulPaint": 1968.0669999999996,
+  "firstMeaningfulPaint": 1968.0669999999996,
+  "speedIndex": 1968.0669999999996,
+  "largestContentfulPaint": 2308.305,
+  "totalBlockingTime": 2,
+  "cumulativeLayoutShift": 0.0059813232421875,
+  "timeToInteractive": 2232.6759999999995,
+  "maxPotentialFirstInputDelay": 54,
+  "timeToFirstByte": 106.20100000000002,
+  "weight": {
+    "summary": "30 requests • 607 KiB",
+    "total": 621996,
+    "image": 504816,
+    "imageCount": 21,
+    "script": 20403,
+    "scriptCount": 1,
+    "document": 5279,
+    "font": 80067,
+    "fontCount": 4,
+    "stylesheet": 11219,
+    "stylesheetCount": 2,
+    "thirdParty": 357081,
+    "thirdPartyCount": 12
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 517,
+    "+weight.total": 123,
+    "-weight.document": 282,
+    "+weight.document": 348,
+    "-weight.script": 218,
+    "+weight.script": 213,
+    "-weight.image": 387,
+    "+weight.image": 91,
+    "-weight.font": 259,
+    "+weight.font": 159,
+    "+weight.fontCount": 11,
+    "-timeToFirstByte": 394,
+    "-totalBlockingTime": 7,
+    "-largestContentfulPaint": 354
+  },
+  "axe": {
+    "passes": 257,
+    "violations": 6
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://manifesto.smth.uk/",
+  "requestedUrl": "https://manifesto.smth.uk/",
+  "timestamp": 1654479170044,
+  "ranks": {
+    "hundos": 80,
+    "performance": 9,
+    "accessibility": 216,
+    "cumulative": 56
+  },
+  "lighthouse": {
+    "version": "9.6.1",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 817.337,
+  "firstMeaningfulPaint": 817.337,
+  "speedIndex": 817.337,
+  "largestContentfulPaint": 817.337,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.02519287109375,
+  "timeToInteractive": 817.337,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 67.41199999999999,
+  "weight": {
+    "summary": "2 requests • 40 KiB",
+    "total": 41335,
+    "image": 0,
+    "imageCount": 0,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 1983,
+    "font": 39352,
+    "fontCount": 1,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 127,
+    "+weight.total": 513,
+    "-weight.document": 65,
+    "+weight.document": 565,
+    "-weight.script": 1,
+    "+weight.script": 431,
+    "-weight.image": 1,
+    "+weight.image": 478,
+    "-weight.font": 137,
+    "+weight.font": 281,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 339,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 17
+  },
+  "axe": {
+    "passes": 101,
+    "violations": 0
+  }
+}

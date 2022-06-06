@@ -1,0 +1,67 @@
+{
+  "url": "https://mattrad.uk/",
+  "requestedUrl": "https://mattrad.uk/",
+  "timestamp": 1654501865190,
+  "ranks": {
+    "hundos": 158,
+    "performance": 244,
+    "accessibility": 293,
+    "cumulative": 142
+  },
+  "lighthouse": {
+    "version": "9.6.1",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 790.3240000000001,
+  "firstMeaningfulPaint": 790.3240000000001,
+  "speedIndex": 2668.8028000005843,
+  "largestContentfulPaint": 790.3240000000001,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 790.3240000000001,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 120.17800000000011,
+  "weight": {
+    "summary": "2 requests • 3 KiB",
+    "total": 2623,
+    "image": 0,
+    "imageCount": 0,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 1081,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 1542,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 10,
+    "+weight.total": 630,
+    "-weight.document": 10,
+    "+weight.document": 620,
+    "-weight.script": 1,
+    "+weight.script": 431,
+    "-weight.image": 1,
+    "+weight.image": 478,
+    "-weight.font": 1,
+    "+weight.font": 418,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 410,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 4
+  },
+  "axe": {
+    "passes": 129,
+    "violations": 1
+  }
+}

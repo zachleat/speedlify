@@ -1,0 +1,67 @@
+{
+  "url": "https://defiplaza.net/",
+  "requestedUrl": "https://defiplaza.net/",
+  "timestamp": 1654483426485,
+  "ranks": {
+    "hundos": 558,
+    "performance": 572,
+    "accessibility": 580,
+    "cumulative": 575
+  },
+  "lighthouse": {
+    "version": "9.6.1",
+    "performance": 0.8,
+    "accessibility": 0.88,
+    "bestPractices": 1,
+    "seo": 0.9,
+    "total": 364
+  },
+  "firstContentfulPaint": 2127.46,
+  "firstMeaningfulPaint": 2127.46,
+  "speedIndex": 2127.46,
+  "largestContentfulPaint": 2725.3949999999995,
+  "totalBlockingTime": 2.2737367544323206e-13,
+  "cumulativeLayoutShift": 0.7527280235290528,
+  "timeToInteractive": 3133.3155,
+  "maxPotentialFirstInputDelay": 50.000000000000455,
+  "timeToFirstByte": 110.43599999999999,
+  "weight": {
+    "summary": "24 requests • 1,924 KiB",
+    "total": 1969731,
+    "image": 1687628,
+    "imageCount": 3,
+    "script": 109140,
+    "scriptCount": 9,
+    "document": 33176,
+    "font": 129308,
+    "fontCount": 5,
+    "stylesheet": 9785,
+    "stylesheetCount": 1,
+    "thirdParty": 147755,
+    "thirdPartyCount": 15
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 598,
+    "+weight.total": 42,
+    "-weight.document": 580,
+    "+weight.document": 50,
+    "-weight.script": 344,
+    "+weight.script": 87,
+    "-weight.image": 442,
+    "+weight.image": 36,
+    "-weight.font": 318,
+    "+weight.font": 100,
+    "+weight.fontCount": 10,
+    "-timeToFirstByte": 397,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 375
+  },
+  "axe": {
+    "passes": 826,
+    "violations": 59
+  }
+}

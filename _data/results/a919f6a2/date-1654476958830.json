@@ -1,0 +1,67 @@
+{
+  "url": "https://www.belter.io/",
+  "requestedUrl": "https://www.belter.io/",
+  "timestamp": 1654489439007,
+  "ranks": {
+    "hundos": 282,
+    "performance": 52,
+    "accessibility": 437,
+    "cumulative": 278
+  },
+  "lighthouse": {
+    "version": "9.6.1",
+    "performance": 1,
+    "accessibility": 0.97,
+    "bestPractices": 1,
+    "seo": 0.98,
+    "total": 395
+  },
+  "firstContentfulPaint": 948.416,
+  "firstMeaningfulPaint": 948.416,
+  "speedIndex": 948.416,
+  "largestContentfulPaint": 948.416,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 948.416,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 36.543000000000006,
+  "weight": {
+    "summary": "3 requests • 21 KiB",
+    "total": 21888,
+    "image": 13328,
+    "imageCount": 1,
+    "script": 741,
+    "scriptCount": 1,
+    "document": 7819,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 13328,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 82,
+    "+weight.total": 558,
+    "-weight.document": 391,
+    "+weight.document": 239,
+    "-weight.script": 12,
+    "+weight.script": 419,
+    "-weight.image": 87,
+    "+weight.image": 391,
+    "-weight.font": 1,
+    "+weight.font": 418,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 41,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 83
+  },
+  "axe": {
+    "passes": 479,
+    "violations": 2
+  }
+}

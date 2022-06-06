@@ -1,0 +1,67 @@
+{
+  "url": "https://hans.gerwitz.com/",
+  "requestedUrl": "https://hans.gerwitz.com/",
+  "timestamp": 1654493137050,
+  "ranks": {
+    "hundos": 412,
+    "performance": 448,
+    "accessibility": 347,
+    "cumulative": 408
+  },
+  "lighthouse": {
+    "version": "9.6.1",
+    "performance": 0.95,
+    "accessibility": 1,
+    "bestPractices": 0.92,
+    "seo": 1,
+    "total": 387
+  },
+  "firstContentfulPaint": 2384.457,
+  "firstMeaningfulPaint": 2384.457,
+  "speedIndex": 2384.457,
+  "largestContentfulPaint": 2384.457,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 2384.457,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 39.519000000000005,
+  "weight": {
+    "summary": "6 requests • 7 KiB",
+    "total": 6855,
+    "image": 0,
+    "imageCount": 0,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 2345,
+    "font": 201,
+    "fontCount": 3,
+    "stylesheet": 4309,
+    "stylesheetCount": 2,
+    "thirdParty": 4309,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 35,
+    "+weight.total": 605,
+    "-weight.document": 93,
+    "+weight.document": 537,
+    "-weight.script": 1,
+    "+weight.script": 431,
+    "-weight.image": 1,
+    "+weight.image": 478,
+    "-weight.font": 1,
+    "+weight.font": 417,
+    "+weight.fontCount": 12,
+    "-timeToFirstByte": 111,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 357
+  },
+  "axe": {
+    "passes": 83,
+    "violations": 4
+  }
+}

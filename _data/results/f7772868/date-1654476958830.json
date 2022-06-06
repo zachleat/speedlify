@@ -1,0 +1,67 @@
+{
+  "url": "https://www.fundaciongoethe.org/es/",
+  "requestedUrl": "https://www.fundaciongoethe.org/es/",
+  "timestamp": 1654498819115,
+  "ranks": {
+    "hundos": 527,
+    "performance": 578,
+    "accessibility": 348,
+    "cumulative": 528
+  },
+  "lighthouse": {
+    "version": "9.6.1",
+    "performance": 0.79,
+    "accessibility": 1,
+    "bestPractices": 0.92,
+    "seo": 1,
+    "total": 371
+  },
+  "firstContentfulPaint": 1542.1330000000003,
+  "firstMeaningfulPaint": 1556.6330000000003,
+  "speedIndex": 6101.414113217694,
+  "largestContentfulPaint": 4077.553000000001,
+  "totalBlockingTime": 22,
+  "cumulativeLayoutShift": 0.04849388631184896,
+  "timeToInteractive": 4541.35,
+  "maxPotentialFirstInputDelay": 94,
+  "timeToFirstByte": 49.75199999999995,
+  "weight": {
+    "summary": "31 requests • 912 KiB",
+    "total": 933551,
+    "image": 700183,
+    "imageCount": 25,
+    "script": 47211,
+    "scriptCount": 2,
+    "document": 82546,
+    "font": 103611,
+    "fontCount": 3,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 1312,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 548,
+    "+weight.total": 92,
+    "-weight.document": 612,
+    "+weight.document": 18,
+    "-weight.script": 258,
+    "+weight.script": 173,
+    "-weight.image": 405,
+    "+weight.image": 73,
+    "-weight.font": 291,
+    "+weight.font": 127,
+    "+weight.fontCount": 12,
+    "-timeToFirstByte": 225,
+    "-totalBlockingTime": 47,
+    "-largestContentfulPaint": 440
+  },
+  "axe": {
+    "passes": 933,
+    "violations": 5
+  }
+}

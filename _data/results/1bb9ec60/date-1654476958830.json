@@ -1,0 +1,67 @@
+{
+  "url": "https://www.a11yproject.com/",
+  "requestedUrl": "https://www.a11yproject.com/",
+  "timestamp": 1654487571447,
+  "ranks": {
+    "hundos": 1,
+    "performance": 97,
+    "accessibility": 31,
+    "cumulative": 1
+  },
+  "lighthouse": {
+    "version": "9.6.1",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 1052.1779999999999,
+  "firstMeaningfulPaint": 1202.1779999999999,
+  "speedIndex": 1052.1779999999999,
+  "largestContentfulPaint": 1502.1779999999999,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.04180120746294658,
+  "timeToInteractive": 1202.1779999999999,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 39.19,
+  "weight": {
+    "summary": "11 requests • 553 KiB",
+    "total": 565778,
+    "image": 496685,
+    "imageCount": 4,
+    "script": 2198,
+    "scriptCount": 3,
+    "document": 9330,
+    "font": 43744,
+    "fontCount": 2,
+    "stylesheet": 13821,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 510,
+    "+weight.total": 130,
+    "-weight.document": 426,
+    "+weight.document": 204,
+    "-weight.script": 85,
+    "+weight.script": 346,
+    "-weight.image": 386,
+    "+weight.image": 92,
+    "-weight.font": 152,
+    "+weight.font": 266,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 108,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 211
+  },
+  "axe": {
+    "passes": 623,
+    "violations": 0
+  }
+}

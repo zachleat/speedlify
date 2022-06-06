@@ -1,0 +1,67 @@
+{
+  "url": "https://bholmes.dev/",
+  "requestedUrl": "https://bholmes.dev/",
+  "timestamp": 1654495857248,
+  "ranks": {
+    "hundos": 460,
+    "performance": 495,
+    "accessibility": 565,
+    "cumulative": 461
+  },
+  "lighthouse": {
+    "version": "9.6.1",
+    "performance": 0.92,
+    "accessibility": 0.9,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 382
+  },
+  "firstContentfulPaint": 2398.407,
+  "firstMeaningfulPaint": 2398.407,
+  "speedIndex": 2398.407,
+  "largestContentfulPaint": 2870.4240000000004,
+  "totalBlockingTime": 16,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 2682.3145000000004,
+  "maxPotentialFirstInputDelay": 82,
+  "timeToFirstByte": 38.583,
+  "weight": {
+    "summary": "36 requests • 908 KiB",
+    "total": 929871,
+    "image": 84791,
+    "imageCount": 14,
+    "script": 17739,
+    "scriptCount": 6,
+    "document": 7590,
+    "font": 108742,
+    "fontCount": 6,
+    "stylesheet": 8662,
+    "stylesheetCount": 4,
+    "thirdParty": 41189,
+    "thirdPartyCount": 4
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 546,
+    "+weight.total": 94,
+    "-weight.document": 385,
+    "+weight.document": 245,
+    "-weight.script": 205,
+    "+weight.script": 226,
+    "-weight.image": 209,
+    "+weight.image": 269,
+    "-weight.font": 298,
+    "+weight.font": 120,
+    "+weight.fontCount": 9,
+    "-timeToFirstByte": 90,
+    "-totalBlockingTime": 37,
+    "-largestContentfulPaint": 435
+  },
+  "axe": {
+    "passes": 473,
+    "violations": 11
+  }
+}

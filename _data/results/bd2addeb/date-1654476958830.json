@@ -1,0 +1,67 @@
+{
+  "url": "https://blog.dermah.com/",
+  "requestedUrl": "https://blog.dermah.com/",
+  "timestamp": 1654487918524,
+  "ranks": {
+    "hundos": 173,
+    "performance": 255,
+    "accessibility": 139,
+    "cumulative": 168
+  },
+  "lighthouse": {
+    "version": "9.6.1",
+    "performance": 0.99,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 399
+  },
+  "firstContentfulPaint": 951.8820000000001,
+  "firstMeaningfulPaint": 951.8820000000001,
+  "speedIndex": 951.8820000000001,
+  "largestContentfulPaint": 951.8820000000001,
+  "totalBlockingTime": 2.9999999999997726,
+  "cumulativeLayoutShift": 0.012999725341796876,
+  "timeToInteractive": 3347.955,
+  "maxPotentialFirstInputDelay": 53,
+  "timeToFirstByte": 134.008,
+  "weight": {
+    "summary": "11 requests • 150 KiB",
+    "total": 153695,
+    "image": 38399,
+    "imageCount": 1,
+    "script": 75098,
+    "scriptCount": 3,
+    "document": 4675,
+    "font": 31873,
+    "fontCount": 2,
+    "stylesheet": 2870,
+    "stylesheetCount": 2,
+    "thirdParty": 107932,
+    "thirdPartyCount": 8
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 284,
+    "+weight.total": 356,
+    "-weight.document": 250,
+    "+weight.document": 380,
+    "-weight.script": 317,
+    "+weight.script": 114,
+    "-weight.image": 150,
+    "+weight.image": 328,
+    "-weight.font": 107,
+    "+weight.font": 311,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 438,
+    "-totalBlockingTime": 9,
+    "-largestContentfulPaint": 461
+  },
+  "axe": {
+    "passes": 227,
+    "violations": 0
+  }
+}

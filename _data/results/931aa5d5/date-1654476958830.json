@@ -1,0 +1,67 @@
+{
+  "url": "https://seccl.tech/",
+  "requestedUrl": "https://seccl.tech/",
+  "timestamp": 1654491663683,
+  "ranks": {
+    "hundos": 616,
+    "performance": 623,
+    "accessibility": 595,
+    "cumulative": 616
+  },
+  "lighthouse": {
+    "version": "9.6.1",
+    "performance": 0.57,
+    "accessibility": 0.85,
+    "bestPractices": 1,
+    "seo": 0.93,
+    "total": 335
+  },
+  "firstContentfulPaint": 1240.16,
+  "firstMeaningfulPaint": 1253.66,
+  "speedIndex": 5482.157593089032,
+  "largestContentfulPaint": 9862.154999999995,
+  "totalBlockingTime": 44,
+  "cumulativeLayoutShift": 0.3507273987664117,
+  "timeToInteractive": 5217.388,
+  "maxPotentialFirstInputDelay": 88,
+  "timeToFirstByte": 41.579999999999984,
+  "weight": {
+    "summary": "64 requests • 1,914 KiB",
+    "total": 1960432,
+    "image": 1449298,
+    "imageCount": 27,
+    "script": 385237,
+    "scriptCount": 19,
+    "document": 20380,
+    "font": 77741,
+    "fontCount": 1,
+    "stylesheet": 14871,
+    "stylesheetCount": 2,
+    "thirdParty": 398823,
+    "thirdPartyCount": 38
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 597,
+    "+weight.total": 43,
+    "-weight.document": 549,
+    "+weight.document": 81,
+    "-weight.script": 408,
+    "+weight.script": 23,
+    "-weight.image": 437,
+    "+weight.image": 41,
+    "-weight.font": 253,
+    "+weight.font": 165,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 136,
+    "-totalBlockingTime": 67,
+    "-largestContentfulPaint": 632
+  },
+  "axe": {
+    "passes": 965,
+    "violations": 72
+  }
+}

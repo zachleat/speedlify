@@ -1,0 +1,67 @@
+{
+  "url": "https://marcoslooten.com/",
+  "requestedUrl": "https://marcoslooten.com/",
+  "timestamp": 1654493738056,
+  "ranks": {
+    "hundos": 250,
+    "performance": 251,
+    "accessibility": 464,
+    "cumulative": 268
+  },
+  "lighthouse": {
+    "version": "9.6.1",
+    "performance": 0.99,
+    "accessibility": 0.97,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 396
+  },
+  "firstContentfulPaint": 873.7669999999999,
+  "firstMeaningfulPaint": 1599.5489999999998,
+  "speedIndex": 873.7669999999999,
+  "largestContentfulPaint": 1599.5489999999998,
+  "totalBlockingTime": 4.999999999999773,
+  "cumulativeLayoutShift": 0.039145821995205346,
+  "timeToInteractive": 3064.9219999999996,
+  "maxPotentialFirstInputDelay": 55,
+  "timeToFirstByte": 54.31,
+  "weight": {
+    "summary": "11 requests • 287 KiB",
+    "total": 294001,
+    "image": 32036,
+    "imageCount": 1,
+    "script": 62313,
+    "scriptCount": 3,
+    "document": 6857,
+    "font": 187589,
+    "fontCount": 3,
+    "stylesheet": 5000,
+    "stylesheetCount": 2,
+    "thirdParty": 249625,
+    "thirdPartyCount": 7
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 416,
+    "+weight.total": 224,
+    "-weight.document": 362,
+    "+weight.document": 268,
+    "-weight.script": 291,
+    "+weight.script": 140,
+    "-weight.image": 136,
+    "+weight.image": 342,
+    "-weight.font": 351,
+    "+weight.font": 67,
+    "+weight.fontCount": 12,
+    "-timeToFirstByte": 261,
+    "-totalBlockingTime": 14,
+    "-largestContentfulPaint": 502
+  },
+  "axe": {
+    "passes": 133,
+    "violations": 23
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://quentin.delcourt.be/",
+  "requestedUrl": "https://quentin.delcourt.be/",
+  "timestamp": 1654501641668,
+  "ranks": {
+    "hundos": 217,
+    "performance": 359,
+    "accessibility": 164,
+    "cumulative": 204
+  },
+  "lighthouse": {
+    "version": "9.6.1",
+    "performance": 0.98,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 398
+  },
+  "firstContentfulPaint": 1914.7589999999998,
+  "firstMeaningfulPaint": 1914.7589999999998,
+  "speedIndex": 1949.6094540024087,
+  "largestContentfulPaint": 1914.7589999999998,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.0019810791015625003,
+  "timeToInteractive": 1914.7589999999998,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 111.75900000000001,
+  "weight": {
+    "summary": "9 requests • 95 KiB",
+    "total": 97497,
+    "image": 56505,
+    "imageCount": 3,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 2347,
+    "font": 35566,
+    "fontCount": 3,
+    "stylesheet": 3079,
+    "stylesheetCount": 2,
+    "thirdParty": 36869,
+    "thirdPartyCount": 4
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 220,
+    "+weight.total": 420,
+    "-weight.document": 94,
+    "+weight.document": 536,
+    "-weight.script": 1,
+    "+weight.script": 431,
+    "-weight.image": 171,
+    "+weight.image": 307,
+    "-weight.font": 120,
+    "+weight.font": 298,
+    "+weight.fontCount": 12,
+    "-timeToFirstByte": 399,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 302
+  },
+  "axe": {
+    "passes": 181,
+    "violations": 0
+  }
+}

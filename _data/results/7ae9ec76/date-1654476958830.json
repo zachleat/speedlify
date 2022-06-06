@@ -1,0 +1,66 @@
+{
+  "url": "https://doineedbuntingtoday.com/",
+  "requestedUrl": "https://doineedbuntingtoday.com/",
+  "timestamp": 1654484963242,
+  "ranks": {
+    "hundos": 146,
+    "performance": 219,
+    "accessibility": 397,
+    "cumulative": 159
+  },
+  "lighthouse": {
+    "version": "9.6.1",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 898.941,
+  "firstMeaningfulPaint": 898.941,
+  "speedIndex": 2090.4480179995426,
+  "largestContentfulPaint": 898.941,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.05430989583333333,
+  "timeToInteractive": 898.941,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 871.2250000000001,
+  "weight": {
+    "summary": "4 requests • 7 KiB",
+    "total": 7195,
+    "image": 453,
+    "imageCount": 1,
+    "script": 1402,
+    "scriptCount": 1,
+    "document": 1186,
+    "font": 4154,
+    "fontCount": 1,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 1855,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 39,
+    "+weight.total": 601,
+    "-weight.document": 17,
+    "+weight.document": 613,
+    "-weight.script": 52,
+    "+weight.script": 379,
+    "-weight.image": 10,
+    "+weight.image": 468,
+    "-weight.font": 2,
+    "+weight.font": 416,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 563,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 51
+  },
+  "axe": {
+    "error": "{\"name\":\"TimeoutError\"}"
+  }
+}

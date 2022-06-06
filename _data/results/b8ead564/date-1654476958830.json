@@ -1,0 +1,67 @@
+{
+  "url": "https://jaenis.ch/",
+  "requestedUrl": "https://jaenis.ch/",
+  "timestamp": 1654490592580,
+  "ranks": {
+    "hundos": 554,
+    "performance": 490,
+    "accessibility": 571,
+    "cumulative": 554
+  },
+  "lighthouse": {
+    "version": "9.6.1",
+    "performance": 0.93,
+    "accessibility": 0.89,
+    "bestPractices": 0.92,
+    "seo": 0.92,
+    "total": 366
+  },
+  "firstContentfulPaint": 1095.2900000000002,
+  "firstMeaningfulPaint": 1095.2900000000002,
+  "speedIndex": 6620.1994760010175,
+  "largestContentfulPaint": 1995.2900000000002,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.0029456043243408204,
+  "timeToInteractive": 1095.2900000000002,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 123.61999999999989,
+  "weight": {
+    "summary": "28 requests • 665 KiB",
+    "total": 680899,
+    "image": 93704,
+    "imageCount": 5,
+    "script": 44392,
+    "scriptCount": 6,
+    "document": 6452,
+    "font": 525968,
+    "fontCount": 3,
+    "stylesheet": 10054,
+    "stylesheetCount": 11,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 525,
+    "+weight.total": 115,
+    "-weight.document": 346,
+    "+weight.document": 284,
+    "-weight.script": 256,
+    "+weight.script": 175,
+    "-weight.image": 217,
+    "+weight.image": 261,
+    "-weight.font": 407,
+    "+weight.font": 11,
+    "+weight.fontCount": 12,
+    "-timeToFirstByte": 416,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 320
+  },
+  "axe": {
+    "passes": 314,
+    "violations": 6
+  }
+}

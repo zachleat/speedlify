@@ -1,0 +1,67 @@
+{
+  "url": "https://www.londoncss.dev/",
+  "requestedUrl": "https://www.londoncss.dev/",
+  "timestamp": 1654480320533,
+  "ranks": {
+    "hundos": 265,
+    "performance": 132,
+    "accessibility": 487,
+    "cumulative": 267
+  },
+  "lighthouse": {
+    "version": "9.6.1",
+    "performance": 1,
+    "accessibility": 0.96,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 396
+  },
+  "firstContentfulPaint": 968.476,
+  "firstMeaningfulPaint": 968.476,
+  "speedIndex": 1163.5405360000123,
+  "largestContentfulPaint": 968.476,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 968.476,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 188.637,
+  "weight": {
+    "summary": "5 requests • 17 KiB",
+    "total": 17068,
+    "image": 5660,
+    "imageCount": 2,
+    "script": 866,
+    "scriptCount": 1,
+    "document": 6281,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 4261,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 72,
+    "+weight.total": 568,
+    "-weight.document": 339,
+    "+weight.document": 291,
+    "-weight.script": 24,
+    "+weight.script": 407,
+    "-weight.image": 52,
+    "+weight.image": 426,
+    "-weight.font": 1,
+    "+weight.font": 418,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 476,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 94
+  },
+  "axe": {
+    "passes": 192,
+    "violations": 11
+  }
+}

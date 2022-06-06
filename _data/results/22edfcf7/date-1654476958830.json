@@ -1,0 +1,67 @@
+{
+  "url": "https://www.wikilear.it/",
+  "requestedUrl": "https://www.wikilear.it/",
+  "timestamp": 1654486972139,
+  "ranks": {
+    "hundos": 42,
+    "performance": 117,
+    "accessibility": 249,
+    "cumulative": 128
+  },
+  "lighthouse": {
+    "version": "9.6.1",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 1112.251,
+  "firstMeaningfulPaint": 1134.751,
+  "speedIndex": 1112.251,
+  "largestContentfulPaint": 1134.751,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1134.751,
+  "maxPotentialFirstInputDelay": 45,
+  "timeToFirstByte": 37.15699999999998,
+  "weight": {
+    "summary": "16 requests • 111 KiB",
+    "total": 114001,
+    "image": 96959,
+    "imageCount": 15,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 17042,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 96959,
+    "thirdPartyCount": 15
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 239,
+    "+weight.total": 401,
+    "-weight.document": 535,
+    "+weight.document": 95,
+    "-weight.script": 1,
+    "+weight.script": 431,
+    "-weight.image": 221,
+    "+weight.image": 257,
+    "-weight.font": 1,
+    "+weight.font": 418,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 53,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 161
+  },
+  "axe": {
+    "passes": 869,
+    "violations": 1
+  }
+}

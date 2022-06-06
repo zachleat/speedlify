@@ -1,0 +1,67 @@
+{
+  "url": "http://petrzalka.info/",
+  "requestedUrl": "http://petrzalka.info/",
+  "timestamp": 1654485621054,
+  "ranks": {
+    "hundos": 600,
+    "performance": 557,
+    "accessibility": 566,
+    "cumulative": 600
+  },
+  "lighthouse": {
+    "version": "9.6.1",
+    "performance": 0.84,
+    "accessibility": 0.9,
+    "bestPractices": 0.75,
+    "seo": 0.98,
+    "total": 347
+  },
+  "firstContentfulPaint": 1576.6459999999997,
+  "firstMeaningfulPaint": 1576.6459999999997,
+  "speedIndex": 3976.815116000726,
+  "largestContentfulPaint": 4054.8819999999987,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.052311041514078775,
+  "timeToInteractive": 1576.6459999999997,
+  "maxPotentialFirstInputDelay": 43,
+  "timeToFirstByte": 55.274999999999636,
+  "weight": {
+    "summary": "17 requests • 1,157 KiB",
+    "total": 1185144,
+    "image": 1081881,
+    "imageCount": 5,
+    "script": 61151,
+    "scriptCount": 3,
+    "document": 11110,
+    "font": 19508,
+    "fontCount": 2,
+    "stylesheet": 10849,
+    "stylesheetCount": 4,
+    "thirdParty": 83263,
+    "thirdPartyCount": 10
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 570,
+    "+weight.total": 70,
+    "-weight.document": 469,
+    "+weight.document": 161,
+    "-weight.script": 285,
+    "+weight.script": 146,
+    "-weight.image": 424,
+    "+weight.image": 54,
+    "-weight.font": 46,
+    "+weight.font": 372,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 265,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 399
+  },
+  "axe": {
+    "passes": 340,
+    "violations": 18
+  }
+}

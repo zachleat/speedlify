@@ -1,0 +1,67 @@
+{
+  "url": "https://microblog.hankchizljaw.com/",
+  "requestedUrl": "https://microblog.hankchizljaw.com/",
+  "timestamp": 1654487375460,
+  "ranks": {
+    "hundos": 340,
+    "performance": 298,
+    "accessibility": 92,
+    "cumulative": 337
+  },
+  "lighthouse": {
+    "version": "9.6.1",
+    "performance": 0.99,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 0.92,
+    "total": 391
+  },
+  "firstContentfulPaint": 1716.4990000000003,
+  "firstMeaningfulPaint": 1716.4990000000003,
+  "speedIndex": 1716.4990000000003,
+  "largestContentfulPaint": 1716.4990000000003,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.04112937418619792,
+  "timeToInteractive": 1716.4990000000003,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 159.292,
+  "weight": {
+    "summary": "6 requests • 1,049 KiB",
+    "total": 1073759,
+    "image": 1023519,
+    "imageCount": 2,
+    "script": 2520,
+    "scriptCount": 1,
+    "document": 8093,
+    "font": 38424,
+    "fontCount": 1,
+    "stylesheet": 1203,
+    "stylesheetCount": 1,
+    "thirdParty": 1065666,
+    "thirdPartyCount": 5
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 560,
+    "+weight.total": 80,
+    "-weight.document": 403,
+    "+weight.document": 227,
+    "-weight.script": 91,
+    "+weight.script": 340,
+    "-weight.image": 422,
+    "+weight.image": 56,
+    "-weight.font": 133,
+    "+weight.font": 285,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 463,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 264
+  },
+  "axe": {
+    "passes": 321,
+    "violations": 0
+  }
+}

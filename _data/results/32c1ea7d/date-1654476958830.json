@@ -1,0 +1,67 @@
+{
+  "url": "https://bostontparty.co.za/",
+  "requestedUrl": "https://bostontparty.co.za/",
+  "timestamp": 1654499237137,
+  "ranks": {
+    "hundos": 161,
+    "performance": 250,
+    "accessibility": 270,
+    "cumulative": 185
+  },
+  "lighthouse": {
+    "version": "9.6.1",
+    "performance": 0.99,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 399
+  },
+  "firstContentfulPaint": 832.198,
+  "firstMeaningfulPaint": 832.198,
+  "speedIndex": 832.198,
+  "largestContentfulPaint": 2054.808,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 857.198,
+  "maxPotentialFirstInputDelay": 66,
+  "timeToFirstByte": 35.965,
+  "weight": {
+    "summary": "7 requests • 541 KiB",
+    "total": 554278,
+    "image": 543954,
+    "imageCount": 5,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 5346,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 4978,
+    "stylesheetCount": 1,
+    "thirdParty": 543954,
+    "thirdPartyCount": 5
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 508,
+    "+weight.total": 132,
+    "-weight.document": 288,
+    "+weight.document": 342,
+    "-weight.script": 1,
+    "+weight.script": 431,
+    "-weight.image": 392,
+    "+weight.image": 86,
+    "-weight.font": 1,
+    "+weight.font": 418,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 24,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 334
+  },
+  "axe": {
+    "passes": 277,
+    "violations": 1
+  }
+}

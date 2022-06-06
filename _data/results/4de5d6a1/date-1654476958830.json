@@ -1,0 +1,67 @@
+{
+  "url": "https://mannahfoundation.org/",
+  "requestedUrl": "https://mannahfoundation.org/",
+  "timestamp": 1654480330637,
+  "ranks": {
+    "hundos": 626,
+    "performance": 593,
+    "accessibility": 523,
+    "cumulative": 626
+  },
+  "lighthouse": {
+    "version": "9.6.1",
+    "performance": 0.73,
+    "accessibility": 0.94,
+    "bestPractices": 0.75,
+    "seo": 0.83,
+    "total": 325
+  },
+  "firstContentfulPaint": 1642.827,
+  "firstMeaningfulPaint": 3567.440000000001,
+  "speedIndex": 3775.1697767764163,
+  "largestContentfulPaint": 3922.8360000000007,
+  "totalBlockingTime": 325.5,
+  "cumulativeLayoutShift": 0.0031250258286794025,
+  "timeToInteractive": 8089.091,
+  "maxPotentialFirstInputDelay": 267,
+  "timeToFirstByte": 41.334,
+  "weight": {
+    "summary": "55 requests • 1,290 KiB",
+    "total": 1321267,
+    "image": 787569,
+    "imageCount": 10,
+    "script": 424698,
+    "scriptCount": 14,
+    "document": 6027,
+    "font": 36134,
+    "fontCount": 2,
+    "stylesheet": 26790,
+    "stylesheetCount": 4,
+    "thirdParty": 506629,
+    "thirdPartyCount": 41
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 577,
+    "+weight.total": 63,
+    "-weight.document": 321,
+    "+weight.document": 309,
+    "-weight.script": 414,
+    "+weight.script": 17,
+    "-weight.image": 410,
+    "+weight.image": 68,
+    "-weight.font": 121,
+    "+weight.font": 297,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 134,
+    "-totalBlockingTime": 143,
+    "-largestContentfulPaint": 601
+  },
+  "axe": {
+    "passes": 262,
+    "violations": 8
+  }
+}

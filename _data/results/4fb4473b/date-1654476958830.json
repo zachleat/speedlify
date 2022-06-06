@@ -1,0 +1,67 @@
+{
+  "url": "https://robinbakker.nl/",
+  "requestedUrl": "https://robinbakker.nl/",
+  "timestamp": 1654493373259,
+  "ranks": {
+    "hundos": 382,
+    "performance": 291,
+    "accessibility": 402,
+    "cumulative": 380
+  },
+  "lighthouse": {
+    "version": "9.6.1",
+    "performance": 0.99,
+    "accessibility": 0.98,
+    "bestPractices": 0.92,
+    "seo": 1,
+    "total": 389
+  },
+  "firstContentfulPaint": 1264.105,
+  "firstMeaningfulPaint": 1264.105,
+  "speedIndex": 1630.9009700006054,
+  "largestContentfulPaint": 1833.435,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1264.105,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 60.57300000000001,
+  "weight": {
+    "summary": "12 requests • 345 KiB",
+    "total": 352878,
+    "image": 244803,
+    "imageCount": 6,
+    "script": 1341,
+    "scriptCount": 1,
+    "document": 16101,
+    "font": 21231,
+    "fontCount": 1,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 539,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 446,
+    "+weight.total": 194,
+    "-weight.document": 527,
+    "+weight.document": 103,
+    "-weight.script": 51,
+    "+weight.script": 380,
+    "-weight.image": 329,
+    "+weight.image": 149,
+    "-weight.font": 54,
+    "+weight.font": 364,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 307,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 286
+  },
+  "axe": {
+    "passes": 408,
+    "violations": 1
+  }
+}
