@@ -117,7 +117,8 @@ abbr {
 	width: 100%;
 }
 .leaderboard-url a[href] {
-	display: flex;
+	display: inline-flex;
+	vertical-align: middle;
 }
 .leaderboard-redirect-error,
 .leaderboard-redirect-warn {
@@ -543,4 +544,16 @@ abbr {
 .speedlify-pommel-source p {
 	margin: 0 0 1.5em 0;
 	font-size: 0.625em;
+}
+
+/* Side quests */
+.leaderboard-sidequest {
+	margin-left: .5em;
+	font-size: 0.6666666666667em; /* 14px /21 */
+	background-color: #202020;
+	border-radius: 0.2142857142857em; /* 3px /14 */
+	padding: 0.1428571428571em 0.2857142857143em; /* 2px 4px /14 */
+	text-transform: uppercase;
+	letter-spacing: -.3px;
+	white-space: nowrap;
 }

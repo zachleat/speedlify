@@ -79,6 +79,23 @@ module.exports = function(eleventyConfig) {
 		return result;
 	});
 
+	eleventyConfig.addFilter("isNewSite", function(site) {
+		return Object.keys(site).length === 1;
+	});
+
+	eleventyConfig.addFilter("medalRank", function(rank) {
+		if(rank === 1) {
+			return "🥇";
+		}
+		if(rank === 2) {
+			return "🥈";
+		}
+		if(rank === 3) {
+			return "🥉";
+		}
+		return "";
+	});
+
 	// first ${num} entries (and the last entry too)
 	eleventyConfig.addFilter("headAndLast", function(arr, num) {
 		if(num && num < arr.length) {

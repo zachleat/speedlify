@@ -54,6 +54,14 @@ counts:
 							<img src="https://v1.indieweb-avatar.11ty.dev/{{ site[newestKey].url | urlencode }}/" width="150" height="150" alt="IndieWeb Avatar for {{ site[newestKey].url | displayUrl }}" class="leaderboard-list-entry-thumbnail" loading="lazy" decoding="async">
 							<code class="url">{{ site[newestKey].url | displayUrl(hasRedirect) }}</code>{#
 						#}</a>
+						{%- if site | isNewSite %}<span class="leaderboard-sidequest">New</span>{% endif %}
+						{%- if site[newestKey].sidequests['-weight.total'] <= 3 %}<span class="leaderboard-sidequest" title="Least Total Page Weight">⬇ Weight {{ site[newestKey].sidequests['-weight.total'] | medalRank }}</span>{% endif -%}
+						{%- if site[newestKey].sidequests['-weight.script'] <= 3 %}<span class="leaderboard-sidequest" title="Least Total JavaScript Weight">⬇ JS {{ site[newestKey].sidequests['-weight.script'] | medalRank }}</span>{% endif -%}
+						{# {%- if site[newestKey].sidequests['+weight.image'] <= 3 %}<span class="leaderboard-sidequest" title="Most Image Weight">⬆ IMG {{ site[newestKey].sidequests['+weight.image'] | medalRank }}</span>{% endif -%} #}
+						{%- if site[newestKey].sidequests['+weight.fontCount'] <= 3 %}<span class="leaderboard-sidequest" title="Most Web Fonts (by file count)">⬆ Web Fonts {{ site[newestKey].sidequests['+weight.fontCount'] | medalRank }}</span>{% endif -%}
+						{%- if site[newestKey].sidequests['-timeToFirstByte'] <= 3 %}<span class="leaderboard-sidequest" title="Fastest Time to First Byte">⬇ TTFB {{ site[newestKey].sidequests['-timeToFirstByte'] | medalRank }}</span>{% endif -%}
+						{# commented out because all of the top sites won {%- if site[newestKey].sidequests['-totalBlockingTime'] <= 3 %}<span class="leaderboard-sidequest" title="Smallest Total Blocking Time">⬇ TBT {{ site[newestKey].sidequests['-totalBlockingTime'] | medalRank }}</span>{% endif -%}#}
+						{%- if site[newestKey].sidequests['-largestContentfulPaint'] <= 3 %}<span class="leaderboard-sidequest" title="Smallest Largest Contentful Paint Time">⬇ LCP {{ site[newestKey].sidequests['-largestContentfulPaint'] | medalRank }}</span>{% endif -%}
 						{%- if hasRedirect %}<span class="leaderboard-redirect-warn">Redirect from <code class="url">{{ site[newestKey].requestedUrl | displayUrl(true) }}</code></span>{% endif -%}
 						{%- if site[newestKey].error %}<span class="leaderboard-redirect-error">Error</span>{% endif -%}
 					</td>
