@@ -10,7 +10,7 @@ module.exports = {
 		"https://www.atelierunearchitecture.com/",
 		//"https://website-702.eventmaker.io/", // fix issue with youtube
 		"https://www.convention-usf.fr/",
-		// "https://eurofa.eventmaker.io/", // fix issue with youtube latency.
+		// "https://eurofa.eventmaker.io/", // fix issue with youtube latency
 		"https://website-29177.eventmaker.io/",
 		"https://www.losangexpo.com/",
 		"https://www.eventmaker.com/",
