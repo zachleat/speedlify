@@ -498,6 +498,9 @@ th.leaderboard-score span{
 	stroke: var(--speedlify-color-6);
 }
 
+[class^='results-series-'] {
+	color: white !important;
+}
 
 /* Category stats */
 .category-stats {
