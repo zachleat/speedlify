@@ -297,6 +297,15 @@ module.exports = function(eleventyConfig) {
 
 	eleventyConfig.addFilter("calc", calc);
 
+	function getWeeklyServiceCacheBuster() {
+		let d = new Date();
+		// Weekly
+		return `_${d.getFullYear()}${pad(d.getMonth()+1)}_${d.getDate() % 7}`;
+	}
+	eleventyConfig.addFilter("generatorImageUrl", (url) => {
+		return `https://v1.generator.11ty.dev/image/${encodeURIComponent(url)}/${getWeeklyServiceCacheBuster()}/`;
+	});
+
 	eleventyConfig.addPairedShortcode("starterMessage", (htmlContent) => {
 		if(process.env.SITE_NAME !== "speedlify") {
 			return htmlContent;

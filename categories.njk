@@ -23,6 +23,7 @@ counts:
 				<th class="leaderboard-hide-md">Trophy</th>
 {%- endif %}
 				<th>URL</th>
+				<th class="leaderboard-hide-md">Built With</th>
 				<th class="leaderboard-score">
 					{# Lighthouse #}
 					<span>Perf.</span>
@@ -57,15 +58,21 @@ counts:
 				</td>
 {%- endif %}
 				{%- set hasRedirect = site[newestKey].requestedUrl and site[newestKey].url != site[newestKey].requestedUrl %}
-				<td class="leaderboard-url"><a href="{{ site[newestKey].url }}"><code class="url">{{ site[newestKey].url | displayUrl(hasRedirect) }}</code></a>
+				<td class="leaderboard-url"><a href="{{ site[newestKey].url }}">
+						<img src="https://v1.indieweb-avatar.11ty.dev/{{ site[newestKey].url | urlencode }}/" width="150" height="150" alt="IndieWeb Avatar for {{ site[newestKey].url | displayUrl }}" class="leaderboard-list-entry-thumbnail" loading="lazy" decoding="async">
+						<code class="url">{{ site[newestKey].url | displayUrl(hasRedirect) }}</code>{#
+					#}</a>
 					{%- if hasRedirect %}<span class="leaderboard-redirect-warn">Redirect from <code class="url">{{ site[newestKey].requestedUrl | displayUrl(true) }}</code></span>{% endif -%}
 					{%- if site[newestKey].error %}<span class="leaderboard-redirect-error">Error</span>{% endif -%}
+				</td>
+				<td class="leaderboard-hide-md">
+					<img src="{{ site[newestKey].url | generatorImageUrl }}" width="60" height="60" alt="Generator for {{ site[newestKey].url | displayUrl }}" class="leaderboard-list-entry-thumbnail small" loading="lazy" decoding="async">
 				</td>
 			{%- if site[newestKey].error %}
 				<td colspan="2"></td>
 			{%- else %}
 				{%- set counts = counts | hundoCountTotals(site[newestKey]) %}
-				<td class="leaderboard-score">{% if showRank %}<speedlify-score class="leaderboard-score-circles{% if hundos === 4 %} leaderboard-score-circles-400{% endif %}" raw-data='{{ site[newestKey] | toJSON | safe }}'></speedlify-score><span class="leaderboard-score-sum leaderboard-number">{% if hundos === 4 %}😍{% else %}{{ site[newestKey] | lighthouseTotal }}{% endif %}</span>{% endif %}</td>
+				<td class="leaderboard-score">{% if showRank %}<is-land on:visible><speedlify-score class="leaderboard-score-circles{% if hundos === 4 %} leaderboard-score-circles-400{% endif %}" raw-data='{{ site[newestKey] | toJSON | safe }}'></speedlify-score></is-land><span class="leaderboard-score-sum leaderboard-number">{% if hundos === 4 %}😍{% else %}{{ site[newestKey] | lighthouseTotal }}{% endif %}</span>{% endif %}</td>
 				<td class="leaderboard-data-right"><a href="#details-{{ site[key].url | shortHash }}" data-expand-alias data-js-only><span class="leaderboard-expand-icon"></span> Data<span class="leaderboard-hide-md"> and Graphs</span></a></td>
 			{%- endif %}
 			</tr>
