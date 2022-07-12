@@ -1,0 +1,66 @@
+{
+  "url": "https://classic-mahjong.com/",
+  "requestedUrl": "https://classic-mahjong.com/",
+  "timestamp": 1657590032942,
+  "ranks": {
+    "hundos": 651,
+    "performance": 670,
+    "accessibility": 598,
+    "cumulative": 651
+  },
+  "lighthouse": {
+    "version": "9.6.1",
+    "performance": 0.55,
+    "accessibility": 0.91,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 346
+  },
+  "firstContentfulPaint": 1040.5929999999998,
+  "firstMeaningfulPaint": 1040.5929999999998,
+  "speedIndex": 5143.067256400798,
+  "largestContentfulPaint": 2009.5969999999998,
+  "totalBlockingTime": 146655.5,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 179798.511,
+  "maxPotentialFirstInputDelay": 876,
+  "timeToFirstByte": 19.81899999999999,
+  "weight": {
+    "summary": "36 requests • 818 KiB",
+    "total": 837992,
+    "image": 321040,
+    "imageCount": 11,
+    "script": 476271,
+    "scriptCount": 12,
+    "document": 18619,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 9263,
+    "stylesheetCount": 2,
+    "thirdParty": 359162,
+    "thirdPartyCount": 20
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 581,
+    "+weight.total": 108,
+    "-weight.document": 584,
+    "+weight.document": 94,
+    "-weight.script": 455,
+    "+weight.script": 19,
+    "-weight.image": 367,
+    "+weight.image": 150,
+    "-weight.font": 1,
+    "+weight.font": 458,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 13,
+    "-totalBlockingTime": 120,
+    "-largestContentfulPaint": 295
+  },
+  "axe": {
+    "error": "{\"name\":\"TimeoutError\"}"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://everydayia.com/",
+  "requestedUrl": "https://everydayia.com/",
+  "timestamp": 1657592538880,
+  "ranks": {
+    "hundos": 277,
+    "performance": 236,
+    "accessibility": 514,
+    "cumulative": 279
+  },
+  "lighthouse": {
+    "version": "9.6.1",
+    "performance": 1,
+    "accessibility": 0.96,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 396
+  },
+  "firstContentfulPaint": 821.705,
+  "firstMeaningfulPaint": 821.705,
+  "speedIndex": 2368.0053379882584,
+  "largestContentfulPaint": 821.705,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 821.705,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 860.7470000000001,
+  "weight": {
+    "summary": "4 requests • 145 KiB",
+    "total": 148938,
+    "image": 72296,
+    "imageCount": 1,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 4269,
+    "font": 70078,
+    "fontCount": 1,
+    "stylesheet": 2295,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 288,
+    "+weight.total": 401,
+    "-weight.document": 226,
+    "+weight.document": 452,
+    "-weight.script": 1,
+    "+weight.script": 474,
+    "-weight.image": 194,
+    "+weight.image": 323,
+    "-weight.font": 258,
+    "+weight.font": 200,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 591,
+    "-totalBlockingTime": 122,
+    "-largestContentfulPaint": 357
+  },
+  "axe": {
+    "passes": 96,
+    "violations": 1
+  }
+}

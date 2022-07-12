@@ -1,0 +1,67 @@
+{
+  "url": "https://unbreak.tech/",
+  "requestedUrl": "https://unbreak.tech/",
+  "timestamp": 1657599455016,
+  "ranks": {
+    "hundos": 157,
+    "performance": 270,
+    "accessibility": 47,
+    "cumulative": 157
+  },
+  "lighthouse": {
+    "version": "9.6.1",
+    "performance": 0.99,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 399
+  },
+  "firstContentfulPaint": 909.4970000000001,
+  "firstMeaningfulPaint": 936.4970000000001,
+  "speedIndex": 977.581763813148,
+  "largestContentfulPaint": 2029.092,
+  "totalBlockingTime": 2,
+  "cumulativeLayoutShift": 0.00106689453125,
+  "timeToInteractive": 958.4970000000001,
+  "maxPotentialFirstInputDelay": 54,
+  "timeToFirstByte": 39.059,
+  "weight": {
+    "summary": "47 requests • 1,059 KiB",
+    "total": 1084570,
+    "image": 1016576,
+    "imageCount": 22,
+    "script": 1379,
+    "scriptCount": 1,
+    "document": 4510,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 3061,
+    "stylesheetCount": 2,
+    "thirdParty": 1079082,
+    "thirdPartyCount": 45
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 606,
+    "+weight.total": 83,
+    "-weight.document": 244,
+    "+weight.document": 434,
+    "-weight.script": 53,
+    "+weight.script": 421,
+    "-weight.image": 462,
+    "+weight.image": 55,
+    "-weight.font": 1,
+    "+weight.font": 458,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 113,
+    "-totalBlockingTime": 4,
+    "-largestContentfulPaint": 194
+  },
+  "axe": {
+    "passes": 556,
+    "violations": 0
+  }
+}

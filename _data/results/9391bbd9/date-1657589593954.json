@@ -1,0 +1,67 @@
+{
+  "url": "https://www.lene.dev/",
+  "requestedUrl": "https://www.lene.dev/",
+  "timestamp": 1657595930789,
+  "ranks": {
+    "hundos": 252,
+    "performance": 407,
+    "accessibility": 266,
+    "cumulative": 252
+  },
+  "lighthouse": {
+    "version": "9.6.1",
+    "performance": 0.97,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 397
+  },
+  "firstContentfulPaint": 1805.2030000000002,
+  "firstMeaningfulPaint": 1805.2030000000002,
+  "speedIndex": 1805.2030000000002,
+  "largestContentfulPaint": 2427.405,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.005022006723615858,
+  "timeToInteractive": 1805.2030000000002,
+  "maxPotentialFirstInputDelay": 28,
+  "timeToFirstByte": 62.224000000000046,
+  "weight": {
+    "summary": "17 requests • 183 KiB",
+    "total": 187815,
+    "image": 83381,
+    "imageCount": 9,
+    "script": 2644,
+    "scriptCount": 2,
+    "document": 17853,
+    "font": 56196,
+    "fontCount": 4,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 1311,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 339,
+    "+weight.total": 350,
+    "-weight.document": 577,
+    "+weight.document": 101,
+    "-weight.script": 98,
+    "+weight.script": 376,
+    "-weight.image": 215,
+    "+weight.image": 302,
+    "-weight.font": 221,
+    "+weight.font": 237,
+    "+weight.fontCount": 10,
+    "-timeToFirstByte": 309,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 216
+  },
+  "axe": {
+    "passes": 790,
+    "violations": 1
+  }
+}

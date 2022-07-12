@@ -1,0 +1,67 @@
+{
+  "url": "https://tobiasljungstrom.net/",
+  "requestedUrl": "https://tobiasljungstrom.net/",
+  "timestamp": 1657590781022,
+  "ranks": {
+    "hundos": 302,
+    "performance": 478,
+    "accessibility": 369,
+    "cumulative": 302
+  },
+  "lighthouse": {
+    "version": "9.6.1",
+    "performance": 0.95,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 395
+  },
+  "firstContentfulPaint": 761.7440000000001,
+  "firstMeaningfulPaint": 772.2440000000001,
+  "speedIndex": 5715.488032379764,
+  "largestContentfulPaint": 1202.7440000000001,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 772.2440000000001,
+  "maxPotentialFirstInputDelay": 21,
+  "timeToFirstByte": 59.55400000000009,
+  "weight": {
+    "summary": "4 requests • 54 KiB",
+    "total": 55762,
+    "image": 0,
+    "imageCount": 0,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 3235,
+    "font": 51038,
+    "fontCount": 2,
+    "stylesheet": 1489,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 165,
+    "+weight.total": 524,
+    "-weight.document": 155,
+    "+weight.document": 523,
+    "-weight.script": 1,
+    "+weight.script": 474,
+    "-weight.image": 1,
+    "+weight.image": 517,
+    "-weight.font": 194,
+    "+weight.font": 264,
+    "+weight.fontCount": 12,
+    "-timeToFirstByte": 286,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 94
+  },
+  "axe": {
+    "passes": 155,
+    "violations": 4
+  }
+}

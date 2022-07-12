@@ -1,0 +1,67 @@
+{
+  "url": "https://www.htmhell.dev/",
+  "requestedUrl": "https://www.htmhell.dev/",
+  "timestamp": 1657610336832,
+  "ranks": {
+    "hundos": 121,
+    "performance": 25,
+    "accessibility": 326,
+    "cumulative": 142
+  },
+  "lighthouse": {
+    "version": "9.6.1",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 805.235,
+  "firstMeaningfulPaint": 805.235,
+  "speedIndex": 867.8332220011949,
+  "largestContentfulPaint": 1052.2350000000001,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 805.235,
+  "maxPotentialFirstInputDelay": 48,
+  "timeToFirstByte": 37.119999999999976,
+  "weight": {
+    "summary": "6 requests • 20 KiB",
+    "total": 19990,
+    "image": 1087,
+    "imageCount": 1,
+    "script": 1083,
+    "scriptCount": 1,
+    "document": 3071,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 4061,
+    "stylesheetCount": 2,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 81,
+    "+weight.total": 608,
+    "-weight.document": 146,
+    "+weight.document": 532,
+    "-weight.script": 39,
+    "+weight.script": 435,
+    "-weight.image": 22,
+    "+weight.image": 495,
+    "-weight.font": 1,
+    "+weight.font": 458,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 56,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 72
+  },
+  "axe": {
+    "passes": 846,
+    "violations": 2
+  }
+}

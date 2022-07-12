@@ -1,0 +1,67 @@
+{
+  "url": "https://www.bridgestew.com/",
+  "requestedUrl": "https://www.bridgestew.com/",
+  "timestamp": 1657608427091,
+  "ranks": {
+    "hundos": 276,
+    "performance": 444,
+    "accessibility": 128,
+    "cumulative": 272
+  },
+  "lighthouse": {
+    "version": "9.6.1",
+    "performance": 0.96,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 396
+  },
+  "firstContentfulPaint": 2212.366,
+  "firstMeaningfulPaint": 2212.366,
+  "speedIndex": 2212.366,
+  "largestContentfulPaint": 2212.366,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 2212.366,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 39.364000000000004,
+  "weight": {
+    "summary": "8 requests • 81 KiB",
+    "total": 82719,
+    "image": 0,
+    "imageCount": 0,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 2966,
+    "font": 75483,
+    "fontCount": 4,
+    "stylesheet": 4270,
+    "stylesheetCount": 3,
+    "thirdParty": 51880,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 200,
+    "+weight.total": 489,
+    "-weight.document": 135,
+    "+weight.document": 543,
+    "-weight.script": 1,
+    "+weight.script": 474,
+    "-weight.image": 1,
+    "+weight.image": 517,
+    "-weight.font": 273,
+    "+weight.font": 185,
+    "+weight.fontCount": 10,
+    "-timeToFirstByte": 120,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 206
+  },
+  "axe": {
+    "passes": 253,
+    "violations": 0
+  }
+}

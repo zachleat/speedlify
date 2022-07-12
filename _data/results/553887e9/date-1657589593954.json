@@ -1,0 +1,67 @@
+{
+  "url": "https://www.ianrose.me/",
+  "requestedUrl": "https://www.ianrose.me/",
+  "timestamp": 1657612121991,
+  "ranks": {
+    "hundos": 582,
+    "performance": 649,
+    "accessibility": 452,
+    "cumulative": 588
+  },
+  "lighthouse": {
+    "version": "9.6.1",
+    "performance": 0.69,
+    "accessibility": 0.98,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 367
+  },
+  "firstContentfulPaint": 2670.246,
+  "firstMeaningfulPaint": 5080.746,
+  "speedIndex": 3078.454522346951,
+  "largestContentfulPaint": 6030.321,
+  "totalBlockingTime": 8,
+  "cumulativeLayoutShift": 0.039208984375,
+  "timeToInteractive": 6780.321,
+  "maxPotentialFirstInputDelay": 58,
+  "timeToFirstByte": 39.953,
+  "weight": {
+    "summary": "15 requests • 952 KiB",
+    "total": 975236,
+    "image": 240415,
+    "imageCount": 2,
+    "script": 33849,
+    "scriptCount": 2,
+    "document": 6730,
+    "font": 686789,
+    "fontCount": 7,
+    "stylesheet": 6807,
+    "stylesheetCount": 1,
+    "thirdParty": 767233,
+    "thirdPartyCount": 12
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 594,
+    "+weight.total": 95,
+    "-weight.document": 372,
+    "+weight.document": 306,
+    "-weight.script": 272,
+    "+weight.script": 202,
+    "-weight.image": 336,
+    "+weight.image": 181,
+    "-weight.font": 453,
+    "+weight.font": 5,
+    "+weight.fontCount": 7,
+    "-timeToFirstByte": 127,
+    "-totalBlockingTime": 21,
+    "-largestContentfulPaint": 258
+  },
+  "axe": {
+    "passes": 665,
+    "violations": 18
+  }
+}

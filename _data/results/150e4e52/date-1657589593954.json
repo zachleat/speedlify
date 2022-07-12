@@ -1,0 +1,67 @@
+{
+  "url": "https://pelican.ots.la.gov/",
+  "requestedUrl": "https://pelican.ots.la.gov/",
+  "timestamp": 1657600139439,
+  "ranks": {
+    "hundos": 566,
+    "performance": 639,
+    "accessibility": 446,
+    "cumulative": 567
+  },
+  "lighthouse": {
+    "version": "9.6.1",
+    "performance": 0.72,
+    "accessibility": 0.98,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 370
+  },
+  "firstContentfulPaint": 2149.207,
+  "firstMeaningfulPaint": 2948.482,
+  "speedIndex": 2149.207,
+  "largestContentfulPaint": 6649.677999999998,
+  "totalBlockingTime": 13,
+  "cumulativeLayoutShift": 0.013241367340087892,
+  "timeToInteractive": 5045.9394999999995,
+  "maxPotentialFirstInputDelay": 69,
+  "timeToFirstByte": 76.90800000000002,
+  "weight": {
+    "summary": "21 requests • 1,051 KiB",
+    "total": 1076563,
+    "image": 777984,
+    "imageCount": 6,
+    "script": 70635,
+    "scriptCount": 4,
+    "document": 14339,
+    "font": 106990,
+    "fontCount": 2,
+    "stylesheet": 106213,
+    "stylesheetCount": 6,
+    "thirdParty": 137944,
+    "thirdPartyCount": 9
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 604,
+    "+weight.total": 85,
+    "-weight.document": 548,
+    "+weight.document": 130,
+    "-weight.script": 333,
+    "+weight.script": 141,
+    "-weight.image": 443,
+    "+weight.image": 74,
+    "-weight.font": 326,
+    "+weight.font": 132,
+    "+weight.fontCount": 12,
+    "-timeToFirstByte": 348,
+    "-totalBlockingTime": 30,
+    "-largestContentfulPaint": 337
+  },
+  "axe": {
+    "passes": 242,
+    "violations": 5
+  }
+}

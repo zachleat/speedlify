@@ -1,0 +1,67 @@
+{
+  "url": "https://showmy.chat/",
+  "requestedUrl": "https://showmy.chat/",
+  "timestamp": 1657614394645,
+  "ranks": {
+    "hundos": 603,
+    "performance": 604,
+    "accessibility": 562,
+    "cumulative": 603
+  },
+  "lighthouse": {
+    "version": "9.6.1",
+    "performance": 0.81,
+    "accessibility": 0.94,
+    "bestPractices": 1,
+    "seo": 0.88,
+    "total": 363
+  },
+  "firstContentfulPaint": 2464.2249999999995,
+  "firstMeaningfulPaint": 2464.2249999999995,
+  "speedIndex": 4060.9115059956903,
+  "largestContentfulPaint": 2464.2249999999995,
+  "totalBlockingTime": 165,
+  "cumulativeLayoutShift": 0.2783956315782335,
+  "timeToInteractive": 3167.4159999999993,
+  "maxPotentialFirstInputDelay": 215,
+  "timeToFirstByte": 64.11999999999998,
+  "weight": {
+    "summary": "10 requests • 187 KiB",
+    "total": 191086,
+    "image": 0,
+    "imageCount": 0,
+    "script": 175696,
+    "scriptCount": 5,
+    "document": 4374,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 10640,
+    "stylesheetCount": 2,
+    "thirdParty": 177346,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 344,
+    "+weight.total": 345,
+    "-weight.document": 235,
+    "+weight.document": 443,
+    "-weight.script": 413,
+    "+weight.script": 61,
+    "-weight.image": 1,
+    "+weight.image": 517,
+    "-weight.font": 1,
+    "+weight.font": 458,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 315,
+    "-totalBlockingTime": 90,
+    "-largestContentfulPaint": 303
+  },
+  "axe": {
+    "passes": 274,
+    "violations": 13
+  }
+}

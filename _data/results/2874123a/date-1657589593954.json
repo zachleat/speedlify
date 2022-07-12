@@ -1,0 +1,67 @@
+{
+  "url": "https://www.frede.io/",
+  "requestedUrl": "https://www.frede.io/",
+  "timestamp": 1657591837841,
+  "ranks": {
+    "hundos": 49,
+    "performance": 223,
+    "accessibility": 293,
+    "cumulative": 128
+  },
+  "lighthouse": {
+    "version": "9.6.1",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 1317.62,
+  "firstMeaningfulPaint": 1317.62,
+  "speedIndex": 2069.343044011028,
+  "largestContentfulPaint": 1403.7664999999997,
+  "totalBlockingTime": 0.5,
+  "cumulativeLayoutShift": 0.00006749894883897569,
+  "timeToInteractive": 1429.2664999999997,
+  "maxPotentialFirstInputDelay": 51,
+  "timeToFirstByte": 36.36500000000001,
+  "weight": {
+    "summary": "8 requests • 172 KiB",
+    "total": 176227,
+    "image": 21911,
+    "imageCount": 2,
+    "script": 18764,
+    "scriptCount": 1,
+    "document": 10559,
+    "font": 118117,
+    "fontCount": 3,
+    "stylesheet": 6876,
+    "stylesheetCount": 1,
+    "thirdParty": 21911,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 327,
+    "+weight.total": 362,
+    "-weight.document": 482,
+    "+weight.document": 196,
+    "-weight.script": 231,
+    "+weight.script": 243,
+    "-weight.image": 117,
+    "+weight.image": 400,
+    "-weight.font": 346,
+    "+weight.font": 112,
+    "+weight.fontCount": 11,
+    "-timeToFirstByte": 42,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 113
+  },
+  "axe": {
+    "passes": 275,
+    "violations": 1
+  }
+}

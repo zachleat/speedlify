@@ -1,0 +1,67 @@
+{
+  "url": "https://www.flyweb.at/",
+  "requestedUrl": "https://www.flyweb.at/",
+  "timestamp": 1657603075824,
+  "ranks": {
+    "hundos": 321,
+    "performance": 508,
+    "accessibility": 294,
+    "cumulative": 320
+  },
+  "lighthouse": {
+    "version": "9.6.1",
+    "performance": 0.93,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 393
+  },
+  "firstContentfulPaint": 1214.5680000000002,
+  "firstMeaningfulPaint": 1214.5680000000002,
+  "speedIndex": 7272.173221869573,
+  "largestContentfulPaint": 1214.5680000000002,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.013150995254516603,
+  "timeToInteractive": 1214.5680000000002,
+  "maxPotentialFirstInputDelay": 24,
+  "timeToFirstByte": 139.13400000000001,
+  "weight": {
+    "summary": "12 requests • 235 KiB",
+    "total": 241091,
+    "image": 57670,
+    "imageCount": 6,
+    "script": 9334,
+    "scriptCount": 1,
+    "document": 20853,
+    "font": 146050,
+    "fontCount": 3,
+    "stylesheet": 7184,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 396,
+    "+weight.total": 293,
+    "-weight.document": 594,
+    "+weight.document": 84,
+    "-weight.script": 191,
+    "+weight.script": 283,
+    "-weight.image": 178,
+    "+weight.image": 339,
+    "-weight.font": 365,
+    "+weight.font": 93,
+    "+weight.fontCount": 11,
+    "-timeToFirstByte": 427,
+    "-totalBlockingTime": 122,
+    "-largestContentfulPaint": 463
+  },
+  "axe": {
+    "passes": 265,
+    "violations": 1
+  }
+}

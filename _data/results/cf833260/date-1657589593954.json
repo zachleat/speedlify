@@ -1,0 +1,67 @@
+{
+  "url": "https://kack.dev/",
+  "requestedUrl": "https://kack.dev/",
+  "timestamp": 1657595766874,
+  "ranks": {
+    "hundos": 659,
+    "performance": 514,
+    "accessibility": 671,
+    "cumulative": 660
+  },
+  "lighthouse": {
+    "version": "9.6.1",
+    "performance": 0.92,
+    "accessibility": 0.73,
+    "bestPractices": 0.92,
+    "seo": 0.81,
+    "total": 338
+  },
+  "firstContentfulPaint": 1077.3029999999999,
+  "firstMeaningfulPaint": 1333.3029999999999,
+  "speedIndex": 2321.2996274649254,
+  "largestContentfulPaint": 2683.303,
+  "totalBlockingTime": 215.5,
+  "cumulativeLayoutShift": 0.0651280382209354,
+  "timeToInteractive": 1366.8029999999999,
+  "maxPotentialFirstInputDelay": 299,
+  "timeToFirstByte": 145.454,
+  "weight": {
+    "summary": "11 requests • 598 KiB",
+    "total": 612168,
+    "image": 519732,
+    "imageCount": 6,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 8062,
+    "font": 78104,
+    "fontCount": 3,
+    "stylesheet": 6270,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 543,
+    "+weight.total": 146,
+    "-weight.document": 421,
+    "+weight.document": 257,
+    "-weight.script": 1,
+    "+weight.script": 474,
+    "-weight.image": 414,
+    "+weight.image": 103,
+    "-weight.font": 283,
+    "+weight.font": 175,
+    "+weight.fontCount": 11,
+    "-timeToFirstByte": 435,
+    "-totalBlockingTime": 189,
+    "-largestContentfulPaint": 624
+  },
+  "axe": {
+    "passes": 76,
+    "violations": 12
+  }
+}

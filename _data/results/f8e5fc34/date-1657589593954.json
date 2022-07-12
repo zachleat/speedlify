@@ -1,0 +1,67 @@
+{
+  "url": "https://karawale.in/",
+  "requestedUrl": "https://karawale.in/",
+  "timestamp": 1657602510543,
+  "ranks": {
+    "hundos": 41,
+    "performance": 20,
+    "accessibility": 312,
+    "cumulative": 127
+  },
+  "lighthouse": {
+    "version": "9.6.1",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 852.415,
+  "firstMeaningfulPaint": 852.415,
+  "speedIndex": 852.415,
+  "largestContentfulPaint": 1087.415,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 852.415,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 50.403999999999996,
+  "weight": {
+    "summary": "9 requests • 96 KiB",
+    "total": 98120,
+    "image": 15329,
+    "imageCount": 2,
+    "script": 1756,
+    "scriptCount": 1,
+    "document": 1743,
+    "font": 77237,
+    "fontCount": 2,
+    "stylesheet": 1905,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 226,
+    "+weight.total": 463,
+    "-weight.document": 44,
+    "+weight.document": 634,
+    "-weight.script": 71,
+    "+weight.script": 403,
+    "-weight.image": 91,
+    "+weight.image": 426,
+    "-weight.font": 278,
+    "+weight.font": 180,
+    "+weight.fontCount": 12,
+    "-timeToFirstByte": 232,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 82
+  },
+  "axe": {
+    "passes": 151,
+    "violations": 1
+  }
+}

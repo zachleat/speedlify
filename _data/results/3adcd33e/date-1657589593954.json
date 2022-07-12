@@ -1,0 +1,67 @@
+{
+  "url": "https://inigochoa.me/",
+  "requestedUrl": "https://inigochoa.me/",
+  "timestamp": 1657613817503,
+  "ranks": {
+    "hundos": 127,
+    "performance": 73,
+    "accessibility": 153,
+    "cumulative": 93
+  },
+  "lighthouse": {
+    "version": "9.6.1",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 975.152,
+  "firstMeaningfulPaint": 975.152,
+  "speedIndex": 1013.8600839959562,
+  "largestContentfulPaint": 975.152,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 975.152,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 49.55899999999998,
+  "weight": {
+    "summary": "6 requests • 9 KiB",
+    "total": 9107,
+    "image": 0,
+    "imageCount": 0,
+    "script": 1268,
+    "scriptCount": 2,
+    "document": 2602,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 4812,
+    "stylesheetCount": 1,
+    "thirdParty": 1280,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 49,
+    "+weight.total": 640,
+    "-weight.document": 110,
+    "+weight.document": 568,
+    "-weight.script": 47,
+    "+weight.script": 427,
+    "-weight.image": 1,
+    "+weight.image": 517,
+    "-weight.font": 1,
+    "+weight.font": 458,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 226,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 60
+  },
+  "axe": {
+    "passes": 206,
+    "violations": 0
+  }
+}

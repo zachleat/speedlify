@@ -1,0 +1,67 @@
+{
+  "url": "https://dassur.ma/",
+  "requestedUrl": "https://dassur.ma/",
+  "timestamp": 1657613464600,
+  "ranks": {
+    "hundos": 637,
+    "performance": 308,
+    "accessibility": 662,
+    "cumulative": 634
+  },
+  "lighthouse": {
+    "version": "9.6.1",
+    "performance": 0.99,
+    "accessibility": 0.76,
+    "bestPractices": 0.92,
+    "seo": 0.85,
+    "total": 352
+  },
+  "firstContentfulPaint": 1673.025,
+  "firstMeaningfulPaint": 1673.025,
+  "speedIndex": 1673.025,
+  "largestContentfulPaint": 1877.9260000000002,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1673.025,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 39.972999999999985,
+  "weight": {
+    "summary": "20 requests • 18 KiB",
+    "total": 18673,
+    "image": 6606,
+    "imageCount": 8,
+    "script": 789,
+    "scriptCount": 3,
+    "document": 3329,
+    "font": 0,
+    "fontCount": 3,
+    "stylesheet": 7514,
+    "stylesheetCount": 4,
+    "thirdParty": 14555,
+    "thirdPartyCount": 18
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 78,
+    "+weight.total": 611,
+    "-weight.document": 163,
+    "+weight.document": 515,
+    "-weight.script": 19,
+    "+weight.script": 455,
+    "-weight.image": 57,
+    "+weight.image": 460,
+    "-weight.font": 1,
+    "+weight.font": 458,
+    "+weight.fontCount": 11,
+    "-timeToFirstByte": 129,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 181
+  },
+  "axe": {
+    "passes": 236,
+    "violations": 4
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://markus-haack.com/",
+  "requestedUrl": "https://markus-haack.com/",
+  "timestamp": 1657609017433,
+  "ranks": {
+    "hundos": 34,
+    "performance": 70,
+    "accessibility": 67,
+    "cumulative": 22
+  },
+  "lighthouse": {
+    "version": "9.6.1",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 994.907,
+  "firstMeaningfulPaint": 994.907,
+  "speedIndex": 994.907,
+  "largestContentfulPaint": 1878.524,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 994.907,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 38.10300000000001,
+  "weight": {
+    "summary": "13 requests • 117 KiB",
+    "total": 119730,
+    "image": 80970,
+    "imageCount": 6,
+    "script": 3236,
+    "scriptCount": 3,
+    "document": 10021,
+    "font": 18138,
+    "fontCount": 1,
+    "stylesheet": 6662,
+    "stylesheetCount": 1,
+    "thirdParty": 80970,
+    "thirdPartyCount": 6
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 256,
+    "+weight.total": 433,
+    "-weight.document": 470,
+    "+weight.document": 208,
+    "-weight.script": 113,
+    "+weight.script": 361,
+    "-weight.image": 211,
+    "+weight.image": 306,
+    "-weight.font": 46,
+    "+weight.font": 412,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 74,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 182
+  },
+  "axe": {
+    "passes": 423,
+    "violations": 0
+  }
+}

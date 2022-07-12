@@ -1,0 +1,67 @@
+{
+  "url": "https://pierre.awaragi.com/",
+  "requestedUrl": "https://pierre.awaragi.com/",
+  "timestamp": 1657615276360,
+  "ranks": {
+    "hundos": 180,
+    "performance": 297,
+    "accessibility": 120,
+    "cumulative": 168
+  },
+  "lighthouse": {
+    "version": "9.6.1",
+    "performance": 0.99,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 399
+  },
+  "firstContentfulPaint": 1582.878,
+  "firstMeaningfulPaint": 1582.878,
+  "speedIndex": 1591.3323640176775,
+  "largestContentfulPaint": 1582.878,
+  "totalBlockingTime": 13,
+  "cumulativeLayoutShift": 0.0019911060863071015,
+  "timeToInteractive": 2024.0899999999997,
+  "maxPotentialFirstInputDelay": 76,
+  "timeToFirstByte": 39.97300000000001,
+  "weight": {
+    "summary": "7 requests • 110 KiB",
+    "total": 112740,
+    "image": 0,
+    "imageCount": 0,
+    "script": 71066,
+    "scriptCount": 2,
+    "document": 13761,
+    "font": 13670,
+    "fontCount": 1,
+    "stylesheet": 13894,
+    "stylesheetCount": 2,
+    "thirdParty": 86083,
+    "thirdPartyCount": 4
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 242,
+    "+weight.total": 447,
+    "-weight.document": 543,
+    "+weight.document": 135,
+    "-weight.script": 338,
+    "+weight.script": 136,
+    "-weight.image": 1,
+    "+weight.image": 517,
+    "-weight.font": 27,
+    "+weight.font": 431,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 130,
+    "-totalBlockingTime": 30,
+    "-largestContentfulPaint": 137
+  },
+  "axe": {
+    "passes": 266,
+    "violations": 0
+  }
+}

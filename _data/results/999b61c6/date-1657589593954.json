@@ -1,0 +1,67 @@
+{
+  "url": "https://dino-fakten.de/",
+  "requestedUrl": "https://dino-fakten.de/",
+  "timestamp": 1657603613750,
+  "ranks": {
+    "hundos": 297,
+    "performance": 477,
+    "accessibility": 121,
+    "cumulative": 290
+  },
+  "lighthouse": {
+    "version": "9.6.1",
+    "performance": 0.95,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 395
+  },
+  "firstContentfulPaint": 964.4570000000003,
+  "firstMeaningfulPaint": 964.4570000000003,
+  "speedIndex": 5412.084185998217,
+  "largestContentfulPaint": 1627.9480000000003,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.07269039916992187,
+  "timeToInteractive": 964.4570000000003,
+  "maxPotentialFirstInputDelay": 34,
+  "timeToFirstByte": 36.5659999999998,
+  "weight": {
+    "summary": "10 requests • 263 KiB",
+    "total": 268884,
+    "image": 227166,
+    "imageCount": 6,
+    "script": 10905,
+    "scriptCount": 2,
+    "document": 6242,
+    "font": 24571,
+    "fontCount": 1,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 9676,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 421,
+    "+weight.total": 268,
+    "-weight.document": 347,
+    "+weight.document": 331,
+    "-weight.script": 201,
+    "+weight.script": 273,
+    "-weight.image": 327,
+    "+weight.image": 190,
+    "-weight.font": 78,
+    "+weight.font": 380,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 45,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 152
+  },
+  "axe": {
+    "passes": 265,
+    "violations": 0
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "url": "https://obspogon.neocities.org/",
+  "requestedUrl": "https://obspogon.neocities.org/",
+  "timestamp": 1657604410652,
+  "ranks": {
+    "hundos": 681,
+    "performance": 629,
+    "accessibility": 688,
+    "cumulative": 681
+  },
+  "lighthouse": {
+    "version": "9.6.1",
+    "performance": 0.75,
+    "accessibility": 0.57,
+    "bestPractices": 0.92,
+    "seo": 0.82,
+    "total": 306
+  },
+  "firstContentfulPaint": 1819.6060000000002,
+  "firstMeaningfulPaint": 1953.4920000000002,
+  "speedIndex": 13113.007668275823,
+  "largestContentfulPaint": 2967.732,
+  "totalBlockingTime": 73.5,
+  "cumulativeLayoutShift": 0.0052392751479289935,
+  "timeToInteractive": 11466.247499999994,
+  "maxPotentialFirstInputDelay": 89,
+  "timeToFirstByte": 91.732,
+  "weight": {
+    "summary": "184 requests • 1,787 KiB",
+    "total": 1830270,
+    "image": 847788,
+    "imageCount": 108,
+    "script": 125087,
+    "scriptCount": 20,
+    "document": 133623,
+    "font": 375847,
+    "fontCount": 6,
+    "stylesheet": 33537,
+    "stylesheetCount": 14,
+    "thirdParty": 1471173,
+    "thirdPartyCount": 132
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 638,
+    "+weight.total": 51,
+    "-weight.document": 670,
+    "+weight.document": 8,
+    "-weight.script": 391,
+    "+weight.script": 83,
+    "-weight.image": 446,
+    "+weight.image": 71,
+    "-weight.font": 437,
+    "+weight.font": 21,
+    "+weight.fontCount": 8,
+    "-timeToFirstByte": 363,
+    "-totalBlockingTime": 176,
+    "-largestContentfulPaint": 638
+  },
+  "axe": {
+    "error": "{\"name\":\"TimeoutError\"}"
+  }
+}

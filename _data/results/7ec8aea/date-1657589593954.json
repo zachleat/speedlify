@@ -1,0 +1,67 @@
+{
+  "url": "https://carte.alloresto.app/",
+  "requestedUrl": "https://carte.alloresto.app/",
+  "timestamp": 1657606157772,
+  "ranks": {
+    "hundos": 195,
+    "performance": 265,
+    "accessibility": 151,
+    "cumulative": 176
+  },
+  "lighthouse": {
+    "version": "9.6.1",
+    "performance": 0.99,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 399
+  },
+  "firstContentfulPaint": 837.13,
+  "firstMeaningfulPaint": 901.13,
+  "speedIndex": 837.13,
+  "largestContentfulPaint": 965.13,
+  "totalBlockingTime": 13,
+  "cumulativeLayoutShift": 0.07232809066772461,
+  "timeToInteractive": 965.13,
+  "maxPotentialFirstInputDelay": 63,
+  "timeToFirstByte": 39.269000000000005,
+  "weight": {
+    "summary": "2 requests • 16 KiB",
+    "total": 15936,
+    "image": 0,
+    "imageCount": 0,
+    "script": 2723,
+    "scriptCount": 1,
+    "document": 13213,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 73,
+    "+weight.total": 616,
+    "-weight.document": 533,
+    "+weight.document": 145,
+    "-weight.script": 102,
+    "+weight.script": 372,
+    "-weight.image": 1,
+    "+weight.image": 517,
+    "-weight.font": 1,
+    "+weight.font": 458,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 117,
+    "-totalBlockingTime": 30,
+    "-largestContentfulPaint": 56
+  },
+  "axe": {
+    "passes": 217,
+    "violations": 0
+  }
+}

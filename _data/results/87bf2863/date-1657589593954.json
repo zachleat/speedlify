@@ -1,0 +1,67 @@
+{
+  "url": "https://artbarcelonamag.com/",
+  "requestedUrl": "https://artbarcelonamag.com/",
+  "timestamp": 1657615815235,
+  "ranks": {
+    "hundos": 304,
+    "performance": 438,
+    "accessibility": 366,
+    "cumulative": 313
+  },
+  "lighthouse": {
+    "version": "9.6.1",
+    "performance": 0.96,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 0.98,
+    "total": 394
+  },
+  "firstContentfulPaint": 1855.173,
+  "firstMeaningfulPaint": 4440.678,
+  "speedIndex": 1891.3776740031653,
+  "largestContentfulPaint": 2070.6940000000004,
+  "totalBlockingTime": 3.0000000000002274,
+  "cumulativeLayoutShift": 0.0026637013753255208,
+  "timeToInteractive": 4440.678,
+  "maxPotentialFirstInputDelay": 53.00000000000023,
+  "timeToFirstByte": 47.81400000000002,
+  "weight": {
+    "summary": "20 requests • 1,782 KiB",
+    "total": 1824935,
+    "image": 751053,
+    "imageCount": 13,
+    "script": 32847,
+    "scriptCount": 2,
+    "document": 2534,
+    "font": 1032047,
+    "fontCount": 2,
+    "stylesheet": 6454,
+    "stylesheetCount": 2,
+    "thirdParty": 1062031,
+    "thirdPartyCount": 4
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 637,
+    "+weight.total": 52,
+    "-weight.document": 106,
+    "+weight.document": 572,
+    "-weight.script": 269,
+    "+weight.script": 205,
+    "-weight.image": 441,
+    "+weight.image": 76,
+    "-weight.font": 457,
+    "+weight.font": 1,
+    "+weight.fontCount": 12,
+    "-timeToFirstByte": 210,
+    "-totalBlockingTime": 8,
+    "-largestContentfulPaint": 197
+  },
+  "axe": {
+    "passes": 281,
+    "violations": 4
+  }
+}

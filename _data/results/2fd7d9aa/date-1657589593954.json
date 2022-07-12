@@ -1,0 +1,67 @@
+{
+  "url": "https://screenspan.net/",
+  "requestedUrl": "https://screenspan.net/",
+  "timestamp": 1657602315103,
+  "ranks": {
+    "hundos": 124,
+    "performance": 10,
+    "accessibility": 93,
+    "cumulative": 90
+  },
+  "lighthouse": {
+    "version": "9.6.1",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 823.749,
+  "firstMeaningfulPaint": 823.749,
+  "speedIndex": 823.749,
+  "largestContentfulPaint": 823.749,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 823.749,
+  "maxPotentialFirstInputDelay": 18,
+  "timeToFirstByte": 38.75200000000001,
+  "weight": {
+    "summary": "6 requests • 9 KiB",
+    "total": 9415,
+    "image": 1487,
+    "imageCount": 1,
+    "script": 1787,
+    "scriptCount": 1,
+    "document": 5391,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 51,
+    "+weight.total": 638,
+    "-weight.document": 305,
+    "+weight.document": 373,
+    "-weight.script": 73,
+    "+weight.script": 401,
+    "-weight.image": 30,
+    "+weight.image": 487,
+    "-weight.font": 1,
+    "+weight.font": 458,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 99,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 11
+  },
+  "axe": {
+    "passes": 342,
+    "violations": 0
+  }
+}

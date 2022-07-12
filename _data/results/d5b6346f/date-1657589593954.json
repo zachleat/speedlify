@@ -1,0 +1,67 @@
+{
+  "url": "https://www.raymondcamden.com/",
+  "requestedUrl": "https://www.raymondcamden.com/",
+  "timestamp": 1657600429504,
+  "ranks": {
+    "hundos": 509,
+    "performance": 572,
+    "accessibility": 89,
+    "cumulative": 509
+  },
+  "lighthouse": {
+    "version": "9.6.1",
+    "performance": 0.87,
+    "accessibility": 1,
+    "bestPractices": 0.92,
+    "seo": 1,
+    "total": 379
+  },
+  "firstContentfulPaint": 1768.5159999999996,
+  "firstMeaningfulPaint": 2816.8909999999996,
+  "speedIndex": 2041.4854188077468,
+  "largestContentfulPaint": 3792.0729999999994,
+  "totalBlockingTime": 10,
+  "cumulativeLayoutShift": 0.028400793075561523,
+  "timeToInteractive": 3399.6554999999994,
+  "maxPotentialFirstInputDelay": 70,
+  "timeToFirstByte": 44.228999999999985,
+  "weight": {
+    "summary": "21 requests • 450 KiB",
+    "total": 461255,
+    "image": 241123,
+    "imageCount": 5,
+    "script": 124780,
+    "scriptCount": 5,
+    "document": 6668,
+    "font": 77876,
+    "fontCount": 4,
+    "stylesheet": 10379,
+    "stylesheetCount": 3,
+    "thirdParty": 242993,
+    "thirdPartyCount": 17
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 506,
+    "+weight.total": 183,
+    "-weight.document": 368,
+    "+weight.document": 310,
+    "-weight.script": 390,
+    "+weight.script": 84,
+    "-weight.image": 338,
+    "+weight.image": 179,
+    "-weight.font": 282,
+    "+weight.font": 176,
+    "+weight.fontCount": 10,
+    "-timeToFirstByte": 169,
+    "-totalBlockingTime": 25,
+    "-largestContentfulPaint": 247
+  },
+  "axe": {
+    "passes": 347,
+    "violations": 0
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://jawgrind.com/",
+  "requestedUrl": "https://jawgrind.com/",
+  "timestamp": 1657590682399,
+  "ranks": {
+    "hundos": 660,
+    "performance": 511,
+    "accessibility": 676,
+    "cumulative": 659
+  },
+  "lighthouse": {
+    "version": "9.6.1",
+    "performance": 0.92,
+    "accessibility": 0.7,
+    "bestPractices": 1,
+    "seo": 0.76,
+    "total": 338
+  },
+  "firstContentfulPaint": 1062.0520000000001,
+  "firstMeaningfulPaint": 1062.0520000000001,
+  "speedIndex": 1479.8205560098759,
+  "largestContentfulPaint": 1766.4680000000003,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.2692737632327609,
+  "timeToInteractive": 1062.0520000000001,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 225.647,
+  "weight": {
+    "summary": "9 requests • 124 KiB",
+    "total": 126878,
+    "image": 118905,
+    "imageCount": 6,
+    "script": 1311,
+    "scriptCount": 1,
+    "document": 1965,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 4697,
+    "stylesheetCount": 1,
+    "thirdParty": 1311,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 265,
+    "+weight.total": 424,
+    "-weight.document": 61,
+    "+weight.document": 617,
+    "-weight.script": 50,
+    "+weight.script": 424,
+    "-weight.image": 250,
+    "+weight.image": 267,
+    "-weight.font": 1,
+    "+weight.font": 458,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 491,
+    "-totalBlockingTime": 122,
+    "-largestContentfulPaint": 545
+  },
+  "axe": {
+    "passes": 378,
+    "violations": 7
+  }
+}

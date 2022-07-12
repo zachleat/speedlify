@@ -1,0 +1,67 @@
+{
+  "url": "https://chromatichq.com/",
+  "requestedUrl": "https://chromatichq.com/",
+  "timestamp": 1657604459889,
+  "ranks": {
+    "hundos": 597,
+    "performance": 664,
+    "accessibility": 413,
+    "cumulative": 598
+  },
+  "lighthouse": {
+    "version": "9.6.1",
+    "performance": 0.64,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 364
+  },
+  "firstContentfulPaint": 3303.593,
+  "firstMeaningfulPaint": 3303.593,
+  "speedIndex": 4435.8586393150545,
+  "largestContentfulPaint": 6136.715,
+  "totalBlockingTime": 132,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 6690.831,
+  "maxPotentialFirstInputDelay": 139,
+  "timeToFirstByte": 43.84800000000001,
+  "weight": {
+    "summary": "61 requests • 1,087 KiB",
+    "total": 1113212,
+    "image": 428523,
+    "imageCount": 10,
+    "script": 339323,
+    "scriptCount": 24,
+    "document": 4974,
+    "font": 284721,
+    "fontCount": 5,
+    "stylesheet": 43051,
+    "stylesheetCount": 9,
+    "thirdParty": 289769,
+    "thirdPartyCount": 23
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 610,
+    "+weight.total": 79,
+    "-weight.document": 276,
+    "+weight.document": 402,
+    "-weight.script": 439,
+    "+weight.script": 35,
+    "-weight.image": 397,
+    "+weight.image": 120,
+    "-weight.font": 424,
+    "+weight.font": 34,
+    "+weight.fontCount": 9,
+    "-timeToFirstByte": 164,
+    "-totalBlockingTime": 81,
+    "-largestContentfulPaint": 336
+  },
+  "axe": {
+    "passes": 303,
+    "violations": 18
+  }
+}

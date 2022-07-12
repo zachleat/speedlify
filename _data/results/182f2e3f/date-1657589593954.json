@@ -1,0 +1,67 @@
+{
+  "url": "https://fightwithtools.dev/",
+  "requestedUrl": "https://fightwithtools.dev/",
+  "timestamp": 1657595842512,
+  "ranks": {
+    "hundos": 570,
+    "performance": 402,
+    "accessibility": 660,
+    "cumulative": 569
+  },
+  "lighthouse": {
+    "version": "9.6.1",
+    "performance": 0.97,
+    "accessibility": 0.77,
+    "bestPractices": 1,
+    "seo": 0.96,
+    "total": 370
+  },
+  "firstContentfulPaint": 1554.308,
+  "firstMeaningfulPaint": 2462.858,
+  "speedIndex": 1554.308,
+  "largestContentfulPaint": 2462.858,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.03586637369791666,
+  "timeToInteractive": 2462.858,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 52.394000000000005,
+  "weight": {
+    "summary": "9 requests • 35 KiB",
+    "total": 35586,
+    "image": 0,
+    "imageCount": 0,
+    "script": 1968,
+    "scriptCount": 2,
+    "document": 5772,
+    "font": 22000,
+    "fontCount": 2,
+    "stylesheet": 5846,
+    "stylesheetCount": 4,
+    "thirdParty": 24168,
+    "thirdPartyCount": 4
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 123,
+    "+weight.total": 566,
+    "-weight.document": 325,
+    "+weight.document": 353,
+    "-weight.script": 82,
+    "+weight.script": 392,
+    "-weight.image": 1,
+    "+weight.image": 517,
+    "-weight.font": 67,
+    "+weight.font": 391,
+    "+weight.fontCount": 12,
+    "-timeToFirstByte": 245,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 219
+  },
+  "axe": {
+    "passes": 343,
+    "violations": 49
+  }
+}

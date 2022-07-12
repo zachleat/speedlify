@@ -1,0 +1,67 @@
+{
+  "url": "https://t12t.se/",
+  "requestedUrl": "https://t12t.se/",
+  "timestamp": 1657592374321,
+  "ranks": {
+    "hundos": 109,
+    "performance": 139,
+    "accessibility": 110,
+    "cumulative": 81
+  },
+  "lighthouse": {
+    "version": "9.6.1",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 816.453,
+  "firstMeaningfulPaint": 837.453,
+  "speedIndex": 1236.4330867531448,
+  "largestContentfulPaint": 837.453,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 837.453,
+  "maxPotentialFirstInputDelay": 42,
+  "timeToFirstByte": 54.164999999999964,
+  "weight": {
+    "summary": "4 requests • 22 KiB",
+    "total": 22558,
+    "image": 468,
+    "imageCount": 1,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 5722,
+    "font": 13051,
+    "fontCount": 1,
+    "stylesheet": 3317,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 87,
+    "+weight.total": 602,
+    "-weight.document": 321,
+    "+weight.document": 357,
+    "-weight.script": 1,
+    "+weight.script": 474,
+    "-weight.image": 10,
+    "+weight.image": 507,
+    "-weight.font": 23,
+    "+weight.font": 435,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 255,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 14
+  },
+  "axe": {
+    "passes": 294,
+    "violations": 0
+  }
+}
