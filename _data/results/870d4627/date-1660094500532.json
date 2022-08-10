@@ -1,0 +1,67 @@
+{
+  "url": "https://worldwideweb.cern.ch/",
+  "requestedUrl": "https://worldwideweb.cern.ch/",
+  "timestamp": 1660102017424,
+  "ranks": {
+    "hundos": 513,
+    "performance": 212,
+    "accessibility": 661,
+    "cumulative": 512
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 1,
+    "accessibility": 0.85,
+    "bestPractices": 1,
+    "seo": 0.96,
+    "total": 381
+  },
+  "firstContentfulPaint": 909.8139999999999,
+  "firstMeaningfulPaint": 909.8139999999999,
+  "speedIndex": 1781.4131080099692,
+  "largestContentfulPaint": 984.8139999999999,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 909.8139999999999,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 122.21900000000005,
+  "weight": {
+    "summary": "9 requests • 530 KiB",
+    "total": 543136,
+    "image": 30386,
+    "imageCount": 3,
+    "script": 56297,
+    "scriptCount": 1,
+    "document": 7317,
+    "font": 22003,
+    "fontCount": 1,
+    "stylesheet": 7759,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 540,
+    "+weight.total": 173,
+    "-weight.document": 402,
+    "+weight.document": 295,
+    "-weight.script": 309,
+    "+weight.script": 179,
+    "-weight.image": 135,
+    "+weight.image": 401,
+    "-weight.font": 73,
+    "+weight.font": 406,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 389,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 158
+  },
+  "axe": {
+    "passes": 238,
+    "violations": 4
+  }
+}

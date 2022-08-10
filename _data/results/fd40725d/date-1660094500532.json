@@ -1,0 +1,67 @@
+{
+  "url": "https://www.hoeser.dev/",
+  "requestedUrl": "https://www.hoeser.dev/",
+  "timestamp": 1660103228582,
+  "ranks": {
+    "hundos": 131,
+    "performance": 191,
+    "accessibility": 424,
+    "cumulative": 172
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 895.164,
+  "firstMeaningfulPaint": 895.164,
+  "speedIndex": 1550.419064013755,
+  "largestContentfulPaint": 895.164,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 895.164,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 533.2570000000001,
+  "weight": {
+    "summary": "4 requests • 24 KiB",
+    "total": 24728,
+    "image": 12657,
+    "imageCount": 1,
+    "script": 6943,
+    "scriptCount": 2,
+    "document": 5128,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 95,
+    "+weight.total": 618,
+    "-weight.document": 292,
+    "+weight.document": 405,
+    "-weight.script": 166,
+    "+weight.script": 322,
+    "-weight.image": 83,
+    "+weight.image": 453,
+    "-weight.font": 1,
+    "+weight.font": 479,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 563,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 92
+  },
+  "axe": {
+    "passes": 139,
+    "violations": 13
+  }
+}

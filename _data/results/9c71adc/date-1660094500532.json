@@ -1,0 +1,67 @@
+{
+  "url": "https://divriots.com/",
+  "requestedUrl": "https://divriots.com/",
+  "timestamp": 1660107693196,
+  "ranks": {
+    "hundos": 619,
+    "performance": 364,
+    "accessibility": 635,
+    "cumulative": 619
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 0.98,
+    "accessibility": 0.89,
+    "bestPractices": 0.92,
+    "seo": 0.85,
+    "total": 364
+  },
+  "firstContentfulPaint": 1511.7759999999998,
+  "firstMeaningfulPaint": 1955.223,
+  "speedIndex": 1511.7759999999998,
+  "largestContentfulPaint": 2180.8289999999997,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.006395025253295898,
+  "timeToInteractive": 1955.223,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 14.295000000000002,
+  "weight": {
+    "summary": "29 requests • 161 KiB",
+    "total": 164697,
+    "image": 46406,
+    "imageCount": 18,
+    "script": 2475,
+    "scriptCount": 1,
+    "document": 5150,
+    "font": 105905,
+    "fontCount": 2,
+    "stylesheet": 4349,
+    "stylesheetCount": 5,
+    "thirdParty": 42463,
+    "thirdPartyCount": 8
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 319,
+    "+weight.total": 394,
+    "-weight.document": 294,
+    "+weight.document": 403,
+    "-weight.script": 90,
+    "+weight.script": 398,
+    "-weight.image": 173,
+    "+weight.image": 363,
+    "-weight.font": 336,
+    "+weight.font": 143,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 3,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 535
+  },
+  "axe": {
+    "passes": 718,
+    "violations": 9
+  }
+}

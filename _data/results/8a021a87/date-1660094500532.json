@@ -1,0 +1,67 @@
+{
+  "url": "https://ericraslich.com/",
+  "requestedUrl": "https://ericraslich.com/",
+  "timestamp": 1660102559881,
+  "ranks": {
+    "hundos": 141,
+    "performance": 170,
+    "accessibility": 248,
+    "cumulative": 100
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 960.302,
+  "firstMeaningfulPaint": 960.302,
+  "speedIndex": 1454.6407000303745,
+  "largestContentfulPaint": 960.302,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 960.302,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 63.67399999999998,
+  "weight": {
+    "summary": "3 requests • 13 KiB",
+    "total": 13385,
+    "image": 0,
+    "imageCount": 0,
+    "script": 1071,
+    "scriptCount": 1,
+    "document": 1078,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 11236,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 67,
+    "+weight.total": 646,
+    "-weight.document": 9,
+    "+weight.document": 688,
+    "-weight.script": 37,
+    "+weight.script": 451,
+    "-weight.image": 1,
+    "+weight.image": 536,
+    "-weight.font": 1,
+    "+weight.font": 479,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 286,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 142
+  },
+  "axe": {
+    "passes": 89,
+    "violations": 0
+  }
+}

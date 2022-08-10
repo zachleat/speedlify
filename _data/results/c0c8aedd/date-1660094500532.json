@@ -1,0 +1,67 @@
+{
+  "url": "https://markboulton.co.uk/",
+  "requestedUrl": "https://markboulton.co.uk/",
+  "timestamp": 1660113525893,
+  "ranks": {
+    "hundos": 538,
+    "performance": 75,
+    "accessibility": 615,
+    "cumulative": 536
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 1,
+    "accessibility": 0.91,
+    "bestPractices": 1,
+    "seo": 0.87,
+    "total": 378
+  },
+  "firstContentfulPaint": 799.941,
+  "firstMeaningfulPaint": 799.941,
+  "speedIndex": 979.4636787999784,
+  "largestContentfulPaint": 1437.941,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.005103623284233941,
+  "timeToInteractive": 799.941,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 36.637,
+  "weight": {
+    "summary": "5 requests • 103 KiB",
+    "total": 104961,
+    "image": 0,
+    "imageCount": 0,
+    "script": 1055,
+    "scriptCount": 1,
+    "document": 1819,
+    "font": 96276,
+    "fontCount": 2,
+    "stylesheet": 5811,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 242,
+    "+weight.total": 471,
+    "-weight.document": 55,
+    "+weight.document": 642,
+    "-weight.script": 36,
+    "+weight.script": 452,
+    "-weight.image": 1,
+    "+weight.image": 536,
+    "-weight.font": 325,
+    "+weight.font": 154,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 37,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 322
+  },
+  "axe": {
+    "passes": 142,
+    "violations": 1
+  }
+}

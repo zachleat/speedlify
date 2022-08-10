@@ -1,0 +1,66 @@
+{
+  "url": "https://sia.codes/",
+  "requestedUrl": "https://sia.codes/",
+  "timestamp": 1660105285109,
+  "ranks": {
+    "hundos": 181,
+    "performance": 285,
+    "accessibility": 445,
+    "cumulative": 215
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 0.99,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 399
+  },
+  "firstContentfulPaint": 1070.886,
+  "firstMeaningfulPaint": 1070.886,
+  "speedIndex": 1082.3104639992353,
+  "largestContentfulPaint": 1354.904,
+  "totalBlockingTime": 27,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 4065.8959999999997,
+  "maxPotentialFirstInputDelay": 67,
+  "timeToFirstByte": 50.511000000000024,
+  "weight": {
+    "summary": "22 requests • 344 KiB",
+    "total": 352175,
+    "image": 146536,
+    "imageCount": 7,
+    "script": 145801,
+    "scriptCount": 6,
+    "document": 22363,
+    "font": 36601,
+    "fontCount": 2,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 292765,
+    "thirdPartyCount": 18
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 473,
+    "+weight.total": 240,
+    "-weight.document": 618,
+    "+weight.document": 79,
+    "-weight.script": 415,
+    "+weight.script": 73,
+    "-weight.image": 285,
+    "+weight.image": 251,
+    "-weight.font": 143,
+    "+weight.font": 336,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 213,
+    "-totalBlockingTime": 53,
+    "-largestContentfulPaint": 37
+  },
+  "axe": {
+    "error": "{\"name\":\"TimeoutError\"}"
+  }
+}

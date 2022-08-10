@@ -1,0 +1,67 @@
+{
+  "url": "https://www.marciobda.com.br/en/",
+  "requestedUrl": "https://www.marciobda.com.br/en/",
+  "timestamp": 1660112293290,
+  "ranks": {
+    "hundos": 597,
+    "performance": 215,
+    "accessibility": 659,
+    "cumulative": 592
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 1,
+    "accessibility": 0.85,
+    "bestPractices": 0.92,
+    "seo": 0.92,
+    "total": 369
+  },
+  "firstContentfulPaint": 1015.5720000000001,
+  "firstMeaningfulPaint": 1015.5720000000001,
+  "speedIndex": 1804.2071649107233,
+  "largestContentfulPaint": 1015.5720000000001,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.036433415147993295,
+  "timeToInteractive": 1015.5720000000001,
+  "maxPotentialFirstInputDelay": 32,
+  "timeToFirstByte": 204.15999999999997,
+  "weight": {
+    "summary": "4 requests • 270 KiB",
+    "total": 276862,
+    "image": 2582,
+    "imageCount": 1,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 1733,
+    "font": 269755,
+    "fontCount": 1,
+    "stylesheet": 2792,
+    "stylesheetCount": 1,
+    "thirdParty": 2582,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 439,
+    "+weight.total": 274,
+    "-weight.document": 48,
+    "+weight.document": 649,
+    "-weight.script": 1,
+    "+weight.script": 488,
+    "-weight.image": 35,
+    "+weight.image": 501,
+    "-weight.font": 434,
+    "+weight.font": 45,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 464,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 175
+  },
+  "axe": {
+    "passes": 81,
+    "violations": 1
+  }
+}

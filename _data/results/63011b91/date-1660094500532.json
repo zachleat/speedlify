@@ -1,0 +1,67 @@
+{
+  "url": "https://www.karapanou.com/",
+  "requestedUrl": "https://www.karapanou.com/",
+  "timestamp": 1660111082655,
+  "ranks": {
+    "hundos": 583,
+    "performance": 556,
+    "accessibility": 646,
+    "cumulative": 587
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 0.9,
+    "accessibility": 0.88,
+    "bestPractices": 1,
+    "seo": 0.93,
+    "total": 371
+  },
+  "firstContentfulPaint": 930.696,
+  "firstMeaningfulPaint": 930.696,
+  "speedIndex": 1299.3432599788537,
+  "largestContentfulPaint": 3707.696,
+  "totalBlockingTime": 19.5,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1000.196,
+  "maxPotentialFirstInputDelay": 80,
+  "timeToFirstByte": 92.53299999999999,
+  "weight": {
+    "summary": "21 requests • 775 KiB",
+    "total": 793290,
+    "image": 684967,
+    "imageCount": 11,
+    "script": 6704,
+    "scriptCount": 2,
+    "document": 4470,
+    "font": 92562,
+    "fontCount": 4,
+    "stylesheet": 4480,
+    "stylesheetCount": 1,
+    "thirdParty": 6811,
+    "thirdPartyCount": 4
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 587,
+    "+weight.total": 126,
+    "-weight.document": 252,
+    "+weight.document": 445,
+    "-weight.script": 160,
+    "+weight.script": 328,
+    "-weight.image": 449,
+    "+weight.image": 87,
+    "-weight.font": 320,
+    "+weight.font": 159,
+    "+weight.fontCount": 11,
+    "-timeToFirstByte": 356,
+    "-totalBlockingTime": 42,
+    "-largestContentfulPaint": 62
+  },
+  "axe": {
+    "passes": 324,
+    "violations": 11
+  }
+}

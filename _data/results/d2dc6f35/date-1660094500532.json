@@ -1,0 +1,67 @@
+{
+  "url": "https://matthewstrom.com/",
+  "requestedUrl": "https://matthewstrom.com/",
+  "timestamp": 1660115957891,
+  "ranks": {
+    "hundos": 310,
+    "performance": 17,
+    "accessibility": 215,
+    "cumulative": 302
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 0.95,
+    "total": 395
+  },
+  "firstContentfulPaint": 844.299,
+  "firstMeaningfulPaint": 844.299,
+  "speedIndex": 844.299,
+  "largestContentfulPaint": 1052.299,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 844.299,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 42.378000000000014,
+  "weight": {
+    "summary": "4 requests • 24 KiB",
+    "total": 25027,
+    "image": 0,
+    "imageCount": 0,
+    "script": 757,
+    "scriptCount": 1,
+    "document": 2005,
+    "font": 16547,
+    "fontCount": 1,
+    "stylesheet": 5718,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 96,
+    "+weight.total": 617,
+    "-weight.document": 69,
+    "+weight.document": 628,
+    "-weight.script": 16,
+    "+weight.script": 472,
+    "-weight.image": 1,
+    "+weight.image": 536,
+    "-weight.font": 38,
+    "+weight.font": 441,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 150,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 188
+  },
+  "axe": {
+    "passes": 138,
+    "violations": 0
+  }
+}

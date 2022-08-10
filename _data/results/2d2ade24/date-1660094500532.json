@@ -1,0 +1,67 @@
+{
+  "url": "https://nicolas-hoizey.com/",
+  "requestedUrl": "https://nicolas-hoizey.com/",
+  "timestamp": 1660114584087,
+  "ranks": {
+    "hundos": 188,
+    "performance": 298,
+    "accessibility": 275,
+    "cumulative": 203
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 0.99,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 399
+  },
+  "firstContentfulPaint": 1398.4299999999998,
+  "firstMeaningfulPaint": 1411.9299999999998,
+  "speedIndex": 1398.4299999999998,
+  "largestContentfulPaint": 1841.5709999999997,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1411.9299999999998,
+  "maxPotentialFirstInputDelay": 45,
+  "timeToFirstByte": 30.309999999999988,
+  "weight": {
+    "summary": "10 requests • 203 KiB",
+    "total": 207725,
+    "image": 162611,
+    "imageCount": 5,
+    "script": 24403,
+    "scriptCount": 2,
+    "document": 16677,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 3391,
+    "stylesheetCount": 1,
+    "thirdParty": 162611,
+    "thirdPartyCount": 5
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 375,
+    "+weight.total": 338,
+    "-weight.document": 585,
+    "+weight.document": 112,
+    "-weight.script": 265,
+    "+weight.script": 223,
+    "-weight.image": 300,
+    "+weight.image": 236,
+    "-weight.font": 1,
+    "+weight.font": 479,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 18,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 437
+  },
+  "axe": {
+    "passes": 1455,
+    "violations": 1
+  }
+}

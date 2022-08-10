@@ -1,0 +1,67 @@
+{
+  "url": "https://kushagra.dev/",
+  "requestedUrl": "https://kushagra.dev/",
+  "timestamp": 1660121947208,
+  "ranks": {
+    "hundos": 211,
+    "performance": 325,
+    "accessibility": 375,
+    "cumulative": 210
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 0.99,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 399
+  },
+  "firstContentfulPaint": 1741.0150000000003,
+  "firstMeaningfulPaint": 1741.0150000000003,
+  "speedIndex": 2042.3925055177547,
+  "largestContentfulPaint": 1741.0150000000003,
+  "totalBlockingTime": 10,
+  "cumulativeLayoutShift": 0.0034863281250000003,
+  "timeToInteractive": 2303.3730000000005,
+  "maxPotentialFirstInputDelay": 70,
+  "timeToFirstByte": 241.77300000000002,
+  "weight": {
+    "summary": "8 requests • 117 KiB",
+    "total": 119482,
+    "image": 4627,
+    "imageCount": 2,
+    "script": 19220,
+    "scriptCount": 2,
+    "document": 5339,
+    "font": 6720,
+    "fontCount": 1,
+    "stylesheet": 3123,
+    "stylesheetCount": 1,
+    "thirdParty": 33690,
+    "thirdPartyCount": 6
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 264,
+    "+weight.total": 449,
+    "-weight.document": 308,
+    "+weight.document": 389,
+    "-weight.script": 238,
+    "+weight.script": 250,
+    "-weight.image": 47,
+    "+weight.image": 489,
+    "-weight.font": 5,
+    "+weight.font": 474,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 487,
+    "-totalBlockingTime": 24,
+    "-largestContentfulPaint": 406
+  },
+  "axe": {
+    "passes": 111,
+    "violations": 3
+  }
+}

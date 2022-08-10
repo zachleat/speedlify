@@ -1,0 +1,67 @@
+{
+  "url": "https://geolytix.com/",
+  "requestedUrl": "https://geolytix.com/",
+  "timestamp": 1660122073764,
+  "ranks": {
+    "hundos": 672,
+    "performance": 694,
+    "accessibility": 422,
+    "cumulative": 671
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 0.54,
+    "accessibility": 1,
+    "bestPractices": 0.92,
+    "seo": 1,
+    "total": 346
+  },
+  "firstContentfulPaint": 1000.7780000000002,
+  "firstMeaningfulPaint": 1033.2780000000002,
+  "speedIndex": 1130.4130747696738,
+  "largestContentfulPaint": 3850.9710000000005,
+  "totalBlockingTime": 1613.5030000000006,
+  "cumulativeLayoutShift": 0.0033320188522338867,
+  "timeToInteractive": 10860.048000000003,
+  "maxPotentialFirstInputDelay": 490.9999999999991,
+  "timeToFirstByte": 35.827,
+  "weight": {
+    "summary": "181 requests • 11,185 KiB",
+    "total": 11452963,
+    "image": 1815635,
+    "imageCount": 65,
+    "script": 769858,
+    "scriptCount": 29,
+    "document": 35173,
+    "font": 35020,
+    "fontCount": 2,
+    "stylesheet": 12270,
+    "stylesheetCount": 12,
+    "thirdParty": 11375227,
+    "thirdPartyCount": 166
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 709,
+    "+weight.total": 4,
+    "-weight.document": 646,
+    "+weight.document": 51,
+    "-weight.script": 477,
+    "+weight.script": 11,
+    "-weight.image": 500,
+    "+weight.image": 36,
+    "-weight.font": 133,
+    "+weight.font": 346,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 29,
+    "-totalBlockingTime": 164,
+    "-largestContentfulPaint": 652
+  },
+  "axe": {
+    "passes": 1374,
+    "violations": 13
+  }
+}

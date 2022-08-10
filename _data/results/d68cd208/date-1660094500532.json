@@ -1,0 +1,67 @@
+{
+  "url": "https://jouni.kantola.se/",
+  "requestedUrl": "https://jouni.kantola.se/",
+  "timestamp": 1660117283975,
+  "ranks": {
+    "hundos": 129,
+    "performance": 27,
+    "accessibility": 232,
+    "cumulative": 93
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 875.36,
+  "firstMeaningfulPaint": 875.36,
+  "speedIndex": 875.36,
+  "largestContentfulPaint": 875.36,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 875.36,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 171.84199999999998,
+  "weight": {
+    "summary": "2 requests • 12 KiB",
+    "total": 12749,
+    "image": 9361,
+    "imageCount": 1,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 3388,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 66,
+    "+weight.total": 647,
+    "-weight.document": 177,
+    "+weight.document": 520,
+    "-weight.script": 1,
+    "+weight.script": 488,
+    "-weight.image": 72,
+    "+weight.image": 464,
+    "-weight.font": 1,
+    "+weight.font": 479,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 449,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 86
+  },
+  "axe": {
+    "passes": 115,
+    "violations": 0
+  }
+}

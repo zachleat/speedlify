@@ -1,0 +1,67 @@
+{
+  "url": "https://lenny.fyi/",
+  "requestedUrl": "https://lenny.fyi/",
+  "timestamp": 1660108404090,
+  "ranks": {
+    "hundos": 261,
+    "performance": 204,
+    "accessibility": 478,
+    "cumulative": 252
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 1,
+    "accessibility": 0.97,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 397
+  },
+  "firstContentfulPaint": 803.233,
+  "firstMeaningfulPaint": 803.233,
+  "speedIndex": 1654.732938006115,
+  "largestContentfulPaint": 803.233,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.000320556640625,
+  "timeToInteractive": 803.233,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 130.36599999999999,
+  "weight": {
+    "summary": "6 requests • 92 KiB",
+    "total": 94105,
+    "image": 33938,
+    "imageCount": 1,
+    "script": 778,
+    "scriptCount": 1,
+    "document": 3338,
+    "font": 51882,
+    "fontCount": 2,
+    "stylesheet": 4169,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 227,
+    "+weight.total": 486,
+    "-weight.document": 171,
+    "+weight.document": 526,
+    "-weight.script": 17,
+    "+weight.script": 471,
+    "-weight.image": 143,
+    "+weight.image": 393,
+    "-weight.font": 209,
+    "+weight.font": 270,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 411,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 10
+  },
+  "axe": {
+    "passes": 143,
+    "violations": 0
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://www.gites-lafourcade.fr/",
+  "requestedUrl": "https://www.gites-lafourcade.fr/",
+  "timestamp": 1660102992540,
+  "ranks": {
+    "hundos": 562,
+    "performance": 634,
+    "accessibility": 513,
+    "cumulative": 564
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 0.79,
+    "accessibility": 0.97,
+    "bestPractices": 1,
+    "seo": 0.99,
+    "total": 375
+  },
+  "firstContentfulPaint": 1263.6889999999999,
+  "firstMeaningfulPaint": 1263.6889999999999,
+  "speedIndex": 6511.784586409053,
+  "largestContentfulPaint": 3568.689,
+  "totalBlockingTime": 7,
+  "cumulativeLayoutShift": 0.18037665367126465,
+  "timeToInteractive": 1320.6889999999999,
+  "maxPotentialFirstInputDelay": 57,
+  "timeToFirstByte": 228.11399999999958,
+  "weight": {
+    "summary": "11 requests • 493 KiB",
+    "total": 504770,
+    "image": 201260,
+    "imageCount": 3,
+    "script": 21238,
+    "scriptCount": 1,
+    "document": 71703,
+    "font": 125027,
+    "fontCount": 4,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 21376,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 528,
+    "+weight.total": 185,
+    "-weight.document": 675,
+    "+weight.document": 22,
+    "-weight.script": 250,
+    "+weight.script": 238,
+    "-weight.image": 325,
+    "+weight.image": 211,
+    "-weight.font": 362,
+    "+weight.font": 117,
+    "+weight.fontCount": 11,
+    "-timeToFirstByte": 479,
+    "-totalBlockingTime": 17,
+    "-largestContentfulPaint": 644
+  },
+  "axe": {
+    "passes": 312,
+    "violations": 15
+  }
+}

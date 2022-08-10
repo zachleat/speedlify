@@ -1,0 +1,67 @@
+{
+  "url": "https://www.garylake.co.uk/",
+  "requestedUrl": "https://www.garylake.co.uk/",
+  "timestamp": 1660106465699,
+  "ranks": {
+    "hundos": 73,
+    "performance": 237,
+    "accessibility": 404,
+    "cumulative": 170
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 1088.135,
+  "firstMeaningfulPaint": 1102.635,
+  "speedIndex": 1968.1867763532975,
+  "largestContentfulPaint": 1102.635,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.008801865294989612,
+  "timeToInteractive": 1102.635,
+  "maxPotentialFirstInputDelay": 29,
+  "timeToFirstByte": 50.68599999999998,
+  "weight": {
+    "summary": "5 requests • 101 KiB",
+    "total": 103508,
+    "image": 13434,
+    "imageCount": 1,
+    "script": 21266,
+    "scriptCount": 1,
+    "document": 10365,
+    "font": 58443,
+    "fontCount": 2,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 240,
+    "+weight.total": 473,
+    "-weight.document": 491,
+    "+weight.document": 206,
+    "-weight.script": 252,
+    "+weight.script": 236,
+    "-weight.image": 86,
+    "+weight.image": 450,
+    "-weight.font": 234,
+    "+weight.font": 245,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 215,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 222
+  },
+  "axe": {
+    "passes": 195,
+    "violations": 7
+  }
+}

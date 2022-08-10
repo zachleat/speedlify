@@ -1,0 +1,66 @@
+{
+  "url": "https://www.vtcodecamp.org/",
+  "requestedUrl": "https://www.vtcodecamp.org/",
+  "timestamp": 1660107132465,
+  "ranks": {
+    "hundos": 689,
+    "performance": 702,
+    "accessibility": 527,
+    "cumulative": 689
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 0.46,
+    "accessibility": 0.97,
+    "bestPractices": 0.92,
+    "seo": 0.96,
+    "total": 331
+  },
+  "firstContentfulPaint": 1639.15,
+  "firstMeaningfulPaint": 1639.15,
+  "speedIndex": 7250.874862032552,
+  "largestContentfulPaint": 3533.546,
+  "totalBlockingTime": 2544.8489999999997,
+  "cumulativeLayoutShift": 0.018098223050435385,
+  "timeToInteractive": 11734.942999999997,
+  "maxPotentialFirstInputDelay": 223,
+  "timeToFirstByte": 73.72899999999998,
+  "weight": {
+    "summary": "112 requests • 799 KiB",
+    "total": 818028,
+    "image": 231164,
+    "imageCount": 25,
+    "script": 438764,
+    "scriptCount": 66,
+    "document": 123355,
+    "font": 11694,
+    "fontCount": 1,
+    "stylesheet": 1132,
+    "stylesheetCount": 1,
+    "thirdParty": 808317,
+    "thirdPartyCount": 111
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 592,
+    "+weight.total": 121,
+    "-weight.document": 687,
+    "+weight.document": 10,
+    "-weight.script": 463,
+    "+weight.script": 25,
+    "-weight.image": 340,
+    "+weight.image": 196,
+    "-weight.font": 16,
+    "+weight.font": 463,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 316,
+    "-totalBlockingTime": 165,
+    "-largestContentfulPaint": 640
+  },
+  "axe": {
+    "error": "{\"name\":\"TimeoutError\"}"
+  }
+}

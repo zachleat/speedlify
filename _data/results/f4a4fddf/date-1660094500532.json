@@ -1,0 +1,67 @@
+{
+  "url": "https://chillies-aberfeldy-website.netlify.app/",
+  "requestedUrl": "https://chillies-aberfeldy-website.netlify.app/",
+  "timestamp": 1660120073047,
+  "ranks": {
+    "hundos": 386,
+    "performance": 332,
+    "accessibility": 359,
+    "cumulative": 382
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 0.99,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 0.92,
+    "total": 391
+  },
+  "firstContentfulPaint": 1164.413,
+  "firstMeaningfulPaint": 1164.413,
+  "speedIndex": 2549.4602674895723,
+  "largestContentfulPaint": 1164.413,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.08391540090243021,
+  "timeToInteractive": 1185.913,
+  "maxPotentialFirstInputDelay": 97,
+  "timeToFirstByte": 1150.8310000000001,
+  "weight": {
+    "summary": "5 requests • 109 KiB",
+    "total": 111887,
+    "image": 60380,
+    "imageCount": 1,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 16296,
+    "font": 35211,
+    "fontCount": 3,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 252,
+    "+weight.total": 461,
+    "-weight.document": 582,
+    "+weight.document": 115,
+    "-weight.script": 1,
+    "+weight.script": 488,
+    "-weight.image": 188,
+    "+weight.image": 348,
+    "-weight.font": 135,
+    "+weight.font": 344,
+    "+weight.fontCount": 12,
+    "-timeToFirstByte": 655,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 241
+  },
+  "axe": {
+    "passes": 1608,
+    "violations": 3
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://redfang.net/",
+  "requestedUrl": "https://redfang.net/",
+  "timestamp": 1660123570676,
+  "ranks": {
+    "hundos": 35,
+    "performance": 24,
+    "accessibility": 336,
+    "cumulative": 138
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 804.394,
+  "firstMeaningfulPaint": 804.394,
+  "speedIndex": 872.3981760164856,
+  "largestContentfulPaint": 804.394,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.0143469500541687,
+  "timeToInteractive": 804.394,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 61.054,
+  "weight": {
+    "summary": "5 requests • 89 KiB",
+    "total": 91009,
+    "image": 44616,
+    "imageCount": 1,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 1703,
+    "font": 40118,
+    "fontCount": 2,
+    "stylesheet": 4572,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 219,
+    "+weight.total": 494,
+    "-weight.document": 47,
+    "+weight.document": 650,
+    "-weight.script": 1,
+    "+weight.script": 488,
+    "-weight.image": 169,
+    "+weight.image": 367,
+    "-weight.font": 160,
+    "+weight.font": 319,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 280,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 12
+  },
+  "axe": {
+    "passes": 29,
+    "violations": 1
+  }
+}

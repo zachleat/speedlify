@@ -1,0 +1,67 @@
+{
+  "url": "https://gourmonds.de/",
+  "requestedUrl": "https://gourmonds.de/",
+  "timestamp": 1660102794521,
+  "ranks": {
+    "hundos": 472,
+    "performance": 458,
+    "accessibility": 530,
+    "cumulative": 472
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 0.96,
+    "accessibility": 0.96,
+    "bestPractices": 1,
+    "seo": 0.92,
+    "total": 384
+  },
+  "firstContentfulPaint": 1558.69,
+  "firstMeaningfulPaint": 1558.69,
+  "speedIndex": 2563.128556015133,
+  "largestContentfulPaint": 1558.69,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.13229242960611978,
+  "timeToInteractive": 1558.69,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 136.23700000000008,
+  "weight": {
+    "summary": "11 requests • 422 KiB",
+    "total": 432532,
+    "image": 299921,
+    "imageCount": 4,
+    "script": 92727,
+    "scriptCount": 3,
+    "document": 2426,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 37359,
+    "stylesheetCount": 2,
+    "thirdParty": 20517,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 506,
+    "+weight.total": 207,
+    "-weight.document": 107,
+    "+weight.document": 590,
+    "-weight.script": 375,
+    "+weight.script": 113,
+    "-weight.image": 372,
+    "+weight.image": 164,
+    "-weight.font": 1,
+    "+weight.font": 479,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 423,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 345
+  },
+  "axe": {
+    "passes": 253,
+    "violations": 1
+  }
+}

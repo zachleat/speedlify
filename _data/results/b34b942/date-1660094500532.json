@@ -1,0 +1,66 @@
+{
+  "url": "https://binyam.in/",
+  "requestedUrl": "https://binyam.in/",
+  "timestamp": 1660102248387,
+  "ranks": {
+    "hundos": 403,
+    "performance": 374,
+    "accessibility": 448,
+    "cumulative": 407
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 0.98,
+    "accessibility": 1,
+    "bestPractices": 0.92,
+    "seo": 1,
+    "total": 390
+  },
+  "firstContentfulPaint": 1803.7669999999998,
+  "firstMeaningfulPaint": 1803.7669999999998,
+  "speedIndex": 1803.7669999999998,
+  "largestContentfulPaint": 1803.7669999999998,
+  "totalBlockingTime": 20.5,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 2240.3059999999996,
+  "maxPotentialFirstInputDelay": 65,
+  "timeToFirstByte": 86.59100000000001,
+  "weight": {
+    "summary": "14 requests • 42 KiB",
+    "total": 42853,
+    "image": 7233,
+    "imageCount": 2,
+    "script": 28568,
+    "scriptCount": 4,
+    "document": 2069,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 4113,
+    "stylesheetCount": 3,
+    "thirdParty": 38882,
+    "thirdPartyCount": 10
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 143,
+    "+weight.total": 570,
+    "-weight.document": 77,
+    "+weight.document": 620,
+    "-weight.script": 272,
+    "+weight.script": 216,
+    "-weight.image": 63,
+    "+weight.image": 473,
+    "-weight.font": 1,
+    "+weight.font": 479,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 338,
+    "-totalBlockingTime": 44,
+    "-largestContentfulPaint": 45
+  },
+  "axe": {
+    "error": "{\"name\":\"TimeoutError\"}"
+  }
+}

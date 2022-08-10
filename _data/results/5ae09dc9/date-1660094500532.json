@@ -1,0 +1,67 @@
+{
+  "url": "https://cam.macfar.land/",
+  "requestedUrl": "https://cam.macfar.land/",
+  "timestamp": 1660122394714,
+  "ranks": {
+    "hundos": 463,
+    "performance": 566,
+    "accessibility": 545,
+    "cumulative": 466
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 0.89,
+    "accessibility": 0.96,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 385
+  },
+  "firstContentfulPaint": 1610.475,
+  "firstMeaningfulPaint": 1610.475,
+  "speedIndex": 1610.475,
+  "largestContentfulPaint": 3279.964,
+  "totalBlockingTime": 171.36000000000013,
+  "cumulativeLayoutShift": 0.0026556638479232784,
+  "timeToInteractive": 2142.569,
+  "maxPotentialFirstInputDelay": 299,
+  "timeToFirstByte": 71.26100000000002,
+  "weight": {
+    "summary": "16 requests • 1,184 KiB",
+    "total": 1212605,
+    "image": 1011829,
+    "imageCount": 3,
+    "script": 14277,
+    "scriptCount": 6,
+    "document": 7526,
+    "font": 168627,
+    "fontCount": 2,
+    "stylesheet": 10346,
+    "stylesheetCount": 4,
+    "thirdParty": 1193088,
+    "thirdPartyCount": 9
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 631,
+    "+weight.total": 82,
+    "-weight.document": 407,
+    "+weight.document": 290,
+    "-weight.script": 215,
+    "+weight.script": 273,
+    "-weight.image": 473,
+    "+weight.image": 63,
+    "-weight.font": 399,
+    "+weight.font": 80,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 308,
+    "-totalBlockingTime": 123,
+    "-largestContentfulPaint": 628
+  },
+  "axe": {
+    "passes": 437,
+    "violations": 14
+  }
+}

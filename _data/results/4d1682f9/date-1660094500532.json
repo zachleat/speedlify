@@ -1,0 +1,67 @@
+{
+  "url": "https://www.itsmeara.com/",
+  "requestedUrl": "https://www.itsmeara.com/",
+  "timestamp": 1660106401701,
+  "ranks": {
+    "hundos": 42,
+    "performance": 118,
+    "accessibility": 393,
+    "cumulative": 168
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 886.6419999999999,
+  "firstMeaningfulPaint": 886.6419999999999,
+  "speedIndex": 1111.847275998462,
+  "largestContentfulPaint": 1754.8649999999998,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.006859298865000407,
+  "timeToInteractive": 886.6419999999999,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 40.56,
+  "weight": {
+    "summary": "14 requests • 101 KiB",
+    "total": 103297,
+    "image": 60542,
+    "imageCount": 8,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 9764,
+    "font": 31578,
+    "fontCount": 3,
+    "stylesheet": 1413,
+    "stylesheetCount": 2,
+    "thirdParty": 93533,
+    "thirdPartyCount": 13
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 239,
+    "+weight.total": 474,
+    "-weight.document": 473,
+    "+weight.document": 224,
+    "-weight.script": 1,
+    "+weight.script": 488,
+    "-weight.image": 189,
+    "+weight.image": 347,
+    "-weight.font": 115,
+    "+weight.font": 364,
+    "+weight.fontCount": 12,
+    "-timeToFirstByte": 99,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 415
+  },
+  "axe": {
+    "passes": 288,
+    "violations": 6
+  }
+}

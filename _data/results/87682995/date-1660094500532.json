@@ -1,0 +1,67 @@
+{
+  "url": "https://pborenstein.com/",
+  "requestedUrl": "https://pborenstein.com/",
+  "timestamp": 1660096256425,
+  "ranks": {
+    "hundos": 642,
+    "performance": 295,
+    "accessibility": 689,
+    "cumulative": 642
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 0.99,
+    "accessibility": 0.76,
+    "bestPractices": 1,
+    "seo": 0.81,
+    "total": 356
+  },
+  "firstContentfulPaint": 894.8380000000001,
+  "firstMeaningfulPaint": 894.8380000000001,
+  "speedIndex": 1299.9246559912676,
+  "largestContentfulPaint": 894.8380000000001,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.07254937744140626,
+  "timeToInteractive": 894.8380000000001,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 42.610000000000014,
+  "weight": {
+    "summary": "18 requests • 29 KiB",
+    "total": 30020,
+    "image": 16136,
+    "imageCount": 1,
+    "script": 660,
+    "scriptCount": 1,
+    "document": 1915,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 10689,
+    "stylesheetCount": 14,
+    "thirdParty": 16756,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 110,
+    "+weight.total": 603,
+    "-weight.document": 62,
+    "+weight.document": 635,
+    "-weight.script": 11,
+    "+weight.script": 477,
+    "-weight.image": 96,
+    "+weight.image": 440,
+    "-weight.font": 1,
+    "+weight.font": 479,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 156,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 91
+  },
+  "axe": {
+    "passes": 194,
+    "violations": 8
+  }
+}

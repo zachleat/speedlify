@@ -1,0 +1,67 @@
+{
+  "url": "https://chocolatesculptress.com/",
+  "requestedUrl": "https://chocolatesculptress.com/",
+  "timestamp": 1660116822614,
+  "ranks": {
+    "hundos": 45,
+    "performance": 211,
+    "accessibility": 300,
+    "cumulative": 139
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 1065.5859999999998,
+  "firstMeaningfulPaint": 1065.5859999999998,
+  "speedIndex": 1777.8381702687493,
+  "largestContentfulPaint": 1906.0569999999998,
+  "totalBlockingTime": 31,
+  "cumulativeLayoutShift": 0.0015717909071180556,
+  "timeToInteractive": 1146.5859999999998,
+  "maxPotentialFirstInputDelay": 88,
+  "timeToFirstByte": 214.578,
+  "weight": {
+    "summary": "10 requests • 227 KiB",
+    "total": 232183,
+    "image": 148769,
+    "imageCount": 5,
+    "script": 62763,
+    "scriptCount": 2,
+    "document": 10949,
+    "font": 9491,
+    "fontCount": 1,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 62974,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 400,
+    "+weight.total": 313,
+    "-weight.document": 503,
+    "+weight.document": 194,
+    "-weight.script": 318,
+    "+weight.script": 170,
+    "-weight.image": 287,
+    "+weight.image": 249,
+    "-weight.font": 9,
+    "+weight.font": 470,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 471,
+    "-totalBlockingTime": 59,
+    "-largestContentfulPaint": 46
+  },
+  "axe": {
+    "passes": 293,
+    "violations": 1
+  }
+}

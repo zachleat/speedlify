@@ -1,0 +1,67 @@
+{
+  "url": "https://www.aleksandrhovhannisyan.com/",
+  "requestedUrl": "https://www.aleksandrhovhannisyan.com/",
+  "timestamp": 1660112327433,
+  "ranks": {
+    "hundos": 40,
+    "performance": 14,
+    "accessibility": 20,
+    "cumulative": 25
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 827.615,
+  "firstMeaningfulPaint": 827.615,
+  "speedIndex": 827.615,
+  "largestContentfulPaint": 1202.615,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 827.615,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 42.857,
+  "weight": {
+    "summary": "7 requests • 78 KiB",
+    "total": 80010,
+    "image": 6867,
+    "imageCount": 1,
+    "script": 1802,
+    "scriptCount": 2,
+    "document": 5826,
+    "font": 59698,
+    "fontCount": 2,
+    "stylesheet": 5817,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 201,
+    "+weight.total": 512,
+    "-weight.document": 337,
+    "+weight.document": 360,
+    "-weight.script": 71,
+    "+weight.script": 417,
+    "-weight.image": 59,
+    "+weight.image": 477,
+    "-weight.font": 236,
+    "+weight.font": 243,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 163,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 264
+  },
+  "axe": {
+    "passes": 957,
+    "violations": 0
+  }
+}

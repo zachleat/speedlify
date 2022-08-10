@@ -1,0 +1,67 @@
+{
+  "url": "https://thepugautomatic.com/",
+  "requestedUrl": "https://thepugautomatic.com/",
+  "timestamp": 1660117326124,
+  "ranks": {
+    "hundos": 324,
+    "performance": 94,
+    "accessibility": 592,
+    "cumulative": 334
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 1,
+    "accessibility": 0.94,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 394
+  },
+  "firstContentfulPaint": 1041.522,
+  "firstMeaningfulPaint": 1041.522,
+  "speedIndex": 1041.522,
+  "largestContentfulPaint": 1651.522,
+  "totalBlockingTime": 36,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1127.522,
+  "maxPotentialFirstInputDelay": 135.9999999999999,
+  "timeToFirstByte": 38.15799999999999,
+  "weight": {
+    "summary": "3 requests • 150 KiB",
+    "total": 153597,
+    "image": 133802,
+    "imageCount": 1,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 17325,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 2470,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 306,
+    "+weight.total": 407,
+    "-weight.document": 592,
+    "+weight.document": 105,
+    "-weight.script": 1,
+    "+weight.script": 488,
+    "-weight.image": 274,
+    "+weight.image": 262,
+    "-weight.font": 1,
+    "+weight.font": 479,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 61,
+    "-totalBlockingTime": 62,
+    "-largestContentfulPaint": 40
+  },
+  "axe": {
+    "passes": 3991,
+    "violations": 1060
+  }
+}

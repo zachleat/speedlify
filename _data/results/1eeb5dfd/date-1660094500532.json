@@ -1,0 +1,67 @@
+{
+  "url": "https://books.hiddedevries.nl/",
+  "requestedUrl": "https://books.hiddedevries.nl/",
+  "timestamp": 1660105020500,
+  "ranks": {
+    "hundos": 524,
+    "performance": 605,
+    "accessibility": 526,
+    "cumulative": 524
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 0.85,
+    "accessibility": 0.97,
+    "bestPractices": 1,
+    "seo": 0.98,
+    "total": 380
+  },
+  "firstContentfulPaint": 2148.5769999999998,
+  "firstMeaningfulPaint": 2148.5769999999998,
+  "speedIndex": 6998.847013988729,
+  "largestContentfulPaint": 2975.277,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.0705663816663954,
+  "timeToInteractive": 2148.5769999999998,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 326.9499999999998,
+  "weight": {
+    "summary": "17 requests • 376 KiB",
+    "total": 384846,
+    "image": 340882,
+    "imageCount": 11,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 22101,
+    "font": 19198,
+    "fontCount": 2,
+    "stylesheet": 2665,
+    "stylesheetCount": 3,
+    "thirdParty": 20565,
+    "thirdPartyCount": 4
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 484,
+    "+weight.total": 229,
+    "-weight.document": 617,
+    "+weight.document": 80,
+    "-weight.script": 1,
+    "+weight.script": 488,
+    "-weight.image": 383,
+    "+weight.image": 153,
+    "-weight.font": 54,
+    "+weight.font": 425,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 523,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 609
+  },
+  "axe": {
+    "passes": 4940,
+    "violations": 137
+  }
+}

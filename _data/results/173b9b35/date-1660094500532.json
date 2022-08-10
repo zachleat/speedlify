@@ -1,0 +1,67 @@
+{
+  "url": "https://www.lautakuntapodcast.fi/",
+  "requestedUrl": "https://www.lautakuntapodcast.fi/",
+  "timestamp": 1660112815616,
+  "ranks": {
+    "hundos": 449,
+    "performance": 56,
+    "accessibility": 554,
+    "cumulative": 447
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 1,
+    "accessibility": 0.95,
+    "bestPractices": 1,
+    "seo": 0.92,
+    "total": 387
+  },
+  "firstContentfulPaint": 933.1859999999999,
+  "firstMeaningfulPaint": 933.1859999999999,
+  "speedIndex": 933.1859999999999,
+  "largestContentfulPaint": 933.1859999999999,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 933.1859999999999,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 43.158000000000015,
+  "weight": {
+    "summary": "6 requests • 25 KiB",
+    "total": 26111,
+    "image": 21831,
+    "imageCount": 5,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 4280,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 100,
+    "+weight.total": 613,
+    "-weight.document": 235,
+    "+weight.document": 462,
+    "-weight.script": 1,
+    "+weight.script": 488,
+    "-weight.image": 113,
+    "+weight.image": 423,
+    "-weight.font": 1,
+    "+weight.font": 479,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 168,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 123
+  },
+  "axe": {
+    "passes": 1208,
+    "violations": 3
+  }
+}

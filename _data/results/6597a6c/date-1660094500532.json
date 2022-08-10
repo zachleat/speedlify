@@ -1,0 +1,67 @@
+{
+  "url": "https://getzeropoint.com/",
+  "requestedUrl": "https://getzeropoint.com/",
+  "timestamp": 1660113746824,
+  "ranks": {
+    "hundos": 167,
+    "performance": 241,
+    "accessibility": 204,
+    "cumulative": 121
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 1002.556,
+  "firstMeaningfulPaint": 1002.556,
+  "speedIndex": 2183.63249042905,
+  "largestContentfulPaint": 1002.556,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1002.556,
+  "maxPotentialFirstInputDelay": 21,
+  "timeToFirstByte": 1006.435,
+  "weight": {
+    "summary": "2 requests • 6 KiB",
+    "total": 5845,
+    "image": 0,
+    "imageCount": 0,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 4763,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 1082,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 31,
+    "+weight.total": 682,
+    "-weight.document": 276,
+    "+weight.document": 421,
+    "-weight.script": 1,
+    "+weight.script": 488,
+    "-weight.image": 1,
+    "+weight.image": 536,
+    "-weight.font": 1,
+    "+weight.font": 479,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 614,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 168
+  },
+  "axe": {
+    "passes": 146,
+    "violations": 0
+  }
+}

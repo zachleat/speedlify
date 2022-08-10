@@ -1,0 +1,67 @@
+{
+  "url": "https://valinor.earth/",
+  "requestedUrl": "https://valinor.earth/",
+  "timestamp": 1660108589642,
+  "ranks": {
+    "hundos": 630,
+    "performance": 444,
+    "accessibility": 505,
+    "cumulative": 630
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 0.96,
+    "accessibility": 0.97,
+    "bestPractices": 0.83,
+    "seo": 0.85,
+    "total": 361
+  },
+  "firstContentfulPaint": 1047.851,
+  "firstMeaningfulPaint": 1047.851,
+  "speedIndex": 1047.851,
+  "largestContentfulPaint": 2718.8510000000006,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1047.851,
+  "maxPotentialFirstInputDelay": 18,
+  "timeToFirstByte": 57.41199999999998,
+  "weight": {
+    "summary": "17 requests • 679 KiB",
+    "total": 695182,
+    "image": 675787,
+    "imageCount": 11,
+    "script": 9702,
+    "scriptCount": 2,
+    "document": 5820,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 3873,
+    "stylesheetCount": 1,
+    "thirdParty": 5434,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 576,
+    "+weight.total": 137,
+    "-weight.document": 336,
+    "+weight.document": 361,
+    "-weight.script": 194,
+    "+weight.script": 294,
+    "-weight.image": 447,
+    "+weight.image": 89,
+    "-weight.font": 1,
+    "+weight.font": 479,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 235,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 594
+  },
+  "axe": {
+    "passes": 392,
+    "violations": 9
+  }
+}

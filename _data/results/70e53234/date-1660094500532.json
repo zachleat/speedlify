@@ -1,0 +1,67 @@
+{
+  "url": "https://www.bytegrasp.com/en/",
+  "requestedUrl": "https://www.bytegrasp.com/",
+  "timestamp": 1660111059002,
+  "ranks": {
+    "hundos": 29,
+    "performance": 103,
+    "accessibility": 16,
+    "cumulative": 17
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 1065.187,
+  "firstMeaningfulPaint": 1140.187,
+  "speedIndex": 1065.187,
+  "largestContentfulPaint": 1215.187,
+  "totalBlockingTime": 43,
+  "cumulativeLayoutShift": 0.00039066314697265624,
+  "timeToInteractive": 1608.187,
+  "maxPotentialFirstInputDelay": 93,
+  "timeToFirstByte": 136.62,
+  "weight": {
+    "summary": "13 requests • 191 KiB",
+    "total": 195919,
+    "image": 65262,
+    "imageCount": 4,
+    "script": 36976,
+    "scriptCount": 2,
+    "document": 13708,
+    "font": 71700,
+    "fontCount": 3,
+    "stylesheet": 8076,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 363,
+    "+weight.total": 350,
+    "-weight.document": 556,
+    "+weight.document": 141,
+    "-weight.script": 282,
+    "+weight.script": 206,
+    "-weight.image": 196,
+    "+weight.image": 340,
+    "-weight.font": 271,
+    "+weight.font": 208,
+    "+weight.fontCount": 12,
+    "-timeToFirstByte": 426,
+    "-totalBlockingTime": 68,
+    "-largestContentfulPaint": 267
+  },
+  "axe": {
+    "passes": 1064,
+    "violations": 0
+  }
+}

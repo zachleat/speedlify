@@ -1,0 +1,67 @@
+{
+  "url": "https://www.yellowled.de/",
+  "requestedUrl": "https://www.yellowled.de/",
+  "timestamp": 1660102851507,
+  "ranks": {
+    "hundos": 158,
+    "performance": 153,
+    "accessibility": 249,
+    "cumulative": 115
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 1014.626,
+  "firstMeaningfulPaint": 1014.626,
+  "speedIndex": 1293.1268119958877,
+  "largestContentfulPaint": 1014.626,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1014.626,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 198.66699999999997,
+  "weight": {
+    "summary": "3 requests • 7 KiB",
+    "total": 6811,
+    "image": 0,
+    "imageCount": 0,
+    "script": 1592,
+    "scriptCount": 1,
+    "document": 2385,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 2834,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 36,
+    "+weight.total": 677,
+    "-weight.document": 105,
+    "+weight.document": 592,
+    "-weight.script": 65,
+    "+weight.script": 423,
+    "-weight.image": 1,
+    "+weight.image": 536,
+    "-weight.font": 1,
+    "+weight.font": 479,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 461,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 174
+  },
+  "axe": {
+    "passes": 89,
+    "violations": 0
+  }
+}

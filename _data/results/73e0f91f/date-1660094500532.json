@@ -1,0 +1,67 @@
+{
+  "url": "https://daslaf.dev/",
+  "requestedUrl": "https://daslaf.dev/",
+  "timestamp": 1660123340718,
+  "ranks": {
+    "hundos": 470,
+    "performance": 370,
+    "accessibility": 556,
+    "cumulative": 470
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 0.98,
+    "accessibility": 0.95,
+    "bestPractices": 0.92,
+    "seo": 1,
+    "total": 385
+  },
+  "firstContentfulPaint": 1646.333,
+  "firstMeaningfulPaint": 1646.333,
+  "speedIndex": 1646.333,
+  "largestContentfulPaint": 1892.4389999999999,
+  "totalBlockingTime": 69.5,
+  "cumulativeLayoutShift": 0.0008286931514739991,
+  "timeToInteractive": 3096.1115,
+  "maxPotentialFirstInputDelay": 187,
+  "timeToFirstByte": 58.75,
+  "weight": {
+    "summary": "21 requests • 257 KiB",
+    "total": 262987,
+    "image": 14868,
+    "imageCount": 1,
+    "script": 99479,
+    "scriptCount": 10,
+    "document": 8261,
+    "font": 60727,
+    "fontCount": 2,
+    "stylesheet": 6686,
+    "stylesheetCount": 2,
+    "thirdParty": 37766,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 429,
+    "+weight.total": 284,
+    "-weight.document": 433,
+    "+weight.document": 264,
+    "-weight.script": 381,
+    "+weight.script": 107,
+    "-weight.image": 91,
+    "+weight.image": 445,
+    "-weight.font": 239,
+    "+weight.font": 240,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 267,
+    "-totalBlockingTime": 87,
+    "-largestContentfulPaint": 452
+  },
+  "axe": {
+    "passes": 155,
+    "violations": 5
+  }
+}

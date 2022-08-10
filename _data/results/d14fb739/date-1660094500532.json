@@ -1,0 +1,67 @@
+{
+  "url": "https://guardians-foundation.org/",
+  "requestedUrl": "https://guardians-foundation.org/",
+  "timestamp": 1660112649060,
+  "ranks": {
+    "hundos": 450,
+    "performance": 70,
+    "accessibility": 538,
+    "cumulative": 449
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 1,
+    "accessibility": 0.96,
+    "bestPractices": 1,
+    "seo": 0.91,
+    "total": 387
+  },
+  "firstContentfulPaint": 829.771,
+  "firstMeaningfulPaint": 829.771,
+  "speedIndex": 963.2439499973298,
+  "largestContentfulPaint": 829.771,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 829.771,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 129.14399999999998,
+  "weight": {
+    "summary": "3 requests • 6 KiB",
+    "total": 5825,
+    "image": 0,
+    "imageCount": 0,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 1401,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 4424,
+    "stylesheetCount": 2,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 29,
+    "+weight.total": 684,
+    "-weight.document": 27,
+    "+weight.document": 670,
+    "-weight.script": 1,
+    "+weight.script": 488,
+    "-weight.image": 1,
+    "+weight.image": 536,
+    "-weight.font": 1,
+    "+weight.font": 479,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 408,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 24
+  },
+  "axe": {
+    "passes": 40,
+    "violations": 5
+  }
+}
