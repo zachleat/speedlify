@@ -64,7 +64,23 @@ function getLighthouseTotal(entry) {
 		entry.lighthouse.seo * 100;
 }
 
+function displayUrl(url, keepWww = false) {
+	if(!keepWww) {
+		url = url.replace("https://www.", "");
+	}
+	url = url.replace("https://", "");
+	if(url.endsWith("/index.html")) {
+		url = url.replace("/index.html", "/");
+	}
+	return url;
+}
+
 module.exports = function(eleventyConfig) {
+	eleventyConfig.setServerOptions({
+		domdiff: false
+	});
+	eleventyConfig.setWatchJavaScriptDependencies(false);
+
 	eleventyConfig.addPlugin(syntaxHighlight);
 
 	eleventyConfig.addFilter("shortHash", shortHash);
@@ -106,16 +122,7 @@ module.exports = function(eleventyConfig) {
 		return arr;
 	});
 
-	eleventyConfig.addFilter("displayUrl", function(url, keepWww = false) {
-		if(!keepWww) {
-			url = url.replace("https://www.", "");
-		}
-		url = url.replace("https://", "");
-		if(url.endsWith("/index.html")) {
-			url = url.replace("/index.html", "/");
-		}
-		return url;
-	});
+	eleventyConfig.addFilter("displayUrl", displayUrl);
 
 	eleventyConfig.addFilter("showDigits", function(num, digits) {
 		return showDigits(num, digits);
@@ -205,6 +212,15 @@ module.exports = function(eleventyConfig) {
 		}
 
 		return sorted;
+	});
+
+	eleventyConfig.addFilter("getUrlForSite", function(site) {
+		let key = getObjectKey(site);
+		let url = site[key].url;
+		if(!url) {
+			throw new Error(`Could not find URL for site: \`${JSON.stringify(site)}\` from key: \`${JSON.stringify(key)}\``);
+		}
+		return displayUrl(url);
 	});
 
 	eleventyConfig.addFilter("getObjectKey", getObjectKey);
@@ -341,7 +357,7 @@ module.exports = function(eleventyConfig) {
 	function getWeeklyServiceCacheBuster() {
 		let d = new Date();
 		// Weekly
-		return `__${d.getFullYear()}${pad(d.getMonth()+1)}_${d.getDate() % 7}`;
+		return `_${d.getFullYear()}${pad(d.getMonth()+1)}_${d.getDate() % 7}`;
 	}
 	eleventyConfig.addFilter("generatorImageUrl", (url) => {
 		return `https://v1.generator.11ty.dev/image/${encodeURIComponent(url)}/${getWeeklyServiceCacheBuster()}/`;

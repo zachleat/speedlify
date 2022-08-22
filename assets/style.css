@@ -8,6 +8,7 @@ body {
 	color: #fff;
 	margin: 0.5rem; /* 8px /16 */
 }
+header,
 footer {
 	font-style: italic;
 	text-align: center;
@@ -97,18 +98,15 @@ abbr {
 	margin-left: -.5rem;
 	margin-right: -.4375rem; /* 7px /16 */
 }
-.leaderboard {
+.leaderboard-wrapper > * {
 	width: 100%;
-	margin: 5em auto;
 	max-width: 100rem; /* 1600px /16 */
+	margin: 3em auto;
 }
-.leaderboard-directlink {
-	text-decoration: none;
-}
-.leaderboard-directlink span {
-	font-size: 0.75em; /* 12px /16 */
-	margin-right: 2px;
-	vertical-align: text-top;
+.leaderboard-wrapper > p {
+	padding-left: 1em;
+	margin-top: 3em;
+	margin-bottom: -3em;
 }
 .leaderboard-trophies {
 	white-space: nowrap;
@@ -150,44 +148,11 @@ abbr {
 .leaderboard-list-entry {
 	border-top: 1px solid #444;
 }
-.leaderboard-list-entry:not(.expanded):target {
-	background-color: #444;
-}
-.leaderboard-list-entry.expanded {
-	border-color: #888;
-}
 .leaderboard-list-entry-badrank {
 	border-top: 1px solid hsl(333, 100%, 50%);
 	border-bottom: 1px solid hsl(333, 100%, 50%);
 }
-.js .leaderboard-list-entry-details:not(.expanded) {
-	display: none;
-}
-.leaderboard-list-entry.expanded,
-.leaderboard-list-entry-details.expanded {
-	background-color: #181818;
-}
-.leaderboard-expand-icon {
-	display: inline-block;
-	transition: .3s all;
-	transform-origin: center;
-	margin-right: 4px;
-}
-.leaderboard-expand-icon:before {
-	content: "";
-	display: inline-block;
-	width: 0;
-	height: 0;
-	border-top: 7px solid transparent;
-	border-bottom: 7px solid transparent;
-	border-left: 7px solid #aaa;
-}
-.leaderboard-list-entry.expanded .leaderboard-expand-icon {
-	transform: rotate(90deg);
-}
-.leaderboard-list-entry.expanded [data-expand-alias] {
-	border-color: transparent;
-}
+
 .leaderboard-list-entry-details > td {
 	padding: 0;
 }
@@ -229,7 +194,7 @@ abbr {
 	}
 }
 
-[data-expand-alias] {
+.speedlify-button {
 	white-space: nowrap;
 	display: inline-block;
 	text-decoration: none;
@@ -238,17 +203,6 @@ abbr {
 	border: 1px solid #aaa;
 	padding: .5em 1em;
 	text-align: center;
-}
-.js .leaderboard-details > summary {
-	border: 0;
-	clip: rect(0 0 0 0);
-	height: 1px;
-	margin: -1px;
-	overflow: hidden;
-	padding: 0;
-	position: absolute;
-	white-space: nowrap; /* 1 */
-	width: 1px;
 }
 
 /* Results table */
@@ -556,4 +510,10 @@ abbr {
 	text-transform: uppercase;
 	letter-spacing: -.3px;
 	white-space: nowrap;
+}
+
+.leaderboard-number span {
+	font-size: .75em;
+	vertical-align: text-top;
+	margin-right: 1px;
 }

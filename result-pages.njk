@@ -1,0 +1,252 @@
+---js
+{
+  maxResults: 15,
+  layout: "layout.njk",
+  vertical: "built-with-eleventy",
+  pagination: {
+    data: "sites",
+    before: function(sites, data) {
+      let results = this.getSites(data.results, data.sites, data.vertical, data.isolatedKeys);
+      return this.addSkippedIndeces(this.sortCumulativeScore(results), data.sites[data.vertical].skipIndeces);
+    },
+    size: 1,
+    alias: "site",
+  },
+  permalink: "/{{ (sites[vertical].name or vertical) | slug }}/{{ site | getUrlForSite | slugify }}/",
+}
+---
+<div class="leaderboard-wrapper">
+  <p>⃪ <a href="/{{ (sites[vertical].name or vertical) | slug }}/">Return to full Eleventy Leaderboard list</a>.</p>
+  <table class="leaderboard">
+    <thead>
+      <tr>
+        <th>URL</th>
+        <th class="leaderboard-hide-md">Built With</th>
+        <th class="leaderboard-score">Lighthouse</th>
+      </tr>
+    </thead>
+    <tbody>
+    {%- if not site %}
+    {%- else %}
+      {%- set newestKey = site | getObjectKey(":newest") %}
+      {%- set key = site | getObjectKey %}
+      {%- set hundos = 0 %}
+
+      {%- if not site[newestKey].error %}
+        {%- set hundos = site[newestKey] | hundoCount %}
+      {%- endif %}
+
+      <tr class="leaderboard-list-entry">
+        {%- set hasRedirect = site[newestKey].requestedUrl and site[newestKey].url != site[newestKey].requestedUrl %}
+        <td class="leaderboard-url"><a href="{{ site[newestKey].url }}">
+            <img src="https://v1.indieweb-avatar.11ty.dev/{{ site[newestKey].url | urlencode }}/" width="150" height="150" alt="IndieWeb Avatar for {{ site[newestKey].url | displayUrl }}" class="leaderboard-list-entry-thumbnail" loading="lazy" decoding="async">
+            <code class="url">{{ site[newestKey].url | displayUrl(hasRedirect) }}</code>{#
+          #}</a>
+          {%- if site | isNewSite %}<span class="leaderboard-sidequest">New</span>{% endif %}
+          {%- if site[newestKey].sidequests['-weight.total'] <= 3 %}<span class="leaderboard-sidequest" title="Least Total Page Weight">⬇ Weight {{ site[newestKey].sidequests['-weight.total'] | medalRank }}</span>{% endif -%}
+          {%- if site[newestKey].sidequests['-weight.script'] <= 3 %}<span class="leaderboard-sidequest" title="Least Total JavaScript Weight">⬇ JS {{ site[newestKey].sidequests['-weight.script'] | medalRank }}</span>{% endif -%}
+          {# {%- if site[newestKey].sidequests['+weight.image'] <= 3 %}<span class="leaderboard-sidequest" title="Most Image Weight">⬆ IMG {{ site[newestKey].sidequests['+weight.image'] | medalRank }}</span>{% endif -%} #}
+          {%- if site[newestKey].sidequests['+weight.fontCount'] <= 3 %}<span class="leaderboard-sidequest" title="Most Web Fonts (by file count)">⬆ Web Fonts {{ site[newestKey].sidequests['+weight.fontCount'] | medalRank }}</span>{% endif -%}
+          {%- if site[newestKey].sidequests['-timeToFirstByte'] <= 3 %}<span class="leaderboard-sidequest" title="Fastest Time to First Byte">⬇ TTFB {{ site[newestKey].sidequests['-timeToFirstByte'] | medalRank }}</span>{% endif -%}
+          {# commented out because all of the top sites won {%- if site[newestKey].sidequests['-totalBlockingTime'] <= 3 %}<span class="leaderboard-sidequest" title="Smallest Total Blocking Time">⬇ TBT {{ site[newestKey].sidequests['-totalBlockingTime'] | medalRank }}</span>{% endif -%}#}
+          {%- if site[newestKey].sidequests['-largestContentfulPaint'] <= 3 %}<span class="leaderboard-sidequest" title="Smallest Largest Contentful Paint Time">⬇ LCP {{ site[newestKey].sidequests['-largestContentfulPaint'] | medalRank }}</span>{% endif -%}
+          {%- if hasRedirect %}<span class="leaderboard-redirect-warn">Redirect from <code class="url">{{ site[newestKey].requestedUrl | displayUrl(true) }}</code></span>{% endif -%}
+          {%- if site[newestKey].error %}<span class="leaderboard-redirect-error">Error</span>{% endif -%}
+        </td>
+        <td class="leaderboard-hide-md">
+          <img src="{{ site[newestKey].url | generatorImageUrl }}" width="60" height="60" alt="Generator for {{ site[newestKey].url | displayUrl }}" class="leaderboard-list-entry-thumbnail small" loading="lazy" decoding="async" onerror="this.remove();">
+        </td>
+      {%- if site[newestKey].error %}
+        <td></td>
+      {%- else %}
+        <td class="leaderboard-score">
+          <is-land on:visible><speedlify-score class="leaderboard-score-circles{% if hundos === 4 %} leaderboard-score-circles-400{% endif %}" raw-data='{{ site[newestKey] | toJSON | safe }}'></speedlify-score></is-land><span class="leaderboard-score-sum leaderboard-number">{% if hundos === 4 %}😍{% else %}{{ site[newestKey] | lighthouseTotal }}{% endif %}</span>
+        </td>
+      {%- endif %}
+      </tr>
+
+      {%- if not site[newestKey].error %}
+      <tr>
+        <td colspan="3">
+          <details class="pommel-source speedlify-pommel-source">
+            <summary>
+              Embed Lighthouse Score
+            </summary>
+            {%- highlight "html" %}
+<speedlify-score speedlify-url="https://www.11ty.dev/speedlify" hash="{{ site[key].url | shortHash }}" score weight rank rank-change></speedlify-score>
+            {%- endhighlight %}
+            <p>Don’t forget to add <code>speedlify-score.css</code> and <code>speedlify-score.js</code> to your site assets. Read more at <a href="https://github.com/zachleat/speedlify-score/"><code>https://github.com/zachleat/speedlify-score/</code></a></p>
+          </details>
+          <div class="layout color--lighthouse">
+            <div class="tablewrap">
+              <table data-make-chart class="results">
+                <thead>
+                  <tr>
+                    <th rowspan="2" class="results-date">Date</th>
+                    <th rowspan="2" colspan="2">Rank</th>
+                    <th colspan="5">Lighthouse</th>
+                    <th colspan="2" rowspan="2">Axe</th>
+                  </tr>
+                  <tr>
+                    <th class="results-series-a" colspan="2"><abbr title="Performance">Perf</abbr></th>
+                    <th class="results-series-b"><abbr title="Accessibility">A11Y</abbr></th>
+                    <th class="results-series-c">Best Practices</th>
+                    <th class="results-series-d">SEO</th>
+                  </tr>
+                </thead>
+                <tbody>
+                {%- for entry in site | sort | headAndLast(maxResults) %}
+                  <tr>
+                    <td><code class="date">{{ entry.timestamp | displayDate | safe }}</code></td>
+                    <td class="results-bool">
+                      {%- if entry.ranks.cumulative %}
+                        {%- if entry.ranks.cumulative === 1 %}🥇{% endif %}
+                        {%- if entry.ranks.cumulative === 2 %}🥈{% endif %}
+                        {%- if entry.ranks.cumulative === 3 %}🥉{% endif %}
+                      {%- elseif entry.ranks.hundos %}
+                        {%- if entry.ranks.hundos === 1 %}🥇{% endif %}
+                        {%- if entry.ranks.hundos === 2 %}🥈{% endif %}
+                        {%- if entry.ranks.hundos === 3 %}🥉{% endif %}
+                      {%- endif -%}
+                    </td>
+                    <td>{% if entry.ranks.cumulative %}#{{ entry.ranks.cumulative }}{% elseif entry.ranks.hundos %}#{{ entry.ranks.hundos }} {% endif %}</td>
+                    <td data-numeric-value="{{ (entry.lighthouse.performance * 100) | round }}">{{ (entry.lighthouse.performance * 100) | round }}</td>
+                    <td class="results-calc"><a href="https://googlechrome.github.io/lighthouse/scorecalc/#FCP={{ entry.firstContentfulPaint }}&SI={{ entry.speedIndex }}&LCP={{ entry.largestContentfulPaint }}&TTI={{ entry.timeToInteractive }}&TBT={{ entry.totalBlockingTime }}&CLS={{ entry.cumulativeLayoutShift }}&FCI=&FMP=&device={{ entry.lighthouse.type or "mobile" }}&version={{ entry.lighthouse.version or "6.0.0" }}" target="_blank" rel="noopener noreferrer" class="leaderboard-hide-md">Calculator</a></td>
+                    <td data-numeric-value="{{ (entry.lighthouse.accessibility * 100) | round }}">{{ (entry.lighthouse.accessibility * 100) | round }}</td>
+                    <td data-numeric-value="{{ (entry.lighthouse.bestPractices * 100) | round }}">{{ (entry.lighthouse.bestPractices * 100) | round }}</td>
+                    <td data-numeric-value="{{ (entry.lighthouse.seo * 100) | round }}">{{ (entry.lighthouse.seo * 100) | round }}</td>
+                    <td>{% if entry.axe.error %}Error{% else %}{{ entry.axe.violations }}{% endif %}</td>
+                  </tr>
+                {%- endfor %}
+                </tbody>
+              </table>
+            </div>
+            <div data-js-only class="ct-chart ct-double-octave"></div>
+          </div>
+
+          <div class="layout color--vitals">
+            <div class="tablewrap">
+              <table data-make-chart class="results">
+                <thead>
+                  <tr>
+                    <th rowspan="2" class="results-date">Date</th>
+                    <th colspan="8">Core Web Vitals</th>
+                    <th colspan="6">Web Vitals</th>
+                  </tr>
+                  <tr>
+                    <th class="results-series-a" colspan="2"><abbr title="Largest Contentful Paint">LCP</abbr></th>
+                    <th class="results-series-b" colspan="2">Max <span class="leaderboard-hide-sm">Potential </span><abbr title="First Input Delay">FID</abbr></th>
+                    <th class="results-series-c" colspan="2"><abbr title="Total Blocking Time">TBT</abbr></th>
+                    <th colspan="2"><abbr title="Cumulative Layout Shift">CLS</abbr></th>
+
+                    <th class="results-series-d" colspan="2"><abbr title="First Contentful Paint">FCP</abbr></th>
+                    <th class="results-series-e" colspan="2"><abbr title="Speed Index">SI</abbr></th>
+                    <th class="results-series-f" colspan="2"><abbr title="Time to Interactive">TTI</abbr></th>
+                  </tr>
+                </thead>
+                <tbody>
+                {%- for entry in site | sort | headAndLast(maxResults) %}
+                  <tr>
+                    <td><code class="date">{{ entry.timestamp | displayDate | safe }}</code></td>
+                    <td class="results-bool">{%
+                      if entry.largestContentfulPaint > lighthouseMaximums.average.lcp
+                        %}<span class="leaderboard-hide-sm">🚫</span>{%
+                      elseif entry.largestContentfulPaint > lighthouseMaximums.good.lcp
+                        %}<span class="leaderboard-hide-sm">⚠️</span>{%
+                      endif
+                    %}</td>
+                    <td data-numeric-value="{{ entry.largestContentfulPaint }}">{{ entry.largestContentfulPaint | displayTime }}</td>
+                    {# https://web.dev/lighthouse-max-potential-fid/#how-lighthouse-determines-your-max-potential-fid-score #}
+                    <td class="results-bool"></td>
+                    <td data-numeric-value="{{ entry.maxPotentialFirstInputDelay }}">{{ entry.maxPotentialFirstInputDelay | displayTime }}</td>
+                    <td class="results-bool">{%
+                    if entry.totalBlockingTime > lighthouseMaximums.average.tbt
+                      %}<span class="leaderboard-hide-sm">🚫</span>{%
+                    elseif entry.totalBlockingTime > lighthouseMaximums.good.tbt
+                      %}<span class="leaderboard-hide-sm">⚠️</span>{%
+                    endif
+                    %}</td>
+                    <td data-numeric-value="{{ entry.totalBlockingTime }}">{{ entry.totalBlockingTime | displayTime }}</td>
+                    <td class="results-bool">{%
+                    if entry.cumulativeLayoutShift > lighthouseMaximums.average.cls
+                      %}<span class="leaderboard-hide-sm">🚫</span>{%
+                    elseif entry.cumulativeLayoutShift > lighthouseMaximums.good.cls
+                      %}<span class="leaderboard-hide-sm">⚠️</span>{%
+                    endif
+                    %}</td>
+                    <td>{{ entry.cumulativeLayoutShift | showDigits(2) }}</td>
+                    <td class="results-bool">{%
+                    if entry.firstContentfulPaint > lighthouseMaximums.average.fcp
+                      %}<span class="leaderboard-hide-sm">🚫</span>{%
+                    elseif entry.firstContentfulPaint > lighthouseMaximums.good.fcp
+                      %}<span class="leaderboard-hide-sm">⚠️</span>{%
+                    endif
+                    %}</td>
+                    <td data-numeric-value="{{ entry.firstContentfulPaint }}">{{ entry.firstContentfulPaint | displayTime }}</td>
+                    <td class="results-bool">{%
+                    if entry.speedIndex > lighthouseMaximums.average.si
+                      %}<span class="leaderboard-hide-sm">🚫</span>{%
+                    elseif entry.speedIndex > lighthouseMaximums.good.si
+                      %}<span class="leaderboard-hide-sm">⚠️</span>{%
+                    endif
+                    %}</td>
+                    <td data-numeric-value="{{ entry.speedIndex }}">{{ entry.speedIndex | displayTime }}</td>
+                    <td class="results-bool">{%
+                    if entry.timeToInteractive > lighthouseMaximums.average.tti
+                      %}<span class="leaderboard-hide-sm">🚫</span>{%
+                    elseif entry.timeToInteractive > lighthouseMaximums.good.tti
+                      %}<span class="leaderboard-hide-sm">⚠️</span>{%
+                    endif
+                    %}</td>
+                    <td data-numeric-value="{{ entry.timeToInteractive }}">{{ entry.timeToInteractive | displayTime }}</td>
+                  </tr>
+                {%- endfor %}
+                </tbody>
+              </table>
+            </div>
+            <div data-js-only class="ct-chart ct-double-octave"></div>
+          </div>
+
+          <div class="layout color--weight">
+            <div class="tablewrap">
+              <table data-make-chart class="results">
+                <thead>
+                  <tr>
+                    <th rowspan="2" class="results-date">Date</th>
+                    <th colspan="7">Weight</th>
+                  </tr>
+                  <tr>
+                    <th class="results-series-a">Total</th>
+                    <th class="results-series-b">HTML</th>
+                    <th class="results-series-c"><abbr title="Cascading Style Sheets">CSS</abbr></th>
+                    <th class="results-series-d"><abbr title="JavaScript">JS</abbr></th>
+                    <th class="results-series-e">Images</th>
+                    <th class="results-series-f">Fonts</th>
+                    <th>Third Party</th>
+                  </tr>
+                </thead>
+                <tbody>
+                {%- for entry in site | sort | headAndLast(maxResults) %}
+                  <tr>
+                    <td><code class="date">{{ entry.timestamp | displayDate | safe }}</code></td>
+                    <td data-numeric-value="{{ entry.weight.total / 1024 }}">{{ entry.weight.total | displayFilesize | safe }}</td>
+                    <td data-numeric-value="{{ entry.weight.document / 1024 }}">{{ entry.weight.document | displayFilesize | safe }}</td>
+                    <td data-numeric-value="{{ entry.weight.stylesheet / 1024 }}">{% if entry.weight.stylesheet or entry.weight.stylesheet === 0 %}{{ entry.weight.stylesheet | displayFilesize | safe }} <span class="count leaderboard-hide-sm">×{{ entry.weight.stylesheetCount }}</span>{% else %}❓{% endif %}</td>
+                    <td data-numeric-value="{{ entry.weight.script / 1024 }}">{{ entry.weight.script | displayFilesize | safe }} <span class="count leaderboard-hide-sm">×{{ entry.weight.scriptCount }}</span></td>
+                    <td data-numeric-value="{{ entry.weight.image / 1024 }}">{{ entry.weight.image | displayFilesize | safe }} <span class="count leaderboard-hide-sm">×{{ entry.weight.imageCount }}</span></td>
+                    <td data-numeric-value="{{ entry.weight.font / 1024 }}">{{ entry.weight.font | displayFilesize | safe }} <span class="count leaderboard-hide-sm">×{{ entry.weight.fontCount }}</span></td>
+                    <td data-numeric-value="{{ entry.weight.thirdParty / 1024 }}">{{ entry.weight.thirdParty | displayFilesize | safe }} <span class="count leaderboard-hide-sm">×{{ entry.weight.thirdPartyCount }}</span></td>
+                  </tr>
+                {%- endfor %}
+                </tbody>
+              </table>
+            </div>
+            <div data-js-only class="ct-chart ct-double-octave"></div>
+          </div>
+        </td>
+      </tr>
+      {%- endif %}
+    {%- endif %}
+    </tbody>
+  </table>
+</div>

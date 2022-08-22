@@ -1,4 +1,3 @@
-const shortHash = require("short-hash");
 const fastglob = require("fast-glob");
 
 module.exports = async function() {
