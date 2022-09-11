@@ -26,6 +26,6 @@ module.exports = {
 		"https://hexo.io/",
 		"https://kit.svelte.dev/",
 		"https://remix.run/",
-		"https://record-collector.net/en/",
+		"https://record-collector.net/",
 	]
 };
