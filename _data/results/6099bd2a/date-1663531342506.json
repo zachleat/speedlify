@@ -1,0 +1,67 @@
+{
+  "url": "https://pdx.ashur.cab/",
+  "requestedUrl": "https://pdx.ashur.cab/",
+  "timestamp": 1663539110121,
+  "ranks": {
+    "hundos": 212,
+    "performance": 339,
+    "accessibility": 158,
+    "cumulative": 203
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 0.99,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 399
+  },
+  "firstContentfulPaint": 1284.4470000000001,
+  "firstMeaningfulPaint": 1284.4470000000001,
+  "speedIndex": 1701.6117779932351,
+  "largestContentfulPaint": 1284.4470000000001,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.06833786137898762,
+  "timeToInteractive": 1284.4470000000001,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 422.821,
+  "weight": {
+    "summary": "4 requests • 74 KiB",
+    "total": 75461,
+    "image": 0,
+    "imageCount": 0,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 2247,
+    "font": 73214,
+    "fontCount": 3,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 73214,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 199,
+    "+weight.total": 536,
+    "-weight.document": 95,
+    "+weight.document": 626,
+    "-weight.script": 1,
+    "+weight.script": 498,
+    "-weight.image": 1,
+    "+weight.image": 559,
+    "-weight.font": 277,
+    "+weight.font": 214,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 625,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 396
+  },
+  "axe": {
+    "passes": 226,
+    "violations": 0
+  }
+}

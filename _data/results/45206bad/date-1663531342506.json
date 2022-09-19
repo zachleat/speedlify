@@ -1,0 +1,67 @@
+{
+  "url": "https://www.ambiance-feu.fr/",
+  "requestedUrl": "https://www.ambiance-feu.fr/",
+  "timestamp": 1663539090239,
+  "ranks": {
+    "hundos": 437,
+    "performance": 351,
+    "accessibility": 501,
+    "cumulative": 438
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 0.99,
+    "accessibility": 0.97,
+    "bestPractices": 0.92,
+    "seo": 1,
+    "total": 388
+  },
+  "firstContentfulPaint": 1307.7490000000003,
+  "firstMeaningfulPaint": 1317.7490000000003,
+  "speedIndex": 1987.1016350802306,
+  "largestContentfulPaint": 1568.1870000000004,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.004239056348800659,
+  "timeToInteractive": 1317.7490000000003,
+  "maxPotentialFirstInputDelay": 24,
+  "timeToFirstByte": 43.809999999999945,
+  "weight": {
+    "summary": "22 requests • 289 KiB",
+    "total": 295779,
+    "image": 179626,
+    "imageCount": 9,
+    "script": 6436,
+    "scriptCount": 2,
+    "document": 13417,
+    "font": 21486,
+    "fontCount": 1,
+    "stylesheet": 36074,
+    "stylesheetCount": 3,
+    "thirdParty": 37762,
+    "thirdPartyCount": 6
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 460,
+    "+weight.total": 275,
+    "-weight.document": 565,
+    "+weight.document": 156,
+    "-weight.script": 155,
+    "+weight.script": 343,
+    "-weight.image": 330,
+    "+weight.image": 229,
+    "-weight.font": 65,
+    "+weight.font": 426,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 177,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 450
+  },
+  "axe": {
+    "passes": 304,
+    "violations": 4
+  }
+}

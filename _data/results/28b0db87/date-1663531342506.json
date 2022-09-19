@@ -1,0 +1,67 @@
+{
+  "url": "https://dockerwebdev.com/",
+  "requestedUrl": "https://dockerwebdev.com/",
+  "timestamp": 1663537047330,
+  "ranks": {
+    "hundos": 141,
+    "performance": 212,
+    "accessibility": 44,
+    "cumulative": 99
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 1083.508,
+  "firstMeaningfulPaint": 1083.508,
+  "speedIndex": 1465.8028705235488,
+  "largestContentfulPaint": 1083.508,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1083.508,
+  "maxPotentialFirstInputDelay": 48,
+  "timeToFirstByte": 284.13,
+  "weight": {
+    "summary": "8 requests • 27 KiB",
+    "total": 27473,
+    "image": 0,
+    "imageCount": 0,
+    "script": 9952,
+    "scriptCount": 3,
+    "document": 12470,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 4533,
+    "stylesheetCount": 1,
+    "thirdParty": 5888,
+    "thirdPartyCount": 4
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 106,
+    "+weight.total": 629,
+    "-weight.document": 551,
+    "+weight.document": 170,
+    "-weight.script": 196,
+    "+weight.script": 302,
+    "-weight.image": 1,
+    "+weight.image": 559,
+    "-weight.font": 1,
+    "+weight.font": 491,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 590,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 334
+  },
+  "axe": {
+    "passes": 599,
+    "violations": 0
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://blog.arpankc.com/",
+  "requestedUrl": "https://blog.arpankc.com/",
+  "timestamp": 1663543075891,
+  "ranks": {
+    "hundos": 463,
+    "performance": 561,
+    "accessibility": 489,
+    "cumulative": 454
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 0.91,
+    "accessibility": 0.97,
+    "bestPractices": 1,
+    "seo": 0.99,
+    "total": 387
+  },
+  "firstContentfulPaint": 1401.0019999999997,
+  "firstMeaningfulPaint": 1401.0019999999997,
+  "speedIndex": 4248.5413595262535,
+  "largestContentfulPaint": 3101.7650000000003,
+  "totalBlockingTime": 11,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 2443.1654999999996,
+  "maxPotentialFirstInputDelay": 72,
+  "timeToFirstByte": 2066.332,
+  "weight": {
+    "summary": "8 requests • 360 KiB",
+    "total": 368952,
+    "image": 273611,
+    "imageCount": 4,
+    "script": 79671,
+    "scriptCount": 2,
+    "document": 15322,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 166648,
+    "thirdPartyCount": 4
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 496,
+    "+weight.total": 239,
+    "-weight.document": 587,
+    "+weight.document": 134,
+    "-weight.script": 364,
+    "+weight.script": 134,
+    "-weight.image": 383,
+    "+weight.image": 176,
+    "-weight.font": 1,
+    "+weight.font": 491,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 733,
+    "-totalBlockingTime": 25,
+    "-largestContentfulPaint": 179
+  },
+  "axe": {
+    "passes": 347,
+    "violations": 1
+  }
+}

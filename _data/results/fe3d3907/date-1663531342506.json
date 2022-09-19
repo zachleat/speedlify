@@ -1,0 +1,67 @@
+{
+  "url": "https://2022.barcampomaha.org/",
+  "requestedUrl": "https://2022.barcampomaha.org/",
+  "timestamp": 1663558877324,
+  "ranks": {
+    "hundos": 693,
+    "performance": 643,
+    "accessibility": 724,
+    "cumulative": 694
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 0.8,
+    "accessibility": 0.69,
+    "bestPractices": 1,
+    "seo": 0.92,
+    "total": 341
+  },
+  "firstContentfulPaint": 1737.1860000000001,
+  "firstMeaningfulPaint": 1737.1860000000001,
+  "speedIndex": 4052.126386697603,
+  "largestContentfulPaint": 4072.7760000000007,
+  "totalBlockingTime": 65.5,
+  "cumulativeLayoutShift": 0.07161478678385416,
+  "timeToInteractive": 6073.832,
+  "maxPotentialFirstInputDelay": 108,
+  "timeToFirstByte": 50.896000000000015,
+  "weight": {
+    "summary": "66 requests • 786 KiB",
+    "total": 805213,
+    "image": 402436,
+    "imageCount": 21,
+    "script": 305235,
+    "scriptCount": 14,
+    "document": 8627,
+    "font": 70104,
+    "fontCount": 3,
+    "stylesheet": 18765,
+    "stylesheetCount": 25,
+    "thirdParty": 394055,
+    "thirdPartyCount": 21
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 604,
+    "+weight.total": 131,
+    "-weight.document": 460,
+    "+weight.document": 261,
+    "-weight.script": 452,
+    "+weight.script": 46,
+    "-weight.image": 414,
+    "+weight.image": 145,
+    "-weight.font": 269,
+    "+weight.font": 222,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 224,
+    "-totalBlockingTime": 89,
+    "-largestContentfulPaint": 690
+  },
+  "axe": {
+    "passes": 566,
+    "violations": 12
+  }
+}

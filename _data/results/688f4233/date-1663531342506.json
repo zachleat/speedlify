@@ -1,0 +1,67 @@
+{
+  "url": "https://iainbean.com/",
+  "requestedUrl": "https://iainbean.com/",
+  "timestamp": 1663557822425,
+  "ranks": {
+    "hundos": 44,
+    "performance": 106,
+    "accessibility": 28,
+    "cumulative": 28
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 1026.533,
+  "firstMeaningfulPaint": 1037.533,
+  "speedIndex": 1026.533,
+  "largestContentfulPaint": 1611.533,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.003116896894243029,
+  "timeToInteractive": 1037.533,
+  "maxPotentialFirstInputDelay": 22,
+  "timeToFirstByte": 41.30199999999999,
+  "weight": {
+    "summary": "9 requests • 102 KiB",
+    "total": 104657,
+    "image": 24320,
+    "imageCount": 2,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 9494,
+    "font": 67610,
+    "fontCount": 5,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 251,
+    "+weight.total": 484,
+    "-weight.document": 481,
+    "+weight.document": 240,
+    "-weight.script": 1,
+    "+weight.script": 498,
+    "-weight.image": 128,
+    "+weight.image": 431,
+    "-weight.font": 265,
+    "+weight.font": 226,
+    "+weight.fontCount": 11,
+    "-timeToFirstByte": 79,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 464
+  },
+  "axe": {
+    "passes": 803,
+    "violations": 0
+  }
+}

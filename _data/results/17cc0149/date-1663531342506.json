@@ -1,0 +1,67 @@
+{
+  "url": "https://elisted.org/",
+  "requestedUrl": "https://elisted.org/",
+  "timestamp": 1663536014774,
+  "ranks": {
+    "hundos": 153,
+    "performance": 213,
+    "accessibility": 5,
+    "cumulative": 107
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 1188.665,
+  "firstMeaningfulPaint": 1222.165,
+  "speedIndex": 1471.6461894951542,
+  "largestContentfulPaint": 1222.165,
+  "totalBlockingTime": 12.5,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1251.165,
+  "maxPotentialFirstInputDelay": 67,
+  "timeToFirstByte": 186.637,
+  "weight": {
+    "summary": "1 request • 14 KiB",
+    "total": 14833,
+    "image": 0,
+    "imageCount": 0,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 14833,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 73,
+    "+weight.total": 662,
+    "-weight.document": 583,
+    "+weight.document": 138,
+    "-weight.script": 1,
+    "+weight.script": 498,
+    "-weight.image": 1,
+    "+weight.image": 559,
+    "-weight.font": 1,
+    "+weight.font": 491,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 514,
+    "-totalBlockingTime": 28,
+    "-largestContentfulPaint": 76
+  },
+  "axe": {
+    "passes": 1840,
+    "violations": 0
+  }
+}

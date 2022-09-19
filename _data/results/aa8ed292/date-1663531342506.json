@@ -1,0 +1,67 @@
+{
+  "url": "https://ghassan.blog/",
+  "requestedUrl": "https://ghassan.blog/",
+  "timestamp": 1663560374725,
+  "ranks": {
+    "hundos": 165,
+    "performance": 68,
+    "accessibility": 170,
+    "cumulative": 116
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 959.942,
+  "firstMeaningfulPaint": 959.942,
+  "speedIndex": 959.942,
+  "largestContentfulPaint": 1538.7890000000002,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 959.942,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 14.068999999999988,
+  "weight": {
+    "summary": "4 requests • 6 KiB",
+    "total": 6131,
+    "image": 0,
+    "imageCount": 0,
+    "script": 1310,
+    "scriptCount": 1,
+    "document": 1590,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 3231,
+    "stylesheetCount": 2,
+    "thirdParty": 1310,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 32,
+    "+weight.total": 703,
+    "-weight.document": 38,
+    "+weight.document": 683,
+    "-weight.script": 49,
+    "+weight.script": 449,
+    "-weight.image": 1,
+    "+weight.image": 559,
+    "-weight.font": 1,
+    "+weight.font": 491,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 3,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 441
+  },
+  "axe": {
+    "passes": 199,
+    "violations": 0
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://fullstax.de/",
+  "requestedUrl": "https://fullstax.de/",
+  "timestamp": 1663543635965,
+  "ranks": {
+    "hundos": 42,
+    "performance": 94,
+    "accessibility": 354,
+    "cumulative": 159
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 923.846,
+  "firstMeaningfulPaint": 923.846,
+  "speedIndex": 1010.0922599996123,
+  "largestContentfulPaint": 923.846,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.0013211805555555555,
+  "timeToInteractive": 923.846,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 38.12300000000002,
+  "weight": {
+    "summary": "32 requests • 102 KiB",
+    "total": 104177,
+    "image": 58765,
+    "imageCount": 28,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 3584,
+    "font": 38367,
+    "fontCount": 2,
+    "stylesheet": 3461,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 249,
+    "+weight.total": 486,
+    "-weight.document": 196,
+    "+weight.document": 525,
+    "-weight.script": 1,
+    "+weight.script": 498,
+    "-weight.image": 205,
+    "+weight.image": 354,
+    "-weight.font": 150,
+    "+weight.font": 341,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 37,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 259
+  },
+  "axe": {
+    "passes": 399,
+    "violations": 2
+  }
+}

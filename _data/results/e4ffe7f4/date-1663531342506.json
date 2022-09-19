@@ -1,0 +1,67 @@
+{
+  "url": "https://treypiepmeier.com/",
+  "requestedUrl": "https://treypiepmeier.com/",
+  "timestamp": 1663535798606,
+  "ranks": {
+    "hundos": 272,
+    "performance": 83,
+    "accessibility": 516,
+    "cumulative": 275
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 1,
+    "accessibility": 0.97,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 397
+  },
+  "firstContentfulPaint": 893.295,
+  "firstMeaningfulPaint": 893.295,
+  "speedIndex": 987.2145899984687,
+  "largestContentfulPaint": 1588.819,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 893.295,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 50.822,
+  "weight": {
+    "summary": "4 requests • 35 KiB",
+    "total": 35589,
+    "image": 25533,
+    "imageCount": 1,
+    "script": 1311,
+    "scriptCount": 1,
+    "document": 4836,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 3909,
+    "stylesheetCount": 1,
+    "thirdParty": 1311,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 130,
+    "+weight.total": 605,
+    "-weight.document": 285,
+    "+weight.document": 436,
+    "-weight.script": 50,
+    "+weight.script": 448,
+    "-weight.image": 134,
+    "+weight.image": 425,
+    "-weight.font": 1,
+    "+weight.font": 491,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 220,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 459
+  },
+  "axe": {
+    "passes": 192,
+    "violations": 10
+  }
+}

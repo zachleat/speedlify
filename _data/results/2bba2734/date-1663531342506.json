@@ -1,0 +1,67 @@
+{
+  "url": "https://hamburg.stefanimhoff.de/",
+  "requestedUrl": "https://hamburg.stefanimhoff.de/",
+  "timestamp": 1663558584942,
+  "ranks": {
+    "hundos": 432,
+    "performance": 417,
+    "accessibility": 460,
+    "cumulative": 437
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 0.97,
+    "accessibility": 0.98,
+    "bestPractices": 1,
+    "seo": 0.93,
+    "total": 388
+  },
+  "firstContentfulPaint": 1000.0610000000001,
+  "firstMeaningfulPaint": 1000.0610000000001,
+  "speedIndex": 1194.2814366089046,
+  "largestContentfulPaint": 2516.63,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.0007191061973571776,
+  "timeToInteractive": 1000.0610000000001,
+  "maxPotentialFirstInputDelay": 23,
+  "timeToFirstByte": 148.08,
+  "weight": {
+    "summary": "9 requests • 537 KiB",
+    "total": 549616,
+    "image": 428018,
+    "imageCount": 2,
+    "script": 6927,
+    "scriptCount": 2,
+    "document": 13452,
+    "font": 99013,
+    "fontCount": 2,
+    "stylesheet": 2206,
+    "stylesheetCount": 2,
+    "thirdParty": 4338,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 558,
+    "+weight.total": 177,
+    "-weight.document": 566,
+    "+weight.document": 155,
+    "-weight.script": 166,
+    "+weight.script": 332,
+    "-weight.image": 421,
+    "+weight.image": 138,
+    "-weight.font": 333,
+    "+weight.font": 158,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 484,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 612
+  },
+  "axe": {
+    "passes": 383,
+    "violations": 2
+  }
+}

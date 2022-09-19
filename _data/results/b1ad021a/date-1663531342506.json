@@ -1,0 +1,67 @@
+{
+  "url": "https://eaton-works.com/",
+  "requestedUrl": "https://eaton-works.com/",
+  "timestamp": 1663539845920,
+  "ranks": {
+    "hundos": 62,
+    "performance": 31,
+    "accessibility": 149,
+    "cumulative": 38
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 886.317,
+  "firstMeaningfulPaint": 886.317,
+  "speedIndex": 886.317,
+  "largestContentfulPaint": 1383.317,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 886.317,
+  "maxPotentialFirstInputDelay": 40,
+  "timeToFirstByte": 86.746,
+  "weight": {
+    "summary": "8 requests • 114 KiB",
+    "total": 116969,
+    "image": 7832,
+    "imageCount": 1,
+    "script": 5370,
+    "scriptCount": 1,
+    "document": 14136,
+    "font": 43052,
+    "fontCount": 2,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 5370,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 270,
+    "+weight.total": 465,
+    "-weight.document": 576,
+    "+weight.document": 145,
+    "-weight.script": 144,
+    "+weight.script": 354,
+    "-weight.image": 70,
+    "+weight.image": 489,
+    "-weight.font": 171,
+    "+weight.font": 320,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 374,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 412
+  },
+  "axe": {
+    "passes": 243,
+    "violations": 0
+  }
+}

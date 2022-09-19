@@ -1,0 +1,67 @@
+{
+  "url": "https://www.ribomation.se/",
+  "requestedUrl": "https://www.ribomation.se/",
+  "timestamp": 1663544045381,
+  "ranks": {
+    "hundos": 501,
+    "performance": 468,
+    "accessibility": 552,
+    "cumulative": 503
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 0.96,
+    "accessibility": 0.96,
+    "bestPractices": 0.92,
+    "seo": 1,
+    "total": 384
+  },
+  "firstContentfulPaint": 2174.952,
+  "firstMeaningfulPaint": 2174.952,
+  "speedIndex": 2174.952,
+  "largestContentfulPaint": 2249.952,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 2174.952,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 15.221000000000004,
+  "weight": {
+    "summary": "28 requests • 213 KiB",
+    "total": 218287,
+    "image": 12532,
+    "imageCount": 5,
+    "script": 47076,
+    "scriptCount": 14,
+    "document": 6918,
+    "font": 113017,
+    "fontCount": 2,
+    "stylesheet": 38744,
+    "stylesheetCount": 6,
+    "thirdParty": 175161,
+    "thirdPartyCount": 16
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 395,
+    "+weight.total": 340,
+    "-weight.document": 397,
+    "+weight.document": 324,
+    "-weight.script": 295,
+    "+weight.script": 203,
+    "-weight.image": 90,
+    "+weight.image": 469,
+    "-weight.font": 352,
+    "+weight.font": 139,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 11,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 594
+  },
+  "axe": {
+    "passes": 513,
+    "violations": 12
+  }
+}

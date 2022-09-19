@@ -1,0 +1,67 @@
+{
+  "url": "https://doddle.agency/",
+  "requestedUrl": "https://doddle.agency/",
+  "timestamp": 1663560328937,
+  "ranks": {
+    "hundos": 530,
+    "performance": 631,
+    "accessibility": 465,
+    "cumulative": 525
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 0.83,
+    "accessibility": 0.98,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 381
+  },
+  "firstContentfulPaint": 2860.857,
+  "firstMeaningfulPaint": 2860.857,
+  "speedIndex": 6508.304441998708,
+  "largestContentfulPaint": 2860.857,
+  "totalBlockingTime": 31,
+  "cumulativeLayoutShift": 0.01572763192973942,
+  "timeToInteractive": 4378.268999999999,
+  "maxPotentialFirstInputDelay": 88,
+  "timeToFirstByte": 936.2750000000001,
+  "weight": {
+    "summary": "34 requests • 335 KiB",
+    "total": 342801,
+    "image": 4818,
+    "imageCount": 8,
+    "script": 185334,
+    "scriptCount": 9,
+    "document": 9890,
+    "font": 108320,
+    "fontCount": 4,
+    "stylesheet": 29512,
+    "stylesheetCount": 7,
+    "thirdParty": 317607,
+    "thirdPartyCount": 23
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 482,
+    "+weight.total": 253,
+    "-weight.document": 489,
+    "+weight.document": 232,
+    "-weight.script": 430,
+    "+weight.script": 68,
+    "-weight.image": 52,
+    "+weight.image": 507,
+    "-weight.font": 343,
+    "+weight.font": 148,
+    "+weight.fontCount": 12,
+    "-timeToFirstByte": 653,
+    "-totalBlockingTime": 56,
+    "-largestContentfulPaint": 635
+  },
+  "axe": {
+    "passes": 310,
+    "violations": 3
+  }
+}

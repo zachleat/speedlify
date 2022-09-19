@@ -1,0 +1,67 @@
+{
+  "url": "https://emergency-site.dev/",
+  "requestedUrl": "https://emergency-site.dev/",
+  "timestamp": 1663544869731,
+  "ranks": {
+    "hundos": 374,
+    "performance": 124,
+    "accessibility": 258,
+    "cumulative": 364
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 0.92,
+    "seo": 1,
+    "total": 392
+  },
+  "firstContentfulPaint": 843.22,
+  "firstMeaningfulPaint": 843.22,
+  "speedIndex": 1077.9598640006338,
+  "largestContentfulPaint": 843.22,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 843.22,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 127.957,
+  "weight": {
+    "summary": "2 requests • 8 KiB",
+    "total": 8037,
+    "image": 0,
+    "imageCount": 0,
+    "script": 3866,
+    "scriptCount": 1,
+    "document": 4171,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 43,
+    "+weight.total": 692,
+    "-weight.document": 235,
+    "+weight.document": 486,
+    "-weight.script": 121,
+    "+weight.script": 377,
+    "-weight.image": 1,
+    "+weight.image": 559,
+    "-weight.font": 1,
+    "+weight.font": 491,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 446,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 25
+  },
+  "axe": {
+    "passes": 83,
+    "violations": 0
+  }
+}

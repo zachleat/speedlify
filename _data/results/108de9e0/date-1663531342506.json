@@ -1,0 +1,67 @@
+{
+  "url": "https://fettblog.eu/",
+  "requestedUrl": "https://fettblog.eu/",
+  "timestamp": 1663539390354,
+  "ranks": {
+    "hundos": 286,
+    "performance": 133,
+    "accessibility": 533,
+    "cumulative": 302
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 1,
+    "accessibility": 0.97,
+    "bestPractices": 1,
+    "seo": 0.99,
+    "total": 396
+  },
+  "firstContentfulPaint": 1051.7150000000001,
+  "firstMeaningfulPaint": 1051.7150000000001,
+  "speedIndex": 1103.7893914026622,
+  "largestContentfulPaint": 1628.2980000000002,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.023127357165018715,
+  "timeToInteractive": 1051.7150000000001,
+  "maxPotentialFirstInputDelay": 35,
+  "timeToFirstByte": 83.38300000000001,
+  "weight": {
+    "summary": "15 requests • 159 KiB",
+    "total": 162878,
+    "image": 47956,
+    "imageCount": 5,
+    "script": 14510,
+    "scriptCount": 4,
+    "document": 5083,
+    "font": 87515,
+    "fontCount": 3,
+    "stylesheet": 7651,
+    "stylesheetCount": 1,
+    "thirdParty": 20287,
+    "thirdPartyCount": 6
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 329,
+    "+weight.total": 406,
+    "-weight.document": 295,
+    "+weight.document": 426,
+    "-weight.script": 219,
+    "+weight.script": 279,
+    "-weight.image": 190,
+    "+weight.image": 369,
+    "-weight.font": 312,
+    "+weight.font": 179,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 359,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 471
+  },
+  "axe": {
+    "passes": 506,
+    "violations": 36
+  }
+}

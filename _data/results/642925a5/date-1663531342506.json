@@ -1,0 +1,56 @@
+{
+  "url": "https://forte.is/",
+  "requestedUrl": "https://forte.is/",
+  "timestamp": 1663534550347,
+  "ranks": {
+    "hundos": 727,
+    "performance": 734,
+    "accessibility": 361,
+    "cumulative": 727
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": null,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 300
+  },
+  "cumulativeLayoutShift": 0,
+  "timeToFirstByte": 1139.597,
+  "weight": {
+    "summary": "14 requests • 274 KiB",
+    "total": 281078,
+    "image": 3680,
+    "imageCount": 2,
+    "script": 234064,
+    "scriptCount": 5,
+    "document": 21301,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 20547,
+    "stylesheetCount": 1,
+    "thirdParty": 278947,
+    "thirdPartyCount": 12
+  },
+  "sidequests": {
+    "-weight.total": 453,
+    "+weight.total": 282,
+    "-weight.document": 630,
+    "+weight.document": 91,
+    "-weight.script": 437,
+    "+weight.script": 61,
+    "-weight.image": 44,
+    "+weight.image": 515,
+    "-weight.font": 1,
+    "+weight.font": 491,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 676,
+    "-totalBlockingTime": 184,
+    "-largestContentfulPaint": 733
+  },
+  "axe": {
+    "passes": 131,
+    "violations": 2
+  }
+}

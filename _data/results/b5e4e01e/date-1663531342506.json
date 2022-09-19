@@ -1,0 +1,67 @@
+{
+  "url": "https://danleatherman.com/",
+  "requestedUrl": "https://danleatherman.com/",
+  "timestamp": 1663549769272,
+  "ranks": {
+    "hundos": 108,
+    "performance": 226,
+    "accessibility": 441,
+    "cumulative": 184
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 928.153,
+  "firstMeaningfulPaint": 928.153,
+  "speedIndex": 1617.1058539985386,
+  "largestContentfulPaint": 928.153,
+  "totalBlockingTime": 46,
+  "cumulativeLayoutShift": 0.0006206492185592651,
+  "timeToInteractive": 1727.005,
+  "maxPotentialFirstInputDelay": 96,
+  "timeToFirstByte": 42.085999999999984,
+  "weight": {
+    "summary": "22 requests • 134 KiB",
+    "total": 137696,
+    "image": 0,
+    "imageCount": 0,
+    "script": 39087,
+    "scriptCount": 2,
+    "document": 5450,
+    "font": 13358,
+    "fontCount": 1,
+    "stylesheet": 1016,
+    "stylesheetCount": 2,
+    "thirdParty": 38294,
+    "thirdPartyCount": 7
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 304,
+    "+weight.total": 431,
+    "-weight.document": 326,
+    "+weight.document": 395,
+    "-weight.script": 284,
+    "+weight.script": 214,
+    "-weight.image": 1,
+    "+weight.image": 559,
+    "-weight.font": 25,
+    "+weight.font": 466,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 112,
+    "-totalBlockingTime": 73,
+    "-largestContentfulPaint": 263
+  },
+  "axe": {
+    "passes": 219,
+    "violations": 22
+  }
+}

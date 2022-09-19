@@ -1,0 +1,67 @@
+{
+  "url": "https://metagala.xyz/",
+  "requestedUrl": "https://metagala.xyz/",
+  "timestamp": 1663535160949,
+  "ranks": {
+    "hundos": 724,
+    "performance": 730,
+    "accessibility": 695,
+    "cumulative": 724
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 0.36,
+    "accessibility": 0.81,
+    "bestPractices": 1,
+    "seo": 0.92,
+    "total": 309
+  },
+  "firstContentfulPaint": 1573.6499999999999,
+  "firstMeaningfulPaint": 1573.6499999999999,
+  "speedIndex": 2691.995468000382,
+  "largestContentfulPaint": 11376.487,
+  "totalBlockingTime": 9226.893,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 11376.487,
+  "maxPotentialFirstInputDelay": 8624,
+  "timeToFirstByte": 50.30099999999999,
+  "weight": {
+    "summary": "14 requests • 2,276 KiB",
+    "total": 2330184,
+    "image": 2295065,
+    "imageCount": 7,
+    "script": 16340,
+    "scriptCount": 4,
+    "document": 14566,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 4213,
+    "stylesheetCount": 2,
+    "thirdParty": 2310682,
+    "thirdPartyCount": 11
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 691,
+    "+weight.total": 44,
+    "-weight.document": 581,
+    "+weight.document": 140,
+    "-weight.script": 227,
+    "+weight.script": 271,
+    "-weight.image": 530,
+    "+weight.image": 29,
+    "-weight.font": 1,
+    "+weight.font": 491,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 212,
+    "-totalBlockingTime": 180,
+    "-largestContentfulPaint": 732
+  },
+  "axe": {
+    "passes": 2684,
+    "violations": 491
+  }
+}

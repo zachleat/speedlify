@@ -1,0 +1,67 @@
+{
+  "url": "https://orestbida.com/",
+  "requestedUrl": "https://orestbida.com/",
+  "timestamp": 1663534417594,
+  "ranks": {
+    "hundos": 122,
+    "performance": 39,
+    "accessibility": 378,
+    "cumulative": 169
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 898.148,
+  "firstMeaningfulPaint": 898.148,
+  "speedIndex": 898.148,
+  "largestContentfulPaint": 1085.1480000000001,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 898.148,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 142.016,
+  "weight": {
+    "summary": "3 requests • 25 KiB",
+    "total": 25673,
+    "image": 0,
+    "imageCount": 0,
+    "script": 11512,
+    "scriptCount": 1,
+    "document": 7849,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 6312,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 100,
+    "+weight.total": 635,
+    "-weight.document": 436,
+    "+weight.document": 285,
+    "-weight.script": 205,
+    "+weight.script": 293,
+    "-weight.image": 1,
+    "+weight.image": 559,
+    "-weight.font": 1,
+    "+weight.font": 491,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 476,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 337
+  },
+  "axe": {
+    "passes": 142,
+    "violations": 3
+  }
+}

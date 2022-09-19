@@ -1,0 +1,67 @@
+{
+  "url": "https://bayton.org/",
+  "requestedUrl": "https://bayton.org/",
+  "timestamp": 1663540118247,
+  "ranks": {
+    "hundos": 564,
+    "performance": 633,
+    "accessibility": 574,
+    "cumulative": 570
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 0.82,
+    "accessibility": 0.95,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 377
+  },
+  "firstContentfulPaint": 1903.3850000000004,
+  "firstMeaningfulPaint": 3249.745000000001,
+  "speedIndex": 2244.66420600316,
+  "largestContentfulPaint": 4175.3675,
+  "totalBlockingTime": 13,
+  "cumulativeLayoutShift": 0.09031233628590903,
+  "timeToInteractive": 3904.0255,
+  "maxPotentialFirstInputDelay": 76,
+  "timeToFirstByte": 114.269,
+  "weight": {
+    "summary": "45 requests • 1,019 KiB",
+    "total": 1043299,
+    "image": 508594,
+    "imageCount": 21,
+    "script": 235388,
+    "scriptCount": 10,
+    "document": 4764,
+    "font": 254359,
+    "fontCount": 3,
+    "stylesheet": 39237,
+    "stylesheetCount": 4,
+    "thirdParty": 522287,
+    "thirdPartyCount": 18
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 635,
+    "+weight.total": 100,
+    "-weight.document": 279,
+    "+weight.document": 442,
+    "-weight.script": 439,
+    "+weight.script": 59,
+    "-weight.image": 443,
+    "+weight.image": 116,
+    "-weight.font": 437,
+    "+weight.font": 54,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 424,
+    "-totalBlockingTime": 29,
+    "-largestContentfulPaint": 197
+  },
+  "axe": {
+    "passes": 402,
+    "violations": 15
+  }
+}

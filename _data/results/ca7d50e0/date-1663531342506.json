@@ -1,0 +1,67 @@
+{
+  "url": "https://gvonkoss.com/",
+  "requestedUrl": "https://gvonkoss.com/",
+  "timestamp": 1663535264717,
+  "ranks": {
+    "hundos": 319,
+    "performance": 363,
+    "accessibility": 546,
+    "cumulative": 316
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 0.99,
+    "accessibility": 0.96,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 395
+  },
+  "firstContentfulPaint": 934.09,
+  "firstMeaningfulPaint": 1186.0900000000001,
+  "speedIndex": 2974.495011991693,
+  "largestContentfulPaint": 1186.0900000000001,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.004091652764214409,
+  "timeToInteractive": 1186.0900000000001,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 42.129999999999995,
+  "weight": {
+    "summary": "10 requests • 47 KiB",
+    "total": 47648,
+    "image": 18616,
+    "imageCount": 1,
+    "script": 3451,
+    "scriptCount": 6,
+    "document": 1618,
+    "font": 21526,
+    "fontCount": 1,
+    "stylesheet": 2437,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 156,
+    "+weight.total": 579,
+    "-weight.document": 42,
+    "+weight.document": 679,
+    "-weight.script": 114,
+    "+weight.script": 384,
+    "-weight.image": 111,
+    "+weight.image": 448,
+    "-weight.font": 67,
+    "+weight.font": 424,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 115,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 369
+  },
+  "axe": {
+    "passes": 68,
+    "violations": 3
+  }
+}

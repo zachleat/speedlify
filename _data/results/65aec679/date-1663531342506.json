@@ -1,0 +1,67 @@
+{
+  "url": "https://stanlemon.com/",
+  "requestedUrl": "https://stanlemon.com/",
+  "timestamp": 1663558939612,
+  "ranks": {
+    "hundos": 245,
+    "performance": 390,
+    "accessibility": 295,
+    "cumulative": 244
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 0.98,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 398
+  },
+  "firstContentfulPaint": 1871.987,
+  "firstMeaningfulPaint": 1871.987,
+  "speedIndex": 1871.987,
+  "largestContentfulPaint": 1871.987,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1871.987,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 85.06200000000001,
+  "weight": {
+    "summary": "7 requests • 294 KiB",
+    "total": 300683,
+    "image": 0,
+    "imageCount": 0,
+    "script": 20403,
+    "scriptCount": 1,
+    "document": 4251,
+    "font": 271893,
+    "fontCount": 3,
+    "stylesheet": 3931,
+    "stylesheetCount": 1,
+    "thirdParty": 20608,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 461,
+    "+weight.total": 274,
+    "-weight.document": 241,
+    "+weight.document": 480,
+    "-weight.script": 244,
+    "+weight.script": 254,
+    "-weight.image": 1,
+    "+weight.image": 559,
+    "-weight.font": 443,
+    "+weight.font": 48,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 364,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 534
+  },
+  "axe": {
+    "passes": 377,
+    "violations": 1
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://montevil.org/",
+  "requestedUrl": "https://montevil.org/",
+  "timestamp": 1663545006964,
+  "ranks": {
+    "hundos": 195,
+    "performance": 318,
+    "accessibility": 277,
+    "cumulative": 215
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 0.99,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 399
+  },
+  "firstContentfulPaint": 1134.457,
+  "firstMeaningfulPaint": 1134.457,
+  "speedIndex": 1255.9259533528987,
+  "largestContentfulPaint": 1134.457,
+  "totalBlockingTime": 92,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1326.457,
+  "maxPotentialFirstInputDelay": 138,
+  "timeToFirstByte": 81.44100000000003,
+  "weight": {
+    "summary": "9 requests • 429 KiB",
+    "total": 438796,
+    "image": 392363,
+    "imageCount": 6,
+    "script": 9224,
+    "scriptCount": 2,
+    "document": 37209,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 395606,
+    "thirdPartyCount": 7
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 523,
+    "+weight.total": 212,
+    "-weight.document": 672,
+    "+weight.document": 49,
+    "-weight.script": 191,
+    "+weight.script": 307,
+    "-weight.image": 412,
+    "+weight.image": 147,
+    "-weight.font": 1,
+    "+weight.font": 491,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 356,
+    "-totalBlockingTime": 108,
+    "-largestContentfulPaint": 352
+  },
+  "axe": {
+    "passes": 2752,
+    "violations": 1
+  }
+}

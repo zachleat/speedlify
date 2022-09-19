@@ -1,0 +1,67 @@
+{
+  "url": "https://platforms.barnardos.org.uk/",
+  "requestedUrl": "https://platforms.barnardos.org.uk/",
+  "timestamp": 1663560758850,
+  "ranks": {
+    "hundos": 143,
+    "performance": 63,
+    "accessibility": 310,
+    "cumulative": 156
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 908.018,
+  "firstMeaningfulPaint": 908.018,
+  "speedIndex": 950.4270119947611,
+  "largestContentfulPaint": 908.018,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.00197723388671875,
+  "timeToInteractive": 908.018,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 216.74400000000003,
+  "weight": {
+    "summary": "4 requests • 15 KiB",
+    "total": 15264,
+    "image": 0,
+    "imageCount": 0,
+    "script": 5361,
+    "scriptCount": 1,
+    "document": 9661,
+    "font": 0,
+    "fontCount": 1,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 5361,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 74,
+    "+weight.total": 661,
+    "-weight.document": 485,
+    "+weight.document": 236,
+    "-weight.script": 143,
+    "+weight.script": 355,
+    "-weight.image": 1,
+    "+weight.image": 559,
+    "-weight.font": 1,
+    "+weight.font": 491,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 548,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 247
+  },
+  "axe": {
+    "passes": 265,
+    "violations": 1
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://hmiller.dev/",
+  "requestedUrl": "https://hmiller.dev/",
+  "timestamp": 1663548095693,
+  "ranks": {
+    "hundos": 338,
+    "performance": 523,
+    "accessibility": 197,
+    "cumulative": 326
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 0.94,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 394
+  },
+  "firstContentfulPaint": 1819.268,
+  "firstMeaningfulPaint": 1819.268,
+  "speedIndex": 1819.268,
+  "largestContentfulPaint": 1819.268,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.17871976057688393,
+  "timeToInteractive": 1819.268,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 222.419,
+  "weight": {
+    "summary": "5 requests • 34 KiB",
+    "total": 34614,
+    "image": 336,
+    "imageCount": 1,
+    "script": 1948,
+    "scriptCount": 1,
+    "document": 3445,
+    "font": 27835,
+    "fontCount": 1,
+    "stylesheet": 1050,
+    "stylesheetCount": 1,
+    "thirdParty": 31169,
+    "thirdPartyCount": 4
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 124,
+    "+weight.total": 611,
+    "-weight.document": 183,
+    "+weight.document": 538,
+    "-weight.script": 78,
+    "+weight.script": 420,
+    "-weight.image": 6,
+    "+weight.image": 553,
+    "-weight.font": 96,
+    "+weight.font": 395,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 552,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 523
+  },
+  "axe": {
+    "passes": 175,
+    "violations": 0
+  }
+}

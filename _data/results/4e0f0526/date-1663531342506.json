@@ -1,0 +1,67 @@
+{
+  "url": "https://shannonethomas.com/",
+  "requestedUrl": "https://shannonethomas.com/",
+  "timestamp": 1663545731715,
+  "ranks": {
+    "hundos": 696,
+    "performance": 564,
+    "accessibility": 729,
+    "cumulative": 696
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 0.9,
+    "accessibility": 0.68,
+    "bestPractices": 1,
+    "seo": 0.81,
+    "total": 339
+  },
+  "firstContentfulPaint": 1646.2949999999998,
+  "firstMeaningfulPaint": 1646.2949999999998,
+  "speedIndex": 1976.2802659960535,
+  "largestContentfulPaint": 1974.078,
+  "totalBlockingTime": 3.5,
+  "cumulativeLayoutShift": 0.26115071614583335,
+  "timeToInteractive": 3185.186,
+  "maxPotentialFirstInputDelay": 57,
+  "timeToFirstByte": 59.71900000000002,
+  "weight": {
+    "summary": "14 requests • 3,745 KiB",
+    "total": 3834944,
+    "image": 3723444,
+    "imageCount": 6,
+    "script": 65650,
+    "scriptCount": 3,
+    "document": 3476,
+    "font": 38424,
+    "fontCount": 1,
+    "stylesheet": 3743,
+    "stylesheetCount": 2,
+    "thirdParty": 103021,
+    "thirdPartyCount": 5
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 712,
+    "+weight.total": 23,
+    "-weight.document": 185,
+    "+weight.document": 536,
+    "-weight.script": 339,
+    "+weight.script": 159,
+    "-weight.image": 543,
+    "+weight.image": 16,
+    "-weight.font": 152,
+    "+weight.font": 339,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 281,
+    "-totalBlockingTime": 8,
+    "-largestContentfulPaint": 127
+  },
+  "axe": {
+    "passes": 348,
+    "violations": 25
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://andrewhudson.dev/",
+  "requestedUrl": "https://andrewhudson.dev/",
+  "timestamp": 1663544241822,
+  "ranks": {
+    "hundos": 180,
+    "performance": 25,
+    "accessibility": 220,
+    "cumulative": 128
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 861.153,
+  "firstMeaningfulPaint": 861.153,
+  "speedIndex": 861.153,
+  "largestContentfulPaint": 861.153,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 861.153,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 58.822,
+  "weight": {
+    "summary": "1 request • 3 KiB",
+    "total": 3007,
+    "image": 0,
+    "imageCount": 0,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 3007,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 10,
+    "+weight.total": 725,
+    "-weight.document": 149,
+    "+weight.document": 572,
+    "-weight.script": 1,
+    "+weight.script": 498,
+    "-weight.image": 1,
+    "+weight.image": 559,
+    "-weight.font": 1,
+    "+weight.font": 491,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 265,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 222
+  },
+  "axe": {
+    "passes": 139,
+    "violations": 0
+  }
+}

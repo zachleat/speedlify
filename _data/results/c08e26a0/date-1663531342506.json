@@ -1,0 +1,67 @@
+{
+  "url": "https://andy.bond/",
+  "requestedUrl": "https://andy.bond/",
+  "timestamp": 1663545518650,
+  "ranks": {
+    "hundos": 282,
+    "performance": 130,
+    "accessibility": 536,
+    "cumulative": 281
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 1,
+    "accessibility": 0.96,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 396
+  },
+  "firstContentfulPaint": 992.705,
+  "firstMeaningfulPaint": 992.705,
+  "speedIndex": 1101.0512620104164,
+  "largestContentfulPaint": 1137.063,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.03103977680206299,
+  "timeToInteractive": 992.705,
+  "maxPotentialFirstInputDelay": 22,
+  "timeToFirstByte": 38.696000000000026,
+  "weight": {
+    "summary": "21 requests • 908 KiB",
+    "total": 929728,
+    "image": 894033,
+    "imageCount": 10,
+    "script": 8306,
+    "scriptCount": 5,
+    "document": 5481,
+    "font": 15763,
+    "fontCount": 2,
+    "stylesheet": 6068,
+    "stylesheetCount": 1,
+    "thirdParty": 5438,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 621,
+    "+weight.total": 114,
+    "-weight.document": 327,
+    "+weight.document": 394,
+    "-weight.script": 185,
+    "+weight.script": 313,
+    "-weight.image": 491,
+    "+weight.image": 68,
+    "-weight.font": 33,
+    "+weight.font": 458,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 43,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 354
+  },
+  "axe": {
+    "passes": 584,
+    "violations": 0
+  }
+}

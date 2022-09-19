@@ -1,0 +1,67 @@
+{
+  "url": "https://davepowers.me/",
+  "requestedUrl": "https://davepowers.me/",
+  "timestamp": 1663543223730,
+  "ranks": {
+    "hundos": 85,
+    "performance": 11,
+    "accessibility": 242,
+    "cumulative": 54
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 825.647,
+  "firstMeaningfulPaint": 825.647,
+  "speedIndex": 825.647,
+  "largestContentfulPaint": 1051.647,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 825.647,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 41.58600000000001,
+  "weight": {
+    "summary": "2 requests • 41 KiB",
+    "total": 42337,
+    "image": 40817,
+    "imageCount": 1,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 1520,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 143,
+    "+weight.total": 592,
+    "-weight.document": 34,
+    "+weight.document": 687,
+    "-weight.script": 1,
+    "+weight.script": 498,
+    "-weight.image": 176,
+    "+weight.image": 383,
+    "-weight.font": 1,
+    "+weight.font": 491,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 89,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 322
+  },
+  "axe": {
+    "passes": 102,
+    "violations": 0
+  }
+}

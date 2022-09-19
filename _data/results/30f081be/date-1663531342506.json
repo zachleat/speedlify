@@ -1,0 +1,67 @@
+{
+  "url": "https://www.yeshyendamuri.com/",
+  "requestedUrl": "https://www.yeshyendamuri.com/",
+  "timestamp": 1663543777455,
+  "ranks": {
+    "hundos": 429,
+    "performance": 516,
+    "accessibility": 598,
+    "cumulative": 443
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 0.94,
+    "accessibility": 0.94,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 388
+  },
+  "firstContentfulPaint": 849.1960000000001,
+  "firstMeaningfulPaint": 849.1960000000001,
+  "speedIndex": 852.2951679938525,
+  "largestContentfulPaint": 1575.1660000000002,
+  "totalBlockingTime": 12,
+  "cumulativeLayoutShift": 0.20152542029486764,
+  "timeToInteractive": 886.1960000000001,
+  "maxPotentialFirstInputDelay": 74,
+  "timeToFirstByte": 50.36500000000001,
+  "weight": {
+    "summary": "11 requests • 394 KiB",
+    "total": 403665,
+    "image": 219183,
+    "imageCount": 5,
+    "script": 1311,
+    "scriptCount": 1,
+    "document": 2885,
+    "font": 174628,
+    "fontCount": 3,
+    "stylesheet": 5658,
+    "stylesheetCount": 1,
+    "thirdParty": 1311,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 509,
+    "+weight.total": 226,
+    "-weight.document": 138,
+    "+weight.document": 583,
+    "-weight.script": 50,
+    "+weight.script": 448,
+    "-weight.image": 351,
+    "+weight.image": 208,
+    "-weight.font": 407,
+    "+weight.font": 84,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 215,
+    "-totalBlockingTime": 27,
+    "-largestContentfulPaint": 94
+  },
+  "axe": {
+    "passes": 131,
+    "violations": 22
+  }
+}

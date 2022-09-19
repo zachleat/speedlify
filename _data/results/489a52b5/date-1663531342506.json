@@ -1,0 +1,67 @@
+{
+  "url": "https://evilpedia.online/",
+  "requestedUrl": "https://evilpedia.online/",
+  "timestamp": 1663544256159,
+  "ranks": {
+    "hundos": 662,
+    "performance": 689,
+    "accessibility": 602,
+    "cumulative": 666
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 0.69,
+    "accessibility": 0.94,
+    "bestPractices": 1,
+    "seo": 0.9,
+    "total": 356
+  },
+  "firstContentfulPaint": 1325.054,
+  "firstMeaningfulPaint": 1325.054,
+  "speedIndex": 2745.7193651557523,
+  "largestContentfulPaint": 1325.054,
+  "totalBlockingTime": 2660,
+  "cumulativeLayoutShift": 0.018909948666890462,
+  "timeToInteractive": 4210.054,
+  "maxPotentialFirstInputDelay": 2654,
+  "timeToFirstByte": 112.083,
+  "weight": {
+    "summary": "7 requests • 40 KiB",
+    "total": 41428,
+    "image": 1015,
+    "imageCount": 1,
+    "script": 3899,
+    "scriptCount": 3,
+    "document": 18421,
+    "font": 15177,
+    "fontCount": 1,
+    "stylesheet": 2916,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 140,
+    "+weight.total": 595,
+    "-weight.document": 616,
+    "+weight.document": 105,
+    "-weight.script": 122,
+    "+weight.script": 376,
+    "-weight.image": 21,
+    "+weight.image": 538,
+    "-weight.font": 29,
+    "+weight.font": 462,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 423,
+    "-totalBlockingTime": 176,
+    "-largestContentfulPaint": 403
+  },
+  "axe": {
+    "passes": 4888,
+    "violations": 45
+  }
+}
