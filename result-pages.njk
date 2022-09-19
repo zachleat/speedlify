@@ -12,6 +12,7 @@
     size: 1,
     alias: "site",
   },
+  includeChartAssets: true,
   permalink: "/{{ (sites[vertical].name or vertical) | slug }}/{{ site | getUrlForSite | slugify }}/",
 }
 ---

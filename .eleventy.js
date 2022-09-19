@@ -372,14 +372,11 @@ module.exports = function(eleventyConfig) {
 
 	// Assets
 	eleventyConfig.addPassthroughCopy({
-		"./node_modules/chartist/dist/chartist.js": "/speedlify/static/chartist.js",
-		"./node_modules/chartist/dist/chartist.css.map": "/speedlify/static/chartist.css.map",
+		// "./node_modules/chartist/dist/chartist.js": "/speedlify/static/chartist.js",
+		// "./node_modules/chartist/dist/chartist.css.map": "/speedlify/static/chartist.css.map",
+		"./node_modules/chartist/dist/chartist.min.js.map": "/speedlify/static/chartist.min.js.map",
 	});
 
 	eleventyConfig.addWatchTarget("./assets/");
-
-	eleventyConfig.setBrowserSyncConfig({
-		ui: false,
-		ghostMode: false
-	});
+	eleventyConfig.setServerPassthroughCopyBehavior("copy");
 };

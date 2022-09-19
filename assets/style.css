@@ -102,6 +102,7 @@ abbr {
 	width: 100%;
 	max-width: 100rem; /* 1600px /16 */
 	margin: 3em auto;
+	box-sizing: border-box;
 }
 .leaderboard-wrapper > p {
 	padding-left: 1em;

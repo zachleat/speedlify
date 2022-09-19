@@ -1,3 +1,6 @@
+---
+includeChartAssets: false
+---
 <!doctype html>
 <html lang="en">
 	<head>
@@ -7,6 +10,9 @@
 		<meta name="description" content="Benchmark web pages over time.">
 		<link rel="icon" type="image/png" sizes="96x96" href="/img/favicon.png">
 		<link rel="stylesheet" href="/speedlify/static/style.css">
+{% if includeChartAssets %}
+		<link rel="stylesheet" href="/speedlify/static/chart-style.css">
+{% endif %}
 		<script>
 		document.documentElement.classList.add("js");
 		</script>
@@ -33,7 +39,9 @@
 			MIT licensed. Read <a href="https://www.zachleat.com/web/speedlify/">the blog post</a>. Source code on <a href="https://github.com/zachleat/speedlify/">GitHub</a>. Created by <a href="https://www.zachleat.com/">@zachleat</a>.
 		</footer>
 
-		<script defer src="/speedlify/static/chartist.js"></script>
 		<script defer src="/speedlify/static/script.js"></script>
+{% if includeChartAssets %}
+		<script defer src="/speedlify/static/chart-script.js"></script>
+{% endif %}
 	</body>
 </html>
