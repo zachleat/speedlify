@@ -20,6 +20,7 @@ counts:
 				<th>Rank</th>
 				<th class="leaderboard-hide-md">Trophy</th>
 				<th>URL</th>
+				<th class="leaderboard-hide-md">Weight</th>
 				<th class="leaderboard-hide-md">Built With</th>
 				<th class="leaderboard-score">Lighthouse</th>
 				<th data-sr-only class="leaderboard-hide-md">History</th>
@@ -60,6 +61,7 @@ counts:
 						{%- if hasRedirect %}<span class="leaderboard-redirect-warn">Redirect from <code class="url">{{ site[newestKey].requestedUrl | displayUrl(true) }}</code></span>{% endif -%}
 						{%- if site[newestKey].error %}<span class="leaderboard-redirect-error">Error</span>{% endif -%}
 					</td>
+					<td class="leaderboard-hide-md leaderboard-floppies">{{ site[newestKey].weight.total | toFloppyDisk | safe }}</td>
 					<td class="leaderboard-hide-md">
 						<img src="{{ site[newestKey].url | generatorImageUrl }}" width="60" height="60" alt="Generator for {{ site[newestKey].url | displayUrl }}" class="leaderboard-list-entry-thumbnail small" loading="lazy" decoding="async" onerror="this.remove();">
 					</td>

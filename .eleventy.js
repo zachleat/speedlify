@@ -348,6 +348,24 @@ module.exports = function(eleventyConfig) {
 		return arr;
 	});
 
+	eleventyConfig.addFilter("toFloppyDisk", function(size) {
+		let floppySize = 1474560;
+		let count = (size/floppySize).toFixed(1);
+		if(count > 4) {
+			return `💾 <em>×${Math.round(count)}</em>`;
+		}
+
+		let html = [];
+		for(let j = 0; j <= count - 1; j++) {
+			html.push(`💾`);
+		}
+
+		let modulo = (count % 1)*10;
+		html.push(`<span class="floppy-${modulo}">💾</span>`);
+
+		return html.join("");
+	});
+	
 	eleventyConfig.addFilter("toJSON", function(obj) {
 		return JSON.stringify(obj);
 	});

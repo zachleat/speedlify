@@ -518,3 +518,22 @@ abbr {
 	vertical-align: text-top;
 	margin-right: 1px;
 }
+
+.leaderboard-floppies {
+	white-space: nowrap;
+}
+.floppy-0 {
+	clip-path: inset(0 20px 0 0);
+}
+.floppy-1,
+.floppy-2,
+.floppy-3,
+.floppy-4 {
+	clip-path: inset(0 14px 0 0);
+}
+.floppy-5,
+.floppy-6,
+.floppy-7,
+.floppy-8 {
+	clip-path: inset(0 7px 0 0);
+}
