@@ -1,0 +1,67 @@
+{
+  "url": "https://www.oddbird.net/",
+  "requestedUrl": "https://www.oddbird.net/",
+  "timestamp": 1666585087860,
+  "ranks": {
+    "hundos": 638,
+    "performance": 702,
+    "accessibility": 556,
+    "cumulative": 638
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 0.68,
+    "accessibility": 0.96,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 364
+  },
+  "firstContentfulPaint": 3340.45,
+  "firstMeaningfulPaint": 3340.45,
+  "speedIndex": 3340.45,
+  "largestContentfulPaint": 3941.298,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.4313433748881022,
+  "timeToInteractive": 3340.45,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 43.881,
+  "weight": {
+    "summary": "23 requests • 823 KiB",
+    "total": 842635,
+    "image": 483090,
+    "imageCount": 6,
+    "script": 35952,
+    "scriptCount": 3,
+    "document": 36412,
+    "font": 262359,
+    "fontCount": 12,
+    "stylesheet": 24822,
+    "stylesheetCount": 1,
+    "thirdParty": 524970,
+    "thirdPartyCount": 18
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 618,
+    "+weight.total": 127,
+    "-weight.document": 677,
+    "+weight.document": 51,
+    "-weight.script": 298,
+    "+weight.script": 223,
+    "-weight.image": 444,
+    "+weight.image": 125,
+    "-weight.font": 450,
+    "+weight.font": 50,
+    "+weight.fontCount": 4,
+    "-timeToFirstByte": 195,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 668
+  },
+  "axe": {
+    "passes": 661,
+    "violations": 1
+  }
+}

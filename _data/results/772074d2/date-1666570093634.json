@@ -1,0 +1,67 @@
+{
+  "url": "https://www.chrissy.dev/",
+  "requestedUrl": "https://www.chrissy.dev/",
+  "timestamp": 1666598921283,
+  "ranks": {
+    "hundos": 315,
+    "performance": 353,
+    "accessibility": 570,
+    "cumulative": 326
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 0.99,
+    "accessibility": 0.96,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 395
+  },
+  "firstContentfulPaint": 1685.413,
+  "firstMeaningfulPaint": 1685.413,
+  "speedIndex": 1738.5803820028711,
+  "largestContentfulPaint": 1685.413,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1685.413,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 60.49000000000001,
+  "weight": {
+    "summary": "20 requests • 185 KiB",
+    "total": 189488,
+    "image": 176755,
+    "imageCount": 14,
+    "script": 1781,
+    "scriptCount": 1,
+    "document": 5668,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 5035,
+    "stylesheetCount": 2,
+    "thirdParty": 3194,
+    "thirdPartyCount": 4
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 366,
+    "+weight.total": 379,
+    "-weight.document": 340,
+    "+weight.document": 388,
+    "-weight.script": 73,
+    "+weight.script": 448,
+    "-weight.image": 335,
+    "+weight.image": 234,
+    "-weight.font": 1,
+    "+weight.font": 500,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 303,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 386
+  },
+  "axe": {
+    "passes": 370,
+    "violations": 13
+  }
+}

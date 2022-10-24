@@ -1,0 +1,67 @@
+{
+  "url": "https://chaboryk.xyz/",
+  "requestedUrl": "https://chaboryk.xyz/",
+  "timestamp": 1666592633551,
+  "ranks": {
+    "hundos": 440,
+    "performance": 598,
+    "accessibility": 229,
+    "cumulative": 434
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 0.89,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 389
+  },
+  "firstContentfulPaint": 1003.439,
+  "firstMeaningfulPaint": 1003.439,
+  "speedIndex": 3045.6407859983124,
+  "largestContentfulPaint": 2617.359,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.22282899983723956,
+  "timeToInteractive": 1003.439,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 1374.626,
+  "weight": {
+    "summary": "10 requests • 251 KiB",
+    "total": 257523,
+    "image": 171981,
+    "imageCount": 1,
+    "script": 4640,
+    "scriptCount": 2,
+    "document": 4673,
+    "font": 72306,
+    "fontCount": 3,
+    "stylesheet": 3498,
+    "stylesheetCount": 1,
+    "thirdParty": 5065,
+    "thirdPartyCount": 4
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 440,
+    "+weight.total": 305,
+    "-weight.document": 281,
+    "+weight.document": 447,
+    "-weight.script": 148,
+    "+weight.script": 373,
+    "-weight.image": 330,
+    "+weight.image": 239,
+    "-weight.font": 282,
+    "+weight.font": 218,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 734,
+    "-totalBlockingTime": 184,
+    "-largestContentfulPaint": 580
+  },
+  "axe": {
+    "passes": 136,
+    "violations": 0
+  }
+}

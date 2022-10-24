@@ -1,0 +1,67 @@
+{
+  "url": "https://www.iturbides.dev/",
+  "requestedUrl": "https://www.iturbides.dev/",
+  "timestamp": 1666591692456,
+  "ranks": {
+    "hundos": 267,
+    "performance": 432,
+    "accessibility": 403,
+    "cumulative": 262
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 0.98,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 398
+  },
+  "firstContentfulPaint": 1702.0060000000003,
+  "firstMeaningfulPaint": 1702.0060000000003,
+  "speedIndex": 3480.0811399997433,
+  "largestContentfulPaint": 1708.6620000000003,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.0025367300052247525,
+  "timeToInteractive": 1702.0060000000003,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 1347.557,
+  "weight": {
+    "summary": "9 requests • 19 KiB",
+    "total": 19515,
+    "image": 3292,
+    "imageCount": 3,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 3363,
+    "font": 8441,
+    "fontCount": 1,
+    "stylesheet": 4173,
+    "stylesheetCount": 3,
+    "thirdParty": 11873,
+    "thirdPartyCount": 4
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 78,
+    "+weight.total": 667,
+    "-weight.document": 182,
+    "+weight.document": 546,
+    "-weight.script": 1,
+    "+weight.script": 521,
+    "-weight.image": 39,
+    "+weight.image": 530,
+    "-weight.font": 6,
+    "+weight.font": 494,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 728,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 397
+  },
+  "axe": {
+    "passes": 145,
+    "violations": 4
+  }
+}

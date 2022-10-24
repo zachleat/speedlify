@@ -1,0 +1,67 @@
+{
+  "url": "https://idris-maps.com/",
+  "requestedUrl": "https://idris-maps.com/",
+  "timestamp": 1666592880504,
+  "ranks": {
+    "hundos": 650,
+    "performance": 250,
+    "accessibility": 744,
+    "cumulative": 650
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 1,
+    "accessibility": 0.62,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 362
+  },
+  "firstContentfulPaint": 831.62,
+  "firstMeaningfulPaint": 1085.62,
+  "speedIndex": 1678.7058583104586,
+  "largestContentfulPaint": 1535.62,
+  "totalBlockingTime": 1.5,
+  "cumulativeLayoutShift": 0.006952870686848959,
+  "timeToInteractive": 1813.62,
+  "maxPotentialFirstInputDelay": 53,
+  "timeToFirstByte": 50.077,
+  "weight": {
+    "summary": "4 requests • 225 KiB",
+    "total": 230782,
+    "image": 96983,
+    "imageCount": 1,
+    "script": 102110,
+    "scriptCount": 1,
+    "document": 4190,
+    "font": 27499,
+    "fontCount": 1,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 413,
+    "+weight.total": 332,
+    "-weight.document": 239,
+    "+weight.document": 489,
+    "-weight.script": 402,
+    "+weight.script": 119,
+    "-weight.image": 260,
+    "+weight.image": 309,
+    "-weight.font": 99,
+    "+weight.font": 401,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 219,
+    "-totalBlockingTime": 6,
+    "-largestContentfulPaint": 328
+  },
+  "axe": {
+    "passes": 244,
+    "violations": 3
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://anaislemercier.com/",
+  "requestedUrl": "https://anaislemercier.com/",
+  "timestamp": 1666596152457,
+  "ranks": {
+    "hundos": 33,
+    "performance": 48,
+    "accessibility": 132,
+    "cumulative": 26
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 945.896,
+  "firstMeaningfulPaint": 945.896,
+  "speedIndex": 945.896,
+  "largestContentfulPaint": 1412.193,
+  "totalBlockingTime": 8.5,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1540.0155,
+  "maxPotentialFirstInputDelay": 67,
+  "timeToFirstByte": 41.136000000000024,
+  "weight": {
+    "summary": "22 requests • 115 KiB",
+    "total": 117952,
+    "image": 45470,
+    "imageCount": 16,
+    "script": 4763,
+    "scriptCount": 2,
+    "document": 3272,
+    "font": 62296,
+    "fontCount": 2,
+    "stylesheet": 2151,
+    "stylesheetCount": 1,
+    "thirdParty": 3603,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 275,
+    "+weight.total": 470,
+    "-weight.document": 172,
+    "+weight.document": 556,
+    "-weight.script": 150,
+    "+weight.script": 371,
+    "-weight.image": 186,
+    "+weight.image": 383,
+    "-weight.font": 248,
+    "+weight.font": 252,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 85,
+    "-totalBlockingTime": 25,
+    "-largestContentfulPaint": 310
+  },
+  "axe": {
+    "passes": 258,
+    "violations": 0
+  }
+}

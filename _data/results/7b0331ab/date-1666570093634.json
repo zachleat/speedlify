@@ -1,0 +1,67 @@
+{
+  "url": "https://www.maitriweb.it/",
+  "requestedUrl": "https://www.maitriweb.it/",
+  "timestamp": 1666598093915,
+  "ranks": {
+    "hundos": 45,
+    "performance": 271,
+    "accessibility": 312,
+    "cumulative": 153
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 938.1570000000002,
+  "firstMeaningfulPaint": 958.1570000000002,
+  "speedIndex": 1978.322288384446,
+  "largestContentfulPaint": 958.1570000000002,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 958.1570000000002,
+  "maxPotentialFirstInputDelay": 40,
+  "timeToFirstByte": 52.194000000000074,
+  "weight": {
+    "summary": "14 requests • 208 KiB",
+    "total": 212751,
+    "image": 153081,
+    "imageCount": 8,
+    "script": 1451,
+    "scriptCount": 1,
+    "document": 9842,
+    "font": 42546,
+    "fontCount": 3,
+    "stylesheet": 5831,
+    "stylesheetCount": 1,
+    "thirdParty": 153081,
+    "thirdPartyCount": 8
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 396,
+    "+weight.total": 349,
+    "-weight.document": 488,
+    "+weight.document": 240,
+    "-weight.script": 59,
+    "+weight.script": 462,
+    "-weight.image": 317,
+    "+weight.image": 252,
+    "-weight.font": 172,
+    "+weight.font": 328,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 242,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 117
+  },
+  "axe": {
+    "passes": 307,
+    "violations": 1
+  }
+}

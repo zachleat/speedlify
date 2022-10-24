@@ -1,0 +1,67 @@
+{
+  "url": "https://fynn.be/",
+  "requestedUrl": "https://fynn.be/",
+  "timestamp": 1666573307744,
+  "ranks": {
+    "hundos": 76,
+    "performance": 148,
+    "accessibility": 123,
+    "cumulative": 51
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 888.467,
+  "firstMeaningfulPaint": 888.467,
+  "speedIndex": 1151.7485100001065,
+  "largestContentfulPaint": 888.467,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.000025858879089355467,
+  "timeToInteractive": 888.467,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 64.988,
+  "weight": {
+    "summary": "7 requests • 79 KiB",
+    "total": 81360,
+    "image": 36375,
+    "imageCount": 1,
+    "script": 819,
+    "scriptCount": 1,
+    "document": 3466,
+    "font": 36452,
+    "fontCount": 2,
+    "stylesheet": 4248,
+    "stylesheetCount": 2,
+    "thirdParty": 36375,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 211,
+    "+weight.total": 534,
+    "-weight.document": 192,
+    "+weight.document": 536,
+    "-weight.script": 21,
+    "+weight.script": 500,
+    "-weight.image": 162,
+    "+weight.image": 407,
+    "-weight.font": 142,
+    "+weight.font": 358,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 332,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 60
+  },
+  "axe": {
+    "passes": 274,
+    "violations": 0
+  }
+}

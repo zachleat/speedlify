@@ -1,0 +1,67 @@
+{
+  "url": "https://louisville.aiga.org/awards-show-2019/",
+  "requestedUrl": "https://louisville.aiga.org/awards-show-2019/",
+  "timestamp": 1666590679695,
+  "ranks": {
+    "hundos": 465,
+    "performance": 309,
+    "accessibility": 557,
+    "cumulative": 466
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 0.99,
+    "accessibility": 0.96,
+    "bestPractices": 1,
+    "seo": 0.92,
+    "total": 387
+  },
+  "firstContentfulPaint": 1015.5500000000002,
+  "firstMeaningfulPaint": 1730.1070000000004,
+  "speedIndex": 1015.5500000000002,
+  "largestContentfulPaint": 1989.5510000000004,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1730.1070000000004,
+  "maxPotentialFirstInputDelay": 108,
+  "timeToFirstByte": 43.486999999999995,
+  "weight": {
+    "summary": "58 requests • 2,320 KiB",
+    "total": 2376170,
+    "image": 2287020,
+    "imageCount": 54,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 7881,
+    "font": 78692,
+    "fontCount": 2,
+    "stylesheet": 2577,
+    "stylesheetCount": 1,
+    "thirdParty": 2284667,
+    "thirdPartyCount": 50
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 706,
+    "+weight.total": 39,
+    "-weight.document": 434,
+    "+weight.document": 294,
+    "-weight.script": 1,
+    "+weight.script": 521,
+    "-weight.image": 541,
+    "+weight.image": 28,
+    "-weight.font": 303,
+    "+weight.font": 197,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 190,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 476
+  },
+  "axe": {
+    "passes": 462,
+    "violations": 1
+  }
+}

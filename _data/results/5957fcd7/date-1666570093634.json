@@ -1,0 +1,67 @@
+{
+  "url": "https://ted.dev/",
+  "requestedUrl": "https://ted.dev/",
+  "timestamp": 1666583096471,
+  "ranks": {
+    "hundos": 585,
+    "performance": 634,
+    "accessibility": 329,
+    "cumulative": 584
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 0.83,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 0.92,
+    "total": 375
+  },
+  "firstContentfulPaint": 2015.452,
+  "firstMeaningfulPaint": 2015.452,
+  "speedIndex": 2015.452,
+  "largestContentfulPaint": 2015.452,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.7650273301866319,
+  "timeToInteractive": 2015.452,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 42.28399999999999,
+  "weight": {
+    "summary": "16 requests • 104 KiB",
+    "total": 106151,
+    "image": 0,
+    "imageCount": 0,
+    "script": 19194,
+    "scriptCount": 4,
+    "document": 10143,
+    "font": 65454,
+    "fontCount": 5,
+    "stylesheet": 10431,
+    "stylesheetCount": 3,
+    "thirdParty": 86805,
+    "thirdPartyCount": 12
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 255,
+    "+weight.total": 490,
+    "-weight.document": 498,
+    "+weight.document": 230,
+    "-weight.script": 253,
+    "+weight.script": 268,
+    "-weight.image": 1,
+    "+weight.image": 569,
+    "-weight.font": 259,
+    "+weight.font": 241,
+    "+weight.fontCount": 11,
+    "-timeToFirstByte": 133,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 484
+  },
+  "axe": {
+    "passes": 217,
+    "violations": 1
+  }
+}

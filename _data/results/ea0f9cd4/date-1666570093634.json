@@ -1,0 +1,67 @@
+{
+  "url": "https://www.leogenerali.com/",
+  "requestedUrl": "https://www.leogenerali.com/",
+  "timestamp": 1666584708525,
+  "ranks": {
+    "hundos": 150,
+    "performance": 295,
+    "accessibility": 348,
+    "cumulative": 165
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 902.915,
+  "firstMeaningfulPaint": 902.915,
+  "speedIndex": 2639.433702000104,
+  "largestContentfulPaint": 902.915,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.0031270556979709203,
+  "timeToInteractive": 915.415,
+  "maxPotentialFirstInputDelay": 56,
+  "timeToFirstByte": 1175.661,
+  "weight": {
+    "summary": "3 requests • 49 KiB",
+    "total": 49954,
+    "image": 0,
+    "imageCount": 0,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 1255,
+    "font": 44219,
+    "fontCount": 1,
+    "stylesheet": 4480,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 160,
+    "+weight.total": 585,
+    "-weight.document": 18,
+    "+weight.document": 710,
+    "-weight.script": 1,
+    "+weight.script": 521,
+    "-weight.image": 1,
+    "+weight.image": 569,
+    "-weight.font": 182,
+    "+weight.font": 318,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 698,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 79
+  },
+  "axe": {
+    "passes": 96,
+    "violations": 1
+  }
+}

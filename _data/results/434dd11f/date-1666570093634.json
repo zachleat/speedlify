@@ -1,0 +1,67 @@
+{
+  "url": "https://andrewweisbeck.blog/",
+  "requestedUrl": "https://andrewweisbeck.blog/",
+  "timestamp": 1666595363857,
+  "ranks": {
+    "hundos": 112,
+    "performance": 209,
+    "accessibility": 268,
+    "cumulative": 81
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 891.52,
+  "firstMeaningfulPaint": 891.52,
+  "speedIndex": 1364.4662698353104,
+  "largestContentfulPaint": 891.52,
+  "totalBlockingTime": 17,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1982.4099999999999,
+  "maxPotentialFirstInputDelay": 67,
+  "timeToFirstByte": 150.35299999999998,
+  "weight": {
+    "summary": "2 requests • 55 KiB",
+    "total": 56642,
+    "image": 0,
+    "imageCount": 0,
+    "script": 54884,
+    "scriptCount": 1,
+    "document": 1758,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 54884,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 174,
+    "+weight.total": 571,
+    "-weight.document": 49,
+    "+weight.document": 679,
+    "-weight.script": 321,
+    "+weight.script": 200,
+    "-weight.image": 1,
+    "+weight.image": 569,
+    "-weight.font": 1,
+    "+weight.font": 500,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 527,
+    "-totalBlockingTime": 42,
+    "-largestContentfulPaint": 64
+  },
+  "axe": {
+    "passes": 81,
+    "violations": 0
+  }
+}

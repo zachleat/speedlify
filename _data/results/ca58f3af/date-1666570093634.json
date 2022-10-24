@@ -1,0 +1,67 @@
+{
+  "url": "https://beeps.website/",
+  "requestedUrl": "https://berly.kim/",
+  "timestamp": 1666594915455,
+  "ranks": {
+    "hundos": 407,
+    "performance": 574,
+    "accessibility": 200,
+    "cumulative": 400
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 0.91,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 391
+  },
+  "firstContentfulPaint": 2699.227,
+  "firstMeaningfulPaint": 2699.227,
+  "speedIndex": 3085.399978001069,
+  "largestContentfulPaint": 2699.227,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.05897840711805556,
+  "timeToInteractive": 2699.227,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 140.254,
+  "weight": {
+    "summary": "7 requests • 113 KiB",
+    "total": 115523,
+    "image": 75054,
+    "imageCount": 1,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 2285,
+    "font": 31376,
+    "fontCount": 2,
+    "stylesheet": 6731,
+    "stylesheetCount": 2,
+    "thirdParty": 32556,
+    "thirdPartyCount": 4
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 268,
+    "+weight.total": 477,
+    "-weight.document": 97,
+    "+weight.document": 631,
+    "-weight.script": 1,
+    "+weight.script": 521,
+    "-weight.image": 230,
+    "+weight.image": 339,
+    "-weight.font": 115,
+    "+weight.font": 385,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 504,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 587
+  },
+  "axe": {
+    "passes": 175,
+    "violations": 0
+  }
+}

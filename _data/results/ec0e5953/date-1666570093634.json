@@ -1,0 +1,67 @@
+{
+  "url": "https://www.tempertemper.net/",
+  "requestedUrl": "https://www.tempertemper.net/",
+  "timestamp": 1666587674159,
+  "ranks": {
+    "hundos": 31,
+    "performance": 10,
+    "accessibility": 80,
+    "cumulative": 24
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 833.561,
+  "firstMeaningfulPaint": 833.561,
+  "speedIndex": 833.561,
+  "largestContentfulPaint": 833.561,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.004351821475558811,
+  "timeToInteractive": 846.061,
+  "maxPotentialFirstInputDelay": 57,
+  "timeToFirstByte": 45.083,
+  "weight": {
+    "summary": "6 requests • 106 KiB",
+    "total": 108209,
+    "image": 0,
+    "imageCount": 0,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 8618,
+    "font": 96130,
+    "fontCount": 3,
+    "stylesheet": 3461,
+    "stylesheetCount": 2,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 258,
+    "+weight.total": 487,
+    "-weight.document": 461,
+    "+weight.document": 267,
+    "-weight.script": 1,
+    "+weight.script": 521,
+    "-weight.image": 1,
+    "+weight.image": 569,
+    "-weight.font": 333,
+    "+weight.font": 167,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 206,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 26
+  },
+  "axe": {
+    "passes": 392,
+    "violations": 0
+  }
+}

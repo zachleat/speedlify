@@ -1,0 +1,67 @@
+{
+  "url": "https://brianjdevries.com/",
+  "requestedUrl": "https://brianjdevries.com/",
+  "timestamp": 1666570501028,
+  "ranks": {
+    "hundos": 391,
+    "performance": 275,
+    "accessibility": 338,
+    "cumulative": 379
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 0.92,
+    "seo": 1,
+    "total": 392
+  },
+  "firstContentfulPaint": 930.212,
+  "firstMeaningfulPaint": 930.212,
+  "speedIndex": 2122.122903999998,
+  "largestContentfulPaint": 1609.864,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 930.212,
+  "maxPotentialFirstInputDelay": 49,
+  "timeToFirstByte": 122.76499999999999,
+  "weight": {
+    "summary": "8 requests • 20 KiB",
+    "total": 20566,
+    "image": 12512,
+    "imageCount": 3,
+    "script": 3243,
+    "scriptCount": 1,
+    "document": 2012,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 2799,
+    "stylesheetCount": 3,
+    "thirdParty": 3952,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 81,
+    "+weight.total": 664,
+    "-weight.document": 70,
+    "+weight.document": 658,
+    "-weight.script": 118,
+    "+weight.script": 403,
+    "-weight.image": 94,
+    "+weight.image": 475,
+    "-weight.font": 1,
+    "+weight.font": 500,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 454,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 357
+  },
+  "axe": {
+    "passes": 172,
+    "violations": 1
+  }
+}

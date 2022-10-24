@@ -1,0 +1,67 @@
+{
+  "url": "https://kleinfreund.de/",
+  "requestedUrl": "https://kleinfreund.de/",
+  "timestamp": 1666599474470,
+  "ranks": {
+    "hundos": 182,
+    "performance": 135,
+    "accessibility": 278,
+    "cumulative": 130
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 806.988,
+  "firstMeaningfulPaint": 806.988,
+  "speedIndex": 1118.08140000121,
+  "largestContentfulPaint": 806.988,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 806.988,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 119.971,
+  "weight": {
+    "summary": "1 request • 4 KiB",
+    "total": 4345,
+    "image": 0,
+    "imageCount": 0,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 4345,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 21,
+    "+weight.total": 724,
+    "-weight.document": 254,
+    "+weight.document": 474,
+    "-weight.script": 1,
+    "+weight.script": 521,
+    "-weight.image": 1,
+    "+weight.image": 569,
+    "-weight.font": 1,
+    "+weight.font": 500,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 445,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 12
+  },
+  "axe": {
+    "passes": 54,
+    "violations": 0
+  }
+}

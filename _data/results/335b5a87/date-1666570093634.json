@@ -1,0 +1,67 @@
+{
+  "url": "https://alistairshepherd.uk/",
+  "requestedUrl": "https://alistairshepherd.uk/",
+  "timestamp": 1666571169806,
+  "ranks": {
+    "hundos": 96,
+    "performance": 226,
+    "accessibility": 62,
+    "cumulative": 69
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 1202.883,
+  "firstMeaningfulPaint": 1202.883,
+  "speedIndex": 1523.0421980001217,
+  "largestContentfulPaint": 1326.883,
+  "totalBlockingTime": 12,
+  "cumulativeLayoutShift": 0.000936006334092882,
+  "timeToInteractive": 1264.883,
+  "maxPotentialFirstInputDelay": 63,
+  "timeToFirstByte": 43.835000000000036,
+  "weight": {
+    "summary": "13 requests • 186 KiB",
+    "total": 190546,
+    "image": 0,
+    "imageCount": 0,
+    "script": 13001,
+    "scriptCount": 2,
+    "document": 34011,
+    "font": 24096,
+    "fontCount": 2,
+    "stylesheet": 1652,
+    "stylesheetCount": 2,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 368,
+    "+weight.total": 377,
+    "-weight.document": 670,
+    "+weight.document": 58,
+    "-weight.script": 225,
+    "+weight.script": 296,
+    "-weight.image": 1,
+    "+weight.image": 569,
+    "-weight.font": 80,
+    "+weight.font": 420,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 194,
+    "-totalBlockingTime": 33,
+    "-largestContentfulPaint": 287
+  },
+  "axe": {
+    "passes": 456,
+    "violations": 0
+  }
+}

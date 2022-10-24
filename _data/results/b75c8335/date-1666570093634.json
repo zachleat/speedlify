@@ -1,0 +1,66 @@
+{
+  "url": "https://cg21.in/",
+  "requestedUrl": "https://cg21.in/",
+  "timestamp": 1666587016420,
+  "ranks": {
+    "hundos": 684,
+    "performance": 729,
+    "accessibility": 467,
+    "cumulative": 684
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 0.52,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 352
+  },
+  "firstContentfulPaint": 942.784,
+  "firstMeaningfulPaint": 942.784,
+  "speedIndex": 7987.611086114255,
+  "largestContentfulPaint": 1155.784,
+  "totalBlockingTime": 165060,
+  "cumulativeLayoutShift": 0.001869785785675049,
+  "timeToInteractive": 178865.78399999999,
+  "maxPotentialFirstInputDelay": 1008.0000000000005,
+  "timeToFirstByte": 42.51299999999998,
+  "weight": {
+    "summary": "12 requests • 209 KiB",
+    "total": 213941,
+    "image": 102566,
+    "imageCount": 5,
+    "script": 63096,
+    "scriptCount": 4,
+    "document": 13967,
+    "font": 34312,
+    "fontCount": 2,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 54883,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 399,
+    "+weight.total": 346,
+    "-weight.document": 577,
+    "+weight.document": 151,
+    "-weight.script": 336,
+    "+weight.script": 185,
+    "-weight.image": 265,
+    "+weight.image": 304,
+    "-weight.font": 134,
+    "+weight.font": 366,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 149,
+    "-totalBlockingTime": 193,
+    "-largestContentfulPaint": 239
+  },
+  "axe": {
+    "error": "{\"name\":\"TimeoutError\"}"
+  }
+}

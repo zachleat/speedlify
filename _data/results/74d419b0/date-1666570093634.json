@@ -1,0 +1,67 @@
+{
+  "url": "https://www.mllongworth.com/",
+  "requestedUrl": "https://www.mllongworth.com/",
+  "timestamp": 1666590592964,
+  "ranks": {
+    "hundos": 3,
+    "performance": 191,
+    "accessibility": 332,
+    "cumulative": 143
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 921.7149999999999,
+  "firstMeaningfulPaint": 1340.4229999999998,
+  "speedIndex": 1309.5390819995555,
+  "largestContentfulPaint": 1167.187,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.0001430617438422309,
+  "timeToInteractive": 1340.4229999999998,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 43.144000000000005,
+  "weight": {
+    "summary": "14 requests • 617 KiB",
+    "total": 631333,
+    "image": 514797,
+    "imageCount": 7,
+    "script": 7063,
+    "scriptCount": 1,
+    "document": 11935,
+    "font": 79254,
+    "fontCount": 3,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 202774,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 583,
+    "+weight.total": 162,
+    "-weight.document": 541,
+    "+weight.document": 187,
+    "-weight.script": 181,
+    "+weight.script": 340,
+    "-weight.image": 456,
+    "+weight.image": 113,
+    "-weight.font": 305,
+    "+weight.font": 195,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 177,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 242
+  },
+  "axe": {
+    "passes": 196,
+    "violations": 1
+  }
+}

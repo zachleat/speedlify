@@ -1,0 +1,67 @@
+{
+  "url": "https://www.seancdavis.com/",
+  "requestedUrl": "https://www.seancdavis.com/",
+  "timestamp": 1666593895760,
+  "ranks": {
+    "hundos": 511,
+    "performance": 581,
+    "accessibility": 613,
+    "cumulative": 518
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 0.9,
+    "accessibility": 0.94,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 384
+  },
+  "firstContentfulPaint": 1098.8720000000003,
+  "firstMeaningfulPaint": 1098.8720000000003,
+  "speedIndex": 1263.3379352427382,
+  "largestContentfulPaint": 1833.4605000000001,
+  "totalBlockingTime": 112.5,
+  "cumulativeLayoutShift": 0.213382568359375,
+  "timeToInteractive": 4809.249500000002,
+  "maxPotentialFirstInputDelay": 110,
+  "timeToFirstByte": 195.65099999999998,
+  "weight": {
+    "summary": "26 requests • 556 KiB",
+    "total": 569569,
+    "image": 340823,
+    "imageCount": 15,
+    "script": 118317,
+    "scriptCount": 3,
+    "document": 15670,
+    "font": 85578,
+    "fontCount": 5,
+    "stylesheet": 8973,
+    "stylesheetCount": 1,
+    "thirdParty": 404414,
+    "thirdPartyCount": 17
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 569,
+    "+weight.total": 176,
+    "-weight.document": 593,
+    "+weight.document": 135,
+    "-weight.script": 418,
+    "+weight.script": 103,
+    "-weight.image": 402,
+    "+weight.image": 167,
+    "-weight.font": 317,
+    "+weight.font": 183,
+    "+weight.fontCount": 11,
+    "-timeToFirstByte": 577,
+    "-totalBlockingTime": 113,
+    "-largestContentfulPaint": 435
+  },
+  "axe": {
+    "passes": 849,
+    "violations": 30
+  }
+}

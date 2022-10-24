@@ -1,0 +1,67 @@
+{
+  "url": "https://mindos.in/",
+  "requestedUrl": "https://mindos.in/",
+  "timestamp": 1666591721640,
+  "ranks": {
+    "hundos": 681,
+    "performance": 696,
+    "accessibility": 536,
+    "cumulative": 681
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 0.7,
+    "accessibility": 0.97,
+    "bestPractices": 0.92,
+    "seo": 0.93,
+    "total": 352
+  },
+  "firstContentfulPaint": 3116.2110000000002,
+  "firstMeaningfulPaint": 3116.2110000000002,
+  "speedIndex": 7971.410358822117,
+  "largestContentfulPaint": 3116.2110000000002,
+  "totalBlockingTime": 223.5,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 8514.225,
+  "maxPotentialFirstInputDelay": 369,
+  "timeToFirstByte": 270.5590000000002,
+  "weight": {
+    "summary": "24 requests • 1,067 KiB",
+    "total": 1092634,
+    "image": 171313,
+    "imageCount": 7,
+    "script": 766518,
+    "scriptCount": 9,
+    "document": 19115,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 135346,
+    "stylesheetCount": 5,
+    "thirdParty": 893504,
+    "thirdPartyCount": 16
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 645,
+    "+weight.total": 100,
+    "-weight.document": 624,
+    "+weight.document": 104,
+    "-weight.script": 510,
+    "+weight.script": 11,
+    "-weight.image": 329,
+    "+weight.image": 240,
+    "-weight.font": 1,
+    "+weight.font": 500,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 611,
+    "-totalBlockingTime": 145,
+    "-largestContentfulPaint": 623
+  },
+  "axe": {
+    "passes": 509,
+    "violations": 13
+  }
+}

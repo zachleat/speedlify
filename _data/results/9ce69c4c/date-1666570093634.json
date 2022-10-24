@@ -1,0 +1,67 @@
+{
+  "url": "https://progression.co/",
+  "requestedUrl": "https://progressionapp.com/",
+  "timestamp": 1666584782041,
+  "ranks": {
+    "hundos": 702,
+    "performance": 706,
+    "accessibility": 617,
+    "cumulative": 703
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 0.67,
+    "accessibility": 0.94,
+    "bestPractices": 0.92,
+    "seo": 0.92,
+    "total": 345
+  },
+  "firstContentfulPaint": 3335.7340000000004,
+  "firstMeaningfulPaint": 3335.7340000000004,
+  "speedIndex": 5693.025436491602,
+  "largestContentfulPaint": 3490.7000000000003,
+  "totalBlockingTime": 209.5,
+  "cumulativeLayoutShift": 0.08363446235656738,
+  "timeToInteractive": 14498.839999999997,
+  "maxPotentialFirstInputDelay": 227,
+  "timeToFirstByte": 66.482,
+  "weight": {
+    "summary": "62 requests • 2,013 KiB",
+    "total": 2061778,
+    "image": 478502,
+    "imageCount": 28,
+    "script": 671981,
+    "scriptCount": 23,
+    "document": 11406,
+    "font": 876360,
+    "fontCount": 3,
+    "stylesheet": 12109,
+    "stylesheetCount": 1,
+    "thirdParty": 1989346,
+    "thirdPartyCount": 53
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 696,
+    "+weight.total": 49,
+    "-weight.document": 528,
+    "+weight.document": 200,
+    "-weight.script": 503,
+    "+weight.script": 18,
+    "-weight.image": 443,
+    "+weight.image": 126,
+    "-weight.font": 494,
+    "+weight.font": 6,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 338,
+    "-totalBlockingTime": 141,
+    "-largestContentfulPaint": 653
+  },
+  "axe": {
+    "passes": 881,
+    "violations": 58
+  }
+}

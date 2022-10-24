@@ -1,0 +1,67 @@
+{
+  "url": "https://davidrhoden.com/",
+  "requestedUrl": "https://davidrhoden.com/",
+  "timestamp": 1666589872557,
+  "ranks": {
+    "hundos": 660,
+    "performance": 694,
+    "accessibility": 524,
+    "cumulative": 659
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 0.7,
+    "accessibility": 0.97,
+    "bestPractices": 0.92,
+    "seo": 1,
+    "total": 359
+  },
+  "firstContentfulPaint": 2800.7029999999995,
+  "firstMeaningfulPaint": 2800.7029999999995,
+  "speedIndex": 3500.982901912952,
+  "largestContentfulPaint": 6038.42,
+  "totalBlockingTime": 75.5,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 4850.928,
+  "maxPotentialFirstInputDelay": 89,
+  "timeToFirstByte": 59.46700000000001,
+  "weight": {
+    "summary": "35 requests • 1,223 KiB",
+    "total": 1252646,
+    "image": 809625,
+    "imageCount": 12,
+    "script": 283276,
+    "scriptCount": 9,
+    "document": 38857,
+    "font": 102994,
+    "fontCount": 4,
+    "stylesheet": 17547,
+    "stylesheetCount": 8,
+    "thirdParty": 370172,
+    "thirdPartyCount": 24
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 661,
+    "+weight.total": 84,
+    "-weight.document": 680,
+    "+weight.document": 48,
+    "-weight.script": 468,
+    "+weight.script": 53,
+    "-weight.image": 491,
+    "+weight.image": 78,
+    "-weight.font": 346,
+    "+weight.font": 154,
+    "+weight.fontCount": 12,
+    "-timeToFirstByte": 287,
+    "-totalBlockingTime": 97,
+    "-largestContentfulPaint": 714
+  },
+  "axe": {
+    "passes": 210,
+    "violations": 6
+  }
+}

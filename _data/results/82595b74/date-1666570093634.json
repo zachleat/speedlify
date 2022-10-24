@@ -1,0 +1,67 @@
+{
+  "url": "https://frontendweekly.tokyo/",
+  "requestedUrl": "https://frontendweekly.tokyo/",
+  "timestamp": 1666587081810,
+  "ranks": {
+    "hundos": 309,
+    "performance": 489,
+    "accessibility": 155,
+    "cumulative": 296
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 0.96,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 396
+  },
+  "firstContentfulPaint": 938.6310000000003,
+  "firstMeaningfulPaint": 938.6310000000003,
+  "speedIndex": 5194.814737997591,
+  "largestContentfulPaint": 938.6310000000003,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 938.6310000000003,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 42.958000000000084,
+  "weight": {
+    "summary": "1 request • 8 KiB",
+    "total": 8356,
+    "image": 0,
+    "imageCount": 0,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 8356,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 46,
+    "+weight.total": 699,
+    "-weight.document": 449,
+    "+weight.document": 279,
+    "-weight.script": 1,
+    "+weight.script": 521,
+    "-weight.image": 1,
+    "+weight.image": 569,
+    "-weight.font": 1,
+    "+weight.font": 500,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 169,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 105
+  },
+  "axe": {
+    "passes": 233,
+    "violations": 0
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://danielshaw.co.nz/",
+  "requestedUrl": "https://danielshaw.co.nz/",
+  "timestamp": 1666584115362,
+  "ranks": {
+    "hundos": 83,
+    "performance": 284,
+    "accessibility": 45,
+    "cumulative": 57
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 1340.1974999999998,
+  "firstMeaningfulPaint": 1340.1974999999998,
+  "speedIndex": 2331.8510719996457,
+  "largestContentfulPaint": 1340.1974999999998,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.002867148399353027,
+  "timeToInteractive": 1340.1974999999998,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 209.95599999999996,
+  "weight": {
+    "summary": "8 requests • 185 KiB",
+    "total": 189377,
+    "image": 58044,
+    "imageCount": 1,
+    "script": 2631,
+    "scriptCount": 1,
+    "document": 11955,
+    "font": 111495,
+    "fontCount": 4,
+    "stylesheet": 5252,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 365,
+    "+weight.total": 380,
+    "-weight.document": 542,
+    "+weight.document": 186,
+    "-weight.script": 102,
+    "+weight.script": 419,
+    "-weight.image": 204,
+    "+weight.image": 365,
+    "-weight.font": 360,
+    "+weight.font": 140,
+    "+weight.fontCount": 12,
+    "-timeToFirstByte": 590,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 292
+  },
+  "axe": {
+    "passes": 581,
+    "violations": 0
+  }
+}

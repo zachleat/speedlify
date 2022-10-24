@@ -1,0 +1,67 @@
+{
+  "url": "https://splatoon.phoebeivy.dev/",
+  "requestedUrl": "https://splatoon.phoebeivy.dev/",
+  "timestamp": 1666585006081,
+  "ranks": {
+    "hundos": 566,
+    "performance": 660,
+    "accessibility": 408,
+    "cumulative": 567
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 0.78,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 378
+  },
+  "firstContentfulPaint": 1083.3090000000002,
+  "firstMeaningfulPaint": 1083.3090000000002,
+  "speedIndex": 1442.487990000675,
+  "largestContentfulPaint": 5851.104,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.021599239190419516,
+  "timeToInteractive": 1083.3090000000002,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 90.89799999999997,
+  "weight": {
+    "summary": "19 requests • 938 KiB",
+    "total": 960974,
+    "image": 885510,
+    "imageCount": 12,
+    "script": 1639,
+    "scriptCount": 1,
+    "document": 2919,
+    "font": 63237,
+    "fontCount": 4,
+    "stylesheet": 7669,
+    "stylesheetCount": 1,
+    "thirdParty": 79316,
+    "thirdPartyCount": 6
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 631,
+    "+weight.total": 114,
+    "-weight.document": 144,
+    "+weight.document": 584,
+    "-weight.script": 65,
+    "+weight.script": 456,
+    "-weight.image": 496,
+    "+weight.image": 73,
+    "-weight.font": 251,
+    "+weight.font": 249,
+    "+weight.fontCount": 12,
+    "-timeToFirstByte": 405,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 711
+  },
+  "axe": {
+    "passes": 580,
+    "violations": 5
+  }
+}

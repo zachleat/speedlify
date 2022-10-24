@@ -1,0 +1,67 @@
+{
+  "url": "https://www.robinbruidsjurken.nl/",
+  "requestedUrl": "https://www.robinbruidsjurken.nl/",
+  "timestamp": 1666571158199,
+  "ranks": {
+    "hundos": 575,
+    "performance": 649,
+    "accessibility": 578,
+    "cumulative": 578
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 0.81,
+    "accessibility": 0.96,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 377
+  },
+  "firstContentfulPaint": 1438.0890000000013,
+  "firstMeaningfulPaint": 1438.0890000000013,
+  "speedIndex": 8390.058669999922,
+  "largestContentfulPaint": 3670.9440000000054,
+  "totalBlockingTime": 6.999999999999773,
+  "cumulativeLayoutShift": 0.0017547607421875,
+  "timeToInteractive": 3391.8590000000004,
+  "maxPotentialFirstInputDelay": 57,
+  "timeToFirstByte": 223.4319999999998,
+  "weight": {
+    "summary": "29 requests • 828 KiB",
+    "total": 847642,
+    "image": 695973,
+    "imageCount": 21,
+    "script": 117598,
+    "scriptCount": 4,
+    "document": 12531,
+    "font": 12602,
+    "fontCount": 1,
+    "stylesheet": 8725,
+    "stylesheetCount": 1,
+    "thirdParty": 64786,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 620,
+    "+weight.total": 125,
+    "-weight.document": 552,
+    "+weight.document": 176,
+    "-weight.script": 415,
+    "+weight.script": 106,
+    "-weight.image": 480,
+    "+weight.image": 89,
+    "-weight.font": 21,
+    "+weight.font": 479,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 595,
+    "-totalBlockingTime": 21,
+    "-largestContentfulPaint": 658
+  },
+  "axe": {
+    "passes": 871,
+    "violations": 64
+  }
+}

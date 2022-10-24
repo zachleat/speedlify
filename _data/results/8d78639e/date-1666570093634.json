@@ -1,0 +1,67 @@
+{
+  "url": "https://coralseacablecompany.com/",
+  "requestedUrl": "https://coralseacablecompany.com/",
+  "timestamp": 1666588170988,
+  "ranks": {
+    "hundos": 695,
+    "performance": 723,
+    "accessibility": 605,
+    "cumulative": 695
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 0.56,
+    "accessibility": 0.94,
+    "bestPractices": 1,
+    "seo": 0.97,
+    "total": 347
+  },
+  "firstContentfulPaint": 2486.2039999999997,
+  "firstMeaningfulPaint": 4553.298000000001,
+  "speedIndex": 4628.956507684747,
+  "largestContentfulPaint": 9201.672000000002,
+  "totalBlockingTime": 270.5,
+  "cumulativeLayoutShift": 0.10432771444320678,
+  "timeToInteractive": 8183.8240000000005,
+  "maxPotentialFirstInputDelay": 394,
+  "timeToFirstByte": 50.364000000000004,
+  "weight": {
+    "summary": "24 requests • 1,207 KiB",
+    "total": 1235822,
+    "image": 366248,
+    "imageCount": 3,
+    "script": 670628,
+    "scriptCount": 11,
+    "document": 34102,
+    "font": 67003,
+    "fontCount": 4,
+    "stylesheet": 97517,
+    "stylesheetCount": 2,
+    "thirdParty": 1201396,
+    "thirdPartyCount": 20
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 659,
+    "+weight.total": 86,
+    "-weight.document": 671,
+    "+weight.document": 57,
+    "-weight.script": 500,
+    "+weight.script": 21,
+    "-weight.image": 410,
+    "+weight.image": 159,
+    "-weight.font": 265,
+    "+weight.font": 235,
+    "+weight.fontCount": 12,
+    "-timeToFirstByte": 226,
+    "-totalBlockingTime": 152,
+    "-largestContentfulPaint": 731
+  },
+  "axe": {
+    "passes": 355,
+    "violations": 3
+  }
+}

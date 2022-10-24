@@ -1,0 +1,67 @@
+{
+  "url": "https://brd.mn/",
+  "requestedUrl": "https://brd.mn/",
+  "timestamp": 1666598809655,
+  "ranks": {
+    "hundos": 388,
+    "performance": 93,
+    "accessibility": 237,
+    "cumulative": 373
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 0.92,
+    "seo": 1,
+    "total": 392
+  },
+  "firstContentfulPaint": 1021.222,
+  "firstMeaningfulPaint": 1021.222,
+  "speedIndex": 1021.222,
+  "largestContentfulPaint": 1021.222,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1021.222,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 253.80700000000002,
+  "weight": {
+    "summary": "3 requests • 24 KiB",
+    "total": 24461,
+    "image": 21300,
+    "imageCount": 2,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 3161,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 95,
+    "+weight.total": 650,
+    "-weight.document": 164,
+    "+weight.document": 564,
+    "-weight.script": 1,
+    "+weight.script": 521,
+    "-weight.image": 124,
+    "+weight.image": 445,
+    "-weight.font": 1,
+    "+weight.font": 500,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 608,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 169
+  },
+  "axe": {
+    "passes": 127,
+    "violations": 0
+  }
+}

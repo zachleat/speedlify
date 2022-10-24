@@ -1,0 +1,67 @@
+{
+  "url": "https://www.mikeaparicio.com/",
+  "requestedUrl": "https://www.mikeaparicio.com/",
+  "timestamp": 1666576046806,
+  "ranks": {
+    "hundos": 10,
+    "performance": 124,
+    "accessibility": 86,
+    "cumulative": 7
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 1060.5639999999999,
+  "firstMeaningfulPaint": 1060.5639999999999,
+  "speedIndex": 1082.1073000001543,
+  "largestContentfulPaint": 1060.5639999999999,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.0390352177090115,
+  "timeToInteractive": 1060.5639999999999,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 72.91200000000003,
+  "weight": {
+    "summary": "8 requests • 309 KiB",
+    "total": 316235,
+    "image": 167615,
+    "imageCount": 4,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 16965,
+    "font": 131655,
+    "fontCount": 3,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 470,
+    "+weight.total": 275,
+    "-weight.document": 609,
+    "+weight.document": 119,
+    "-weight.script": 1,
+    "+weight.script": 521,
+    "-weight.image": 324,
+    "+weight.image": 245,
+    "-weight.font": 379,
+    "+weight.font": 121,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 359,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 190
+  },
+  "axe": {
+    "passes": 377,
+    "violations": 0
+  }
+}

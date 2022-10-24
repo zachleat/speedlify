@@ -1,0 +1,67 @@
+{
+  "url": "https://darthmall.net/",
+  "requestedUrl": "https://darthmall.net/",
+  "timestamp": 1666599272428,
+  "ranks": {
+    "hundos": 513,
+    "performance": 109,
+    "accessibility": 328,
+    "cumulative": 511
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 0.92,
+    "seo": 0.92,
+    "total": 384
+  },
+  "firstContentfulPaint": 904.288,
+  "firstMeaningfulPaint": 904.288,
+  "speedIndex": 1048.6220520036711,
+  "largestContentfulPaint": 1455.288,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.0020993863344192505,
+  "timeToInteractive": 904.288,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 43.548,
+  "weight": {
+    "summary": "12 requests • 98 KiB",
+    "total": 100496,
+    "image": 7091,
+    "imageCount": 2,
+    "script": 759,
+    "scriptCount": 1,
+    "document": 2814,
+    "font": 84759,
+    "fontCount": 2,
+    "stylesheet": 5073,
+    "stylesheetCount": 6,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 243,
+    "+weight.total": 502,
+    "-weight.document": 137,
+    "+weight.document": 591,
+    "-weight.script": 19,
+    "+weight.script": 502,
+    "-weight.image": 63,
+    "+weight.image": 506,
+    "-weight.font": 316,
+    "+weight.font": 184,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 191,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 318
+  },
+  "axe": {
+    "passes": 222,
+    "violations": 1
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://seasonal.today/",
+  "requestedUrl": "https://seasonal.today/",
+  "timestamp": 1666575656283,
+  "ranks": {
+    "hundos": 46,
+    "performance": 118,
+    "accessibility": 464,
+    "cumulative": 196
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 1069.912,
+  "firstMeaningfulPaint": 1069.912,
+  "speedIndex": 1069.912,
+  "largestContentfulPaint": 1069.912,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1069.912,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 53.82899999999998,
+  "weight": {
+    "summary": "58 requests • 111 KiB",
+    "total": 113463,
+    "image": 103996,
+    "imageCount": 55,
+    "script": 1913,
+    "scriptCount": 2,
+    "document": 7554,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 1301,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 265,
+    "+weight.total": 480,
+    "-weight.document": 421,
+    "+weight.document": 307,
+    "-weight.script": 84,
+    "+weight.script": 437,
+    "-weight.image": 268,
+    "+weight.image": 301,
+    "-weight.font": 1,
+    "+weight.font": 500,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 254,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 197
+  },
+  "axe": {
+    "passes": 445,
+    "violations": 56
+  }
+}

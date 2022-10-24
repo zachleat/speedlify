@@ -1,0 +1,67 @@
+{
+  "url": "https://deuso.de/",
+  "requestedUrl": "https://deuso.de/",
+  "timestamp": 1666584067711,
+  "ranks": {
+    "hundos": 621,
+    "performance": 577,
+    "accessibility": 662,
+    "cumulative": 620
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 0.91,
+    "accessibility": 0.9,
+    "bestPractices": 1,
+    "seo": 0.88,
+    "total": 369
+  },
+  "firstContentfulPaint": 1783.426,
+  "firstMeaningfulPaint": 1783.426,
+  "speedIndex": 5033.426569772337,
+  "largestContentfulPaint": 2816.8520000000003,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.00008707173665364582,
+  "timeToInteractive": 1783.426,
+  "maxPotentialFirstInputDelay": 21.5,
+  "timeToFirstByte": 125.35300000000007,
+  "weight": {
+    "summary": "13 requests • 68 KiB",
+    "total": 69981,
+    "image": 5745,
+    "imageCount": 3,
+    "script": 9578,
+    "scriptCount": 3,
+    "document": 2533,
+    "font": 37656,
+    "fontCount": 3,
+    "stylesheet": 14469,
+    "stylesheetCount": 3,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 187,
+    "+weight.total": 558,
+    "-weight.document": 117,
+    "+weight.document": 611,
+    "-weight.script": 207,
+    "+weight.script": 314,
+    "-weight.image": 55,
+    "+weight.image": 514,
+    "-weight.font": 150,
+    "+weight.font": 350,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 460,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 604
+  },
+  "axe": {
+    "passes": 155,
+    "violations": 18
+  }
+}

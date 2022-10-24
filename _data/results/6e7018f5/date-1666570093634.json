@@ -1,0 +1,67 @@
+{
+  "url": "https://castmill.com/",
+  "requestedUrl": "https://castmill.com/",
+  "timestamp": 1666598432949,
+  "ranks": {
+    "hundos": 669,
+    "performance": 674,
+    "accessibility": 486,
+    "cumulative": 670
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 0.75,
+    "accessibility": 0.98,
+    "bestPractices": 0.83,
+    "seo": 1,
+    "total": 356
+  },
+  "firstContentfulPaint": 2440.8230000000003,
+  "firstMeaningfulPaint": 2440.8230000000003,
+  "speedIndex": 4517.855508734662,
+  "largestContentfulPaint": 3341.333,
+  "totalBlockingTime": 259.5,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 8300.395,
+  "maxPotentialFirstInputDelay": 433,
+  "timeToFirstByte": 154.469,
+  "weight": {
+    "summary": "38 requests • 2,067 KiB",
+    "total": 2116859,
+    "image": 1604715,
+    "imageCount": 19,
+    "script": 347965,
+    "scriptCount": 8,
+    "document": 11275,
+    "font": 95157,
+    "fontCount": 1,
+    "stylesheet": 49992,
+    "stylesheetCount": 3,
+    "thirdParty": 1009658,
+    "thirdPartyCount": 26
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 699,
+    "+weight.total": 46,
+    "-weight.document": 523,
+    "+weight.document": 205,
+    "-weight.script": 480,
+    "+weight.script": 41,
+    "-weight.image": 527,
+    "+weight.image": 42,
+    "-weight.font": 331,
+    "+weight.font": 169,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 533,
+    "-totalBlockingTime": 151,
+    "-largestContentfulPaint": 644
+  },
+  "axe": {
+    "passes": 436,
+    "violations": 6
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://fershad.com/",
+  "requestedUrl": "https://fershad.com/",
+  "timestamp": 1666593336613,
+  "ranks": {
+    "hundos": 505,
+    "performance": 95,
+    "accessibility": 647,
+    "cumulative": 505
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 1,
+    "accessibility": 0.91,
+    "bestPractices": 1,
+    "seo": 0.93,
+    "total": 384
+  },
+  "firstContentfulPaint": 1024.386,
+  "firstMeaningfulPaint": 1036.386,
+  "speedIndex": 1024.386,
+  "largestContentfulPaint": 1036.386,
+  "totalBlockingTime": 2.5,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1085.886,
+  "maxPotentialFirstInputDelay": 55,
+  "timeToFirstByte": 86.334,
+  "weight": {
+    "summary": "10 requests • 92 KiB",
+    "total": 93808,
+    "image": 77666,
+    "imageCount": 5,
+    "script": 5782,
+    "scriptCount": 3,
+    "document": 7423,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 2937,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 232,
+    "+weight.total": 513,
+    "-weight.document": 412,
+    "+weight.document": 316,
+    "-weight.script": 162,
+    "+weight.script": 359,
+    "-weight.image": 234,
+    "+weight.image": 335,
+    "-weight.font": 1,
+    "+weight.font": 500,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 382,
+    "-totalBlockingTime": 8,
+    "-largestContentfulPaint": 181
+  },
+  "axe": {
+    "passes": 378,
+    "violations": 4
+  }
+}

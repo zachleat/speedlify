@@ -1,0 +1,67 @@
+{
+  "url": "https://scottmccracken.net/",
+  "requestedUrl": "https://scottmccracken.net/",
+  "timestamp": 1666593478181,
+  "ranks": {
+    "hundos": 359,
+    "performance": 510,
+    "accessibility": 120,
+    "cumulative": 352
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 0.95,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 0.98,
+    "total": 393
+  },
+  "firstContentfulPaint": 972.428,
+  "firstMeaningfulPaint": 1821.4279999999999,
+  "speedIndex": 3018.3299999989454,
+  "largestContentfulPaint": 1821.4279999999999,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.15691108576456708,
+  "timeToInteractive": 1821.4279999999999,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 1331.1899999999998,
+  "weight": {
+    "summary": "2 requests • 165 KiB",
+    "total": 169135,
+    "image": 0,
+    "imageCount": 0,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 5190,
+    "font": 163945,
+    "fontCount": 1,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 338,
+    "+weight.total": 407,
+    "-weight.document": 308,
+    "+weight.document": 420,
+    "-weight.script": 1,
+    "+weight.script": 521,
+    "-weight.image": 1,
+    "+weight.image": 569,
+    "-weight.font": 412,
+    "+weight.font": 88,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 724,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 432
+  },
+  "axe": {
+    "passes": 279,
+    "violations": 0
+  }
+}

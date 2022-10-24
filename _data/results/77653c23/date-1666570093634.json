@@ -1,0 +1,67 @@
+{
+  "url": "https://noelle.dev/",
+  "requestedUrl": "https://noelle.dev/",
+  "timestamp": 1666574644323,
+  "ranks": {
+    "hundos": 179,
+    "performance": 251,
+    "accessibility": 212,
+    "cumulative": 127
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 778.939,
+  "firstMeaningfulPaint": 798.939,
+  "speedIndex": 1684.5454149864636,
+  "largestContentfulPaint": 798.939,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 798.939,
+  "maxPotentialFirstInputDelay": 40,
+  "timeToFirstByte": 66.90199999999999,
+  "weight": {
+    "summary": "7 requests • 7 KiB",
+    "total": 7602,
+    "image": 393,
+    "imageCount": 1,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 2310,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 4899,
+    "stylesheetCount": 5,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 40,
+    "+weight.total": 705,
+    "-weight.document": 98,
+    "+weight.document": 630,
+    "-weight.script": 1,
+    "+weight.script": 521,
+    "-weight.image": 5,
+    "+weight.image": 564,
+    "-weight.font": 1,
+    "+weight.font": 500,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 339,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 6
+  },
+  "axe": {
+    "passes": 153,
+    "violations": 0
+  }
+}

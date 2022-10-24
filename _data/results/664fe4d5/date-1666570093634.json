@@ -1,0 +1,67 @@
+{
+  "url": "https://kurva.xyz/",
+  "requestedUrl": "https://kurva.xyz/",
+  "timestamp": 1666594998138,
+  "ranks": {
+    "hundos": 675,
+    "performance": 619,
+    "accessibility": 635,
+    "cumulative": 675
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 0.86,
+    "accessibility": 0.92,
+    "bestPractices": 0.92,
+    "seo": 0.84,
+    "total": 354
+  },
+  "firstContentfulPaint": 1649.935,
+  "firstMeaningfulPaint": 1649.935,
+  "speedIndex": 3376.667442122815,
+  "largestContentfulPaint": 3532.422,
+  "totalBlockingTime": 19.5,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 5278.5275,
+  "maxPotentialFirstInputDelay": 75,
+  "timeToFirstByte": 115.98500000000001,
+  "weight": {
+    "summary": "25 requests • 997 KiB",
+    "total": 1020681,
+    "image": 7257,
+    "imageCount": 2,
+    "script": 335523,
+    "scriptCount": 10,
+    "document": 4280,
+    "font": 637864,
+    "fontCount": 7,
+    "stylesheet": 35597,
+    "stylesheetCount": 2,
+    "thirdParty": 164680,
+    "thirdPartyCount": 11
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 637,
+    "+weight.total": 108,
+    "-weight.document": 246,
+    "+weight.document": 482,
+    "-weight.script": 478,
+    "+weight.script": 43,
+    "-weight.image": 67,
+    "+weight.image": 502,
+    "-weight.font": 492,
+    "+weight.font": 8,
+    "+weight.fontCount": 9,
+    "-timeToFirstByte": 436,
+    "-totalBlockingTime": 46,
+    "-largestContentfulPaint": 654
+  },
+  "axe": {
+    "passes": 444,
+    "violations": 5
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://ecsspert.com/",
+  "requestedUrl": "https://ecsspert.com/",
+  "timestamp": 1666579085924,
+  "ranks": {
+    "hundos": 287,
+    "performance": 123,
+    "accessibility": 509,
+    "cumulative": 280
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 1,
+    "accessibility": 0.97,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 397
+  },
+  "firstContentfulPaint": 946.705,
+  "firstMeaningfulPaint": 946.705,
+  "speedIndex": 1078.7562499978094,
+  "largestContentfulPaint": 946.705,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 946.705,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 43.56600000000003,
+  "weight": {
+    "summary": "3 requests • 6 KiB",
+    "total": 5863,
+    "image": 0,
+    "imageCount": 0,
+    "script": 3210,
+    "scriptCount": 1,
+    "document": 2216,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 437,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 28,
+    "+weight.total": 717,
+    "-weight.document": 90,
+    "+weight.document": 638,
+    "-weight.script": 115,
+    "+weight.script": 406,
+    "-weight.image": 1,
+    "+weight.image": 569,
+    "-weight.font": 1,
+    "+weight.font": 500,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 192,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 109
+  },
+  "axe": {
+    "passes": 63,
+    "violations": 1
+  }
+}

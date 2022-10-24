@@ -1,0 +1,67 @@
+{
+  "url": "https://mtman.ventures/",
+  "requestedUrl": "https://mtman.ventures/",
+  "timestamp": 1666585370151,
+  "ranks": {
+    "hundos": 527,
+    "performance": 463,
+    "accessibility": 608,
+    "cumulative": 528
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 0.97,
+    "accessibility": 0.94,
+    "bestPractices": 1,
+    "seo": 0.92,
+    "total": 383
+  },
+  "firstContentfulPaint": 1013.1800000000001,
+  "firstMeaningfulPaint": 1013.1800000000001,
+  "speedIndex": 2979.789181512261,
+  "largestContentfulPaint": 1013.1800000000001,
+  "totalBlockingTime": 5.5,
+  "cumulativeLayoutShift": 0.12010141372680665,
+  "timeToInteractive": 2222.1000000000004,
+  "maxPotentialFirstInputDelay": 61,
+  "timeToFirstByte": 1005.2250000000001,
+  "weight": {
+    "summary": "10 requests • 2,703 KiB",
+    "total": 2767586,
+    "image": 2708824,
+    "imageCount": 7,
+    "script": 54883,
+    "scriptCount": 1,
+    "document": 1813,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 2066,
+    "stylesheetCount": 1,
+    "thirdParty": 54883,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 716,
+    "+weight.total": 29,
+    "-weight.document": 56,
+    "+weight.document": 672,
+    "-weight.script": 320,
+    "+weight.script": 201,
+    "-weight.image": 547,
+    "+weight.image": 22,
+    "-weight.font": 1,
+    "+weight.font": 500,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 665,
+    "-totalBlockingTime": 17,
+    "-largestContentfulPaint": 163
+  },
+  "axe": {
+    "passes": 204,
+    "violations": 15
+  }
+}

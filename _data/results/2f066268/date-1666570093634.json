@@ -1,0 +1,67 @@
+{
+  "url": "https://www.stjaer.net/",
+  "requestedUrl": "https://www.stjaer.net/",
+  "timestamp": 1666585916182,
+  "ranks": {
+    "hundos": 48,
+    "performance": 264,
+    "accessibility": 85,
+    "cumulative": 32
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 1189.455,
+  "firstMeaningfulPaint": 1189.455,
+  "speedIndex": 1887.2164859991894,
+  "largestContentfulPaint": 1392.455,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1189.455,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 187.365,
+  "weight": {
+    "summary": "9 requests • 250 KiB",
+    "total": 256332,
+    "image": 245152,
+    "imageCount": 6,
+    "script": 821,
+    "scriptCount": 1,
+    "document": 4345,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 6014,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 439,
+    "+weight.total": 306,
+    "-weight.document": 254,
+    "+weight.document": 474,
+    "-weight.script": 22,
+    "+weight.script": 499,
+    "-weight.image": 375,
+    "+weight.image": 194,
+    "-weight.font": 1,
+    "+weight.font": 500,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 571,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 304
+  },
+  "axe": {
+    "passes": 381,
+    "violations": 0
+  }
+}

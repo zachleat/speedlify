@@ -1,0 +1,67 @@
+{
+  "url": "https://theo-courant.com/",
+  "requestedUrl": "https://theo-courant.com/",
+  "timestamp": 1666599577680,
+  "ranks": {
+    "hundos": 633,
+    "performance": 635,
+    "accessibility": 461,
+    "cumulative": 633
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 0.83,
+    "accessibility": 1,
+    "bestPractices": 0.83,
+    "seo": 0.99,
+    "total": 365
+  },
+  "firstContentfulPaint": 1591.6419999999998,
+  "firstMeaningfulPaint": 1843.8259999999998,
+  "speedIndex": 2208.8349624706084,
+  "largestContentfulPaint": 4601.009,
+  "totalBlockingTime": 8,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 2683.6459999999997,
+  "maxPotentialFirstInputDelay": 66,
+  "timeToFirstByte": 117.44000000000001,
+  "weight": {
+    "summary": "42 requests • 1,893 KiB",
+    "total": 1938000,
+    "image": 1837344,
+    "imageCount": 33,
+    "script": 11921,
+    "scriptCount": 3,
+    "document": 8216,
+    "font": 68648,
+    "fontCount": 3,
+    "stylesheet": 11871,
+    "stylesheetCount": 2,
+    "thirdParty": 1807476,
+    "thirdPartyCount": 29
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 692,
+    "+weight.total": 53,
+    "-weight.document": 446,
+    "+weight.document": 282,
+    "-weight.script": 221,
+    "+weight.script": 300,
+    "-weight.image": 534,
+    "+weight.image": 35,
+    "-weight.font": 272,
+    "+weight.font": 228,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 439,
+    "-totalBlockingTime": 24,
+    "-largestContentfulPaint": 691
+  },
+  "axe": {
+    "passes": 401,
+    "violations": 34
+  }
+}

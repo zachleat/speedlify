@@ -1,0 +1,67 @@
+{
+  "url": "https://kingdomcode.org.uk/",
+  "requestedUrl": "https://kingdomcode.org.uk/",
+  "timestamp": 1666586146711,
+  "ranks": {
+    "hundos": 592,
+    "performance": 500,
+    "accessibility": 573,
+    "cumulative": 594
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 0.95,
+    "accessibility": 0.96,
+    "bestPractices": 1,
+    "seo": 0.83,
+    "total": 374
+  },
+  "firstContentfulPaint": 1647.693,
+  "firstMeaningfulPaint": 1647.693,
+  "speedIndex": 1692.7614659992096,
+  "largestContentfulPaint": 2705.825,
+  "totalBlockingTime": 39,
+  "cumulativeLayoutShift": 0.005616330835554334,
+  "timeToInteractive": 3427.1165,
+  "maxPotentialFirstInputDelay": 128,
+  "timeToFirstByte": 59,
+  "weight": {
+    "summary": "13 requests • 238 KiB",
+    "total": 243804,
+    "image": 38610,
+    "imageCount": 2,
+    "script": 160081,
+    "scriptCount": 4,
+    "document": 3280,
+    "font": 31491,
+    "fontCount": 1,
+    "stylesheet": 10304,
+    "stylesheetCount": 3,
+    "thirdParty": 178872,
+    "thirdPartyCount": 7
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 428,
+    "+weight.total": 317,
+    "-weight.document": 174,
+    "+weight.document": 554,
+    "-weight.script": 442,
+    "+weight.script": 79,
+    "-weight.image": 170,
+    "+weight.image": 399,
+    "-weight.font": 117,
+    "+weight.font": 383,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 274,
+    "-totalBlockingTime": 71,
+    "-largestContentfulPaint": 588
+  },
+  "axe": {
+    "passes": 203,
+    "violations": 18
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://www.lamprecht-rechtsanwaelte.de/",
+  "requestedUrl": "https://www.lamprecht-rechtsanwaelte.de/",
+  "timestamp": 1666571640316,
+  "ranks": {
+    "hundos": 279,
+    "performance": 465,
+    "accessibility": 452,
+    "cumulative": 287
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 0.97,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 397
+  },
+  "firstContentfulPaint": 1142.7620000000002,
+  "firstMeaningfulPaint": 1142.7620000000002,
+  "speedIndex": 3098.7318938164963,
+  "largestContentfulPaint": 2269.1300000000006,
+  "totalBlockingTime": 48,
+  "cumulativeLayoutShift": 0.04087613805135091,
+  "timeToInteractive": 2799.4880000000003,
+  "maxPotentialFirstInputDelay": 128,
+  "timeToFirstByte": 211.03399999999988,
+  "weight": {
+    "summary": "11 requests • 210 KiB",
+    "total": 214728,
+    "image": 37375,
+    "imageCount": 1,
+    "script": 83878,
+    "scriptCount": 4,
+    "document": 27203,
+    "font": 51154,
+    "fontCount": 3,
+    "stylesheet": 15118,
+    "stylesheetCount": 2,
+    "thirdParty": 71407,
+    "thirdPartyCount": 4
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 400,
+    "+weight.total": 345,
+    "-weight.document": 656,
+    "+weight.document": 72,
+    "-weight.script": 389,
+    "+weight.script": 132,
+    "-weight.image": 166,
+    "+weight.image": 403,
+    "-weight.font": 209,
+    "+weight.font": 291,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 591,
+    "-totalBlockingTime": 78,
+    "-largestContentfulPaint": 539
+  },
+  "axe": {
+    "passes": 645,
+    "violations": 19
+  }
+}

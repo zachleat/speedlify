@@ -1,0 +1,67 @@
+{
+  "url": "https://binnyva.com/",
+  "requestedUrl": "https://binnyva.com/",
+  "timestamp": 1666572522912,
+  "ranks": {
+    "hundos": 602,
+    "performance": 646,
+    "accessibility": 346,
+    "cumulative": 602
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 0.81,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 0.91,
+    "total": 372
+  },
+  "firstContentfulPaint": 2437.495,
+  "firstMeaningfulPaint": 3337.495,
+  "speedIndex": 3164.048213999674,
+  "largestContentfulPaint": 4138.956,
+  "totalBlockingTime": 1.5,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 4218.386,
+  "maxPotentialFirstInputDelay": 53,
+  "timeToFirstByte": 264.14,
+  "weight": {
+    "summary": "12 requests • 327 KiB",
+    "total": 335186,
+    "image": 160183,
+    "imageCount": 1,
+    "script": 64512,
+    "scriptCount": 2,
+    "document": 1900,
+    "font": 94982,
+    "fontCount": 2,
+    "stylesheet": 13588,
+    "stylesheetCount": 5,
+    "thirdParty": 172266,
+    "thirdPartyCount": 8
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 483,
+    "+weight.total": 262,
+    "-weight.document": 62,
+    "+weight.document": 666,
+    "-weight.script": 342,
+    "+weight.script": 179,
+    "-weight.image": 321,
+    "+weight.image": 248,
+    "-weight.font": 330,
+    "+weight.font": 170,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 610,
+    "-totalBlockingTime": 6,
+    "-largestContentfulPaint": 681
+  },
+  "axe": {
+    "passes": 124,
+    "violations": 1
+  }
+}

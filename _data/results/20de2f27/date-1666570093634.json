@@ -1,0 +1,67 @@
+{
+  "url": "https://oldpersiangames.org/",
+  "requestedUrl": "https://oldpersiangames.org/",
+  "timestamp": 1666581019380,
+  "ranks": {
+    "hundos": 730,
+    "performance": 730,
+    "accessibility": 658,
+    "cumulative": 730
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 0.51,
+    "accessibility": 0.9,
+    "bestPractices": 0.92,
+    "seo": 0.85,
+    "total": 318
+  },
+  "firstContentfulPaint": 1450.3899999999999,
+  "firstMeaningfulPaint": 3860.8899999999994,
+  "speedIndex": 2947.0935119377837,
+  "largestContentfulPaint": 2144.39,
+  "totalBlockingTime": 2942.9999999999995,
+  "cumulativeLayoutShift": 0.8312926740646363,
+  "timeToInteractive": 5981.389999999999,
+  "maxPotentialFirstInputDelay": 3255.9999999999995,
+  "timeToFirstByte": 50.501000000000005,
+  "weight": {
+    "summary": "12 requests • 371 KiB",
+    "total": 379592,
+    "image": 141139,
+    "imageCount": 4,
+    "script": 72113,
+    "scriptCount": 1,
+    "document": 4194,
+    "font": 102166,
+    "fontCount": 2,
+    "stylesheet": 5619,
+    "stylesheetCount": 2,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 505,
+    "+weight.total": 240,
+    "-weight.document": 241,
+    "+weight.document": 487,
+    "-weight.script": 364,
+    "+weight.script": 157,
+    "-weight.image": 304,
+    "+weight.image": 265,
+    "-weight.font": 345,
+    "+weight.font": 155,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 229,
+    "-totalBlockingTime": 177,
+    "-largestContentfulPaint": 519
+  },
+  "axe": {
+    "passes": 1445,
+    "violations": 13
+  }
+}

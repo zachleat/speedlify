@@ -1,0 +1,67 @@
+{
+  "url": "https://jan.work/",
+  "requestedUrl": "https://jan.work/",
+  "timestamp": 1666585597855,
+  "ranks": {
+    "hundos": 516,
+    "performance": 358,
+    "accessibility": 629,
+    "cumulative": 516
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 0.99,
+    "accessibility": 0.93,
+    "bestPractices": 1,
+    "seo": 0.92,
+    "total": 384
+  },
+  "firstContentfulPaint": 1065.9099999999999,
+  "firstMeaningfulPaint": 1495.1639999999998,
+  "speedIndex": 1798.4480880007222,
+  "largestContentfulPaint": 1970.4179999999997,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1495.1639999999998,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 178.53200000000004,
+  "weight": {
+    "summary": "5 requests • 76 KiB",
+    "total": 77453,
+    "image": 0,
+    "imageCount": 0,
+    "script": 1312,
+    "scriptCount": 1,
+    "document": 1906,
+    "font": 71484,
+    "fontCount": 2,
+    "stylesheet": 2751,
+    "stylesheetCount": 1,
+    "thirdParty": 1312,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 205,
+    "+weight.total": 540,
+    "-weight.document": 63,
+    "+weight.document": 665,
+    "-weight.script": 55,
+    "+weight.script": 466,
+    "-weight.image": 1,
+    "+weight.image": 569,
+    "-weight.font": 279,
+    "+weight.font": 221,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 567,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 469
+  },
+  "axe": {
+    "passes": 163,
+    "violations": 9
+  }
+}

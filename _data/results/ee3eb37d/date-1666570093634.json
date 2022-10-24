@@ -1,0 +1,67 @@
+{
+  "url": "https://gigs.smth.uk/",
+  "requestedUrl": "https://gigs.smth.uk/",
+  "timestamp": 1666593307278,
+  "ranks": {
+    "hundos": 176,
+    "performance": 274,
+    "accessibility": 180,
+    "cumulative": 124
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 895.035,
+  "firstMeaningfulPaint": 895.035,
+  "speedIndex": 2025.9099499964118,
+  "largestContentfulPaint": 895.035,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 895.035,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 879.036,
+  "weight": {
+    "summary": "3 requests • 12 KiB",
+    "total": 12679,
+    "image": 0,
+    "imageCount": 0,
+    "script": 9794,
+    "scriptCount": 1,
+    "document": 1340,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 1545,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 65,
+    "+weight.total": 680,
+    "-weight.document": 24,
+    "+weight.document": 704,
+    "-weight.script": 208,
+    "+weight.script": 313,
+    "-weight.image": 1,
+    "+weight.image": 569,
+    "-weight.font": 1,
+    "+weight.font": 500,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 660,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 68
+  },
+  "axe": {
+    "passes": 187,
+    "violations": 0
+  }
+}

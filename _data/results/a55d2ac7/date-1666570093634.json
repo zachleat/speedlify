@@ -1,0 +1,67 @@
+{
+  "url": "https://lowtus.fr/",
+  "requestedUrl": "https://lowtus.fr/",
+  "timestamp": 1666590766377,
+  "ranks": {
+    "hundos": 328,
+    "performance": 512,
+    "accessibility": 171,
+    "cumulative": 318
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 0.95,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 395
+  },
+  "firstContentfulPaint": 2204.071,
+  "firstMeaningfulPaint": 2204.071,
+  "speedIndex": 3454.4776139996206,
+  "largestContentfulPaint": 2204.071,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 2204.071,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 1371.365,
+  "weight": {
+    "summary": "1 request • 4 KiB",
+    "total": 3902,
+    "image": 0,
+    "imageCount": 0,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 3902,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 20,
+    "+weight.total": 725,
+    "-weight.document": 222,
+    "+weight.document": 506,
+    "-weight.script": 1,
+    "+weight.script": 521,
+    "-weight.image": 1,
+    "+weight.image": 569,
+    "-weight.font": 1,
+    "+weight.font": 500,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 732,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 531
+  },
+  "axe": {
+    "passes": 200,
+    "violations": 0
+  }
+}

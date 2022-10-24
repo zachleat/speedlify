@@ -1,0 +1,67 @@
+{
+  "url": "https://legonotlegos.com/",
+  "requestedUrl": "https://legonotlegos.com/",
+  "timestamp": 1666600007968,
+  "ranks": {
+    "hundos": 120,
+    "performance": 222,
+    "accessibility": 385,
+    "cumulative": 179
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 1245.7659999999998,
+  "firstMeaningfulPaint": 1245.7659999999998,
+  "speedIndex": 1495.6636929702545,
+  "largestContentfulPaint": 1245.7659999999998,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.004316905498504639,
+  "timeToInteractive": 1245.7659999999998,
+  "maxPotentialFirstInputDelay": 24,
+  "timeToFirstByte": 401.86400000000003,
+  "weight": {
+    "summary": "4 requests • 60 KiB",
+    "total": 61848,
+    "image": 0,
+    "imageCount": 0,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 6126,
+    "font": 54698,
+    "fontCount": 2,
+    "stylesheet": 1024,
+    "stylesheetCount": 1,
+    "thirdParty": 55722,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 179,
+    "+weight.total": 566,
+    "-weight.document": 361,
+    "+weight.document": 367,
+    "-weight.script": 1,
+    "+weight.script": 521,
+    "-weight.image": 1,
+    "+weight.image": 569,
+    "-weight.font": 224,
+    "+weight.font": 276,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 646,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 266
+  },
+  "axe": {
+    "passes": 261,
+    "violations": 3
+  }
+}

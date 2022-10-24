@@ -1,0 +1,67 @@
+{
+  "url": "https://slay.sh/",
+  "requestedUrl": "https://slay.sh/",
+  "timestamp": 1666587938513,
+  "ranks": {
+    "hundos": 588,
+    "performance": 620,
+    "accessibility": 530,
+    "cumulative": 588
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 0.86,
+    "accessibility": 0.97,
+    "bestPractices": 1,
+    "seo": 0.91,
+    "total": 374
+  },
+  "firstContentfulPaint": 2652.9619999999995,
+  "firstMeaningfulPaint": 3049.8685,
+  "speedIndex": 3416.0576605603737,
+  "largestContentfulPaint": 3423.775,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.00018469520409901936,
+  "timeToInteractive": 3049.8685,
+  "maxPotentialFirstInputDelay": 46,
+  "timeToFirstByte": 398.59200000000004,
+  "weight": {
+    "summary": "15 requests • 222 KiB",
+    "total": 226966,
+    "image": 104,
+    "imageCount": 1,
+    "script": 48587,
+    "scriptCount": 5,
+    "document": 136363,
+    "font": 36447,
+    "fontCount": 1,
+    "stylesheet": 4789,
+    "stylesheetCount": 4,
+    "thirdParty": 197059,
+    "thirdPartyCount": 11
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 408,
+    "+weight.total": 337,
+    "-weight.document": 721,
+    "+weight.document": 7,
+    "-weight.script": 315,
+    "+weight.script": 206,
+    "-weight.image": 1,
+    "+weight.image": 568,
+    "-weight.font": 141,
+    "+weight.font": 359,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 644,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 648
+  },
+  "axe": {
+    "passes": 281,
+    "violations": 8
+  }
+}
