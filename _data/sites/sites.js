@@ -12,6 +12,7 @@ module.exports = {
 		"https://www.convention-usf.fr/",
 		// "https://eurofa.eventmaker.io/", // fix issue with youtube latency
 		"https://website-29177.eventmaker.io/",
+		"https://website-86398.eventmaker.io/",
 		"https://www.losangexpo.com/",
 		"https://www.eventmaker.com/",
 		"https://www.toushanscene.fr/"
