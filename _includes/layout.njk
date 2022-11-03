@@ -12,8 +12,8 @@
 		</script>
 	</head>
 	<body>
-		<h1 class="speedlify-hed"><a href="{{ '/' | url }}">speedlify</a>{% if vertical %}:{{ vertical }}{% endif %}</h1>
-		<p class="speedlify-subhed">
+		<h1 class="speedlify-hed"><a href="{{ '/' | url }}">Speed Index</a>{% if vertical %} : {{ vertical }}{% endif %}</h1>
+		{# <p class="speedlify-subhed">
 			Benchmark {{ sites[vertical].description or "web pages" }} over time.
 			{%- if sites[vertical].unordered %}
 				Results for this category are unordered.
@@ -25,7 +25,7 @@
 		</p>
 		<p class="speedlify-subhed">
 			<a href="https://github.com/zachleat/speedlify/#deploy-to-netlify">Deploy your own instance of Speedlify and test your web sites</a>.
-		</p>
+		</p> #}
 
 		{{ content | safe }}
 
