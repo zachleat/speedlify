@@ -1,0 +1,67 @@
+{
+  "url": "https://cfp.watch/",
+  "requestedUrl": "https://cfp.watch/",
+  "timestamp": 1674894020483,
+  "ranks": {
+    "hundos": 539,
+    "performance": 539,
+    "accessibility": 521,
+    "cumulative": 531
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 0.96,
+    "accessibility": 0.98,
+    "bestPractices": 0.92,
+    "seo": 1,
+    "total": 386
+  },
+  "firstContentfulPaint": 1072.014,
+  "firstMeaningfulPaint": 1072.014,
+  "speedIndex": 5223.260299998706,
+  "largestContentfulPaint": 1740.8229999999999,
+  "totalBlockingTime": 4.5,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1101.514,
+  "maxPotentialFirstInputDelay": 221,
+  "timeToFirstByte": 283.3209999999999,
+  "weight": {
+    "summary": "5 requests • 19 KiB",
+    "total": 19810,
+    "image": 0,
+    "imageCount": 0,
+    "script": 3817,
+    "scriptCount": 3,
+    "document": 13619,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 2374,
+    "stylesheetCount": 1,
+    "thirdParty": 3035,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 89,
+    "+weight.total": 728,
+    "-weight.document": 626,
+    "+weight.document": 175,
+    "-weight.script": 137,
+    "+weight.script": 430,
+    "-weight.image": 1,
+    "+weight.image": 621,
+    "-weight.font": 1,
+    "+weight.font": 544,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 674,
+    "-totalBlockingTime": 9,
+    "-largestContentfulPaint": 33
+  },
+  "axe": {
+    "passes": 6783,
+    "violations": 1
+  }
+}

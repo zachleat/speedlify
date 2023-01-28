@@ -1,0 +1,67 @@
+{
+  "url": "https://eystein.no/",
+  "requestedUrl": "https://eystein.no/",
+  "timestamp": 1674894271894,
+  "ranks": {
+    "hundos": 335,
+    "performance": 210,
+    "accessibility": 281,
+    "cumulative": 325
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 0.96,
+    "total": 396
+  },
+  "firstContentfulPaint": 903.213,
+  "firstMeaningfulPaint": 903.213,
+  "speedIndex": 1323.6065699993496,
+  "largestContentfulPaint": 903.213,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 903.213,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 157.435,
+  "weight": {
+    "summary": "5 requests • 23 KiB",
+    "total": 23166,
+    "image": 18989,
+    "imageCount": 1,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 1271,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 2906,
+    "stylesheetCount": 3,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 102,
+    "+weight.total": 715,
+    "-weight.document": 21,
+    "+weight.document": 780,
+    "-weight.script": 1,
+    "+weight.script": 567,
+    "-weight.image": 126,
+    "+weight.image": 495,
+    "-weight.font": 1,
+    "+weight.font": 544,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 547,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 277
+  },
+  "axe": {
+    "passes": 98,
+    "violations": 0
+  }
+}

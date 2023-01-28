@@ -1,0 +1,67 @@
+{
+  "url": "https://jamstackbarcelona.dev/",
+  "requestedUrl": "https://jamstackbarcelona.dev/",
+  "timestamp": 1674884687350,
+  "ranks": {
+    "hundos": 187,
+    "performance": 178,
+    "accessibility": 232,
+    "cumulative": 137
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 1084.4,
+  "firstMeaningfulPaint": 1084.4,
+  "speedIndex": 1228.867388000634,
+  "largestContentfulPaint": 1084.4,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1084.4,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 272.654,
+  "weight": {
+    "summary": "1 request • 5 KiB",
+    "total": 5327,
+    "image": 0,
+    "imageCount": 0,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 5327,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 29,
+    "+weight.total": 788,
+    "-weight.document": 345,
+    "+weight.document": 456,
+    "-weight.script": 1,
+    "+weight.script": 567,
+    "-weight.image": 1,
+    "+weight.image": 621,
+    "-weight.font": 1,
+    "+weight.font": 544,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 666,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 396
+  },
+  "axe": {
+    "passes": 162,
+    "violations": 0
+  }
+}

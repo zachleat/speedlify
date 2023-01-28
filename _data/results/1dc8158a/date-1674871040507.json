@@ -1,0 +1,67 @@
+{
+  "url": "https://objector.dev/",
+  "requestedUrl": "https://objector.dev/",
+  "timestamp": 1674894566274,
+  "ranks": {
+    "hundos": 740,
+    "performance": 739,
+    "accessibility": 580,
+    "cumulative": 739
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 0.75,
+    "accessibility": 0.97,
+    "bestPractices": 0.83,
+    "seo": 1,
+    "total": 355
+  },
+  "firstContentfulPaint": 2455.381,
+  "firstMeaningfulPaint": 2455.381,
+  "speedIndex": 3770.1907663806605,
+  "largestContentfulPaint": 2455.381,
+  "totalBlockingTime": 392,
+  "cumulativeLayoutShift": 0.06645013427734375,
+  "timeToInteractive": 10482.376,
+  "maxPotentialFirstInputDelay": 321,
+  "timeToFirstByte": 96.055,
+  "weight": {
+    "summary": "32 requests • 1,333 KiB",
+    "total": 1364801,
+    "image": 24070,
+    "imageCount": 5,
+    "script": 1000551,
+    "scriptCount": 12,
+    "document": 11124,
+    "font": 209208,
+    "fontCount": 7,
+    "stylesheet": 119848,
+    "stylesheetCount": 6,
+    "thirdParty": 1358381,
+    "thirdPartyCount": 27
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 728,
+    "+weight.total": 89,
+    "-weight.document": 580,
+    "+weight.document": 221,
+    "-weight.script": 562,
+    "+weight.script": 5,
+    "-weight.image": 138,
+    "+weight.image": 483,
+    "-weight.font": 466,
+    "+weight.font": 78,
+    "+weight.fontCount": 8,
+    "-timeToFirstByte": 397,
+    "-totalBlockingTime": 213,
+    "-largestContentfulPaint": 707
+  },
+  "axe": {
+    "passes": 379,
+    "violations": 7
+  }
+}

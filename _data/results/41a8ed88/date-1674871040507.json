@@ -1,0 +1,67 @@
+{
+  "url": "https://gasatrya.dev/",
+  "requestedUrl": "https://gasatrya.dev/",
+  "timestamp": 1674884262083,
+  "ranks": {
+    "hundos": 613,
+    "performance": 291,
+    "accessibility": 780,
+    "cumulative": 618
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 1,
+    "accessibility": 0.8,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 380
+  },
+  "firstContentfulPaint": 1102.545,
+  "firstMeaningfulPaint": 1102.545,
+  "speedIndex": 1821.7513868906244,
+  "largestContentfulPaint": 1453.2490000000003,
+  "totalBlockingTime": 54.99999999999977,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 2771.2200000000003,
+  "maxPotentialFirstInputDelay": 90,
+  "timeToFirstByte": 83.08999999999997,
+  "weight": {
+    "summary": "20 requests • 550 KiB",
+    "total": 563105,
+    "image": 369703,
+    "imageCount": 8,
+    "script": 119521,
+    "scriptCount": 3,
+    "document": 5106,
+    "font": 55485,
+    "fontCount": 5,
+    "stylesheet": 13038,
+    "stylesheetCount": 2,
+    "thirdParty": 82252,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 620,
+    "+weight.total": 197,
+    "-weight.document": 329,
+    "+weight.document": 472,
+    "-weight.script": 453,
+    "+weight.script": 114,
+    "-weight.image": 454,
+    "+weight.image": 167,
+    "-weight.font": 238,
+    "+weight.font": 306,
+    "+weight.fontCount": 10,
+    "-timeToFirstByte": 331,
+    "-totalBlockingTime": 202,
+    "-largestContentfulPaint": 503
+  },
+  "axe": {
+    "passes": 470,
+    "violations": 12
+  }
+}

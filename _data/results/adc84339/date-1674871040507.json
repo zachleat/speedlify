@@ -1,0 +1,67 @@
+{
+  "url": "https://indiewebguides.org/",
+  "requestedUrl": "https://indiewebguides.org/",
+  "timestamp": 1674885806951,
+  "ranks": {
+    "hundos": 489,
+    "performance": 498,
+    "accessibility": 245,
+    "cumulative": 481
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 0.97,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 0.92,
+    "total": 389
+  },
+  "firstContentfulPaint": 1895.2749999999996,
+  "firstMeaningfulPaint": 2109.276,
+  "speedIndex": 2229.182784896344,
+  "largestContentfulPaint": 2372.777,
+  "totalBlockingTime": 7,
+  "cumulativeLayoutShift": 0.01678816646999783,
+  "timeToInteractive": 2126.776,
+  "maxPotentialFirstInputDelay": 64,
+  "timeToFirstByte": 165.60200000000003,
+  "weight": {
+    "summary": "9 requests • 99 KiB",
+    "total": 101500,
+    "image": 0,
+    "imageCount": 0,
+    "script": 57209,
+    "scriptCount": 3,
+    "document": 6825,
+    "font": 26739,
+    "fontCount": 2,
+    "stylesheet": 9856,
+    "stylesheetCount": 2,
+    "thirdParty": 82866,
+    "thirdPartyCount": 4
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 275,
+    "+weight.total": 542,
+    "-weight.document": 444,
+    "+weight.document": 357,
+    "-weight.script": 361,
+    "+weight.script": 206,
+    "-weight.image": 1,
+    "+weight.image": 621,
+    "-weight.font": 100,
+    "+weight.font": 444,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 565,
+    "-totalBlockingTime": 14,
+    "-largestContentfulPaint": 101
+  },
+  "axe": {
+    "passes": 141,
+    "violations": 0
+  }
+}

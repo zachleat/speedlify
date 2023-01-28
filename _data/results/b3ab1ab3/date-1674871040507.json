@@ -1,0 +1,67 @@
+{
+  "url": "https://klassikrohbau.de/",
+  "requestedUrl": "https://klassikrohbau.de/",
+  "timestamp": 1674887094035,
+  "ranks": {
+    "hundos": 109,
+    "performance": 39,
+    "accessibility": 375,
+    "cumulative": 168
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 898.171,
+  "firstMeaningfulPaint": 898.171,
+  "speedIndex": 898.171,
+  "largestContentfulPaint": 1144.171,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 898.171,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 97.14500000000001,
+  "weight": {
+    "summary": "10 requests • 41 KiB",
+    "total": 41696,
+    "image": 38934,
+    "imageCount": 9,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 2762,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 157,
+    "+weight.total": 660,
+    "-weight.document": 145,
+    "+weight.document": 656,
+    "-weight.script": 1,
+    "+weight.script": 567,
+    "-weight.image": 182,
+    "+weight.image": 439,
+    "-weight.font": 1,
+    "+weight.font": 544,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 402,
+    "-totalBlockingTime": 177,
+    "-largestContentfulPaint": 425
+  },
+  "axe": {
+    "passes": 167,
+    "violations": 1
+  }
+}

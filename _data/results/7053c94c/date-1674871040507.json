@@ -1,0 +1,67 @@
+{
+  "url": "https://jamesdoc.com/",
+  "requestedUrl": "https://jamesdoc.com/",
+  "timestamp": 1674882523833,
+  "ranks": {
+    "hundos": 86,
+    "performance": 21,
+    "accessibility": 434,
+    "cumulative": 184
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 793.1419999999999,
+  "firstMeaningfulPaint": 793.1419999999999,
+  "speedIndex": 861.4699120005922,
+  "largestContentfulPaint": 1052.1419999999998,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.057566529062059196,
+  "timeToInteractive": 793.1419999999999,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 59.67799999999997,
+  "weight": {
+    "summary": "9 requests • 56 KiB",
+    "total": 57422,
+    "image": 10109,
+    "imageCount": 4,
+    "script": 800,
+    "scriptCount": 1,
+    "document": 1348,
+    "font": 42314,
+    "fontCount": 2,
+    "stylesheet": 2851,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 190,
+    "+weight.total": 627,
+    "-weight.document": 27,
+    "+weight.document": 774,
+    "-weight.script": 26,
+    "+weight.script": 541,
+    "-weight.image": 89,
+    "+weight.image": 532,
+    "-weight.font": 177,
+    "+weight.font": 367,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 244,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 372
+  },
+  "axe": {
+    "passes": 88,
+    "violations": 3
+  }
+}

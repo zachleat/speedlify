@@ -1,0 +1,67 @@
+{
+  "url": "https://cri.dev/",
+  "requestedUrl": "https://cri.dev/",
+  "timestamp": 1674886544304,
+  "ranks": {
+    "hundos": 576,
+    "performance": 90,
+    "accessibility": 761,
+    "cumulative": 566
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 1,
+    "accessibility": 0.84,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 384
+  },
+  "firstContentfulPaint": 1018.148,
+  "firstMeaningfulPaint": 1018.148,
+  "speedIndex": 1018.148,
+  "largestContentfulPaint": 1018.148,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1018.148,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 77.106,
+  "weight": {
+    "summary": "6 requests • 17 KiB",
+    "total": 17527,
+    "image": 0,
+    "imageCount": 0,
+    "script": 1930,
+    "scriptCount": 2,
+    "document": 13735,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 85,
+    "+weight.total": 732,
+    "-weight.document": 628,
+    "+weight.document": 173,
+    "-weight.script": 94,
+    "+weight.script": 473,
+    "-weight.image": 1,
+    "+weight.image": 621,
+    "-weight.font": 1,
+    "+weight.font": 544,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 309,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 347
+  },
+  "axe": {
+    "passes": 613,
+    "violations": 2
+  }
+}

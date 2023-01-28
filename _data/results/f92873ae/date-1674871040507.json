@@ -1,0 +1,67 @@
+{
+  "url": "https://www.rosiedalia.com/",
+  "requestedUrl": "https://www.rosiedalia.com/",
+  "timestamp": 1674887596100,
+  "ranks": {
+    "hundos": 593,
+    "performance": 611,
+    "accessibility": 484,
+    "cumulative": 595
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 0.92,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 0.9,
+    "total": 382
+  },
+  "firstContentfulPaint": 1365.6670000000001,
+  "firstMeaningfulPaint": 1365.6670000000001,
+  "speedIndex": 1365.6670000000001,
+  "largestContentfulPaint": 2702.73,
+  "totalBlockingTime": 34,
+  "cumulativeLayoutShift": 0.1063442145453559,
+  "timeToInteractive": 4693.01,
+  "maxPotentialFirstInputDelay": 82,
+  "timeToFirstByte": 91.58100000000002,
+  "weight": {
+    "summary": "25 requests • 1,330 KiB",
+    "total": 1362267,
+    "image": 1142676,
+    "imageCount": 16,
+    "script": 152940,
+    "scriptCount": 4,
+    "document": 66093,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 1291917,
+    "thirdPartyCount": 23
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 727,
+    "+weight.total": 90,
+    "-weight.document": 772,
+    "+weight.document": 29,
+    "-weight.script": 475,
+    "+weight.script": 92,
+    "-weight.image": 557,
+    "+weight.image": 64,
+    "-weight.font": 1,
+    "+weight.font": 544,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 382,
+    "-totalBlockingTime": 196,
+    "-largestContentfulPaint": 724
+  },
+  "axe": {
+    "passes": 946,
+    "violations": 10
+  }
+}

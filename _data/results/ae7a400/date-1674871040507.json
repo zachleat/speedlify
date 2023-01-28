@@ -1,0 +1,67 @@
+{
+  "url": "https://amorgunov.com/",
+  "requestedUrl": "https://amorgunov.com/",
+  "timestamp": 1674904015850,
+  "ranks": {
+    "hundos": 597,
+    "performance": 439,
+    "accessibility": 767,
+    "cumulative": 599
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 0.98,
+    "accessibility": 0.84,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 382
+  },
+  "firstContentfulPaint": 1651.851,
+  "firstMeaningfulPaint": 1651.851,
+  "speedIndex": 1651.851,
+  "largestContentfulPaint": 2004.51,
+  "totalBlockingTime": 4,
+  "cumulativeLayoutShift": 0.06251522318522136,
+  "timeToInteractive": 3145.2580000000003,
+  "maxPotentialFirstInputDelay": 54,
+  "timeToFirstByte": 58.84699999999998,
+  "weight": {
+    "summary": "18 requests • 158 KiB",
+    "total": 162090,
+    "image": 4068,
+    "imageCount": 4,
+    "script": 70363,
+    "scriptCount": 4,
+    "document": 2255,
+    "font": 81037,
+    "fontCount": 6,
+    "stylesheet": 4162,
+    "stylesheetCount": 2,
+    "thirdParty": 147582,
+    "thirdPartyCount": 10
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 369,
+    "+weight.total": 448,
+    "-weight.document": 106,
+    "+weight.document": 695,
+    "-weight.script": 396,
+    "+weight.script": 171,
+    "-weight.image": 49,
+    "+weight.image": 572,
+    "-weight.font": 327,
+    "+weight.font": 217,
+    "+weight.fontCount": 9,
+    "-timeToFirstByte": 224,
+    "-totalBlockingTime": 8,
+    "-largestContentfulPaint": 39
+  },
+  "axe": {
+    "passes": 133,
+    "violations": 23
+  }
+}

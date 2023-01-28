@@ -1,0 +1,67 @@
+{
+  "url": "https://www.unabridgedsoftware.com/",
+  "requestedUrl": "https://www.unabridgedsoftware.com/",
+  "timestamp": 1674879071360,
+  "ranks": {
+    "hundos": 493,
+    "performance": 588,
+    "accessibility": 635,
+    "cumulative": 495
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 0.94,
+    "accessibility": 0.95,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 389
+  },
+  "firstContentfulPaint": 2246.0570000000002,
+  "firstMeaningfulPaint": 2667.152,
+  "speedIndex": 2555.264836717265,
+  "largestContentfulPaint": 2667.152,
+  "totalBlockingTime": 10.5,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 2719.457,
+  "maxPotentialFirstInputDelay": 71,
+  "timeToFirstByte": 43.028999999999996,
+  "weight": {
+    "summary": "33 requests • 775 KiB",
+    "total": 793215,
+    "image": 669142,
+    "imageCount": 24,
+    "script": 74391,
+    "scriptCount": 3,
+    "document": 4536,
+    "font": 34029,
+    "fontCount": 3,
+    "stylesheet": 11117,
+    "stylesheetCount": 2,
+    "thirdParty": 107979,
+    "thirdPartyCount": 7
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 664,
+    "+weight.total": 153,
+    "-weight.document": 294,
+    "+weight.document": 507,
+    "-weight.script": 401,
+    "+weight.script": 166,
+    "-weight.image": 520,
+    "+weight.image": 101,
+    "-weight.font": 137,
+    "+weight.font": 407,
+    "+weight.fontCount": 12,
+    "-timeToFirstByte": 75,
+    "-totalBlockingTime": 21,
+    "-largestContentfulPaint": 103
+  },
+  "axe": {
+    "passes": 453,
+    "violations": 1
+  }
+}

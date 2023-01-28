@@ -1,0 +1,67 @@
+{
+  "url": "https://joomla-spa.netlify.app/",
+  "requestedUrl": "https://joomla-spa.netlify.app/",
+  "timestamp": 1674880168366,
+  "ranks": {
+    "hundos": 144,
+    "performance": 287,
+    "accessibility": 475,
+    "cumulative": 197
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 1052.5300000000002,
+  "firstMeaningfulPaint": 1052.5300000000002,
+  "speedIndex": 1785.5045982501051,
+  "largestContentfulPaint": 1876.1640000000002,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.02359027777777778,
+  "timeToInteractive": 1052.5300000000002,
+  "maxPotentialFirstInputDelay": 28,
+  "timeToFirstByte": 359.582,
+  "weight": {
+    "summary": "5 requests • 43 KiB",
+    "total": 44461,
+    "image": 0,
+    "imageCount": 0,
+    "script": 10677,
+    "scriptCount": 1,
+    "document": 12484,
+    "font": 18334,
+    "fontCount": 1,
+    "stylesheet": 2966,
+    "stylesheetCount": 1,
+    "thirdParty": 7219,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 163,
+    "+weight.total": 654,
+    "-weight.document": 606,
+    "+weight.document": 195,
+    "-weight.script": 230,
+    "+weight.script": 337,
+    "-weight.image": 1,
+    "+weight.image": 621,
+    "-weight.font": 55,
+    "+weight.font": 489,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 721,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 613
+  },
+  "axe": {
+    "passes": 87,
+    "violations": 7
+  }
+}

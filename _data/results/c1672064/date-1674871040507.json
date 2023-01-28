@@ -1,0 +1,67 @@
+{
+  "url": "https://interviews.shanehudson.net/",
+  "requestedUrl": "https://interviews.shanehudson.net/",
+  "timestamp": 1674872885566,
+  "ranks": {
+    "hundos": 524,
+    "performance": 313,
+    "accessibility": 616,
+    "cumulative": 519
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 1,
+    "accessibility": 0.96,
+    "bestPractices": 1,
+    "seo": 0.91,
+    "total": 387
+  },
+  "firstContentfulPaint": 894.062,
+  "firstMeaningfulPaint": 894.062,
+  "speedIndex": 2371.712764000194,
+  "largestContentfulPaint": 894.062,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 894.062,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 843.113,
+  "weight": {
+    "summary": "2 requests • 2 KiB",
+    "total": 2126,
+    "image": 0,
+    "imageCount": 0,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 1158,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 968,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 6,
+    "+weight.total": 811,
+    "-weight.document": 15,
+    "+weight.document": 786,
+    "-weight.script": 1,
+    "+weight.script": 567,
+    "-weight.image": 1,
+    "+weight.image": 621,
+    "-weight.font": 1,
+    "+weight.font": 544,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 792,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 266
+  },
+  "axe": {
+    "passes": 86,
+    "violations": 3
+  }
+}

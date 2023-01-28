@@ -1,0 +1,67 @@
+{
+  "url": "https://www.tattooed.dev/",
+  "requestedUrl": "https://tattooed.dev/",
+  "timestamp": 1674893802556,
+  "ranks": {
+    "hundos": 282,
+    "performance": 463,
+    "accessibility": 178,
+    "cumulative": 269
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 0.98,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 398
+  },
+  "firstContentfulPaint": 1836.8320000000003,
+  "firstMeaningfulPaint": 1836.8320000000003,
+  "speedIndex": 2159.8406319992946,
+  "largestContentfulPaint": 1836.8320000000003,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.009918326483832465,
+  "timeToInteractive": 1836.8320000000003,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 31.762,
+  "weight": {
+    "summary": "13 requests • 96 KiB",
+    "total": 98480,
+    "image": 7003,
+    "imageCount": 1,
+    "script": 4800,
+    "scriptCount": 4,
+    "document": 12851,
+    "font": 71432,
+    "fontCount": 4,
+    "stylesheet": 2307,
+    "stylesheetCount": 2,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 268,
+    "+weight.total": 549,
+    "-weight.document": 612,
+    "+weight.document": 189,
+    "-weight.script": 159,
+    "+weight.script": 408,
+    "-weight.image": 68,
+    "+weight.image": 553,
+    "-weight.font": 296,
+    "+weight.font": 248,
+    "+weight.fontCount": 11,
+    "-timeToFirstByte": 23,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 604
+  },
+  "axe": {
+    "passes": 223,
+    "violations": 0
+  }
+}

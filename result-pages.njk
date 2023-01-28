@@ -7,7 +7,8 @@
     data: "sites",
     before: function(sites, data) {
       let results = this.getSites(data.results, data.sites, data.vertical, data.isolatedKeys);
-      return this.addSkippedIndeces(this.sortCumulativeScore(results), data.sites[data.vertical].skipIndeces);
+      //return this.addSkippedIndeces(this.sortCumulativeScore(results), data.sites[data.vertical].skipIndeces);
+      return results;
     },
     size: 1,
     alias: "site",

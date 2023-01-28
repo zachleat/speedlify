@@ -1,0 +1,67 @@
+{
+  "url": "https://fberriman.com/blog/",
+  "requestedUrl": "https://fberriman.com/blog/",
+  "timestamp": 1674892152435,
+  "ranks": {
+    "hundos": 608,
+    "performance": 495,
+    "accessibility": 60,
+    "cumulative": 603
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 0.97,
+    "accessibility": 1,
+    "bestPractices": 0.92,
+    "seo": 0.92,
+    "total": 381
+  },
+  "firstContentfulPaint": 2075.411,
+  "firstMeaningfulPaint": 2075.411,
+  "speedIndex": 2075.411,
+  "largestContentfulPaint": 2075.411,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.001461061477661133,
+  "timeToInteractive": 2075.411,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 59.17099999999999,
+  "weight": {
+    "summary": "8 requests • 108 KiB",
+    "total": 110418,
+    "image": 6581,
+    "imageCount": 1,
+    "script": 7238,
+    "scriptCount": 2,
+    "document": 49286,
+    "font": 42402,
+    "fontCount": 1,
+    "stylesheet": 2744,
+    "stylesheetCount": 2,
+    "thirdParty": 45540,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 293,
+    "+weight.total": 524,
+    "-weight.document": 763,
+    "+weight.document": 38,
+    "-weight.script": 196,
+    "+weight.script": 371,
+    "-weight.image": 64,
+    "+weight.image": 557,
+    "-weight.font": 178,
+    "+weight.font": 366,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 233,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 658
+  },
+  "axe": {
+    "passes": 514,
+    "violations": 0
+  }
+}

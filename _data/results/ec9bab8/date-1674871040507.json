@@ -1,0 +1,67 @@
+{
+  "url": "https://tomquinonero.com/",
+  "requestedUrl": "https://tomquinonero.com/",
+  "timestamp": 1674898345565,
+  "ranks": {
+    "hundos": 659,
+    "performance": 233,
+    "accessibility": 727,
+    "cumulative": 661
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 1,
+    "accessibility": 0.9,
+    "bestPractices": 0.92,
+    "seo": 0.92,
+    "total": 374
+  },
+  "firstContentfulPaint": 1106.7469999999998,
+  "firstMeaningfulPaint": 1123.7469999999998,
+  "speedIndex": 1406.2217259574327,
+  "largestContentfulPaint": 1298.7469999999998,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.005936286290486654,
+  "timeToInteractive": 1123.7469999999998,
+  "maxPotentialFirstInputDelay": 46,
+  "timeToFirstByte": 47.851999999999975,
+  "weight": {
+    "summary": "15 requests • 267 KiB",
+    "total": 272937,
+    "image": 184847,
+    "imageCount": 7,
+    "script": 7998,
+    "scriptCount": 1,
+    "document": 21673,
+    "font": 44156,
+    "fontCount": 3,
+    "stylesheet": 14263,
+    "stylesheetCount": 3,
+    "thirdParty": 810,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 494,
+    "+weight.total": 323,
+    "-weight.document": 699,
+    "+weight.document": 102,
+    "-weight.script": 207,
+    "+weight.script": 360,
+    "-weight.image": 368,
+    "+weight.image": 253,
+    "-weight.font": 190,
+    "+weight.font": 354,
+    "+weight.fontCount": 12,
+    "-timeToFirstByte": 107,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 467
+  },
+  "axe": {
+    "passes": 359,
+    "violations": 12
+  }
+}

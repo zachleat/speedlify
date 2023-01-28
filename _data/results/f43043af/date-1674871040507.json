@@ -1,0 +1,67 @@
+{
+  "url": "https://www.sobolewski.cz/en/",
+  "requestedUrl": "https://www.sobolewski.cz/en/",
+  "timestamp": 1674890844545,
+  "ranks": {
+    "hundos": 652,
+    "performance": 740,
+    "accessibility": 335,
+    "cumulative": 651
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 0.75,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 375
+  },
+  "firstContentfulPaint": 3556.705999999999,
+  "firstMeaningfulPaint": 3631.8049999999994,
+  "speedIndex": 4104.100835998782,
+  "largestContentfulPaint": 4511.2159999999985,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 3631.8049999999994,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 88.02100000000002,
+  "weight": {
+    "summary": "24 requests • 2,362 KiB",
+    "total": 2418974,
+    "image": 573386,
+    "imageCount": 10,
+    "script": 80606,
+    "scriptCount": 4,
+    "document": 6922,
+    "font": 235498,
+    "fontCount": 4,
+    "stylesheet": 24042,
+    "stylesheetCount": 4,
+    "thirdParty": 337356,
+    "thirdPartyCount": 12
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 775,
+    "+weight.total": 42,
+    "-weight.document": 450,
+    "+weight.document": 351,
+    "-weight.script": 417,
+    "+weight.script": 150,
+    "-weight.image": 505,
+    "+weight.image": 116,
+    "-weight.font": 482,
+    "+weight.font": 62,
+    "+weight.fontCount": 11,
+    "-timeToFirstByte": 360,
+    "-totalBlockingTime": 177,
+    "-largestContentfulPaint": 202
+  },
+  "axe": {
+    "passes": 404,
+    "violations": 1
+  }
+}

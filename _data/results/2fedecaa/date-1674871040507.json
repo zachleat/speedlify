@@ -1,0 +1,67 @@
+{
+  "url": "https://figcat.com/",
+  "requestedUrl": "https://figcat.com/",
+  "timestamp": 1674886384968,
+  "ranks": {
+    "hundos": 130,
+    "performance": 122,
+    "accessibility": 327,
+    "cumulative": 172
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 1103.4989999999998,
+  "firstMeaningfulPaint": 1103.4989999999998,
+  "speedIndex": 1103.4989999999998,
+  "largestContentfulPaint": 1746.5779999999995,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1103.4989999999998,
+  "maxPotentialFirstInputDelay": 17,
+  "timeToFirstByte": 68.348,
+  "weight": {
+    "summary": "6 requests • 30 KiB",
+    "total": 31090,
+    "image": 0,
+    "imageCount": 0,
+    "script": 7149,
+    "scriptCount": 2,
+    "document": 18140,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 5764,
+    "stylesheetCount": 1,
+    "thirdParty": 6419,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 127,
+    "+weight.total": 690,
+    "-weight.document": 679,
+    "+weight.document": 122,
+    "-weight.script": 193,
+    "+weight.script": 374,
+    "-weight.image": 1,
+    "+weight.image": 621,
+    "-weight.font": 1,
+    "+weight.font": 544,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 286,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 585
+  },
+  "axe": {
+    "passes": 517,
+    "violations": 1
+  }
+}

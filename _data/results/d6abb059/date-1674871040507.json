@@ -1,0 +1,67 @@
+{
+  "url": "https://martinschneider.me/",
+  "requestedUrl": "https://martinschneider.me/",
+  "timestamp": 1674901289530,
+  "ranks": {
+    "hundos": 38,
+    "performance": 76,
+    "accessibility": 143,
+    "cumulative": 27
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 795.617,
+  "firstMeaningfulPaint": 795.617,
+  "speedIndex": 996.6316659965025,
+  "largestContentfulPaint": 1055.617,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 819.117,
+  "maxPotentialFirstInputDelay": 74,
+  "timeToFirstByte": 59.64699999999999,
+  "weight": {
+    "summary": "9 requests • 113 KiB",
+    "total": 115225,
+    "image": 47283,
+    "imageCount": 2,
+    "script": 2659,
+    "scriptCount": 2,
+    "document": 5865,
+    "font": 54773,
+    "fontCount": 3,
+    "stylesheet": 4645,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 300,
+    "+weight.total": 517,
+    "-weight.document": 392,
+    "+weight.document": 409,
+    "-weight.script": 116,
+    "+weight.script": 451,
+    "-weight.image": 208,
+    "+weight.image": 413,
+    "-weight.font": 236,
+    "+weight.font": 308,
+    "+weight.fontCount": 12,
+    "-timeToFirstByte": 243,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 380
+  },
+  "axe": {
+    "passes": 268,
+    "violations": 0
+  }
+}

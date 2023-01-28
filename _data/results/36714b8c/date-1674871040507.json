@@ -1,0 +1,67 @@
+{
+  "url": "https://vranjan.dev/",
+  "requestedUrl": "https://vranjan.dev/",
+  "timestamp": 1674891380769,
+  "ranks": {
+    "hundos": 541,
+    "performance": 552,
+    "accessibility": 732,
+    "cumulative": 547
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 0.95,
+    "accessibility": 0.9,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 385
+  },
+  "firstContentfulPaint": 2240.183,
+  "firstMeaningfulPaint": 2240.183,
+  "speedIndex": 2240.183,
+  "largestContentfulPaint": 2240.183,
+  "totalBlockingTime": 47,
+  "cumulativeLayoutShift": 0.001979856491088867,
+  "timeToInteractive": 3689.741,
+  "maxPotentialFirstInputDelay": 144,
+  "timeToFirstByte": 42.287000000000035,
+  "weight": {
+    "summary": "27 requests • 581 KiB",
+    "total": 595403,
+    "image": 55335,
+    "imageCount": 18,
+    "script": 121075,
+    "scriptCount": 2,
+    "document": 41627,
+    "font": 342914,
+    "fontCount": 3,
+    "stylesheet": 34201,
+    "stylesheetCount": 2,
+    "thirdParty": 498511,
+    "thirdPartyCount": 14
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 626,
+    "+weight.total": 191,
+    "-weight.document": 755,
+    "+weight.document": 46,
+    "-weight.script": 456,
+    "+weight.script": 111,
+    "-weight.image": 224,
+    "+weight.image": 397,
+    "-weight.font": 511,
+    "+weight.font": 33,
+    "+weight.fontCount": 12,
+    "-timeToFirstByte": 58,
+    "-totalBlockingTime": 70,
+    "-largestContentfulPaint": 685
+  },
+  "axe": {
+    "passes": 318,
+    "violations": 20
+  }
+}

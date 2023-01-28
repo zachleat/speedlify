@@ -1,0 +1,67 @@
+{
+  "url": "https://games.sia.codes/",
+  "requestedUrl": "https://games.sia.codes/",
+  "timestamp": 1674899182532,
+  "ranks": {
+    "hundos": 547,
+    "performance": 413,
+    "accessibility": 748,
+    "cumulative": 543
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 0.99,
+    "accessibility": 0.86,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 385
+  },
+  "firstContentfulPaint": 1745.653,
+  "firstMeaningfulPaint": 1745.653,
+  "speedIndex": 2324.750738000159,
+  "largestContentfulPaint": 1745.653,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.005542484919230144,
+  "timeToInteractive": 1745.653,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 487.0759999999999,
+  "weight": {
+    "summary": "47 requests • 357 KiB",
+    "total": 365250,
+    "image": 274207,
+    "imageCount": 40,
+    "script": 44992,
+    "scriptCount": 2,
+    "document": 6506,
+    "font": 36795,
+    "fontCount": 1,
+    "stylesheet": 2452,
+    "stylesheetCount": 2,
+    "thirdParty": 313090,
+    "thirdPartyCount": 44
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 543,
+    "+weight.total": 274,
+    "-weight.document": 423,
+    "+weight.document": 378,
+    "-weight.script": 339,
+    "+weight.script": 228,
+    "-weight.image": 422,
+    "+weight.image": 199,
+    "-weight.font": 154,
+    "+weight.font": 390,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 773,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 584
+  },
+  "axe": {
+    "passes": 1195,
+    "violations": 4
+  }
+}

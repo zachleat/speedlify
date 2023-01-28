@@ -1,0 +1,67 @@
+{
+  "url": "https://www.damianwalsh.me/",
+  "requestedUrl": "https://www.damianwalsh.me/",
+  "timestamp": 1674884896664,
+  "ranks": {
+    "hundos": 516,
+    "performance": 657,
+    "accessibility": 541,
+    "cumulative": 523
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 0.89,
+    "accessibility": 0.98,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 387
+  },
+  "firstContentfulPaint": 2575.5240000000003,
+  "firstMeaningfulPaint": 2575.5240000000003,
+  "speedIndex": 2575.5240000000003,
+  "largestContentfulPaint": 3229.431,
+  "totalBlockingTime": 42,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 3060.754000000001,
+  "maxPotentialFirstInputDelay": 90,
+  "timeToFirstByte": 89.34099999999998,
+  "weight": {
+    "summary": "16 requests • 385 KiB",
+    "total": 394350,
+    "image": 850,
+    "imageCount": 1,
+    "script": 147512,
+    "scriptCount": 5,
+    "document": 8607,
+    "font": 227998,
+    "fontCount": 1,
+    "stylesheet": 8424,
+    "stylesheetCount": 4,
+    "thirdParty": 380643,
+    "thirdPartyCount": 12
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 558,
+    "+weight.total": 259,
+    "-weight.document": 511,
+    "+weight.document": 290,
+    "-weight.script": 472,
+    "+weight.script": 95,
+    "-weight.image": 16,
+    "+weight.image": 605,
+    "-weight.font": 477,
+    "+weight.font": 67,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 368,
+    "-totalBlockingTime": 198,
+    "-largestContentfulPaint": 754
+  },
+  "axe": {
+    "passes": 266,
+    "violations": 17
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://www.dandevri.es/",
+  "requestedUrl": "https://www.dandevri.es/",
+  "timestamp": 1674898385580,
+  "ranks": {
+    "hundos": 534,
+    "performance": 683,
+    "accessibility": 370,
+    "cumulative": 530
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 0.86,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 386
+  },
+  "firstContentfulPaint": 2435.3639999999996,
+  "firstMeaningfulPaint": 2435.3639999999996,
+  "speedIndex": 6778.153964000321,
+  "largestContentfulPaint": 2741.053999999999,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 2435.3639999999996,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 141.42599999999993,
+  "weight": {
+    "summary": "10 requests • 184 KiB",
+    "total": 188190,
+    "image": 21819,
+    "imageCount": 3,
+    "script": 43100,
+    "scriptCount": 2,
+    "document": 3216,
+    "font": 35039,
+    "fontCount": 2,
+    "stylesheet": 85016,
+    "stylesheetCount": 2,
+    "thirdParty": 184974,
+    "thirdPartyCount": 9
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 402,
+    "+weight.total": 415,
+    "-weight.document": 184,
+    "+weight.document": 617,
+    "-weight.script": 336,
+    "+weight.script": 231,
+    "-weight.image": 133,
+    "+weight.image": 488,
+    "-weight.font": 145,
+    "+weight.font": 399,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 502,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 727
+  },
+  "axe": {
+    "passes": 192,
+    "violations": 1
+  }
+}

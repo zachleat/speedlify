@@ -1,0 +1,67 @@
+{
+  "url": "https://freetransitedmonton.ca/",
+  "requestedUrl": "https://freetransitedmonton.ca/",
+  "timestamp": 1674898110889,
+  "ranks": {
+    "hundos": 705,
+    "performance": 773,
+    "accessibility": 382,
+    "cumulative": 705
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 0.66,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 366
+  },
+  "firstContentfulPaint": 2529.333,
+  "firstMeaningfulPaint": 2867.5445,
+  "speedIndex": 3043.929623600298,
+  "largestContentfulPaint": 4075.4579999999996,
+  "totalBlockingTime": 166,
+  "cumulativeLayoutShift": 0.45263671875,
+  "timeToInteractive": 5001.658,
+  "maxPotentialFirstInputDelay": 234,
+  "timeToFirstByte": 179.67600000000004,
+  "weight": {
+    "summary": "16 requests • 1,108 KiB",
+    "total": 1134554,
+    "image": 737167,
+    "imageCount": 2,
+    "script": 347299,
+    "scriptCount": 7,
+    "document": 6710,
+    "font": 40178,
+    "fontCount": 2,
+    "stylesheet": 2648,
+    "stylesheetCount": 1,
+    "thirdParty": 347124,
+    "thirdPartyCount": 9
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 711,
+    "+weight.total": 106,
+    "-weight.document": 436,
+    "+weight.document": 365,
+    "-weight.script": 519,
+    "+weight.script": 48,
+    "-weight.image": 525,
+    "+weight.image": 96,
+    "-weight.font": 172,
+    "+weight.font": 372,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 588,
+    "-totalBlockingTime": 131,
+    "-largestContentfulPaint": 199
+  },
+  "axe": {
+    "passes": 138,
+    "violations": 1
+  }
+}

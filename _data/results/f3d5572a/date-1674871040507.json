@@ -1,0 +1,67 @@
+{
+  "url": "https://blythcss.dev/",
+  "requestedUrl": "https://blythcss.dev/",
+  "timestamp": 1674879458802,
+  "ranks": {
+    "hundos": 310,
+    "performance": 492,
+    "accessibility": 397,
+    "cumulative": 306
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 0.97,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 397
+  },
+  "firstContentfulPaint": 1740.443,
+  "firstMeaningfulPaint": 1740.443,
+  "speedIndex": 1990.336729998403,
+  "largestContentfulPaint": 1740.443,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.10472837787204335,
+  "timeToInteractive": 1740.443,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 210.80900000000003,
+  "weight": {
+    "summary": "6 requests • 68 KiB",
+    "total": 69601,
+    "image": 0,
+    "imageCount": 0,
+    "script": 3945,
+    "scriptCount": 2,
+    "document": 11036,
+    "font": 53418,
+    "fontCount": 2,
+    "stylesheet": 1202,
+    "stylesheetCount": 1,
+    "thirdParty": 54620,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 209,
+    "+weight.total": 608,
+    "-weight.document": 577,
+    "+weight.document": 224,
+    "-weight.script": 142,
+    "+weight.script": 425,
+    "-weight.image": 1,
+    "+weight.image": 621,
+    "-weight.font": 230,
+    "+weight.font": 314,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 616,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 580
+  },
+  "axe": {
+    "passes": 689,
+    "violations": 2
+  }
+}

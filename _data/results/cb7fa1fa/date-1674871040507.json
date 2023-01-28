@@ -1,0 +1,67 @@
+{
+  "url": "https://buttonbuddy.dev/",
+  "requestedUrl": "https://buttonbuddy.dev/",
+  "timestamp": 1674900333701,
+  "ranks": {
+    "hundos": 102,
+    "performance": 224,
+    "accessibility": 70,
+    "cumulative": 74
+  },
+  "lighthouse": {
+    "version": "9.6.5",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 963.443,
+  "firstMeaningfulPaint": 963.443,
+  "speedIndex": 1357.6566820009843,
+  "largestContentfulPaint": 1430.337,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 963.443,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 131.913,
+  "weight": {
+    "summary": "6 requests • 68 KiB",
+    "total": 70026,
+    "image": 0,
+    "imageCount": 0,
+    "script": 9266,
+    "scriptCount": 2,
+    "document": 3698,
+    "font": 53954,
+    "fontCount": 2,
+    "stylesheet": 3108,
+    "stylesheetCount": 1,
+    "thirdParty": 1709,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 211,
+    "+weight.total": 606,
+    "-weight.document": 224,
+    "+weight.document": 577,
+    "-weight.script": 220,
+    "+weight.script": 347,
+    "-weight.image": 1,
+    "+weight.image": 621,
+    "-weight.font": 234,
+    "+weight.font": 310,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 477,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 494
+  },
+  "axe": {
+    "passes": 445,
+    "violations": 0
+  }
+}
