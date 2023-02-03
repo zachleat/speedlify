@@ -59,7 +59,7 @@ async function tryToPreventNetlifyBuildTimeout(dateTestsStarted, numberOfUrls, e
 		lastRuns = {};
 	}
 
-	let verticals = await fastglob(["./_data/sites/*.js", "!/_data/sites/*.disabled.js"], {
+	let verticals = await fastglob("./_data/sites/!(*.disabled)*.js", {
 		caseSensitiveMatch: false
 	});
 
