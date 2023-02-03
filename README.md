@@ -4,6 +4,7 @@ After you make a fast web site, keep it fast by measuring it over time. Read [Us
 
 * Requires Node 12+
 * Each file in `_data/sites/*.js` is a category and contains a list of sites for comparison.
+  * A site file can be disabled by ending its filename with `.disabled.js`.
 
 ## Run locally
 
