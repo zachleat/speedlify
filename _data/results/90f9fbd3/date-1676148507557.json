@@ -1,0 +1,67 @@
+{
+  "url": "https://bram.is/",
+  "requestedUrl": "https://bram.is/",
+  "timestamp": 1676159659447,
+  "ranks": {
+    "hundos": 47,
+    "performance": 114,
+    "accessibility": 116,
+    "cumulative": 37
+  },
+  "lighthouse": {
+    "version": "10.0.0",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 933.428,
+  "firstMeaningfulPaint": 933.428,
+  "speedIndex": 1055.9136207369527,
+  "largestContentfulPaint": 933.428,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 933.428,
+  "maxPotentialFirstInputDelay": 20,
+  "timeToFirstByte": 147.65,
+  "weight": {
+    "summary": "9 requests • 125 KiB",
+    "total": 128173,
+    "image": 46157,
+    "imageCount": 2,
+    "script": 1153,
+    "scriptCount": 1,
+    "document": 6311,
+    "font": 74552,
+    "fontCount": 4,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 331,
+    "+weight.total": 508,
+    "-weight.document": 429,
+    "+weight.document": 389,
+    "-weight.script": 47,
+    "+weight.script": 526,
+    "-weight.image": 222,
+    "+weight.image": 417,
+    "-weight.font": 323,
+    "+weight.font": 242,
+    "+weight.fontCount": 11,
+    "-timeToFirstByte": 532,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 400
+  },
+  "axe": {
+    "passes": 304,
+    "violations": 0
+  }
+}

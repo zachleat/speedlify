@@ -1,0 +1,67 @@
+{
+  "url": "https://badlydrawnben.com/",
+  "requestedUrl": "https://badlydrawnben.com/",
+  "timestamp": 1676181373506,
+  "ranks": {
+    "hundos": 263,
+    "performance": 466,
+    "accessibility": 512,
+    "cumulative": 290
+  },
+  "lighthouse": {
+    "version": "10.0.0",
+    "performance": 0.98,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 398
+  },
+  "firstContentfulPaint": 1167.0290000000002,
+  "firstMeaningfulPaint": 1607.0065000000004,
+  "speedIndex": 1890.4074366299283,
+  "largestContentfulPaint": 2421.9840000000004,
+  "totalBlockingTime": 7.5,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 2815.1185000000005,
+  "maxPotentialFirstInputDelay": 65,
+  "timeToFirstByte": 71.54700000000003,
+  "weight": {
+    "summary": "23 requests • 408 KiB",
+    "total": 418248,
+    "image": 249750,
+    "imageCount": 11,
+    "script": 52506,
+    "scriptCount": 5,
+    "document": 26722,
+    "font": 83454,
+    "fontCount": 3,
+    "stylesheet": 5779,
+    "stylesheetCount": 1,
+    "thirdParty": 276788,
+    "thirdPartyCount": 16
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 588,
+    "+weight.total": 251,
+    "-weight.document": 736,
+    "+weight.document": 82,
+    "-weight.script": 345,
+    "+weight.script": 228,
+    "-weight.image": 431,
+    "+weight.image": 208,
+    "-weight.font": 349,
+    "+weight.font": 216,
+    "+weight.fontCount": 12,
+    "-timeToFirstByte": 298,
+    "-totalBlockingTime": 14,
+    "-largestContentfulPaint": 725
+  },
+  "axe": {
+    "passes": 490,
+    "violations": 15
+  }
+}

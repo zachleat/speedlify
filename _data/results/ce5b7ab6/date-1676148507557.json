@@ -1,0 +1,67 @@
+{
+  "url": "https://async-alpine.dev/",
+  "requestedUrl": "https://async-alpine.dev/",
+  "timestamp": 1676158325660,
+  "ranks": {
+    "hundos": 30,
+    "performance": 110,
+    "accessibility": 359,
+    "cumulative": 159
+  },
+  "lighthouse": {
+    "version": "10.0.0",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 1007.429,
+  "firstMeaningfulPaint": 1007.429,
+  "speedIndex": 1047.0915339987152,
+  "largestContentfulPaint": 1007.429,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.002907349903684356,
+  "timeToInteractive": 1007.429,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 66.988,
+  "weight": {
+    "summary": "5 requests • 126 KiB",
+    "total": 129523,
+    "image": 48438,
+    "imageCount": 2,
+    "script": 15773,
+    "scriptCount": 1,
+    "document": 15563,
+    "font": 49749,
+    "fontCount": 1,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 334,
+    "+weight.total": 505,
+    "-weight.document": 666,
+    "+weight.document": 152,
+    "-weight.script": 255,
+    "+weight.script": 318,
+    "-weight.image": 227,
+    "+weight.image": 412,
+    "-weight.font": 225,
+    "+weight.font": 340,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 258,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 455
+  },
+  "axe": {
+    "passes": 227,
+    "violations": 1
+  }
+}

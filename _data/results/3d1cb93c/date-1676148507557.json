@@ -1,0 +1,67 @@
+{
+  "url": "https://smolcss.dev/",
+  "requestedUrl": "https://smolcss.dev/",
+  "timestamp": 1676155703870,
+  "ranks": {
+    "hundos": 215,
+    "performance": 361,
+    "accessibility": 304,
+    "cumulative": 237
+  },
+  "lighthouse": {
+    "version": "10.0.0",
+    "performance": 0.99,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 399
+  },
+  "firstContentfulPaint": 1134.866,
+  "firstMeaningfulPaint": 1134.866,
+  "speedIndex": 1183.776245482116,
+  "largestContentfulPaint": 1792.926,
+  "totalBlockingTime": 46,
+  "cumulativeLayoutShift": 0.0006431131860071673,
+  "timeToInteractive": 1266.866,
+  "maxPotentialFirstInputDelay": 122,
+  "timeToFirstByte": 41.131,
+  "weight": {
+    "summary": "16 requests • 489 KiB",
+    "total": 501179,
+    "image": 237783,
+    "imageCount": 10,
+    "script": 1710,
+    "scriptCount": 1,
+    "document": 26655,
+    "font": 48175,
+    "fontCount": 2,
+    "stylesheet": 3224,
+    "stylesheetCount": 1,
+    "thirdParty": 184480,
+    "thirdPartyCount": 10
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 620,
+    "+weight.total": 219,
+    "-weight.document": 735,
+    "+weight.document": 83,
+    "-weight.script": 77,
+    "+weight.script": 496,
+    "-weight.image": 423,
+    "+weight.image": 216,
+    "-weight.font": 216,
+    "+weight.font": 349,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 37,
+    "-totalBlockingTime": 62,
+    "-largestContentfulPaint": 55
+  },
+  "axe": {
+    "passes": 1770,
+    "violations": 1
+  }
+}

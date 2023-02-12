@@ -1,0 +1,67 @@
+{
+  "url": "https://darekkay.com/",
+  "requestedUrl": "https://darekkay.com/",
+  "timestamp": 1676176379440,
+  "ranks": {
+    "hundos": 77,
+    "performance": 288,
+    "accessibility": 402,
+    "cumulative": 179
+  },
+  "lighthouse": {
+    "version": "10.0.0",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 1010.82,
+  "firstMeaningfulPaint": 1028.3200000000002,
+  "speedIndex": 1625.1862018863778,
+  "largestContentfulPaint": 1032.8200000000002,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.030033469997951832,
+  "timeToInteractive": 1028.3200000000002,
+  "maxPotentialFirstInputDelay": 35.000000000000114,
+  "timeToFirstByte": 126.42900000000003,
+  "weight": {
+    "summary": "10 requests • 126 KiB",
+    "total": 128888,
+    "image": 73820,
+    "imageCount": 4,
+    "script": 2752,
+    "scriptCount": 1,
+    "document": 3793,
+    "font": 39270,
+    "fontCount": 2,
+    "stylesheet": 6151,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 333,
+    "+weight.total": 506,
+    "-weight.document": 237,
+    "+weight.document": 581,
+    "-weight.script": 114,
+    "+weight.script": 459,
+    "-weight.image": 262,
+    "+weight.image": 377,
+    "-weight.font": 172,
+    "+weight.font": 393,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 454,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 464
+  },
+  "axe": {
+    "passes": 261,
+    "violations": 2
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://www.tripgazer.com/",
+  "requestedUrl": "https://www.tripgazer.com/",
+  "timestamp": 1676165760181,
+  "ranks": {
+    "hundos": 838,
+    "performance": 833,
+    "accessibility": 833,
+    "cumulative": 838
+  },
+  "lighthouse": {
+    "version": "10.0.0",
+    "performance": 0.23,
+    "accessibility": 0.68,
+    "bestPractices": 0.75,
+    "seo": 0.99,
+    "total": 265
+  },
+  "firstContentfulPaint": 2884.676,
+  "firstMeaningfulPaint": 2895.676,
+  "speedIndex": 9278.209684439767,
+  "largestContentfulPaint": 5232.967000000001,
+  "totalBlockingTime": 1499,
+  "cumulativeLayoutShift": 0.38465711268191405,
+  "timeToInteractive": 17825.03863896179,
+  "maxPotentialFirstInputDelay": 966.9999999999982,
+  "timeToFirstByte": 67.084,
+  "weight": {
+    "summary": "273 requests • 12,030 KiB",
+    "total": 12318533,
+    "image": 11318236,
+    "imageCount": 117,
+    "script": 567639,
+    "scriptCount": 69,
+    "document": 268075,
+    "font": 110440,
+    "fontCount": 8,
+    "stylesheet": 22066,
+    "stylesheetCount": 16,
+    "thirdParty": 3490158,
+    "thirdPartyCount": 216
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 834,
+    "+weight.total": 5,
+    "-weight.document": 816,
+    "+weight.document": 2,
+    "-weight.script": 549,
+    "+weight.script": 24,
+    "-weight.image": 636,
+    "+weight.image": 3,
+    "-weight.font": 407,
+    "+weight.font": 158,
+    "+weight.fontCount": 7,
+    "-timeToFirstByte": 263,
+    "-totalBlockingTime": 120,
+    "-largestContentfulPaint": 112
+  },
+  "axe": {
+    "passes": 1791,
+    "violations": 77
+  }
+}

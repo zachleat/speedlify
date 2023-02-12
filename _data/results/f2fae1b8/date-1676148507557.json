@@ -1,0 +1,67 @@
+{
+  "url": "https://www.nicolas-birckel.fr/",
+  "requestedUrl": "https://www.nicolas-birckel.fr/",
+  "timestamp": 1676153492833,
+  "ranks": {
+    "hundos": 530,
+    "performance": 568,
+    "accessibility": 173,
+    "cumulative": 520
+  },
+  "lighthouse": {
+    "version": "10.0.0",
+    "performance": 0.95,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 0.92,
+    "total": 387
+  },
+  "firstContentfulPaint": 953.3570000000002,
+  "firstMeaningfulPaint": 953.3570000000002,
+  "speedIndex": 5727.12332889728,
+  "largestContentfulPaint": 953.3570000000002,
+  "totalBlockingTime": 12,
+  "cumulativeLayoutShift": 0.00024926848229539885,
+  "timeToInteractive": 1914.5730000000003,
+  "maxPotentialFirstInputDelay": 62,
+  "timeToFirstByte": 88.60800000000017,
+  "weight": {
+    "summary": "4 requests • 90 KiB",
+    "total": 92590,
+    "image": 0,
+    "imageCount": 0,
+    "script": 55867,
+    "scriptCount": 2,
+    "document": 5967,
+    "font": 30756,
+    "fontCount": 1,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 54886,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 261,
+    "+weight.total": 578,
+    "-weight.document": 404,
+    "+weight.document": 414,
+    "-weight.script": 354,
+    "+weight.script": 219,
+    "-weight.image": 1,
+    "+weight.image": 639,
+    "-weight.font": 117,
+    "+weight.font": 448,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 381,
+    "-totalBlockingTime": 24,
+    "-largestContentfulPaint": 421
+  },
+  "axe": {
+    "passes": 203,
+    "violations": 0
+  }
+}

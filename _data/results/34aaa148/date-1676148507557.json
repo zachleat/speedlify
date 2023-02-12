@@ -1,0 +1,67 @@
+{
+  "url": "https://andrewrico.com/",
+  "requestedUrl": "https://andrewrico.com/",
+  "timestamp": 1676170872525,
+  "ranks": {
+    "hundos": 557,
+    "performance": 605,
+    "accessibility": 465,
+    "cumulative": 557
+  },
+  "lighthouse": {
+    "version": "10.0.0",
+    "performance": 0.93,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 0.91,
+    "total": 384
+  },
+  "firstContentfulPaint": 1176.0900000000001,
+  "firstMeaningfulPaint": 1176.0900000000001,
+  "speedIndex": 1568.8199895457858,
+  "largestContentfulPaint": 3050.4230000000002,
+  "totalBlockingTime": 10,
+  "cumulativeLayoutShift": 0.07161811929832265,
+  "timeToInteractive": 3546.995,
+  "maxPotentialFirstInputDelay": 60,
+  "timeToFirstByte": 99.196,
+  "weight": {
+    "summary": "23 requests • 986 KiB",
+    "total": 1009326,
+    "image": 627733,
+    "imageCount": 6,
+    "script": 98785,
+    "scriptCount": 5,
+    "document": 18053,
+    "font": 230080,
+    "fontCount": 5,
+    "stylesheet": 5135,
+    "stylesheetCount": 2,
+    "thirdParty": 68869,
+    "thirdPartyCount": 6
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 709,
+    "+weight.total": 130,
+    "-weight.document": 696,
+    "+weight.document": 122,
+    "-weight.script": 436,
+    "+weight.script": 137,
+    "-weight.image": 529,
+    "+weight.image": 110,
+    "-weight.font": 498,
+    "+weight.font": 67,
+    "+weight.fontCount": 10,
+    "-timeToFirstByte": 409,
+    "-totalBlockingTime": 20,
+    "-largestContentfulPaint": 762
+  },
+  "axe": {
+    "passes": 396,
+    "violations": 5
+  }
+}

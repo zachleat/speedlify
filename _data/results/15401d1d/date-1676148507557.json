@@ -1,0 +1,67 @@
+{
+  "url": "https://www.expong.org/",
+  "requestedUrl": "https://www.expong.org/",
+  "timestamp": 1676158911525,
+  "ranks": {
+    "hundos": 625,
+    "performance": 669,
+    "accessibility": 744,
+    "cumulative": 625
+  },
+  "lighthouse": {
+    "version": "10.0.0",
+    "performance": 0.88,
+    "accessibility": 0.9,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 378
+  },
+  "firstContentfulPaint": 1620.9649999999997,
+  "firstMeaningfulPaint": 2587.439,
+  "speedIndex": 1822.7411278528261,
+  "largestContentfulPaint": 3634.4524999999994,
+  "totalBlockingTime": 1,
+  "cumulativeLayoutShift": 0.07387842540331213,
+  "timeToInteractive": 3202.749,
+  "maxPotentialFirstInputDelay": 51,
+  "timeToFirstByte": 42.66100000000003,
+  "weight": {
+    "summary": "14 requests • 511 KiB",
+    "total": 522816,
+    "image": 238875,
+    "imageCount": 3,
+    "script": 123813,
+    "scriptCount": 3,
+    "document": 3153,
+    "font": 148991,
+    "fontCount": 3,
+    "stylesheet": 7429,
+    "stylesheetCount": 2,
+    "thirdParty": 519663,
+    "thirdPartyCount": 13
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 628,
+    "+weight.total": 211,
+    "-weight.document": 181,
+    "+weight.document": 637,
+    "-weight.script": 460,
+    "+weight.script": 113,
+    "-weight.image": 424,
+    "+weight.image": 215,
+    "-weight.font": 448,
+    "+weight.font": 117,
+    "+weight.fontCount": 12,
+    "-timeToFirstByte": 89,
+    "-totalBlockingTime": 2,
+    "-largestContentfulPaint": 785
+  },
+  "axe": {
+    "passes": 138,
+    "violations": 1
+  }
+}

@@ -33,19 +33,15 @@ module.exports = async function() {
 		urls: urlsJson,
 
 		// removed from urls but still exist in result data
-		missing: [],
+		missing: [
+		],
 
 		// this was a bug when two different URLs resolved to the same URL and conflicted in resolvedUrl results.
 		// 1-indexed
 		skipIndeces: [
-			65, // migrated off eleventy
-			88 - 1, // migrated off eleventy
-			448 - 2, // migrated off eleventy
-			498 - 3, // migrated off eleventy
-			710 - 4, // unknown error maybe https://www.guangshi.io/
-			738 - 5, // migrated off eleventy
-			804 - 6, // migrated off eleventy
-			818 - 7, // migrated off eleventy
+			168, // migrated
+			365 - 1, // migrated
+			736 - 2, // missing
 		]
 	};
 };

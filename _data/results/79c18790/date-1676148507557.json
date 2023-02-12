@@ -1,0 +1,67 @@
+{
+  "url": "https://mangoweb.net/",
+  "requestedUrl": "https://mangoweb.net/",
+  "timestamp": 1676175785837,
+  "ranks": {
+    "hundos": 105,
+    "performance": 250,
+    "accessibility": 269,
+    "cumulative": 76
+  },
+  "lighthouse": {
+    "version": "10.0.0",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 899.767,
+  "firstMeaningfulPaint": 899.767,
+  "speedIndex": 1422.8086819992839,
+  "largestContentfulPaint": 1158.767,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 899.767,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 107.61199999999997,
+  "weight": {
+    "summary": "4 requests • 71 KiB",
+    "total": 73116,
+    "image": 25094,
+    "imageCount": 1,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 2325,
+    "font": 42172,
+    "fontCount": 1,
+    "stylesheet": 3525,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 220,
+    "+weight.total": 619,
+    "-weight.document": 108,
+    "+weight.document": 710,
+    "-weight.script": 1,
+    "+weight.script": 573,
+    "-weight.image": 154,
+    "+weight.image": 485,
+    "-weight.font": 183,
+    "+weight.font": 382,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 421,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 516
+  },
+  "axe": {
+    "passes": 95,
+    "violations": 0
+  }
+}

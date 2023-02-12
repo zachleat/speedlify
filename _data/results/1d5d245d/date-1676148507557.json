@@ -1,0 +1,67 @@
+{
+  "url": "https://sfc.blue/",
+  "requestedUrl": "https://sfc.blue/",
+  "timestamp": 1676175944538,
+  "ranks": {
+    "hundos": 512,
+    "performance": 538,
+    "accessibility": 726,
+    "cumulative": 512
+  },
+  "lighthouse": {
+    "version": "10.0.0",
+    "performance": 0.96,
+    "accessibility": 0.92,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 388
+  },
+  "firstContentfulPaint": 2146.683,
+  "firstMeaningfulPaint": 2451.236,
+  "speedIndex": 2741.3348220014245,
+  "largestContentfulPaint": 2281.377,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 2451.236,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 396.30699999999996,
+  "weight": {
+    "summary": "16 requests • 168 KiB",
+    "total": 171813,
+    "image": 0,
+    "imageCount": 0,
+    "script": 23804,
+    "scriptCount": 3,
+    "document": 2106,
+    "font": 108631,
+    "fontCount": 7,
+    "stylesheet": 27615,
+    "stylesheetCount": 4,
+    "thirdParty": 545,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 396,
+    "+weight.total": 443,
+    "-weight.document": 88,
+    "+weight.document": 730,
+    "-weight.script": 294,
+    "+weight.script": 279,
+    "-weight.image": 1,
+    "+weight.image": 639,
+    "-weight.font": 400,
+    "+weight.font": 165,
+    "+weight.fontCount": 8,
+    "-timeToFirstByte": 765,
+    "-totalBlockingTime": 222,
+    "-largestContentfulPaint": 320
+  },
+  "axe": {
+    "passes": 159,
+    "violations": 10
+  }
+}

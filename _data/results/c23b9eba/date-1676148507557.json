@@ -1,0 +1,67 @@
+{
+  "url": "https://games.porg.es/",
+  "requestedUrl": "https://games.porg.es/",
+  "timestamp": 1676165271488,
+  "ranks": {
+    "hundos": 597,
+    "performance": 608,
+    "accessibility": 600,
+    "cumulative": 602
+  },
+  "lighthouse": {
+    "version": "10.0.0",
+    "performance": 0.93,
+    "accessibility": 0.97,
+    "bestPractices": 1,
+    "seo": 0.91,
+    "total": 381
+  },
+  "firstContentfulPaint": 1648.156,
+  "firstMeaningfulPaint": 1648.156,
+  "speedIndex": 1648.156,
+  "largestContentfulPaint": 1648.156,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.15160727777770303,
+  "timeToInteractive": 1648.156,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 50.084,
+  "weight": {
+    "summary": "12 requests • 615 KiB",
+    "total": 629481,
+    "image": 0,
+    "imageCount": 0,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 2432,
+    "font": 576336,
+    "fontCount": 7,
+    "stylesheet": 50713,
+    "stylesheetCount": 4,
+    "thirdParty": 298833,
+    "thirdPartyCount": 7
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 660,
+    "+weight.total": 179,
+    "-weight.document": 120,
+    "+weight.document": 698,
+    "-weight.script": 1,
+    "+weight.script": 573,
+    "-weight.image": 1,
+    "+weight.image": 639,
+    "-weight.font": 551,
+    "+weight.font": 14,
+    "+weight.fontCount": 8,
+    "-timeToFirstByte": 155,
+    "-totalBlockingTime": 126,
+    "-largestContentfulPaint": 188
+  },
+  "axe": {
+    "passes": 139,
+    "violations": 11
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://www.chercheurd.art/",
+  "requestedUrl": "https://www.chercheurd.art/",
+  "timestamp": 1676153592485,
+  "ranks": {
+    "hundos": 802,
+    "performance": 788,
+    "accessibility": 812,
+    "cumulative": 802
+  },
+  "lighthouse": {
+    "version": "10.0.0",
+    "performance": 0.65,
+    "accessibility": 0.75,
+    "bestPractices": 0.92,
+    "seo": 1,
+    "total": 332
+  },
+  "firstContentfulPaint": 1135.9660000000001,
+  "firstMeaningfulPaint": 1389.8650000000002,
+  "speedIndex": 9539.562103358656,
+  "largestContentfulPaint": 17554.767999999982,
+  "totalBlockingTime": 108,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 11443.192999999992,
+  "maxPotentialFirstInputDelay": 151,
+  "timeToFirstByte": 85.1389999999999,
+  "weight": {
+    "summary": "32 requests • 3,321 KiB",
+    "total": 3400895,
+    "image": 3252832,
+    "imageCount": 16,
+    "script": 83517,
+    "scriptCount": 6,
+    "document": 10641,
+    "font": 39631,
+    "fontCount": 2,
+    "stylesheet": 11524,
+    "stylesheetCount": 1,
+    "thirdParty": 78460,
+    "thirdPartyCount": 11
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 806,
+    "+weight.total": 33,
+    "-weight.document": 584,
+    "+weight.document": 234,
+    "-weight.script": 425,
+    "+weight.script": 148,
+    "-weight.image": 620,
+    "+weight.image": 19,
+    "-weight.font": 175,
+    "+weight.font": 390,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 355,
+    "-totalBlockingTime": 79,
+    "-largestContentfulPaint": 130
+  },
+  "axe": {
+    "passes": 687,
+    "violations": 14
+  }
+}

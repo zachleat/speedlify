@@ -1,0 +1,67 @@
+{
+  "url": "https://jamesbateson.co.uk/",
+  "requestedUrl": "https://jamesbateson.co.uk/",
+  "timestamp": 1676160672792,
+  "ranks": {
+    "hundos": 111,
+    "performance": 280,
+    "accessibility": 104,
+    "cumulative": 80
+  },
+  "lighthouse": {
+    "version": "10.0.0",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 893.4329999999999,
+  "firstMeaningfulPaint": 893.4329999999999,
+  "speedIndex": 1566.3829626063573,
+  "largestContentfulPaint": 893.4329999999999,
+  "totalBlockingTime": 10,
+  "cumulativeLayoutShift": 0.0001943615184956868,
+  "timeToInteractive": 1957.3239999999998,
+  "maxPotentialFirstInputDelay": 60,
+  "timeToFirstByte": 439.08200000000005,
+  "weight": {
+    "summary": "3 requests • 100 KiB",
+    "total": 102079,
+    "image": 0,
+    "imageCount": 0,
+    "script": 54886,
+    "scriptCount": 1,
+    "document": 9465,
+    "font": 37728,
+    "fontCount": 1,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 54886,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 285,
+    "+weight.total": 554,
+    "-weight.document": 552,
+    "+weight.document": 266,
+    "-weight.script": 352,
+    "+weight.script": 221,
+    "-weight.image": 1,
+    "+weight.image": 639,
+    "-weight.font": 165,
+    "+weight.font": 400,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 789,
+    "-totalBlockingTime": 247,
+    "-largestContentfulPaint": 357
+  },
+  "axe": {
+    "passes": 325,
+    "violations": 0
+  }
+}

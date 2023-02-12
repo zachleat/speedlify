@@ -1,0 +1,67 @@
+{
+  "url": "https://www.kajrietberg.nl/",
+  "requestedUrl": "https://www.kajrietberg.nl/",
+  "timestamp": 1676153916335,
+  "ranks": {
+    "hundos": 712,
+    "performance": 459,
+    "accessibility": 766,
+    "cumulative": 712
+  },
+  "lighthouse": {
+    "version": "10.0.0",
+    "performance": 0.98,
+    "accessibility": 0.86,
+    "bestPractices": 1,
+    "seo": 0.82,
+    "total": 366
+  },
+  "firstContentfulPaint": 1839.2410000000002,
+  "firstMeaningfulPaint": 1839.2410000000002,
+  "speedIndex": 1839.2410000000002,
+  "largestContentfulPaint": 1839.2410000000002,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.0007206418896657856,
+  "timeToInteractive": 1839.2410000000002,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 43.134000000000015,
+  "weight": {
+    "summary": "9 requests • 81 KiB",
+    "total": 83192,
+    "image": 25153,
+    "imageCount": 2,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 4452,
+    "font": 50213,
+    "fontCount": 3,
+    "stylesheet": 3374,
+    "stylesheetCount": 3,
+    "thirdParty": 75655,
+    "thirdPartyCount": 6
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 246,
+    "+weight.total": 593,
+    "-weight.document": 285,
+    "+weight.document": 533,
+    "-weight.script": 1,
+    "+weight.script": 573,
+    "-weight.image": 155,
+    "+weight.image": 484,
+    "-weight.font": 226,
+    "+weight.font": 339,
+    "+weight.fontCount": 12,
+    "-timeToFirstByte": 99,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 650
+  },
+  "axe": {
+    "passes": 295,
+    "violations": 2
+  }
+}

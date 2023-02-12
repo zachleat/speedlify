@@ -1,0 +1,67 @@
+{
+  "url": "https://jonas.brusman.se/",
+  "requestedUrl": "https://jonas.brusman.se/",
+  "timestamp": 1676170472760,
+  "ranks": {
+    "hundos": 381,
+    "performance": 415,
+    "accessibility": 431,
+    "cumulative": 385
+  },
+  "lighthouse": {
+    "version": "10.0.0",
+    "performance": 0.99,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 0.95,
+    "total": 394
+  },
+  "firstContentfulPaint": 1753.3589999999997,
+  "firstMeaningfulPaint": 1753.3589999999997,
+  "speedIndex": 1990.234437998688,
+  "largestContentfulPaint": 1753.3589999999997,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.003181299386143921,
+  "timeToInteractive": 1753.3589999999997,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 142.24499999999998,
+  "weight": {
+    "summary": "12 requests • 347 KiB",
+    "total": 354950,
+    "image": 113511,
+    "imageCount": 5,
+    "script": 4284,
+    "scriptCount": 2,
+    "document": 2053,
+    "font": 228037,
+    "fontCount": 1,
+    "stylesheet": 7065,
+    "stylesheetCount": 3,
+    "thirdParty": 230380,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 561,
+    "+weight.total": 278,
+    "-weight.document": 82,
+    "+weight.document": 736,
+    "-weight.script": 144,
+    "+weight.script": 429,
+    "-weight.image": 314,
+    "+weight.image": 325,
+    "-weight.font": 495,
+    "+weight.font": 70,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 513,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 634
+  },
+  "axe": {
+    "passes": 251,
+    "violations": 3
+  }
+}

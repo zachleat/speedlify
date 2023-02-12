@@ -1,0 +1,67 @@
+{
+  "url": "https://lamplightdev.com/",
+  "requestedUrl": "https://lamplightdev.com/",
+  "timestamp": 1676173434415,
+  "ranks": {
+    "hundos": 2,
+    "performance": 52,
+    "accessibility": 145,
+    "cumulative": 2
+  },
+  "lighthouse": {
+    "version": "10.0.0",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 926.858,
+  "firstMeaningfulPaint": 926.858,
+  "speedIndex": 926.858,
+  "largestContentfulPaint": 926.858,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.030489452872976056,
+  "timeToInteractive": 926.858,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 41.87700000000001,
+  "weight": {
+    "summary": "15 requests • 439 KiB",
+    "total": 449538,
+    "image": 443263,
+    "imageCount": 13,
+    "script": 890,
+    "scriptCount": 1,
+    "document": 5385,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 598,
+    "+weight.total": 241,
+    "-weight.document": 357,
+    "+weight.document": 461,
+    "-weight.script": 31,
+    "+weight.script": 542,
+    "-weight.image": 494,
+    "+weight.image": 145,
+    "-weight.font": 1,
+    "+weight.font": 565,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 59,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 394
+  },
+  "axe": {
+    "passes": 244,
+    "violations": 0
+  }
+}

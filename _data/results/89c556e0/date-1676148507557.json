@@ -1,0 +1,67 @@
+{
+  "url": "https://www.vktr.dev/",
+  "requestedUrl": "https://www.vktr.dev/",
+  "timestamp": 1676176242390,
+  "ranks": {
+    "hundos": 99,
+    "performance": 93,
+    "accessibility": 409,
+    "cumulative": 180
+  },
+  "lighthouse": {
+    "version": "10.0.0",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 1005.384,
+  "firstMeaningfulPaint": 1005.384,
+  "speedIndex": 1005.384,
+  "largestContentfulPaint": 1005.384,
+  "totalBlockingTime": 5,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1152.138,
+  "maxPotentialFirstInputDelay": 60,
+  "timeToFirstByte": 84.73100000000002,
+  "weight": {
+    "summary": "7 requests • 54 KiB",
+    "total": 55594,
+    "image": 14281,
+    "imageCount": 3,
+    "script": 17805,
+    "scriptCount": 1,
+    "document": 5898,
+    "font": 17233,
+    "fontCount": 1,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 31891,
+    "thirdPartyCount": 5
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 191,
+    "+weight.total": 648,
+    "-weight.document": 401,
+    "+weight.document": 417,
+    "-weight.script": 264,
+    "+weight.script": 309,
+    "-weight.image": 116,
+    "+weight.image": 523,
+    "-weight.font": 47,
+    "+weight.font": 518,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 352,
+    "-totalBlockingTime": 11,
+    "-largestContentfulPaint": 453
+  },
+  "axe": {
+    "passes": 146,
+    "violations": 2
+  }
+}

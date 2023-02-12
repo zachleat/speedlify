@@ -1,0 +1,66 @@
+{
+  "url": "https://www.ilithya.rocks/",
+  "requestedUrl": "https://www.ilithya.rocks/",
+  "timestamp": 1676174950679,
+  "ranks": {
+    "hundos": 775,
+    "performance": 805,
+    "accessibility": 741,
+    "cumulative": 775
+  },
+  "lighthouse": {
+    "version": "10.0.0",
+    "performance": 0.58,
+    "accessibility": 0.91,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 349
+  },
+  "firstContentfulPaint": 809.326,
+  "firstMeaningfulPaint": 809.326,
+  "speedIndex": 15523.694157298309,
+  "largestContentfulPaint": 2355.883,
+  "totalBlockingTime": 170508,
+  "cumulativeLayoutShift": 0.01813548411538314,
+  "timeToInteractive": 179656.71,
+  "maxPotentialFirstInputDelay": 3205,
+  "timeToFirstByte": 41.787000000000035,
+  "weight": {
+    "summary": "6 requests • 173 KiB",
+    "total": 176971,
+    "image": 0,
+    "imageCount": 0,
+    "script": 119522,
+    "scriptCount": 2,
+    "document": 4544,
+    "font": 32214,
+    "fontCount": 1,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 26265,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 407,
+    "+weight.total": 432,
+    "-weight.document": 298,
+    "+weight.document": 520,
+    "-weight.script": 455,
+    "+weight.script": 118,
+    "-weight.image": 1,
+    "+weight.image": 639,
+    "-weight.font": 130,
+    "+weight.font": 435,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 56,
+    "-totalBlockingTime": 125,
+    "-largestContentfulPaint": 77
+  },
+  "axe": {
+    "error": "{\"name\":\"TimeoutError\"}"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://danielhieber.info/",
+  "requestedUrl": "https://danielhieber.info/",
+  "timestamp": 1676166426930,
+  "ranks": {
+    "hundos": 754,
+    "performance": 808,
+    "accessibility": 347,
+    "cumulative": 749
+  },
+  "lighthouse": {
+    "version": "10.0.0",
+    "performance": 0.56,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 356
+  },
+  "firstContentfulPaint": 2166.5860000000002,
+  "firstMeaningfulPaint": 2166.5860000000002,
+  "speedIndex": 2166.5860000000002,
+  "largestContentfulPaint": 17016.586,
+  "totalBlockingTime": 690,
+  "cumulativeLayoutShift": 0.0007203904172408033,
+  "timeToInteractive": 2906.5860000000002,
+  "maxPotentialFirstInputDelay": 885,
+  "timeToFirstByte": 48.56800000000001,
+  "weight": {
+    "summary": "9 requests • 3,201 KiB",
+    "total": 3277368,
+    "image": 2271939,
+    "imageCount": 2,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 127323,
+    "font": 878106,
+    "fontCount": 6,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 804,
+    "+weight.total": 35,
+    "-weight.document": 808,
+    "+weight.document": 10,
+    "-weight.script": 1,
+    "+weight.script": 573,
+    "-weight.image": 604,
+    "+weight.image": 35,
+    "-weight.font": 559,
+    "+weight.font": 6,
+    "+weight.fontCount": 9,
+    "-timeToFirstByte": 139,
+    "-totalBlockingTime": 170,
+    "-largestContentfulPaint": 831
+  },
+  "axe": {
+    "passes": 274,
+    "violations": 1
+  }
+}

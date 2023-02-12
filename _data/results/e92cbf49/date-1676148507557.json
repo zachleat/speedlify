@@ -1,0 +1,67 @@
+{
+  "url": "https://chromatichq.com/",
+  "requestedUrl": "https://chromatic.live/",
+  "timestamp": 1676180727095,
+  "ranks": {
+    "hundos": 741,
+    "performance": 780,
+    "accessibility": 519,
+    "cumulative": 740
+  },
+  "lighthouse": {
+    "version": "10.0.0",
+    "performance": 0.68,
+    "accessibility": 1,
+    "bestPractices": 0.92,
+    "seo": 1,
+    "total": 360
+  },
+  "firstContentfulPaint": 1960.399,
+  "firstMeaningfulPaint": 1960.399,
+  "speedIndex": 5715.0723072663795,
+  "largestContentfulPaint": 6898.605999999999,
+  "totalBlockingTime": 152,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 9418.133000000002,
+  "maxPotentialFirstInputDelay": 128,
+  "timeToFirstByte": 68.857,
+  "weight": {
+    "summary": "57 requests • 1,028 KiB",
+    "total": 1052916,
+    "image": 352124,
+    "imageCount": 14,
+    "script": 369552,
+    "scriptCount": 24,
+    "document": 6077,
+    "font": 284694,
+    "fontCount": 5,
+    "stylesheet": 27441,
+    "stylesheetCount": 2,
+    "thirdParty": 706711,
+    "thirdPartyCount": 32
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 720,
+    "+weight.total": 119,
+    "-weight.document": 410,
+    "+weight.document": 408,
+    "-weight.script": 531,
+    "+weight.script": 42,
+    "-weight.image": 463,
+    "+weight.image": 176,
+    "-weight.font": 516,
+    "+weight.font": 49,
+    "+weight.fontCount": 10,
+    "-timeToFirstByte": 280,
+    "-totalBlockingTime": 91,
+    "-largestContentfulPaint": 119
+  },
+  "axe": {
+    "passes": 313,
+    "violations": 21
+  }
+}

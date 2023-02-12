@@ -1,0 +1,67 @@
+{
+  "url": "https://martyn.thecooks.net.nz/",
+  "requestedUrl": "https://martyn.thecooks.net.nz/",
+  "timestamp": 1676156643453,
+  "ranks": {
+    "hundos": 715,
+    "performance": 781,
+    "accessibility": 547,
+    "cumulative": 713
+  },
+  "lighthouse": {
+    "version": "10.0.0",
+    "performance": 0.67,
+    "accessibility": 0.98,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 365
+  },
+  "firstContentfulPaint": 2053.4010000000003,
+  "firstMeaningfulPaint": 4645.083500000001,
+  "speedIndex": 6516.059269100766,
+  "largestContentfulPaint": 10527.663000000004,
+  "totalBlockingTime": 28.999999999999545,
+  "cumulativeLayoutShift": 0.005518588612312953,
+  "timeToInteractive": 7673.296000000001,
+  "maxPotentialFirstInputDelay": 84,
+  "timeToFirstByte": 410.81500000000005,
+  "weight": {
+    "summary": "63 requests • 1,400 KiB",
+    "total": 1433265,
+    "image": 574274,
+    "imageCount": 12,
+    "script": 379733,
+    "scriptCount": 23,
+    "document": 7183,
+    "font": 380450,
+    "fontCount": 8,
+    "stylesheet": 62614,
+    "stylesheetCount": 11,
+    "thirdParty": 1024446,
+    "thirdPartyCount": 38
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 752,
+    "+weight.total": 87,
+    "-weight.document": 473,
+    "+weight.document": 345,
+    "-weight.script": 533,
+    "+weight.script": 40,
+    "-weight.image": 522,
+    "+weight.image": 117,
+    "-weight.font": 537,
+    "+weight.font": 28,
+    "+weight.fontCount": 7,
+    "-timeToFirstByte": 773,
+    "-totalBlockingTime": 252,
+    "-largestContentfulPaint": 829
+  },
+  "axe": {
+    "passes": 845,
+    "violations": 3
+  }
+}

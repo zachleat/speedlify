@@ -1,0 +1,67 @@
+{
+  "url": "https://ryanmulligan.dev/",
+  "requestedUrl": "https://ryanmulligan.dev/",
+  "timestamp": 1676173169494,
+  "ranks": {
+    "hundos": 33,
+    "performance": 159,
+    "accessibility": 20,
+    "cumulative": 25
+  },
+  "lighthouse": {
+    "version": "10.0.0",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 950.607,
+  "firstMeaningfulPaint": 980.107,
+  "speedIndex": 1125.1560325551814,
+  "largestContentfulPaint": 1414.725,
+  "totalBlockingTime": 12,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1062.607,
+  "maxPotentialFirstInputDelay": 59,
+  "timeToFirstByte": 48.14499999999998,
+  "weight": {
+    "summary": "15 requests • 133 KiB",
+    "total": 136043,
+    "image": 39460,
+    "imageCount": 3,
+    "script": 3940,
+    "scriptCount": 4,
+    "document": 7665,
+    "font": 78194,
+    "fontCount": 2,
+    "stylesheet": 5964,
+    "stylesheetCount": 2,
+    "thirdParty": 2559,
+    "thirdPartyCount": 4
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 344,
+    "+weight.total": 495,
+    "-weight.document": 488,
+    "+weight.document": 330,
+    "-weight.script": 138,
+    "+weight.script": 435,
+    "-weight.image": 202,
+    "+weight.image": 437,
+    "-weight.font": 334,
+    "+weight.font": 231,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 134,
+    "-totalBlockingTime": 135,
+    "-largestContentfulPaint": 177
+  },
+  "axe": {
+    "passes": 879,
+    "violations": 0
+  }
+}

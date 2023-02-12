@@ -1,0 +1,55 @@
+{
+  "url": "https://dassur.ma/",
+  "requestedUrl": "https://dassur.ma/",
+  "timestamp": 1676154804231,
+  "ranks": {
+    "hundos": 839,
+    "performance": 835,
+    "accessibility": 799,
+    "cumulative": 839
+  },
+  "lighthouse": {
+    "version": "10.0.0",
+    "performance": null,
+    "accessibility": 0.79,
+    "bestPractices": 1,
+    "seo": 0.85,
+    "total": 264
+  },
+  "timeToFirstByte": 42.62600000000003,
+  "weight": {
+    "summary": "20 requests • 168 KiB",
+    "total": 171999,
+    "image": 12644,
+    "imageCount": 9,
+    "script": 3963,
+    "scriptCount": 4,
+    "document": 3534,
+    "font": 144802,
+    "fontCount": 2,
+    "stylesheet": 6514,
+    "stylesheetCount": 1,
+    "thirdParty": 542,
+    "thirdPartyCount": 3
+  },
+  "sidequests": {
+    "-weight.total": 397,
+    "+weight.total": 442,
+    "-weight.document": 215,
+    "+weight.document": 603,
+    "-weight.script": 139,
+    "+weight.script": 434,
+    "-weight.image": 110,
+    "+weight.image": 529,
+    "-weight.font": 442,
+    "+weight.font": 123,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 85,
+    "-totalBlockingTime": 126,
+    "-largestContentfulPaint": 131
+  },
+  "axe": {
+    "passes": 197,
+    "violations": 2
+  }
+}

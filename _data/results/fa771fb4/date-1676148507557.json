@@ -1,0 +1,67 @@
+{
+  "url": "https://www.andreacorinti.com/",
+  "requestedUrl": "https://www.andreacorinti.com/",
+  "timestamp": 1676169810600,
+  "ranks": {
+    "hundos": 655,
+    "performance": 675,
+    "accessibility": 585,
+    "cumulative": 651
+  },
+  "lighthouse": {
+    "version": "10.0.0",
+    "performance": 0.87,
+    "accessibility": 0.97,
+    "bestPractices": 1,
+    "seo": 0.92,
+    "total": 376
+  },
+  "firstContentfulPaint": 1925.3590000000004,
+  "firstMeaningfulPaint": 1925.3590000000004,
+  "speedIndex": 1968.948422000028,
+  "largestContentfulPaint": 2868.1770000000006,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.1615845740677721,
+  "timeToInteractive": 1925.3590000000004,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 188.94600000000003,
+  "weight": {
+    "summary": "8 requests • 112 KiB",
+    "total": 114918,
+    "image": 55064,
+    "imageCount": 2,
+    "script": 20389,
+    "scriptCount": 1,
+    "document": 4846,
+    "font": 20366,
+    "fontCount": 1,
+    "stylesheet": 13690,
+    "stylesheetCount": 1,
+    "thirdParty": 24736,
+    "thirdPartyCount": 4
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 308,
+    "+weight.total": 531,
+    "-weight.document": 315,
+    "+weight.document": 503,
+    "-weight.script": 274,
+    "+weight.script": 299,
+    "-weight.image": 235,
+    "+weight.image": 404,
+    "-weight.font": 60,
+    "+weight.font": 505,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 603,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 753
+  },
+  "axe": {
+    "passes": 235,
+    "violations": 4
+  }
+}

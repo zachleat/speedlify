@@ -1,0 +1,67 @@
+{
+  "url": "https://www.globe.church/",
+  "requestedUrl": "https://www.globe.church/",
+  "timestamp": 1676180791338,
+  "ranks": {
+    "hundos": 606,
+    "performance": 690,
+    "accessibility": 669,
+    "cumulative": 611
+  },
+  "lighthouse": {
+    "version": "10.0.0",
+    "performance": 0.85,
+    "accessibility": 0.95,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 380
+  },
+  "firstContentfulPaint": 1162.5080000000003,
+  "firstMeaningfulPaint": 1162.5080000000003,
+  "speedIndex": 1784.3254639991933,
+  "largestContentfulPaint": 4283.264000000001,
+  "totalBlockingTime": 41.5,
+  "cumulativeLayoutShift": 0.0007865354548471675,
+  "timeToInteractive": 3700.8515000000007,
+  "maxPotentialFirstInputDelay": 133,
+  "timeToFirstByte": 43.38399999999996,
+  "weight": {
+    "summary": "17 requests • 314 KiB",
+    "total": 321877,
+    "image": 72324,
+    "imageCount": 5,
+    "script": 166678,
+    "scriptCount": 4,
+    "document": 4499,
+    "font": 49152,
+    "fontCount": 2,
+    "stylesheet": 10433,
+    "stylesheetCount": 1,
+    "thirdParty": 201662,
+    "thirdPartyCount": 8
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 546,
+    "+weight.total": 293,
+    "-weight.document": 290,
+    "+weight.document": 528,
+    "-weight.script": 490,
+    "+weight.script": 83,
+    "-weight.image": 256,
+    "+weight.image": 383,
+    "-weight.font": 219,
+    "+weight.font": 346,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 103,
+    "-totalBlockingTime": 58,
+    "-largestContentfulPaint": 105
+  },
+  "axe": {
+    "passes": 338,
+    "violations": 53
+  }
+}

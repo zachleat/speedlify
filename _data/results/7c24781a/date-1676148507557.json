@@ -1,0 +1,67 @@
+{
+  "url": "https://darn.es/",
+  "requestedUrl": "https://darn.es/",
+  "timestamp": 1676166253718,
+  "ranks": {
+    "hundos": 456,
+    "performance": 186,
+    "accessibility": 550,
+    "cumulative": 465
+  },
+  "lighthouse": {
+    "version": "10.0.0",
+    "performance": 1,
+    "accessibility": 0.98,
+    "bestPractices": 1,
+    "seo": 0.93,
+    "total": 391
+  },
+  "firstContentfulPaint": 1174.021,
+  "firstMeaningfulPaint": 1191.021,
+  "speedIndex": 1174.021,
+  "largestContentfulPaint": 1270.773,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.0007755441501682644,
+  "timeToInteractive": 1191.021,
+  "maxPotentialFirstInputDelay": 34,
+  "timeToFirstByte": 31.109999999999985,
+  "weight": {
+    "summary": "7 requests • 169 KiB",
+    "total": 173267,
+    "image": 108602,
+    "imageCount": 2,
+    "script": 1100,
+    "scriptCount": 1,
+    "document": 19901,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 7886,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 399,
+    "+weight.total": 440,
+    "-weight.document": 703,
+    "+weight.document": 115,
+    "-weight.script": 45,
+    "+weight.script": 528,
+    "-weight.image": 310,
+    "+weight.image": 329,
+    "-weight.font": 1,
+    "+weight.font": 565,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 24,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 537
+  },
+  "axe": {
+    "passes": 1344,
+    "violations": 5
+  }
+}

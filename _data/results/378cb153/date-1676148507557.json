@@ -1,0 +1,67 @@
+{
+  "url": "https://11tymeetup.dev/",
+  "requestedUrl": "https://11tymeetup.dev/",
+  "timestamp": 1676177640257,
+  "ranks": {
+    "hundos": 616,
+    "performance": 695,
+    "accessibility": 589,
+    "cumulative": 616
+  },
+  "lighthouse": {
+    "version": "10.0.0",
+    "performance": 0.84,
+    "accessibility": 0.97,
+    "bestPractices": 1,
+    "seo": 0.98,
+    "total": 379
+  },
+  "firstContentfulPaint": 1630.9620000000002,
+  "firstMeaningfulPaint": 1630.9620000000002,
+  "speedIndex": 1630.9620000000002,
+  "largestContentfulPaint": 1630.9620000000002,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.2944143879617295,
+  "timeToInteractive": 1630.9620000000002,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 43.509000000000015,
+  "weight": {
+    "summary": "10 requests • 148 KiB",
+    "total": 151396,
+    "image": 118273,
+    "imageCount": 6,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 6913,
+    "font": 21766,
+    "fontCount": 1,
+    "stylesheet": 4444,
+    "stylesheetCount": 2,
+    "thirdParty": 73230,
+    "thirdPartyCount": 6
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 365,
+    "+weight.total": 474,
+    "-weight.document": 461,
+    "+weight.document": 357,
+    "-weight.script": 1,
+    "+weight.script": 573,
+    "-weight.image": 322,
+    "+weight.image": 317,
+    "-weight.font": 71,
+    "+weight.font": 494,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 109,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 601
+  },
+  "axe": {
+    "passes": 363,
+    "violations": 5
+  }
+}

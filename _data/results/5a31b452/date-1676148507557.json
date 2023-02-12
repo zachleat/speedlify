@@ -1,0 +1,67 @@
+{
+  "url": "https://treylabs.com/",
+  "requestedUrl": "https://treylabs.com/",
+  "timestamp": 1676164978775,
+  "ranks": {
+    "hundos": 450,
+    "performance": 264,
+    "accessibility": 411,
+    "cumulative": 437
+  },
+  "lighthouse": {
+    "version": "10.0.0",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 0.92,
+    "total": 392
+  },
+  "firstContentfulPaint": 968.1130000000002,
+  "firstMeaningfulPaint": 968.1130000000002,
+  "speedIndex": 1469.8109540002913,
+  "largestContentfulPaint": 1664.2240000000002,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 968.1130000000002,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 322.139,
+  "weight": {
+    "summary": "3 requests • 4 KiB",
+    "total": 4421,
+    "image": 0,
+    "imageCount": 0,
+    "script": 1301,
+    "scriptCount": 1,
+    "document": 1132,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 1988,
+    "stylesheetCount": 1,
+    "thirdParty": 1301,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 26,
+    "+weight.total": 813,
+    "-weight.document": 14,
+    "+weight.document": 804,
+    "-weight.script": 61,
+    "+weight.script": 512,
+    "-weight.image": 1,
+    "+weight.image": 639,
+    "-weight.font": 1,
+    "+weight.font": 565,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 715,
+    "-totalBlockingTime": 222,
+    "-largestContentfulPaint": 304
+  },
+  "axe": {
+    "passes": 127,
+    "violations": 2
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://marcamos.com/",
+  "requestedUrl": "https://marcamos.com/",
+  "timestamp": 1676165864838,
+  "ranks": {
+    "hundos": 164,
+    "performance": 79,
+    "accessibility": 100,
+    "cumulative": 116
+  },
+  "lighthouse": {
+    "version": "10.0.0",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 981.83,
+  "firstMeaningfulPaint": 981.83,
+  "speedIndex": 981.83,
+  "largestContentfulPaint": 981.83,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 981.83,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 40.920000000000016,
+  "weight": {
+    "summary": "3 requests • 13 KiB",
+    "total": 13338,
+    "image": 2487,
+    "imageCount": 1,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 7455,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 3396,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 79,
+    "+weight.total": 760,
+    "-weight.document": 482,
+    "+weight.document": 336,
+    "-weight.script": 1,
+    "+weight.script": 573,
+    "-weight.image": 41,
+    "+weight.image": 598,
+    "-weight.font": 1,
+    "+weight.font": 565,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 33,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 436
+  },
+  "axe": {
+    "passes": 332,
+    "violations": 0
+  }
+}
