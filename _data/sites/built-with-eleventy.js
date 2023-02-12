@@ -1,8 +1,8 @@
-const CacheAsset = require("@11ty/eleventy-cache-assets");
+const Fetch = require("@11ty/eleventy-fetch");
 
 module.exports = async function() {
 	let url = "https://www.11ty.dev/api/urls.json";
-	let urlsJson = await CacheAsset(url, {
+	let urlsJson = await Fetch(url, {
 		duration: "2d",
 		type: "json",
 	});
