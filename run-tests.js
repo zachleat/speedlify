@@ -83,7 +83,7 @@ const prettyTime = (seconds) => {
 		}
 
 		let options = Object.assign({}, group.options);
-		const PerfLeaderboard = require(options.package || "performance-leaderboard-pagespeed-insights");
+		const PerfLeaderboard = require(options.package || "performance-leaderboard");
 		let results = await PerfLeaderboard(
 			group.urls,
 			options,
