@@ -7,7 +7,7 @@ module.exports = {
 
 	options: {
 		package: "performance-leaderboard-pagespeed-insights",
-		frequency: 60 * 23, // 24 hours
+		frequency: 60 * 6, // 6 hours
 	},
 	urls: [
 		"https://www.11ty.dev/",
