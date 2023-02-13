@@ -6,7 +6,7 @@ module.exports = {
 	skip: !process.env.CONTEXT || process.env.SITE_NAME !== "speedlify",
 
 	options: {
-		frequency: 1, // 1 minute
+		frequency: 60 * 6, // 6 hours
 	},
 	urls: [
 		"https://www.11ty.dev/",

@@ -12,11 +12,11 @@ module.exports = async function() {
 		description: "Eleventy Starter Projects",
 		// skip if localhost
 		// skip if this is a new fork of the speedlify (not Zach’s)
-		// skip: !process.env.CONTEXT || process.env.SITE_NAME !== "speedlify",
-		skip: true,
-		estimatedTimePerBuild: .2,
+		// skip: true,
+		skip: !process.env.CONTEXT || process.env.SITE_NAME !== "speedlify",
 		options: {
-			frequency: 60 * 5.5, // 5.5 hours
+			// frequency: 60 * 5.5, // 5.5 hours
+			frequency: 1,
 		},
 
 		urls: urlsJson,
