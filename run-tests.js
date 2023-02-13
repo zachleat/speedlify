@@ -1,5 +1,4 @@
 require("dotenv").config();
-const path = require("path");
 const fs = require("fs").promises;
 const shortHash = require("short-hash");
 const fastglob = require("fast-glob");
