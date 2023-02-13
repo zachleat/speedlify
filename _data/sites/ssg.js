@@ -6,8 +6,7 @@ module.exports = {
 	skip: !process.env.CONTEXT || process.env.SITE_NAME !== "speedlify",
 
 	options: {
-		package: "performance-leaderboard-pagespeed-insights",
-		frequency: 0, // 6 hours
+		frequency: 1, // 1 minute
 	},
 	urls: [
 		"https://www.11ty.dev/",

@@ -5,7 +5,6 @@ module.exports = {
 	// skip if this is a new fork of the speedlify (not Zach’s)
 	skip: !process.env.CONTEXT || process.env.SITE_NAME !== "speedlify",
 	options: {
-		package: "performance-leaderboard-pagespeed-insights",
 		frequency: 60 * 23, // 23 hours
 	},
 	urls: [

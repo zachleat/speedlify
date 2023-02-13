@@ -16,7 +16,6 @@ module.exports = async function() {
 		skip: true,
 		estimatedTimePerBuild: .2,
 		options: {
-			package: "performance-leaderboard-pagespeed-insights",
 			frequency: 60 * 5.5, // 5.5 hours
 		},
 
