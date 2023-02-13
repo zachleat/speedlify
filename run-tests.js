@@ -3,7 +3,6 @@ require("dotenv").config();
 const fs = require("fs").promises;
 const shortHash = require("short-hash");
 const fastglob = require("fast-glob");
-const PerfLeaderboard = require("performance-leaderboard-pagespeed-insights");
 
 const FREQUENCY = 60; // in minutes
 
@@ -25,7 +24,7 @@ const prettyTime = (seconds) => {
 
 (async function() {
 	// Netlify specific check (works fine without this env variable too)
-	if(false && process.env.CONTEXT && process.env.CONTEXT !== "production") {
+	if(process.env.CONTEXT && process.env.CONTEXT !== "production") {
 		console.log( "Skipping all test runs because we’re in a Netlify build or deploy preview!" );
 		return;
 	}
@@ -84,6 +83,7 @@ const prettyTime = (seconds) => {
 		}
 
 		let options = Object.assign({}, group.options);
+		const PerfLeaderboard = require(options.package || "performance-leaderboard-pagespeed-insights");
 		let results = await PerfLeaderboard(
 			group.urls,
 			options,
