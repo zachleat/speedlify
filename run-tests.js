@@ -23,12 +23,6 @@ const prettyTime = (seconds) => {
 }
 
 (async function() {
-	// Netlify specific check (works fine without this env variable too)
-	if(process.env.CONTEXT && process.env.CONTEXT !== "production") {
-		console.log( "Skipping all test runs because we’re in a Netlify build or deploy preview!" );
-		return;
-	}
-
 	let dateTestsStarted = Date.now();
 	let dataDir = `./_data/`;
 	// Careful here, this filename needs to be .gitignore’d and
