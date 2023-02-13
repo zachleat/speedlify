@@ -25,7 +25,7 @@ const prettyTime = (seconds) => {
 
 (async function() {
 	// Netlify specific check (works fine without this env variable too)
-	if(false && process.env.CONTEXT && process.env.CONTEXT !== "production") {
+	if(process.env.CONTEXT && process.env.CONTEXT !== "production") {
 		console.log( "Skipping all test runs because we’re in a Netlify build or deploy preview!" );
 		return;
 	}
