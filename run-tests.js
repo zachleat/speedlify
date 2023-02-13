@@ -1,10 +1,14 @@
 require("dotenv").config();
-
+const path = require("path");
 const fs = require("fs").promises;
 const shortHash = require("short-hash");
 const fastglob = require("fast-glob");
+const PerfLeaderboard = require("performance-leaderboard");
 
+const NUMBER_OF_RUNS = 3;
 const FREQUENCY = 60; // in minutes
+const NETLIFY_MAX_LIMIT = 15; // in minutes, netlify limit
+const ESTIMATED_MAX_TIME_PER_TEST = 0.75; // in minutes, estimate based on looking at past builds
 
 const prettyTime = (seconds) => {
 	// Based on https://johnresig.com/blog/javascript-pretty-date/
@@ -20,6 +24,18 @@ const prettyTime = (seconds) => {
 		(days < 7 && days + " days ago") ||
 		(Math.ceil(days / 7) + " weeks ago")
 	);
+}
+
+async function tryToPreventNetlifyBuildTimeout(dateTestsStarted, numberOfUrls, estimatedTimePerBuild = ESTIMATED_MAX_TIME_PER_TEST) {
+	let minutesRemaining = NETLIFY_MAX_LIMIT - (Date.now() - dateTestsStarted)/(1000*60);
+	if(process.env.CONTEXT &&
+		process.env.CONTEXT === "production" &&
+		NETLIFY_MAX_LIMIT &&
+		minutesRemaining < numberOfUrls * estimatedTimePerBuild) {
+		console.log( `run-tests has about ${minutesRemaining} minutes left, but the next run has ${numberOfUrls} urls. Saving it for the next build.` );
+		return true;
+	}
+	return false;
 }
 
 (async function() {
@@ -59,6 +75,12 @@ const prettyTime = (seconds) => {
 			continue;
 		}
 
+		// TODO maybe skip this step if it’s the first build?
+		if(await tryToPreventNetlifyBuildTimeout(dateTestsStarted, group.urls.length, group.estimatedTimePerBuild)) {
+			// stop everything, we’re too close to the timeout
+			return;
+		}
+
 		let runFrequency =
 			group.options && group.options.frequency
 				? group.options.frequency
@@ -82,10 +104,15 @@ const prettyTime = (seconds) => {
 			}
 		}
 
-		let options = Object.assign({}, group.options);
-		const PerfLeaderboard = require(options.package || "performance-leaderboard");
+		let runCount =
+			group.options && group.options.runs ? group.options.runs : NUMBER_OF_RUNS;
+		let options = Object.assign({
+			chromeFlags: ['--headless', '--disable-dev-shm-usage']
+		}, group.options);
+
 		let results = await PerfLeaderboard(
 			group.urls,
+			runCount,
 			options,
 		);
 
