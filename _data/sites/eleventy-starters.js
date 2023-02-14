@@ -10,7 +10,7 @@ module.exports = async function() {
 	return {
 		name: "eleventy-starters", // optional, falls back to object key
 		description: "Eleventy Starter Projects",
-		// unordered: true,
+		unordered: true,
 		options: {
 			package: "performance-leaderboard-pagespeed-insights",
 			frequency: 60 * 23, // 23 hours
