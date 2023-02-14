@@ -2,16 +2,7 @@
   publish = "_site"
   command = "npm run build-production"
 
-[[plugins]]
-package = "./plugins/keep-data-cache"
-
 [[headers]]
   for = "/api/*"
     [headers.values]
     Access-Control-Allow-Origin = "*"
-
-[[redirects]]
-  from = "https://speedlify.netlify.app"
-  to = "https://www.speedlify.dev"
-  status = 301
-  force = true
