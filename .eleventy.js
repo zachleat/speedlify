@@ -330,7 +330,7 @@ module.exports = function(eleventyConfig) {
 		const timeSeries = Object.values(site).sort(
 			(a, b) => a.timestamp - b.timestamp
 		);
-		const values = timeSeries.map((run) => run.lighthouse.total);
+		const values = timeSeries.map((run) => run.lighthouse?.total || 0);
 		return Sparkline({
 			// red-orange-green gradient similar to usage in <speedlify-score>
 			gradient: [
