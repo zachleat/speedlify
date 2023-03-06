@@ -358,6 +358,7 @@ module.exports = function(eleventyConfig) {
       values,
       min: 0,
       timeSeries,
+			// Display raw bytes as pretty values on y axis, e.g. 49244 => 48K
       formatAxis: (num) => {
         const { value, unit } = byteSize(num, { units: 'iec', precision: 0 });
         return value === '0' ? value : value + unit.slice(0, 1);
