@@ -354,7 +354,7 @@ module.exports = function(eleventyConfig) {
     );
     const values = timeSeries.map((run) => run.weight.total);
     return Sparkline({
-      color: '#915ffc',
+      color: '#d151ff',
       values,
       min: 0,
       timeSeries,
