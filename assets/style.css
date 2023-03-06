@@ -47,7 +47,7 @@ summary {
 	word-break: break-all;
 	word-break: break-word;
 }
-@media (min-width: 37.5em) { /* 600px */
+@media (min-width: 60em) { /* 960px */
 	.url {
 		font-size: 1.25em; /* 20px /16 */
 	}
@@ -214,7 +214,7 @@ abbr {
 		display: none;
 	}
 }
-@media (max-width: 63.9375em) { /* 1023px */
+@media (max-width: 72em) { /* 1152px */
 	.leaderboard-hide-md {
 		display: none;
 	}
@@ -351,12 +351,12 @@ abbr {
 .leaderboard-score{
 	white-space: nowrap;
 }
-@media (max-width: 28.0625em) { /* 449px */
+@media (max-width: 30em) { /* 480px */
 	.leaderboard-score{
 		display: none;
 	}
 }
-@media (max-width: 37.4375em) { /* 599px */
+@media (max-width: 60em) { /* 599px */
 	.leaderboard-score-circles {
 		display: none;
 	}
