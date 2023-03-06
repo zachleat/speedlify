@@ -3,6 +3,7 @@ const shortHash = require("short-hash");
 const lodash = require("lodash");
 const getObjectKey = require("./utils/getObjectKey.js");
 const calc = require("./utils/calc.js");
+const Sparkline = require('./utils/sparkline.js');
 
 function hasUrl(urls, requestedUrl) {
 	// urls comes from sites[vertical].urls, all requestedUrls (may not include trailing slash)
@@ -325,4 +326,43 @@ module.exports = function(eleventyConfig) {
 		ui: false,
 		ghostMode: false
 	});
+  eleventyConfig.addShortcode('lighthouseSparkline', (site) => {
+    const timeSeries = Object.values(site).sort(
+      (a, b) => a.timestamp - b.timestamp
+    );
+    const values = timeSeries.map((run) => run.lighthouse.total);
+    return Sparkline({
+      // red-orange-green gradient similar to usage in <speedlify-score>
+      gradient: [
+        { color: '#ff4e42', offset: '0%' },
+        { color: '#ff4e42', offset: '30%' },
+        { color: '#ffa400', offset: '70%' },
+        { color: '#ffa400', offset: '85%' },
+        { color: '#0cce6b', offset: '95%' },
+        { color: '#0cce6b', offset: '100%' },
+      ],
+      values,
+      min: 0,
+      max: 400,
+      timeSeries,
+    });
+  });
+
+  eleventyConfig.addShortcode('weightSparkline', (site) => {
+    const timeSeries = Object.values(site).sort(
+      (a, b) => a.timestamp - b.timestamp
+    );
+    const values = timeSeries.map((run) => run.weight.total);
+    return Sparkline({
+      color: '#915ffc',
+      values,
+      min: 0,
+      timeSeries,
+      formatAxis: (num) => {
+        const { value, unit } = byteSize(num, { units: 'iec', precision: 0 });
+        return value === '0' ? value : value + unit.slice(0, 1);
+      },
+    });
+  });
+
 };
