@@ -352,7 +352,7 @@ module.exports = function(eleventyConfig) {
 		const timeSeries = Object.values(site).sort(
 			(a, b) => a.timestamp - b.timestamp
 		);
-		const values = timeSeries.map((run) => run.weight.total);
+		const values = timeSeries.map((run) => run.weight?.total || 0);
 		return Sparkline({
 			color: '#d151ff',
 			values,
