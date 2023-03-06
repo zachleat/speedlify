@@ -1,5 +1,5 @@
 function uuid() {
-  return Math.round(Math.random() * 10e9).toString(36);
+	return Math.round(Math.random() * 10e9).toString(36);
 }
 
 /**
@@ -8,8 +8,8 @@ function uuid() {
  * @returns {string}
  */
 function msToDate(timestamp) {
-  const date = new Date(timestamp);
-  return date.toLocaleDateString(['en-US'], { day: 'numeric', month: 'short' });
+	const date = new Date(timestamp);
+	return date.toLocaleDateString(['en-US'], { day: 'numeric', month: 'short' });
 }
 
 /**
@@ -18,8 +18,8 @@ function msToDate(timestamp) {
  * @returns {string}
  */
 function msToISO(timestamp) {
-  const date = new Date(timestamp);
-  return date.toISOString();
+	const date = new Date(timestamp);
+	return date.toISOString();
 }
 
 /**
@@ -29,8 +29,8 @@ function msToISO(timestamp) {
  * @returns {number} Rounded number
  */
 function round(n, decimals = 1) {
-  const power = 10 ** decimals;
-  return Math.round(n * power) / power;
+	const power = 10 ** decimals;
+	return Math.round(n * power) / power;
 }
 
 /**
@@ -42,13 +42,13 @@ function round(n, decimals = 1) {
  * @returns {string}
  */
 function getD(data, w, h, maxY) {
-  /** @type {string[]} */
-  let l = [];
-  const maxX = data.length - 1;
-  for (let i = 0; i <= maxX; i++) {
-    l.push(round((i / maxX) * w) + ',' + round(h - (data[i] / maxY) * h));
-  }
-  return `M ${l.join(' L ')}`;
+	/** @type {string[]} */
+	let l = [];
+	const maxX = data.length - 1;
+	for (let i = 0; i <= maxX; i++) {
+		l.push(round((i / maxX) * w) + ',' + round(h - (data[i] / maxY) * h));
+	}
+	return `M ${l.join(' L ')}`;
 }
 
 /**
@@ -58,15 +58,15 @@ function getD(data, w, h, maxY) {
  * @returns {string}
  */
 function getLinearGradient(gradient, id) {
-  const stops = gradient
-    .map((s) => `<stop stop-color="${s.color}" offset="${s.offset}" />`)
-    .join('');
+	const stops = gradient
+		.map((s) => `<stop stop-color="${s.color}" offset="${s.offset}" />`)
+		.join('');
 
-  return (
-    `<linearGradient id="${id}" x1="0" x2="0" y1="100%" y2="0" gradientUnits="userSpaceOnUse">` +
-    stops +
-    `</linearGradient>`
-  );
+	return (
+		`<linearGradient id="${id}" x1="0" x2="0" y1="100%" y2="0" gradientUnits="userSpaceOnUse">` +
+		stops +
+		`</linearGradient>`
+	);
 }
 
 /**
@@ -86,57 +86,57 @@ function getLinearGradient(gradient, id) {
  * @return {string}
  */
 function Sparkline({
-  values,
-  min = Math.min(...values),
-  max = Math.max(...values),
-  color = '#ffffff',
-  gradient,
-  formatAxis = (val) => val,
-  timeSeries,
+	values,
+	min = Math.min(...values),
+	max = Math.max(...values),
+	color = '#ffffff',
+	gradient,
+	formatAxis = (val) => val,
+	timeSeries,
 }) {
-  // If we only have one data point, duplicate it to draw a straight line.
-  if (values.length === 1) values.push(...values);
+	// If we only have one data point, duplicate it to draw a straight line.
+	if (values.length === 1) values.push(...values);
 
-  const minVal = Math.min(...values);
-  const maxVal = Math.max(...values);
-  const data = values.map((val) => Math.max(0, Math.round(val) - min));
-  const maxY = Math.max(...data, max - min);
-  const [width, height] = [70, 40];
+	const minVal = Math.min(...values);
+	const maxVal = Math.max(...values);
+	const data = values.map((val) => Math.max(0, Math.round(val) - min));
+	const maxY = Math.max(...data, max - min);
+	const [width, height] = [70, 40];
 
-  const startTime = timeSeries?.at(0)?.timestamp;
-  const endTime = timeSeries?.at(-1)?.timestamp;
+	const startTime = timeSeries?.at(0)?.timestamp;
+	const endTime = timeSeries?.at(-1)?.timestamp;
 
-  const d = getD(data, width, height, maxY);
-  const id = uuid();
+	const d = getD(data, width, height, maxY);
+	const id = uuid();
 
-  return `<div class="sparkline">
-  <div class="y-axis" aria-hidden="true">
-    <div>${formatAxis(min)}</div>
-    <div>${formatAxis(max)}</div>
-  </div>
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    preserveAspectRatio="none"
-    viewBox="0 0 ${width} ${height}"
-  >
-    <title>
-      Sparkline ranging between ${formatAxis(minVal)} and ${formatAxis(maxVal)}.
-    </title>
-    <path
-      fill="transparent"
-      stroke="${gradient ? `url(#${id})` : color}" d="${d}"
-    />
-    ${gradient ? getLinearGradient(gradient, id) : ''}
-  </svg>
-  ${
-    startTime && endTime
-      ? `
-  <div class="x-axis">
-    <time datetime="${msToISO(startTime)}">${msToDate(startTime)}</time>
-    <time datetime="${msToISO(startTime)}">${msToDate(endTime)}</time>
-  </div>`
-      : ''
-  }
+	return `<div class="sparkline">
+	<div class="y-axis" aria-hidden="true">
+		<div>${formatAxis(min)}</div>
+		<div>${formatAxis(max)}</div>
+	</div>
+	<svg
+		xmlns="http://www.w3.org/2000/svg"
+		preserveAspectRatio="none"
+		viewBox="0 0 ${width} ${height}"
+	>
+		<title>
+			Sparkline ranging between ${formatAxis(minVal)} and ${formatAxis(maxVal)}.
+		</title>
+		<path
+			fill="transparent"
+			stroke="${gradient ? `url(#${id})` : color}" d="${d}"
+		/>
+		${gradient ? getLinearGradient(gradient, id) : ''}
+	</svg>
+	${
+		startTime && endTime
+			? `
+	<div class="x-axis">
+		<time datetime="${msToISO(startTime)}">${msToDate(startTime)}</time>
+		<time datetime="${msToISO(startTime)}">${msToDate(endTime)}</time>
+	</div>`
+			: ''
+	}
 </div>`;
 }
 
