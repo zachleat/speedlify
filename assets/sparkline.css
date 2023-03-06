@@ -1,0 +1,31 @@
+.sparkline {
+  vertical-align: middle;
+  display: inline-grid;
+  grid-template: auto auto / auto auto;
+  gap: 0.25rem;
+}
+.sparkline .x-axis,
+.sparkline .y-axis {
+  display: flex;
+  justify-content: space-between;
+  line-height: 0.65;
+  font-size: 0.5rem;
+  color: hsl(0, 0%, 50%);
+}
+.sparkline .y-axis {
+  flex-direction: column-reverse;
+  text-align: right;
+}
+.sparkline .x-axis {
+  grid-column: 2 / 3;
+}
+.sparkline svg {
+  --white: 255, 0%, 100%;
+  background: linear-gradient(hsla(var(--white), 0.1), transparent);
+  border-left: 1px solid hsla(var(--white), 0.1);
+  border-bottom: 1px solid hsla(var(--white), 0.1);
+  width: 4.375rem;
+  height: 100%;
+  stroke-width: 1.5px;
+  stroke-linejoin: round;
+}
