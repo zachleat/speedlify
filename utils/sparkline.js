@@ -99,6 +99,8 @@ function Sparkline({
 
 	const minVal = Math.min(...values);
 	const maxVal = Math.max(...values);
+	const caption = `Sparkline ranging between ${formatAxis(minVal)} and ${formatAxis(maxVal)}.`;
+
 	const data = values.map((val) => Math.max(0, Math.round(val) - min));
 	const maxY = Math.max(...data, max - min);
 	const [width, height] = [70, 40];
@@ -119,9 +121,7 @@ function Sparkline({
 		preserveAspectRatio="none"
 		viewBox="0 0 ${width} ${height}"
 	>
-		<title>
-			Sparkline ranging between ${formatAxis(minVal)} and ${formatAxis(maxVal)}.
-		</title>
+		<title>${caption}</title>
 		<path
 			fill="transparent"
 			stroke="${gradient ? `url(#${id})` : color}" d="${d}"
