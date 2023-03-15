@@ -1,6 +1,6 @@
 .sparkline {
 	vertical-align: middle;
-	display: inline-grid;
+	display: grid;
 	grid-template: auto auto / auto auto;
 	gap: 0.25rem;
 }
@@ -26,7 +26,7 @@
 	border-left: 1px solid hsla(var(--white), 0.1);
 	border-bottom: 1px solid hsla(var(--white), 0.1);
 	width: 4.375rem;
-	height: 100%;
+	height: auto;
 	stroke-width: 1.5px;
 	stroke-linejoin: round;
 }
