@@ -65,6 +65,9 @@ function getLighthouseTotal(entry) {
 
 module.exports = function(eleventyConfig) {
 	eleventyConfig.addFilter("shortHash", shortHash);
+	eleventyConfig.setServerOptions({
+		domDiff: false
+	});
 
 	eleventyConfig.addFilter("repeat", function(str, times) {
 		let result = '';
