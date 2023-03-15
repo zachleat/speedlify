@@ -15,6 +15,7 @@
 .sparkline .y-axis {
 	flex-direction: column-reverse;
 	text-align: right;
+	min-width: 3em;
 }
 .sparkline .x-axis {
 	grid-column: 2 / 3;

@@ -350,6 +350,9 @@ abbr {
 /* Score Cell RWD */
 .leaderboard-score{
 	white-space: nowrap;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 @media (max-width: 30em) { /* 480px */
 	.leaderboard-score{
