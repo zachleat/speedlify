@@ -1,0 +1,67 @@
+{
+  "url": "https://www.stevenhicks.me/",
+  "requestedUrl": "https://www.stevenhicks.me/",
+  "timestamp": 1681343653794,
+  "ranks": {
+    "hundos": 488,
+    "performance": 612,
+    "accessibility": 643,
+    "cumulative": 493
+  },
+  "lighthouse": {
+    "version": "10.1.0",
+    "performance": 0.93,
+    "accessibility": 0.96,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 389
+  },
+  "firstContentfulPaint": 1785.2389999999998,
+  "firstMeaningfulPaint": 2799.7929999999997,
+  "speedIndex": 1785.2389999999998,
+  "largestContentfulPaint": 3135.2390000000005,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 2799.7929999999997,
+  "maxPotentialFirstInputDelay": 46,
+  "timeToFirstByte": 261.558,
+  "weight": {
+    "summary": "13 requests • 263 KiB",
+    "total": 269654,
+    "image": 62580,
+    "imageCount": 1,
+    "script": 82347,
+    "scriptCount": 3,
+    "document": 2103,
+    "font": 110335,
+    "fontCount": 3,
+    "stylesheet": 12081,
+    "stylesheetCount": 4,
+    "thirdParty": 202196,
+    "thirdPartyCount": 10
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 517,
+    "+weight.total": 350,
+    "-weight.document": 81,
+    "+weight.document": 765,
+    "-weight.script": 430,
+    "+weight.script": 181,
+    "-weight.image": 261,
+    "+weight.image": 408,
+    "-weight.font": 420,
+    "+weight.font": 159,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 703,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 739
+  },
+  "axe": {
+    "passes": 203,
+    "violations": 10
+  }
+}

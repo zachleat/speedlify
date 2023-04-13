@@ -1,0 +1,67 @@
+{
+  "url": "https://plaksin.net/",
+  "requestedUrl": "https://plaksin.net/",
+  "timestamp": 1681354648376,
+  "ranks": {
+    "hundos": 116,
+    "performance": 217,
+    "accessibility": 142,
+    "cumulative": 84
+  },
+  "lighthouse": {
+    "version": "10.1.0",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 864.51,
+  "firstMeaningfulPaint": 864.51,
+  "speedIndex": 1285.2530240006004,
+  "largestContentfulPaint": 1281.51,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 864.51,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 150.13100000000003,
+  "weight": {
+    "summary": "3 requests • 62 KiB",
+    "total": 63194,
+    "image": 54932,
+    "imageCount": 2,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 8262,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 206,
+    "+weight.total": 661,
+    "-weight.document": 525,
+    "+weight.document": 321,
+    "-weight.script": 1,
+    "+weight.script": 611,
+    "-weight.image": 245,
+    "+weight.image": 424,
+    "-weight.font": 1,
+    "+weight.font": 579,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 544,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 400
+  },
+  "axe": {
+    "passes": 252,
+    "violations": 0
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://developers.thegreenwebfoundation.org/",
+  "requestedUrl": "https://developers.thegreenwebfoundation.org/",
+  "timestamp": 1681353935457,
+  "ranks": {
+    "hundos": 316,
+    "performance": 175,
+    "accessibility": 625,
+    "cumulative": 321
+  },
+  "lighthouse": {
+    "version": "10.1.0",
+    "performance": 1,
+    "accessibility": 0.97,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 397
+  },
+  "firstContentfulPaint": 1175.6009999999999,
+  "firstMeaningfulPaint": 1175.6009999999999,
+  "speedIndex": 1175.6009999999999,
+  "largestContentfulPaint": 1749.7279999999996,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.0008746520294657683,
+  "timeToInteractive": 1175.6009999999999,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 81.00899999999999,
+  "weight": {
+    "summary": "8 requests • 33 KiB",
+    "total": 33876,
+    "image": 7186,
+    "imageCount": 2,
+    "script": 8997,
+    "scriptCount": 2,
+    "document": 16872,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 9818,
+    "thirdPartyCount": 5
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 134,
+    "+weight.total": 733,
+    "-weight.document": 701,
+    "+weight.document": 145,
+    "-weight.script": 225,
+    "+weight.script": 386,
+    "-weight.image": 80,
+    "+weight.image": 589,
+    "-weight.font": 1,
+    "+weight.font": 579,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 337,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 525
+  },
+  "axe": {
+    "passes": 301,
+    "violations": 26
+  }
+}

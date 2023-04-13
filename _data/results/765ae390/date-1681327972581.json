@@ -1,0 +1,67 @@
+{
+  "url": "https://www.stonegate.me/",
+  "requestedUrl": "https://www.stonegate.me/",
+  "timestamp": 1681333463792,
+  "ranks": {
+    "hundos": 783,
+    "performance": 824,
+    "accessibility": 714,
+    "cumulative": 783
+  },
+  "lighthouse": {
+    "version": "10.1.0",
+    "performance": 0.62,
+    "accessibility": 0.93,
+    "bestPractices": 1,
+    "seo": 0.92,
+    "total": 347
+  },
+  "firstContentfulPaint": 6159.379000000001,
+  "firstMeaningfulPaint": 6159.379000000001,
+  "speedIndex": 6159.379000000001,
+  "largestContentfulPaint": 6159.379000000001,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 6159.379000000001,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 61.79000000000002,
+  "weight": {
+    "summary": "5 requests • 792 KiB",
+    "total": 810703,
+    "image": 0,
+    "imageCount": 0,
+    "script": 804202,
+    "scriptCount": 2,
+    "document": 2048,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 4453,
+    "stylesheetCount": 2,
+    "thirdParty": 805032,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 709,
+    "+weight.total": 158,
+    "-weight.document": 76,
+    "+weight.document": 770,
+    "-weight.script": 591,
+    "+weight.script": 20,
+    "-weight.image": 1,
+    "+weight.image": 669,
+    "-weight.font": 1,
+    "+weight.font": 579,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 268,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 829
+  },
+  "axe": {
+    "passes": 136,
+    "violations": 1
+  }
+}

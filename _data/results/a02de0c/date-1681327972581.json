@@ -1,0 +1,67 @@
+{
+  "url": "https://www.mealsforthenhs.com/",
+  "requestedUrl": "https://www.mealsforthenhs.com/",
+  "timestamp": 1681329759936,
+  "ranks": {
+    "hundos": 236,
+    "performance": 402,
+    "accessibility": 480,
+    "cumulative": 258
+  },
+  "lighthouse": {
+    "version": "10.1.0",
+    "performance": 0.99,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 399
+  },
+  "firstContentfulPaint": 1674.9750000000004,
+  "firstMeaningfulPaint": 1674.9750000000004,
+  "speedIndex": 1683.7373219999943,
+  "largestContentfulPaint": 1674.9750000000004,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.010687644663792331,
+  "timeToInteractive": 1674.9750000000004,
+  "maxPotentialFirstInputDelay": 44,
+  "timeToFirstByte": 71.34000000000003,
+  "weight": {
+    "summary": "17 requests • 191 KiB",
+    "total": 195280,
+    "image": 16017,
+    "imageCount": 1,
+    "script": 52502,
+    "scriptCount": 3,
+    "document": 2005,
+    "font": 109440,
+    "fontCount": 8,
+    "stylesheet": 15316,
+    "stylesheetCount": 4,
+    "thirdParty": 147874,
+    "thirdPartyCount": 11
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 441,
+    "+weight.total": 426,
+    "-weight.document": 70,
+    "+weight.document": 776,
+    "-weight.script": 360,
+    "+weight.script": 251,
+    "-weight.image": 127,
+    "+weight.image": 542,
+    "-weight.font": 418,
+    "+weight.font": 161,
+    "+weight.fontCount": 9,
+    "-timeToFirstByte": 302,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 494
+  },
+  "axe": {
+    "passes": 54,
+    "violations": 5
+  }
+}

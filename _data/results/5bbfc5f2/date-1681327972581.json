@@ -1,0 +1,67 @@
+{
+  "url": "https://torstenknabe.com/",
+  "requestedUrl": "https://torstenknabe.com/",
+  "timestamp": 1681344890933,
+  "ranks": {
+    "hundos": 68,
+    "performance": 320,
+    "accessibility": 72,
+    "cumulative": 48
+  },
+  "lighthouse": {
+    "version": "10.1.0",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 935.8089999999999,
+  "firstMeaningfulPaint": 935.8089999999999,
+  "speedIndex": 1814.9253126595215,
+  "largestContentfulPaint": 935.8089999999999,
+  "totalBlockingTime": 3,
+  "cumulativeLayoutShift": 0.000545926827595951,
+  "timeToInteractive": 2064.0819999999994,
+  "maxPotentialFirstInputDelay": 80,
+  "timeToFirstByte": 390.5160000000001,
+  "weight": {
+    "summary": "14 requests • 282 KiB",
+    "total": 288359,
+    "image": 157889,
+    "imageCount": 7,
+    "script": 54884,
+    "scriptCount": 1,
+    "document": 10651,
+    "font": 64018,
+    "fontCount": 4,
+    "stylesheet": 917,
+    "stylesheetCount": 1,
+    "thirdParty": 54884,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 534,
+    "+weight.total": 333,
+    "-weight.document": 590,
+    "+weight.document": 256,
+    "-weight.script": 365,
+    "+weight.script": 246,
+    "-weight.image": 381,
+    "+weight.image": 288,
+    "-weight.font": 295,
+    "+weight.font": 284,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 806,
+    "-totalBlockingTime": 6,
+    "-largestContentfulPaint": 212
+  },
+  "axe": {
+    "passes": 399,
+    "violations": 0
+  }
+}

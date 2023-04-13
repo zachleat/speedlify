@@ -1,0 +1,67 @@
+{
+  "url": "https://simonhearne.com/",
+  "requestedUrl": "https://simonhearne.com/",
+  "timestamp": 1681345094996,
+  "ranks": {
+    "hundos": 632,
+    "performance": 166,
+    "accessibility": 659,
+    "cumulative": 631
+  },
+  "lighthouse": {
+    "version": "10.1.0",
+    "performance": 1,
+    "accessibility": 0.95,
+    "bestPractices": 0.83,
+    "seo": 1,
+    "total": 378
+  },
+  "firstContentfulPaint": 1142.96,
+  "firstMeaningfulPaint": 1142.96,
+  "speedIndex": 1142.96,
+  "largestContentfulPaint": 1643.495,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1142.96,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 107.69299999999998,
+  "weight": {
+    "summary": "10 requests • 53 KiB",
+    "total": 54649,
+    "image": 18582,
+    "imageCount": 2,
+    "script": 22883,
+    "scriptCount": 2,
+    "document": 11145,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 1639,
+    "stylesheetCount": 2,
+    "thirdParty": 2211,
+    "thirdPartyCount": 4
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 191,
+    "+weight.total": 676,
+    "-weight.document": 604,
+    "+weight.document": 242,
+    "-weight.script": 299,
+    "+weight.script": 312,
+    "-weight.image": 138,
+    "+weight.image": 531,
+    "-weight.font": 1,
+    "+weight.font": 579,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 451,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 488
+  },
+  "axe": {
+    "passes": 340,
+    "violations": 2
+  }
+}

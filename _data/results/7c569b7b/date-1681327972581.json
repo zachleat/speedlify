@@ -1,0 +1,67 @@
+{
+  "url": "https://openbulkurl.com/",
+  "requestedUrl": "https://openbulkurl.com/",
+  "timestamp": 1681342148266,
+  "ranks": {
+    "hundos": 504,
+    "performance": 97,
+    "accessibility": 751,
+    "cumulative": 507
+  },
+  "lighthouse": {
+    "version": "10.1.0",
+    "performance": 1,
+    "accessibility": 0.91,
+    "bestPractices": 1,
+    "seo": 0.97,
+    "total": 388
+  },
+  "firstContentfulPaint": 908.9300000000002,
+  "firstMeaningfulPaint": 908.9300000000002,
+  "speedIndex": 995.8985200009871,
+  "largestContentfulPaint": 908.9300000000002,
+  "totalBlockingTime": 85,
+  "cumulativeLayoutShift": 0.001350510982605763,
+  "timeToInteractive": 3313.336,
+  "maxPotentialFirstInputDelay": 135,
+  "timeToFirstByte": 41.80799999999999,
+  "weight": {
+    "summary": "16 requests • 211 KiB",
+    "total": 216097,
+    "image": 22,
+    "imageCount": 2,
+    "script": 160572,
+    "scriptCount": 4,
+    "document": 7016,
+    "font": 41199,
+    "fontCount": 4,
+    "stylesheet": 6581,
+    "stylesheetCount": 2,
+    "thirdParty": 202500,
+    "thirdPartyCount": 13
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 468,
+    "+weight.total": 399,
+    "-weight.document": 476,
+    "+weight.document": 370,
+    "-weight.script": 505,
+    "+weight.script": 106,
+    "-weight.image": 1,
+    "+weight.image": 668,
+    "-weight.font": 190,
+    "+weight.font": 389,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 47,
+    "-totalBlockingTime": 114,
+    "-largestContentfulPaint": 182
+  },
+  "axe": {
+    "passes": 334,
+    "violations": 6
+  }
+}

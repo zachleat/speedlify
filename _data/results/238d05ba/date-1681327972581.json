@@ -1,0 +1,67 @@
+{
+  "url": "https://whatt2watch.netlify.app/",
+  "requestedUrl": "https://whatt2watch.netlify.app/",
+  "timestamp": 1681342368557,
+  "ranks": {
+    "hundos": 214,
+    "performance": 287,
+    "accessibility": 409,
+    "cumulative": 195
+  },
+  "lighthouse": {
+    "version": "10.1.0",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 1014.37,
+  "firstMeaningfulPaint": 1014.37,
+  "speedIndex": 1597.6587639982292,
+  "largestContentfulPaint": 1014.37,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1014.37,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 405.004,
+  "weight": {
+    "summary": "2 requests • 3 KiB",
+    "total": 3254,
+    "image": 0,
+    "imageCount": 0,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 1828,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 1426,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 14,
+    "+weight.total": 853,
+    "-weight.document": 57,
+    "+weight.document": 789,
+    "-weight.script": 1,
+    "+weight.script": 611,
+    "-weight.image": 1,
+    "+weight.image": 669,
+    "-weight.font": 1,
+    "+weight.font": 579,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 811,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 275
+  },
+  "axe": {
+    "passes": 509,
+    "violations": 2
+  }
+}

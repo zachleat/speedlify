@@ -1,0 +1,67 @@
+{
+  "url": "https://jensa.dev/",
+  "requestedUrl": "https://jensa.dev/",
+  "timestamp": 1681343804202,
+  "ranks": {
+    "hundos": 576,
+    "performance": 96,
+    "accessibility": 139,
+    "cumulative": 575
+  },
+  "lighthouse": {
+    "version": "10.1.0",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 0.83,
+    "seo": 1,
+    "total": 383
+  },
+  "firstContentfulPaint": 945.712,
+  "firstMeaningfulPaint": 945.712,
+  "speedIndex": 994.949288003455,
+  "largestContentfulPaint": 945.712,
+  "totalBlockingTime": 39,
+  "cumulativeLayoutShift": 0.03554118887742062,
+  "timeToInteractive": 2539.8940000000002,
+  "maxPotentialFirstInputDelay": 89,
+  "timeToFirstByte": 60.97399999999999,
+  "weight": {
+    "summary": "8 requests • 1,024 KiB",
+    "total": 1048124,
+    "image": 0,
+    "imageCount": 0,
+    "script": 80163,
+    "scriptCount": 2,
+    "document": 5861,
+    "font": 962100,
+    "fontCount": 5,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 79309,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 732,
+    "+weight.total": 135,
+    "-weight.document": 410,
+    "+weight.document": 436,
+    "-weight.script": 425,
+    "+weight.script": 186,
+    "-weight.image": 1,
+    "+weight.image": 669,
+    "-weight.font": 574,
+    "+weight.font": 5,
+    "+weight.fontCount": 12,
+    "-timeToFirstByte": 256,
+    "-totalBlockingTime": 71,
+    "-largestContentfulPaint": 128
+  },
+  "axe": {
+    "passes": 257,
+    "violations": 0
+  }
+}

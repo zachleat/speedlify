@@ -1,0 +1,67 @@
+{
+  "url": "https://educationlinks.fyi/",
+  "requestedUrl": "https://educationlinks.fyi/",
+  "timestamp": 1681362156517,
+  "ranks": {
+    "hundos": 782,
+    "performance": 548,
+    "accessibility": 854,
+    "cumulative": 782
+  },
+  "lighthouse": {
+    "version": "10.1.0",
+    "performance": 0.96,
+    "accessibility": 0.6,
+    "bestPractices": 1,
+    "seo": 0.92,
+    "total": 348
+  },
+  "firstContentfulPaint": 1242.0480000000002,
+  "firstMeaningfulPaint": 1242.0480000000002,
+  "speedIndex": 2641.7671999951012,
+  "largestContentfulPaint": 1242.0480000000002,
+  "totalBlockingTime": 51,
+  "cumulativeLayoutShift": 0.11982056962265271,
+  "timeToInteractive": 2841.095,
+  "maxPotentialFirstInputDelay": 101,
+  "timeToFirstByte": 205.72199999999998,
+  "weight": {
+    "summary": "13 requests • 120 KiB",
+    "total": 122436,
+    "image": 1159,
+    "imageCount": 6,
+    "script": 109165,
+    "scriptCount": 3,
+    "document": 12074,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 114035,
+    "thirdPartyCount": 11
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 331,
+    "+weight.total": 536,
+    "-weight.document": 626,
+    "+weight.document": 220,
+    "-weight.script": 463,
+    "+weight.script": 148,
+    "-weight.image": 29,
+    "+weight.image": 640,
+    "-weight.font": 1,
+    "+weight.font": 579,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 658,
+    "-totalBlockingTime": 84,
+    "-largestContentfulPaint": 137
+  },
+  "axe": {
+    "passes": 220,
+    "violations": 20
+  }
+}

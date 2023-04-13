@@ -1,0 +1,67 @@
+{
+  "url": "https://www.tampadevs.com/",
+  "requestedUrl": "https://www.tampadevs.com/",
+  "timestamp": 1681342357105,
+  "ranks": {
+    "hundos": 733,
+    "performance": 708,
+    "accessibility": 731,
+    "cumulative": 737
+  },
+  "lighthouse": {
+    "version": "10.1.0",
+    "performance": 0.85,
+    "accessibility": 0.93,
+    "bestPractices": 0.92,
+    "seo": 0.92,
+    "total": 362
+  },
+  "firstContentfulPaint": 2850.7870000000003,
+  "firstMeaningfulPaint": 4131.534,
+  "speedIndex": 3924.264868143092,
+  "largestContentfulPaint": 3374.787,
+  "totalBlockingTime": 71,
+  "cumulativeLayoutShift": 0.013506730111954456,
+  "timeToInteractive": 7410.9555,
+  "maxPotentialFirstInputDelay": 98,
+  "timeToFirstByte": 87.118,
+  "weight": {
+    "summary": "73 requests • 3,413 KiB",
+    "total": 3495211,
+    "image": 859683,
+    "imageCount": 28,
+    "script": 825551,
+    "scriptCount": 22,
+    "document": 13797,
+    "font": 124677,
+    "fontCount": 2,
+    "stylesheet": 147825,
+    "stylesheetCount": 10,
+    "thirdParty": 1104315,
+    "thirdPartyCount": 49
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 834,
+    "+weight.total": 33,
+    "-weight.document": 664,
+    "+weight.document": 182,
+    "-weight.script": 593,
+    "+weight.script": 18,
+    "-weight.image": 583,
+    "+weight.image": 86,
+    "-weight.font": 437,
+    "+weight.font": 142,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 380,
+    "-totalBlockingTime": 104,
+    "-largestContentfulPaint": 762
+  },
+  "axe": {
+    "passes": 566,
+    "violations": 35
+  }
+}

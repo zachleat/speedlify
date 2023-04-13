@@ -1,0 +1,67 @@
+{
+  "url": "https://spirits.bischoff.wtf/",
+  "requestedUrl": "https://spirits.bischoff.wtf/",
+  "timestamp": 1681350527086,
+  "ranks": {
+    "hundos": 291,
+    "performance": 439,
+    "accessibility": 16,
+    "cumulative": 277
+  },
+  "lighthouse": {
+    "version": "10.1.0",
+    "performance": 0.99,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 0.99,
+    "total": 398
+  },
+  "firstContentfulPaint": 864.513,
+  "firstMeaningfulPaint": 864.513,
+  "speedIndex": 3227.872377999033,
+  "largestContentfulPaint": 864.513,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 864.513,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 180.56799999999998,
+  "weight": {
+    "summary": "2 requests • 4 KiB",
+    "total": 3870,
+    "image": 0,
+    "imageCount": 0,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 2912,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 958,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 22,
+    "+weight.total": 845,
+    "-weight.document": 166,
+    "+weight.document": 680,
+    "-weight.script": 1,
+    "+weight.script": 611,
+    "-weight.image": 1,
+    "+weight.image": 669,
+    "-weight.font": 1,
+    "+weight.font": 579,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 633,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 36
+  },
+  "axe": {
+    "passes": 1150,
+    "violations": 0
+  }
+}

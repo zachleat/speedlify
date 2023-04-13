@@ -1,0 +1,67 @@
+{
+  "url": "https://bitsofco.de/",
+  "requestedUrl": "https://bitsofco.de/",
+  "timestamp": 1681344687142,
+  "ranks": {
+    "hundos": 330,
+    "performance": 122,
+    "accessibility": 523,
+    "cumulative": 347
+  },
+  "lighthouse": {
+    "version": "10.1.0",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 0.96,
+    "total": 396
+  },
+  "firstContentfulPaint": 1045.127,
+  "firstMeaningfulPaint": 1093.127,
+  "speedIndex": 1045.127,
+  "largestContentfulPaint": 1093.127,
+  "totalBlockingTime": 66,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 2725.996,
+  "maxPotentialFirstInputDelay": 96,
+  "timeToFirstByte": 57.732,
+  "weight": {
+    "summary": "7 requests • 143 KiB",
+    "total": 146025,
+    "image": 24558,
+    "imageCount": 2,
+    "script": 90617,
+    "scriptCount": 3,
+    "document": 30599,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 109907,
+    "thirdPartyCount": 5
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 370,
+    "+weight.total": 497,
+    "-weight.document": 772,
+    "+weight.document": 74,
+    "-weight.script": 444,
+    "+weight.script": 167,
+    "-weight.image": 154,
+    "+weight.image": 515,
+    "-weight.font": 1,
+    "+weight.font": 579,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 193,
+    "-totalBlockingTime": 99,
+    "-largestContentfulPaint": 331
+  },
+  "axe": {
+    "passes": 291,
+    "violations": 19
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://hamatti.org/",
+  "requestedUrl": "https://hamatti.org/",
+  "timestamp": 1681338696603,
+  "ranks": {
+    "hundos": 612,
+    "performance": 716,
+    "accessibility": 435,
+    "cumulative": 612
+  },
+  "lighthouse": {
+    "version": "10.1.0",
+    "performance": 0.84,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 0.97,
+    "total": 381
+  },
+  "firstContentfulPaint": 2728.3900000000003,
+  "firstMeaningfulPaint": 2888.9610000000002,
+  "speedIndex": 2728.3900000000003,
+  "largestContentfulPaint": 3682.387,
+  "totalBlockingTime": 145,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 3210.1030000000005,
+  "maxPotentialFirstInputDelay": 340,
+  "timeToFirstByte": 60.210999999999956,
+  "weight": {
+    "summary": "35 requests • 6,236 KiB",
+    "total": 6385885,
+    "image": 4808850,
+    "imageCount": 19,
+    "script": 141901,
+    "scriptCount": 2,
+    "document": 11752,
+    "font": 13314,
+    "fontCount": 1,
+    "stylesheet": 16631,
+    "stylesheetCount": 7,
+    "thirdParty": 1408576,
+    "thirdPartyCount": 7
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 854,
+    "+weight.total": 13,
+    "-weight.document": 620,
+    "+weight.document": 226,
+    "-weight.script": 491,
+    "+weight.script": 120,
+    "-weight.image": 657,
+    "+weight.image": 12,
+    "-weight.font": 29,
+    "+weight.font": 550,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 246,
+    "-totalBlockingTime": 146,
+    "-largestContentfulPaint": 774
+  },
+  "axe": {
+    "passes": 693,
+    "violations": 3
+  }
+}

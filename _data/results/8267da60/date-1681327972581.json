@@ -1,0 +1,67 @@
+{
+  "url": "https://www.belocalpub.com/",
+  "requestedUrl": "https://www.belocalpub.com/",
+  "timestamp": 1681331816631,
+  "ranks": {
+    "hundos": 827,
+    "performance": 856,
+    "accessibility": 822,
+    "cumulative": 827
+  },
+  "lighthouse": {
+    "version": "10.1.0",
+    "performance": 0.44,
+    "accessibility": 0.76,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 320
+  },
+  "firstContentfulPaint": 2147.8010000000004,
+  "firstMeaningfulPaint": 2253.5925000000007,
+  "speedIndex": 6041.623994726505,
+  "largestContentfulPaint": 11615.627000000002,
+  "totalBlockingTime": 199.0000000000009,
+  "cumulativeLayoutShift": 0.49565594732848917,
+  "timeToInteractive": 9954.9205,
+  "maxPotentialFirstInputDelay": 154,
+  "timeToFirstByte": 62.083,
+  "weight": {
+    "summary": "39 requests • 4,190 KiB",
+    "total": 4290674,
+    "image": 955814,
+    "imageCount": 7,
+    "script": 444346,
+    "scriptCount": 9,
+    "document": 15723,
+    "font": 115223,
+    "fontCount": 2,
+    "stylesheet": 37399,
+    "stylesheetCount": 2,
+    "thirdParty": 3541990,
+    "thirdPartyCount": 32
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 842,
+    "+weight.total": 25,
+    "-weight.document": 686,
+    "+weight.document": 160,
+    "-weight.script": 571,
+    "+weight.script": 40,
+    "-weight.image": 592,
+    "+weight.image": 77,
+    "-weight.font": 428,
+    "+weight.font": 151,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 269,
+    "-totalBlockingTime": 155,
+    "-largestContentfulPaint": 859
+  },
+  "axe": {
+    "passes": 605,
+    "violations": 21
+  }
+}

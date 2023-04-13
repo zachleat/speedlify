@@ -1,0 +1,67 @@
+{
+  "url": "https://miayam.io/",
+  "requestedUrl": "https://miayam.io/",
+  "timestamp": 1681330127799,
+  "ranks": {
+    "hundos": 135,
+    "performance": 88,
+    "accessibility": 336,
+    "cumulative": 178
+  },
+  "lighthouse": {
+    "version": "10.1.0",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 902.74,
+  "firstMeaningfulPaint": 902.74,
+  "speedIndex": 984.4196000002271,
+  "largestContentfulPaint": 902.74,
+  "totalBlockingTime": 3,
+  "cumulativeLayoutShift": 0.000027144072131873445,
+  "timeToInteractive": 930.74,
+  "maxPotentialFirstInputDelay": 115,
+  "timeToFirstByte": 57.505000000000024,
+  "weight": {
+    "summary": "6 requests • 32 KiB",
+    "total": 32776,
+    "image": 16366,
+    "imageCount": 1,
+    "script": 4577,
+    "scriptCount": 1,
+    "document": 6117,
+    "font": 2835,
+    "fontCount": 2,
+    "stylesheet": 2881,
+    "stylesheetCount": 1,
+    "thirdParty": 17954,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 130,
+    "+weight.total": 737,
+    "-weight.document": 425,
+    "+weight.document": 421,
+    "-weight.script": 159,
+    "+weight.script": 452,
+    "-weight.image": 131,
+    "+weight.image": 538,
+    "-weight.font": 2,
+    "+weight.font": 577,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 191,
+    "-totalBlockingTime": 6,
+    "-largestContentfulPaint": 125
+  },
+  "axe": {
+    "passes": 399,
+    "violations": 1
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://gametime.events/",
+  "requestedUrl": "https://gametime.events/",
+  "timestamp": 1681344536699,
+  "ranks": {
+    "hundos": 825,
+    "performance": 849,
+    "accessibility": 809,
+    "cumulative": 824
+  },
+  "lighthouse": {
+    "version": "10.1.0",
+    "performance": 0.5,
+    "accessibility": 0.81,
+    "bestPractices": 0.92,
+    "seo": 1,
+    "total": 323
+  },
+  "firstContentfulPaint": 2105.2380000000003,
+  "firstMeaningfulPaint": 2966.9500000000003,
+  "speedIndex": 7898.721268479621,
+  "largestContentfulPaint": 6737.115999999999,
+  "totalBlockingTime": 679.4999999999995,
+  "cumulativeLayoutShift": 0.0012052847543134414,
+  "timeToInteractive": 14402.443000000003,
+  "maxPotentialFirstInputDelay": 209,
+  "timeToFirstByte": 299.67199999999997,
+  "weight": {
+    "summary": "94 requests • 22,895 KiB",
+    "total": 23444388,
+    "image": 8982593,
+    "imageCount": 19,
+    "script": 1170850,
+    "scriptCount": 41,
+    "document": 80595,
+    "font": 44452,
+    "fontCount": 6,
+    "stylesheet": 109327,
+    "stylesheetCount": 3,
+    "thirdParty": 14714666,
+    "thirdPartyCount": 83
+  },
+  "run": {
+    "number": 2,
+    "total": 2
+  },
+  "sidequests": {
+    "-weight.total": 864,
+    "+weight.total": 3,
+    "-weight.document": 821,
+    "+weight.document": 25,
+    "-weight.script": 608,
+    "+weight.script": 3,
+    "-weight.image": 665,
+    "+weight.image": 4,
+    "-weight.font": 207,
+    "+weight.font": 372,
+    "+weight.fontCount": 11,
+    "-timeToFirstByte": 732,
+    "-totalBlockingTime": 195,
+    "-largestContentfulPaint": 832
+  },
+  "axe": {
+    "passes": 1046,
+    "violations": 16
+  }
+}

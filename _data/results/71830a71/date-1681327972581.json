@@ -1,0 +1,67 @@
+{
+  "url": "https://virga.frontendweekly.tokyo/",
+  "requestedUrl": "https://virga.frontendweekly.tokyo/",
+  "timestamp": 1681334587089,
+  "ranks": {
+    "hundos": 371,
+    "performance": 576,
+    "accessibility": 363,
+    "cumulative": 356
+  },
+  "lighthouse": {
+    "version": "10.1.0",
+    "performance": 0.95,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 395
+  },
+  "firstContentfulPaint": 1222.77,
+  "firstMeaningfulPaint": 1222.77,
+  "speedIndex": 5803.032500001147,
+  "largestContentfulPaint": 1222.77,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1222.77,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 436.26200000000017,
+  "weight": {
+    "summary": "1 request • 6 KiB",
+    "total": 5734,
+    "image": 0,
+    "imageCount": 0,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 5734,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 33,
+    "+weight.total": 834,
+    "-weight.document": 398,
+    "+weight.document": 448,
+    "-weight.script": 1,
+    "+weight.script": 611,
+    "-weight.image": 1,
+    "+weight.image": 669,
+    "-weight.font": 1,
+    "+weight.font": 579,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 827,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 383
+  },
+  "axe": {
+    "passes": 222,
+    "violations": 1
+  }
+}

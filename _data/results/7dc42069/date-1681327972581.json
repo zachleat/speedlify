@@ -1,0 +1,67 @@
+{
+  "url": "https://fotis.xyz/",
+  "requestedUrl": "https://fotis.xyz/",
+  "timestamp": 1681357210156,
+  "ranks": {
+    "hundos": 123,
+    "performance": 71,
+    "accessibility": 221,
+    "cumulative": 89
+  },
+  "lighthouse": {
+    "version": "10.1.0",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 957.65,
+  "firstMeaningfulPaint": 957.65,
+  "speedIndex": 957.65,
+  "largestContentfulPaint": 957.65,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.010822303940998824,
+  "timeToInteractive": 957.65,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 44.17500000000001,
+  "weight": {
+    "summary": "11 requests • 40 KiB",
+    "total": 41255,
+    "image": 450,
+    "imageCount": 1,
+    "script": 8769,
+    "scriptCount": 2,
+    "document": 6636,
+    "font": 14284,
+    "fontCount": 2,
+    "stylesheet": 9529,
+    "stylesheetCount": 2,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 155,
+    "+weight.total": 712,
+    "-weight.document": 455,
+    "+weight.document": 391,
+    "-weight.script": 224,
+    "+weight.script": 387,
+    "-weight.image": 6,
+    "+weight.image": 663,
+    "-weight.font": 33,
+    "+weight.font": 546,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 107,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 235
+  },
+  "axe": {
+    "passes": 161,
+    "violations": 0
+  }
+}

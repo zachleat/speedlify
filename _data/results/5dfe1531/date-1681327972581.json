@@ -1,0 +1,67 @@
+{
+  "url": "https://unslump.me/",
+  "requestedUrl": "https://unslump.me/",
+  "timestamp": 1681337304340,
+  "ranks": {
+    "hundos": 173,
+    "performance": 81,
+    "accessibility": 481,
+    "cumulative": 211
+  },
+  "lighthouse": {
+    "version": "10.1.0",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 920.816,
+  "firstMeaningfulPaint": 920.816,
+  "speedIndex": 972.9630480013877,
+  "largestContentfulPaint": 1852.74,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 920.816,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 66.06199999999998,
+  "weight": {
+    "summary": "3 requests • 12 KiB",
+    "total": 11796,
+    "image": 7529,
+    "imageCount": 1,
+    "script": 1214,
+    "scriptCount": 1,
+    "document": 3053,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 7529,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 68,
+    "+weight.total": 799,
+    "-weight.document": 175,
+    "+weight.document": 671,
+    "-weight.script": 59,
+    "+weight.script": 552,
+    "-weight.image": 83,
+    "+weight.image": 586,
+    "-weight.font": 1,
+    "+weight.font": 579,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 287,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 557
+  },
+  "axe": {
+    "passes": 52,
+    "violations": 5
+  }
+}

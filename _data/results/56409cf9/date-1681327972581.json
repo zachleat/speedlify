@@ -1,0 +1,67 @@
+{
+  "url": "https://www.griffenedge.com/",
+  "requestedUrl": "https://www.griffenedge.com/",
+  "timestamp": 1681331016017,
+  "ranks": {
+    "hundos": 389,
+    "performance": 478,
+    "accessibility": 640,
+    "cumulative": 388
+  },
+  "lighthouse": {
+    "version": "10.1.0",
+    "performance": 0.98,
+    "accessibility": 0.96,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 394
+  },
+  "firstContentfulPaint": 1900.2599999999998,
+  "firstMeaningfulPaint": 1900.2599999999998,
+  "speedIndex": 2183.818255999394,
+  "largestContentfulPaint": 1900.2599999999998,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.005919098756074457,
+  "timeToInteractive": 1900.2599999999998,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 105.16400000000004,
+  "weight": {
+    "summary": "14 requests • 115 KiB",
+    "total": 117887,
+    "image": 16721,
+    "imageCount": 9,
+    "script": 22985,
+    "scriptCount": 1,
+    "document": 2360,
+    "font": 49613,
+    "fontCount": 2,
+    "stylesheet": 26208,
+    "stylesheetCount": 1,
+    "thirdParty": 115527,
+    "thirdPartyCount": 13
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 320,
+    "+weight.total": 547,
+    "-weight.document": 111,
+    "+weight.document": 735,
+    "-weight.script": 300,
+    "+weight.script": 311,
+    "-weight.image": 134,
+    "+weight.image": 535,
+    "-weight.font": 234,
+    "+weight.font": 345,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 445,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 577
+  },
+  "axe": {
+    "passes": 253,
+    "violations": 6
+  }
+}

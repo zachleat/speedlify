@@ -1,0 +1,67 @@
+{
+  "url": "https://ryzokuken.dev/",
+  "requestedUrl": "https://ryzokuken.dev/",
+  "timestamp": 1681361549159,
+  "ranks": {
+    "hundos": 708,
+    "performance": 384,
+    "accessibility": 812,
+    "cumulative": 708
+  },
+  "lighthouse": {
+    "version": "10.1.0",
+    "performance": 0.99,
+    "accessibility": 0.8,
+    "bestPractices": 1,
+    "seo": 0.89,
+    "total": 368
+  },
+  "firstContentfulPaint": 1556.1370000000002,
+  "firstMeaningfulPaint": 1556.1370000000002,
+  "speedIndex": 1556.1370000000002,
+  "largestContentfulPaint": 1556.1370000000002,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.022225740205187316,
+  "timeToInteractive": 1556.1370000000002,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 49.357,
+  "weight": {
+    "summary": "6 requests • 41 KiB",
+    "total": 41696,
+    "image": 0,
+    "imageCount": 0,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 1443,
+    "font": 37988,
+    "fontCount": 2,
+    "stylesheet": 2265,
+    "stylesheetCount": 3,
+    "thirdParty": 37631,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 158,
+    "+weight.total": 709,
+    "-weight.document": 31,
+    "+weight.document": 815,
+    "-weight.script": 1,
+    "+weight.script": 611,
+    "-weight.image": 1,
+    "+weight.image": 669,
+    "-weight.font": 169,
+    "+weight.font": 410,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 138,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 458
+  },
+  "axe": {
+    "passes": 115,
+    "violations": 13
+  }
+}

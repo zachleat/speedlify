@@ -1,0 +1,67 @@
+{
+  "url": "https://www.springflod.se/",
+  "requestedUrl": "https://www.springflod.se/",
+  "timestamp": 1681331190417,
+  "ranks": {
+    "hundos": 758,
+    "performance": 761,
+    "accessibility": 819,
+    "cumulative": 756
+  },
+  "lighthouse": {
+    "version": "10.1.0",
+    "performance": 0.77,
+    "accessibility": 0.77,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 354
+  },
+  "firstContentfulPaint": 2078.4290000000005,
+  "firstMeaningfulPaint": 2078.4290000000005,
+  "speedIndex": 7561.423168048175,
+  "largestContentfulPaint": 4112.448000000001,
+  "totalBlockingTime": 16.13700000000017,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 2144.5660000000007,
+  "maxPotentialFirstInputDelay": 68,
+  "timeToFirstByte": 150.64000000000033,
+  "weight": {
+    "summary": "18 requests • 480 KiB",
+    "total": 491709,
+    "image": 6617,
+    "imageCount": 5,
+    "script": 29781,
+    "scriptCount": 4,
+    "document": 3931,
+    "font": 414172,
+    "fontCount": 6,
+    "stylesheet": 37208,
+    "stylesheetCount": 2,
+    "thirdParty": 59842,
+    "thirdPartyCount": 4
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 632,
+    "+weight.total": 235,
+    "-weight.document": 255,
+    "+weight.document": 591,
+    "-weight.script": 321,
+    "+weight.script": 290,
+    "-weight.image": 75,
+    "+weight.image": 594,
+    "-weight.font": 554,
+    "+weight.font": 25,
+    "+weight.fontCount": 11,
+    "-timeToFirstByte": 546,
+    "-totalBlockingTime": 31,
+    "-largestContentfulPaint": 784
+  },
+  "axe": {
+    "passes": 219,
+    "violations": 7
+  }
+}

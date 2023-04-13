@@ -1,0 +1,67 @@
+{
+  "url": "https://fatkitten.dev/",
+  "requestedUrl": "https://fatkitten.dev/",
+  "timestamp": 1681356993669,
+  "ranks": {
+    "hundos": 165,
+    "performance": 306,
+    "accessibility": 438,
+    "cumulative": 201
+  },
+  "lighthouse": {
+    "version": "10.1.0",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 1007.229,
+  "firstMeaningfulPaint": 1007.229,
+  "speedIndex": 1698.8039139967846,
+  "largestContentfulPaint": 1007.229,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1007.229,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 362.919,
+  "weight": {
+    "summary": "3 requests • 28 KiB",
+    "total": 28591,
+    "image": 12506,
+    "imageCount": 1,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 13588,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 2497,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 120,
+    "+weight.total": 747,
+    "-weight.document": 657,
+    "+weight.document": 189,
+    "-weight.script": 1,
+    "+weight.script": 611,
+    "-weight.image": 112,
+    "+weight.image": 557,
+    "-weight.font": 1,
+    "+weight.font": 579,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 784,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 269
+  },
+  "axe": {
+    "passes": 430,
+    "violations": 3
+  }
+}

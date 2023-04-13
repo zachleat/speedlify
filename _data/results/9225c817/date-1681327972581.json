@@ -1,0 +1,67 @@
+{
+  "url": "https://heydonworks.com/",
+  "requestedUrl": "https://heydonworks.com/",
+  "timestamp": 1681349289375,
+  "ranks": {
+    "hundos": 509,
+    "performance": 19,
+    "accessibility": 245,
+    "cumulative": 504
+  },
+  "lighthouse": {
+    "version": "10.1.0",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 0.88,
+    "total": 388
+  },
+  "firstContentfulPaint": 863.4,
+  "firstMeaningfulPaint": 863.4,
+  "speedIndex": 863.4,
+  "largestContentfulPaint": 863.4,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 863.4,
+  "maxPotentialFirstInputDelay": 22,
+  "timeToFirstByte": 44.72900000000001,
+  "weight": {
+    "summary": "3 requests • 23 KiB",
+    "total": 23503,
+    "image": 0,
+    "imageCount": 0,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 9662,
+    "font": 12370,
+    "fontCount": 1,
+    "stylesheet": 1471,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 103,
+    "+weight.total": 764,
+    "-weight.document": 566,
+    "+weight.document": 280,
+    "-weight.script": 1,
+    "+weight.script": 611,
+    "-weight.image": 1,
+    "+weight.image": 669,
+    "-weight.font": 21,
+    "+weight.font": 558,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 114,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 35
+  },
+  "axe": {
+    "passes": 128,
+    "violations": 0
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://sindre.is/",
+  "requestedUrl": "https://sindre.is/",
+  "timestamp": 1681361870631,
+  "ranks": {
+    "hundos": 181,
+    "performance": 68,
+    "accessibility": 266,
+    "cumulative": 126
+  },
+  "lighthouse": {
+    "version": "10.1.0",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 911.139,
+  "firstMeaningfulPaint": 911.139,
+  "speedIndex": 956.246442005346,
+  "largestContentfulPaint": 911.139,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 911.139,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 64.98499999999999,
+  "weight": {
+    "summary": "3 requests • 8 KiB",
+    "total": 8096,
+    "image": 3756,
+    "imageCount": 1,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 2788,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 1552,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 53,
+    "+weight.total": 814,
+    "-weight.document": 155,
+    "+weight.document": 691,
+    "-weight.script": 1,
+    "+weight.script": 611,
+    "-weight.image": 55,
+    "+weight.image": 614,
+    "-weight.font": 1,
+    "+weight.font": 579,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 283,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 189
+  },
+  "axe": {
+    "passes": 106,
+    "violations": 0
+  }
+}

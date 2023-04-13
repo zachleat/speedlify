@@ -1,0 +1,67 @@
+{
+  "url": "https://stedman.dev/",
+  "requestedUrl": "https://stedman.dev/",
+  "timestamp": 1681329144202,
+  "ranks": {
+    "hundos": 163,
+    "performance": 46,
+    "accessibility": 212,
+    "cumulative": 115
+  },
+  "lighthouse": {
+    "version": "10.1.0",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 918.806,
+  "firstMeaningfulPaint": 918.806,
+  "speedIndex": 918.806,
+  "largestContentfulPaint": 918.806,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 918.806,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 51.893,
+  "weight": {
+    "summary": "4 requests • 14 KiB",
+    "total": 14278,
+    "image": 0,
+    "imageCount": 0,
+    "script": 6361,
+    "scriptCount": 2,
+    "document": 4248,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 3669,
+    "stylesheetCount": 1,
+    "thirdParty": 6361,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 78,
+    "+weight.total": 789,
+    "-weight.document": 279,
+    "+weight.document": 567,
+    "-weight.script": 187,
+    "+weight.script": 424,
+    "-weight.image": 1,
+    "+weight.image": 669,
+    "-weight.font": 1,
+    "+weight.font": 579,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 158,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 194
+  },
+  "axe": {
+    "passes": 169,
+    "violations": 0
+  }
+}

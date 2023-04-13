@@ -1,0 +1,67 @@
+{
+  "url": "https://www.fidees.org/",
+  "requestedUrl": "https://www.fidees.org/",
+  "timestamp": 1681340884713,
+  "ranks": {
+    "hundos": 773,
+    "performance": 830,
+    "accessibility": 488,
+    "cumulative": 774
+  },
+  "lighthouse": {
+    "version": "10.1.0",
+    "performance": 0.59,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 0.92,
+    "total": 351
+  },
+  "firstContentfulPaint": 2320.831,
+  "firstMeaningfulPaint": 2581.309,
+  "speedIndex": 2692.6982600230403,
+  "largestContentfulPaint": 4341.367,
+  "totalBlockingTime": 73.5,
+  "cumulativeLayoutShift": 0.6751722171577067,
+  "timeToInteractive": 5253.293,
+  "maxPotentialFirstInputDelay": 96,
+  "timeToFirstByte": 69.564,
+  "weight": {
+    "summary": "22 requests • 466 KiB",
+    "total": 477426,
+    "image": 13247,
+    "imageCount": 5,
+    "script": 346069,
+    "scriptCount": 9,
+    "document": 5630,
+    "font": 107728,
+    "fontCount": 4,
+    "stylesheet": 4445,
+    "stylesheetCount": 1,
+    "thirdParty": 338415,
+    "thirdPartyCount": 11
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 627,
+    "+weight.total": 240,
+    "-weight.document": 391,
+    "+weight.document": 455,
+    "-weight.script": 553,
+    "+weight.script": 58,
+    "-weight.image": 115,
+    "+weight.image": 554,
+    "-weight.font": 411,
+    "+weight.font": 168,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 299,
+    "-totalBlockingTime": 106,
+    "-largestContentfulPaint": 798
+  },
+  "axe": {
+    "passes": 109,
+    "violations": 6
+  }
+}

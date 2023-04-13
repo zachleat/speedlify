@@ -1,0 +1,67 @@
+{
+  "url": "https://tonfotos.com/",
+  "requestedUrl": "https://tonfotos.com/",
+  "timestamp": 1681341343905,
+  "ranks": {
+    "hundos": 828,
+    "performance": 833,
+    "accessibility": 791,
+    "cumulative": 828
+  },
+  "lighthouse": {
+    "version": "10.1.0",
+    "performance": 0.59,
+    "accessibility": 0.85,
+    "bestPractices": 0.83,
+    "seo": 0.93,
+    "total": 320
+  },
+  "firstContentfulPaint": 1490.537,
+  "firstMeaningfulPaint": 7607.890000000001,
+  "speedIndex": 6731.18231703804,
+  "largestContentfulPaint": 9125.150000000001,
+  "totalBlockingTime": 392,
+  "cumulativeLayoutShift": 0.013826726330109299,
+  "timeToInteractive": 11937.829000000002,
+  "maxPotentialFirstInputDelay": 197,
+  "timeToFirstByte": 147.56800000000004,
+  "weight": {
+    "summary": "65 requests • 1,570 KiB",
+    "total": 1607596,
+    "image": 306677,
+    "imageCount": 32,
+    "script": 996217,
+    "scriptCount": 10,
+    "document": 44260,
+    "font": 155230,
+    "fontCount": 4,
+    "stylesheet": 52457,
+    "stylesheetCount": 1,
+    "thirdParty": 1277988,
+    "thirdPartyCount": 37
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 785,
+    "+weight.total": 82,
+    "-weight.document": 802,
+    "+weight.document": 44,
+    "-weight.script": 600,
+    "+weight.script": 11,
+    "-weight.image": 478,
+    "+weight.image": 191,
+    "-weight.font": 470,
+    "+weight.font": 109,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 536,
+    "-totalBlockingTime": 177,
+    "-largestContentfulPaint": 848
+  },
+  "axe": {
+    "passes": 708,
+    "violations": 44
+  }
+}

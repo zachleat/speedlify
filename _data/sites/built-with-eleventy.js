@@ -17,7 +17,7 @@ module.exports = async function() {
 
 		// Hide from category list when hosted
 		hide: false,
-		
+
 		options: {
 			// Don’t show speedlify score or rank for sites with more than 2 yellow circles
 			noShame: true,
@@ -39,9 +39,13 @@ module.exports = async function() {
 		// this was a bug when two different URLs resolved to the same URL and conflicted in resolvedUrl results.
 		// 1-indexed
 		skipIndeces: [
-			168, // migrated
-			365 - 1, // migrated
-			736 - 2, // missing
+			236, // migrated
+			472 - 1, // migrated
+			725 - 2,
+			750 - 3,
+			784 - 4,
+			825 - 5, // migrated
+			864 - 6,
 		]
 	};
 };

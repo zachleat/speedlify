@@ -1,0 +1,67 @@
+{
+  "url": "https://achteintel.org/",
+  "requestedUrl": "https://achteintel.org/",
+  "timestamp": 1681353835820,
+  "ranks": {
+    "hundos": 27,
+    "performance": 118,
+    "accessibility": 106,
+    "cumulative": 17
+  },
+  "lighthouse": {
+    "version": "10.1.0",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 869.496,
+  "firstMeaningfulPaint": 887.496,
+  "speedIndex": 1037.6951199973464,
+  "largestContentfulPaint": 1606.496,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.04126345899063718,
+  "timeToInteractive": 887.496,
+  "maxPotentialFirstInputDelay": 36,
+  "timeToFirstByte": 90.16200000000003,
+  "weight": {
+    "summary": "5 requests • 150 KiB",
+    "total": 154084,
+    "image": 87799,
+    "imageCount": 2,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 10446,
+    "font": 55839,
+    "fontCount": 2,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 385,
+    "+weight.total": 482,
+    "-weight.document": 584,
+    "+weight.document": 262,
+    "-weight.script": 1,
+    "+weight.script": 611,
+    "-weight.image": 296,
+    "+weight.image": 373,
+    "-weight.font": 264,
+    "+weight.font": 315,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 400,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 473
+  },
+  "axe": {
+    "passes": 324,
+    "violations": 0
+  }
+}

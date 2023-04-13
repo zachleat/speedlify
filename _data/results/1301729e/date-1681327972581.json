@@ -1,0 +1,67 @@
+{
+  "url": "https://andeers.com/",
+  "requestedUrl": "https://andeers.com/",
+  "timestamp": 1681340118521,
+  "ranks": {
+    "hundos": 539,
+    "performance": 194,
+    "accessibility": 689,
+    "cumulative": 538
+  },
+  "lighthouse": {
+    "version": "10.1.0",
+    "performance": 1,
+    "accessibility": 0.94,
+    "bestPractices": 1,
+    "seo": 0.92,
+    "total": 386
+  },
+  "firstContentfulPaint": 881.936,
+  "firstMeaningfulPaint": 881.936,
+  "speedIndex": 1237.17453599968,
+  "largestContentfulPaint": 881.936,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.05155160568542883,
+  "timeToInteractive": 881.936,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 169.39900000000003,
+  "weight": {
+    "summary": "5 requests • 43 KiB",
+    "total": 44029,
+    "image": 822,
+    "imageCount": 1,
+    "script": 8382,
+    "scriptCount": 1,
+    "document": 4676,
+    "font": 26241,
+    "fontCount": 1,
+    "stylesheet": 3908,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 163,
+    "+weight.total": 704,
+    "-weight.document": 320,
+    "+weight.document": 526,
+    "-weight.script": 222,
+    "+weight.script": 389,
+    "-weight.image": 22,
+    "+weight.image": 647,
+    "-weight.font": 96,
+    "+weight.font": 483,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 604,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 46
+  },
+  "axe": {
+    "passes": 127,
+    "violations": 2
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "url": "https://sport-game-catalog.netlify.app/",
+  "requestedUrl": "https://sport-game-catalog.netlify.app/",
+  "timestamp": 1681338582970,
+  "ranks": {
+    "hundos": 736,
+    "performance": 823,
+    "accessibility": 540,
+    "cumulative": 738
+  },
+  "lighthouse": {
+    "version": "10.1.0",
+    "performance": 0.62,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 362
+  },
+  "firstContentfulPaint": 2493.1800000000003,
+  "firstMeaningfulPaint": 2493.1800000000003,
+  "speedIndex": 3468.3561125993697,
+  "largestContentfulPaint": 3222.6680000000006,
+  "totalBlockingTime": 1611.5425000000002,
+  "cumulativeLayoutShift": 0.017829588760276894,
+  "timeToInteractive": 8651.2225,
+  "maxPotentialFirstInputDelay": 87,
+  "timeToFirstByte": 539.6800000000001,
+  "weight": {
+    "summary": "31 requests • 397 KiB",
+    "total": 406320,
+    "image": 209258,
+    "imageCount": 19,
+    "script": 101065,
+    "scriptCount": 4,
+    "document": 21875,
+    "font": 66053,
+    "fontCount": 3,
+    "stylesheet": 4957,
+    "stylesheetCount": 1,
+    "thirdParty": 384445,
+    "thirdPartyCount": 30
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 601,
+    "+weight.total": 266,
+    "-weight.document": 740,
+    "+weight.document": 106,
+    "-weight.script": 456,
+    "+weight.script": 155,
+    "-weight.image": 428,
+    "+weight.image": 241,
+    "-weight.font": 303,
+    "+weight.font": 276,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 852,
+    "-totalBlockingTime": 213,
+    "-largestContentfulPaint": 745
+  },
+  "axe": {
+    "error": "{\"name\":\"TimeoutError\"}"
+  }
+}

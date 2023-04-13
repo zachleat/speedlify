@@ -1,0 +1,67 @@
+{
+  "url": "https://arie.ls/",
+  "requestedUrl": "https://arie.ls/",
+  "timestamp": 1681336066980,
+  "ranks": {
+    "hundos": 296,
+    "performance": 172,
+    "accessibility": 575,
+    "cumulative": 306
+  },
+  "lighthouse": {
+    "version": "10.1.0",
+    "performance": 1,
+    "accessibility": 0.97,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 397
+  },
+  "firstContentfulPaint": 1124.969,
+  "firstMeaningfulPaint": 1124.969,
+  "speedIndex": 1164.970334001417,
+  "largestContentfulPaint": 1440.969,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1124.969,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 122.132,
+  "weight": {
+    "summary": "7 requests • 614 KiB",
+    "total": 629197,
+    "image": 514869,
+    "imageCount": 1,
+    "script": 1169,
+    "scriptCount": 1,
+    "document": 17162,
+    "font": 95997,
+    "fontCount": 4,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 678,
+    "+weight.total": 189,
+    "-weight.document": 707,
+    "+weight.document": 139,
+    "-weight.script": 51,
+    "+weight.script": 560,
+    "-weight.image": 539,
+    "+weight.image": 130,
+    "-weight.font": 386,
+    "+weight.font": 193,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 475,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 429
+  },
+  "axe": {
+    "passes": 461,
+    "violations": 1
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://www.scottmurphytennis.net/",
+  "requestedUrl": "https://www.scottmurphytennis.net/",
+  "timestamp": 1681334886633,
+  "ranks": {
+    "hundos": 658,
+    "performance": 722,
+    "accessibility": 118,
+    "cumulative": 649
+  },
+  "lighthouse": {
+    "version": "10.1.0",
+    "performance": 0.83,
+    "accessibility": 1,
+    "bestPractices": 0.92,
+    "seo": 1,
+    "total": 375
+  },
+  "firstContentfulPaint": 2300.0820000000003,
+  "firstMeaningfulPaint": 2300.0820000000003,
+  "speedIndex": 7518.5066382867635,
+  "largestContentfulPaint": 2300.0820000000003,
+  "totalBlockingTime": 253.5,
+  "cumulativeLayoutShift": 0.0012645809022811146,
+  "timeToInteractive": 10994.7385,
+  "maxPotentialFirstInputDelay": 201,
+  "timeToFirstByte": 151.26800000000003,
+  "weight": {
+    "summary": "37 requests • 2,668 KiB",
+    "total": 2731632,
+    "image": 1714453,
+    "imageCount": 11,
+    "script": 780098,
+    "scriptCount": 8,
+    "document": 34694,
+    "font": 99549,
+    "fontCount": 4,
+    "stylesheet": 70252,
+    "stylesheetCount": 4,
+    "thirdParty": 1012969,
+    "thirdPartyCount": 25
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 821,
+    "+weight.total": 46,
+    "-weight.document": 780,
+    "+weight.document": 66,
+    "-weight.script": 589,
+    "+weight.script": 22,
+    "-weight.image": 624,
+    "+weight.image": 45,
+    "-weight.font": 398,
+    "+weight.font": 181,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 550,
+    "-totalBlockingTime": 160,
+    "-largestContentfulPaint": 661
+  },
+  "axe": {
+    "passes": 300,
+    "violations": 0
+  }
+}

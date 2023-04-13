@@ -1,0 +1,67 @@
+{
+  "url": "https://parth.ninja/",
+  "requestedUrl": "https://parth.ninja/",
+  "timestamp": 1681357686134,
+  "ranks": {
+    "hundos": 339,
+    "performance": 537,
+    "accessibility": 391,
+    "cumulative": 337
+  },
+  "lighthouse": {
+    "version": "10.1.0",
+    "performance": 0.96,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 396
+  },
+  "firstContentfulPaint": 1708.721,
+  "firstMeaningfulPaint": 1708.721,
+  "speedIndex": 1708.721,
+  "largestContentfulPaint": 2614.362,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.013542505742358617,
+  "timeToInteractive": 1708.721,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 49.793000000000035,
+  "weight": {
+    "summary": "7 requests • 59 KiB",
+    "total": 60387,
+    "image": 1148,
+    "imageCount": 2,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 1913,
+    "font": 48350,
+    "fontCount": 1,
+    "stylesheet": 8976,
+    "stylesheetCount": 3,
+    "thirdParty": 49943,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 201,
+    "+weight.total": 666,
+    "-weight.document": 64,
+    "+weight.document": 782,
+    "-weight.script": 1,
+    "+weight.script": 611,
+    "-weight.image": 27,
+    "+weight.image": 642,
+    "-weight.font": 228,
+    "+weight.font": 351,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 141,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 702
+  },
+  "axe": {
+    "passes": 120,
+    "violations": 1
+  }
+}

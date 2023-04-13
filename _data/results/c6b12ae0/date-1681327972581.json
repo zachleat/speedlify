@@ -1,0 +1,67 @@
+{
+  "url": "https://kula.blog/",
+  "requestedUrl": "https://kula.blog/",
+  "timestamp": 1681359287020,
+  "ranks": {
+    "hundos": 686,
+    "performance": 618,
+    "accessibility": 679,
+    "cumulative": 691
+  },
+  "lighthouse": {
+    "version": "10.1.0",
+    "performance": 0.93,
+    "accessibility": 0.95,
+    "bestPractices": 0.92,
+    "seo": 0.92,
+    "total": 372
+  },
+  "firstContentfulPaint": 1042.8319999999999,
+  "firstMeaningfulPaint": 1991.5755,
+  "speedIndex": 2840.6903011601585,
+  "largestContentfulPaint": 3015.6220000000003,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.05933288475046194,
+  "timeToInteractive": 2004.9195,
+  "maxPotentialFirstInputDelay": 155,
+  "timeToFirstByte": 147.72900000000004,
+  "weight": {
+    "summary": "21 requests • 387 KiB",
+    "total": 396262,
+    "image": 313525,
+    "imageCount": 11,
+    "script": 67100,
+    "scriptCount": 4,
+    "document": 5896,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 9539,
+    "stylesheetCount": 4,
+    "thirdParty": 373688,
+    "thirdPartyCount": 13
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 591,
+    "+weight.total": 276,
+    "-weight.document": 412,
+    "+weight.document": 434,
+    "-weight.script": 400,
+    "+weight.script": 211,
+    "-weight.image": 480,
+    "+weight.image": 189,
+    "-weight.font": 1,
+    "+weight.font": 579,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 539,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 731
+  },
+  "axe": {
+    "passes": 433,
+    "violations": 47
+  }
+}

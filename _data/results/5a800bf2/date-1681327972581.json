@@ -1,0 +1,67 @@
+{
+  "url": "https://www.arrozmaria.com.ar/",
+  "requestedUrl": "https://www.arrozmaria.com.ar/",
+  "timestamp": 1681347530799,
+  "ranks": {
+    "hundos": 820,
+    "performance": 829,
+    "accessibility": 783,
+    "cumulative": 820
+  },
+  "lighthouse": {
+    "version": "10.1.0",
+    "performance": 0.59,
+    "accessibility": 0.86,
+    "bestPractices": 0.83,
+    "seo": 1,
+    "total": 328
+  },
+  "firstContentfulPaint": 2478.2870000000003,
+  "firstMeaningfulPaint": 2478.2870000000003,
+  "speedIndex": 2478.2870000000003,
+  "largestContentfulPaint": 4638.247,
+  "totalBlockingTime": 101.5,
+  "cumulativeLayoutShift": 0.4862564604401209,
+  "timeToInteractive": 7869.763000000001,
+  "maxPotentialFirstInputDelay": 133,
+  "timeToFirstByte": 50.751000000000005,
+  "weight": {
+    "summary": "92 requests • 1,951 KiB",
+    "total": 1998001,
+    "image": 1242799,
+    "imageCount": 49,
+    "script": 397291,
+    "scriptCount": 15,
+    "document": 7621,
+    "font": 153123,
+    "fontCount": 3,
+    "stylesheet": 168796,
+    "stylesheetCount": 4,
+    "thirdParty": 586106,
+    "thirdPartyCount": 49
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 808,
+    "+weight.total": 59,
+    "-weight.document": 501,
+    "+weight.document": 345,
+    "-weight.script": 566,
+    "+weight.script": 45,
+    "-weight.image": 606,
+    "+weight.image": 63,
+    "-weight.font": 467,
+    "+weight.font": 112,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 147,
+    "-totalBlockingTime": 124,
+    "-largestContentfulPaint": 807
+  },
+  "axe": {
+    "passes": 668,
+    "violations": 40
+  }
+}

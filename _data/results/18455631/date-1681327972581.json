@@ -1,0 +1,67 @@
+{
+  "url": "https://duncan.dev/",
+  "requestedUrl": "https://duncan.dev/",
+  "timestamp": 1681337972841,
+  "ranks": {
+    "hundos": 664,
+    "performance": 162,
+    "accessibility": 735,
+    "cumulative": 657
+  },
+  "lighthouse": {
+    "version": "10.1.0",
+    "performance": 1,
+    "accessibility": 0.92,
+    "bestPractices": 1,
+    "seo": 0.83,
+    "total": 375
+  },
+  "firstContentfulPaint": 927.51,
+  "firstMeaningfulPaint": 927.51,
+  "speedIndex": 1137.006576000553,
+  "largestContentfulPaint": 1615.913,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 927.51,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 67.28200000000001,
+  "weight": {
+    "summary": "3 requests • 6 KiB",
+    "total": 6096,
+    "image": 0,
+    "imageCount": 0,
+    "script": 1289,
+    "scriptCount": 1,
+    "document": 2546,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 2261,
+    "stylesheetCount": 1,
+    "thirdParty": 1289,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 39,
+    "+weight.total": 828,
+    "-weight.document": 132,
+    "+weight.document": 714,
+    "-weight.script": 65,
+    "+weight.script": 546,
+    "-weight.image": 1,
+    "+weight.image": 669,
+    "-weight.font": 1,
+    "+weight.font": 579,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 292,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 477
+  },
+  "axe": {
+    "passes": 142,
+    "violations": 5
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://vagabondians.com/",
+  "requestedUrl": "https://vagabondians.com/",
+  "timestamp": 1681345725704,
+  "ranks": {
+    "hundos": 457,
+    "performance": 356,
+    "accessibility": 209,
+    "cumulative": 445
+  },
+  "lighthouse": {
+    "version": "10.1.0",
+    "performance": 0.99,
+    "accessibility": 1,
+    "bestPractices": 0.92,
+    "seo": 1,
+    "total": 391
+  },
+  "firstContentfulPaint": 1160.6550000000002,
+  "firstMeaningfulPaint": 1160.6550000000002,
+  "speedIndex": 1160.6550000000002,
+  "largestContentfulPaint": 1882.755,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.0035964797018878565,
+  "timeToInteractive": 1160.6550000000002,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 60.382000000000005,
+  "weight": {
+    "summary": "2 requests • 21 KiB",
+    "total": 21186,
+    "image": 2045,
+    "imageCount": 1,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 19141,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 2045,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 93,
+    "+weight.total": 774,
+    "-weight.document": 721,
+    "+weight.document": 125,
+    "-weight.script": 1,
+    "+weight.script": 611,
+    "-weight.image": 41,
+    "+weight.image": 628,
+    "-weight.font": 1,
+    "+weight.font": 579,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 251,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 568
+  },
+  "axe": {
+    "passes": 171,
+    "violations": 0
+  }
+}
