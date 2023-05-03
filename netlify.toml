@@ -15,3 +15,12 @@ package = "./plugins/keep-data-cache"
   to = "https://www.speedlify.dev"
   status = 301
   force = true
+
+[context.branch-deploy.environment]
+  PUPPETEER_CACHE_DIR = "/opt/build/repo/node_modules/.cache/puppeteer-bin/"
+
+[context.deploy-preview.environment]
+  PUPPETEER_CACHE_DIR = "/opt/build/repo/node_modules/.cache/puppeteer-bin/"
+
+[context.production.environment]
+  PUPPETEER_CACHE_DIR = "/opt/build/repo/node_modules/.cache/puppeteer-bin/"
