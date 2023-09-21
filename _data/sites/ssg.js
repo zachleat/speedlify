@@ -17,7 +17,7 @@ module.exports = {
 		"https://www.gatsbyjs.com/",
 		"https://gohugo.io/",
 		"https://nextjs.org/",
-		"https://nuxtjs.org/",
+		"https://nuxt.com/",
 		"https://gridsome.org/",
 		"https://vuepress.vuejs.org/",
 		"https://docusaurus.io/",
