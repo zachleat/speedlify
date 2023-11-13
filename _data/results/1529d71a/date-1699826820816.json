@@ -1,0 +1,67 @@
+{
+  "url": "https://fudge.org/",
+  "requestedUrl": "https://fudge.org/",
+  "timestamp": 1699847104544,
+  "ranks": {
+    "hundos": 471,
+    "performance": 458,
+    "accessibility": 732,
+    "cumulative": 480
+  },
+  "lighthouse": {
+    "version": "10.4.0",
+    "performance": 0.98,
+    "accessibility": 0.94,
+    "bestPractices": 1,
+    "seo": 0.99,
+    "total": 391
+  },
+  "firstContentfulPaint": 956.2250000000001,
+  "firstMeaningfulPaint": 956.2250000000001,
+  "speedIndex": 1064.1292739995565,
+  "largestContentfulPaint": 2162.4910000000004,
+  "totalBlockingTime": 79,
+  "cumulativeLayoutShift": 0.00014184170200834696,
+  "timeToInteractive": 2278.4910000000004,
+  "maxPotentialFirstInputDelay": 116,
+  "timeToFirstByte": 102.55300000000003,
+  "weight": {
+    "summary": "8 requests • 136 KiB",
+    "total": 139400,
+    "image": 0,
+    "imageCount": 0,
+    "script": 93876,
+    "scriptCount": 2,
+    "document": 6037,
+    "font": 33860,
+    "fontCount": 3,
+    "stylesheet": 5385,
+    "stylesheetCount": 1,
+    "thirdParty": 93518,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 359,
+    "+weight.total": 559,
+    "-weight.document": 438,
+    "+weight.document": 457,
+    "-weight.script": 464,
+    "+weight.script": 198,
+    "-weight.image": 1,
+    "+weight.image": 708,
+    "-weight.font": 133,
+    "+weight.font": 484,
+    "+weight.fontCount": 12,
+    "-timeToFirstByte": 445,
+    "-totalBlockingTime": 129,
+    "-largestContentfulPaint": 683
+  },
+  "axe": {
+    "passes": 225,
+    "violations": 5
+  }
+}

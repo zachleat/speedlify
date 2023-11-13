@@ -1,0 +1,67 @@
+{
+  "url": "https://statebox.org/",
+  "requestedUrl": "https://statebox.org/",
+  "timestamp": 1699848139142,
+  "ranks": {
+    "hundos": 851,
+    "performance": 654,
+    "accessibility": 882,
+    "cumulative": 851
+  },
+  "lighthouse": {
+    "version": "10.4.0",
+    "performance": 0.93,
+    "accessibility": 0.77,
+    "bestPractices": 1,
+    "seo": 0.75,
+    "total": 345
+  },
+  "firstContentfulPaint": 805.9885000000003,
+  "firstMeaningfulPaint": 805.9885000000003,
+  "speedIndex": 5504.664173850672,
+  "largestContentfulPaint": 805.9885000000003,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.10253582001749184,
+  "timeToInteractive": 805.9885000000003,
+  "maxPotentialFirstInputDelay": 24,
+  "timeToFirstByte": 60.70399999999972,
+  "weight": {
+    "summary": "6 requests • 412 KiB",
+    "total": 422173,
+    "image": 16564,
+    "imageCount": 1,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 1931,
+    "font": 399507,
+    "fontCount": 2,
+    "stylesheet": 4171,
+    "stylesheetCount": 2,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 631,
+    "+weight.total": 287,
+    "-weight.document": 62,
+    "+weight.document": 833,
+    "-weight.script": 1,
+    "+weight.script": 662,
+    "-weight.image": 137,
+    "+weight.image": 571,
+    "-weight.font": 590,
+    "+weight.font": 27,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 263,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 9
+  },
+  "axe": {
+    "passes": 201,
+    "violations": 26
+  }
+}

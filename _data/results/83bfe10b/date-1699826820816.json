@@ -1,0 +1,67 @@
+{
+  "url": "https://www.nuotsu.com/",
+  "requestedUrl": "https://www.nuotsu.com/",
+  "timestamp": 1699860833529,
+  "ranks": {
+    "hundos": 917,
+    "performance": 890,
+    "accessibility": 915,
+    "cumulative": 917
+  },
+  "lighthouse": {
+    "version": "10.4.0",
+    "performance": 0.54,
+    "accessibility": 0.53,
+    "bestPractices": 0.67,
+    "seo": 0.9,
+    "total": 264
+  },
+  "firstContentfulPaint": 2285.5254999999997,
+  "firstMeaningfulPaint": 2285.5254999999997,
+  "speedIndex": 5815.641091000665,
+  "largestContentfulPaint": 10609.326500000001,
+  "totalBlockingTime": 1,
+  "cumulativeLayoutShift": 0.27034867841182053,
+  "timeToInteractive": 4299.845499999999,
+  "maxPotentialFirstInputDelay": 52,
+  "timeToFirstByte": 295.522,
+  "weight": {
+    "summary": "72 requests • 9,280 KiB",
+    "total": 9502727,
+    "image": 9372148,
+    "imageCount": 62,
+    "script": 101224,
+    "scriptCount": 6,
+    "document": 9427,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 18400,
+    "stylesheetCount": 2,
+    "thirdParty": 6779430,
+    "thirdPartyCount": 52
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 908,
+    "+weight.total": 10,
+    "-weight.document": 596,
+    "+weight.document": 299,
+    "-weight.script": 471,
+    "+weight.script": 191,
+    "-weight.image": 701,
+    "+weight.image": 7,
+    "-weight.font": 1,
+    "+weight.font": 617,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 783,
+    "-totalBlockingTime": 2,
+    "-largestContentfulPaint": 907
+  },
+  "axe": {
+    "passes": 1984,
+    "violations": 240
+  }
+}

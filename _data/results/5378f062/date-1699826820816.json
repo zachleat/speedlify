@@ -1,0 +1,67 @@
+{
+  "url": "https://design.saschadiercks.de/",
+  "requestedUrl": "https://design.saschadiercks.de/",
+  "timestamp": 1699863805440,
+  "ranks": {
+    "hundos": 503,
+    "performance": 627,
+    "accessibility": 658,
+    "cumulative": 498
+  },
+  "lighthouse": {
+    "version": "10.4.0",
+    "performance": 0.94,
+    "accessibility": 0.96,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 390
+  },
+  "firstContentfulPaint": 1914.7565,
+  "firstMeaningfulPaint": 2828.114,
+  "speedIndex": 2476.9582889951653,
+  "largestContentfulPaint": 2828.114,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.00025591592103488964,
+  "timeToInteractive": 2828.114,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 379.518,
+  "weight": {
+    "summary": "7 requests • 38 KiB",
+    "total": 39404,
+    "image": 0,
+    "imageCount": 0,
+    "script": 5410,
+    "scriptCount": 1,
+    "document": 4454,
+    "font": 24459,
+    "fontCount": 2,
+    "stylesheet": 5081,
+    "stylesheetCount": 3,
+    "thirdParty": 25584,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 152,
+    "+weight.total": 766,
+    "-weight.document": 312,
+    "+weight.document": 583,
+    "-weight.script": 203,
+    "+weight.script": 459,
+    "-weight.image": 1,
+    "+weight.image": 708,
+    "-weight.font": 79,
+    "+weight.font": 538,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 841,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 760
+  },
+  "axe": {
+    "passes": 361,
+    "violations": 2
+  }
+}

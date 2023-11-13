@@ -1,0 +1,67 @@
+{
+  "url": "https://tinytip.co/",
+  "requestedUrl": "https://tinytip.co/",
+  "timestamp": 1699856805711,
+  "ranks": {
+    "hundos": 621,
+    "performance": 749,
+    "accessibility": 545,
+    "cumulative": 624
+  },
+  "lighthouse": {
+    "version": "10.4.0",
+    "performance": 0.84,
+    "accessibility": 0.98,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 382
+  },
+  "firstContentfulPaint": 827.257,
+  "firstMeaningfulPaint": 827.257,
+  "speedIndex": 910.3701110722828,
+  "largestContentfulPaint": 901.257,
+  "totalBlockingTime": 12,
+  "cumulativeLayoutShift": 0.3325899021721745,
+  "timeToInteractive": 1061.257,
+  "maxPotentialFirstInputDelay": 74,
+  "timeToFirstByte": 68.886,
+  "weight": {
+    "summary": "6 requests • 88 KiB",
+    "total": 89880,
+    "image": 6542,
+    "imageCount": 1,
+    "script": 1636,
+    "scriptCount": 1,
+    "document": 4236,
+    "font": 72950,
+    "fontCount": 2,
+    "stylesheet": 4516,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 256,
+    "+weight.total": 662,
+    "-weight.document": 288,
+    "+weight.document": 607,
+    "-weight.script": 86,
+    "+weight.script": 576,
+    "-weight.image": 79,
+    "+weight.image": 629,
+    "-weight.font": 335,
+    "+weight.font": 282,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 333,
+    "-totalBlockingTime": 26,
+    "-largestContentfulPaint": 445
+  },
+  "axe": {
+    "passes": 734,
+    "violations": 2
+  }
+}

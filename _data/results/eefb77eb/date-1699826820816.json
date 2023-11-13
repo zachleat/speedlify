@@ -1,0 +1,67 @@
+{
+  "url": "https://francisrubio.antaresph.dev/",
+  "requestedUrl": "https://francisrubio.antaresph.dev/",
+  "timestamp": 1699843646137,
+  "ranks": {
+    "hundos": 850,
+    "performance": 905,
+    "accessibility": 562,
+    "cumulative": 850
+  },
+  "lighthouse": {
+    "version": "10.4.0",
+    "performance": 0.47,
+    "accessibility": 0.98,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 345
+  },
+  "firstContentfulPaint": 1997.557,
+  "firstMeaningfulPaint": 4348.37,
+  "speedIndex": 3678.6148984944452,
+  "largestContentfulPaint": 8505.016,
+  "totalBlockingTime": 1403.8730000000012,
+  "cumulativeLayoutShift": 0.05858922626793619,
+  "timeToInteractive": 6610.485000000001,
+  "maxPotentialFirstInputDelay": 914.0000000000002,
+  "timeToFirstByte": 242.39699999999996,
+  "weight": {
+    "summary": "29 requests • 1,861 KiB",
+    "total": 1905668,
+    "image": 1373316,
+    "imageCount": 10,
+    "script": 20825,
+    "scriptCount": 5,
+    "document": 31119,
+    "font": 430579,
+    "fontCount": 4,
+    "stylesheet": 28061,
+    "stylesheetCount": 4,
+    "thirdParty": 1379981,
+    "thirdPartyCount": 11
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 827,
+    "+weight.total": 91,
+    "-weight.document": 808,
+    "+weight.document": 87,
+    "-weight.script": 318,
+    "+weight.script": 344,
+    "-weight.image": 637,
+    "+weight.image": 71,
+    "-weight.font": 598,
+    "+weight.font": 19,
+    "+weight.fontCount": 11,
+    "-timeToFirstByte": 732,
+    "-totalBlockingTime": 230,
+    "-largestContentfulPaint": 897
+  },
+  "axe": {
+    "passes": 1135,
+    "violations": 9
+  }
+}

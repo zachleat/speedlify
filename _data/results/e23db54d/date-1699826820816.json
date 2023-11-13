@@ -1,0 +1,67 @@
+{
+  "url": "https://briefs.video/",
+  "requestedUrl": "https://briefs.video/",
+  "timestamp": 1699842087984,
+  "ranks": {
+    "hundos": 4,
+    "performance": 207,
+    "accessibility": 346,
+    "cumulative": 161
+  },
+  "lighthouse": {
+    "version": "10.4.0",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 1094.255,
+  "firstMeaningfulPaint": 1094.255,
+  "speedIndex": 1227.7404528985546,
+  "largestContentfulPaint": 1701.247,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.003806919274000258,
+  "timeToInteractive": 1094.255,
+  "maxPotentialFirstInputDelay": 45,
+  "timeToFirstByte": 47.504999999999995,
+  "weight": {
+    "summary": "47 requests • 6,074 KiB",
+    "total": 6219279,
+    "image": 6124313,
+    "imageCount": 38,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 7559,
+    "font": 47700,
+    "fontCount": 3,
+    "stylesheet": 2659,
+    "stylesheetCount": 1,
+    "thirdParty": 5434567,
+    "thirdPartyCount": 20
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 895,
+    "+weight.total": 23,
+    "-weight.document": 529,
+    "+weight.document": 366,
+    "-weight.script": 1,
+    "+weight.script": 662,
+    "-weight.image": 692,
+    "+weight.image": 16,
+    "-weight.font": 226,
+    "+weight.font": 391,
+    "+weight.fontCount": 12,
+    "-timeToFirstByte": 140,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 274
+  },
+  "axe": {
+    "passes": 542,
+    "violations": 1
+  }
+}

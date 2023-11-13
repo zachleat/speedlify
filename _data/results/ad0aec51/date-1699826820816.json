@@ -1,0 +1,67 @@
+{
+  "url": "https://craftersagainstcovid19.org/",
+  "requestedUrl": "https://craftersagainstcovid19.org/",
+  "timestamp": 1699840171581,
+  "ranks": {
+    "hundos": 757,
+    "performance": 808,
+    "accessibility": 365,
+    "cumulative": 758
+  },
+  "lighthouse": {
+    "version": "10.4.0",
+    "performance": 0.75,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 0.92,
+    "total": 367
+  },
+  "firstContentfulPaint": 1117.9225000000001,
+  "firstMeaningfulPaint": 1134.9225000000001,
+  "speedIndex": 1598.7113981771963,
+  "largestContentfulPaint": 5533.035500000001,
+  "totalBlockingTime": 57.5,
+  "cumulativeLayoutShift": 0.1257979068167379,
+  "timeToInteractive": 2341.9965,
+  "maxPotentialFirstInputDelay": 105.00000000000011,
+  "timeToFirstByte": 46.49399999999997,
+  "weight": {
+    "summary": "14 requests • 1,432 KiB",
+    "total": 1465999,
+    "image": 1364514,
+    "imageCount": 9,
+    "script": 56962,
+    "scriptCount": 3,
+    "document": 7601,
+    "font": 36922,
+    "fontCount": 1,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 56078,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 802,
+    "+weight.total": 116,
+    "-weight.document": 531,
+    "+weight.document": 364,
+    "-weight.script": 405,
+    "+weight.script": 257,
+    "-weight.image": 636,
+    "+weight.image": 72,
+    "-weight.font": 156,
+    "+weight.font": 461,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 111,
+    "-totalBlockingTime": 103,
+    "-largestContentfulPaint": 858
+  },
+  "axe": {
+    "passes": 348,
+    "violations": 1
+  }
+}

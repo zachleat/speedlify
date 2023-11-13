@@ -1,0 +1,67 @@
+{
+  "url": "https://almanac.chinesetaipeitouch.com/en/",
+  "requestedUrl": "https://almanac.chinesetaipeitouch.com/en/",
+  "timestamp": 1699829779490,
+  "ranks": {
+    "hundos": 748,
+    "performance": 569,
+    "accessibility": 893,
+    "cumulative": 748
+  },
+  "lighthouse": {
+    "version": "10.4.0",
+    "performance": 0.96,
+    "accessibility": 0.73,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 369
+  },
+  "firstContentfulPaint": 2157.6814999999997,
+  "firstMeaningfulPaint": 2157.6814999999997,
+  "speedIndex": 2190.661126999971,
+  "largestContentfulPaint": 2157.6814999999997,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.05497680994729842,
+  "timeToInteractive": 2157.6814999999997,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 211.73300000000003,
+  "weight": {
+    "summary": "9 requests • 202 KiB",
+    "total": 206343,
+    "image": 0,
+    "imageCount": 0,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 1831,
+    "font": 96620,
+    "fontCount": 2,
+    "stylesheet": 103259,
+    "stylesheetCount": 2,
+    "thirdParty": 197188,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 456,
+    "+weight.total": 462,
+    "-weight.document": 51,
+    "+weight.document": 844,
+    "-weight.script": 1,
+    "+weight.script": 662,
+    "-weight.image": 1,
+    "+weight.image": 708,
+    "-weight.font": 404,
+    "+weight.font": 213,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 690,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 360
+  },
+  "axe": {
+    "passes": 358,
+    "violations": 9
+  }
+}

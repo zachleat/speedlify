@@ -1,0 +1,66 @@
+{
+  "url": "https://www.wearedeepspace.com/",
+  "requestedUrl": "https://www.wearedeepspace.com/",
+  "timestamp": 1699864672884,
+  "ranks": {
+    "hundos": 889,
+    "performance": 900,
+    "accessibility": 721,
+    "cumulative": 889
+  },
+  "lighthouse": {
+    "version": "10.4.0",
+    "performance": 0.5,
+    "accessibility": 0.95,
+    "bestPractices": 0.92,
+    "seo": 0.9,
+    "total": 327
+  },
+  "firstContentfulPaint": 2237.245,
+  "firstMeaningfulPaint": 2237.245,
+  "speedIndex": 7640.066218501857,
+  "largestContentfulPaint": 4138.251499999999,
+  "totalBlockingTime": 1700.499999999999,
+  "cumulativeLayoutShift": 0.0010185674236229683,
+  "timeToInteractive": 12074.044999999998,
+  "maxPotentialFirstInputDelay": 532,
+  "timeToFirstByte": 278.815,
+  "weight": {
+    "summary": "53 requests • 3,762 KiB",
+    "total": 3852779,
+    "image": 2887206,
+    "imageCount": 21,
+    "script": 453963,
+    "scriptCount": 12,
+    "document": 51312,
+    "font": 391086,
+    "fontCount": 5,
+    "stylesheet": 67794,
+    "stylesheetCount": 5,
+    "thirdParty": 3812516,
+    "thirdPartyCount": 51
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 875,
+    "+weight.total": 43,
+    "-weight.document": 851,
+    "+weight.document": 44,
+    "-weight.script": 617,
+    "+weight.script": 45,
+    "-weight.image": 670,
+    "+weight.image": 38,
+    "-weight.font": 589,
+    "+weight.font": 28,
+    "+weight.fontCount": 10,
+    "-timeToFirstByte": 771,
+    "-totalBlockingTime": 234,
+    "-largestContentfulPaint": 824
+  },
+  "axe": {
+    "error": "{\"name\":\"TimeoutError\"}"
+  }
+}

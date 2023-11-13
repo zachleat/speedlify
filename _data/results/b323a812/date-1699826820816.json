@@ -1,0 +1,67 @@
+{
+  "url": "https://maxbergstrom.se/",
+  "requestedUrl": "https://maxbergstrom.se/",
+  "timestamp": 1699862009685,
+  "ranks": {
+    "hundos": 820,
+    "performance": 838,
+    "accessibility": 768,
+    "cumulative": 817
+  },
+  "lighthouse": {
+    "version": "10.4.0",
+    "performance": 0.7,
+    "accessibility": 0.93,
+    "bestPractices": 1,
+    "seo": 0.91,
+    "total": 354
+  },
+  "firstContentfulPaint": 853.2760000000001,
+  "firstMeaningfulPaint": 853.2760000000001,
+  "speedIndex": 2243.5936754479862,
+  "largestContentfulPaint": 853.2760000000001,
+  "totalBlockingTime": 147093,
+  "cumulativeLayoutShift": 0.00352040534592056,
+  "timeToInteractive": 176154.873,
+  "maxPotentialFirstInputDelay": 909,
+  "timeToFirstByte": 40.649,
+  "weight": {
+    "summary": "10 requests • 2,475 KiB",
+    "total": 2534612,
+    "image": 2237611,
+    "imageCount": 2,
+    "script": 257588,
+    "scriptCount": 3,
+    "document": 2442,
+    "font": 34251,
+    "fontCount": 3,
+    "stylesheet": 2720,
+    "stylesheetCount": 1,
+    "thirdParty": 290328,
+    "thirdPartyCount": 5
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 848,
+    "+weight.total": 70,
+    "-weight.document": 120,
+    "+weight.document": 775,
+    "-weight.script": 583,
+    "+weight.script": 79,
+    "-weight.image": 659,
+    "+weight.image": 49,
+    "-weight.font": 137,
+    "+weight.font": 480,
+    "+weight.fontCount": 12,
+    "-timeToFirstByte": 36,
+    "-totalBlockingTime": 242,
+    "-largestContentfulPaint": 433
+  },
+  "axe": {
+    "passes": 94,
+    "violations": 17
+  }
+}

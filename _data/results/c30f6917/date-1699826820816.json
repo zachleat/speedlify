@@ -1,0 +1,67 @@
+{
+  "url": "https://www.laybl.app/",
+  "requestedUrl": "https://laybl.app/",
+  "timestamp": 1699837410847,
+  "ranks": {
+    "hundos": 841,
+    "performance": 875,
+    "accessibility": 675,
+    "cumulative": 842
+  },
+  "lighthouse": {
+    "version": "10.4.0",
+    "performance": 0.6,
+    "accessibility": 0.96,
+    "bestPractices": 1,
+    "seo": 0.93,
+    "total": 349
+  },
+  "firstContentfulPaint": 3143.5422499999995,
+  "firstMeaningfulPaint": 4005.0065,
+  "speedIndex": 5674.989359652577,
+  "largestContentfulPaint": 6578.2165,
+  "totalBlockingTime": 295.5,
+  "cumulativeLayoutShift": 0.0032092453144624174,
+  "timeToInteractive": 8228.3145,
+  "maxPotentialFirstInputDelay": 238,
+  "timeToFirstByte": 59.985000000000014,
+  "weight": {
+    "summary": "29 requests • 1,108 KiB",
+    "total": 1134356,
+    "image": 455491,
+    "imageCount": 16,
+    "script": 551498,
+    "scriptCount": 6,
+    "document": 8541,
+    "font": 73442,
+    "fontCount": 3,
+    "stylesheet": 45312,
+    "stylesheetCount": 2,
+    "thirdParty": 1125743,
+    "thirdPartyCount": 27
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 778,
+    "+weight.total": 140,
+    "-weight.document": 568,
+    "+weight.document": 327,
+    "-weight.script": 629,
+    "+weight.script": 33,
+    "-weight.image": 549,
+    "+weight.image": 159,
+    "-weight.font": 338,
+    "+weight.font": 279,
+    "+weight.fontCount": 12,
+    "-timeToFirstByte": 248,
+    "-totalBlockingTime": 187,
+    "-largestContentfulPaint": 877
+  },
+  "axe": {
+    "passes": 524,
+    "violations": 14
+  }
+}

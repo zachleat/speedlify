@@ -1,0 +1,67 @@
+{
+  "url": "https://mattlacey.com/",
+  "requestedUrl": "https://mattlacey.com/",
+  "timestamp": 1699837904311,
+  "ranks": {
+    "hundos": 784,
+    "performance": 193,
+    "accessibility": 868,
+    "cumulative": 781
+  },
+  "lighthouse": {
+    "version": "10.4.0",
+    "performance": 1,
+    "accessibility": 0.8,
+    "bestPractices": 1,
+    "seo": 0.83,
+    "total": 363
+  },
+  "firstContentfulPaint": 971.448,
+  "firstMeaningfulPaint": 971.448,
+  "speedIndex": 1192.4146360005034,
+  "largestContentfulPaint": 971.448,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 971.448,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 188.054,
+  "weight": {
+    "summary": "4 requests • 4 KiB",
+    "total": 3855,
+    "image": 296,
+    "imageCount": 1,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 1341,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 2218,
+    "stylesheetCount": 2,
+    "thirdParty": 296,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 24,
+    "+weight.total": 894,
+    "-weight.document": 24,
+    "+weight.document": 871,
+    "-weight.script": 1,
+    "+weight.script": 662,
+    "-weight.image": 3,
+    "+weight.image": 705,
+    "-weight.font": 1,
+    "+weight.font": 617,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 667,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 83
+  },
+  "axe": {
+    "passes": 108,
+    "violations": 3
+  }
+}

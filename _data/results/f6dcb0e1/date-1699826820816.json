@@ -1,0 +1,67 @@
+{
+  "url": "https://coryd.dev/",
+  "requestedUrl": "https://coryd.dev/",
+  "timestamp": 1699842507081,
+  "ranks": {
+    "hundos": 234,
+    "performance": 424,
+    "accessibility": 350,
+    "cumulative": 246
+  },
+  "lighthouse": {
+    "version": "10.4.0",
+    "performance": 0.99,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 399
+  },
+  "firstContentfulPaint": 1665.6850000000002,
+  "firstMeaningfulPaint": 1665.6850000000002,
+  "speedIndex": 1779.3230299976458,
+  "largestContentfulPaint": 1811.9070000000002,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.025215634263121504,
+  "timeToInteractive": 1665.6850000000002,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 92.80400000000003,
+  "weight": {
+    "summary": "6 requests • 143 KiB",
+    "total": 146447,
+    "image": 0,
+    "imageCount": 0,
+    "script": 8186,
+    "scriptCount": 3,
+    "document": 131446,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 6544,
+    "stylesheetCount": 1,
+    "thirdParty": 3002,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 368,
+    "+weight.total": 550,
+    "-weight.document": 885,
+    "+weight.document": 10,
+    "-weight.script": 243,
+    "+weight.script": 419,
+    "-weight.image": 1,
+    "+weight.image": 708,
+    "-weight.font": 1,
+    "+weight.font": 617,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 428,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 301
+  },
+  "axe": {
+    "passes": 495,
+    "violations": 1
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://tipr.mobi/",
+  "requestedUrl": "https://tipr.mobi/",
+  "timestamp": 1699829369679,
+  "ranks": {
+    "hundos": 910,
+    "performance": 15,
+    "accessibility": 404,
+    "cumulative": 910
+  },
+  "lighthouse": {
+    "version": "10.4.0",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": null,
+    "seo": 1,
+    "total": 300
+  },
+  "firstContentfulPaint": 867.5364999999999,
+  "firstMeaningfulPaint": 867.5364999999999,
+  "speedIndex": 867.5364999999999,
+  "largestContentfulPaint": 867.5364999999999,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 867.5364999999999,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 584.757,
+  "weight": {
+    "summary": "4 requests • 8 KiB",
+    "total": 7806,
+    "image": 517,
+    "imageCount": 2,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 7289,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 50,
+    "+weight.total": 868,
+    "-weight.document": 517,
+    "+weight.document": 378,
+    "-weight.script": 1,
+    "+weight.script": 662,
+    "-weight.image": 12,
+    "+weight.image": 696,
+    "-weight.font": 1,
+    "+weight.font": 617,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 902,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 438
+  },
+  "axe": {
+    "passes": 120,
+    "violations": 1
+  }
+}

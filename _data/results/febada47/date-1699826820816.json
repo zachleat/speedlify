@@ -1,0 +1,67 @@
+{
+  "url": "https://edmill.dev/",
+  "requestedUrl": "https://edmill.dev/",
+  "timestamp": 1699860332944,
+  "ranks": {
+    "hundos": 344,
+    "performance": 289,
+    "accessibility": 670,
+    "cumulative": 353
+  },
+  "lighthouse": {
+    "version": "10.4.0",
+    "performance": 1,
+    "accessibility": 0.96,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 396
+  },
+  "firstContentfulPaint": 1219.1815000000001,
+  "firstMeaningfulPaint": 1219.1815000000001,
+  "speedIndex": 1482.0405390026785,
+  "largestContentfulPaint": 1219.1815000000001,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1219.1815000000001,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 41.167,
+  "weight": {
+    "summary": "4 requests • 88 KiB",
+    "total": 90021,
+    "image": 0,
+    "imageCount": 0,
+    "script": 623,
+    "scriptCount": 1,
+    "document": 6924,
+    "font": 82474,
+    "fontCount": 2,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 257,
+    "+weight.total": 661,
+    "-weight.document": 496,
+    "+weight.document": 399,
+    "-weight.script": 20,
+    "+weight.script": 642,
+    "-weight.image": 1,
+    "+weight.image": 708,
+    "-weight.font": 368,
+    "+weight.font": 249,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 39,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 179
+  },
+  "axe": {
+    "passes": 110,
+    "violations": 7
+  }
+}

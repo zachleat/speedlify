@@ -1,0 +1,67 @@
+{
+  "url": "https://higby.io/",
+  "requestedUrl": "https://www.higby.io/",
+  "timestamp": 1699839170834,
+  "ranks": {
+    "hundos": 481,
+    "performance": 418,
+    "accessibility": 414,
+    "cumulative": 471
+  },
+  "lighthouse": {
+    "version": "10.4.0",
+    "performance": 0.99,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 0.92,
+    "total": 391
+  },
+  "firstContentfulPaint": 1747.386,
+  "firstMeaningfulPaint": 1747.386,
+  "speedIndex": 1747.386,
+  "largestContentfulPaint": 1747.386,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1747.386,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 44.01000000000002,
+  "weight": {
+    "summary": "4 requests • 30 KiB",
+    "total": 30450,
+    "image": 0,
+    "imageCount": 0,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 3678,
+    "font": 26635,
+    "fontCount": 2,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 129,
+    "+weight.total": 789,
+    "-weight.document": 247,
+    "+weight.document": 648,
+    "-weight.script": 1,
+    "+weight.script": 662,
+    "-weight.image": 1,
+    "+weight.image": 708,
+    "-weight.font": 90,
+    "+weight.font": 527,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 62,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 288
+  },
+  "axe": {
+    "passes": 51,
+    "violations": 1
+  }
+}

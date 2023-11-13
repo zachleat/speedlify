@@ -1,0 +1,67 @@
+{
+  "url": "https://www.dumbtv.es/",
+  "requestedUrl": "https://www.dumbtv.es/",
+  "timestamp": 1699856338786,
+  "ranks": {
+    "hundos": 289,
+    "performance": 311,
+    "accessibility": 535,
+    "cumulative": 288
+  },
+  "lighthouse": {
+    "version": "10.4.0",
+    "performance": 1,
+    "accessibility": 0.98,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 398
+  },
+  "firstContentfulPaint": 1028.605,
+  "firstMeaningfulPaint": 1077.105,
+  "speedIndex": 1636.7686170101465,
+  "largestContentfulPaint": 1116.105,
+  "totalBlockingTime": 38.5,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1117.105,
+  "maxPotentialFirstInputDelay": 97,
+  "timeToFirstByte": 153.04700000000003,
+  "weight": {
+    "summary": "15 requests • 123 KiB",
+    "total": 126111,
+    "image": 117221,
+    "imageCount": 10,
+    "script": 1626,
+    "scriptCount": 3,
+    "document": 4249,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 3015,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 333,
+    "+weight.total": 585,
+    "-weight.document": 290,
+    "+weight.document": 605,
+    "-weight.script": 82,
+    "+weight.script": 580,
+    "-weight.image": 346,
+    "+weight.image": 362,
+    "-weight.font": 1,
+    "+weight.font": 617,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 593,
+    "-totalBlockingTime": 72,
+    "-largestContentfulPaint": 519
+  },
+  "axe": {
+    "passes": 919,
+    "violations": 1
+  }
+}

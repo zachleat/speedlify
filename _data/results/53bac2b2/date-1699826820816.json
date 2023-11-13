@@ -1,0 +1,67 @@
+{
+  "url": "https://robjwood.com/",
+  "requestedUrl": "https://robjwood.com/",
+  "timestamp": 1699855038497,
+  "ranks": {
+    "hundos": 203,
+    "performance": 286,
+    "accessibility": 285,
+    "cumulative": 151
+  },
+  "lighthouse": {
+    "version": "10.4.0",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 926.819,
+  "firstMeaningfulPaint": 926.819,
+  "speedIndex": 1467.2424139965235,
+  "largestContentfulPaint": 926.819,
+  "totalBlockingTime": 2.5,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1006.319,
+  "maxPotentialFirstInputDelay": 81,
+  "timeToFirstByte": 333.274,
+  "weight": {
+    "summary": "3 requests • 5 KiB",
+    "total": 4701,
+    "image": 0,
+    "imageCount": 0,
+    "script": 566,
+    "scriptCount": 1,
+    "document": 1009,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 3126,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 30,
+    "+weight.total": 888,
+    "-weight.document": 10,
+    "+weight.document": 885,
+    "-weight.script": 15,
+    "+weight.script": 647,
+    "-weight.image": 1,
+    "+weight.image": 708,
+    "-weight.font": 1,
+    "+weight.font": 617,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 810,
+    "-totalBlockingTime": 6,
+    "-largestContentfulPaint": 460
+  },
+  "axe": {
+    "passes": 103,
+    "violations": 0
+  }
+}

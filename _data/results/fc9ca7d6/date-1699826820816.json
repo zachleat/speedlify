@@ -1,0 +1,67 @@
+{
+  "url": "https://tsev.dev/",
+  "requestedUrl": "https://timseverien.com/",
+  "timestamp": 1699855363047,
+  "ranks": {
+    "hundos": 487,
+    "performance": 516,
+    "accessibility": 757,
+    "cumulative": 487
+  },
+  "lighthouse": {
+    "version": "10.4.0",
+    "performance": 0.98,
+    "accessibility": 0.93,
+    "bestPractices": 1,
+    "seo": 0.99,
+    "total": 390
+  },
+  "firstContentfulPaint": 1738.3360000000002,
+  "firstMeaningfulPaint": 1738.3360000000002,
+  "speedIndex": 2973.4535080025435,
+  "largestContentfulPaint": 1738.3360000000002,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.0005171771673711017,
+  "timeToInteractive": 1738.3360000000002,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 58.785000000000025,
+  "weight": {
+    "summary": "4 requests • 8 KiB",
+    "total": 7940,
+    "image": 1370,
+    "imageCount": 2,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 6402,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 168,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 52,
+    "+weight.total": 866,
+    "-weight.document": 462,
+    "+weight.document": 433,
+    "-weight.script": 1,
+    "+weight.script": 662,
+    "-weight.image": 36,
+    "+weight.image": 672,
+    "-weight.font": 1,
+    "+weight.font": 617,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 231,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 284
+  },
+  "axe": {
+    "passes": 858,
+    "violations": 6
+  }
+}

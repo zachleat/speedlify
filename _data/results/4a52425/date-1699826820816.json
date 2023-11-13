@@ -1,0 +1,67 @@
+{
+  "url": "https://bullrich.dev/",
+  "requestedUrl": "https://bullrich.dev/",
+  "timestamp": 1699847803741,
+  "ranks": {
+    "hundos": 823,
+    "performance": 706,
+    "accessibility": 897,
+    "cumulative": 824
+  },
+  "lighthouse": {
+    "version": "10.4.0",
+    "performance": 0.89,
+    "accessibility": 0.72,
+    "bestPractices": 1,
+    "seo": 0.92,
+    "total": 353
+  },
+  "firstContentfulPaint": 1898.132,
+  "firstMeaningfulPaint": 3111.7,
+  "speedIndex": 1998.4710961056276,
+  "largestContentfulPaint": 3608.7879999999996,
+  "totalBlockingTime": 37,
+  "cumulativeLayoutShift": 0.013792411073496044,
+  "timeToInteractive": 3111.7,
+  "maxPotentialFirstInputDelay": 85,
+  "timeToFirstByte": 51.291,
+  "weight": {
+    "summary": "27 requests • 661 KiB",
+    "total": 677109,
+    "image": 243670,
+    "imageCount": 11,
+    "script": 141451,
+    "scriptCount": 4,
+    "document": 5203,
+    "font": 245936,
+    "fontCount": 3,
+    "stylesheet": 39914,
+    "stylesheetCount": 5,
+    "thirdParty": 86898,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 718,
+    "+weight.total": 200,
+    "-weight.document": 377,
+    "+weight.document": 518,
+    "-weight.script": 512,
+    "+weight.script": 150,
+    "-weight.image": 466,
+    "+weight.image": 242,
+    "-weight.font": 550,
+    "+weight.font": 67,
+    "+weight.fontCount": 12,
+    "-timeToFirstByte": 191,
+    "-totalBlockingTime": 70,
+    "-largestContentfulPaint": 796
+  },
+  "axe": {
+    "passes": 691,
+    "violations": 60
+  }
+}

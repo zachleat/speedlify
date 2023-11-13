@@ -1,0 +1,67 @@
+{
+  "url": "https://www.realproducersmag.com/",
+  "requestedUrl": "https://www.realproducersmag.com/",
+  "timestamp": 1699836903152,
+  "ranks": {
+    "hundos": 905,
+    "performance": 912,
+    "accessibility": 891,
+    "cumulative": 905
+  },
+  "lighthouse": {
+    "version": "10.4.0",
+    "performance": 0.41,
+    "accessibility": 0.74,
+    "bestPractices": 0.92,
+    "seo": 0.96,
+    "total": 303
+  },
+  "firstContentfulPaint": 2246.3885,
+  "firstMeaningfulPaint": 2931.2635,
+  "speedIndex": 9041.538303915087,
+  "largestContentfulPaint": 7164.486999999999,
+  "totalBlockingTime": 328.3324999999991,
+  "cumulativeLayoutShift": 0.34685608795223877,
+  "timeToInteractive": 12037.005999999996,
+  "maxPotentialFirstInputDelay": 169,
+  "timeToFirstByte": 47.27600000000001,
+  "weight": {
+    "summary": "128 requests • 14,489 KiB",
+    "total": 14836616,
+    "image": 492937,
+    "imageCount": 38,
+    "script": 527703,
+    "scriptCount": 12,
+    "document": 18081,
+    "font": 119243,
+    "fontCount": 2,
+    "stylesheet": 38913,
+    "stylesheetCount": 2,
+    "thirdParty": 14536761,
+    "thirdPartyCount": 114
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 912,
+    "+weight.total": 6,
+    "-weight.document": 747,
+    "+weight.document": 148,
+    "-weight.script": 628,
+    "+weight.script": 34,
+    "-weight.image": 559,
+    "+weight.image": 149,
+    "-weight.font": 452,
+    "+weight.font": 165,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 132,
+    "-totalBlockingTime": 194,
+    "-largestContentfulPaint": 885
+  },
+  "axe": {
+    "passes": 562,
+    "violations": 27
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://ginger.wtf/",
+  "requestedUrl": "https://ginger.wtf/",
+  "timestamp": 1699861468793,
+  "ranks": {
+    "hundos": 452,
+    "performance": 331,
+    "accessibility": 209,
+    "cumulative": 438
+  },
+  "lighthouse": {
+    "version": "10.4.0",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 0.92,
+    "seo": 1,
+    "total": 392
+  },
+  "firstContentfulPaint": 1065.268,
+  "firstMeaningfulPaint": 1065.268,
+  "speedIndex": 1759.0783692977,
+  "largestContentfulPaint": 1065.268,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.049299168756626814,
+  "timeToInteractive": 1065.268,
+  "maxPotentialFirstInputDelay": 26,
+  "timeToFirstByte": 624.6959999999999,
+  "weight": {
+    "summary": "5 requests • 36 KiB",
+    "total": 36970,
+    "image": 0,
+    "imageCount": 0,
+    "script": 1795,
+    "scriptCount": 2,
+    "document": 5599,
+    "font": 23744,
+    "fontCount": 1,
+    "stylesheet": 5832,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 149,
+    "+weight.total": 769,
+    "-weight.document": 409,
+    "+weight.document": 486,
+    "-weight.script": 96,
+    "+weight.script": 566,
+    "-weight.image": 1,
+    "+weight.image": 708,
+    "-weight.font": 75,
+    "+weight.font": 542,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 907,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 503
+  },
+  "axe": {
+    "passes": 186,
+    "violations": 0
+  }
+}

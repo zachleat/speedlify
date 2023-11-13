@@ -1,0 +1,67 @@
+{
+  "url": "https://fffuel.co/",
+  "requestedUrl": "https://fffuel.co/",
+  "timestamp": 1699863375004,
+  "ranks": {
+    "hundos": 222,
+    "performance": 383,
+    "accessibility": 521,
+    "cumulative": 263
+  },
+  "lighthouse": {
+    "version": "10.4.0",
+    "performance": 0.99,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 399
+  },
+  "firstContentfulPaint": 1182.346,
+  "firstMeaningfulPaint": 1182.346,
+  "speedIndex": 1472.2107712748211,
+  "largestContentfulPaint": 1855.5735,
+  "totalBlockingTime": 110,
+  "cumulativeLayoutShift": 0.019312275959108196,
+  "timeToInteractive": 1403.346,
+  "maxPotentialFirstInputDelay": 198,
+  "timeToFirstByte": 68.73599999999999,
+  "weight": {
+    "summary": "73 requests • 379 KiB",
+    "total": 387930,
+    "image": 299524,
+    "imageCount": 67,
+    "script": 18605,
+    "scriptCount": 2,
+    "document": 8348,
+    "font": 49392,
+    "fontCount": 1,
+    "stylesheet": 12061,
+    "stylesheetCount": 2,
+    "thirdParty": 2953,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 614,
+    "+weight.total": 304,
+    "-weight.document": 561,
+    "+weight.document": 334,
+    "-weight.script": 313,
+    "+weight.script": 349,
+    "-weight.image": 497,
+    "+weight.image": 211,
+    "-weight.font": 236,
+    "+weight.font": 381,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 332,
+    "-totalBlockingTime": 151,
+    "-largestContentfulPaint": 632
+  },
+  "axe": {
+    "passes": 656,
+    "violations": 76
+  }
+}

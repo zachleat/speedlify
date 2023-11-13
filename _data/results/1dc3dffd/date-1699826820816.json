@@ -1,0 +1,67 @@
+{
+  "url": "https://www.statox.fr/",
+  "requestedUrl": "https://www.statox.fr/",
+  "timestamp": 1699834550063,
+  "ranks": {
+    "hundos": 843,
+    "performance": 126,
+    "accessibility": 913,
+    "cumulative": 843
+  },
+  "lighthouse": {
+    "version": "10.4.0",
+    "performance": 1,
+    "accessibility": 0.63,
+    "bestPractices": 0.92,
+    "seo": 0.93,
+    "total": 348
+  },
+  "firstContentfulPaint": 1074.92,
+  "firstMeaningfulPaint": 1074.92,
+  "speedIndex": 1074.92,
+  "largestContentfulPaint": 1787.1310000000003,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.004697485455572909,
+  "timeToInteractive": 1074.92,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 183.396,
+  "weight": {
+    "summary": "14 requests • 42,018 KiB",
+    "total": 43026116,
+    "image": 42772851,
+    "imageCount": 2,
+    "script": 15013,
+    "scriptCount": 3,
+    "document": 8023,
+    "font": 208621,
+    "fontCount": 2,
+    "stylesheet": 1110,
+    "stylesheetCount": 1,
+    "thirdParty": 245066,
+    "thirdPartyCount": 10
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 917,
+    "+weight.total": 1,
+    "-weight.document": 552,
+    "+weight.document": 343,
+    "-weight.script": 289,
+    "+weight.script": 373,
+    "-weight.image": 707,
+    "+weight.image": 1,
+    "-weight.font": 528,
+    "+weight.font": 89,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 658,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 298
+  },
+  "axe": {
+    "passes": 204,
+    "violations": 30
+  }
+}

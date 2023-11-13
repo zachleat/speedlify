@@ -1,0 +1,67 @@
+{
+  "url": "https://johan.im/",
+  "requestedUrl": "https://johan.im/",
+  "timestamp": 1699842443647,
+  "ranks": {
+    "hundos": 324,
+    "performance": 83,
+    "accessibility": 621,
+    "cumulative": 321
+  },
+  "lighthouse": {
+    "version": "10.4.0",
+    "performance": 1,
+    "accessibility": 0.97,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 397
+  },
+  "firstContentfulPaint": 993.765,
+  "firstMeaningfulPaint": 993.765,
+  "speedIndex": 993.765,
+  "largestContentfulPaint": 993.765,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.02463317994946369,
+  "timeToInteractive": 993.765,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 74.39599999999999,
+  "weight": {
+    "summary": "6 requests • 20 KiB",
+    "total": 20092,
+    "image": 0,
+    "imageCount": 0,
+    "script": 4381,
+    "scriptCount": 2,
+    "document": 4184,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 9501,
+    "stylesheetCount": 1,
+    "thirdParty": 5345,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 92,
+    "+weight.total": 826,
+    "-weight.document": 282,
+    "+weight.document": 613,
+    "-weight.script": 187,
+    "+weight.script": 475,
+    "-weight.image": 1,
+    "+weight.image": 708,
+    "-weight.font": 1,
+    "+weight.font": 617,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 379,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 95
+  },
+  "axe": {
+    "passes": 272,
+    "violations": 10
+  }
+}

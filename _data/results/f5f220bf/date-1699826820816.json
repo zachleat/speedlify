@@ -1,0 +1,67 @@
+{
+  "url": "https://samdalmonte.com/",
+  "requestedUrl": "https://samdalmonte.com/",
+  "timestamp": 1699857101389,
+  "ranks": {
+    "hundos": 231,
+    "performance": 409,
+    "accessibility": 522,
+    "cumulative": 264
+  },
+  "lighthouse": {
+    "version": "10.4.0",
+    "performance": 0.99,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 399
+  },
+  "firstContentfulPaint": 1213.1860000000001,
+  "firstMeaningfulPaint": 1251.6860000000001,
+  "speedIndex": 1701.3279462955488,
+  "largestContentfulPaint": 1871.4680000000003,
+  "totalBlockingTime": 65,
+  "cumulativeLayoutShift": 0.0010940030620274638,
+  "timeToInteractive": 2112.4680000000003,
+  "maxPotentialFirstInputDelay": 122,
+  "timeToFirstByte": 323.82400000000007,
+  "weight": {
+    "summary": "98 requests • 4,905 KiB",
+    "total": 5023215,
+    "image": 3315280,
+    "imageCount": 65,
+    "script": 7754,
+    "scriptCount": 3,
+    "document": 8546,
+    "font": 159012,
+    "fontCount": 2,
+    "stylesheet": 3017,
+    "stylesheetCount": 1,
+    "thirdParty": 4186,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 886,
+    "+weight.total": 32,
+    "-weight.document": 569,
+    "+weight.document": 326,
+    "-weight.script": 239,
+    "+weight.script": 423,
+    "-weight.image": 675,
+    "+weight.image": 33,
+    "-weight.font": 493,
+    "+weight.font": 124,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 800,
+    "-totalBlockingTime": 112,
+    "-largestContentfulPaint": 635
+  },
+  "axe": {
+    "passes": 1361,
+    "violations": 87
+  }
+}

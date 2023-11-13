@@ -1,0 +1,67 @@
+{
+  "url": "https://questhink.com/",
+  "requestedUrl": "https://questhink.com/",
+  "timestamp": 1699832247761,
+  "ranks": {
+    "hundos": 440,
+    "performance": 392,
+    "accessibility": 753,
+    "cumulative": 450
+  },
+  "lighthouse": {
+    "version": "10.4.0",
+    "performance": 0.99,
+    "accessibility": 0.93,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 392
+  },
+  "firstContentfulPaint": 1559.158,
+  "firstMeaningfulPaint": 1559.158,
+  "speedIndex": 1559.158,
+  "largestContentfulPaint": 1559.158,
+  "totalBlockingTime": 6,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 3263.809,
+  "maxPotentialFirstInputDelay": 56,
+  "timeToFirstByte": 51.67599999999999,
+  "weight": {
+    "summary": "10 requests • 148 KiB",
+    "total": 151120,
+    "image": 0,
+    "imageCount": 0,
+    "script": 87411,
+    "scriptCount": 3,
+    "document": 2138,
+    "font": 56248,
+    "fontCount": 3,
+    "stylesheet": 5119,
+    "stylesheetCount": 2,
+    "thirdParty": 144037,
+    "thirdPartyCount": 7
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 376,
+    "+weight.total": 542,
+    "-weight.document": 83,
+    "+weight.document": 812,
+    "-weight.script": 450,
+    "+weight.script": 212,
+    "-weight.image": 1,
+    "+weight.image": 708,
+    "-weight.font": 272,
+    "+weight.font": 345,
+    "+weight.fontCount": 12,
+    "-timeToFirstByte": 197,
+    "-totalBlockingTime": 13,
+    "-largestContentfulPaint": 584
+  },
+  "axe": {
+    "passes": 44,
+    "violations": 4
+  }
+}

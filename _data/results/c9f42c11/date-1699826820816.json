@@ -1,0 +1,67 @@
+{
+  "url": "https://reluctant.io/",
+  "requestedUrl": "https://reluctant.io/",
+  "timestamp": 1699849906008,
+  "ranks": {
+    "hundos": 278,
+    "performance": 464,
+    "accessibility": 512,
+    "cumulative": 298
+  },
+  "lighthouse": {
+    "version": "10.4.0",
+    "performance": 0.98,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 398
+  },
+  "firstContentfulPaint": 1089.7359999999999,
+  "firstMeaningfulPaint": 1089.7359999999999,
+  "speedIndex": 1261.2164065028937,
+  "largestContentfulPaint": 2253.736,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1089.7359999999999,
+  "maxPotentialFirstInputDelay": 35,
+  "timeToFirstByte": 215.32600000000002,
+  "weight": {
+    "summary": "18 requests • 202 KiB",
+    "total": 207262,
+    "image": 81624,
+    "imageCount": 6,
+    "script": 7081,
+    "scriptCount": 1,
+    "document": 9392,
+    "font": 71171,
+    "fontCount": 4,
+    "stylesheet": 398,
+    "stylesheetCount": 1,
+    "thirdParty": 7081,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 458,
+    "+weight.total": 460,
+    "-weight.document": 594,
+    "+weight.document": 301,
+    "-weight.script": 229,
+    "+weight.script": 433,
+    "-weight.image": 288,
+    "+weight.image": 420,
+    "-weight.font": 324,
+    "+weight.font": 293,
+    "+weight.fontCount": 11,
+    "-timeToFirstByte": 697,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 369
+  },
+  "axe": {
+    "passes": 601,
+    "violations": 21
+  }
+}

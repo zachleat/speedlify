@@ -1,0 +1,67 @@
+{
+  "url": "https://stillness.digital/",
+  "requestedUrl": "https://stillness.digital/",
+  "timestamp": 1699834762679,
+  "ranks": {
+    "hundos": 409,
+    "performance": 154,
+    "accessibility": 751,
+    "cumulative": 414
+  },
+  "lighthouse": {
+    "version": "10.4.0",
+    "performance": 1,
+    "accessibility": 0.93,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 393
+  },
+  "firstContentfulPaint": 922.479,
+  "firstMeaningfulPaint": 922.479,
+  "speedIndex": 1124.8572073494815,
+  "largestContentfulPaint": 922.479,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.04962332256355461,
+  "timeToInteractive": 948.479,
+  "maxPotentialFirstInputDelay": 54,
+  "timeToFirstByte": 46.96600000000001,
+  "weight": {
+    "summary": "5 requests • 160 KiB",
+    "total": 163923,
+    "image": 0,
+    "imageCount": 0,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 14044,
+    "font": 148409,
+    "fontCount": 3,
+    "stylesheet": 1470,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 399,
+    "+weight.total": 519,
+    "-weight.document": 701,
+    "+weight.document": 194,
+    "-weight.script": 1,
+    "+weight.script": 662,
+    "-weight.image": 1,
+    "+weight.image": 708,
+    "-weight.font": 481,
+    "+weight.font": 136,
+    "+weight.fontCount": 12,
+    "-timeToFirstByte": 124,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 54
+  },
+  "axe": {
+    "passes": 301,
+    "violations": 2
+  }
+}

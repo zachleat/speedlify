@@ -1,0 +1,67 @@
+{
+  "url": "https://www.solidstart.info/",
+  "requestedUrl": "https://www.solidstart.info/",
+  "timestamp": 1699851489114,
+  "ranks": {
+    "hundos": 159,
+    "performance": 181,
+    "accessibility": 177,
+    "cumulative": 115
+  },
+  "lighthouse": {
+    "version": "10.4.0",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 1013.956,
+  "firstMeaningfulPaint": 1013.956,
+  "speedIndex": 1167.7926640027927,
+  "largestContentfulPaint": 1013.956,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1013.956,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 282.16700000000003,
+  "weight": {
+    "summary": "3 requests • 26 KiB",
+    "total": 26608,
+    "image": 139,
+    "imageCount": 1,
+    "script": 23617,
+    "scriptCount": 1,
+    "document": 2852,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 23756,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 115,
+    "+weight.total": 803,
+    "-weight.document": 159,
+    "+weight.document": 736,
+    "-weight.script": 337,
+    "+weight.script": 325,
+    "-weight.image": 2,
+    "+weight.image": 706,
+    "-weight.font": 1,
+    "+weight.font": 617,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 774,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 103
+  },
+  "axe": {
+    "passes": 231,
+    "violations": 0
+  }
+}

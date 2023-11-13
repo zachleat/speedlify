@@ -1,0 +1,67 @@
+{
+  "url": "https://blog.tomayac.com/",
+  "requestedUrl": "https://blog.tomayac.com/",
+  "timestamp": 1699862905775,
+  "ranks": {
+    "hundos": 615,
+    "performance": 666,
+    "accessibility": 540,
+    "cumulative": 607
+  },
+  "lighthouse": {
+    "version": "10.4.0",
+    "performance": 0.92,
+    "accessibility": 0.98,
+    "bestPractices": 1,
+    "seo": 0.93,
+    "total": 383
+  },
+  "firstContentfulPaint": 2127.267,
+  "firstMeaningfulPaint": 2127.267,
+  "speedIndex": 3839.107932001577,
+  "largestContentfulPaint": 2779.973,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.001324824764641273,
+  "timeToInteractive": 2127.267,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 523.206,
+  "weight": {
+    "summary": "19 requests • 96 KiB",
+    "total": 98449,
+    "image": 5479,
+    "imageCount": 4,
+    "script": 7082,
+    "scriptCount": 5,
+    "document": 4779,
+    "font": 62299,
+    "fontCount": 2,
+    "stylesheet": 5550,
+    "stylesheetCount": 4,
+    "thirdParty": 12923,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 277,
+    "+weight.total": 641,
+    "-weight.document": 340,
+    "+weight.document": 555,
+    "-weight.script": 230,
+    "+weight.script": 432,
+    "-weight.image": 72,
+    "+weight.image": 636,
+    "-weight.font": 294,
+    "+weight.font": 323,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 894,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 755
+  },
+  "axe": {
+    "passes": 606,
+    "violations": 1
+  }
+}

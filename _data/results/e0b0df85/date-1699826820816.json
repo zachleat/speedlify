@@ -1,0 +1,66 @@
+{
+  "url": "https://horrorrevue.xyz/",
+  "requestedUrl": "https://horrorrevue.xyz/",
+  "timestamp": 1699835439730,
+  "ranks": {
+    "hundos": 732,
+    "performance": 746,
+    "accessibility": 834,
+    "cumulative": 735
+  },
+  "lighthouse": {
+    "version": "10.4.0",
+    "performance": 0.85,
+    "accessibility": 0.86,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 371
+  },
+  "firstContentfulPaint": 2310.081,
+  "firstMeaningfulPaint": 2310.081,
+  "speedIndex": 3838.4592620003623,
+  "largestContentfulPaint": 3779.9970000000003,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 2310.081,
+  "maxPotentialFirstInputDelay": 38.5,
+  "timeToFirstByte": 76.613,
+  "weight": {
+    "summary": "14 requests • 197 KiB",
+    "total": 201592,
+    "image": 49510,
+    "imageCount": 5,
+    "script": 144083,
+    "scriptCount": 5,
+    "document": 4585,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 164189,
+    "thirdPartyCount": 10
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "sidequests": {
+    "-weight.total": 451,
+    "+weight.total": 467,
+    "-weight.document": 325,
+    "+weight.document": 570,
+    "-weight.script": 516,
+    "+weight.script": 146,
+    "-weight.image": 234,
+    "+weight.image": 474,
+    "-weight.font": 1,
+    "+weight.font": 617,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 389,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 413
+  },
+  "axe": {
+    "error": "{\"name\":\"TimeoutError\"}"
+  }
+}

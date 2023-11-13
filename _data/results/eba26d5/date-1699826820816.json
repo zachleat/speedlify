@@ -1,0 +1,67 @@
+{
+  "url": "https://kevhealy.com/",
+  "requestedUrl": "https://kevhealy.com/",
+  "timestamp": 1699854865450,
+  "ranks": {
+    "hundos": 45,
+    "performance": 80,
+    "accessibility": 212,
+    "cumulative": 33
+  },
+  "lighthouse": {
+    "version": "10.4.0",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 911.4819999999997,
+  "firstMeaningfulPaint": 911.4819999999997,
+  "speedIndex": 985.6399578978154,
+  "largestContentfulPaint": 911.4819999999997,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.0011579648598535857,
+  "timeToInteractive": 911.4819999999997,
+  "maxPotentialFirstInputDelay": 48,
+  "timeToFirstByte": 59.92099999999999,
+  "weight": {
+    "summary": "5 requests • 260 KiB",
+    "total": 266350,
+    "image": 16743,
+    "imageCount": 2,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 2545,
+    "font": 243786,
+    "fontCount": 1,
+    "stylesheet": 3276,
+    "stylesheetCount": 1,
+    "thirdParty": 16743,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 525,
+    "+weight.total": 393,
+    "-weight.document": 133,
+    "+weight.document": 762,
+    "-weight.script": 1,
+    "+weight.script": 662,
+    "-weight.image": 138,
+    "+weight.image": 570,
+    "-weight.font": 548,
+    "+weight.font": 69,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 244,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 49
+  },
+  "axe": {
+    "passes": 182,
+    "violations": 0
+  }
+}

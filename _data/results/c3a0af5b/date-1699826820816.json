@@ -1,0 +1,67 @@
+{
+  "url": "https://www.tgiles.dev/",
+  "requestedUrl": "https://www.tgiles.dev/",
+  "timestamp": 1699851982082,
+  "ranks": {
+    "hundos": 423,
+    "performance": 469,
+    "accessibility": 701,
+    "cumulative": 424
+  },
+  "lighthouse": {
+    "version": "10.4.0",
+    "performance": 0.98,
+    "accessibility": 0.95,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 393
+  },
+  "firstContentfulPaint": 1581.3050000000003,
+  "firstMeaningfulPaint": 1581.3050000000003,
+  "speedIndex": 1581.3050000000003,
+  "largestContentfulPaint": 1617.049,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.060743830470907235,
+  "timeToInteractive": 1581.3050000000003,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 49.85500000000002,
+  "weight": {
+    "summary": "10 requests • 205 KiB",
+    "total": 209858,
+    "image": 10397,
+    "imageCount": 1,
+    "script": 4628,
+    "scriptCount": 1,
+    "document": 5876,
+    "font": 168610,
+    "fontCount": 3,
+    "stylesheet": 886,
+    "stylesheetCount": 1,
+    "thirdParty": 193585,
+    "thirdPartyCount": 8
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 462,
+    "+weight.total": 456,
+    "-weight.document": 429,
+    "+weight.document": 466,
+    "-weight.script": 193,
+    "+weight.script": 469,
+    "-weight.image": 105,
+    "+weight.image": 603,
+    "-weight.font": 502,
+    "+weight.font": 115,
+    "+weight.fontCount": 12,
+    "-timeToFirstByte": 182,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 249
+  },
+  "axe": {
+    "passes": 168,
+    "violations": 7
+  }
+}

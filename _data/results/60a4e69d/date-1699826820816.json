@@ -1,0 +1,67 @@
+{
+  "url": "https://krav-maga-karlsruhe.de/",
+  "requestedUrl": "https://krav-maga-karlsruhe.de/",
+  "timestamp": 1699848597665,
+  "ranks": {
+    "hundos": 898,
+    "performance": 869,
+    "accessibility": 888,
+    "cumulative": 898
+  },
+  "lighthouse": {
+    "version": "10.4.0",
+    "performance": 0.61,
+    "accessibility": 0.75,
+    "bestPractices": 0.92,
+    "seo": 0.92,
+    "total": 320
+  },
+  "firstContentfulPaint": 3627.556999999999,
+  "firstMeaningfulPaint": 3627.556999999999,
+  "speedIndex": 5577.389809998329,
+  "largestContentfulPaint": 4634.536999999998,
+  "totalBlockingTime": 142,
+  "cumulativeLayoutShift": 0.1961288730255164,
+  "timeToInteractive": 4968.5369999999975,
+  "maxPotentialFirstInputDelay": 334,
+  "timeToFirstByte": 162.11799999999994,
+  "weight": {
+    "summary": "45 requests • 3,686 KiB",
+    "total": 3774922,
+    "image": 2044450,
+    "imageCount": 36,
+    "script": 4361,
+    "scriptCount": 1,
+    "document": 8369,
+    "font": 33771,
+    "fontCount": 2,
+    "stylesheet": 307456,
+    "stylesheetCount": 2,
+    "thirdParty": 2171335,
+    "thirdPartyCount": 18
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 873,
+    "+weight.total": 45,
+    "-weight.document": 562,
+    "+weight.document": 333,
+    "-weight.script": 185,
+    "+weight.script": 477,
+    "-weight.image": 654,
+    "+weight.image": 54,
+    "-weight.font": 130,
+    "+weight.font": 487,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 622,
+    "-totalBlockingTime": 165,
+    "-largestContentfulPaint": 840
+  },
+  "axe": {
+    "passes": 495,
+    "violations": 12
+  }
+}

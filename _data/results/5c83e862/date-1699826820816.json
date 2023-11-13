@@ -1,0 +1,67 @@
+{
+  "url": "https://www.mattnortham.com/",
+  "requestedUrl": "https://www.mattnortham.com/",
+  "timestamp": 1699851746060,
+  "ranks": {
+    "hundos": 640,
+    "performance": 774,
+    "accessibility": 366,
+    "cumulative": 632
+  },
+  "lighthouse": {
+    "version": "10.4.0",
+    "performance": 0.81,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 381
+  },
+  "firstContentfulPaint": 1952.8190000000002,
+  "firstMeaningfulPaint": 1952.8190000000002,
+  "speedIndex": 2943.412350242187,
+  "largestContentfulPaint": 2715.932,
+  "totalBlockingTime": 1.5,
+  "cumulativeLayoutShift": 0.2588819501707213,
+  "timeToInteractive": 2027.819,
+  "maxPotentialFirstInputDelay": 53,
+  "timeToFirstByte": 280.814,
+  "weight": {
+    "summary": "14 requests • 293 KiB",
+    "total": 300245,
+    "image": 105848,
+    "imageCount": 4,
+    "script": 69558,
+    "scriptCount": 4,
+    "document": 5321,
+    "font": 108435,
+    "fontCount": 4,
+    "stylesheet": 11083,
+    "stylesheetCount": 1,
+    "thirdParty": 54885,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 558,
+    "+weight.total": 360,
+    "-weight.document": 384,
+    "+weight.document": 511,
+    "-weight.script": 423,
+    "+weight.script": 239,
+    "-weight.image": 330,
+    "+weight.image": 378,
+    "-weight.font": 434,
+    "+weight.font": 183,
+    "+weight.fontCount": 11,
+    "-timeToFirstByte": 772,
+    "-totalBlockingTime": 3,
+    "-largestContentfulPaint": 749
+  },
+  "axe": {
+    "passes": 331,
+    "violations": 1
+  }
+}

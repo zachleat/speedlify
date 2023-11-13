@@ -1,0 +1,67 @@
+{
+  "url": "https://wilks.co/",
+  "requestedUrl": "https://wilks.co/",
+  "timestamp": 1699853960085,
+  "ranks": {
+    "hundos": 133,
+    "performance": 205,
+    "accessibility": 82,
+    "cumulative": 99
+  },
+  "lighthouse": {
+    "version": "10.4.0",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 1117.0825,
+  "firstMeaningfulPaint": 1117.0825,
+  "speedIndex": 1223.5330490003603,
+  "largestContentfulPaint": 1363.0825,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.00028684723927632826,
+  "timeToInteractive": 1117.0825,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 249.974,
+  "weight": {
+    "summary": "6 requests • 59 KiB",
+    "total": 59995,
+    "image": 1861,
+    "imageCount": 2,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 15890,
+    "font": 42244,
+    "fontCount": 3,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 198,
+    "+weight.total": 720,
+    "-weight.document": 720,
+    "+weight.document": 175,
+    "-weight.script": 1,
+    "+weight.script": 662,
+    "-weight.image": 42,
+    "+weight.image": 666,
+    "-weight.font": 184,
+    "+weight.font": 433,
+    "+weight.fontCount": 12,
+    "-timeToFirstByte": 739,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 207
+  },
+  "axe": {
+    "passes": 397,
+    "violations": 0
+  }
+}

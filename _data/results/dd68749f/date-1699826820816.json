@@ -1,0 +1,67 @@
+{
+  "url": "https://bt.ht/",
+  "requestedUrl": "https://tdarb.org/",
+  "timestamp": 1699846117004,
+  "ranks": {
+    "hundos": 629,
+    "performance": 417,
+    "accessibility": 330,
+    "cumulative": 623
+  },
+  "lighthouse": {
+    "version": "10.4.0",
+    "performance": 0.99,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 0.83,
+    "total": 382
+  },
+  "firstContentfulPaint": 1618.625,
+  "firstMeaningfulPaint": 1618.625,
+  "speedIndex": 1737.8354499980805,
+  "largestContentfulPaint": 1618.625,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1618.625,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 64.63300000000004,
+  "weight": {
+    "summary": "2 requests • 6 KiB",
+    "total": 6635,
+    "image": 0,
+    "imageCount": 0,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 6470,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 165,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 43,
+    "+weight.total": 875,
+    "-weight.document": 465,
+    "+weight.document": 430,
+    "-weight.script": 1,
+    "+weight.script": 662,
+    "-weight.image": 1,
+    "+weight.image": 708,
+    "-weight.font": 1,
+    "+weight.font": 617,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 297,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 250
+  },
+  "axe": {
+    "passes": 1160,
+    "violations": 1
+  }
+}
