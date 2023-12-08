@@ -14,8 +14,8 @@ module.exports = {
 	},
 	urls: [
 		"https://www.zachleat.com/",
+		"https://www.zachleat.com/about/",
 		"https://www.zachleat.com/web/",
-		"https://www.zachleat.com/web/about/",
 		"https://www.zachleat.com/web/fonts/",
 		"https://www.zachleat.com/web/eleventy/",
 		"https://www.zachleat.com/resume/",
