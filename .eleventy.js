@@ -311,8 +311,8 @@ module.exports = function(eleventyConfig) {
 	});
 
 	eleventyConfig.addFilter("hostingImageUrl", (url) => {
-		return `https://v1--api-built-with.netlify.app/image/host/${encodeURIComponent(url)}/${getWeeklyServiceCacheBuster()}/`;
-		// return `https://v1.built-with.11ty.dev/image/host/${encodeURIComponent(url)}/${getWeeklyServiceCacheBuster()}/`;
+		return `https://v1--api-built-with.netlify.app/${encodeURIComponent(url)}/image/host/`;
+		// return `https://v1.built-with.11ty.dev/${encodeURIComponent(url)}/image/host/`;
 	});
 
 	eleventyConfig.addPairedShortcode("starterMessage", (htmlContent) => {
