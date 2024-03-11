@@ -310,6 +310,11 @@ module.exports = function(eleventyConfig) {
 		return `https://v1.generator.11ty.dev/image/${encodeURIComponent(url)}/${getWeeklyServiceCacheBuster()}/`;
 	});
 
+	eleventyConfig.addFilter("hostingImageUrl", (url) => {
+		return `https://v1--api-built-with.netlify.app/image/host/${encodeURIComponent(url)}/${getWeeklyServiceCacheBuster()}/`;
+		// return `https://v1.built-with.11ty.dev/image/host/${encodeURIComponent(url)}/${getWeeklyServiceCacheBuster()}/`;
+	});
+
 	eleventyConfig.addPairedShortcode("starterMessage", (htmlContent) => {
 		if(process.env.SITE_NAME !== "speedlify") {
 			return htmlContent;

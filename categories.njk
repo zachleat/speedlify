@@ -24,6 +24,7 @@ counts:
 {%- endif %}
 				<th>URL</th>
 				<th class="leaderboard-hide-md">Built With</th>
+				<th class="leaderboard-hide-md">Host</th>
 				<th class="leaderboard-score">Lighthouse</th>
 				<th class="leaderboard-hide-sm">Page weight</th>
 				<th class="leaderboard-data-right"><span data-sr-only>Data and Graphs</span></th>
@@ -61,6 +62,9 @@ counts:
 				</td>
 				<td class="leaderboard-hide-md">
 					<img src="{{ site[newestKey].url | generatorImageUrl }}" width="60" height="60" alt="Generator for {{ site[newestKey].url | displayUrl }}" class="leaderboard-list-entry-thumbnail small" loading="lazy" decoding="async">
+				</td>
+				<td class="leaderboard-hide-md">
+					<img src="{{ site[newestKey].url | hostingImageUrl }}" width="60" height="60" alt="Hosting avatar for {{ site[newestKey].url | displayUrl }}" class="leaderboard-list-entry-thumbnail small" loading="lazy" decoding="async">
 				</td>
 			{%- if site[newestKey].error %}
 				<td colspan="2"></td>
@@ -127,7 +131,7 @@ counts:
 											%}</td>
 											<td data-numeric-value="{{ (entry.lighthouse.performance * 100) | round }}">{{ (entry.lighthouse.performance * 100) | round }}</td>
 											<td class="results-calc"><a href="https://googlechrome.github.io/lighthouse/scorecalc/#FCP={{ entry.firstContentfulPaint }}&SI={{ entry.speedIndex }}&LCP={{ entry.largestContentfulPaint }}&TTI={{ entry.timeToInteractive }}&TBT={{ entry.totalBlockingTime }}&CLS={{ entry.cumulativeLayoutShift }}&FCI=&FMP=&device={{ entry.lighthouse.type or "mobile" }}&version={{ entry.lighthouse.version or "6.0.0" }}" target="_blank" rel="noopener noreferrer" class="leaderboard-hide-md">Calculator</a></td>
-											<td class="results-bool">{% 
+											<td class="results-bool">{%
 											if entry.lighthouse.accessibility === 1
 												%}<span class="leaderboard-hide-sm">✅</span>{%
 											elseif entry.lighthouse.accessibility >= 0.9
