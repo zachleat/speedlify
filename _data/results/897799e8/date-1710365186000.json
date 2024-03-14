@@ -1,0 +1,67 @@
+{
+  "url": "https://ryanccn.dev/",
+  "requestedUrl": "https://ryanccn.dev/",
+  "timestamp": 1710385232438,
+  "ranks": {
+    "hundos": 120,
+    "performance": 285,
+    "accessibility": 80,
+    "cumulative": 89
+  },
+  "lighthouse": {
+    "version": "11.6.0",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 1073.931,
+  "firstMeaningfulPaint": 1073.931,
+  "speedIndex": 1589.2448939955477,
+  "largestContentfulPaint": 1523.931,
+  "totalBlockingTime": 11.5,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1448.931,
+  "maxPotentialFirstInputDelay": 73,
+  "timeToFirstByte": 249.127,
+  "weight": {
+    "summary": "5 requests • 98.0 KiB",
+    "total": 100352,
+    "image": 0,
+    "imageCount": 0,
+    "script": 690,
+    "scriptCount": 1,
+    "document": 11492,
+    "font": 79431,
+    "fontCount": 1,
+    "stylesheet": 8296,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 317,
+    "+weight.total": 657,
+    "-weight.document": 689,
+    "+weight.document": 256,
+    "-weight.script": 23,
+    "+weight.script": 668,
+    "-weight.image": 1,
+    "+weight.image": 748,
+    "-weight.font": 408,
+    "+weight.font": 254,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 758,
+    "-totalBlockingTime": 24,
+    "-largestContentfulPaint": 625
+  },
+  "axe": {
+    "passes": 428,
+    "violations": 0
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "url": "https://ademhatay.com/",
+  "requestedUrl": "https://ademhatay.com/",
+  "timestamp": 1710372207449,
+  "ranks": {
+    "hundos": 941,
+    "performance": 920,
+    "accessibility": 897,
+    "cumulative": 941
+  },
+  "lighthouse": {
+    "version": "11.6.0",
+    "performance": 0.64,
+    "accessibility": 0.84,
+    "bestPractices": 1,
+    "seo": 0.69,
+    "total": 317
+  },
+  "firstContentfulPaint": 2933.4065,
+  "firstMeaningfulPaint": 3056.9065,
+  "speedIndex": 5298.215517584396,
+  "largestContentfulPaint": 7167.6435,
+  "totalBlockingTime": 211.00000000000045,
+  "cumulativeLayoutShift": 0.00018719240570474945,
+  "timeToInteractive": 5179.666499999999,
+  "maxPotentialFirstInputDelay": 212,
+  "timeToFirstByte": 440.87300000000005,
+  "weight": {
+    "summary": "48 requests • 2.8 MiB",
+    "total": 2908246,
+    "image": 2176983,
+    "imageCount": 12,
+    "script": 211918,
+    "scriptCount": 2,
+    "document": 2698,
+    "font": 417070,
+    "fontCount": 16,
+    "stylesheet": 62173,
+    "stylesheetCount": 10,
+    "thirdParty": 2419215,
+    "thirdPartyCount": 5
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 910,
+    "+weight.total": 64,
+    "-weight.document": 159,
+    "+weight.document": 786,
+    "-weight.script": 593,
+    "+weight.script": 98,
+    "-weight.image": 700,
+    "+weight.image": 48,
+    "-weight.font": 643,
+    "+weight.font": 19,
+    "+weight.fontCount": 2,
+    "-timeToFirstByte": 929,
+    "-totalBlockingTime": 184,
+    "-largestContentfulPaint": 933
+  },
+  "axe": {
+    "error": "{\"name\":\"TimeoutError\"}"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://tapchamps.com/",
+  "requestedUrl": "https://tapchamps.com/",
+  "timestamp": 1710384157379,
+  "ranks": {
+    "hundos": 883,
+    "performance": 952,
+    "accessibility": 529,
+    "cumulative": 881
+  },
+  "lighthouse": {
+    "version": "11.6.0",
+    "performance": 0.51,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 351
+  },
+  "firstContentfulPaint": 1053.148,
+  "firstMeaningfulPaint": 2460.554,
+  "speedIndex": 6504.347319645425,
+  "largestContentfulPaint": 4384.308,
+  "totalBlockingTime": 2115.2099999999996,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 7265.329999999999,
+  "maxPotentialFirstInputDelay": 1832.9999999999995,
+  "timeToFirstByte": 42.31100000000001,
+  "weight": {
+    "summary": "55 requests • 943.1 KiB",
+    "total": 964064,
+    "image": 374227,
+    "imageCount": 38,
+    "script": 549308,
+    "scriptCount": 10,
+    "document": 7305,
+    "font": 1632,
+    "fontCount": 1,
+    "stylesheet": 10412,
+    "stylesheetCount": 2,
+    "thirdParty": 370879,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 808,
+    "+weight.total": 166,
+    "-weight.document": 549,
+    "+weight.document": 396,
+    "-weight.script": 660,
+    "+weight.script": 31,
+    "-weight.image": 550,
+    "+weight.image": 198,
+    "-weight.font": 2,
+    "+weight.font": 660,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 36,
+    "-totalBlockingTime": 245,
+    "-largestContentfulPaint": 881
+  },
+  "axe": {
+    "passes": 2620,
+    "violations": 8
+  }
+}

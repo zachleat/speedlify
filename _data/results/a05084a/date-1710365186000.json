@@ -1,0 +1,66 @@
+{
+  "url": "https://sinuous.dev/",
+  "requestedUrl": "https://sinuous.dev/",
+  "timestamp": 1710367629888,
+  "ranks": {
+    "hundos": 878,
+    "performance": 834,
+    "accessibility": 914,
+    "cumulative": 878
+  },
+  "lighthouse": {
+    "version": "11.6.0",
+    "performance": 0.79,
+    "accessibility": 0.81,
+    "bestPractices": 1,
+    "seo": 0.92,
+    "total": 352
+  },
+  "firstContentfulPaint": 3784.8810000000003,
+  "firstMeaningfulPaint": 3788.8810000000003,
+  "speedIndex": 3784.8810000000003,
+  "largestContentfulPaint": 3938.8810000000003,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.026047995139732685,
+  "timeToInteractive": 3788.8810000000003,
+  "maxPotentialFirstInputDelay": 33,
+  "timeToFirstByte": 53.81099999999999,
+  "weight": {
+    "summary": "13 requests • 145.9 KiB",
+    "total": 149360,
+    "image": 1129,
+    "imageCount": 4,
+    "script": 140132,
+    "scriptCount": 4,
+    "document": 4594,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 110689,
+    "thirdPartyCount": 4
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 401,
+    "+weight.total": 573,
+    "-weight.document": 351,
+    "+weight.document": 594,
+    "-weight.script": 532,
+    "+weight.script": 159,
+    "-weight.image": 34,
+    "+weight.image": 714,
+    "-weight.font": 1,
+    "+weight.font": 662,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 139,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 489
+  },
+  "axe": {
+    "error": "{\"name\":\"TimeoutError\"}"
+  }
+}

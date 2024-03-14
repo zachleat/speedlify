@@ -1,0 +1,67 @@
+{
+  "url": "https://designftw.mit.edu/",
+  "requestedUrl": "https://designftw.mit.edu/",
+  "timestamp": 1710390303499,
+  "ranks": {
+    "hundos": 735,
+    "performance": 652,
+    "accessibility": 155,
+    "cumulative": 731
+  },
+  "lighthouse": {
+    "version": "11.6.0",
+    "performance": 0.94,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 0.8,
+    "total": 374
+  },
+  "firstContentfulPaint": 1791.3329999999996,
+  "firstMeaningfulPaint": 1791.3329999999996,
+  "speedIndex": 5580.4012189993855,
+  "largestContentfulPaint": 1904.1024999999995,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1791.3329999999996,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 222.3789999999999,
+  "weight": {
+    "summary": "20 requests • 20.2 KiB",
+    "total": 20646,
+    "image": 0,
+    "imageCount": 1,
+    "script": 11228,
+    "scriptCount": 15,
+    "document": 3526,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 5892,
+    "stylesheetCount": 3,
+    "thirdParty": 11434,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 105,
+    "+weight.total": 869,
+    "-weight.document": 244,
+    "+weight.document": 701,
+    "-weight.script": 262,
+    "+weight.script": 429,
+    "-weight.image": 1,
+    "+weight.image": 748,
+    "-weight.font": 1,
+    "+weight.font": 662,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 730,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 358
+  },
+  "axe": {
+    "passes": 271,
+    "violations": 0
+  }
+}

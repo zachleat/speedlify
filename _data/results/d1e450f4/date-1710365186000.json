@@ -1,0 +1,67 @@
+{
+  "url": "https://making-ui.dev/",
+  "requestedUrl": "https://making-ui.dev/",
+  "timestamp": 1710399064252,
+  "ranks": {
+    "hundos": 451,
+    "performance": 418,
+    "accessibility": 734,
+    "cumulative": 451
+  },
+  "lighthouse": {
+    "version": "11.6.0",
+    "performance": 0.99,
+    "accessibility": 0.93,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 392
+  },
+  "firstContentfulPaint": 1015.211,
+  "firstMeaningfulPaint": 1623.6840000000002,
+  "speedIndex": 1801.9471818249876,
+  "largestContentfulPaint": 2259.657,
+  "totalBlockingTime": 1,
+  "cumulativeLayoutShift": 0.02813940628901183,
+  "timeToInteractive": 1775.1840000000002,
+  "maxPotentialFirstInputDelay": 52,
+  "timeToFirstByte": 331.538,
+  "weight": {
+    "summary": "7 requests • 187.4 KiB",
+    "total": 191920,
+    "image": 91521,
+    "imageCount": 1,
+    "script": 94657,
+    "scriptCount": 4,
+    "document": 2655,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 3087,
+    "stylesheetCount": 1,
+    "thirdParty": 89856,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 470,
+    "+weight.total": 504,
+    "-weight.document": 154,
+    "+weight.document": 791,
+    "-weight.script": 478,
+    "+weight.script": 213,
+    "-weight.image": 334,
+    "+weight.image": 414,
+    "-weight.font": 1,
+    "+weight.font": 662,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 847,
+    "-totalBlockingTime": 2,
+    "-largestContentfulPaint": 737
+  },
+  "axe": {
+    "passes": 102,
+    "violations": 2
+  }
+}

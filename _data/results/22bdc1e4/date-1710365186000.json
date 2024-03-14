@@ -1,0 +1,67 @@
+{
+  "url": "https://magnus.anderssen.ch/",
+  "requestedUrl": "https://magnus.anderssen.ch/",
+  "timestamp": 1710366605331,
+  "ranks": {
+    "hundos": 586,
+    "performance": 654,
+    "accessibility": 335,
+    "cumulative": 574
+  },
+  "lighthouse": {
+    "version": "11.6.0",
+    "performance": 0.94,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 0.92,
+    "total": 386
+  },
+  "firstContentfulPaint": 949.7370000000001,
+  "firstMeaningfulPaint": 949.7370000000001,
+  "speedIndex": 6215.188961988794,
+  "largestContentfulPaint": 949.7370000000001,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.0028308724989406205,
+  "timeToInteractive": 949.7370000000001,
+  "maxPotentialFirstInputDelay": 45,
+  "timeToFirstByte": 124.88100000000031,
+  "weight": {
+    "summary": "6 requests • 77.2 KiB",
+    "total": 79004,
+    "image": 0,
+    "imageCount": 0,
+    "script": 11271,
+    "scriptCount": 2,
+    "document": 2967,
+    "font": 58538,
+    "fontCount": 2,
+    "stylesheet": 6228,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 266,
+    "+weight.total": 708,
+    "-weight.document": 181,
+    "+weight.document": 764,
+    "-weight.script": 263,
+    "+weight.script": 428,
+    "-weight.image": 1,
+    "+weight.image": 748,
+    "-weight.font": 317,
+    "+weight.font": 345,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 488,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 77
+  },
+  "axe": {
+    "passes": 67,
+    "violations": 0
+  }
+}

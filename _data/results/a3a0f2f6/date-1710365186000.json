@@ -1,0 +1,66 @@
+{
+  "url": "https://bigaston.me/",
+  "requestedUrl": "https://bigaston.me/",
+  "timestamp": 1710383607449,
+  "ranks": {
+    "hundos": 760,
+    "performance": 889,
+    "accessibility": 555,
+    "cumulative": 763
+  },
+  "lighthouse": {
+    "version": "11.6.0",
+    "performance": 0.71,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 371
+  },
+  "firstContentfulPaint": 1961.578,
+  "firstMeaningfulPaint": 1961.578,
+  "speedIndex": 5030.366627190683,
+  "largestContentfulPaint": 7297.322,
+  "totalBlockingTime": 12,
+  "cumulativeLayoutShift": 0.025482209087502716,
+  "timeToInteractive": 4441.45,
+  "maxPotentialFirstInputDelay": 74,
+  "timeToFirstByte": 413.74699999999996,
+  "weight": {
+    "summary": "38 requests • 1.7 MiB",
+    "total": 1758825,
+    "image": 1706474,
+    "imageCount": 31,
+    "script": 479,
+    "scriptCount": 1,
+    "document": 2782,
+    "font": 45523,
+    "fontCount": 2,
+    "stylesheet": 3567,
+    "stylesheetCount": 3,
+    "thirdParty": 46613,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 876,
+    "+weight.total": 98,
+    "-weight.document": 166,
+    "+weight.document": 779,
+    "-weight.script": 12,
+    "+weight.script": 679,
+    "-weight.image": 685,
+    "+weight.image": 63,
+    "-weight.font": 245,
+    "+weight.font": 417,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 918,
+    "-totalBlockingTime": 25,
+    "-largestContentfulPaint": 934
+  },
+  "axe": {
+    "error": "{\"name\":\"TimeoutError\"}"
+  }
+}

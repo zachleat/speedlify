@@ -1,0 +1,67 @@
+{
+  "url": "https://markdorison.com/",
+  "requestedUrl": "https://markdorison.com/",
+  "timestamp": 1710375906774,
+  "ranks": {
+    "hundos": 891,
+    "performance": 944,
+    "accessibility": 622,
+    "cumulative": 891
+  },
+  "lighthouse": {
+    "version": "11.6.0",
+    "performance": 0.55,
+    "accessibility": 0.95,
+    "bestPractices": 1,
+    "seo": 0.98,
+    "total": 348
+  },
+  "firstContentfulPaint": 2687.4105,
+  "firstMeaningfulPaint": 5959.74075,
+  "speedIndex": 4710.405011471511,
+  "largestContentfulPaint": 8666.088999999998,
+  "totalBlockingTime": 532.9999999999995,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 8703.088999999998,
+  "maxPotentialFirstInputDelay": 421,
+  "timeToFirstByte": 105.689,
+  "weight": {
+    "summary": "26 requests • 1.2 MiB",
+    "total": 1214195,
+    "image": 205,
+    "imageCount": 1,
+    "script": 847175,
+    "scriptCount": 11,
+    "document": 22270,
+    "font": 210734,
+    "fontCount": 10,
+    "stylesheet": 133677,
+    "stylesheetCount": 2,
+    "thirdParty": 1191791,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 841,
+    "+weight.total": 133,
+    "-weight.document": 834,
+    "+weight.document": 111,
+    "-weight.script": 670,
+    "+weight.script": 21,
+    "-weight.image": 3,
+    "+weight.image": 745,
+    "-weight.font": 575,
+    "+weight.font": 87,
+    "+weight.fontCount": 6,
+    "-timeToFirstByte": 443,
+    "-totalBlockingTime": 226,
+    "-largestContentfulPaint": 950
+  },
+  "axe": {
+    "passes": 580,
+    "violations": 1
+  }
+}

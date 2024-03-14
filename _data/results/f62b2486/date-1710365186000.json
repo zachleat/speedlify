@@ -1,0 +1,67 @@
+{
+  "url": "https://saassurf.com/",
+  "requestedUrl": "https://www.saassurf.com/",
+  "timestamp": 1710367428364,
+  "ranks": {
+    "hundos": 958,
+    "performance": 973,
+    "accessibility": 943,
+    "cumulative": 958
+  },
+  "lighthouse": {
+    "version": "11.6.0",
+    "performance": 0.27,
+    "accessibility": 0.76,
+    "bestPractices": 0.96,
+    "seo": 1,
+    "total": 299
+  },
+  "firstContentfulPaint": 3141.4960000000005,
+  "firstMeaningfulPaint": 3141.4960000000005,
+  "speedIndex": 5182.742745406622,
+  "largestContentfulPaint": 5644.917500000001,
+  "totalBlockingTime": 768.0604999999996,
+  "cumulativeLayoutShift": 0.9442384982746221,
+  "timeToInteractive": 5585.609,
+  "maxPotentialFirstInputDelay": 675.0000000000005,
+  "timeToFirstByte": 479.317,
+  "weight": {
+    "summary": "46 requests • 462.4 KiB",
+    "total": 473478,
+    "image": 50376,
+    "imageCount": 27,
+    "script": 88887,
+    "scriptCount": 4,
+    "document": 53013,
+    "font": 229155,
+    "fontCount": 7,
+    "stylesheet": 51187,
+    "stylesheetCount": 4,
+    "thirdParty": 370115,
+    "thirdPartyCount": 7
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 697,
+    "+weight.total": 277,
+    "-weight.document": 906,
+    "+weight.document": 39,
+    "-weight.script": 457,
+    "+weight.script": 234,
+    "-weight.image": 259,
+    "+weight.image": 489,
+    "-weight.font": 589,
+    "+weight.font": 73,
+    "+weight.fontCount": 9,
+    "-timeToFirstByte": 944,
+    "-totalBlockingTime": 235,
+    "-largestContentfulPaint": 908
+  },
+  "axe": {
+    "passes": 971,
+    "violations": 70
+  }
+}

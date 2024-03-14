@@ -1,0 +1,67 @@
+{
+  "url": "https://benmyers.dev/",
+  "requestedUrl": "https://benmyers.dev/",
+  "timestamp": 1710370337152,
+  "ranks": {
+    "hundos": 33,
+    "performance": 316,
+    "accessibility": 37,
+    "cumulative": 18
+  },
+  "lighthouse": {
+    "version": "11.6.0",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 1355.439,
+  "firstMeaningfulPaint": 1355.439,
+  "speedIndex": 1829.9568843195984,
+  "largestContentfulPaint": 1700.0130000000001,
+  "totalBlockingTime": 47.5,
+  "cumulativeLayoutShift": 0.001006930122468879,
+  "timeToInteractive": 2303.0175,
+  "maxPotentialFirstInputDelay": 145,
+  "timeToFirstByte": 187.475,
+  "weight": {
+    "summary": "45 requests • 935.9 KiB",
+    "total": 958350,
+    "image": 786514,
+    "imageCount": 38,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 11706,
+    "font": 159278,
+    "fontCount": 5,
+    "stylesheet": 852,
+    "stylesheetCount": 1,
+    "thirdParty": 786514,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 807,
+    "+weight.total": 167,
+    "-weight.document": 699,
+    "+weight.document": 246,
+    "-weight.script": 1,
+    "+weight.script": 691,
+    "-weight.image": 637,
+    "+weight.image": 111,
+    "-weight.font": 537,
+    "+weight.font": 125,
+    "+weight.fontCount": 11,
+    "-timeToFirstByte": 696,
+    "-totalBlockingTime": 80,
+    "-largestContentfulPaint": 642
+  },
+  "axe": {
+    "passes": 728,
+    "violations": 0
+  }
+}

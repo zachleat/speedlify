@@ -1,0 +1,67 @@
+{
+  "url": "https://olivernorred.com/blog/",
+  "requestedUrl": "https://olivernorred.com/blog",
+  "timestamp": 1710382518535,
+  "ranks": {
+    "hundos": 780,
+    "performance": 821,
+    "accessibility": 840,
+    "cumulative": 777
+  },
+  "lighthouse": {
+    "version": "11.6.0",
+    "performance": 0.8,
+    "accessibility": 0.89,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 369
+  },
+  "firstContentfulPaint": 2462.8034999999995,
+  "firstMeaningfulPaint": 3781.7969999999996,
+  "speedIndex": 2462.8034999999995,
+  "largestContentfulPaint": 4531.797,
+  "totalBlockingTime": 9.5,
+  "cumulativeLayoutShift": 0.06197440798997495,
+  "timeToInteractive": 3881.6414999999997,
+  "maxPotentialFirstInputDelay": 65,
+  "timeToFirstByte": 17.933,
+  "weight": {
+    "summary": "25 requests • 577.7 KiB",
+    "total": 591585,
+    "image": 0,
+    "imageCount": 0,
+    "script": 149195,
+    "scriptCount": 5,
+    "document": 2908,
+    "font": 431876,
+    "fontCount": 8,
+    "stylesheet": 6182,
+    "stylesheetCount": 5,
+    "thirdParty": 180275,
+    "thirdPartyCount": 5
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 740,
+    "+weight.total": 234,
+    "-weight.document": 175,
+    "+weight.document": 770,
+    "-weight.script": 542,
+    "+weight.script": 149,
+    "-weight.image": 1,
+    "+weight.image": 748,
+    "-weight.font": 645,
+    "+weight.font": 17,
+    "+weight.fontCount": 8,
+    "-timeToFirstByte": 13,
+    "-totalBlockingTime": 20,
+    "-largestContentfulPaint": 886
+  },
+  "axe": {
+    "passes": 357,
+    "violations": 1
+  }
+}

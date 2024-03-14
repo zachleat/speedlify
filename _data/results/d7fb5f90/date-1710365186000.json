@@ -1,0 +1,67 @@
+{
+  "url": "https://will.cx/",
+  "requestedUrl": "https://will.cx/",
+  "timestamp": 1710391808543,
+  "ranks": {
+    "hundos": 180,
+    "performance": 78,
+    "accessibility": 181,
+    "cumulative": 135
+  },
+  "lighthouse": {
+    "version": "11.6.0",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 959.745,
+  "firstMeaningfulPaint": 959.745,
+  "speedIndex": 1000.5726699637174,
+  "largestContentfulPaint": 959.745,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 959.745,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 79.07400000000001,
+  "weight": {
+    "summary": "3 requests • 10.8 KiB",
+    "total": 11096,
+    "image": 0,
+    "imageCount": 0,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 4250,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 6846,
+    "stylesheetCount": 2,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 74,
+    "+weight.total": 900,
+    "-weight.document": 312,
+    "+weight.document": 633,
+    "-weight.script": 1,
+    "+weight.script": 691,
+    "-weight.image": 1,
+    "+weight.image": 748,
+    "-weight.font": 1,
+    "+weight.font": 662,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 365,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 82
+  },
+  "axe": {
+    "passes": 243,
+    "violations": 0
+  }
+}

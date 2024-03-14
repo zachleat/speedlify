@@ -1,0 +1,67 @@
+{
+  "url": "https://tsuwave.studio/",
+  "requestedUrl": "https://tsuwave.studio/",
+  "timestamp": 1710372265510,
+  "ranks": {
+    "hundos": 942,
+    "performance": 943,
+    "accessibility": 955,
+    "cumulative": 943
+  },
+  "lighthouse": {
+    "version": "11.6.0",
+    "performance": 0.55,
+    "accessibility": 0.73,
+    "bestPractices": 0.96,
+    "seo": 0.92,
+    "total": 316
+  },
+  "firstContentfulPaint": 1960.4740000000002,
+  "firstMeaningfulPaint": 2870.2365,
+  "speedIndex": 3442.399145928759,
+  "largestContentfulPaint": 6317.189000000002,
+  "totalBlockingTime": 16,
+  "cumulativeLayoutShift": 0.43962776332553577,
+  "timeToInteractive": 4674.697,
+  "maxPotentialFirstInputDelay": 82,
+  "timeToFirstByte": 132.37,
+  "weight": {
+    "summary": "17 requests • 1.5 MiB",
+    "total": 1618347,
+    "image": 1305866,
+    "imageCount": 5,
+    "script": 237080,
+    "scriptCount": 5,
+    "document": 3560,
+    "font": 70094,
+    "fontCount": 2,
+    "stylesheet": 1486,
+    "stylesheetCount": 2,
+    "thirdParty": 308921,
+    "thirdPartyCount": 4
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 864,
+    "+weight.total": 110,
+    "-weight.document": 247,
+    "+weight.document": 698,
+    "-weight.script": 604,
+    "+weight.script": 87,
+    "-weight.image": 670,
+    "+weight.image": 78,
+    "-weight.font": 368,
+    "+weight.font": 294,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 505,
+    "-totalBlockingTime": 32,
+    "-largestContentfulPaint": 924
+  },
+  "axe": {
+    "passes": 125,
+    "violations": 9
+  }
+}

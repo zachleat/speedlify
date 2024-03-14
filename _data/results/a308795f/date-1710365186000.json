@@ -1,0 +1,67 @@
+{
+  "url": "https://www.becss.dev/",
+  "requestedUrl": "https://www.becss.dev/",
+  "timestamp": 1710390593544,
+  "ranks": {
+    "hundos": 789,
+    "performance": 73,
+    "accessibility": 923,
+    "cumulative": 790
+  },
+  "lighthouse": {
+    "version": "11.6.0",
+    "performance": 1,
+    "accessibility": 0.8,
+    "bestPractices": 0.96,
+    "seo": 0.92,
+    "total": 368
+  },
+  "firstContentfulPaint": 916.2644999999998,
+  "firstMeaningfulPaint": 916.2644999999998,
+  "speedIndex": 990.696125004339,
+  "largestContentfulPaint": 1632.5394999999996,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 916.2644999999998,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 57.82700000000003,
+  "weight": {
+    "summary": "11 requests • 28.1 KiB",
+    "total": 28821,
+    "image": 18532,
+    "imageCount": 7,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 1207,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 9082,
+    "stylesheetCount": 3,
+    "thirdParty": 3310,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 132,
+    "+weight.total": 842,
+    "-weight.document": 18,
+    "+weight.document": 927,
+    "-weight.script": 1,
+    "+weight.script": 691,
+    "-weight.image": 154,
+    "+weight.image": 594,
+    "-weight.font": 1,
+    "+weight.font": 662,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 162,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 271
+  },
+  "axe": {
+    "passes": 86,
+    "violations": 16
+  }
+}

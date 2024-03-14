@@ -1,0 +1,67 @@
+{
+  "url": "https://where.hiddedevries.nl/",
+  "requestedUrl": "https://where.hiddedevries.nl/",
+  "timestamp": 1710368927916,
+  "ranks": {
+    "hundos": 783,
+    "performance": 903,
+    "accessibility": 388,
+    "cumulative": 778
+  },
+  "lighthouse": {
+    "version": "11.6.0",
+    "performance": 0.69,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 369
+  },
+  "firstContentfulPaint": 1158.790000000001,
+  "firstMeaningfulPaint": 1158.790000000001,
+  "speedIndex": 6188.352049986065,
+  "largestContentfulPaint": 1158.790000000001,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 1.2691548256933318,
+  "timeToInteractive": 1158.790000000001,
+  "maxPotentialFirstInputDelay": 42,
+  "timeToFirstByte": 307.2090000000003,
+  "weight": {
+    "summary": "37 requests • 572.2 KiB",
+    "total": 585944,
+    "image": 581592,
+    "imageCount": 36,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 4352,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 581592,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 739,
+    "+weight.total": 235,
+    "-weight.document": 324,
+    "+weight.document": 621,
+    "-weight.script": 1,
+    "+weight.script": 691,
+    "-weight.image": 606,
+    "+weight.image": 142,
+    "-weight.font": 1,
+    "+weight.font": 662,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 818,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 188
+  },
+  "axe": {
+    "passes": 362,
+    "violations": 1
+  }
+}

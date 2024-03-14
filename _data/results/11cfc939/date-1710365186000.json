@@ -1,0 +1,67 @@
+{
+  "url": "https://imacrayon.com/",
+  "requestedUrl": "https://imacrayon.com/",
+  "timestamp": 1710374027030,
+  "ranks": {
+    "hundos": 84,
+    "performance": 37,
+    "accessibility": 250,
+    "cumulative": 61
+  },
+  "lighthouse": {
+    "version": "11.6.0",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 834.6420000000005,
+  "firstMeaningfulPaint": 834.6420000000005,
+  "speedIndex": 921.8035100060587,
+  "largestContentfulPaint": 834.6420000000005,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.000018883738391205308,
+  "timeToInteractive": 834.6420000000005,
+  "maxPotentialFirstInputDelay": 42,
+  "timeToFirstByte": 52.91499999999999,
+  "weight": {
+    "summary": "7 requests • 67.0 KiB",
+    "total": 68585,
+    "image": 9918,
+    "imageCount": 2,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 3275,
+    "font": 52508,
+    "fontCount": 2,
+    "stylesheet": 1827,
+    "stylesheetCount": 1,
+    "thirdParty": 6680,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 239,
+    "+weight.total": 735,
+    "-weight.document": 220,
+    "+weight.document": 725,
+    "-weight.script": 1,
+    "+weight.script": 691,
+    "-weight.image": 109,
+    "+weight.image": 639,
+    "-weight.font": 285,
+    "+weight.font": 377,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 130,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 20
+  },
+  "axe": {
+    "passes": 166,
+    "violations": 0
+  }
+}

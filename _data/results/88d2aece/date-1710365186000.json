@@ -1,0 +1,67 @@
+{
+  "url": "https://top-livres.netlify.app/",
+  "requestedUrl": "https://top-livres.netlify.app/",
+  "timestamp": 1710367014927,
+  "ranks": {
+    "hundos": 79,
+    "performance": 167,
+    "accessibility": 69,
+    "cumulative": 57
+  },
+  "lighthouse": {
+    "version": "11.6.0",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 908.2375,
+  "firstMeaningfulPaint": 908.2375,
+  "speedIndex": 1189.8469949910043,
+  "largestContentfulPaint": 1305.2375,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.044447991459693754,
+  "timeToInteractive": 908.2375,
+  "maxPotentialFirstInputDelay": 46,
+  "timeToFirstByte": 320.39099999999996,
+  "weight": {
+    "summary": "10 requests • 151.8 KiB",
+    "total": 155482,
+    "image": 145878,
+    "imageCount": 7,
+    "script": 735,
+    "scriptCount": 1,
+    "document": 6934,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 1935,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 411,
+    "+weight.total": 563,
+    "-weight.document": 523,
+    "+weight.document": 422,
+    "-weight.script": 26,
+    "+weight.script": 665,
+    "-weight.image": 402,
+    "+weight.image": 346,
+    "-weight.font": 1,
+    "+weight.font": 662,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 835,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 228
+  },
+  "axe": {
+    "passes": 464,
+    "violations": 0
+  }
+}

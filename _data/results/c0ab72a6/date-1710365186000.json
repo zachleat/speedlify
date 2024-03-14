@@ -1,0 +1,67 @@
+{
+  "url": "https://megnicholas.com/",
+  "requestedUrl": "https://megnicholas.com/",
+  "timestamp": 1710381579321,
+  "ranks": {
+    "hundos": 801,
+    "performance": 725,
+    "accessibility": 650,
+    "cumulative": 801
+  },
+  "lighthouse": {
+    "version": "11.6.0",
+    "performance": 0.9,
+    "accessibility": 0.95,
+    "bestPractices": 0.81,
+    "seo": 1,
+    "total": 366
+  },
+  "firstContentfulPaint": 1309.4845,
+  "firstMeaningfulPaint": 1755.593,
+  "speedIndex": 2071.357802743733,
+  "largestContentfulPaint": 3334.4845,
+  "totalBlockingTime": 154.00000000000023,
+  "cumulativeLayoutShift": 0.005135514571248427,
+  "timeToInteractive": 3390.5930000000003,
+  "maxPotentialFirstInputDelay": 288.00000000000045,
+  "timeToFirstByte": 109.76400000000001,
+  "weight": {
+    "summary": "23 requests • 440.1 KiB",
+    "total": 450659,
+    "image": 241347,
+    "imageCount": 5,
+    "script": 122179,
+    "scriptCount": 6,
+    "document": 23122,
+    "font": 50824,
+    "fontCount": 6,
+    "stylesheet": 11657,
+    "stylesheetCount": 1,
+    "thirdParty": 97156,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 685,
+    "+weight.total": 289,
+    "-weight.document": 835,
+    "+weight.document": 110,
+    "-weight.script": 516,
+    "+weight.script": 175,
+    "-weight.image": 486,
+    "+weight.image": 262,
+    "-weight.font": 278,
+    "+weight.font": 384,
+    "+weight.fontCount": 10,
+    "-timeToFirstByte": 450,
+    "-totalBlockingTime": 168,
+    "-largestContentfulPaint": 825
+  },
+  "axe": {
+    "passes": 1095,
+    "violations": 5
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://beeps.website/",
+  "requestedUrl": "https://beeps.website/",
+  "timestamp": 1710381588726,
+  "ranks": {
+    "hundos": 255,
+    "performance": 453,
+    "accessibility": 158,
+    "cumulative": 245
+  },
+  "lighthouse": {
+    "version": "11.6.0",
+    "performance": 0.99,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 399
+  },
+  "firstContentfulPaint": 900.9590000000001,
+  "firstMeaningfulPaint": 900.9590000000001,
+  "speedIndex": 3174.1630850184033,
+  "largestContentfulPaint": 926.9590000000001,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 900.9590000000001,
+  "maxPotentialFirstInputDelay": 24,
+  "timeToFirstByte": 148.76600000000008,
+  "weight": {
+    "summary": "9 requests • 159.1 KiB",
+    "total": 162892,
+    "image": 97881,
+    "imageCount": 2,
+    "script": 3809,
+    "scriptCount": 3,
+    "document": 3990,
+    "font": 49500,
+    "fontCount": 1,
+    "stylesheet": 7712,
+    "stylesheetCount": 2,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 423,
+    "+weight.total": 551,
+    "-weight.document": 287,
+    "+weight.document": 658,
+    "-weight.script": 160,
+    "+weight.script": 531,
+    "-weight.image": 342,
+    "+weight.image": 406,
+    "-weight.font": 272,
+    "+weight.font": 390,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 601,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 63
+  },
+  "axe": {
+    "passes": 270,
+    "violations": 0
+  }
+}

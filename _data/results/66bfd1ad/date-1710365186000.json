@@ -1,0 +1,67 @@
+{
+  "url": "https://darthmall.net/",
+  "requestedUrl": "https://darthmall.net/",
+  "timestamp": 1710387447398,
+  "ranks": {
+    "hundos": 516,
+    "performance": 249,
+    "accessibility": 484,
+    "cumulative": 511
+  },
+  "lighthouse": {
+    "version": "11.6.0",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 0.93,
+    "seo": 0.97,
+    "total": 390
+  },
+  "firstContentfulPaint": 1039.734,
+  "firstMeaningfulPaint": 1039.734,
+  "speedIndex": 1402.368680037117,
+  "largestContentfulPaint": 1039.734,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1039.734,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 197.43900000000002,
+  "weight": {
+    "summary": "12 requests • 14.7 KiB",
+    "total": 15036,
+    "image": 7790,
+    "imageCount": 6,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 4211,
+    "font": 66,
+    "fontCount": 3,
+    "stylesheet": 2969,
+    "stylesheetCount": 2,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 90,
+    "+weight.total": 884,
+    "-weight.document": 307,
+    "+weight.document": 638,
+    "-weight.script": 1,
+    "+weight.script": 691,
+    "-weight.image": 97,
+    "+weight.image": 651,
+    "-weight.font": 1,
+    "+weight.font": 661,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 705,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 127
+  },
+  "axe": {
+    "passes": 229,
+    "violations": 3
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://www.foxdog.io/",
+  "requestedUrl": "https://www.foxdog.io/",
+  "timestamp": 1710387603088,
+  "ranks": {
+    "hundos": 916,
+    "performance": 886,
+    "accessibility": 905,
+    "cumulative": 917
+  },
+  "lighthouse": {
+    "version": "11.6.0",
+    "performance": 0.71,
+    "accessibility": 0.82,
+    "bestPractices": 1,
+    "seo": 0.8,
+    "total": 333
+  },
+  "firstContentfulPaint": 2492.834,
+  "firstMeaningfulPaint": 2622.5135,
+  "speedIndex": 2893.3429122445405,
+  "largestContentfulPaint": 8808.519,
+  "totalBlockingTime": 68.5,
+  "cumulativeLayoutShift": 0.0027645446976428127,
+  "timeToInteractive": 2871.0649999999996,
+  "maxPotentialFirstInputDelay": 187,
+  "timeToFirstByte": 80.28399999999999,
+  "weight": {
+    "summary": "17 requests • 1.3 MiB",
+    "total": 1400057,
+    "image": 1275172,
+    "imageCount": 9,
+    "script": 62024,
+    "scriptCount": 2,
+    "document": 7749,
+    "font": 51525,
+    "fontCount": 2,
+    "stylesheet": 3587,
+    "stylesheetCount": 3,
+    "thirdParty": 107703,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 848,
+    "+weight.total": 126,
+    "-weight.document": 569,
+    "+weight.document": 376,
+    "-weight.script": 431,
+    "+weight.script": 260,
+    "-weight.image": 668,
+    "+weight.image": 80,
+    "-weight.font": 281,
+    "+weight.font": 381,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 369,
+    "-totalBlockingTime": 115,
+    "-largestContentfulPaint": 951
+  },
+  "axe": {
+    "passes": 408,
+    "violations": 11
+  }
+}

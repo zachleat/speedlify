@@ -1,0 +1,67 @@
+{
+  "url": "https://ulfschneider.io/",
+  "requestedUrl": "https://ulf.codes/",
+  "timestamp": 1710380109977,
+  "ranks": {
+    "hundos": 682,
+    "performance": 618,
+    "accessibility": 640,
+    "cumulative": 675
+  },
+  "lighthouse": {
+    "version": "11.6.0",
+    "performance": 0.95,
+    "accessibility": 0.95,
+    "bestPractices": 1,
+    "seo": 0.89,
+    "total": 379
+  },
+  "firstContentfulPaint": 1697.473,
+  "firstMeaningfulPaint": 1697.473,
+  "speedIndex": 2225.0766520227908,
+  "largestContentfulPaint": 2540.473,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.06981012794444862,
+  "timeToInteractive": 1697.473,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 151.212,
+  "weight": {
+    "summary": "12 requests • 221.3 KiB",
+    "total": 226600,
+    "image": 0,
+    "imageCount": 0,
+    "script": 4730,
+    "scriptCount": 4,
+    "document": 3983,
+    "font": 209743,
+    "fontCount": 5,
+    "stylesheet": 7944,
+    "stylesheetCount": 1,
+    "thirdParty": 200,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 511,
+    "+weight.total": 463,
+    "-weight.document": 285,
+    "+weight.document": 660,
+    "-weight.script": 182,
+    "+weight.script": 509,
+    "-weight.image": 1,
+    "+weight.image": 748,
+    "-weight.font": 574,
+    "+weight.font": 88,
+    "+weight.fontCount": 11,
+    "-timeToFirstByte": 611,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 443
+  },
+  "axe": {
+    "passes": 171,
+    "violations": 2
+  }
+}

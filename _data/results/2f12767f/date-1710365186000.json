@@ -1,0 +1,67 @@
+{
+  "url": "https://ivoputzer.blog/",
+  "requestedUrl": "https://ivoputzer.blog/",
+  "timestamp": 1710375135798,
+  "ranks": {
+    "hundos": 624,
+    "performance": 642,
+    "accessibility": 847,
+    "cumulative": 622
+  },
+  "lighthouse": {
+    "version": "11.6.0",
+    "performance": 0.94,
+    "accessibility": 0.89,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 383
+  },
+  "firstContentfulPaint": 1601.3450000000003,
+  "firstMeaningfulPaint": 1601.3450000000003,
+  "speedIndex": 1601.3450000000003,
+  "largestContentfulPaint": 2666.1700000000005,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.08259405108224428,
+  "timeToInteractive": 1601.3450000000003,
+  "maxPotentialFirstInputDelay": 37,
+  "timeToFirstByte": 90.24299999999997,
+  "weight": {
+    "summary": "6 requests • 118.8 KiB",
+    "total": 121636,
+    "image": 0,
+    "imageCount": 0,
+    "script": 68276,
+    "scriptCount": 1,
+    "document": 9688,
+    "font": 42512,
+    "fontCount": 3,
+    "stylesheet": 1160,
+    "stylesheetCount": 1,
+    "thirdParty": 111948,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 360,
+    "+weight.total": 614,
+    "-weight.document": 644,
+    "+weight.document": 301,
+    "-weight.script": 436,
+    "+weight.script": 255,
+    "-weight.image": 1,
+    "+weight.image": 748,
+    "-weight.font": 220,
+    "+weight.font": 442,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 403,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 452
+  },
+  "axe": {
+    "passes": 229,
+    "violations": 5
+  }
+}

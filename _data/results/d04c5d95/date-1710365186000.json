@@ -1,0 +1,67 @@
+{
+  "url": "https://thomasclausen.dk/",
+  "requestedUrl": "https://thomasclausen.dk/",
+  "timestamp": 1710378571335,
+  "ranks": {
+    "hundos": 541,
+    "performance": 345,
+    "accessibility": 641,
+    "cumulative": 539
+  },
+  "lighthouse": {
+    "version": "11.6.0",
+    "performance": 1,
+    "accessibility": 0.95,
+    "bestPractices": 1,
+    "seo": 0.94,
+    "total": 389
+  },
+  "firstContentfulPaint": 833.525,
+  "firstMeaningfulPaint": 833.525,
+  "speedIndex": 2267.806046000481,
+  "largestContentfulPaint": 1206.525,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 833.525,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 63.307000000000016,
+  "weight": {
+    "summary": "5 requests • 53.6 KiB",
+    "total": 54912,
+    "image": 0,
+    "imageCount": 0,
+    "script": 1627,
+    "scriptCount": 1,
+    "document": 1740,
+    "font": 46725,
+    "fontCount": 2,
+    "stylesheet": 4820,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 202,
+    "+weight.total": 772,
+    "-weight.document": 55,
+    "+weight.document": 890,
+    "-weight.script": 74,
+    "+weight.script": 617,
+    "-weight.image": 1,
+    "+weight.image": 748,
+    "-weight.font": 250,
+    "+weight.font": 412,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 239,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 199
+  },
+  "axe": {
+    "passes": 110,
+    "violations": 2
+  }
+}

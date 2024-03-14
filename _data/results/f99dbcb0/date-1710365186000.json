@@ -1,0 +1,67 @@
+{
+  "url": "https://legendofmana.info/",
+  "requestedUrl": "https://legendofmana.info/",
+  "timestamp": 1710367414536,
+  "ranks": {
+    "hundos": 785,
+    "performance": 825,
+    "accessibility": 771,
+    "cumulative": 789
+  },
+  "lighthouse": {
+    "version": "11.6.0",
+    "performance": 0.8,
+    "accessibility": 0.92,
+    "bestPractices": 0.96,
+    "seo": 1,
+    "total": 368
+  },
+  "firstContentfulPaint": 1686.5880000000002,
+  "firstMeaningfulPaint": 1756.2960000000003,
+  "speedIndex": 3806.9243163517713,
+  "largestContentfulPaint": 4050.8920000000007,
+  "totalBlockingTime": 153.5,
+  "cumulativeLayoutShift": 0.10153446465304243,
+  "timeToInteractive": 4099.352,
+  "maxPotentialFirstInputDelay": 262,
+  "timeToFirstByte": 72.357,
+  "weight": {
+    "summary": "32 requests • 763.4 KiB",
+    "total": 781735,
+    "image": 587983,
+    "imageCount": 24,
+    "script": 137874,
+    "scriptCount": 2,
+    "document": 5635,
+    "font": 43719,
+    "fontCount": 1,
+    "stylesheet": 1337,
+    "stylesheetCount": 1,
+    "thirdParty": 134868,
+    "thirdPartyCount": 4
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 783,
+    "+weight.total": 191,
+    "-weight.document": 437,
+    "+weight.document": 508,
+    "-weight.script": 529,
+    "+weight.script": 162,
+    "-weight.image": 607,
+    "+weight.image": 141,
+    "-weight.font": 229,
+    "+weight.font": 433,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 310,
+    "-totalBlockingTime": 167,
+    "-largestContentfulPaint": 866
+  },
+  "axe": {
+    "passes": 672,
+    "violations": 9
+  }
+}

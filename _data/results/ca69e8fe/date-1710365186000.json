@@ -1,0 +1,67 @@
+{
+  "url": "https://gaiety.dog/",
+  "requestedUrl": "https://gaiety.dog/",
+  "timestamp": 1710369800455,
+  "ranks": {
+    "hundos": 637,
+    "performance": 228,
+    "accessibility": 824,
+    "cumulative": 642
+  },
+  "lighthouse": {
+    "version": "11.6.0",
+    "performance": 1,
+    "accessibility": 0.9,
+    "bestPractices": 1,
+    "seo": 0.92,
+    "total": 382
+  },
+  "firstContentfulPaint": 1149.456,
+  "firstMeaningfulPaint": 1149.456,
+  "speedIndex": 1323.431944011652,
+  "largestContentfulPaint": 1649.184,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1149.456,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 48.07900000000001,
+  "weight": {
+    "summary": "4 requests • 281.6 KiB",
+    "total": 288360,
+    "image": 266874,
+    "imageCount": 2,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 2765,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 18721,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 586,
+    "+weight.total": 388,
+    "-weight.document": 164,
+    "+weight.document": 781,
+    "-weight.script": 1,
+    "+weight.script": 691,
+    "-weight.image": 510,
+    "+weight.image": 238,
+    "-weight.font": 1,
+    "+weight.font": 662,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 86,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 279
+  },
+  "axe": {
+    "passes": 100,
+    "violations": 6
+  }
+}

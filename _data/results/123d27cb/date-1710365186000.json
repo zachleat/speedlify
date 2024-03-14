@@ -1,0 +1,67 @@
+{
+  "url": "https://fifty.snook.ca/",
+  "requestedUrl": "https://fifty.snook.ca/",
+  "timestamp": 1710381274825,
+  "ranks": {
+    "hundos": 414,
+    "performance": 650,
+    "accessibility": 447,
+    "cumulative": 409
+  },
+  "lighthouse": {
+    "version": "11.6.0",
+    "performance": 0.94,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 394
+  },
+  "firstContentfulPaint": 2322.9614999999994,
+  "firstMeaningfulPaint": 2322.9614999999994,
+  "speedIndex": 3689.4296190038076,
+  "largestContentfulPaint": 2322.9614999999994,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 2322.9614999999994,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 56.56499999999994,
+  "weight": {
+    "summary": "9 requests • 119.2 KiB",
+    "total": 122046,
+    "image": 82276,
+    "imageCount": 2,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 4557,
+    "font": 30817,
+    "fontCount": 2,
+    "stylesheet": 4396,
+    "stylesheetCount": 4,
+    "thirdParty": 113388,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 361,
+    "+weight.total": 613,
+    "-weight.document": 345,
+    "+weight.document": 600,
+    "-weight.script": 1,
+    "+weight.script": 691,
+    "-weight.image": 314,
+    "+weight.image": 434,
+    "-weight.font": 137,
+    "+weight.font": 525,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 153,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 420
+  },
+  "axe": {
+    "passes": 696,
+    "violations": 2
+  }
+}

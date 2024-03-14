@@ -1,0 +1,67 @@
+{
+  "url": "https://carlovan.com/",
+  "requestedUrl": "https://carlovan.com/",
+  "timestamp": 1710386411414,
+  "ranks": {
+    "hundos": 819,
+    "performance": 729,
+    "accessibility": 543,
+    "cumulative": 819
+  },
+  "lighthouse": {
+    "version": "11.6.0",
+    "performance": 0.9,
+    "accessibility": 1,
+    "bestPractices": 0.74,
+    "seo": 1,
+    "total": 364
+  },
+  "firstContentfulPaint": 1952.824,
+  "firstMeaningfulPaint": 1952.824,
+  "speedIndex": 2470.27321646219,
+  "largestContentfulPaint": 3336.2545,
+  "totalBlockingTime": 13,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 2636.4049999999997,
+  "maxPotentialFirstInputDelay": 76,
+  "timeToFirstByte": 76.38500000000002,
+  "weight": {
+    "summary": "25 requests • 494.8 KiB",
+    "total": 506652,
+    "image": 154706,
+    "imageCount": 10,
+    "script": 287289,
+    "scriptCount": 6,
+    "document": 3471,
+    "font": 37305,
+    "fontCount": 4,
+    "stylesheet": 23629,
+    "stylesheetCount": 3,
+    "thirdParty": 495727,
+    "thirdPartyCount": 7
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 716,
+    "+weight.total": 258,
+    "-weight.document": 237,
+    "+weight.document": 708,
+    "-weight.script": 618,
+    "+weight.script": 73,
+    "-weight.image": 410,
+    "+weight.image": 338,
+    "-weight.font": 186,
+    "+weight.font": 476,
+    "+weight.fontCount": 12,
+    "-timeToFirstByte": 346,
+    "-totalBlockingTime": 27,
+    "-largestContentfulPaint": 826
+  },
+  "axe": {
+    "passes": 252,
+    "violations": 16
+  }
+}

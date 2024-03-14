@@ -1,0 +1,67 @@
+{
+  "url": "https://fylgja.dev/",
+  "requestedUrl": "https://fylgja.dev/",
+  "timestamp": 1710369235172,
+  "ranks": {
+    "hundos": 135,
+    "performance": 301,
+    "accessibility": 46,
+    "cumulative": 103
+  },
+  "lighthouse": {
+    "version": "11.6.0",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 977.045,
+  "firstMeaningfulPaint": 977.045,
+  "speedIndex": 1709.6735559834242,
+  "largestContentfulPaint": 1356.045,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.0006750417432411235,
+  "timeToInteractive": 977.045,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 236.668,
+  "weight": {
+    "summary": "6 requests • 90.5 KiB",
+    "total": 92646,
+    "image": 0,
+    "imageCount": 0,
+    "script": 549,
+    "scriptCount": 1,
+    "document": 11081,
+    "font": 71686,
+    "fontCount": 2,
+    "stylesheet": 6342,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 294,
+    "+weight.total": 680,
+    "-weight.document": 674,
+    "+weight.document": 271,
+    "-weight.script": 16,
+    "+weight.script": 675,
+    "-weight.image": 1,
+    "+weight.image": 748,
+    "-weight.font": 375,
+    "+weight.font": 287,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 749,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 235
+  },
+  "axe": {
+    "passes": 597,
+    "violations": 0
+  }
+}

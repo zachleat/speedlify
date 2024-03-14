@@ -1,0 +1,67 @@
+{
+  "url": "https://compagnonnage-repas.org/",
+  "requestedUrl": "https://compagnonnage-repas.org/",
+  "timestamp": 1710388379202,
+  "ranks": {
+    "hundos": 846,
+    "performance": 837,
+    "accessibility": 709,
+    "cumulative": 847
+  },
+  "lighthouse": {
+    "version": "11.6.0",
+    "performance": 0.78,
+    "accessibility": 0.94,
+    "bestPractices": 1,
+    "seo": 0.85,
+    "total": 357
+  },
+  "firstContentfulPaint": 2366.7090000000003,
+  "firstMeaningfulPaint": 2366.7090000000003,
+  "speedIndex": 3585.2566400027035,
+  "largestContentfulPaint": 4959.269,
+  "totalBlockingTime": 26,
+  "cumulativeLayoutShift": 0.03434381425017574,
+  "timeToInteractive": 8042.712999999999,
+  "maxPotentialFirstInputDelay": 102,
+  "timeToFirstByte": 126.42700000000002,
+  "weight": {
+    "summary": "15 requests • 1.6 MiB",
+    "total": 1649018,
+    "image": 740257,
+    "imageCount": 6,
+    "script": 775447,
+    "scriptCount": 2,
+    "document": 2578,
+    "font": 43618,
+    "fontCount": 1,
+    "stylesheet": 87118,
+    "stylesheetCount": 3,
+    "thirdParty": 45858,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 870,
+    "+weight.total": 104,
+    "-weight.document": 145,
+    "+weight.document": 800,
+    "-weight.script": 666,
+    "+weight.script": 25,
+    "-weight.image": 627,
+    "+weight.image": 121,
+    "-weight.font": 228,
+    "+weight.font": 434,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 490,
+    "-totalBlockingTime": 50,
+    "-largestContentfulPaint": 899
+  },
+  "axe": {
+    "passes": 203,
+    "violations": 6
+  }
+}

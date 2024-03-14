@@ -1,0 +1,67 @@
+{
+  "url": "https://photogabble.co.uk/",
+  "requestedUrl": "https://photogabble.co.uk/",
+  "timestamp": 1710372589109,
+  "ranks": {
+    "hundos": 689,
+    "performance": 209,
+    "accessibility": 795,
+    "cumulative": 693
+  },
+  "lighthouse": {
+    "version": "11.6.0",
+    "performance": 1,
+    "accessibility": 0.91,
+    "bestPractices": 1,
+    "seo": 0.87,
+    "total": 378
+  },
+  "firstContentfulPaint": 892.5910000000002,
+  "firstMeaningfulPaint": 892.5910000000002,
+  "speedIndex": 1285.880317986155,
+  "largestContentfulPaint": 1441.7710000000004,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 892.5910000000002,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 132.40800000000002,
+  "weight": {
+    "summary": "14 requests • 173.0 KiB",
+    "total": 177194,
+    "image": 57022,
+    "imageCount": 5,
+    "script": 3764,
+    "scriptCount": 2,
+    "document": 4563,
+    "font": 103325,
+    "fontCount": 4,
+    "stylesheet": 7692,
+    "stylesheetCount": 1,
+    "thirdParty": 3973,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 452,
+    "+weight.total": 522,
+    "-weight.document": 347,
+    "+weight.document": 598,
+    "-weight.script": 158,
+    "+weight.script": 533,
+    "-weight.image": 275,
+    "+weight.image": 473,
+    "-weight.font": 462,
+    "+weight.font": 200,
+    "+weight.fontCount": 12,
+    "-timeToFirstByte": 507,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 243
+  },
+  "axe": {
+    "passes": 582,
+    "violations": 3
+  }
+}

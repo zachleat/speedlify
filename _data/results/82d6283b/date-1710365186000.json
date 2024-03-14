@@ -1,0 +1,67 @@
+{
+  "url": "https://deephouse.uk/",
+  "requestedUrl": "https://deephouse.uk/",
+  "timestamp": 1710382268570,
+  "ranks": {
+    "hundos": 23,
+    "performance": 135,
+    "accessibility": 10,
+    "cumulative": 12
+  },
+  "lighthouse": {
+    "version": "11.6.0",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 972.3685,
+  "firstMeaningfulPaint": 972.3685,
+  "speedIndex": 1113.0674170149805,
+  "largestContentfulPaint": 1808.1754999999998,
+  "totalBlockingTime": 2.5,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1390.272,
+  "maxPotentialFirstInputDelay": 55,
+  "timeToFirstByte": 156.798,
+  "weight": {
+    "summary": "31 requests • 250.9 KiB",
+    "total": 256961,
+    "image": 238175,
+    "imageCount": 26,
+    "script": 7081,
+    "scriptCount": 1,
+    "document": 5574,
+    "font": 1943,
+    "fontCount": 1,
+    "stylesheet": 4013,
+    "stylesheetCount": 1,
+    "thirdParty": 7081,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 548,
+    "+weight.total": 426,
+    "-weight.document": 432,
+    "+weight.document": 513,
+    "-weight.script": 224,
+    "+weight.script": 467,
+    "-weight.image": 483,
+    "+weight.image": 265,
+    "-weight.font": 4,
+    "+weight.font": 658,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 634,
+    "-totalBlockingTime": 6,
+    "-largestContentfulPaint": 664
+  },
+  "axe": {
+    "passes": 1543,
+    "violations": 0
+  }
+}

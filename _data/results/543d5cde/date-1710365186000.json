@@ -1,0 +1,67 @@
+{
+  "url": "https://mefody.dev/",
+  "requestedUrl": "https://mefody.dev/",
+  "timestamp": 1710374043489,
+  "ranks": {
+    "hundos": 457,
+    "performance": 129,
+    "accessibility": 789,
+    "cumulative": 466
+  },
+  "lighthouse": {
+    "version": "11.6.0",
+    "performance": 1,
+    "accessibility": 0.92,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 392
+  },
+  "firstContentfulPaint": 907.639,
+  "firstMeaningfulPaint": 907.639,
+  "speedIndex": 1109.8183920057177,
+  "largestContentfulPaint": 1071.6390000000001,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 907.639,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 89.995,
+  "weight": {
+    "summary": "9 requests • 46.4 KiB",
+    "total": 47480,
+    "image": 3758,
+    "imageCount": 5,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 2710,
+    "font": 36573,
+    "fontCount": 1,
+    "stylesheet": 4439,
+    "stylesheetCount": 2,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 181,
+    "+weight.total": 793,
+    "-weight.document": 160,
+    "+weight.document": 785,
+    "-weight.script": 1,
+    "+weight.script": 691,
+    "-weight.image": 66,
+    "+weight.image": 682,
+    "-weight.font": 182,
+    "+weight.font": 480,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 401,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 144
+  },
+  "axe": {
+    "passes": 457,
+    "violations": 96
+  }
+}

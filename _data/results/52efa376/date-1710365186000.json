@@ -1,0 +1,67 @@
+{
+  "url": "https://plana.digital/pt/",
+  "requestedUrl": "https://plana.digital/",
+  "timestamp": 1710395653514,
+  "ranks": {
+    "hundos": 809,
+    "performance": 724,
+    "accessibility": 712,
+    "cumulative": 809
+  },
+  "lighthouse": {
+    "version": "11.6.0",
+    "performance": 0.9,
+    "accessibility": 0.94,
+    "bestPractices": 0.96,
+    "seo": 0.86,
+    "total": 366
+  },
+  "firstContentfulPaint": 1092.933,
+  "firstMeaningfulPaint": 1437.5545,
+  "speedIndex": 1848.4969496119847,
+  "largestContentfulPaint": 3567.933,
+  "totalBlockingTime": 53,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 2145.933,
+  "maxPotentialFirstInputDelay": 91,
+  "timeToFirstByte": 35.404999999999994,
+  "weight": {
+    "summary": "23 requests • 533.3 KiB",
+    "total": 546081,
+    "image": 435889,
+    "imageCount": 5,
+    "script": 19359,
+    "scriptCount": 2,
+    "document": 6306,
+    "font": 61033,
+    "fontCount": 3,
+    "stylesheet": 8856,
+    "stylesheetCount": 1,
+    "thirdParty": 7118,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 730,
+    "+weight.total": 244,
+    "-weight.document": 484,
+    "+weight.document": 461,
+    "-weight.script": 319,
+    "+weight.script": 372,
+    "-weight.image": 578,
+    "+weight.image": 170,
+    "-weight.font": 329,
+    "+weight.font": 333,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 29,
+    "-totalBlockingTime": 90,
+    "-largestContentfulPaint": 839
+  },
+  "axe": {
+    "passes": 244,
+    "violations": 7
+  }
+}

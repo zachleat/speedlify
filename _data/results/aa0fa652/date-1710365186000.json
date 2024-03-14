@@ -1,0 +1,67 @@
+{
+  "url": "https://bight.dev/",
+  "requestedUrl": "https://bight.dev/",
+  "timestamp": 1710375243061,
+  "ranks": {
+    "hundos": 645,
+    "performance": 733,
+    "accessibility": 430,
+    "cumulative": 641
+  },
+  "lighthouse": {
+    "version": "11.6.0",
+    "performance": 0.9,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 0.92,
+    "total": 382
+  },
+  "firstContentfulPaint": 2137.107,
+  "firstMeaningfulPaint": 2137.107,
+  "speedIndex": 6685.8240759873615,
+  "largestContentfulPaint": 2137.107,
+  "totalBlockingTime": 2,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 2225.1465,
+  "maxPotentialFirstInputDelay": 53,
+  "timeToFirstByte": 80.3130000000001,
+  "weight": {
+    "summary": "8 requests • 105.3 KiB",
+    "total": 107837,
+    "image": 453,
+    "imageCount": 1,
+    "script": 57409,
+    "scriptCount": 2,
+    "document": 2289,
+    "font": 45709,
+    "fontCount": 3,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 57862,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 331,
+    "+weight.total": 643,
+    "-weight.document": 114,
+    "+weight.document": 831,
+    "-weight.script": 421,
+    "+weight.script": 270,
+    "-weight.image": 10,
+    "+weight.image": 738,
+    "-weight.font": 247,
+    "+weight.font": 415,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 370,
+    "-totalBlockingTime": 5,
+    "-largestContentfulPaint": 713
+  },
+  "axe": {
+    "passes": 135,
+    "violations": 1
+  }
+}

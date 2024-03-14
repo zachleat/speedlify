@@ -227,10 +227,20 @@ module.exports = function(eleventyConfig) {
 
 	eleventyConfig.addFilter("addSkippedIndeces", function (results, indeces = []) {
 		let out = [];
+		let offset = 0;
 		for(let j = 0, k = results.length; j<k; j++) {
-			if(indeces.includes(j + 1)) { // 1-index
+			let skippedIndex = j + 1 + offset; // 1-indexed
+			if(indeces.includes(skippedIndex)) { // 1-index
 				out.push(false);
+
+				// super hacky workaround for skipping two in a row.
+				if(indeces.includes(skippedIndex + 1)) { // 1-index
+					out.push(false);
+					offset++;
+				}
+				offset++;
 			}
+
 			out.push(results[j]);
 		}
 		return out;
@@ -365,7 +375,7 @@ module.exports = function(eleventyConfig) {
 
 		return html.join("");
 	});
-	
+
 	eleventyConfig.addFilter("toJSON", function(obj) {
 		return JSON.stringify(obj);
 	});
@@ -379,6 +389,9 @@ module.exports = function(eleventyConfig) {
 	}
 	eleventyConfig.addFilter("generatorImageUrl", (url) => {
 		return `https://v1.generator.11ty.dev/image/${encodeURIComponent(url)}/${getWeeklyServiceCacheBuster()}/`;
+	});
+	eleventyConfig.addFilter("hostingImageUrl", (url) => {
+		return `https://v1.builtwith.11ty.dev/${encodeURIComponent(url)}/image/host/`;
 	});
 
 	eleventyConfig.addPairedShortcode("starterMessage", (htmlContent) => {

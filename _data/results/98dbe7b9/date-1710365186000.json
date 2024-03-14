@@ -1,0 +1,67 @@
+{
+  "url": "https://www.hawksworx.com/",
+  "requestedUrl": "https://www.hawksworx.com/",
+  "timestamp": 1710372707321,
+  "ranks": {
+    "hundos": 668,
+    "performance": 395,
+    "accessibility": 740,
+    "cumulative": 664
+  },
+  "lighthouse": {
+    "version": "11.6.0",
+    "performance": 0.99,
+    "accessibility": 0.93,
+    "bestPractices": 0.96,
+    "seo": 0.92,
+    "total": 380
+  },
+  "firstContentfulPaint": 1400.538,
+  "firstMeaningfulPaint": 1400.538,
+  "speedIndex": 1447.262945998144,
+  "largestContentfulPaint": 1797.538,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1400.538,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 100.219,
+  "weight": {
+    "summary": "9 requests • 85.6 KiB",
+    "total": 87646,
+    "image": 70474,
+    "imageCount": 2,
+    "script": 1026,
+    "scriptCount": 4,
+    "document": 2653,
+    "font": 10192,
+    "fontCount": 1,
+    "stylesheet": 3301,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 280,
+    "+weight.total": 694,
+    "-weight.document": 153,
+    "+weight.document": 792,
+    "-weight.script": 39,
+    "+weight.script": 652,
+    "-weight.image": 293,
+    "+weight.image": 455,
+    "-weight.font": 19,
+    "+weight.font": 643,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 431,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 326
+  },
+  "axe": {
+    "passes": 177,
+    "violations": 7
+  }
+}

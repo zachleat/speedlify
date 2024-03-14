@@ -1,0 +1,67 @@
+{
+  "url": "https://mlcommons.org/",
+  "requestedUrl": "https://mlcommons.org/en/",
+  "timestamp": 1710397566539,
+  "ranks": {
+    "hundos": 923,
+    "performance": 809,
+    "accessibility": 936,
+    "cumulative": 924
+  },
+  "lighthouse": {
+    "version": "11.6.0",
+    "performance": 0.82,
+    "accessibility": 0.77,
+    "bestPractices": 0.78,
+    "seo": 0.93,
+    "total": 330
+  },
+  "firstContentfulPaint": 2394.6195000000002,
+  "firstMeaningfulPaint": 2447.1195000000002,
+  "speedIndex": 4678.365869012165,
+  "largestContentfulPaint": 3036.6195000000002,
+  "totalBlockingTime": 304.5,
+  "cumulativeLayoutShift": 0.006828556892810564,
+  "timeToInteractive": 8348.546499999999,
+  "maxPotentialFirstInputDelay": 175,
+  "timeToFirstByte": 75.045,
+  "weight": {
+    "summary": "149 requests • 1.5 MiB",
+    "total": 1572847,
+    "image": 774507,
+    "imageCount": 71,
+    "script": 460505,
+    "scriptCount": 36,
+    "document": 78447,
+    "font": 110866,
+    "fontCount": 5,
+    "stylesheet": 131582,
+    "stylesheetCount": 16,
+    "thirdParty": 517055,
+    "thirdPartyCount": 4
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 860,
+    "+weight.total": 114,
+    "-weight.document": 920,
+    "+weight.document": 25,
+    "-weight.script": 648,
+    "+weight.script": 43,
+    "-weight.image": 635,
+    "+weight.image": 113,
+    "-weight.font": 478,
+    "+weight.font": 184,
+    "+weight.fontCount": 11,
+    "-timeToFirstByte": 331,
+    "-totalBlockingTime": 211,
+    "-largestContentfulPaint": 807
+  },
+  "axe": {
+    "passes": 735,
+    "violations": 14
+  }
+}

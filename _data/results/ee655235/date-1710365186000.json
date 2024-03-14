@@ -1,0 +1,67 @@
+{
+  "url": "https://jerseycitybitcoin.com/",
+  "requestedUrl": "https://jerseycitybitcoin.com/",
+  "timestamp": 1710379426753,
+  "ranks": {
+    "hundos": 948,
+    "performance": 622,
+    "accessibility": 970,
+    "cumulative": 948
+  },
+  "lighthouse": {
+    "version": "11.6.0",
+    "performance": 0.95,
+    "accessibility": 0.59,
+    "bestPractices": 0.78,
+    "seo": 0.81,
+    "total": 313
+  },
+  "firstContentfulPaint": 1844.8159999999998,
+  "firstMeaningfulPaint": 2640.654,
+  "speedIndex": 2482.86964199462,
+  "largestContentfulPaint": 2640.654,
+  "totalBlockingTime": 66.5,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 3808.1765000000005,
+  "maxPotentialFirstInputDelay": 106,
+  "timeToFirstByte": 541.173,
+  "weight": {
+    "summary": "23 requests • 289.2 KiB",
+    "total": 296186,
+    "image": 443,
+    "imageCount": 1,
+    "script": 272463,
+    "scriptCount": 7,
+    "document": 2382,
+    "font": 11567,
+    "fontCount": 1,
+    "stylesheet": 6638,
+    "stylesheetCount": 8,
+    "thirdParty": 284174,
+    "thirdPartyCount": 6
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 598,
+    "+weight.total": 376,
+    "-weight.document": 125,
+    "+weight.document": 820,
+    "-weight.script": 610,
+    "+weight.script": 81,
+    "-weight.image": 8,
+    "+weight.image": 740,
+    "-weight.font": 23,
+    "+weight.font": 639,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 959,
+    "-totalBlockingTime": 111,
+    "-largestContentfulPaint": 777
+  },
+  "axe": {
+    "passes": 99,
+    "violations": 55
+  }
+}

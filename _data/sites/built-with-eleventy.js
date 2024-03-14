@@ -39,17 +39,14 @@ module.exports = async function() {
 		// this was a bug when two different URLs resolved to the same URL and conflicted in resolvedUrl results.
 		// 1-indexed
 		skipIndeces: [
-			262, // astro
-			330 - 1,
-			366 - 2, // astro
-			493 - 3, // hugo
-			852 - 4, // ?
-			856 - 5, // meetup
-			858 - 6, // wordpress
-			880 - 7, // xlog
-			882 - 8, // web.dev
-			892 - 9, // ?
-			915 - 10, // ?
+			314, // astro
+			445, // astro
+			609, // astro
+			679, // astro
+			706, // hugo
+			707, // astro
+			969, // wordpress
+			973, // ?
 		]
 	};
 };

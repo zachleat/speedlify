@@ -1,0 +1,67 @@
+{
+  "url": "https://www.matuzo.at/",
+  "requestedUrl": "https://www.matuzo.at/",
+  "timestamp": 1710372329055,
+  "ranks": {
+    "hundos": 279,
+    "performance": 447,
+    "accessibility": 253,
+    "cumulative": 256
+  },
+  "lighthouse": {
+    "version": "11.6.0",
+    "performance": 0.99,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 399
+  },
+  "firstContentfulPaint": 1457.1375000000003,
+  "firstMeaningfulPaint": 1457.1375000000003,
+  "speedIndex": 2469.7693980006575,
+  "largestContentfulPaint": 1457.1375000000003,
+  "totalBlockingTime": 56.48750000000007,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1457.1375000000003,
+  "maxPotentialFirstInputDelay": 91.5,
+  "timeToFirstByte": 203.43700000000007,
+  "weight": {
+    "summary": "5 requests • 15.8 KiB",
+    "total": 16131,
+    "image": 0,
+    "imageCount": 0,
+    "script": 6247,
+    "scriptCount": 1,
+    "document": 2174,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 7710,
+    "stylesheetCount": 3,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 93,
+    "+weight.total": 881,
+    "-weight.document": 101,
+    "+weight.document": 844,
+    "-weight.script": 208,
+    "+weight.script": 483,
+    "-weight.image": 1,
+    "+weight.image": 748,
+    "-weight.font": 1,
+    "+weight.font": 662,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 717,
+    "-totalBlockingTime": 95,
+    "-largestContentfulPaint": 615
+  },
+  "axe": {
+    "passes": 164,
+    "violations": 0
+  }
+}

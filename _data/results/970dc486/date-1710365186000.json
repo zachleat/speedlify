@@ -1,0 +1,67 @@
+{
+  "url": "https://alex.zappa.dev/",
+  "requestedUrl": "https://alex.zappa.dev/",
+  "timestamp": 1710376504039,
+  "ranks": {
+    "hundos": 143,
+    "performance": 112,
+    "accessibility": 377,
+    "cumulative": 187
+  },
+  "lighthouse": {
+    "version": "11.6.0",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 1077.566,
+  "firstMeaningfulPaint": 1096.066,
+  "speedIndex": 1077.566,
+  "largestContentfulPaint": 1114.566,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1096.066,
+  "maxPotentialFirstInputDelay": 37,
+  "timeToFirstByte": 103.374,
+  "weight": {
+    "summary": "11 requests • 112.8 KiB",
+    "total": 115524,
+    "image": 1696,
+    "imageCount": 1,
+    "script": 24082,
+    "scriptCount": 2,
+    "document": 13321,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 345,
+    "+weight.total": 629,
+    "-weight.document": 726,
+    "+weight.document": 219,
+    "-weight.script": 344,
+    "+weight.script": 347,
+    "-weight.image": 45,
+    "+weight.image": 703,
+    "-weight.font": 1,
+    "+weight.font": 662,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 441,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 172
+  },
+  "axe": {
+    "passes": 436,
+    "violations": 1
+  }
+}

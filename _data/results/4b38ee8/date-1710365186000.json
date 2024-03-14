@@ -1,0 +1,67 @@
+{
+  "url": "https://demo.xiyu.pro/",
+  "requestedUrl": "https://demo.xiyu.pro/",
+  "timestamp": 1710387689800,
+  "ranks": {
+    "hundos": 708,
+    "performance": 579,
+    "accessibility": 262,
+    "cumulative": 703
+  },
+  "lighthouse": {
+    "version": "11.6.0",
+    "performance": 0.96,
+    "accessibility": 1,
+    "bestPractices": 0.81,
+    "seo": 1,
+    "total": 377
+  },
+  "firstContentfulPaint": 1093.703,
+  "firstMeaningfulPaint": 1093.703,
+  "speedIndex": 1425.5676840789322,
+  "largestContentfulPaint": 1671.533,
+  "totalBlockingTime": 219,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1940.533,
+  "maxPotentialFirstInputDelay": 269,
+  "timeToFirstByte": 83.57399999999998,
+  "weight": {
+    "summary": "22 requests • 55.9 KiB",
+    "total": 57279,
+    "image": 0,
+    "imageCount": 0,
+    "script": 13207,
+    "scriptCount": 3,
+    "document": 2619,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 1943,
+    "stylesheetCount": 1,
+    "thirdParty": 7081,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 209,
+    "+weight.total": 765,
+    "-weight.document": 149,
+    "+weight.document": 796,
+    "-weight.script": 276,
+    "+weight.script": 415,
+    "-weight.image": 1,
+    "+weight.image": 748,
+    "-weight.font": 1,
+    "+weight.font": 662,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 384,
+    "-totalBlockingTime": 188,
+    "-largestContentfulPaint": 640
+  },
+  "axe": {
+    "passes": 150,
+    "violations": 0
+  }
+}

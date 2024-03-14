@@ -1,0 +1,67 @@
+{
+  "url": "https://hydrogen.design/en/",
+  "requestedUrl": "https://hydrogen.design/en/",
+  "timestamp": 1710373375559,
+  "ranks": {
+    "hundos": 453,
+    "performance": 489,
+    "accessibility": 721,
+    "cumulative": 463
+  },
+  "lighthouse": {
+    "version": "11.6.0",
+    "performance": 0.98,
+    "accessibility": 0.94,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 392
+  },
+  "firstContentfulPaint": 1882.995,
+  "firstMeaningfulPaint": 1882.995,
+  "speedIndex": 1882.995,
+  "largestContentfulPaint": 1882.995,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.0024773593108924907,
+  "timeToInteractive": 1882.995,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 87.131,
+  "weight": {
+    "summary": "7 requests • 96.4 KiB",
+    "total": 98682,
+    "image": 0,
+    "imageCount": 0,
+    "script": 2148,
+    "scriptCount": 1,
+    "document": 34655,
+    "font": 47101,
+    "fontCount": 1,
+    "stylesheet": 14778,
+    "stylesheetCount": 4,
+    "thirdParty": 48448,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 308,
+    "+weight.total": 666,
+    "-weight.document": 872,
+    "+weight.document": 73,
+    "-weight.script": 113,
+    "+weight.script": 578,
+    "-weight.image": 1,
+    "+weight.image": 748,
+    "-weight.font": 253,
+    "+weight.font": 409,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 392,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 350
+  },
+  "axe": {
+    "passes": 775,
+    "violations": 20
+  }
+}

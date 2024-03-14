@@ -1,0 +1,67 @@
+{
+  "url": "https://www.boldandfriendly.de/",
+  "requestedUrl": "https://www.boldandfriendly.de/",
+  "timestamp": 1710387722252,
+  "ranks": {
+    "hundos": 664,
+    "performance": 778,
+    "accessibility": 680,
+    "cumulative": 669
+  },
+  "lighthouse": {
+    "version": "11.6.0",
+    "performance": 0.85,
+    "accessibility": 0.95,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 380
+  },
+  "firstContentfulPaint": 1474.2375000000002,
+  "firstMeaningfulPaint": 1795.9320000000002,
+  "speedIndex": 1962.6035086270037,
+  "largestContentfulPaint": 3496.6335000000004,
+  "totalBlockingTime": 272.7170000000001,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 3496.6335000000004,
+  "maxPotentialFirstInputDelay": 324,
+  "timeToFirstByte": 59.595999999999975,
+  "weight": {
+    "summary": "25 requests • 18.4 MiB",
+    "total": 19279251,
+    "image": 75794,
+    "imageCount": 14,
+    "script": 51182,
+    "scriptCount": 7,
+    "document": 91389,
+    "font": 275602,
+    "fontCount": 1,
+    "stylesheet": 18310,
+    "stylesheetCount": 1,
+    "thirdParty": 1370,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 968,
+    "+weight.total": 6,
+    "-weight.document": 931,
+    "+weight.document": 14,
+    "-weight.script": 401,
+    "+weight.script": 290,
+    "-weight.image": 307,
+    "+weight.image": 441,
+    "-weight.font": 609,
+    "+weight.font": 53,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 184,
+    "-totalBlockingTime": 205,
+    "-largestContentfulPaint": 831
+  },
+  "axe": {
+    "passes": 805,
+    "violations": 37
+  }
+}

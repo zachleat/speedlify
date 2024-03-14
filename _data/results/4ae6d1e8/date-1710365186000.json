@@ -1,0 +1,67 @@
+{
+  "url": "https://shimma.info/",
+  "requestedUrl": "https://shimma.info/",
+  "timestamp": 1710374691358,
+  "ranks": {
+    "hundos": 909,
+    "performance": 907,
+    "accessibility": 910,
+    "cumulative": 909
+  },
+  "lighthouse": {
+    "version": "11.6.0",
+    "performance": 0.68,
+    "accessibility": 0.81,
+    "bestPractices": 0.96,
+    "seo": 0.93,
+    "total": 338
+  },
+  "firstContentfulPaint": 2209.802,
+  "firstMeaningfulPaint": 2209.802,
+  "speedIndex": 3708.8446448671325,
+  "largestContentfulPaint": 6770.682000000001,
+  "totalBlockingTime": 256.5,
+  "cumulativeLayoutShift": 0.008751116129947828,
+  "timeToInteractive": 5262.192,
+  "maxPotentialFirstInputDelay": 206,
+  "timeToFirstByte": 173.26200000000006,
+  "weight": {
+    "summary": "22 requests • 2.0 MiB",
+    "total": 2125615,
+    "image": 1662361,
+    "imageCount": 7,
+    "script": 288381,
+    "scriptCount": 5,
+    "document": 6944,
+    "font": 95679,
+    "fontCount": 3,
+    "stylesheet": 20760,
+    "stylesheetCount": 2,
+    "thirdParty": 276404,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 890,
+    "+weight.total": 84,
+    "-weight.document": 526,
+    "+weight.document": 419,
+    "-weight.script": 620,
+    "+weight.script": 71,
+    "-weight.image": 683,
+    "+weight.image": 65,
+    "-weight.font": 443,
+    "+weight.font": 219,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 679,
+    "-totalBlockingTime": 199,
+    "-largestContentfulPaint": 927
+  },
+  "axe": {
+    "passes": 548,
+    "violations": 3
+  }
+}

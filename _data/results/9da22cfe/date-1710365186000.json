@@ -1,0 +1,67 @@
+{
+  "url": "https://tc39.es/",
+  "requestedUrl": "https://tc39.es/",
+  "timestamp": 1710386227977,
+  "ranks": {
+    "hundos": 827,
+    "performance": 797,
+    "accessibility": 620,
+    "cumulative": 827
+  },
+  "lighthouse": {
+    "version": "11.6.0",
+    "performance": 0.83,
+    "accessibility": 0.95,
+    "bestPractices": 1,
+    "seo": 0.83,
+    "total": 361
+  },
+  "firstContentfulPaint": 1564.112,
+  "firstMeaningfulPaint": 1564.112,
+  "speedIndex": 1564.112,
+  "largestContentfulPaint": 1564.112,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.32963871231705716,
+  "timeToInteractive": 1564.112,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 66.78299999999999,
+  "weight": {
+    "summary": "12 requests • 127.3 KiB",
+    "total": 130348,
+    "image": 15677,
+    "imageCount": 4,
+    "script": 1043,
+    "scriptCount": 1,
+    "document": 9071,
+    "font": 97482,
+    "fontCount": 3,
+    "stylesheet": 7075,
+    "stylesheetCount": 3,
+    "thirdParty": 99899,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 372,
+    "+weight.total": 602,
+    "-weight.document": 625,
+    "+weight.document": 320,
+    "-weight.script": 41,
+    "+weight.script": 650,
+    "-weight.image": 136,
+    "+weight.image": 612,
+    "-weight.font": 449,
+    "+weight.font": 213,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 260,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 255
+  },
+  "axe": {
+    "passes": 865,
+    "violations": 1
+  }
+}

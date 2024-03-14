@@ -1,0 +1,66 @@
+{
+  "url": "https://runawayracing.com/",
+  "requestedUrl": "https://runawayracing.com/",
+  "timestamp": 1710383938595,
+  "ranks": {
+    "hundos": 921,
+    "performance": 915,
+    "accessibility": 909,
+    "cumulative": 921
+  },
+  "lighthouse": {
+    "version": "11.6.0",
+    "performance": 0.67,
+    "accessibility": 0.82,
+    "bestPractices": 1,
+    "seo": 0.82,
+    "total": 331
+  },
+  "firstContentfulPaint": 2709.0671685118596,
+  "firstMeaningfulPaint": 2873.689619065418,
+  "speedIndex": 4920.608765869413,
+  "largestContentfulPaint": 19386.46608425593,
+  "totalBlockingTime": 90,
+  "cumulativeLayoutShift": 0.003965935205834634,
+  "timeToInteractive": 7047.215681365915,
+  "maxPotentialFirstInputDelay": 142,
+  "timeToFirstByte": 287.43399999999997,
+  "weight": {
+    "summary": "97 requests • 8.3 MiB",
+    "total": 8690528,
+    "image": 8257598,
+    "imageCount": 51,
+    "script": 271975,
+    "scriptCount": 11,
+    "document": 46591,
+    "font": 63630,
+    "fontCount": 6,
+    "stylesheet": 41174,
+    "stylesheetCount": 8,
+    "thirdParty": 8302169,
+    "thirdPartyCount": 7
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 956,
+    "+weight.total": 18,
+    "-weight.document": 896,
+    "+weight.document": 49,
+    "-weight.script": 609,
+    "+weight.script": 82,
+    "-weight.image": 741,
+    "+weight.image": 7,
+    "-weight.font": 343,
+    "+weight.font": 319,
+    "+weight.fontCount": 10,
+    "-timeToFirstByte": 794,
+    "-totalBlockingTime": 134,
+    "-largestContentfulPaint": 970
+  },
+  "axe": {
+    "error": "{\"name\":\"TimeoutError\"}"
+  }
+}

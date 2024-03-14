@@ -1,0 +1,67 @@
+{
+  "url": "https://moritzgiessmann.de/blog/",
+  "requestedUrl": "https://moritzgiessmann.de/blog/",
+  "timestamp": 1710368511177,
+  "ranks": {
+    "hundos": 382,
+    "performance": 344,
+    "accessibility": 670,
+    "cumulative": 395
+  },
+  "lighthouse": {
+    "version": "11.6.0",
+    "performance": 1,
+    "accessibility": 0.95,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 395
+  },
+  "firstContentfulPaint": 1063.577,
+  "firstMeaningfulPaint": 1063.577,
+  "speedIndex": 2264.1831393067196,
+  "largestContentfulPaint": 1063.577,
+  "totalBlockingTime": 2.5,
+  "cumulativeLayoutShift": 0.010873832971529431,
+  "timeToInteractive": 1091.077,
+  "maxPotentialFirstInputDelay": 55,
+  "timeToFirstByte": 257.755,
+  "weight": {
+    "summary": "13 requests • 329.7 KiB",
+    "total": 337581,
+    "image": 39907,
+    "imageCount": 2,
+    "script": 23140,
+    "scriptCount": 2,
+    "document": 11555,
+    "font": 245397,
+    "fontCount": 6,
+    "stylesheet": 17281,
+    "stylesheetCount": 1,
+    "thirdParty": 22794,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 629,
+    "+weight.total": 345,
+    "-weight.document": 691,
+    "+weight.document": 254,
+    "-weight.script": 333,
+    "+weight.script": 358,
+    "-weight.image": 229,
+    "+weight.image": 519,
+    "-weight.font": 596,
+    "+weight.font": 66,
+    "+weight.fontCount": 10,
+    "-timeToFirstByte": 765,
+    "-totalBlockingTime": 6,
+    "-largestContentfulPaint": 553
+  },
+  "axe": {
+    "passes": 355,
+    "violations": 16
+  }
+}

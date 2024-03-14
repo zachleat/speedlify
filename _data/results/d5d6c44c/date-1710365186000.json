@@ -1,0 +1,67 @@
+{
+  "url": "https://zerozoo-a.github.io/",
+  "requestedUrl": "https://zerozoo-a.github.io/",
+  "timestamp": 1710381489554,
+  "ranks": {
+    "hundos": 660,
+    "performance": 145,
+    "accessibility": 870,
+    "cumulative": 660
+  },
+  "lighthouse": {
+    "version": "11.6.0",
+    "performance": 1,
+    "accessibility": 0.87,
+    "bestPractices": 1,
+    "seo": 0.93,
+    "total": 380
+  },
+  "firstContentfulPaint": 1147.7105000000001,
+  "firstMeaningfulPaint": 1147.7105000000001,
+  "speedIndex": 1147.7105000000001,
+  "largestContentfulPaint": 1202.7105000000001,
+  "totalBlockingTime": 17,
+  "cumulativeLayoutShift": 0.0419386295286338,
+  "timeToInteractive": 2391.5445,
+  "maxPotentialFirstInputDelay": 84,
+  "timeToFirstByte": 86.37800000000001,
+  "weight": {
+    "summary": "9 requests • 301.2 KiB",
+    "total": 308426,
+    "image": 0,
+    "imageCount": 2,
+    "script": 277955,
+    "scriptCount": 4,
+    "document": 29966,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 258864,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 608,
+    "+weight.total": 366,
+    "-weight.document": 861,
+    "+weight.document": 84,
+    "-weight.script": 612,
+    "+weight.script": 79,
+    "-weight.image": 1,
+    "+weight.image": 748,
+    "-weight.font": 1,
+    "+weight.font": 662,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 391,
+    "-totalBlockingTime": 34,
+    "-largestContentfulPaint": 582
+  },
+  "axe": {
+    "passes": 249,
+    "violations": 17
+  }
+}

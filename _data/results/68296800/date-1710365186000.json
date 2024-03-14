@@ -1,0 +1,67 @@
+{
+  "url": "https://cafeiso.com/",
+  "requestedUrl": "https://cafeiso.com/",
+  "timestamp": 1710371989140,
+  "ranks": {
+    "hundos": 646,
+    "performance": 674,
+    "accessibility": 367,
+    "cumulative": 647
+  },
+  "lighthouse": {
+    "version": "11.6.0",
+    "performance": 0.93,
+    "accessibility": 1,
+    "bestPractices": 0.96,
+    "seo": 0.92,
+    "total": 381
+  },
+  "firstContentfulPaint": 2623.0660000000003,
+  "firstMeaningfulPaint": 2623.0660000000003,
+  "speedIndex": 2623.0660000000003,
+  "largestContentfulPaint": 2623.0660000000003,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.006625832631876118,
+  "timeToInteractive": 2623.0660000000003,
+  "maxPotentialFirstInputDelay": 48,
+  "timeToFirstByte": 61.53199999999998,
+  "weight": {
+    "summary": "21 requests • 891.5 KiB",
+    "total": 912936,
+    "image": 632568,
+    "imageCount": 8,
+    "script": 101325,
+    "scriptCount": 5,
+    "document": 84096,
+    "font": 87080,
+    "fontCount": 3,
+    "stylesheet": 7524,
+    "stylesheetCount": 3,
+    "thirdParty": 325465,
+    "thirdPartyCount": 6
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 800,
+    "+weight.total": 174,
+    "-weight.document": 924,
+    "+weight.document": 21,
+    "-weight.script": 491,
+    "+weight.script": 200,
+    "-weight.image": 614,
+    "+weight.image": 134,
+    "-weight.font": 426,
+    "+weight.font": 236,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 220,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 448
+  },
+  "axe": {
+    "passes": 610,
+    "violations": 1
+  }
+}

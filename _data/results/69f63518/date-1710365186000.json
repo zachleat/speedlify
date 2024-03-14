@@ -1,0 +1,67 @@
+{
+  "url": "https://rknight.me/",
+  "requestedUrl": "https://rknight.me/",
+  "timestamp": 1710385435650,
+  "ranks": {
+    "hundos": 547,
+    "performance": 727,
+    "accessibility": 537,
+    "cumulative": 555
+  },
+  "lighthouse": {
+    "version": "11.6.0",
+    "performance": 0.9,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 0.98,
+    "total": 388
+  },
+  "firstContentfulPaint": 1632.1795000000002,
+  "firstMeaningfulPaint": 1632.1795000000002,
+  "speedIndex": 2188.258710990834,
+  "largestContentfulPaint": 3523.5135000000005,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1632.1795000000002,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 289.76599999999996,
+  "weight": {
+    "summary": "26 requests • 581.7 KiB",
+    "total": 595705,
+    "image": 432539,
+    "imageCount": 21,
+    "script": 2498,
+    "scriptCount": 1,
+    "document": 21847,
+    "font": 131701,
+    "fontCount": 2,
+    "stylesheet": 7120,
+    "stylesheetCount": 1,
+    "thirdParty": 233133,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 741,
+    "+weight.total": 233,
+    "-weight.document": 830,
+    "+weight.document": 115,
+    "-weight.script": 120,
+    "+weight.script": 571,
+    "-weight.image": 576,
+    "+weight.image": 172,
+    "-weight.font": 508,
+    "+weight.font": 154,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 799,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 485
+  },
+  "axe": {
+    "passes": 621,
+    "violations": 12
+  }
+}

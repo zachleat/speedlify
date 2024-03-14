@@ -1,0 +1,67 @@
+{
+  "url": "https://clioandcalliope.com/",
+  "requestedUrl": "https://clioandcalliope.com/",
+  "timestamp": 1710371271101,
+  "ranks": {
+    "hundos": 770,
+    "performance": 764,
+    "accessibility": 674,
+    "cumulative": 770
+  },
+  "lighthouse": {
+    "version": "11.6.0",
+    "performance": 0.87,
+    "accessibility": 0.95,
+    "bestPractices": 0.96,
+    "seo": 0.92,
+    "total": 370
+  },
+  "firstContentfulPaint": 2174.3735,
+  "firstMeaningfulPaint": 2174.3735,
+  "speedIndex": 2389.3218144352104,
+  "largestContentfulPaint": 3686.3735000000006,
+  "totalBlockingTime": 36,
+  "cumulativeLayoutShift": 0.0019499890485739622,
+  "timeToInteractive": 3386.3735,
+  "maxPotentialFirstInputDelay": 82,
+  "timeToFirstByte": 154.318,
+  "weight": {
+    "summary": "17 requests • 380.0 KiB",
+    "total": 389171,
+    "image": 130651,
+    "imageCount": 6,
+    "script": 178601,
+    "scriptCount": 3,
+    "document": 7984,
+    "font": 68019,
+    "fontCount": 4,
+    "stylesheet": 3661,
+    "stylesheetCount": 1,
+    "thirdParty": 178856,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 651,
+    "+weight.total": 323,
+    "-weight.document": 584,
+    "+weight.document": 361,
+    "-weight.script": 565,
+    "+weight.script": 126,
+    "-weight.image": 377,
+    "+weight.image": 371,
+    "-weight.font": 363,
+    "+weight.font": 299,
+    "+weight.fontCount": 12,
+    "-timeToFirstByte": 621,
+    "-totalBlockingTime": 67,
+    "-largestContentfulPaint": 841
+  },
+  "axe": {
+    "passes": 331,
+    "violations": 19
+  }
+}

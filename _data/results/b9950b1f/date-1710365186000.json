@@ -1,0 +1,67 @@
+{
+  "url": "https://www.ericcarlisle.com/",
+  "requestedUrl": "https://www.ericcarlisle.com/",
+  "timestamp": 1710399314501,
+  "ranks": {
+    "hundos": 36,
+    "performance": 61,
+    "accessibility": 229,
+    "cumulative": 21
+  },
+  "lighthouse": {
+    "version": "11.6.0",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 965.118,
+  "firstMeaningfulPaint": 965.118,
+  "speedIndex": 965.118,
+  "largestContentfulPaint": 1115.118,
+  "totalBlockingTime": 31,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 2542.834,
+  "maxPotentialFirstInputDelay": 81,
+  "timeToFirstByte": 109.86999999999999,
+  "weight": {
+    "summary": "8 requests • 154.4 KiB",
+    "total": 158143,
+    "image": 20246,
+    "imageCount": 1,
+    "script": 97553,
+    "scriptCount": 2,
+    "document": 13673,
+    "font": 26414,
+    "fontCount": 3,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 93504,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 416,
+    "+weight.total": 558,
+    "-weight.document": 732,
+    "+weight.document": 213,
+    "-weight.script": 484,
+    "+weight.script": 207,
+    "-weight.image": 158,
+    "+weight.image": 590,
+    "-weight.font": 113,
+    "+weight.font": 549,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 451,
+    "-totalBlockingTime": 58,
+    "-largestContentfulPaint": 566
+  },
+  "axe": {
+    "passes": 184,
+    "violations": 0
+  }
+}

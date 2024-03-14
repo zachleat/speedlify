@@ -1,0 +1,67 @@
+{
+  "url": "https://reachlightspeed.com/",
+  "requestedUrl": "https://reachlightspeed.com/",
+  "timestamp": 1710391327765,
+  "ranks": {
+    "hundos": 90,
+    "performance": 163,
+    "accessibility": 503,
+    "cumulative": 212
+  },
+  "lighthouse": {
+    "version": "11.6.0",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 1003.0415000000002,
+  "firstMeaningfulPaint": 1003.0415000000002,
+  "speedIndex": 1185.7251569943187,
+  "largestContentfulPaint": 1003.0415000000002,
+  "totalBlockingTime": 69,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 2300.8745,
+  "maxPotentialFirstInputDelay": 118,
+  "timeToFirstByte": 87.15499999999997,
+  "weight": {
+    "summary": "8 requests • 131.1 KiB",
+    "total": 134227,
+    "image": 0,
+    "imageCount": 0,
+    "script": 93154,
+    "scriptCount": 1,
+    "document": 5753,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 93410,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 378,
+    "+weight.total": 596,
+    "-weight.document": 443,
+    "+weight.document": 502,
+    "-weight.script": 474,
+    "+weight.script": 217,
+    "-weight.image": 1,
+    "+weight.image": 748,
+    "-weight.font": 1,
+    "+weight.font": 662,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 393,
+    "-totalBlockingTime": 116,
+    "-largestContentfulPaint": 537
+  },
+  "axe": {
+    "passes": 90,
+    "violations": 4
+  }
+}

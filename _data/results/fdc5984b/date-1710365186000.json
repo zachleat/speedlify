@@ -1,0 +1,67 @@
+{
+  "url": "https://flamedfury.com/",
+  "requestedUrl": "https://flamedfury.com/",
+  "timestamp": 1710399278749,
+  "ranks": {
+    "hundos": 540,
+    "performance": 613,
+    "accessibility": 657,
+    "cumulative": 541
+  },
+  "lighthouse": {
+    "version": "11.6.0",
+    "performance": 0.95,
+    "accessibility": 0.95,
+    "bestPractices": 1,
+    "seo": 0.99,
+    "total": 389
+  },
+  "firstContentfulPaint": 1845.4374999999998,
+  "firstMeaningfulPaint": 1845.4374999999998,
+  "speedIndex": 1845.4374999999998,
+  "largestContentfulPaint": 1845.4374999999998,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.10796382740145484,
+  "timeToInteractive": 1845.4374999999998,
+  "maxPotentialFirstInputDelay": 24.999999999999773,
+  "timeToFirstByte": 70.979,
+  "weight": {
+    "summary": "11 requests • 60.5 KiB",
+    "total": 61967,
+    "image": 0,
+    "imageCount": 0,
+    "script": 12647,
+    "scriptCount": 6,
+    "document": 8646,
+    "font": 30961,
+    "fontCount": 1,
+    "stylesheet": 8915,
+    "stylesheetCount": 1,
+    "thirdParty": 11550,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 220,
+    "+weight.total": 754,
+    "-weight.document": 609,
+    "+weight.document": 336,
+    "-weight.script": 272,
+    "+weight.script": 419,
+    "-weight.image": 1,
+    "+weight.image": 748,
+    "-weight.font": 140,
+    "+weight.font": 522,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 298,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 339
+  },
+  "axe": {
+    "passes": 386,
+    "violations": 7
+  }
+}

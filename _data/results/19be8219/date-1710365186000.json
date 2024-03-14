@@ -1,0 +1,67 @@
+{
+  "url": "http://lewicowo.pl/",
+  "requestedUrl": "http://lewicowo.pl/",
+  "timestamp": 1710391250782,
+  "ranks": {
+    "hundos": 952,
+    "performance": 902,
+    "accessibility": 961,
+    "cumulative": 954
+  },
+  "lighthouse": {
+    "version": "11.6.0",
+    "performance": 0.69,
+    "accessibility": 0.7,
+    "bestPractices": 0.81,
+    "seo": 0.85,
+    "total": 305
+  },
+  "firstContentfulPaint": 983.4340000000007,
+  "firstMeaningfulPaint": 983.4340000000007,
+  "speedIndex": 6173.263848006167,
+  "largestContentfulPaint": 5558.434000000001,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.13087647319318743,
+  "timeToInteractive": 983.4340000000007,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 138.17100000000028,
+  "weight": {
+    "summary": "23 requests • 1.8 MiB",
+    "total": 1920660,
+    "image": 1885032,
+    "imageCount": 21,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 34269,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 1359,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 882,
+    "+weight.total": 92,
+    "-weight.document": 871,
+    "+weight.document": 74,
+    "-weight.script": 1,
+    "+weight.script": 691,
+    "-weight.image": 693,
+    "+weight.image": 55,
+    "-weight.font": 1,
+    "+weight.font": 662,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 543,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 500
+  },
+  "axe": {
+    "passes": 641,
+    "violations": 82
+  }
+}

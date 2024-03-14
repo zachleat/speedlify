@@ -1,0 +1,67 @@
+{
+  "url": "https://www.cyberpunk.co.uk/",
+  "requestedUrl": "https://www.cyberpunk.co.uk/",
+  "timestamp": 1710380543669,
+  "ranks": {
+    "hundos": 501,
+    "performance": 720,
+    "accessibility": 322,
+    "cumulative": 499
+  },
+  "lighthouse": {
+    "version": "11.6.0",
+    "performance": 0.9,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 390
+  },
+  "firstContentfulPaint": 1047.1015,
+  "firstMeaningfulPaint": 1047.1015,
+  "speedIndex": 1077.137207008338,
+  "largestContentfulPaint": 3699.6130000000003,
+  "totalBlockingTime": 29,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 3508.0780000000004,
+  "maxPotentialFirstInputDelay": 86,
+  "timeToFirstByte": 76.37900000000002,
+  "weight": {
+    "summary": "13 requests • 333.3 KiB",
+    "total": 341325,
+    "image": 156607,
+    "imageCount": 5,
+    "script": 181813,
+    "scriptCount": 4,
+    "document": 2297,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 183006,
+    "thirdPartyCount": 4
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 631,
+    "+weight.total": 343,
+    "-weight.document": 117,
+    "+weight.document": 828,
+    "-weight.script": 575,
+    "+weight.script": 116,
+    "-weight.image": 413,
+    "+weight.image": 335,
+    "-weight.font": 1,
+    "+weight.font": 662,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 345,
+    "-totalBlockingTime": 56,
+    "-largestContentfulPaint": 843
+  },
+  "axe": {
+    "passes": 88,
+    "violations": 0
+  }
+}

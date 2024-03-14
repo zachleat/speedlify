@@ -1,0 +1,67 @@
+{
+  "url": "https://www.1896gallery.com/",
+  "requestedUrl": "https://www.1896gallery.com/",
+  "timestamp": 1710371156627,
+  "ranks": {
+    "hundos": 908,
+    "performance": 916,
+    "accessibility": 612,
+    "cumulative": 908
+  },
+  "lighthouse": {
+    "version": "11.6.0",
+    "performance": 0.65,
+    "accessibility": 0.96,
+    "bestPractices": 0.78,
+    "seo": 1,
+    "total": 339
+  },
+  "firstContentfulPaint": 1069.1055,
+  "firstMeaningfulPaint": 1084.6055,
+  "speedIndex": 1641.972501003962,
+  "largestContentfulPaint": 3682.2674999999995,
+  "totalBlockingTime": 31,
+  "cumulativeLayoutShift": 1.0037447169362754,
+  "timeToInteractive": 2984.9354999999996,
+  "maxPotentialFirstInputDelay": 67,
+  "timeToFirstByte": 68.41900000000004,
+  "weight": {
+    "summary": "52 requests • 1.2 MiB",
+    "total": 1216287,
+    "image": 970462,
+    "imageCount": 31,
+    "script": 132504,
+    "scriptCount": 7,
+    "document": 9384,
+    "font": 86030,
+    "fontCount": 6,
+    "stylesheet": 17225,
+    "stylesheetCount": 5,
+    "thirdParty": 75051,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 842,
+    "+weight.total": 132,
+    "-weight.document": 637,
+    "+weight.document": 308,
+    "-weight.script": 525,
+    "+weight.script": 166,
+    "-weight.image": 653,
+    "+weight.image": 95,
+    "-weight.font": 423,
+    "+weight.font": 239,
+    "+weight.fontCount": 10,
+    "-timeToFirstByte": 272,
+    "-totalBlockingTime": 58,
+    "-largestContentfulPaint": 840
+  },
+  "axe": {
+    "passes": 682,
+    "violations": 25
+  }
+}

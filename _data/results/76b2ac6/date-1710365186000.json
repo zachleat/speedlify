@@ -1,0 +1,67 @@
+{
+  "url": "https://www.hno-marienplatz.de/",
+  "requestedUrl": "https://www.hno-marienplatz.de/",
+  "timestamp": 1710371579294,
+  "ranks": {
+    "hundos": 248,
+    "performance": 424,
+    "accessibility": 477,
+    "cumulative": 277
+  },
+  "lighthouse": {
+    "version": "11.6.0",
+    "performance": 0.99,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 399
+  },
+  "firstContentfulPaint": 1326.8670000000002,
+  "firstMeaningfulPaint": 1326.8670000000002,
+  "speedIndex": 1880.1747919879438,
+  "largestContentfulPaint": 2032.7860000000003,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1326.8670000000002,
+  "maxPotentialFirstInputDelay": 41,
+  "timeToFirstByte": 200.269,
+  "weight": {
+    "summary": "8 requests • 145.5 KiB",
+    "total": 149012,
+    "image": 39699,
+    "imageCount": 2,
+    "script": 23803,
+    "scriptCount": 2,
+    "document": 61025,
+    "font": 23897,
+    "fontCount": 2,
+    "stylesheet": 588,
+    "stylesheetCount": 1,
+    "thirdParty": 1356,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 399,
+    "+weight.total": 575,
+    "-weight.document": 912,
+    "+weight.document": 33,
+    "-weight.script": 341,
+    "+weight.script": 350,
+    "-weight.image": 227,
+    "+weight.image": 521,
+    "-weight.font": 97,
+    "+weight.font": 565,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 710,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 385
+  },
+  "axe": {
+    "passes": 386,
+    "violations": 3
+  }
+}

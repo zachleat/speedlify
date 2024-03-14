@@ -1,0 +1,67 @@
+{
+  "url": "https://wirgen.dev/",
+  "requestedUrl": "https://wirgen.dev/",
+  "timestamp": 1710374518948,
+  "ranks": {
+    "hundos": 253,
+    "performance": 399,
+    "accessibility": 497,
+    "cumulative": 280
+  },
+  "lighthouse": {
+    "version": "11.6.0",
+    "performance": 0.99,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 399
+  },
+  "firstContentfulPaint": 1281.507,
+  "firstMeaningfulPaint": 1281.507,
+  "speedIndex": 1504.8842680360558,
+  "largestContentfulPaint": 1897.4650000000001,
+  "totalBlockingTime": 11,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 2106.3514999999998,
+  "maxPotentialFirstInputDelay": 72,
+  "timeToFirstByte": 317.60400000000004,
+  "weight": {
+    "summary": "7 requests • 101.0 KiB",
+    "total": 103444,
+    "image": 810,
+    "imageCount": 1,
+    "script": 90105,
+    "scriptCount": 2,
+    "document": 5654,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 6633,
+    "stylesheetCount": 2,
+    "thirdParty": 97790,
+    "thirdPartyCount": 4
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 322,
+    "+weight.total": 652,
+    "-weight.document": 438,
+    "+weight.document": 507,
+    "-weight.script": 465,
+    "+weight.script": 226,
+    "-weight.image": 21,
+    "+weight.image": 727,
+    "-weight.font": 1,
+    "+weight.font": 662,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 829,
+    "-totalBlockingTime": 23,
+    "-largestContentfulPaint": 679
+  },
+  "axe": {
+    "passes": 228,
+    "violations": 4
+  }
+}
