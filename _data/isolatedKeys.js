@@ -2,7 +2,7 @@ const shortHash = require("short-hash");
 const fastglob = require("fast-glob");
 
 module.exports = async function() {
-	let categories = await fastglob("./_data/sites/*.js", {
+	let categories = await fastglob("./_data/sites/!(*.disabled)*.js", {
 		caseSensitiveMatch: false
 	});
 

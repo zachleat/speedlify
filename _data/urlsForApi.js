@@ -1,7 +1,7 @@
 const fastglob = require("fast-glob");
 
 async function getCategoryToUrlMap() {
-	let categories = await fastglob("./_data/sites/*.js", {
+	let categories = await fastglob("./_data/sites/!(*.disabled)*.js", {
 		caseSensitiveMatch: false
 	});
 
