@@ -27,5 +27,6 @@ module.exports = {
 		"https://kit.svelte.dev/",
 		"https://remix.run/",
 		"https://record-collector.net/",
+		"https://www.getzola.org/",
 	]
 };
