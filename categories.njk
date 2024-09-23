@@ -40,9 +40,9 @@ counts:
 
 				{%- set sitePageUrl %}/{{ (sites[vertical].name or vertical) | slug }}/{{ site[newestKey].url | displayUrl | slugify }}/{% endset %}
 
-				<tr class="leaderboard-list-entry{% if site[newestKey].ranks and loop.index != site[newestKey].ranks.cumulative %} leaderboard-list-entry-badrank{% endif %}" id="site-{{ site[key].url | shortHash }}">
+				<tr class="leaderboard-list-entry{% if hundos === 4 and site[newestKey].ranks and loop.index != site[newestKey].ranks.cumulative %} leaderboard-list-entry-badrank{% endif %}" id="site-{{ site[key].url | shortHash }}">
 					<td class="leaderboard-number">
-						<span>#</span>{{ loop.index }}
+						{% if hundos === 4 %}<span>#</span>{{ loop.index }}{% endif %}
 					</td>
 					<td class="leaderboard-hide-md leaderboard-trophies">{% if hundos === 4 %}🏆{% endif %}{% if loop.index0 === 0 %}🥇{% elseif loop.index0 === 1 %}🥈{% elseif loop.index0 === 2 %}🥉{% endif %}</td>
 					{%- set hasRedirect = site[newestKey].requestedUrl and site[newestKey].url != site[newestKey].requestedUrl %}
@@ -72,7 +72,7 @@ counts:
 				{%- else %}
 					{%- set counts = counts | hundoCountTotals(site[newestKey]) %}
 					<td class="leaderboard-score">
-						<is-land on:visible><speedlify-score class="leaderboard-score-circles{% if hundos === 4 %} leaderboard-score-circles-400{% endif %}" raw-data='{{ site[newestKey] | toJSON | safe }}'></speedlify-score></is-land><span class="leaderboard-score-sum leaderboard-number">{% if hundos === 4 %}😍{% else %}{{ site[newestKey] | lighthouseTotal }}{% endif %}</span>
+						<is-land on:visible><speedlify-score class="leaderboard-score-circles{% if hundos === 4 %} leaderboard-score-circles-400{% endif %}" raw-data='{{ site[newestKey] | toJSON | safe }}'></speedlify-score></is-land><span class="leaderboard-score-sum leaderboard-number">{{ site[newestKey] | lighthouseTotal }}</span>
 					</td>
 				{%- endif %}
 					<td class="leaderboard-hide-md"><a href="{{ sitePageUrl }}" class="speedlify-button">Historical Data</a></td>
