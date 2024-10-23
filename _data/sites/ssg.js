@@ -26,8 +26,9 @@ module.exports = {
 		"https://svelte.dev/",
 		"https://remix.run/",
 		"https://record-collector.net/",
+		"https://www.solidjs.com/",
 	],
 	skipUrls: [
-		"https://hexo.io/zh-cn/"
+		"https://hexo.io/zh-cn/",
 	]
 };
