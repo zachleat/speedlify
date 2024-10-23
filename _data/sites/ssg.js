@@ -10,7 +10,6 @@ module.exports = {
 		//           and we can reset chrome with each run instead of
 		//           each site in every run (it’s faster)
 		// Use "site" if sites are all on the same origin and share assets.
-		freshChrome: "run"
 	},
 	urls: [
 		"https://www.11ty.dev/",
@@ -24,8 +23,11 @@ module.exports = {
 		"https://astro.build/",
 		"https://jekyllrb.com/",
 		"https://hexo.io/",
-		"https://kit.svelte.dev/",
+		"https://svelte.dev/",
 		"https://remix.run/",
 		"https://record-collector.net/",
+	],
+	skipUrls: [
+		"https://hexo.io/zh-cn/"
 	]
 };

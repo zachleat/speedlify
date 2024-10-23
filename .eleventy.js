@@ -5,18 +5,37 @@ const getObjectKey = require("./utils/getObjectKey.js");
 const calc = require("./utils/calc.js");
 const Sparkline = require('./utils/sparkline.js');
 
-function hasUrl(urls, requestedUrl) {
+function isUrlMatch(haystackUrls, needleUrl) {
+	if(!Array.isArray(haystackUrls) || haystackUrls.length === 0) {
+		return false;
+	}
+
+	if(needleUrl && typeof needleUrl === "string") {
+		// TODO lowercase just the origins
+		needleUrl = needleUrl.toLowerCase();
+		if(haystackUrls.indexOf(needleUrl) > -1 || needleUrl.endsWith("/") && haystackUrls.indexOf(needleUrl.substr(0, needleUrl.length - 1)) > -1) {
+			return true;
+		}
+	}
+	return false;
+}
+
+function hasUrl(urls, { url, requestedUrl }, skipUrls = []) {
 	// urls comes from sites[vertical].urls, all requestedUrls (may not include trailing slash)
 
 	// TODO lowercase just the origins
-	let lowercaseUrls = urls.map(url => url.toLowerCase());
+	let lowercaseUrls = urls.map(targetUrl => targetUrl.toLowerCase());
 
-	if(requestedUrl && typeof requestedUrl === "string") {
-		// TODO lowercase just the origins
-		requestedUrl = requestedUrl.toLowerCase();
-		if(lowercaseUrls.indexOf(requestedUrl) > -1 || requestedUrl.endsWith("/") && lowercaseUrls.indexOf(requestedUrl.substr(0, requestedUrl.length - 1)) > -1) {
-			return true;
-		}
+	if(isUrlMatch(skipUrls, requestedUrl) || isUrlMatch(skipUrls, url)) {
+		return false;
+	}
+
+	// Requested url matches?
+	if(isUrlMatch(lowercaseUrls, requestedUrl)) {
+		return true;
+	}
+	if(isUrlMatch(lowercaseUrls, url)) {
+		return true;
 	}
 
 	return false;
@@ -192,7 +211,7 @@ module.exports = function(eleventyConfig) {
 
 	eleventyConfig.addFilter("getObjectKey", getObjectKey);
 
-	function filterResultsToUrls(obj, urls = [], skipKeys = []) {
+	function filterResultsToUrls(obj, urls = [], skipKeys = [], skipUrls = []) {
 		let arr = [];
 		for(let key in obj) {
 			if(skipKeys.indexOf(key) > -1) {
@@ -203,7 +222,7 @@ module.exports = function(eleventyConfig) {
 			let newestFilename = Object.keys(obj[key]).sort().pop();
 			result = obj[key][newestFilename];
 			// urls comes from sites[vertical].urls, all requestedUrls (may not include trailing slash)
-			if(urls === true || result && hasUrl(urls, result.requestedUrl)) {
+			if(urls === true || result && hasUrl(urls, result, skipUrls)) {
 				arr.push(obj[key]);
 			}
 		}
@@ -212,9 +231,10 @@ module.exports = function(eleventyConfig) {
 
 	eleventyConfig.addFilter("getSites", (results, sites, vertical, skipKeys = []) => {
 		let urls = sites[vertical].urls;
+		let skipUrls = sites[vertical].skipUrls;
 		let isIsolated = sites[vertical].options && sites[vertical].options.isolated === true;
 		let prunedResults = isIsolated ? results[vertical] : results;
-		return filterResultsToUrls(prunedResults, urls, skipKeys);
+		return filterResultsToUrls(prunedResults, urls, skipKeys, skipUrls);
 	});
 
 	// Deprecated, use `getSites` instead, it works with isolated categories
@@ -369,4 +389,5 @@ module.exports = function(eleventyConfig) {
 		});
 	});
 
+	eleventyConfig.setWatchJavaScriptDependencies(false);
 };
