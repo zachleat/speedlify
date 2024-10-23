@@ -2,7 +2,6 @@
   "name": "speedlify",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "clean": "rm -rf _data/results/* && rm -rf .log && rm -rf _site",
     "test-pages": "node run-tests",
@@ -30,8 +29,8 @@
   },
   "homepage": "https://github.com/zachleat/speedlify#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.1",
-    "@11ty/eleventy-fetch": "^4.0.1",
+    "@11ty/eleventy": "^3.0.0",
+    "@11ty/eleventy-fetch": "^5.0.0-beta.3",
     "byte-size": "^8.1.1",
     "cross-zip": "^4.0.1",
     "dotenv": "^16.3.1",
