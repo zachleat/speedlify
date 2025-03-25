@@ -1,0 +1,67 @@
+{
+  "url": "https://sonnet.io/",
+  "requestedUrl": "https://sonnet.io/",
+  "timestamp": 1742866474064,
+  "ranks": {
+    "hundos": 282,
+    "performance": 492,
+    "accessibility": 449,
+    "cumulative": 301
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.99,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 399
+  },
+  "firstContentfulPaint": 1572.1709999999998,
+  "firstMeaningfulPaint": 1572.1709999999998,
+  "speedIndex": 1572.1709999999998,
+  "largestContentfulPaint": 1572.1709999999998,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.047605775255537934,
+  "timeToInteractive": 1572.1709999999998,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 39.113,
+  "weight": {
+    "summary": "9 requests • 185.3 KiB",
+    "total": 189719,
+    "image": 0,
+    "imageCount": 0,
+    "script": 1963,
+    "scriptCount": 1,
+    "document": 2180,
+    "font": 175621,
+    "fontCount": 3,
+    "stylesheet": 9295,
+    "stylesheetCount": 2,
+    "thirdParty": 179433,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 494,
+    "+weight.total": 604,
+    "-weight.document": 103,
+    "+weight.document": 964,
+    "-weight.script": 105,
+    "+weight.script": 689,
+    "-weight.image": 1,
+    "+weight.image": 857,
+    "-weight.font": 593,
+    "+weight.font": 142,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 65,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 148
+  },
+  "axe": {
+    "passes": 99,
+    "violations": 1
+  }
+}

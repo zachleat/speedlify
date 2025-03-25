@@ -1,0 +1,67 @@
+{
+  "url": "https://chobble.com/",
+  "requestedUrl": "https://chobble.com/",
+  "timestamp": 1742861018688,
+  "ranks": {
+    "hundos": 71,
+    "performance": 237,
+    "accessibility": 433,
+    "cumulative": 177
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 1131.7255,
+  "firstMeaningfulPaint": 1131.7255,
+  "speedIndex": 1131.7255,
+  "largestContentfulPaint": 1431.7255,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1131.7255,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 27.700000000000017,
+  "weight": {
+    "summary": "12 requests • 108.8 KiB",
+    "total": 111412,
+    "image": 29729,
+    "imageCount": 5,
+    "script": 31409,
+    "scriptCount": 2,
+    "document": 2250,
+    "font": 42592,
+    "fontCount": 1,
+    "stylesheet": 4992,
+    "stylesheetCount": 2,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 362,
+    "+weight.total": 736,
+    "-weight.document": 114,
+    "+weight.document": 953,
+    "-weight.script": 412,
+    "+weight.script": 382,
+    "-weight.image": 228,
+    "+weight.image": 629,
+    "-weight.font": 221,
+    "+weight.font": 514,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 27,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 132
+  },
+  "axe": {
+    "passes": 177,
+    "violations": 1
+  }
+}

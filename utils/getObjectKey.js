@@ -14,9 +14,20 @@ module.exports = function(obj, which = ":first") {
 	}
 
 	// lower is better
-	arr.sort((a, b) => a.timestamp - b.timestamp);
+	arr.sort((a, b) => {
+		if(a.timestamp && b.timestamp) {
+			return a.timestamp - b.timestamp
+		}
+		if(a.timestamp) {
+			return 1;
+		}
+		if(b.timestamp) {
+			return -1;
+		}
+		return 0;
+	});
 
-	if(arr.length && which === ":newest") {
+	if(arr.length > 0 && which === ":newest") {
 		return arr[arr.length - 1].key;
 	} else if(arr.length > 1 && which === ":secondnewest") {
 		return arr[arr.length - 2].key;

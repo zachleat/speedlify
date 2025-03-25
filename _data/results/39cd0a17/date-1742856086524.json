@@ -1,0 +1,67 @@
+{
+  "url": "https://www.projectmb.com/",
+  "requestedUrl": "https://www.projectmb.com/",
+  "timestamp": 1742882501924,
+  "ranks": {
+    "hundos": 452,
+    "performance": 189,
+    "accessibility": 709,
+    "cumulative": 446
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 1,
+    "accessibility": 0.95,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 395
+  },
+  "firstContentfulPaint": 816.5415,
+  "firstMeaningfulPaint": 816.5415,
+  "speedIndex": 1046.7033749819755,
+  "largestContentfulPaint": 1068.5415,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 819.5415,
+  "maxPotentialFirstInputDelay": 51,
+  "timeToFirstByte": 50.42700000000002,
+  "weight": {
+    "summary": "6 requests • 44.4 KiB",
+    "total": 45483,
+    "image": 0,
+    "imageCount": 0,
+    "script": 620,
+    "scriptCount": 1,
+    "document": 6960,
+    "font": 33194,
+    "fontCount": 3,
+    "stylesheet": 4709,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 191,
+    "+weight.total": 907,
+    "-weight.document": 565,
+    "+weight.document": 502,
+    "-weight.script": 20,
+    "+weight.script": 774,
+    "-weight.image": 1,
+    "+weight.image": 857,
+    "-weight.font": 160,
+    "+weight.font": 575,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 144,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 85
+  },
+  "axe": {
+    "passes": 605,
+    "violations": 2
+  }
+}

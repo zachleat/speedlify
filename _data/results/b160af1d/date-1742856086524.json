@@ -1,0 +1,67 @@
+{
+  "url": "https://alextheward.com/",
+  "requestedUrl": "https://alextheward.com/",
+  "timestamp": 1742873621420,
+  "ranks": {
+    "hundos": 761,
+    "performance": 646,
+    "accessibility": 978,
+    "cumulative": 767
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.97,
+    "accessibility": 0.86,
+    "bestPractices": 0.96,
+    "seo": 1,
+    "total": 379
+  },
+  "firstContentfulPaint": 1711.5774999999999,
+  "firstMeaningfulPaint": 1711.5774999999999,
+  "speedIndex": 1711.5774999999999,
+  "largestContentfulPaint": 2461.5775,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.00010880323661690299,
+  "timeToInteractive": 1711.5774999999999,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 22.253,
+  "weight": {
+    "summary": "9 requests • 268.5 KiB",
+    "total": 274910,
+    "image": 13600,
+    "imageCount": 2,
+    "script": 82553,
+    "scriptCount": 3,
+    "document": 8151,
+    "font": 151006,
+    "fontCount": 1,
+    "stylesheet": 19386,
+    "stylesheetCount": 1,
+    "thirdParty": 253159,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 601,
+    "+weight.total": 497,
+    "-weight.document": 638,
+    "+weight.document": 429,
+    "-weight.script": 516,
+    "+weight.script": 278,
+    "-weight.image": 157,
+    "+weight.image": 700,
+    "-weight.font": 572,
+    "+weight.font": 163,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 17,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 233
+  },
+  "axe": {
+    "passes": 159,
+    "violations": 14
+  }
+}

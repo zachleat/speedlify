@@ -1,0 +1,67 @@
+{
+  "url": "https://www.robwood.uk/",
+  "requestedUrl": "https://robjwood.com/",
+  "timestamp": 1742857973378,
+  "ranks": {
+    "hundos": 831,
+    "performance": 1007,
+    "accessibility": 276,
+    "cumulative": 827
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.74,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 374
+  },
+  "firstContentfulPaint": 3876.7090000000003,
+  "firstMeaningfulPaint": 3876.7090000000003,
+  "speedIndex": 5227.383488001235,
+  "largestContentfulPaint": 3876.7090000000003,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.10026696955420067,
+  "timeToInteractive": 3876.7090000000003,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 106.392,
+  "weight": {
+    "summary": "9 requests • 46.0 KiB",
+    "total": 47141,
+    "image": 0,
+    "imageCount": 0,
+    "script": 1868,
+    "scriptCount": 1,
+    "document": 3507,
+    "font": 27178,
+    "fontCount": 1,
+    "stylesheet": 14273,
+    "stylesheetCount": 4,
+    "thirdParty": 28246,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 198,
+    "+weight.total": 900,
+    "-weight.document": 236,
+    "+weight.document": 831,
+    "-weight.script": 96,
+    "+weight.script": 698,
+    "-weight.image": 1,
+    "+weight.image": 857,
+    "-weight.font": 115,
+    "+weight.font": 620,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 582,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 986
+  },
+  "axe": {
+    "passes": 138,
+    "violations": 0
+  }
+}

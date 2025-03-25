@@ -1,0 +1,67 @@
+{
+  "url": "https://www.tj.ie/",
+  "requestedUrl": "https://tj.ie/",
+  "timestamp": 1742883143419,
+  "ranks": {
+    "hundos": 974,
+    "performance": 1046,
+    "accessibility": 968,
+    "cumulative": 975
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.66,
+    "accessibility": 0.87,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 353
+  },
+  "firstContentfulPaint": 2724.4390000000003,
+  "firstMeaningfulPaint": 2914.25,
+  "speedIndex": 5411.430469320414,
+  "largestContentfulPaint": 4349.833500000001,
+  "totalBlockingTime": 20.5,
+  "cumulativeLayoutShift": 0.22018493757558152,
+  "timeToInteractive": 8102.307999999999,
+  "maxPotentialFirstInputDelay": 80,
+  "timeToFirstByte": 21.59099999999998,
+  "weight": {
+    "summary": "34 requests • 1.1 MiB",
+    "total": 1168186,
+    "image": 423131,
+    "imageCount": 7,
+    "script": 652228,
+    "scriptCount": 10,
+    "document": 5238,
+    "font": 63980,
+    "fontCount": 2,
+    "stylesheet": 20192,
+    "stylesheetCount": 4,
+    "thirdParty": 868799,
+    "thirdPartyCount": 6
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 924,
+    "+weight.total": 174,
+    "-weight.document": 426,
+    "+weight.document": 641,
+    "-weight.script": 755,
+    "+weight.script": 39,
+    "-weight.image": 655,
+    "+weight.image": 202,
+    "-weight.font": 349,
+    "+weight.font": 386,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 16,
+    "-totalBlockingTime": 44,
+    "-largestContentfulPaint": 1003
+  },
+  "axe": {
+    "passes": 224,
+    "violations": 8
+  }
+}

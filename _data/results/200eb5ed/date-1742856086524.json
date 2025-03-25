@@ -1,0 +1,67 @@
+{
+  "url": "https://indrajith.dev/",
+  "requestedUrl": "https://indrajith.dev/",
+  "timestamp": 1742861989799,
+  "ranks": {
+    "hundos": 1079,
+    "performance": 1090,
+    "accessibility": 908,
+    "cumulative": 1079
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.39,
+    "accessibility": 0.91,
+    "bestPractices": 0.93,
+    "seo": 0.77,
+    "total": 300
+  },
+  "firstContentfulPaint": 17514.08000000001,
+  "firstMeaningfulPaint": 17514.08000000001,
+  "speedIndex": 17514.08000000001,
+  "largestContentfulPaint": 19495.680000000008,
+  "totalBlockingTime": 221,
+  "cumulativeLayoutShift": 0.23312436851405133,
+  "timeToInteractive": 20000.600000000006,
+  "maxPotentialFirstInputDelay": 271,
+  "timeToFirstByte": 133.90800000000002,
+  "weight": {
+    "summary": "39 requests • 3.6 MiB",
+    "total": 3731654,
+    "image": 4811,
+    "imageCount": 2,
+    "script": 3351602,
+    "scriptCount": 6,
+    "document": 3867,
+    "font": 334563,
+    "fontCount": 26,
+    "stylesheet": 36811,
+    "stylesheetCount": 4,
+    "thirdParty": 42706,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 1044,
+    "+weight.total": 54,
+    "-weight.document": 287,
+    "+weight.document": 780,
+    "-weight.script": 792,
+    "+weight.script": 2,
+    "-weight.image": 84,
+    "+weight.image": 773,
+    "-weight.font": 688,
+    "+weight.font": 47,
+    "+weight.fontCount": 2,
+    "-timeToFirstByte": 700,
+    "-totalBlockingTime": 156,
+    "-largestContentfulPaint": 1091
+  },
+  "axe": {
+    "passes": 325,
+    "violations": 23
+  }
+}

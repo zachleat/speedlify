@@ -1,0 +1,67 @@
+{
+  "url": "https://mess.gr/",
+  "requestedUrl": "https://mess.gr/",
+  "timestamp": 1742863738162,
+  "ranks": {
+    "hundos": 810,
+    "performance": 750,
+    "accessibility": 987,
+    "cumulative": 810
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.95,
+    "accessibility": 0.85,
+    "bestPractices": 0.96,
+    "seo": 1,
+    "total": 376
+  },
+  "firstContentfulPaint": 1766.6814999999997,
+  "firstMeaningfulPaint": 1766.6814999999997,
+  "speedIndex": 3521.8309394838716,
+  "largestContentfulPaint": 2472.5254999999997,
+  "totalBlockingTime": 8,
+  "cumulativeLayoutShift": 0.0015589971745922845,
+  "timeToInteractive": 2774.1615,
+  "maxPotentialFirstInputDelay": 58,
+  "timeToFirstByte": 502.70000000000005,
+  "weight": {
+    "summary": "14 requests • 307.7 KiB",
+    "total": 315079,
+    "image": 3522,
+    "imageCount": 1,
+    "script": 227652,
+    "scriptCount": 4,
+    "document": 2602,
+    "font": 71842,
+    "fontCount": 2,
+    "stylesheet": 8729,
+    "stylesheetCount": 4,
+    "thirdParty": 301196,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 650,
+    "+weight.total": 448,
+    "-weight.document": 149,
+    "+weight.document": 918,
+    "-weight.script": 652,
+    "+weight.script": 142,
+    "-weight.image": 62,
+    "+weight.image": 795,
+    "-weight.font": 390,
+    "+weight.font": 345,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 1042,
+    "-totalBlockingTime": 20,
+    "-largestContentfulPaint": 916
+  },
+  "axe": {
+    "passes": 202,
+    "violations": 11
+  }
+}

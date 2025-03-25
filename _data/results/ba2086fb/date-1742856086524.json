@@ -1,0 +1,67 @@
+{
+  "url": "https://www.stocknum.app/",
+  "requestedUrl": "https://chrisdwheatley.com/",
+  "timestamp": 1742864511096,
+  "ranks": {
+    "hundos": 1062,
+    "performance": 844,
+    "accessibility": 1070,
+    "cumulative": 1061
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.9,
+    "accessibility": 0.73,
+    "bestPractices": 0.81,
+    "seo": 0.77,
+    "total": 321
+  },
+  "firstContentfulPaint": 2419.6330000000003,
+  "firstMeaningfulPaint": 2419.6330000000003,
+  "speedIndex": 3107.9859301157762,
+  "largestContentfulPaint": 3103.809,
+  "totalBlockingTime": 78.5,
+  "cumulativeLayoutShift": 0.0020897873219114867,
+  "timeToInteractive": 3618.8975,
+  "maxPotentialFirstInputDelay": 207,
+  "timeToFirstByte": 195.861,
+  "weight": {
+    "summary": "14 requests • 345.0 KiB",
+    "total": 353254,
+    "image": 181845,
+    "imageCount": 1,
+    "script": 130513,
+    "scriptCount": 3,
+    "document": 2214,
+    "font": 31183,
+    "fontCount": 2,
+    "stylesheet": 4258,
+    "stylesheetCount": 2,
+    "thirdParty": 160263,
+    "thirdPartyCount": 5
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 680,
+    "+weight.total": 418,
+    "-weight.document": 107,
+    "+weight.document": 960,
+    "-weight.script": 571,
+    "+weight.script": 223,
+    "-weight.image": 498,
+    "+weight.image": 359,
+    "-weight.font": 149,
+    "+weight.font": 586,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 850,
+    "-totalBlockingTime": 99,
+    "-largestContentfulPaint": 961
+  },
+  "axe": {
+    "passes": 23,
+    "violations": 2
+  }
+}

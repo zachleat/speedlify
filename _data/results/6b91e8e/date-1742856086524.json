@@ -1,0 +1,67 @@
+{
+  "url": "https://ripandis.com/",
+  "requestedUrl": "https://ripandis.com/",
+  "timestamp": 1742874762336,
+  "ranks": {
+    "hundos": 804,
+    "performance": 698,
+    "accessibility": 999,
+    "cumulative": 811
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.96,
+    "accessibility": 0.84,
+    "bestPractices": 0.96,
+    "seo": 1,
+    "total": 376
+  },
+  "firstContentfulPaint": 1976.374,
+  "firstMeaningfulPaint": 1976.374,
+  "speedIndex": 1976.374,
+  "largestContentfulPaint": 2421.357,
+  "totalBlockingTime": 4,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 3240.3655,
+  "maxPotentialFirstInputDelay": 58,
+  "timeToFirstByte": 87.33500000000001,
+  "weight": {
+    "summary": "32 requests • 1.2 MiB",
+    "total": 1251897,
+    "image": 908004,
+    "imageCount": 13,
+    "script": 167914,
+    "scriptCount": 13,
+    "document": 32812,
+    "font": 111384,
+    "fontCount": 3,
+    "stylesheet": 31783,
+    "stylesheetCount": 2,
+    "thirdParty": 905384,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 932,
+    "+weight.total": 166,
+    "-weight.document": 973,
+    "+weight.document": 94,
+    "-weight.script": 611,
+    "+weight.script": 183,
+    "-weight.image": 735,
+    "+weight.image": 122,
+    "-weight.font": 509,
+    "+weight.font": 226,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 507,
+    "-totalBlockingTime": 11,
+    "-largestContentfulPaint": 502
+  },
+  "axe": {
+    "passes": 285,
+    "violations": 13
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://toddl.dev/",
+  "requestedUrl": "https://toddl.dev/",
+  "timestamp": 1742856403368,
+  "ranks": {
+    "hundos": 539,
+    "performance": 805,
+    "accessibility": 174,
+    "cumulative": 529
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.92,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 392
+  },
+  "firstContentfulPaint": 1083.461,
+  "firstMeaningfulPaint": 1083.461,
+  "speedIndex": 1083.461,
+  "largestContentfulPaint": 2001.1855,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.1593613591796118,
+  "timeToInteractive": 1083.461,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 55.21400000000003,
+  "weight": {
+    "summary": "8 requests • 87.5 KiB",
+    "total": 89559,
+    "image": 21575,
+    "imageCount": 3,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 10158,
+    "font": 47958,
+    "fontCount": 1,
+    "stylesheet": 6249,
+    "stylesheetCount": 1,
+    "thirdParty": 21575,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 310,
+    "+weight.total": 788,
+    "-weight.document": 723,
+    "+weight.document": 344,
+    "-weight.script": 1,
+    "+weight.script": 794,
+    "-weight.image": 200,
+    "+weight.image": 657,
+    "-weight.font": 260,
+    "+weight.font": 475,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 241,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 204
+  },
+  "axe": {
+    "passes": 252,
+    "violations": 0
+  }
+}

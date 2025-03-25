@@ -1,0 +1,67 @@
+{
+  "url": "https://jakebeamish.com/",
+  "requestedUrl": "https://jakebeamish.com/",
+  "timestamp": 1742883332789,
+  "ranks": {
+    "hundos": 952,
+    "performance": 725,
+    "accessibility": 1033,
+    "cumulative": 948
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.95,
+    "accessibility": 0.8,
+    "bestPractices": 1,
+    "seo": 0.83,
+    "total": 358
+  },
+  "firstContentfulPaint": 1557.1185,
+  "firstMeaningfulPaint": 1557.1185,
+  "speedIndex": 1557.1185,
+  "largestContentfulPaint": 1855.8745000000001,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.12598348706933063,
+  "timeToInteractive": 1557.1185,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 13.421000000000006,
+  "weight": {
+    "summary": "5 requests • 61.1 KiB",
+    "total": 62603,
+    "image": 31693,
+    "imageCount": 1,
+    "script": 851,
+    "scriptCount": 1,
+    "document": 1883,
+    "font": 27178,
+    "fontCount": 1,
+    "stylesheet": 998,
+    "stylesheetCount": 1,
+    "thirdParty": 59869,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 240,
+    "+weight.total": 858,
+    "-weight.document": 71,
+    "+weight.document": 996,
+    "-weight.script": 37,
+    "+weight.script": 757,
+    "-weight.image": 236,
+    "+weight.image": 621,
+    "-weight.font": 115,
+    "+weight.font": 620,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 5,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 187
+  },
+  "axe": {
+    "passes": 111,
+    "violations": 2
+  }
+}

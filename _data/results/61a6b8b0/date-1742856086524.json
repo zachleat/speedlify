@@ -1,0 +1,67 @@
+{
+  "url": "https://11skeleton.vercel.app/",
+  "requestedUrl": "https://11skeleton.vercel.app/",
+  "timestamp": 1742873564740,
+  "ranks": {
+    "hundos": 12,
+    "performance": 194,
+    "accessibility": 493,
+    "cumulative": 208
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 1051.0325,
+  "firstMeaningfulPaint": 1051.0325,
+  "speedIndex": 1051.0325,
+  "largestContentfulPaint": 1051.0325,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1051.0325,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 46.384000000000015,
+  "weight": {
+    "summary": "6 requests • 234.3 KiB",
+    "total": 239961,
+    "image": 215574,
+    "imageCount": 5,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 24387,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 562,
+    "+weight.total": 536,
+    "-weight.document": 927,
+    "+weight.document": 140,
+    "-weight.script": 1,
+    "+weight.script": 794,
+    "-weight.image": 537,
+    "+weight.image": 320,
+    "-weight.font": 1,
+    "+weight.font": 735,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 107,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 79
+  },
+  "axe": {
+    "passes": 182,
+    "violations": 2
+  }
+}

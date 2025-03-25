@@ -1,0 +1,67 @@
+{
+  "url": "https://www.chrisodonoghue.co.uk/",
+  "requestedUrl": "https://www.chrisodonoghue.co.uk/",
+  "timestamp": 1742867776072,
+  "ranks": {
+    "hundos": 1025,
+    "performance": 1069,
+    "accessibility": 953,
+    "cumulative": 1024
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.6,
+    "accessibility": 0.89,
+    "bestPractices": 0.93,
+    "seo": 1,
+    "total": 342
+  },
+  "firstContentfulPaint": 1747.6354999999999,
+  "firstMeaningfulPaint": 2652.7079999999996,
+  "speedIndex": 2632.4975624238577,
+  "largestContentfulPaint": 4731.535,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.5508738930292756,
+  "timeToInteractive": 2652.7079999999996,
+  "maxPotentialFirstInputDelay": 30,
+  "timeToFirstByte": 161.065,
+  "weight": {
+    "summary": "43 requests • 2.1 MiB",
+    "total": 2212939,
+    "image": 2066908,
+    "imageCount": 30,
+    "script": 79828,
+    "scriptCount": 4,
+    "document": 4577,
+    "font": 50107,
+    "fontCount": 3,
+    "stylesheet": 10762,
+    "stylesheetCount": 3,
+    "thirdParty": 88978,
+    "thirdPartyCount": 4
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 998,
+    "+weight.total": 100,
+    "-weight.document": 360,
+    "+weight.document": 707,
+    "-weight.script": 511,
+    "+weight.script": 283,
+    "-weight.image": 797,
+    "+weight.image": 60,
+    "-weight.font": 273,
+    "+weight.font": 462,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 777,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 1016
+  },
+  "axe": {
+    "passes": 282,
+    "violations": 14
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://templatedeck.com/",
+  "requestedUrl": "https://templatedeck.com/",
+  "timestamp": 1742867859437,
+  "ranks": {
+    "hundos": 568,
+    "performance": 721,
+    "accessibility": 232,
+    "cumulative": 562
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.95,
+    "accessibility": 1,
+    "bestPractices": 0.96,
+    "seo": 1,
+    "total": 391
+  },
+  "firstContentfulPaint": 858.252,
+  "firstMeaningfulPaint": 858.252,
+  "speedIndex": 918.8743680038034,
+  "largestContentfulPaint": 1076.252,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.13236960206182408,
+  "timeToInteractive": 858.252,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 57.519000000000005,
+  "weight": {
+    "summary": "11 requests • 101.5 KiB",
+    "total": 103969,
+    "image": 41089,
+    "imageCount": 4,
+    "script": 3546,
+    "scriptCount": 1,
+    "document": 2905,
+    "font": 51574,
+    "fontCount": 3,
+    "stylesheet": 4638,
+    "stylesheetCount": 1,
+    "thirdParty": 3763,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 346,
+    "+weight.total": 752,
+    "-weight.document": 175,
+    "+weight.document": 892,
+    "-weight.script": 176,
+    "+weight.script": 618,
+    "-weight.image": 270,
+    "+weight.image": 587,
+    "-weight.font": 279,
+    "+weight.font": 456,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 314,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 89
+  },
+  "axe": {
+    "passes": 189,
+    "violations": 0
+  }
+}

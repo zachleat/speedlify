@@ -1,0 +1,67 @@
+{
+  "url": "https://wassim.dev/",
+  "requestedUrl": "https://wassim.dev/",
+  "timestamp": 1742869416828,
+  "ranks": {
+    "hundos": 320,
+    "performance": 567,
+    "accessibility": 402,
+    "cumulative": 341
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.98,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 398
+  },
+  "firstContentfulPaint": 772.402,
+  "firstMeaningfulPaint": 1663.5770000000002,
+  "speedIndex": 772.402,
+  "largestContentfulPaint": 2329.7565,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.01607239039891228,
+  "timeToInteractive": 1663.5770000000002,
+  "maxPotentialFirstInputDelay": 46,
+  "timeToFirstByte": 21.522000000000006,
+  "weight": {
+    "summary": "7 requests • 187.9 KiB",
+    "total": 192452,
+    "image": 38076,
+    "imageCount": 3,
+    "script": 120295,
+    "scriptCount": 1,
+    "document": 4247,
+    "font": 29293,
+    "fontCount": 1,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 150428,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 498,
+    "+weight.total": 600,
+    "-weight.document": 324,
+    "+weight.document": 743,
+    "-weight.script": 560,
+    "+weight.script": 234,
+    "-weight.image": 259,
+    "+weight.image": 598,
+    "-weight.font": 130,
+    "+weight.font": 605,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 15,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 223
+  },
+  "axe": {
+    "passes": 291,
+    "violations": 1
+  }
+}

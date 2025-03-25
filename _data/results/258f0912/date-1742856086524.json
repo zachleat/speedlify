@@ -1,0 +1,67 @@
+{
+  "url": "https://blog.andrewshell.org/",
+  "requestedUrl": "https://blog.andrewshell.org/",
+  "timestamp": 1742858774215,
+  "ranks": {
+    "hundos": 360,
+    "performance": 243,
+    "accessibility": 192,
+    "cumulative": 354
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 0.97,
+    "total": 397
+  },
+  "firstContentfulPaint": 1035.83,
+  "firstMeaningfulPaint": 1035.83,
+  "speedIndex": 1143.926297997862,
+  "largestContentfulPaint": 1736.2299999999998,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1035.83,
+  "maxPotentialFirstInputDelay": 35,
+  "timeToFirstByte": 53.209,
+  "weight": {
+    "summary": "8 requests • 133.9 KiB",
+    "total": 137154,
+    "image": 13218,
+    "imageCount": 1,
+    "script": 115156,
+    "scriptCount": 2,
+    "document": 2630,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 4527,
+    "stylesheetCount": 1,
+    "thirdParty": 116779,
+    "thirdPartyCount": 4
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 405,
+    "+weight.total": 693,
+    "-weight.document": 153,
+    "+weight.document": 914,
+    "-weight.script": 545,
+    "+weight.script": 249,
+    "-weight.image": 152,
+    "+weight.image": 705,
+    "-weight.font": 1,
+    "+weight.font": 735,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 198,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 172
+  },
+  "axe": {
+    "passes": 227,
+    "violations": 0
+  }
+}

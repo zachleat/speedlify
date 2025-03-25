@@ -1,0 +1,67 @@
+{
+  "url": "https://www.tilt-studio.fr/",
+  "requestedUrl": "https://www.tilt-studio.fr/",
+  "timestamp": 1742860474561,
+  "ranks": {
+    "hundos": 422,
+    "performance": 526,
+    "accessibility": 313,
+    "cumulative": 418
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.99,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 0.96,
+    "total": 395
+  },
+  "firstContentfulPaint": 1005.2259999999999,
+  "firstMeaningfulPaint": 1326.7259999999999,
+  "speedIndex": 1749.871126448011,
+  "largestContentfulPaint": 1830.2259999999999,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.07079486791757032,
+  "timeToInteractive": 1326.7259999999999,
+  "maxPotentialFirstInputDelay": 38,
+  "timeToFirstByte": 142.548,
+  "weight": {
+    "summary": "22 requests • 568.0 KiB",
+    "total": 581598,
+    "image": 485446,
+    "imageCount": 16,
+    "script": 3853,
+    "scriptCount": 1,
+    "document": 3385,
+    "font": 55954,
+    "fontCount": 2,
+    "stylesheet": 11094,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 810,
+    "+weight.total": 288,
+    "-weight.document": 226,
+    "+weight.document": 841,
+    "-weight.script": 184,
+    "+weight.script": 610,
+    "-weight.image": 673,
+    "+weight.image": 184,
+    "-weight.font": 306,
+    "+weight.font": 429,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 720,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 821
+  },
+  "axe": {
+    "passes": 100,
+    "violations": 0
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://scottpdawson.com/",
+  "requestedUrl": "https://scottpdawson.com/",
+  "timestamp": 1742862362026,
+  "ranks": {
+    "hundos": 1061,
+    "performance": 1070,
+    "accessibility": 873,
+    "cumulative": 1062
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.6,
+    "accessibility": 0.92,
+    "bestPractices": 0.74,
+    "seo": 0.95,
+    "total": 321
+  },
+  "firstContentfulPaint": 1811.4460000000001,
+  "firstMeaningfulPaint": 1811.4460000000001,
+  "speedIndex": 3878.826711032565,
+  "largestContentfulPaint": 9299.679000000004,
+  "totalBlockingTime": 19.5,
+  "cumulativeLayoutShift": 0.23791079262375303,
+  "timeToInteractive": 7000.892,
+  "maxPotentialFirstInputDelay": 77,
+  "timeToFirstByte": 64.38,
+  "weight": {
+    "summary": "53 requests • 2.4 MiB",
+    "total": 2538725,
+    "image": 219503,
+    "imageCount": 13,
+    "script": 913565,
+    "scriptCount": 16,
+    "document": 56452,
+    "font": 315589,
+    "fontCount": 7,
+    "stylesheet": 16222,
+    "stylesheetCount": 3,
+    "thirdParty": 1729143,
+    "thirdPartyCount": 9
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 1012,
+    "+weight.total": 86,
+    "-weight.document": 1018,
+    "+weight.document": 49,
+    "-weight.script": 770,
+    "+weight.script": 24,
+    "-weight.image": 542,
+    "+weight.image": 315,
+    "-weight.font": 678,
+    "+weight.font": 57,
+    "+weight.fontCount": 10,
+    "-timeToFirstByte": 369,
+    "-totalBlockingTime": 42,
+    "-largestContentfulPaint": 1070
+  },
+  "axe": {
+    "passes": 376,
+    "violations": 14
+  }
+}

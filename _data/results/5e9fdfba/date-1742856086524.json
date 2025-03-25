@@ -1,0 +1,67 @@
+{
+  "url": "https://design-guide.publishing.service.gov.uk/",
+  "requestedUrl": "https://design-guide.publishing.service.gov.uk/",
+  "timestamp": 1742874657435,
+  "ranks": {
+    "hundos": 359,
+    "performance": 296,
+    "accessibility": 415,
+    "cumulative": 368
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 0.97,
+    "total": 397
+  },
+  "firstContentfulPaint": 1264.338,
+  "firstMeaningfulPaint": 1564.338,
+  "speedIndex": 1264.338,
+  "largestContentfulPaint": 1564.338,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.022652484193086988,
+  "timeToInteractive": 1564.338,
+  "maxPotentialFirstInputDelay": 50,
+  "timeToFirstByte": 62.36500000000001,
+  "weight": {
+    "summary": "9 requests • 150.1 KiB",
+    "total": 153669,
+    "image": 18556,
+    "imageCount": 2,
+    "script": 40408,
+    "scriptCount": 2,
+    "document": 5742,
+    "font": 65319,
+    "fontCount": 2,
+    "stylesheet": 23644,
+    "stylesheetCount": 2,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 432,
+    "+weight.total": 666,
+    "-weight.document": 467,
+    "+weight.document": 600,
+    "-weight.script": 436,
+    "+weight.script": 358,
+    "-weight.image": 191,
+    "+weight.image": 666,
+    "-weight.font": 358,
+    "+weight.font": 377,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 352,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 144
+  },
+  "axe": {
+    "passes": 245,
+    "violations": 1
+  }
+}

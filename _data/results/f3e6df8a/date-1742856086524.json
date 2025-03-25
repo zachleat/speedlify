@@ -1,0 +1,67 @@
+{
+  "url": "https://cfam.es/",
+  "requestedUrl": "https://cfam.es/",
+  "timestamp": 1742880493932,
+  "ranks": {
+    "hundos": 917,
+    "performance": 734,
+    "accessibility": 1081,
+    "cumulative": 918
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.95,
+    "accessibility": 0.69,
+    "bestPractices": 1,
+    "seo": 0.99,
+    "total": 363
+  },
+  "firstContentfulPaint": 1797.9655000000002,
+  "firstMeaningfulPaint": 1797.9655000000002,
+  "speedIndex": 2115.4453429964606,
+  "largestContentfulPaint": 2707.5495000000005,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.03305455828284363,
+  "timeToInteractive": 1797.9655000000002,
+  "maxPotentialFirstInputDelay": 45,
+  "timeToFirstByte": 293.352,
+  "weight": {
+    "summary": "36 requests • 4.2 MiB",
+    "total": 4395659,
+    "image": 4039174,
+    "imageCount": 23,
+    "script": 177670,
+    "scriptCount": 4,
+    "document": 4671,
+    "font": 142038,
+    "fontCount": 3,
+    "stylesheet": 31567,
+    "stylesheetCount": 4,
+    "thirdParty": 191071,
+    "thirdPartyCount": 4
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 1060,
+    "+weight.total": 38,
+    "-weight.document": 380,
+    "+weight.document": 687,
+    "-weight.script": 620,
+    "+weight.script": 174,
+    "-weight.image": 831,
+    "+weight.image": 26,
+    "-weight.font": 557,
+    "+weight.font": 178,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 937,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 518
+  },
+  "axe": {
+    "passes": 576,
+    "violations": 19
+  }
+}

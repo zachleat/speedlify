@@ -1,0 +1,67 @@
+{
+  "url": "https://tim-kleyersburg.de/",
+  "requestedUrl": "https://www.tim-kleyersburg.de/",
+  "timestamp": 1742877084494,
+  "ranks": {
+    "hundos": 856,
+    "performance": 941,
+    "accessibility": 924,
+    "cumulative": 855
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.81,
+    "accessibility": 0.9,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 371
+  },
+  "firstContentfulPaint": 3204.70372,
+  "firstMeaningfulPaint": 3641.6847300000004,
+  "speedIndex": 3271.2381479957257,
+  "largestContentfulPaint": 3971.04359,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.011792316455697836,
+  "timeToInteractive": 3641.6847300000004,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 147.427,
+  "weight": {
+    "summary": "14 requests • 349.0 KiB",
+    "total": 357371,
+    "image": 9022,
+    "imageCount": 1,
+    "script": 232064,
+    "scriptCount": 3,
+    "document": 5925,
+    "font": 74459,
+    "fontCount": 3,
+    "stylesheet": 33368,
+    "stylesheetCount": 2,
+    "thirdParty": 87782,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 686,
+    "+weight.total": 412,
+    "-weight.document": 486,
+    "+weight.document": 581,
+    "-weight.script": 658,
+    "+weight.script": 136,
+    "-weight.image": 113,
+    "+weight.image": 744,
+    "-weight.font": 407,
+    "+weight.font": 328,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 732,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 992
+  },
+  "axe": {
+    "passes": 178,
+    "violations": 3
+  }
+}

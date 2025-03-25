@@ -1,0 +1,67 @@
+{
+  "url": "https://zyllastart.vercel.app/",
+  "requestedUrl": "https://zyllastart.vercel.app/",
+  "timestamp": 1742877546925,
+  "ranks": {
+    "hundos": 54,
+    "performance": 281,
+    "accessibility": 412,
+    "cumulative": 175
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 1214.941,
+  "firstMeaningfulPaint": 1214.941,
+  "speedIndex": 1214.941,
+  "largestContentfulPaint": 1370.941,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1214.941,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 36.863,
+  "weight": {
+    "summary": "9 requests • 140.5 KiB",
+    "total": 143872,
+    "image": 10755,
+    "imageCount": 6,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 64993,
+    "font": 60363,
+    "fontCount": 1,
+    "stylesheet": 7761,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 419,
+    "+weight.total": 679,
+    "-weight.document": 1028,
+    "+weight.document": 39,
+    "-weight.script": 1,
+    "+weight.script": 794,
+    "-weight.image": 130,
+    "+weight.image": 727,
+    "-weight.font": 327,
+    "+weight.font": 408,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 58,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 125
+  },
+  "axe": {
+    "passes": 253,
+    "violations": 1
+  }
+}

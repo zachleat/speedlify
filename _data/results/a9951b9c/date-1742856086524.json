@@ -1,0 +1,67 @@
+{
+  "url": "https://cassey.dev/",
+  "requestedUrl": "https://www.cassey.dev/",
+  "timestamp": 1742869369055,
+  "ranks": {
+    "hundos": 695,
+    "performance": 855,
+    "accessibility": 244,
+    "cumulative": 686
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.89,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 0.95,
+    "total": 384
+  },
+  "firstContentfulPaint": 3004.009,
+  "firstMeaningfulPaint": 3004.009,
+  "speedIndex": 3004.009,
+  "largestContentfulPaint": 3004.009,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.0029393343125729567,
+  "timeToInteractive": 3004.009,
+  "maxPotentialFirstInputDelay": 17,
+  "timeToFirstByte": 117.65,
+  "weight": {
+    "summary": "14 requests • 101.0 KiB",
+    "total": 103406,
+    "image": 4792,
+    "imageCount": 4,
+    "script": 54911,
+    "scriptCount": 1,
+    "document": 3514,
+    "font": 30447,
+    "fontCount": 2,
+    "stylesheet": 8880,
+    "stylesheetCount": 4,
+    "thirdParty": 89122,
+    "thirdPartyCount": 4
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 342,
+    "+weight.total": 756,
+    "-weight.document": 239,
+    "+weight.document": 828,
+    "-weight.script": 469,
+    "+weight.script": 325,
+    "-weight.image": 82,
+    "+weight.image": 775,
+    "-weight.font": 139,
+    "+weight.font": 596,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 626,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 952
+  },
+  "axe": {
+    "passes": 172,
+    "violations": 0
+  }
+}

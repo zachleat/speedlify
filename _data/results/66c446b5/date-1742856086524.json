@@ -1,0 +1,67 @@
+{
+  "url": "https://fossgaming.codeberg.page/",
+  "requestedUrl": "https://fossgaming.codeberg.page/",
+  "timestamp": 1742875204892,
+  "ranks": {
+    "hundos": 1089,
+    "performance": 1095,
+    "accessibility": 983,
+    "cumulative": 1090
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.19,
+    "accessibility": 0.86,
+    "bestPractices": 0.96,
+    "seo": 0.92,
+    "total": 293
+  },
+  "firstContentfulPaint": 17536.945000000007,
+  "firstMeaningfulPaint": 18736.945000000007,
+  "speedIndex": 17536.945000000007,
+  "largestContentfulPaint": 19036.945000000007,
+  "totalBlockingTime": 561,
+  "cumulativeLayoutShift": 0.5863410645993646,
+  "timeToInteractive": 18736.945000000007,
+  "maxPotentialFirstInputDelay": 597,
+  "timeToFirstByte": 287.31600000000003,
+  "weight": {
+    "summary": "138 requests • 8.4 MiB",
+    "total": 8849321,
+    "image": 1205889,
+    "imageCount": 55,
+    "script": 2079,
+    "scriptCount": 1,
+    "document": 3146520,
+    "font": 157067,
+    "fontCount": 4,
+    "stylesheet": 38382,
+    "stylesheetCount": 6,
+    "thirdParty": 4478444,
+    "thirdPartyCount": 8
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 1079,
+    "+weight.total": 19,
+    "-weight.document": 1066,
+    "+weight.document": 1,
+    "-weight.script": 114,
+    "+weight.script": 680,
+    "-weight.image": 757,
+    "+weight.image": 100,
+    "-weight.font": 577,
+    "+weight.font": 158,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 934,
+    "-totalBlockingTime": 163,
+    "-largestContentfulPaint": 1090
+  },
+  "axe": {
+    "passes": 7478,
+    "violations": 1086
+  }
+}

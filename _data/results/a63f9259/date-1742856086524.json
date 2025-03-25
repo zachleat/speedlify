@@ -1,0 +1,67 @@
+{
+  "url": "https://repado.com/",
+  "requestedUrl": "https://repado.com/",
+  "timestamp": 1742859044425,
+  "ranks": {
+    "hundos": 1038,
+    "performance": 1013,
+    "accessibility": 841,
+    "cumulative": 1039
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.72,
+    "accessibility": 0.93,
+    "bestPractices": 0.78,
+    "seo": 0.93,
+    "total": 336
+  },
+  "firstContentfulPaint": 2222.2974999999997,
+  "firstMeaningfulPaint": 2222.2974999999997,
+  "speedIndex": 2662.9505203471062,
+  "largestContentfulPaint": 7276.7970000000005,
+  "totalBlockingTime": 13,
+  "cumulativeLayoutShift": 0.0899624777466963,
+  "timeToInteractive": 7070.258750000001,
+  "maxPotentialFirstInputDelay": 76,
+  "timeToFirstByte": 131.08500000000004,
+  "weight": {
+    "summary": "65 requests • 3.8 MiB",
+    "total": 4008944,
+    "image": 1490005,
+    "imageCount": 29,
+    "script": 475856,
+    "scriptCount": 15,
+    "document": 10588,
+    "font": 109579,
+    "fontCount": 3,
+    "stylesheet": 17974,
+    "stylesheetCount": 6,
+    "thirdParty": 583701,
+    "thirdPartyCount": 7
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 1049,
+    "+weight.total": 49,
+    "-weight.document": 737,
+    "+weight.document": 330,
+    "-weight.script": 732,
+    "+weight.script": 62,
+    "-weight.image": 771,
+    "+weight.image": 86,
+    "-weight.font": 503,
+    "+weight.font": 232,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 688,
+    "-totalBlockingTime": 29,
+    "-largestContentfulPaint": 1057
+  },
+  "axe": {
+    "passes": 542,
+    "violations": 48
+  }
+}

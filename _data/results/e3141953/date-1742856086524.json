@@ -1,0 +1,67 @@
+{
+  "url": "https://zapparov.dev/",
+  "requestedUrl": "https://zapparov.dev/",
+  "timestamp": 1742874009346,
+  "ranks": {
+    "hundos": 814,
+    "performance": 149,
+    "accessibility": 1005,
+    "cumulative": 819
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 1,
+    "accessibility": 0.83,
+    "bestPractices": 1,
+    "seo": 0.92,
+    "total": 375
+  },
+  "firstContentfulPaint": 988.626,
+  "firstMeaningfulPaint": 988.626,
+  "speedIndex": 988.626,
+  "largestContentfulPaint": 1681.318,
+  "totalBlockingTime": 19,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 3055.7844999999998,
+  "maxPotentialFirstInputDelay": 88,
+  "timeToFirstByte": 132.007,
+  "weight": {
+    "summary": "8 requests • 283.4 KiB",
+    "total": 290203,
+    "image": 0,
+    "imageCount": 0,
+    "script": 233005,
+    "scriptCount": 4,
+    "document": 9508,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 6294,
+    "stylesheetCount": 1,
+    "thirdParty": 215643,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 623,
+    "+weight.total": 475,
+    "-weight.document": 708,
+    "+weight.document": 359,
+    "-weight.script": 659,
+    "+weight.script": 135,
+    "-weight.image": 1,
+    "+weight.image": 857,
+    "-weight.font": 1,
+    "+weight.font": 735,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 692,
+    "-totalBlockingTime": 41,
+    "-largestContentfulPaint": 787
+  },
+  "axe": {
+    "passes": 71,
+    "violations": 5
+  }
+}

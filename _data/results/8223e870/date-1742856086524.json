@@ -1,0 +1,67 @@
+{
+  "url": "https://www.embl.org/",
+  "requestedUrl": "https://www.embl.org/",
+  "timestamp": 1742879789426,
+  "ranks": {
+    "hundos": 875,
+    "performance": 1033,
+    "accessibility": 619,
+    "cumulative": 878
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.68,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 368
+  },
+  "firstContentfulPaint": 1554.7110000000002,
+  "firstMeaningfulPaint": 3324.1865,
+  "speedIndex": 3070.8860120069035,
+  "largestContentfulPaint": 5597.292999999999,
+  "totalBlockingTime": 22.499999999999773,
+  "cumulativeLayoutShift": 0.21167937705270706,
+  "timeToInteractive": 4907.014999999999,
+  "maxPotentialFirstInputDelay": 72.99999999999977,
+  "timeToFirstByte": 109.827,
+  "weight": {
+    "summary": "31 requests • 1.3 MiB",
+    "total": 1379900,
+    "image": 794014,
+    "imageCount": 13,
+    "script": 173563,
+    "scriptCount": 3,
+    "document": 5842,
+    "font": 317932,
+    "fontCount": 4,
+    "stylesheet": 24463,
+    "stylesheetCount": 1,
+    "thirdParty": 549544,
+    "thirdPartyCount": 5
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 944,
+    "+weight.total": 154,
+    "-weight.document": 478,
+    "+weight.document": 589,
+    "-weight.script": 616,
+    "+weight.script": 178,
+    "-weight.image": 723,
+    "+weight.image": 134,
+    "-weight.font": 680,
+    "+weight.font": 55,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 597,
+    "-totalBlockingTime": 46,
+    "-largestContentfulPaint": 1036
+  },
+  "axe": {
+    "passes": 526,
+    "violations": 40
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://homeding.github.io/",
+  "requestedUrl": "https://homeding.github.io/",
+  "timestamp": 1742862570772,
+  "ranks": {
+    "hundos": 799,
+    "performance": 134,
+    "accessibility": 1056,
+    "cumulative": 798
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 1,
+    "accessibility": 0.77,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 377
+  },
+  "firstContentfulPaint": 960.918,
+  "firstMeaningfulPaint": 960.918,
+  "speedIndex": 960.918,
+  "largestContentfulPaint": 960.918,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 960.918,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 68.688,
+  "weight": {
+    "summary": "9 requests • 27.0 KiB",
+    "total": 27643,
+    "image": 0,
+    "imageCount": 1,
+    "script": 5001,
+    "scriptCount": 2,
+    "document": 16442,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 5176,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 134,
+    "+weight.total": 964,
+    "-weight.document": 857,
+    "+weight.document": 210,
+    "-weight.script": 220,
+    "+weight.script": 574,
+    "-weight.image": 1,
+    "+weight.image": 857,
+    "-weight.font": 1,
+    "+weight.font": 735,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 391,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 55
+  },
+  "axe": {
+    "passes": 484,
+    "violations": 45
+  }
+}

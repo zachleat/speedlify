@@ -1,0 +1,67 @@
+{
+  "url": "https://tdarb.org/",
+  "requestedUrl": "https://tdarb.org/",
+  "timestamp": 1742881298688,
+  "ranks": {
+    "hundos": 941,
+    "performance": 309,
+    "accessibility": 1054,
+    "cumulative": 935
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 1,
+    "accessibility": 0.77,
+    "bestPractices": 1,
+    "seo": 0.83,
+    "total": 360
+  },
+  "firstContentfulPaint": 780.694,
+  "firstMeaningfulPaint": 780.694,
+  "speedIndex": 1287.5528300032374,
+  "largestContentfulPaint": 780.694,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 780.694,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 208.872,
+  "weight": {
+    "summary": "1 request • 617 B",
+    "total": 617,
+    "image": 0,
+    "imageCount": 0,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 617,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 1,
+    "+weight.total": 1097,
+    "-weight.document": 1,
+    "+weight.document": 1066,
+    "-weight.script": 1,
+    "+weight.script": 794,
+    "-weight.image": 1,
+    "+weight.image": 857,
+    "-weight.font": 1,
+    "+weight.font": 735,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 869,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 331
+  },
+  "axe": {
+    "passes": 23,
+    "violations": 4
+  }
+}

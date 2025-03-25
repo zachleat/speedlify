@@ -1,0 +1,67 @@
+{
+  "url": "https://www.teacupgorilla.com/",
+  "requestedUrl": "https://www.teacupgorilla.com/",
+  "timestamp": 1742867016509,
+  "ranks": {
+    "hundos": 1010,
+    "performance": 971,
+    "accessibility": 801,
+    "cumulative": 1010
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.78,
+    "accessibility": 0.94,
+    "bestPractices": 0.74,
+    "seo": 1,
+    "total": 346
+  },
+  "firstContentfulPaint": 2328.3689999999997,
+  "firstMeaningfulPaint": 4457.9275,
+  "speedIndex": 4143.257642476388,
+  "largestContentfulPaint": 4690.7789999999995,
+  "totalBlockingTime": 37.5,
+  "cumulativeLayoutShift": 0.033901846557002596,
+  "timeToInteractive": 9509.383000000002,
+  "maxPotentialFirstInputDelay": 75,
+  "timeToFirstByte": 86.27299999999997,
+  "weight": {
+    "summary": "99 requests • 1.2 MiB",
+    "total": 1288099,
+    "image": 143787,
+    "imageCount": 9,
+    "script": 563582,
+    "scriptCount": 33,
+    "document": 74472,
+    "font": 115387,
+    "fontCount": 6,
+    "stylesheet": 29125,
+    "stylesheetCount": 10,
+    "thirdParty": 995534,
+    "thirdPartyCount": 6
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 937,
+    "+weight.total": 161,
+    "-weight.document": 1033,
+    "+weight.document": 34,
+    "-weight.script": 749,
+    "+weight.script": 45,
+    "-weight.image": 446,
+    "+weight.image": 411,
+    "-weight.font": 519,
+    "+weight.font": 216,
+    "+weight.fontCount": 11,
+    "-timeToFirstByte": 500,
+    "-totalBlockingTime": 68,
+    "-largestContentfulPaint": 1014
+  },
+  "axe": {
+    "passes": 1762,
+    "violations": 31
+  }
+}

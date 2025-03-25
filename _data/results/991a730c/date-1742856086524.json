@@ -1,0 +1,67 @@
+{
+  "url": "https://bobmonsour.com/",
+  "requestedUrl": "https://www.bobmonsour.com/",
+  "timestamp": 1742869755515,
+  "ranks": {
+    "hundos": 580,
+    "performance": 691,
+    "accessibility": 718,
+    "cumulative": 571
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.96,
+    "accessibility": 0.95,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 391
+  },
+  "firstContentfulPaint": 1755.897,
+  "firstMeaningfulPaint": 1755.897,
+  "speedIndex": 1755.897,
+  "largestContentfulPaint": 2540.5184999999997,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1755.897,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 149.84300000000002,
+  "weight": {
+    "summary": "20 requests • 49.5 KiB",
+    "total": 50711,
+    "image": 23239,
+    "imageCount": 11,
+    "script": 17605,
+    "scriptCount": 4,
+    "document": 3993,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 5400,
+    "stylesheetCount": 1,
+    "thirdParty": 17062,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 209,
+    "+weight.total": 889,
+    "-weight.document": 299,
+    "+weight.document": 768,
+    "-weight.script": 347,
+    "+weight.script": 447,
+    "-weight.image": 207,
+    "+weight.image": 650,
+    "-weight.font": 1,
+    "+weight.font": 735,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 741,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 919
+  },
+  "axe": {
+    "passes": 489,
+    "violations": 3
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://www.innesi.fr/",
+  "requestedUrl": "https://www.innesi.fr/",
+  "timestamp": 1742873267274,
+  "ranks": {
+    "hundos": 933,
+    "performance": 720,
+    "accessibility": 928,
+    "cumulative": 933
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.95,
+    "accessibility": 0.9,
+    "bestPractices": 0.78,
+    "seo": 0.97,
+    "total": 360
+  },
+  "firstContentfulPaint": 861.3095000000001,
+  "firstMeaningfulPaint": 861.3095000000001,
+  "speedIndex": 861.3095000000001,
+  "largestContentfulPaint": 2029.1235000000001,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.12339793512458497,
+  "timeToInteractive": 861.3095000000001,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 78.09299999999999,
+  "weight": {
+    "summary": "5 requests • 114.2 KiB",
+    "total": 116984,
+    "image": 102257,
+    "imageCount": 2,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 2522,
+    "font": 2273,
+    "fontCount": 1,
+    "stylesheet": 9932,
+    "stylesheetCount": 1,
+    "thirdParty": 101047,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 372,
+    "+weight.total": 726,
+    "-weight.document": 140,
+    "+weight.document": 927,
+    "-weight.script": 1,
+    "+weight.script": 794,
+    "-weight.image": 389,
+    "+weight.image": 468,
+    "-weight.font": 3,
+    "+weight.font": 732,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 449,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 862
+  },
+  "axe": {
+    "passes": 130,
+    "violations": 5
+  }
+}

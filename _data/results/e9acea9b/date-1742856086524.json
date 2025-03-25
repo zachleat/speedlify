@@ -1,0 +1,67 @@
+{
+  "url": "https://hylia.website/",
+  "requestedUrl": "https://hylia.website/",
+  "timestamp": 1742860481663,
+  "ranks": {
+    "hundos": 146,
+    "performance": 326,
+    "accessibility": 221,
+    "cumulative": 90
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 1085.0320000000002,
+  "firstMeaningfulPaint": 1085.0320000000002,
+  "speedIndex": 1347.4497660032093,
+  "largestContentfulPaint": 1085.0320000000002,
+  "totalBlockingTime": 32,
+  "cumulativeLayoutShift": 0.0006688433574041337,
+  "timeToInteractive": 2342.727,
+  "maxPotentialFirstInputDelay": 82,
+  "timeToFirstByte": 381.17500000000007,
+  "weight": {
+    "summary": "4 requests • 92.2 KiB",
+    "total": 94459,
+    "image": 0,
+    "imageCount": 0,
+    "script": 56507,
+    "scriptCount": 2,
+    "document": 6773,
+    "font": 31179,
+    "fontCount": 1,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 54910,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 322,
+    "+weight.total": 776,
+    "-weight.document": 551,
+    "+weight.document": 516,
+    "-weight.script": 477,
+    "+weight.script": 317,
+    "-weight.image": 1,
+    "+weight.image": 857,
+    "-weight.font": 148,
+    "+weight.font": 587,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 981,
+    "-totalBlockingTime": 58,
+    "-largestContentfulPaint": 686
+  },
+  "axe": {
+    "passes": 195,
+    "violations": 0
+  }
+}

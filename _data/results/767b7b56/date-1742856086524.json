@@ -1,0 +1,67 @@
+{
+  "url": "https://davidmoll.net/",
+  "requestedUrl": "https://davidmoll.net/",
+  "timestamp": 1742873386601,
+  "ranks": {
+    "hundos": 313,
+    "performance": 536,
+    "accessibility": 69,
+    "cumulative": 294
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.99,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 399
+  },
+  "firstContentfulPaint": 1125.3125,
+  "firstMeaningfulPaint": 1125.3125,
+  "speedIndex": 1826.9983189882037,
+  "largestContentfulPaint": 1955.1315,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1125.3125,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 400.86,
+  "weight": {
+    "summary": "8 requests • 20.0 KiB",
+    "total": 20472,
+    "image": 0,
+    "imageCount": 0,
+    "script": 10412,
+    "scriptCount": 3,
+    "document": 4683,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 4093,
+    "stylesheetCount": 1,
+    "thirdParty": 7119,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 111,
+    "+weight.total": 987,
+    "-weight.document": 383,
+    "+weight.document": 684,
+    "-weight.script": 301,
+    "+weight.script": 493,
+    "-weight.image": 1,
+    "+weight.image": 857,
+    "-weight.font": 1,
+    "+weight.font": 735,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 997,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 467
+  },
+  "axe": {
+    "passes": 480,
+    "violations": 0
+  }
+}

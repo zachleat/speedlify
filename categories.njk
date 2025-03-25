@@ -40,7 +40,7 @@ counts:
 
 				{%- set sitePageUrl %}/{{ (sites[vertical].name or vertical) | slug }}/{{ site[newestKey].url | displayUrl | slugify }}/{% endset %}
 
-				<tr class="leaderboard-list-entry{% if hundos === 4 and site[newestKey].ranks and loop.index != site[newestKey].ranks.cumulative %} leaderboard-list-entry-badrank{% endif %}" id="site-{{ site[key].url | shortHash }}">
+				<tr class="leaderboard-list-entry{% if hundos === 4 and site[newestKey].ranks and loop.index != site[newestKey].ranks.cumulative %} leaderboard-list-entry-badrank{% endif %}" id="site-{{ site[key].url | shortHash }}" data-rank="{{ site[newestKey].ranks.cumulative }}">
 					<td class="leaderboard-number">
 						{% if hundos === 4 %}<span>#</span>{{ loop.index }}{% endif %}
 					</td>

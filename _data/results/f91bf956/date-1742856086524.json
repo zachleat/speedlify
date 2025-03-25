@@ -1,0 +1,67 @@
+{
+  "url": "https://antithesis.com/",
+  "requestedUrl": "https://antithesis.com/",
+  "timestamp": 1742867211676,
+  "ranks": {
+    "hundos": 1031,
+    "performance": 1031,
+    "accessibility": 851,
+    "cumulative": 1030
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.69,
+    "accessibility": 0.92,
+    "bestPractices": 0.78,
+    "seo": 1,
+    "total": 339
+  },
+  "firstContentfulPaint": 2775.0190000000002,
+  "firstMeaningfulPaint": 3391.0915000000005,
+  "speedIndex": 4149.691097924897,
+  "largestContentfulPaint": 20947.459000000003,
+  "totalBlockingTime": 16.5,
+  "cumulativeLayoutShift": 0.007830108192983241,
+  "timeToInteractive": 6385.366499999998,
+  "maxPotentialFirstInputDelay": 69,
+  "timeToFirstByte": 39.914000000000016,
+  "weight": {
+    "summary": "81 requests • 3.7 MiB",
+    "total": 3917626,
+    "image": 618883,
+    "imageCount": 34,
+    "script": 409681,
+    "scriptCount": 16,
+    "document": 32216,
+    "font": 769251,
+    "fontCount": 5,
+    "stylesheet": 18492,
+    "stylesheetCount": 4,
+    "thirdParty": 382793,
+    "thirdPartyCount": 14
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 1047,
+    "+weight.total": 51,
+    "-weight.document": 969,
+    "+weight.document": 98,
+    "-weight.script": 718,
+    "+weight.script": 76,
+    "-weight.image": 698,
+    "+weight.image": 159,
+    "-weight.font": 724,
+    "+weight.font": 11,
+    "+weight.fontCount": 12,
+    "-timeToFirstByte": 68,
+    "-totalBlockingTime": 39,
+    "-largestContentfulPaint": 1093
+  },
+  "axe": {
+    "passes": 643,
+    "violations": 2
+  }
+}

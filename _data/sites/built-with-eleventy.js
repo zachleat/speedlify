@@ -35,18 +35,16 @@ module.exports = async function() {
 		// removed from urls but still exist in result data
 		missing: [
 		],
-
+		
 		// this was a bug when two different URLs resolved to the same URL and conflicted in resolvedUrl results.
 		// 1-indexed
 		skipIndeces: [
-			314, // astro
-			445, // astro
-			609, // astro
-			679, // astro
-			706, // hugo
-			707, // astro
-			969, // wordpress
-			973, // ?
+			59,
+			234,
+			242,
+			519,
+			782,
+			838,
 		]
 	};
 };

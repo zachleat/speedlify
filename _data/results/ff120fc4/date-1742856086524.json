@@ -1,0 +1,67 @@
+{
+  "url": "https://wargaluk.com/",
+  "requestedUrl": "https://wargaluk.com/",
+  "timestamp": 1742866661487,
+  "ranks": {
+    "hundos": 302,
+    "performance": 454,
+    "accessibility": 164,
+    "cumulative": 288
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.99,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 399
+  },
+  "firstContentfulPaint": 888.9399999999999,
+  "firstMeaningfulPaint": 888.9399999999999,
+  "speedIndex": 888.9399999999999,
+  "largestContentfulPaint": 1761.411,
+  "totalBlockingTime": 80.99999999999989,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1761.411,
+  "maxPotentialFirstInputDelay": 131,
+  "timeToFirstByte": 110.45699999999998,
+  "weight": {
+    "summary": "6 requests • 33.9 KiB",
+    "total": 34680,
+    "image": 18349,
+    "imageCount": 1,
+    "script": 7119,
+    "scriptCount": 1,
+    "document": 4102,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 5073,
+    "stylesheetCount": 1,
+    "thirdParty": 7156,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 163,
+    "+weight.total": 935,
+    "-weight.document": 311,
+    "+weight.document": 756,
+    "-weight.script": 257,
+    "+weight.script": 537,
+    "-weight.image": 189,
+    "+weight.image": 668,
+    "-weight.font": 1,
+    "+weight.font": 735,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 599,
+    "-totalBlockingTime": 101,
+    "-largestContentfulPaint": 807
+  },
+  "axe": {
+    "passes": 266,
+    "violations": 0
+  }
+}

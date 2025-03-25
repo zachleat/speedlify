@@ -1,0 +1,67 @@
+{
+  "url": "https://mattobee.com/",
+  "requestedUrl": "https://mattobee.com/",
+  "timestamp": 1742858453692,
+  "ranks": {
+    "hundos": 478,
+    "performance": 609,
+    "accessibility": 144,
+    "cumulative": 466
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.98,
+    "accessibility": 1,
+    "bestPractices": 0.96,
+    "seo": 1,
+    "total": 394
+  },
+  "firstContentfulPaint": 1889.18075,
+  "firstMeaningfulPaint": 1889.18075,
+  "speedIndex": 1889.18075,
+  "largestContentfulPaint": 1917.9620000000002,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.0008872185677732123,
+  "timeToInteractive": 1889.18075,
+  "maxPotentialFirstInputDelay": 20.5,
+  "timeToFirstByte": 109.12099999999998,
+  "weight": {
+    "summary": "62 requests • 161.8 KiB",
+    "total": 165345,
+    "image": 467,
+    "imageCount": 1,
+    "script": 56835,
+    "scriptCount": 41,
+    "document": 3673,
+    "font": 74849,
+    "fontCount": 4,
+    "stylesheet": 5697,
+    "stylesheetCount": 2,
+    "thirdParty": 156567,
+    "thirdPartyCount": 4
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 452,
+    "+weight.total": 646,
+    "-weight.document": 264,
+    "+weight.document": 803,
+    "-weight.script": 479,
+    "+weight.script": 315,
+    "-weight.image": 7,
+    "+weight.image": 850,
+    "-weight.font": 411,
+    "+weight.font": 324,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 595,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 839
+  },
+  "axe": {
+    "passes": 291,
+    "violations": 0
+  }
+}

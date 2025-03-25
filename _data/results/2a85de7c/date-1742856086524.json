@@ -1,0 +1,67 @@
+{
+  "url": "https://jayantachakraborti.com/lander",
+  "requestedUrl": "https://jayantachakraborti.com/",
+  "timestamp": 1742856552178,
+  "ranks": {
+    "hundos": 1075,
+    "performance": 970,
+    "accessibility": 1034,
+    "cumulative": 1074
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.78,
+    "accessibility": 0.8,
+    "bestPractices": 0.74,
+    "seo": 0.75,
+    "total": 307
+  },
+  "firstContentfulPaint": 2357.268,
+  "firstMeaningfulPaint": 3237.17275,
+  "speedIndex": 3622.3974708209425,
+  "largestContentfulPaint": 4216.6945000000005,
+  "totalBlockingTime": 45.5,
+  "cumulativeLayoutShift": 0.11653773870335372,
+  "timeToInteractive": 4006.8505000000005,
+  "maxPotentialFirstInputDelay": 87,
+  "timeToFirstByte": 56.486000000000004,
+  "weight": {
+    "summary": "27 requests • 581.0 KiB",
+    "total": 594990,
+    "image": 1117,
+    "imageCount": 4,
+    "script": 475234,
+    "scriptCount": 6,
+    "document": 7015,
+    "font": 66276,
+    "fontCount": 2,
+    "stylesheet": 41215,
+    "stylesheetCount": 2,
+    "thirdParty": 593507,
+    "thirdPartyCount": 6
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 814,
+    "+weight.total": 284,
+    "-weight.document": 570,
+    "+weight.document": 497,
+    "-weight.script": 731,
+    "+weight.script": 63,
+    "-weight.image": 29,
+    "+weight.image": 828,
+    "-weight.font": 365,
+    "+weight.font": 370,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 282,
+    "-totalBlockingTime": 74,
+    "-largestContentfulPaint": 996
+  },
+  "axe": {
+    "passes": 29,
+    "violations": 5
+  }
+}

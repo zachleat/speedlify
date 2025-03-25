@@ -1,0 +1,67 @@
+{
+  "url": "https://www.dora-info.eu/",
+  "requestedUrl": "https://www.dora-info.eu/",
+  "timestamp": 1742858258726,
+  "ranks": {
+    "hundos": 641,
+    "performance": 535,
+    "accessibility": 761,
+    "cumulative": 648
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.99,
+    "accessibility": 0.95,
+    "bestPractices": 1,
+    "seo": 0.93,
+    "total": 387
+  },
+  "firstContentfulPaint": 1648.2895,
+  "firstMeaningfulPaint": 1648.2895,
+  "speedIndex": 1818.858453006524,
+  "largestContentfulPaint": 1648.2895,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.049721974642957745,
+  "timeToInteractive": 1648.2895,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 57.08000000000004,
+  "weight": {
+    "summary": "16 requests • 209.4 KiB",
+    "total": 214393,
+    "image": 11359,
+    "imageCount": 8,
+    "script": 1618,
+    "scriptCount": 2,
+    "document": 7865,
+    "font": 182553,
+    "fontCount": 3,
+    "stylesheet": 10998,
+    "stylesheetCount": 2,
+    "thirdParty": 183993,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 527,
+    "+weight.total": 571,
+    "-weight.document": 619,
+    "+weight.document": 448,
+    "-weight.script": 81,
+    "+weight.script": 713,
+    "-weight.image": 133,
+    "+weight.image": 724,
+    "-weight.font": 597,
+    "+weight.font": 138,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 293,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 161
+  },
+  "axe": {
+    "passes": 634,
+    "violations": 144
+  }
+}

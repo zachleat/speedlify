@@ -1,0 +1,66 @@
+{
+  "url": "https://openstudios.xyz/",
+  "requestedUrl": "https://openstudios.xyz/",
+  "timestamp": 1742879813408,
+  "ranks": {
+    "hundos": 947,
+    "performance": 858,
+    "accessibility": 846,
+    "cumulative": 952
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.89,
+    "accessibility": 0.93,
+    "bestPractices": 0.78,
+    "seo": 0.98,
+    "total": 358
+  },
+  "firstContentfulPaint": 1939.5835000000002,
+  "firstMeaningfulPaint": 5690.269,
+  "speedIndex": 4696.181447914882,
+  "largestContentfulPaint": 2412.6705,
+  "totalBlockingTime": 5.5,
+  "cumulativeLayoutShift": 0.12337636208002996,
+  "timeToInteractive": 6090.710010055542,
+  "maxPotentialFirstInputDelay": 61,
+  "timeToFirstByte": 191.28300000000002,
+  "weight": {
+    "summary": "42 requests • 3.0 MiB",
+    "total": 3105011,
+    "image": 2364134,
+    "imageCount": 17,
+    "script": 418286,
+    "scriptCount": 9,
+    "document": 78232,
+    "font": 195724,
+    "fontCount": 5,
+    "stylesheet": 48316,
+    "stylesheetCount": 4,
+    "thirdParty": 445107,
+    "thirdPartyCount": 5
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 1034,
+    "+weight.total": 64,
+    "-weight.document": 1036,
+    "+weight.document": 31,
+    "-weight.script": 720,
+    "+weight.script": 74,
+    "-weight.image": 809,
+    "+weight.image": 48,
+    "-weight.font": 614,
+    "+weight.font": 121,
+    "+weight.fontCount": 12,
+    "-timeToFirstByte": 842,
+    "-totalBlockingTime": 15,
+    "-largestContentfulPaint": 501
+  },
+  "axe": {
+    "error": "{\"name\":\"TimeoutError\"}"
+  }
+}

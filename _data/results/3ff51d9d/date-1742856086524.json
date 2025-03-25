@@ -1,0 +1,67 @@
+{
+  "url": "https://duffn.dev/",
+  "requestedUrl": "https://duffn.dev/",
+  "timestamp": 1742860377791,
+  "ranks": {
+    "hundos": 60,
+    "performance": 118,
+    "accessibility": 277,
+    "cumulative": 25
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 932.903,
+  "firstMeaningfulPaint": 932.903,
+  "speedIndex": 932.903,
+  "largestContentfulPaint": 932.903,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 932.903,
+  "maxPotentialFirstInputDelay": 46,
+  "timeToFirstByte": 106.44100000000002,
+  "weight": {
+    "summary": "3 requests • 123.8 KiB",
+    "total": 126738,
+    "image": 0,
+    "imageCount": 0,
+    "script": 122382,
+    "scriptCount": 1,
+    "document": 3815,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 122923,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 386,
+    "+weight.total": 712,
+    "-weight.document": 281,
+    "+weight.document": 786,
+    "-weight.script": 565,
+    "+weight.script": 229,
+    "-weight.image": 1,
+    "+weight.image": 857,
+    "-weight.font": 1,
+    "+weight.font": 735,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 583,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 647
+  },
+  "axe": {
+    "passes": 138,
+    "violations": 0
+  }
+}

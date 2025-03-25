@@ -1,0 +1,67 @@
+{
+  "url": "https://sleepasloth.com/",
+  "requestedUrl": "https://sleepasloth.com/",
+  "timestamp": 1742878340303,
+  "ranks": {
+    "hundos": 893,
+    "performance": 752,
+    "accessibility": 913,
+    "cumulative": 901
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.95,
+    "accessibility": 0.91,
+    "bestPractices": 0.96,
+    "seo": 0.83,
+    "total": 365
+  },
+  "firstContentfulPaint": 1070.3719999999998,
+  "firstMeaningfulPaint": 1943.3719999999998,
+  "speedIndex": 4874.538954044764,
+  "largestContentfulPaint": 2345.372,
+  "totalBlockingTime": 60.5,
+  "cumulativeLayoutShift": 0.005283644469674264,
+  "timeToInteractive": 9376.872000000003,
+  "maxPotentialFirstInputDelay": 93,
+  "timeToFirstByte": 14.923999999999992,
+  "weight": {
+    "summary": "129 requests • 1.9 MiB",
+    "total": 1989409,
+    "image": 185536,
+    "imageCount": 9,
+    "script": 905134,
+    "scriptCount": 46,
+    "document": 62104,
+    "font": 84162,
+    "fontCount": 3,
+    "stylesheet": 84974,
+    "stylesheetCount": 31,
+    "thirdParty": 1453731,
+    "thirdPartyCount": 11
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 984,
+    "+weight.total": 114,
+    "-weight.document": 1024,
+    "+weight.document": 43,
+    "-weight.script": 769,
+    "+weight.script": 25,
+    "-weight.image": 506,
+    "+weight.image": 351,
+    "-weight.font": 445,
+    "+weight.font": 290,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 6,
+    "-totalBlockingTime": 88,
+    "-largestContentfulPaint": 900
+  },
+  "axe": {
+    "passes": 1718,
+    "violations": 41
+  }
+}

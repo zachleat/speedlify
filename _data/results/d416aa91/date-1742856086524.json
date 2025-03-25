@@ -1,0 +1,67 @@
+{
+  "url": "http://ww25.kurva.xyz/?subid1=20250325-1347-47a1-96a1-ff934e2672e7",
+  "requestedUrl": "https://kurva.xyz/",
+  "timestamp": 1742870872717,
+  "ranks": {
+    "hundos": 1054,
+    "performance": 1012,
+    "accessibility": 1023,
+    "cumulative": 1052
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.73,
+    "accessibility": 0.81,
+    "bestPractices": 0.81,
+    "seo": 0.92,
+    "total": 327
+  },
+  "firstContentfulPaint": 4399.172999999999,
+  "firstMeaningfulPaint": 4399.172999999999,
+  "speedIndex": 4399.172999999999,
+  "largestContentfulPaint": 4549.173,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.026047995139732685,
+  "timeToInteractive": 4399.172999999999,
+  "maxPotentialFirstInputDelay": 32,
+  "timeToFirstByte": 68.03,
+  "weight": {
+    "summary": "13 requests • 150.3 KiB",
+    "total": 153946,
+    "image": 991,
+    "imageCount": 4,
+    "script": 141923,
+    "scriptCount": 4,
+    "document": 4829,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 109925,
+    "thirdPartyCount": 4
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "sidequests": {
+    "-weight.total": 434,
+    "+weight.total": 664,
+    "-weight.document": 395,
+    "+weight.document": 672,
+    "-weight.script": 582,
+    "+weight.script": 212,
+    "-weight.image": 25,
+    "+weight.image": 832,
+    "-weight.font": 1,
+    "+weight.font": 735,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 390,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 1011
+  },
+  "axe": {
+    "passes": 109,
+    "violations": 2
+  }
+}

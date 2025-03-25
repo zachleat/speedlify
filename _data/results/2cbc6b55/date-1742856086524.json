@@ -1,0 +1,67 @@
+{
+  "url": "https://www.chadams.me/",
+  "requestedUrl": "https://www.chadams.me/",
+  "timestamp": 1742866771813,
+  "ranks": {
+    "hundos": 635,
+    "performance": 825,
+    "accessibility": 452,
+    "cumulative": 635
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.91,
+    "accessibility": 1,
+    "bestPractices": 0.96,
+    "seo": 1,
+    "total": 387
+  },
+  "firstContentfulPaint": 1308.5810000000001,
+  "firstMeaningfulPaint": 1582.5810000000001,
+  "speedIndex": 1852.1502453405255,
+  "largestContentfulPaint": 3444.581,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1582.5810000000001,
+  "maxPotentialFirstInputDelay": 50,
+  "timeToFirstByte": 51.52799999999999,
+  "weight": {
+    "summary": "10 requests • 350.9 KiB",
+    "total": 359332,
+    "image": 1628,
+    "imageCount": 2,
+    "script": 315706,
+    "scriptCount": 6,
+    "document": 10449,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 31549,
+    "stylesheetCount": 1,
+    "thirdParty": 1719,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 689,
+    "+weight.total": 409,
+    "-weight.document": 734,
+    "+weight.document": 333,
+    "-weight.script": 699,
+    "+weight.script": 95,
+    "-weight.image": 40,
+    "+weight.image": 817,
+    "-weight.font": 1,
+    "+weight.font": 735,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 172,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 263
+  },
+  "axe": {
+    "passes": 68,
+    "violations": 1
+  }
+}

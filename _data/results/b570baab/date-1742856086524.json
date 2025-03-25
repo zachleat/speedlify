@@ -1,0 +1,67 @@
+{
+  "url": "https://www.dofd.info/",
+  "requestedUrl": "https://www.dofd.info/",
+  "timestamp": 1742880471429,
+  "ranks": {
+    "hundos": 644,
+    "performance": 878,
+    "accessibility": 484,
+    "cumulative": 641
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.87,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 387
+  },
+  "firstContentfulPaint": 2653.527,
+  "firstMeaningfulPaint": 2653.527,
+  "speedIndex": 2653.527,
+  "largestContentfulPaint": 3426.992,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 2653.527,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 344.815,
+  "weight": {
+    "summary": "9 requests • 398.1 KiB",
+    "total": 407639,
+    "image": 38700,
+    "imageCount": 1,
+    "script": 27054,
+    "scriptCount": 2,
+    "document": 5018,
+    "font": 277924,
+    "fontCount": 2,
+    "stylesheet": 58943,
+    "stylesheetCount": 3,
+    "thirdParty": 301015,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 713,
+    "+weight.total": 385,
+    "-weight.document": 412,
+    "+weight.document": 655,
+    "-weight.script": 398,
+    "+weight.script": 396,
+    "-weight.image": 263,
+    "+weight.image": 594,
+    "-weight.font": 666,
+    "+weight.font": 69,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 966,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 540
+  },
+  "axe": {
+    "passes": 237,
+    "violations": 2
+  }
+}

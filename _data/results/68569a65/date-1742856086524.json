@@ -1,0 +1,66 @@
+{
+  "url": "https://vpnclear.com/",
+  "requestedUrl": "https://vpnclear.com/",
+  "timestamp": 1742876741852,
+  "ranks": {
+    "hundos": 943,
+    "performance": 545,
+    "accessibility": 808,
+    "cumulative": 944
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.99,
+    "accessibility": 0.94,
+    "bestPractices": 0.67,
+    "seo": 1,
+    "total": 360
+  },
+  "firstContentfulPaint": 965.779,
+  "firstMeaningfulPaint": 965.779,
+  "speedIndex": 1989.1269210650194,
+  "largestContentfulPaint": 1963.36,
+  "totalBlockingTime": 23,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 6882.032499999999,
+  "maxPotentialFirstInputDelay": 73,
+  "timeToFirstByte": 182.98399999999998,
+  "weight": {
+    "summary": "56 requests • 615.2 KiB",
+    "total": 629974,
+    "image": 67322,
+    "imageCount": 16,
+    "script": 457559,
+    "scriptCount": 19,
+    "document": 19655,
+    "font": 61133,
+    "fontCount": 1,
+    "stylesheet": 7752,
+    "stylesheetCount": 1,
+    "thirdParty": 475383,
+    "thirdPartyCount": 8
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 826,
+    "+weight.total": 272,
+    "-weight.document": 895,
+    "+weight.document": 172,
+    "-weight.script": 729,
+    "+weight.script": 65,
+    "-weight.image": 338,
+    "+weight.image": 519,
+    "-weight.font": 333,
+    "+weight.font": 402,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 828,
+    "-totalBlockingTime": 47,
+    "-largestContentfulPaint": 849
+  },
+  "axe": {
+    "error": "{\"name\":\"TimeoutError\"}"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://manifesteren.nl/",
+  "requestedUrl": "https://manifesteren.nl/",
+  "timestamp": 1742856230471,
+  "ranks": {
+    "hundos": 433,
+    "performance": 513,
+    "accessibility": 202,
+    "cumulative": 422
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.99,
+    "accessibility": 1,
+    "bestPractices": 0.96,
+    "seo": 1,
+    "total": 395
+  },
+  "firstContentfulPaint": 1234.404,
+  "firstMeaningfulPaint": 1234.404,
+  "speedIndex": 1707.130451999968,
+  "largestContentfulPaint": 1874.433,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1234.404,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 128.25399999999996,
+  "weight": {
+    "summary": "12 requests • 231.0 KiB",
+    "total": 236547,
+    "image": 200236,
+    "imageCount": 8,
+    "script": 24725,
+    "scriptCount": 2,
+    "document": 5984,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 5602,
+    "stylesheetCount": 1,
+    "thirdParty": 1719,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 556,
+    "+weight.total": 542,
+    "-weight.document": 491,
+    "+weight.document": 576,
+    "-weight.script": 388,
+    "+weight.script": 406,
+    "-weight.image": 523,
+    "+weight.image": 334,
+    "-weight.font": 1,
+    "+weight.font": 735,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 674,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 831
+  },
+  "axe": {
+    "passes": 217,
+    "violations": 0
+  }
+}

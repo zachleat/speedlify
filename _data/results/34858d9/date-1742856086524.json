@@ -1,0 +1,67 @@
+{
+  "url": "https://www.dme-ing.fr/",
+  "requestedUrl": "https://dme-ing.fr/",
+  "timestamp": 1742885412624,
+  "ranks": {
+    "hundos": 818,
+    "performance": 950,
+    "accessibility": 748,
+    "cumulative": 822
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.8,
+    "accessibility": 0.95,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 375
+  },
+  "firstContentfulPaint": 2159.3775400000004,
+  "firstMeaningfulPaint": 2159.3775400000004,
+  "speedIndex": 2669.798719008184,
+  "largestContentfulPaint": 2309.3775400000004,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.31346881218005307,
+  "timeToInteractive": 2159.3775400000004,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 120.64100000000002,
+  "weight": {
+    "summary": "19 requests • 296.5 KiB",
+    "total": 303599,
+    "image": 218522,
+    "imageCount": 4,
+    "script": 22309,
+    "scriptCount": 1,
+    "document": 12510,
+    "font": 43402,
+    "fontCount": 3,
+    "stylesheet": 6564,
+    "stylesheetCount": 8,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 643,
+    "+weight.total": 455,
+    "-weight.document": 780,
+    "+weight.document": 287,
+    "-weight.script": 369,
+    "+weight.script": 425,
+    "-weight.image": 541,
+    "+weight.image": 316,
+    "-weight.font": 223,
+    "+weight.font": 512,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 637,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 896
+  },
+  "axe": {
+    "passes": 646,
+    "violations": 12
+  }
+}

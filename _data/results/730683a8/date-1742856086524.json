@@ -1,0 +1,67 @@
+{
+  "url": "https://www.bilbonauta.com/",
+  "requestedUrl": "https://www.elpaigaritinerante.com/",
+  "timestamp": 1742871891269,
+  "ranks": {
+    "hundos": 537,
+    "performance": 815,
+    "accessibility": 359,
+    "cumulative": 536
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.92,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 392
+  },
+  "firstContentfulPaint": 2326.8720000000003,
+  "firstMeaningfulPaint": 2342.3720000000003,
+  "speedIndex": 3172.1631396386747,
+  "largestContentfulPaint": 2847.1800000000007,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.0015499690555741171,
+  "timeToInteractive": 2342.3720000000003,
+  "maxPotentialFirstInputDelay": 31,
+  "timeToFirstByte": 262.09899999999993,
+  "weight": {
+    "summary": "53 requests • 407.0 KiB",
+    "total": 416726,
+    "image": 330244,
+    "imageCount": 47,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 29527,
+    "font": 56754,
+    "fontCount": 4,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 363,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 718,
+    "+weight.total": 380,
+    "-weight.document": 956,
+    "+weight.document": 111,
+    "-weight.script": 1,
+    "+weight.script": 794,
+    "-weight.image": 618,
+    "+weight.image": 239,
+    "-weight.font": 310,
+    "+weight.font": 425,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 917,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 522
+  },
+  "axe": {
+    "passes": 863,
+    "violations": 1
+  }
+}

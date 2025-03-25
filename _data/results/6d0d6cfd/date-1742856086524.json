@@ -1,0 +1,67 @@
+{
+  "url": "https://rkblog.dev/",
+  "requestedUrl": "https://rkblog.dev/",
+  "timestamp": 1742874834486,
+  "ranks": {
+    "hundos": 35,
+    "performance": 28,
+    "accessibility": 488,
+    "cumulative": 213
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 823.4395,
+  "firstMeaningfulPaint": 823.4395,
+  "speedIndex": 823.4395,
+  "largestContentfulPaint": 1520.5825,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 823.4395,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 85.90700000000001,
+  "weight": {
+    "summary": "52 requests • 267.8 KiB",
+    "total": 274178,
+    "image": 132008,
+    "imageCount": 6,
+    "script": 7110,
+    "scriptCount": 1,
+    "document": 6641,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 3943,
+    "stylesheetCount": 1,
+    "thirdParty": 131448,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 598,
+    "+weight.total": 500,
+    "-weight.document": 542,
+    "+weight.document": 525,
+    "-weight.script": 256,
+    "+weight.script": 538,
+    "-weight.image": 434,
+    "+weight.image": 423,
+    "-weight.font": 1,
+    "+weight.font": 735,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 494,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 760
+  },
+  "axe": {
+    "passes": 201,
+    "violations": 2
+  }
+}

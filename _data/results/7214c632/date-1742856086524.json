@@ -1,0 +1,67 @@
+{
+  "url": "https://heyflow.com/",
+  "requestedUrl": "https://heyflow.com/",
+  "timestamp": 1742874791458,
+  "ranks": {
+    "hundos": 890,
+    "performance": 816,
+    "accessibility": 726,
+    "cumulative": 891
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.92,
+    "accessibility": 0.95,
+    "bestPractices": 0.78,
+    "seo": 1,
+    "total": 365
+  },
+  "firstContentfulPaint": 1572.9289999999999,
+  "firstMeaningfulPaint": 1572.9289999999999,
+  "speedIndex": 3296.074428406467,
+  "largestContentfulPaint": 3100.4545000000003,
+  "totalBlockingTime": 39.5,
+  "cumulativeLayoutShift": 5.025809043451901e-7,
+  "timeToInteractive": 7497.708,
+  "maxPotentialFirstInputDelay": 113,
+  "timeToFirstByte": 134.49200000000002,
+  "weight": {
+    "summary": "92 requests • 2.3 MiB",
+    "total": 2416669,
+    "image": 399792,
+    "imageCount": 30,
+    "script": 944910,
+    "scriptCount": 30,
+    "document": 18190,
+    "font": 68693,
+    "fontCount": 5,
+    "stylesheet": 35669,
+    "stylesheetCount": 1,
+    "thirdParty": 2227636,
+    "thirdPartyCount": 11
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 1008,
+    "+weight.total": 90,
+    "-weight.document": 880,
+    "+weight.document": 187,
+    "-weight.script": 771,
+    "+weight.script": 23,
+    "-weight.image": 640,
+    "+weight.image": 217,
+    "-weight.font": 378,
+    "+weight.font": 357,
+    "+weight.fontCount": 12,
+    "-timeToFirstByte": 703,
+    "-totalBlockingTime": 71,
+    "-largestContentfulPaint": 960
+  },
+  "axe": {
+    "passes": 811,
+    "violations": 4
+  }
+}

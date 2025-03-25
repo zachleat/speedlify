@@ -1,0 +1,67 @@
+{
+  "url": "https://snipshop.lea-tortay.com/",
+  "requestedUrl": "https://snipshop.lea-tortay.com/",
+  "timestamp": 1742877869606,
+  "ranks": {
+    "hundos": 934,
+    "performance": 889,
+    "accessibility": 1004,
+    "cumulative": 936
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.85,
+    "accessibility": 0.83,
+    "bestPractices": 1,
+    "seo": 0.92,
+    "total": 360
+  },
+  "firstContentfulPaint": 913.4860000000001,
+  "firstMeaningfulPaint": 913.4860000000001,
+  "speedIndex": 984.8741719931007,
+  "largestContentfulPaint": 4467.3150000000005,
+  "totalBlockingTime": 32.5,
+  "cumulativeLayoutShift": 0.00018246928743323272,
+  "timeToInteractive": 4842.3150000000005,
+  "maxPotentialFirstInputDelay": 115,
+  "timeToFirstByte": 54.508999999999986,
+  "weight": {
+    "summary": "13 requests • 546.5 KiB",
+    "total": 559583,
+    "image": 88771,
+    "imageCount": 4,
+    "script": 412094,
+    "scriptCount": 1,
+    "document": 4408,
+    "font": 36019,
+    "fontCount": 1,
+    "stylesheet": 14090,
+    "stylesheetCount": 3,
+    "thirdParty": 555175,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 799,
+    "+weight.total": 299,
+    "-weight.document": 345,
+    "+weight.document": 722,
+    "-weight.script": 719,
+    "+weight.script": 75,
+    "-weight.image": 370,
+    "+weight.image": 487,
+    "-weight.font": 177,
+    "+weight.font": 558,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 221,
+    "-totalBlockingTime": 59,
+    "-largestContentfulPaint": 1009
+  },
+  "axe": {
+    "passes": 109,
+    "violations": 5
+  }
+}

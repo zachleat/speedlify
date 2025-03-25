@@ -1,0 +1,67 @@
+{
+  "url": "https://www.hayes.software/",
+  "requestedUrl": "https://hayes.software/",
+  "timestamp": 1742880103442,
+  "ranks": {
+    "hundos": 691,
+    "performance": 651,
+    "accessibility": 719,
+    "cumulative": 692
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.97,
+    "accessibility": 0.95,
+    "bestPractices": 1,
+    "seo": 0.92,
+    "total": 384
+  },
+  "firstContentfulPaint": 1807.2920000000001,
+  "firstMeaningfulPaint": 1807.2920000000001,
+  "speedIndex": 1807.2920000000001,
+  "largestContentfulPaint": 2442.417,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1807.2920000000001,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 160.639,
+  "weight": {
+    "summary": "15 requests • 92.9 KiB",
+    "total": 95126,
+    "image": 0,
+    "imageCount": 0,
+    "script": 78237,
+    "scriptCount": 12,
+    "document": 7303,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 9001,
+    "stylesheetCount": 1,
+    "thirdParty": 47621,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 324,
+    "+weight.total": 774,
+    "-weight.document": 588,
+    "+weight.document": 479,
+    "-weight.script": 509,
+    "+weight.script": 285,
+    "-weight.image": 1,
+    "+weight.image": 857,
+    "-weight.font": 1,
+    "+weight.font": 735,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 774,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 912
+  },
+  "axe": {
+    "passes": 234,
+    "violations": 3
+  }
+}

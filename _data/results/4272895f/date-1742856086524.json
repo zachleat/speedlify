@@ -1,0 +1,67 @@
+{
+  "url": "https://cybercultural.com/",
+  "requestedUrl": "https://cybercultural.com/",
+  "timestamp": 1742867465052,
+  "ranks": {
+    "hundos": 319,
+    "performance": 453,
+    "accessibility": 473,
+    "cumulative": 345
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.99,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 0.99,
+    "total": 398
+  },
+  "firstContentfulPaint": 869.924,
+  "firstMeaningfulPaint": 869.924,
+  "speedIndex": 869.924,
+  "largestContentfulPaint": 2043.924,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 869.924,
+  "maxPotentialFirstInputDelay": 47,
+  "timeToFirstByte": 78.118,
+  "weight": {
+    "summary": "16 requests • 628.4 KiB",
+    "total": 643519,
+    "image": 476006,
+    "imageCount": 6,
+    "script": 120917,
+    "scriptCount": 3,
+    "document": 6055,
+    "font": 34349,
+    "fontCount": 3,
+    "stylesheet": 5502,
+    "stylesheetCount": 1,
+    "thirdParty": 120549,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 833,
+    "+weight.total": 265,
+    "-weight.document": 494,
+    "+weight.document": 573,
+    "-weight.script": 562,
+    "+weight.script": 232,
+    "-weight.image": 671,
+    "+weight.image": 186,
+    "-weight.font": 166,
+    "+weight.font": 569,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 450,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 864
+  },
+  "axe": {
+    "passes": 354,
+    "violations": 2
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://archipylago.dev/",
+  "requestedUrl": "https://archipylago.dev/",
+  "timestamp": 1742874741340,
+  "ranks": {
+    "hundos": 355,
+    "performance": 584,
+    "accessibility": 636,
+    "cumulative": 377
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.98,
+    "accessibility": 0.99,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 397
+  },
+  "firstContentfulPaint": 1591.5729999999999,
+  "firstMeaningfulPaint": 1891.5729999999999,
+  "speedIndex": 1591.5729999999999,
+  "largestContentfulPaint": 1966.5729999999999,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.06045683840927027,
+  "timeToInteractive": 1891.5729999999999,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 74.061,
+  "weight": {
+    "summary": "20 requests • 407.0 KiB",
+    "total": 416791,
+    "image": 343957,
+    "imageCount": 12,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 6642,
+    "font": 60840,
+    "fontCount": 4,
+    "stylesheet": 5352,
+    "stylesheetCount": 3,
+    "thirdParty": 62836,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 719,
+    "+weight.total": 379,
+    "-weight.document": 543,
+    "+weight.document": 524,
+    "-weight.script": 1,
+    "+weight.script": 794,
+    "-weight.image": 621,
+    "+weight.image": 236,
+    "-weight.font": 329,
+    "+weight.font": 406,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 424,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 851
+  },
+  "axe": {
+    "passes": 338,
+    "violations": 5
+  }
+}

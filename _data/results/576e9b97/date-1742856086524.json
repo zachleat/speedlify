@@ -1,0 +1,67 @@
+{
+  "url": "https://www.tottattoo.com/",
+  "requestedUrl": "https://tottattoo.com/",
+  "timestamp": 1742859483364,
+  "ranks": {
+    "hundos": 825,
+    "performance": 929,
+    "accessibility": 865,
+    "cumulative": 828
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.82,
+    "accessibility": 0.92,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 374
+  },
+  "firstContentfulPaint": 2802.7157799999995,
+  "firstMeaningfulPaint": 2802.7157799999995,
+  "speedIndex": 3022.5475829929123,
+  "largestContentfulPaint": 4084.6896399999996,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.03296014788464835,
+  "timeToInteractive": 2802.7157799999995,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 71.735,
+  "weight": {
+    "summary": "25 requests • 922.0 KiB",
+    "total": 944158,
+    "image": 905036,
+    "imageCount": 18,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 2101,
+    "font": 34080,
+    "fontCount": 2,
+    "stylesheet": 2799,
+    "stylesheetCount": 3,
+    "thirdParty": 35556,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 894,
+    "+weight.total": 204,
+    "-weight.document": 92,
+    "+weight.document": 975,
+    "-weight.script": 1,
+    "+weight.script": 794,
+    "-weight.image": 734,
+    "+weight.image": 123,
+    "-weight.font": 163,
+    "+weight.font": 572,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 406,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 994
+  },
+  "axe": {
+    "passes": 202,
+    "violations": 9
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://memo.forof.dev/",
+  "requestedUrl": "https://memo.forof.dev/",
+  "timestamp": 1742860630020,
+  "ranks": {
+    "hundos": 522,
+    "performance": 88,
+    "accessibility": 599,
+    "cumulative": 552
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 0.92,
+    "total": 392
+  },
+  "firstContentfulPaint": 896.264,
+  "firstMeaningfulPaint": 896.264,
+  "speedIndex": 896.264,
+  "largestContentfulPaint": 896.264,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 896.264,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 75.196,
+  "weight": {
+    "summary": "6 requests • 3.7 MiB",
+    "total": 3929163,
+    "image": 3919561,
+    "imageCount": 4,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 8014,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 1588,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 1048,
+    "+weight.total": 50,
+    "-weight.document": 627,
+    "+weight.document": 440,
+    "-weight.script": 1,
+    "+weight.script": 794,
+    "-weight.image": 830,
+    "+weight.image": 27,
+    "-weight.font": 1,
+    "+weight.font": 735,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 430,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 624
+  },
+  "axe": {
+    "passes": 1210,
+    "violations": 13
+  }
+}

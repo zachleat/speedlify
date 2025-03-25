@@ -1,0 +1,67 @@
+{
+  "url": "https://scrambletheduck.org/",
+  "requestedUrl": "https://scrambletheduck.org/",
+  "timestamp": 1742877150573,
+  "ranks": {
+    "hundos": 73,
+    "performance": 68,
+    "accessibility": 494,
+    "cumulative": 215
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 869.201,
+  "firstMeaningfulPaint": 869.201,
+  "speedIndex": 869.201,
+  "largestContentfulPaint": 1035.201,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 869.201,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 90.573,
+  "weight": {
+    "summary": "20 requests • 93.9 KiB",
+    "total": 96186,
+    "image": 62983,
+    "imageCount": 10,
+    "script": 9495,
+    "scriptCount": 5,
+    "document": 3272,
+    "font": 14080,
+    "fontCount": 1,
+    "stylesheet": 5272,
+    "stylesheetCount": 1,
+    "thirdParty": 5666,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 325,
+    "+weight.total": 773,
+    "-weight.document": 220,
+    "+weight.document": 847,
+    "-weight.script": 289,
+    "+weight.script": 505,
+    "-weight.image": 329,
+    "+weight.image": 528,
+    "-weight.font": 39,
+    "+weight.font": 696,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 521,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 669
+  },
+  "axe": {
+    "passes": 169,
+    "violations": 2
+  }
+}

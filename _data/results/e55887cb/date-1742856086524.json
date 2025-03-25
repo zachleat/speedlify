@@ -1,0 +1,67 @@
+{
+  "url": "https://morganwebdev.com/",
+  "requestedUrl": "https://morganwebdev.com/",
+  "timestamp": 1742863063886,
+  "ranks": {
+    "hundos": 245,
+    "performance": 263,
+    "accessibility": 571,
+    "cumulative": 243
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 898.649,
+  "firstMeaningfulPaint": 898.649,
+  "speedIndex": 1173.500361992216,
+  "largestContentfulPaint": 898.649,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 898.649,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 180.93200000000002,
+  "weight": {
+    "summary": "3 requests • 2.8 KiB",
+    "total": 2853,
+    "image": 0,
+    "imageCount": 0,
+    "script": 104,
+    "scriptCount": 1,
+    "document": 760,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 1989,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 14,
+    "+weight.total": 1084,
+    "-weight.document": 2,
+    "+weight.document": 1065,
+    "-weight.script": 1,
+    "+weight.script": 793,
+    "-weight.image": 1,
+    "+weight.image": 857,
+    "-weight.font": 1,
+    "+weight.font": 735,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 825,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 297
+  },
+  "axe": {
+    "passes": 23,
+    "violations": 5
+  }
+}

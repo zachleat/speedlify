@@ -1,0 +1,67 @@
+{
+  "url": "https://lai.nz/",
+  "requestedUrl": "https://lai.nz/",
+  "timestamp": 1742883507087,
+  "ranks": {
+    "hundos": 653,
+    "performance": 404,
+    "accessibility": 840,
+    "cumulative": 654
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 1,
+    "accessibility": 0.93,
+    "bestPractices": 1,
+    "seo": 0.93,
+    "total": 386
+  },
+  "firstContentfulPaint": 953.9365,
+  "firstMeaningfulPaint": 953.9365,
+  "speedIndex": 1788.4694950128255,
+  "largestContentfulPaint": 1851.9365,
+  "totalBlockingTime": 1,
+  "cumulativeLayoutShift": 0.00100496897350382,
+  "timeToInteractive": 1777.9364999999998,
+  "maxPotentialFirstInputDelay": 52,
+  "timeToFirstByte": 569.324,
+  "weight": {
+    "summary": "20 requests • 285.7 KiB",
+    "total": 292520,
+    "image": 36217,
+    "imageCount": 2,
+    "script": 2871,
+    "scriptCount": 2,
+    "document": 5186,
+    "font": 240973,
+    "fontCount": 5,
+    "stylesheet": 7273,
+    "stylesheetCount": 10,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 628,
+    "+weight.total": 470,
+    "-weight.document": 422,
+    "+weight.document": 645,
+    "-weight.script": 158,
+    "+weight.script": 636,
+    "-weight.image": 249,
+    "+weight.image": 608,
+    "-weight.font": 642,
+    "+weight.font": 93,
+    "+weight.fontCount": 12,
+    "-timeToFirstByte": 1060,
+    "-totalBlockingTime": 3,
+    "-largestContentfulPaint": 457
+  },
+  "axe": {
+    "passes": 150,
+    "violations": 32
+  }
+}
