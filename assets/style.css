@@ -536,3 +536,19 @@ abbr {
 .floppy-8 {
 	clip-path: inset(0 7px 0 0);
 }
+
+.overflow-list {
+	margin: 2em auto;
+	padding: .25em;
+	columns: 14em;
+	list-style: '';
+}
+.overflow-list li {
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	margin: .75em 0;
+}
+.overflow-list li:first-child {
+	margin-block-start: 0;
+}
