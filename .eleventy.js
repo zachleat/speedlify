@@ -72,6 +72,9 @@ function displayUrl(url, keepWww = false) {
 	if(url.endsWith("/index.html")) {
 		url = url.replace("/index.html", "/");
 	}
+	if(url.split("/").length === 2 && url.endsWith("/")) {
+		url = url.slice(0, -1);
+	}
 	return url;
 }
 
@@ -148,6 +151,14 @@ module.exports = function(eleventyConfig) {
 		let date = new Date(timestamp);
 		let day = `${months[date.getMonth()]} ${pad(date.getDate())}`;
 		return `${day} <span class="leaderboard-hide-md">${pad(date.getHours())}:${pad(date.getMinutes())}</span>`;
+	});
+
+	eleventyConfig.addFilter("filterToFourHundos", (obj, flip = false) => {
+		return obj.filter(entry => {
+			let newestKey = Object.keys(entry).sort().pop();
+			let check = entry[newestKey].lighthouse.performance === 1 && entry[newestKey].lighthouse.accessibility === 1 && entry[newestKey].lighthouse.bestPractices === 1 && entry[newestKey].lighthouse.seo === 1;
+			return flip ? !check : check;
+		});
 	});
 
 	eleventyConfig.addFilter("sortCumulativeScore", (obj) => {

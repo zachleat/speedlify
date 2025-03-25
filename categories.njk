@@ -20,7 +20,7 @@ permalink: "/{{ (sites[vertical].name or vertical) | slug }}/"
 			</tr>
 		</thead>
 		<tbody>
-		{%- for site in results | getSites(sites, vertical, isolatedKeys) | sortCumulativeScore | addSkippedIndeces(sites[vertical].skipIndeces) %}
+		{%- for site in results | getSites(sites, vertical, isolatedKeys) | sortCumulativeScore | filterToFourHundos | addSkippedIndeces(sites[vertical].skipIndeces) %}
 			{%- if not site %}
 			{%- else %}
 				{%- set newestKey = site | getObjectKey(":newest") %}
@@ -33,7 +33,6 @@ permalink: "/{{ (sites[vertical].name or vertical) | slug }}/"
 
 				{%- set sitePageUrl %}/{{ (sites[vertical].name or vertical) | slug }}/{{ site[newestKey].url | displayUrl | slugify }}/{% endset %}
 
-				{%- if hundos === 4 %}
 				<tr class="leaderboard-list-entry{% if hundos === 4 and site[newestKey].ranks and loop.index != site[newestKey].ranks.cumulative %} leaderboard-list-entry-badrank{% endif %}" id="site-{{ site[key].url | shortHash }}" data-rank="{{ site[newestKey].ranks.cumulative }}">
 					<td class="leaderboard-number">
 						{% if hundos === 4 %}<span>#</span>{{ loop.index }}{% endif %}
@@ -72,8 +71,17 @@ permalink: "/{{ (sites[vertical].name or vertical) | slug }}/"
 					<td class="leaderboard-hide-md"><a href="{{ sitePageUrl }}" class="speedlify-button">Historical Data</a></td>
 				</tr>
 			{%- endif %}
-			{%- endif %}
 		{%- endfor %}
 		</tbody>
 	</table>
+
+	<ul class="overflow-list">
+	{%- for site in results | getSites(sites, vertical, isolatedKeys) | filterToFourHundos(true) %}
+		{%- if site %}
+		{%- set newestKey = site | getObjectKey(":newest") %}
+		{%- set sitePageUrl %}/{{ (sites[vertical].name or vertical) | slug }}/{{ site[newestKey].url | displayUrl | slugify }}/{% endset %}
+		<li><a href="{{ sitePageUrl }}"><img src="https://v1.indieweb-avatar.11ty.dev/{{ site[newestKey].url | urlencode }}/" width="150" height="150" alt="IndieWeb Avatar for {{ site[newestKey].url | displayUrl }}" class="leaderboard-list-entry-thumbnail" loading="lazy" decoding="async"><code class="url">{{ site[newestKey].url | displayUrl(hasRedirect) }}</code></a></li>
+		{%- endif %}
+	{%- endfor %}
+	</ul>
 </div><!-- /leaderboard -->
