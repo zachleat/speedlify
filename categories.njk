@@ -5,13 +5,6 @@ pagination:
   size: 1
   alias: vertical
 permalink: "/{{ (sites[vertical].name or vertical) | slug }}/"
-counts:
-  performance: 0
-  accessibility: 0
-  bestPractices: 0
-  seo: 0
-  perfect: 0
-  total: 0
 ---
 <div class="leaderboard-wrapper">
 	<table class="leaderboard">
@@ -40,6 +33,7 @@ counts:
 
 				{%- set sitePageUrl %}/{{ (sites[vertical].name or vertical) | slug }}/{{ site[newestKey].url | displayUrl | slugify }}/{% endset %}
 
+				{%- if hundos === 4 %}
 				<tr class="leaderboard-list-entry{% if hundos === 4 and site[newestKey].ranks and loop.index != site[newestKey].ranks.cumulative %} leaderboard-list-entry-badrank{% endif %}" id="site-{{ site[key].url | shortHash }}" data-rank="{{ site[newestKey].ranks.cumulative }}">
 					<td class="leaderboard-number">
 						{% if hundos === 4 %}<span>#</span>{{ loop.index }}{% endif %}
@@ -70,37 +64,16 @@ counts:
 				{%- if site[newestKey].error %}
 					<td></td>
 				{%- else %}
-					{%- set counts = counts | hundoCountTotals(site[newestKey]) %}
 					<td class="leaderboard-score">
-						<is-land on:visible><speedlify-score class="leaderboard-score-circles{% if hundos === 4 %} leaderboard-score-circles-400{% endif %}" raw-data='{{ site[newestKey] | toJSON | safe }}'></speedlify-score></is-land><span class="leaderboard-score-sum leaderboard-number">{{ site[newestKey] | lighthouseTotal }}</span>
+						{%- set totalLighthouseScore = site[newestKey] | lighthouseTotal %}
+						<is-land on:visible><speedlify-score class="leaderboard-score-circles{% if hundos === 4 %} leaderboard-score-circles-400{% endif %}" raw-data='{{ site[newestKey] | toJSON | safe }}'></speedlify-score></is-land><span class="leaderboard-score-sum leaderboard-number">{{ totalLighthouseScore }}</span>
 					</td>
 				{%- endif %}
 					<td class="leaderboard-hide-md"><a href="{{ sitePageUrl }}" class="speedlify-button">Historical Data</a></td>
 				</tr>
 			{%- endif %}
+			{%- endif %}
 		{%- endfor %}
 		</tbody>
 	</table>
-	<dl class="category-stats">
-		<div class="category-stats-entry">
-			<dt>Performance 💯</dt>
-			<dd>{{ counts.performance }}<span> / {{ counts.total }}</span></dd>
-		</div>
-		<div class="category-stats-entry">
-			<dt>Accessibility 💯</dt>
-			<dd>{{ counts.accessibility }}<span> / {{ counts.total }}</span></dd>
-		</div>
-		<div class="category-stats-entry">
-			<dt>Best Practices 💯</dt>
-			<dd>{{ counts.bestPractices }}<span> / {{ counts.total }}</span></dd>
-		</div>
-		<div class="category-stats-entry">
-			<dt>SEO 💯</dt>
-			<dd>{{ counts.seo }}<span> / {{ counts.total }}</span></dd>
-		</div>
-		<div class="category-stats-entry">
-			<dt>Perfect 4×💯</dt>
-			<dd>{{ counts.perfect }}<span> / {{ counts.total }}</span></dd>
-		</div>
-	</dl>
 </div><!-- /leaderboard -->
