@@ -1,6 +1,8 @@
 const Fetch = require("@11ty/eleventy-fetch");
 
 module.exports = async function() {
+	const { default: Generator } = await import("@11ty/find-generator");
+
 	let url = "https://www.11ty.dev/api/urls.json";
 	let urlsJson = await Fetch(url, {
 		duration: "2d",
@@ -28,7 +30,28 @@ module.exports = async function() {
 			// Skip URL for axe (hanging without timeout even on axe cli)
 			bypassAxe: [
 				"https://personalsit.es/"
-			]
+			],
+
+			afterHook: async function({ url }) {
+				try {
+					let g = new Generator(url);
+					await g.fetch({
+						duration: "7d", // cache duration
+					});
+					let raw = g.findData();
+					let generatorValue = (raw || "").toLowerCase();
+					if(!generatorValue.includes("11ty") && !generatorValue.includes("eleventy")) {
+						return false;
+					}
+				} catch(e) {
+					if(!e.message?.includes(`No <meta name='generator' content> element found.`)) {
+						console.log( `Error with <meta name=generator> check for ${url}:`, e.message );
+					}
+
+					// If no <meta name="generator"> is found, we’ll still include in results for now!
+					// return false;
+				}
+			},
 		},
 		urls: urlsJson,
 

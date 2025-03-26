@@ -1,5 +1,5 @@
 require("dotenv").config();
-const path = require("path");
+
 const fs = require("fs").promises;
 const shortHash = require("short-hash");
 const fastglob = require("fast-glob");
@@ -108,7 +108,7 @@ async function tryToPreventNetlifyBuildTimeout(dateTestsStarted, numberOfUrls) {
 		let results = await PerfLeaderboard(
 			group.urls,
 			runCount,
-			group.options || {}
+			group.options || {},
 		);
 
 		let promises = [];
