@@ -1,0 +1,66 @@
+{
+  "url": "https://gittings.studio/",
+  "requestedUrl": "https://gittings.studio/",
+  "timestamp": 1754150039762,
+  "ranks": {
+    "hundos": 537,
+    "performance": 803,
+    "accessibility": 380,
+    "cumulative": 544
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.91,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 391
+  },
+  "firstContentfulPaint": 1079.295,
+  "speedIndex": 1084.0547760095596,
+  "largestContentfulPaint": 3446.401,
+  "totalBlockingTime": 3,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 3446.401,
+  "maxPotentialFirstInputDelay": 53,
+  "timeToFirstByte": 71.38900000000001,
+  "weight": {
+    "summary": "13 requests • 426.4 KiB",
+    "total": 436631,
+    "image": 20788,
+    "imageCount": 3,
+    "script": 139738,
+    "scriptCount": 3,
+    "document": 14310,
+    "font": 252394,
+    "fontCount": 2,
+    "stylesheet": 6966,
+    "stylesheetCount": 1,
+    "thirdParty": 139236,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 745,
+    "+weight.total": 374,
+    "-weight.document": 829,
+    "+weight.document": 249,
+    "-weight.script": 590,
+    "+weight.script": 217,
+    "-weight.image": 203,
+    "+weight.image": 662,
+    "-weight.font": 651,
+    "+weight.font": 94,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 502,
+    "-totalBlockingTime": 143,
+    "-largestContentfulPaint": 1000
+  },
+  "axe": {
+    "passes": 632,
+    "violations": 1
+  }
+}

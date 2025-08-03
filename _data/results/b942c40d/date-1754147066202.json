@@ -1,0 +1,66 @@
+{
+  "url": "https://www.beccishep.com/",
+  "requestedUrl": "https://www.beccishep.co.uk/",
+  "timestamp": 1754165886176,
+  "ranks": {
+    "hundos": 613,
+    "performance": 790,
+    "accessibility": 710,
+    "cumulative": 610
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.92,
+    "accessibility": 0.96,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 388
+  },
+  "firstContentfulPaint": 2430.634,
+  "speedIndex": 2430.634,
+  "largestContentfulPaint": 2843.634,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 2843.634,
+  "maxPotentialFirstInputDelay": 37,
+  "timeToFirstByte": 149.122,
+  "weight": {
+    "summary": "17 requests • 263 KiB",
+    "total": 269268,
+    "image": 155258,
+    "imageCount": 7,
+    "script": 21851,
+    "scriptCount": 2,
+    "document": 8576,
+    "font": 52193,
+    "fontCount": 1,
+    "stylesheet": 21344,
+    "stylesheetCount": 2,
+    "thirdParty": 522,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 602,
+    "+weight.total": 517,
+    "-weight.document": 657,
+    "+weight.document": 421,
+    "-weight.script": 378,
+    "+weight.script": 429,
+    "-weight.image": 501,
+    "+weight.image": 364,
+    "-weight.font": 275,
+    "+weight.font": 470,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 741,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 944
+  },
+  "axe": {
+    "passes": 178,
+    "violations": 4
+  }
+}

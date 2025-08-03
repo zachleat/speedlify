@@ -1,0 +1,66 @@
+{
+  "url": "https://kevinhealyclarke.co.uk/",
+  "requestedUrl": "https://kevhealy.com/",
+  "timestamp": 1754159119602,
+  "ranks": {
+    "hundos": 660,
+    "performance": 853,
+    "accessibility": 171,
+    "cumulative": 652
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.89,
+    "accessibility": 1,
+    "bestPractices": 0.96,
+    "seo": 1,
+    "total": 385
+  },
+  "firstContentfulPaint": 2512.327,
+  "speedIndex": 2512.327,
+  "largestContentfulPaint": 3336.978,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 3336.978,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 67.398,
+  "weight": {
+    "summary": "14 requests • 336.6 KiB",
+    "total": 344629,
+    "image": 0,
+    "imageCount": 0,
+    "script": 3303,
+    "scriptCount": 1,
+    "document": 2634,
+    "font": 325819,
+    "fontCount": 3,
+    "stylesheet": 4861,
+    "stylesheetCount": 1,
+    "thirdParty": 4336,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 687,
+    "+weight.total": 432,
+    "-weight.document": 144,
+    "+weight.document": 934,
+    "-weight.script": 152,
+    "+weight.script": 655,
+    "-weight.image": 1,
+    "+weight.image": 865,
+    "-weight.font": 693,
+    "+weight.font": 52,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 468,
+    "-totalBlockingTime": 139,
+    "-largestContentfulPaint": 992
+  },
+  "axe": {
+    "passes": 272,
+    "violations": 0
+  }
+}

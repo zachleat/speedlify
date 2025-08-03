@@ -1,0 +1,66 @@
+{
+  "url": "https://homan.io/",
+  "requestedUrl": "https://homan.io/",
+  "timestamp": 1754152165668,
+  "ranks": {
+    "hundos": 926,
+    "performance": 65,
+    "accessibility": 843,
+    "cumulative": 924
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 1,
+    "accessibility": 0.93,
+    "bestPractices": 0.79,
+    "seo": 0.91,
+    "total": 363
+  },
+  "firstContentfulPaint": 842.7220000000001,
+  "speedIndex": 842.7220000000001,
+  "largestContentfulPaint": 1334.488,
+  "totalBlockingTime": 42,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1961.4540000000004,
+  "maxPotentialFirstInputDelay": 92,
+  "timeToFirstByte": 58.122000000000014,
+  "weight": {
+    "summary": "5 requests • 135.2 KiB",
+    "total": 138402,
+    "image": 74297,
+    "imageCount": 1,
+    "script": 54910,
+    "scriptCount": 1,
+    "document": 6147,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 1732,
+    "stylesheetCount": 1,
+    "thirdParty": 54910,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 410,
+    "+weight.total": 709,
+    "-weight.document": 490,
+    "+weight.document": 588,
+    "-weight.script": 487,
+    "+weight.script": 320,
+    "-weight.image": 376,
+    "+weight.image": 489,
+    "-weight.font": 1,
+    "+weight.font": 745,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 384,
+    "-totalBlockingTime": 182,
+    "-largestContentfulPaint": 543
+  },
+  "axe": {
+    "passes": 120,
+    "violations": 2
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "url": "https://danielpza.xyz/",
+  "requestedUrl": "https://danielpza.xyz/",
+  "timestamp": 1754148027753,
+  "ranks": {
+    "hundos": 665,
+    "performance": 497,
+    "accessibility": 340,
+    "cumulative": 653
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.99,
+    "accessibility": 1,
+    "bestPractices": 0.96,
+    "seo": 0.9,
+    "total": 385
+  },
+  "firstContentfulPaint": 1547.3539999999998,
+  "speedIndex": 1547.3539999999998,
+  "largestContentfulPaint": 1547.3539999999998,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1547.3539999999998,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 50.58,
+  "weight": {
+    "summary": "4 requests • 16 KiB",
+    "total": 16422,
+    "image": 0,
+    "imageCount": 0,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 1270,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 14018,
+    "stylesheetCount": 2,
+    "thirdParty": 1250,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 80,
+    "+weight.total": 1039,
+    "-weight.document": 22,
+    "+weight.document": 1056,
+    "-weight.script": 2,
+    "+weight.script": 806,
+    "-weight.image": 1,
+    "+weight.image": 865,
+    "-weight.font": 1,
+    "+weight.font": 745,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 334,
+    "-totalBlockingTime": 139,
+    "-largestContentfulPaint": 59
+  },
+  "axe": {
+    "passes": 79,
+    "violations": 0
+  }
+}

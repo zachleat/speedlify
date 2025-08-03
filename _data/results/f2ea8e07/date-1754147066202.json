@@ -1,0 +1,66 @@
+{
+  "url": "https://guides.18f.org/",
+  "requestedUrl": "https://18f.org/guides/",
+  "timestamp": 1754168691167,
+  "ranks": {
+    "hundos": 1078,
+    "performance": 1088,
+    "accessibility": 437,
+    "cumulative": 1077
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.63,
+    "accessibility": 1,
+    "bestPractices": 0.82,
+    "seo": 0.77,
+    "total": 322
+  },
+  "firstContentfulPaint": 4618.643,
+  "speedIndex": 4618.643,
+  "largestContentfulPaint": 5218.643,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.1543232047018151,
+  "timeToInteractive": 5218.643,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 199.926,
+  "weight": {
+    "summary": "19 requests • 547.8 KiB",
+    "total": 560978,
+    "image": 51056,
+    "imageCount": 10,
+    "script": 38928,
+    "scriptCount": 3,
+    "document": 4555,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 463381,
+    "stylesheetCount": 2,
+    "thirdParty": 8433,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 821,
+    "+weight.total": 298,
+    "-weight.document": 351,
+    "+weight.document": 727,
+    "-weight.script": 447,
+    "+weight.script": 360,
+    "-weight.image": 321,
+    "+weight.image": 544,
+    "-weight.font": 1,
+    "+weight.font": 745,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 860,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 1061
+  },
+  "axe": {
+    "passes": 225,
+    "violations": 1
+  }
+}

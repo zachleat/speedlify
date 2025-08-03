@@ -1,0 +1,66 @@
+{
+  "url": "https://designsystem.webstandards.ca.gov/",
+  "requestedUrl": "https://designsystem.webstandards.ca.gov/",
+  "timestamp": 1754165664463,
+  "ranks": {
+    "hundos": 500,
+    "performance": 779,
+    "accessibility": 102,
+    "cumulative": 500
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.92,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 392
+  },
+  "firstContentfulPaint": 972.039,
+  "speedIndex": 972.039,
+  "largestContentfulPaint": 3314.0389999999998,
+  "totalBlockingTime": 59.5,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 4637.186500000001,
+  "maxPotentialFirstInputDelay": 107,
+  "timeToFirstByte": 14.27200000000002,
+  "weight": {
+    "summary": "22 requests • 2.1 MiB",
+    "total": 2244372,
+    "image": 1742349,
+    "imageCount": 8,
+    "script": 277981,
+    "scriptCount": 3,
+    "document": 35802,
+    "font": 185947,
+    "fontCount": 5,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 278784,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 1026,
+    "+weight.total": 93,
+    "-weight.document": 991,
+    "+weight.document": 87,
+    "-weight.script": 692,
+    "+weight.script": 115,
+    "-weight.image": 796,
+    "+weight.image": 69,
+    "-weight.font": 602,
+    "+weight.font": 143,
+    "+weight.fontCount": 12,
+    "-timeToFirstByte": 9,
+    "-totalBlockingTime": 84,
+    "-largestContentfulPaint": 141
+  },
+  "axe": {
+    "passes": 382,
+    "violations": 0
+  }
+}

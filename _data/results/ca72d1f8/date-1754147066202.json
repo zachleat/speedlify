@@ -1,0 +1,66 @@
+{
+  "url": "https://www.teppohaste.com/",
+  "requestedUrl": "https://www.teppohaste.com/",
+  "timestamp": 1754167083592,
+  "ranks": {
+    "hundos": 264,
+    "performance": 451,
+    "accessibility": 510,
+    "cumulative": 292
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.99,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 399
+  },
+  "firstContentfulPaint": 768.37,
+  "speedIndex": 890.8224480309486,
+  "largestContentfulPaint": 2259.37,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 2259.37,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 107.226,
+  "weight": {
+    "summary": "13 requests • 318.4 KiB",
+    "total": 326014,
+    "image": 250601,
+    "imageCount": 7,
+    "script": 9103,
+    "scriptCount": 1,
+    "document": 3431,
+    "font": 27836,
+    "fontCount": 1,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 664,
+    "+weight.total": 455,
+    "-weight.document": 224,
+    "+weight.document": 854,
+    "-weight.script": 289,
+    "+weight.script": 518,
+    "-weight.image": 594,
+    "+weight.image": 271,
+    "-weight.font": 115,
+    "+weight.font": 630,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 604,
+    "-totalBlockingTime": 139,
+    "-largestContentfulPaint": 816
+  },
+  "axe": {
+    "passes": 79,
+    "violations": 2
+  }
+}

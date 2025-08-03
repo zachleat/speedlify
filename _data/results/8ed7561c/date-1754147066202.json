@@ -1,0 +1,66 @@
+{
+  "url": "https://realdx.online/",
+  "requestedUrl": "https://realdx.online/",
+  "timestamp": 1754174085589,
+  "ranks": {
+    "hundos": 871,
+    "performance": 1007,
+    "accessibility": 797,
+    "cumulative": 871
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.75,
+    "accessibility": 0.95,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 370
+  },
+  "firstContentfulPaint": 1994.7788,
+  "speedIndex": 1994.7788,
+  "largestContentfulPaint": 2938.7582,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.3803977245678224,
+  "timeToInteractive": 2938.7582,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 186.558,
+  "weight": {
+    "summary": "11 requests • 210.8 KiB",
+    "total": 215909,
+    "image": 51001,
+    "imageCount": 4,
+    "script": 6429,
+    "scriptCount": 4,
+    "document": 5244,
+    "font": 132766,
+    "fontCount": 1,
+    "stylesheet": 20469,
+    "stylesheetCount": 1,
+    "thirdParty": 155966,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 547,
+    "+weight.total": 572,
+    "-weight.document": 410,
+    "+weight.document": 668,
+    "-weight.script": 239,
+    "+weight.script": 568,
+    "-weight.image": 320,
+    "+weight.image": 545,
+    "-weight.font": 541,
+    "+weight.font": 204,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 837,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 956
+  },
+  "axe": {
+    "passes": 600,
+    "violations": 83
+  }
+}

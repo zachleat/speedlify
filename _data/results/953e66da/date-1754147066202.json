@@ -1,0 +1,66 @@
+{
+  "url": "https://joshcrain.io/",
+  "requestedUrl": "https://joshcrain.io/",
+  "timestamp": 1754157957556,
+  "ranks": {
+    "hundos": 155,
+    "performance": 226,
+    "accessibility": 38,
+    "cumulative": 104
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 1027.984,
+  "speedIndex": 1027.984,
+  "largestContentfulPaint": 1265.984,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1265.984,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 69.58699999999999,
+  "weight": {
+    "summary": "4 requests • 61.4 KiB",
+    "total": 62865,
+    "image": 0,
+    "imageCount": 0,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 16748,
+    "font": 30308,
+    "fontCount": 1,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 225,
+    "+weight.total": 894,
+    "-weight.document": 865,
+    "+weight.document": 213,
+    "-weight.script": 2,
+    "+weight.script": 806,
+    "-weight.image": 1,
+    "+weight.image": 865,
+    "-weight.font": 138,
+    "+weight.font": 607,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 486,
+    "-totalBlockingTime": 139,
+    "-largestContentfulPaint": 524
+  },
+  "axe": {
+    "passes": 699,
+    "violations": 0
+  }
+}

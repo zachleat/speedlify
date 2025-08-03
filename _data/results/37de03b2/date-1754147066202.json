@@ -1,0 +1,66 @@
+{
+  "url": "https://perrodinero.blog/",
+  "requestedUrl": "https://perrodinero.blog/",
+  "timestamp": 1754156152744,
+  "ranks": {
+    "hundos": 586,
+    "performance": 844,
+    "accessibility": 583,
+    "cumulative": 591
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.89,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 389
+  },
+  "firstContentfulPaint": 1162.029,
+  "speedIndex": 1553.9659877978324,
+  "largestContentfulPaint": 3681.245000000001,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 3681.245000000001,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 416.441,
+  "weight": {
+    "summary": "13 requests • 456.4 KiB",
+    "total": 467337,
+    "image": 394443,
+    "imageCount": 5,
+    "script": 36416,
+    "scriptCount": 3,
+    "document": 9407,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 13179,
+    "stylesheetCount": 1,
+    "thirdParty": 28106,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 766,
+    "+weight.total": 353,
+    "-weight.document": 694,
+    "+weight.document": 384,
+    "-weight.script": 437,
+    "+weight.script": 370,
+    "-weight.image": 663,
+    "+weight.image": 202,
+    "-weight.font": 1,
+    "+weight.font": 745,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 1016,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 1012
+  },
+  "axe": {
+    "passes": 443,
+    "violations": 7
+  }
+}

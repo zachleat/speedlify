@@ -1,0 +1,66 @@
+{
+  "url": "https://jarijokinen.com/",
+  "requestedUrl": "https://jarijokinen.com/",
+  "timestamp": 1754172985651,
+  "ranks": {
+    "hundos": 688,
+    "performance": 3,
+    "accessibility": 928,
+    "cumulative": 695
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 1,
+    "accessibility": 0.91,
+    "bestPractices": 1,
+    "seo": 0.92,
+    "total": 383
+  },
+  "firstContentfulPaint": 772.049,
+  "speedIndex": 772.049,
+  "largestContentfulPaint": 772.049,
+  "totalBlockingTime": 59,
+  "cumulativeLayoutShift": 0.0004101275187330268,
+  "timeToInteractive": 2859.324,
+  "maxPotentialFirstInputDelay": 82,
+  "timeToFirstByte": 111.712,
+  "weight": {
+    "summary": "11 requests • 236.2 KiB",
+    "total": 241879,
+    "image": 2508,
+    "imageCount": 3,
+    "script": 224660,
+    "scriptCount": 3,
+    "document": 1766,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 2839,
+    "stylesheetCount": 1,
+    "thirdParty": 223927,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 572,
+    "+weight.total": 547,
+    "-weight.document": 53,
+    "+weight.document": 1025,
+    "-weight.script": 657,
+    "+weight.script": 150,
+    "-weight.image": 50,
+    "+weight.image": 815,
+    "-weight.font": 1,
+    "+weight.font": 745,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 616,
+    "-totalBlockingTime": 83,
+    "-largestContentfulPaint": 5
+  },
+  "axe": {
+    "passes": 142,
+    "violations": 8
+  }
+}

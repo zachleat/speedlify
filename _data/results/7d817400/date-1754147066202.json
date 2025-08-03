@@ -1,0 +1,66 @@
+{
+  "url": "https://www.juanfernandes.uk/",
+  "requestedUrl": "https://www.juanfernandes.uk/",
+  "timestamp": 1754154036538,
+  "ranks": {
+    "hundos": 549,
+    "performance": 334,
+    "accessibility": 630,
+    "cumulative": 553
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 1,
+    "accessibility": 0.99,
+    "bestPractices": 1,
+    "seo": 0.92,
+    "total": 391
+  },
+  "firstContentfulPaint": 1270.8795,
+  "speedIndex": 1270.8795,
+  "largestContentfulPaint": 1270.8795,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1270.8795,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 112.43100000000001,
+  "weight": {
+    "summary": "12 requests • 154.4 KiB",
+    "total": 158112,
+    "image": 29891,
+    "imageCount": 4,
+    "script": 680,
+    "scriptCount": 1,
+    "document": 8769,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 13420,
+    "stylesheetCount": 1,
+    "thirdParty": 29891,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 453,
+    "+weight.total": 666,
+    "-weight.document": 666,
+    "+weight.document": 412,
+    "-weight.script": 25,
+    "+weight.script": 782,
+    "-weight.image": 234,
+    "+weight.image": 631,
+    "-weight.font": 1,
+    "+weight.font": 745,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 619,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 526
+  },
+  "axe": {
+    "passes": 334,
+    "violations": 5
+  }
+}

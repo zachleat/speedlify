@@ -1,0 +1,66 @@
+{
+  "url": "https://velvetcache.org/",
+  "requestedUrl": "https://velvetcache.org/",
+  "timestamp": 1754166747166,
+  "ranks": {
+    "hundos": 148,
+    "performance": 315,
+    "accessibility": 485,
+    "cumulative": 224
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 1226.999,
+  "speedIndex": 1226.999,
+  "largestContentfulPaint": 1226.999,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.004149181629148198,
+  "timeToInteractive": 1226.999,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 44.61,
+  "weight": {
+    "summary": "10 requests • 58.2 KiB",
+    "total": 59642,
+    "image": 0,
+    "imageCount": 0,
+    "script": 1219,
+    "scriptCount": 1,
+    "document": 4464,
+    "font": 45032,
+    "fontCount": 3,
+    "stylesheet": 7988,
+    "stylesheetCount": 4,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 213,
+    "+weight.total": 906,
+    "-weight.document": 342,
+    "+weight.document": 736,
+    "-weight.script": 63,
+    "+weight.script": 744,
+    "-weight.image": 1,
+    "+weight.image": 865,
+    "-weight.font": 231,
+    "+weight.font": 514,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 298,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 507
+  },
+  "axe": {
+    "passes": 301,
+    "violations": 2
+  }
+}

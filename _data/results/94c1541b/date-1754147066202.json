@@ -1,0 +1,66 @@
+{
+  "url": "https://esif.dev/",
+  "requestedUrl": "https://esif.dev/",
+  "timestamp": 1754165387413,
+  "ranks": {
+    "hundos": 562,
+    "performance": 583,
+    "accessibility": 11,
+    "cumulative": 558
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.98,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 0.92,
+    "total": 390
+  },
+  "firstContentfulPaint": 1727.5559999999998,
+  "speedIndex": 1727.5559999999998,
+  "largestContentfulPaint": 1975.8419999999999,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.006289585569922875,
+  "timeToInteractive": 1975.8419999999999,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 52.747,
+  "weight": {
+    "summary": "19 requests • 299.1 KiB",
+    "total": 306327,
+    "image": 258443,
+    "imageCount": 11,
+    "script": 10027,
+    "scriptCount": 3,
+    "document": 10334,
+    "font": 15394,
+    "fontCount": 2,
+    "stylesheet": 2407,
+    "stylesheetCount": 1,
+    "thirdParty": 33428,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 645,
+    "+weight.total": 474,
+    "-weight.document": 721,
+    "+weight.document": 357,
+    "-weight.script": 300,
+    "+weight.script": 507,
+    "-weight.image": 601,
+    "+weight.image": 264,
+    "-weight.font": 46,
+    "+weight.font": 699,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 346,
+    "-totalBlockingTime": 139,
+    "-largestContentfulPaint": 754
+  },
+  "axe": {
+    "passes": 1448,
+    "violations": 0
+  }
+}

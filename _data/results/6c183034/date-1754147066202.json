@@ -1,0 +1,66 @@
+{
+  "url": "https://lamygram.app/",
+  "requestedUrl": "https://lamygram.app/",
+  "timestamp": 1754153372223,
+  "ranks": {
+    "hundos": 10,
+    "performance": 173,
+    "accessibility": 163,
+    "cumulative": 4
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 960.5955,
+  "speedIndex": 960.5955,
+  "largestContentfulPaint": 960.5955,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 960.5955000000001,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 62.34899999999999,
+  "weight": {
+    "summary": "23 requests • 308.8 KiB",
+    "total": 316225,
+    "image": 306362,
+    "imageCount": 20,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 8528,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 655,
+    "+weight.total": 464,
+    "-weight.document": 655,
+    "+weight.document": 423,
+    "-weight.script": 2,
+    "+weight.script": 806,
+    "-weight.image": 632,
+    "+weight.image": 233,
+    "-weight.font": 1,
+    "+weight.font": 745,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 434,
+    "-totalBlockingTime": 139,
+    "-largestContentfulPaint": 378
+  },
+  "axe": {
+    "passes": 283,
+    "violations": 0
+  }
+}

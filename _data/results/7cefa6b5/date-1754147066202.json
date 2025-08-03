@@ -1,0 +1,66 @@
+{
+  "url": "https://fordv8foundation.org/",
+  "requestedUrl": "https://fordv8foundation.org/",
+  "timestamp": 1754166846958,
+  "ranks": {
+    "hundos": 947,
+    "performance": 1041,
+    "accessibility": 702,
+    "cumulative": 950
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.72,
+    "accessibility": 0.96,
+    "bestPractices": 0.93,
+    "seo": 1,
+    "total": 361
+  },
+  "firstContentfulPaint": 4058.9115,
+  "speedIndex": 4058.9115,
+  "largestContentfulPaint": 5028.847500000001,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.005187709972209945,
+  "timeToInteractive": 5028.847500000001,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 71.695,
+  "weight": {
+    "summary": "23 requests • 846.7 KiB",
+    "total": 867005,
+    "image": 397722,
+    "imageCount": 6,
+    "script": 44538,
+    "scriptCount": 3,
+    "document": 8973,
+    "font": 360977,
+    "fontCount": 6,
+    "stylesheet": 54754,
+    "stylesheetCount": 6,
+    "thirdParty": 382559,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 903,
+    "+weight.total": 216,
+    "-weight.document": 679,
+    "+weight.document": 399,
+    "-weight.script": 460,
+    "+weight.script": 347,
+    "-weight.image": 664,
+    "+weight.image": 201,
+    "-weight.font": 701,
+    "+weight.font": 44,
+    "+weight.fontCount": 11,
+    "-timeToFirstByte": 504,
+    "-totalBlockingTime": 139,
+    "-largestContentfulPaint": 1059
+  },
+  "axe": {
+    "passes": 689,
+    "violations": 4
+  }
+}

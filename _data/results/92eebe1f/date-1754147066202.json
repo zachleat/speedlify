@@ -1,0 +1,66 @@
+{
+  "url": "https://samsmith.uk/",
+  "requestedUrl": "https://samsmith.uk/",
+  "timestamp": 1754160859360,
+  "ranks": {
+    "hundos": 262,
+    "performance": 449,
+    "accessibility": 254,
+    "cumulative": 259
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.99,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 399
+  },
+  "firstContentfulPaint": 882.278,
+  "speedIndex": 882.278,
+  "largestContentfulPaint": 2053.2780000000002,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 2053.2780000000002,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 75.82199999999999,
+  "weight": {
+    "summary": "11 requests • 322.6 KiB",
+    "total": 330348,
+    "image": 267466,
+    "imageCount": 3,
+    "script": 3303,
+    "scriptCount": 1,
+    "document": 6614,
+    "font": 28583,
+    "fontCount": 2,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 4130,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 670,
+    "+weight.total": 449,
+    "-weight.document": 537,
+    "+weight.document": 541,
+    "-weight.script": 152,
+    "+weight.script": 655,
+    "-weight.image": 610,
+    "+weight.image": 255,
+    "-weight.font": 125,
+    "+weight.font": 620,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 523,
+    "-totalBlockingTime": 139,
+    "-largestContentfulPaint": 769
+  },
+  "axe": {
+    "passes": 178,
+    "violations": 0
+  }
+}

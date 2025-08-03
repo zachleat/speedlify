@@ -1,0 +1,66 @@
+{
+  "url": "https://blog.jonathanlau.io/",
+  "requestedUrl": "https://blog.jonathanlau.io/",
+  "timestamp": 1754159801726,
+  "ranks": {
+    "hundos": 432,
+    "performance": 320,
+    "accessibility": 633,
+    "cumulative": 450
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 1,
+    "accessibility": 0.99,
+    "bestPractices": 0.96,
+    "seo": 1,
+    "total": 395
+  },
+  "firstContentfulPaint": 1031.016,
+  "speedIndex": 1232.474610151672,
+  "largestContentfulPaint": 1317.8780000000002,
+  "totalBlockingTime": 10,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1317.8780000000002,
+  "maxPotentialFirstInputDelay": 71,
+  "timeToFirstByte": 246.98499999999999,
+  "weight": {
+    "summary": "10 requests • 109.4 KiB",
+    "total": 112002,
+    "image": 2890,
+    "imageCount": 3,
+    "script": 2390,
+    "scriptCount": 2,
+    "document": 8039,
+    "font": 95540,
+    "fontCount": 2,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 357,
+    "+weight.total": 762,
+    "-weight.document": 624,
+    "+weight.document": 454,
+    "-weight.script": 126,
+    "+weight.script": 681,
+    "-weight.image": 56,
+    "+weight.image": 809,
+    "-weight.font": 462,
+    "+weight.font": 283,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 915,
+    "-totalBlockingTime": 18,
+    "-largestContentfulPaint": 46
+  },
+  "axe": {
+    "passes": 277,
+    "violations": 13
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "url": "https://reinier.fyi/",
+  "requestedUrl": "https://reinier.fyi/",
+  "timestamp": 1754175304815,
+  "ranks": {
+    "hundos": 364,
+    "performance": 426,
+    "accessibility": 455,
+    "cumulative": 378
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 0.96,
+    "seo": 1,
+    "total": 396
+  },
+  "firstContentfulPaint": 941.59,
+  "speedIndex": 1782.5391280927656,
+  "largestContentfulPaint": 1799.5900000000001,
+  "totalBlockingTime": 1.5,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 2318.5683500000005,
+  "maxPotentialFirstInputDelay": 53,
+  "timeToFirstByte": 42.86400000000003,
+  "weight": {
+    "summary": "11 requests • 249.8 KiB",
+    "total": 255832,
+    "image": 45864,
+    "imageCount": 2,
+    "script": 68083,
+    "scriptCount": 1,
+    "document": 2079,
+    "font": 132113,
+    "fontCount": 2,
+    "stylesheet": 3554,
+    "stylesheetCount": 1,
+    "thirdParty": 68466,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 585,
+    "+weight.total": 534,
+    "-weight.document": 87,
+    "+weight.document": 991,
+    "-weight.script": 520,
+    "+weight.script": 287,
+    "-weight.image": 303,
+    "+weight.image": 562,
+    "-weight.font": 539,
+    "+weight.font": 206,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 277,
+    "-totalBlockingTime": 3,
+    "-largestContentfulPaint": 694
+  },
+  "axe": {
+    "passes": 164,
+    "violations": 1
+  }
+}

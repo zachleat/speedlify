@@ -1,0 +1,66 @@
+{
+  "url": "https://westmarchjournal.org/",
+  "requestedUrl": "https://westmarchjournal.org/",
+  "timestamp": 1754171395390,
+  "ranks": {
+    "hundos": 463,
+    "performance": 410,
+    "accessibility": 820,
+    "cumulative": 464
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 1,
+    "accessibility": 0.94,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 394
+  },
+  "firstContentfulPaint": 1470.2040000000002,
+  "speedIndex": 1614.059083985901,
+  "largestContentfulPaint": 1470.2040000000002,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1470.2040000000002,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 321.461,
+  "weight": {
+    "summary": "7 requests • 68.4 KiB",
+    "total": 70055,
+    "image": 0,
+    "imageCount": 0,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 2068,
+    "font": 61447,
+    "fontCount": 3,
+    "stylesheet": 2528,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 246,
+    "+weight.total": 873,
+    "-weight.document": 86,
+    "+weight.document": 992,
+    "-weight.script": 2,
+    "+weight.script": 806,
+    "-weight.image": 1,
+    "+weight.image": 865,
+    "-weight.font": 324,
+    "+weight.font": 421,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 970,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 583
+  },
+  "axe": {
+    "passes": 104,
+    "violations": 8
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "url": "https://mattdecamp.com/",
+  "requestedUrl": "https://mattdecamp.com/",
+  "timestamp": 1754172033688,
+  "ranks": {
+    "hundos": 1045,
+    "performance": 934,
+    "accessibility": 1042,
+    "cumulative": 1044
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.82,
+    "accessibility": 0.82,
+    "bestPractices": 0.96,
+    "seo": 0.82,
+    "total": 342
+  },
+  "firstContentfulPaint": 950.3995,
+  "speedIndex": 1052.2189078848837,
+  "largestContentfulPaint": 950.3995,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.36730844786396627,
+  "timeToInteractive": 950.3995,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 69.02000000000001,
+  "weight": {
+    "summary": "8 requests • 726.6 KiB",
+    "total": 744053,
+    "image": 8548,
+    "imageCount": 1,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 3867,
+    "font": 722168,
+    "fontCount": 3,
+    "stylesheet": 4954,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 879,
+    "+weight.total": 240,
+    "-weight.document": 277,
+    "+weight.document": 801,
+    "-weight.script": 2,
+    "+weight.script": 806,
+    "-weight.image": 116,
+    "+weight.image": 749,
+    "-weight.font": 729,
+    "+weight.font": 16,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 481,
+    "-totalBlockingTime": 139,
+    "-largestContentfulPaint": 366
+  },
+  "axe": {
+    "passes": 203,
+    "violations": 6
+  }
+}

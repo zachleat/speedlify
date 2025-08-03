@@ -1,0 +1,66 @@
+{
+  "url": "https://cloudcannon.com/",
+  "requestedUrl": "https://cloudcannon.com/",
+  "timestamp": 1754177451872,
+  "ranks": {
+    "hundos": 558,
+    "performance": 635,
+    "accessibility": 856,
+    "cumulative": 572
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.97,
+    "accessibility": 0.93,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 390
+  },
+  "firstContentfulPaint": 1375.194,
+  "speedIndex": 1375.194,
+  "largestContentfulPaint": 2468.791,
+  "totalBlockingTime": 34.5,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 4740.250550000001,
+  "maxPotentialFirstInputDelay": 119,
+  "timeToFirstByte": 25.921999999999997,
+  "weight": {
+    "summary": "43 requests • 530.4 KiB",
+    "total": 543148,
+    "image": 112006,
+    "imageCount": 30,
+    "script": 336409,
+    "scriptCount": 4,
+    "document": 37268,
+    "font": 28495,
+    "fontCount": 2,
+    "stylesheet": 24048,
+    "stylesheetCount": 2,
+    "thirdParty": 385415,
+    "thirdPartyCount": 4
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 807,
+    "+weight.total": 312,
+    "-weight.document": 996,
+    "+weight.document": 82,
+    "-weight.script": 710,
+    "+weight.script": 97,
+    "-weight.image": 455,
+    "+weight.image": 410,
+    "-weight.font": 122,
+    "+weight.font": 623,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 96,
+    "-totalBlockingTime": 61,
+    "-largestContentfulPaint": 106
+  },
+  "axe": {
+    "passes": 954,
+    "violations": 9
+  }
+}

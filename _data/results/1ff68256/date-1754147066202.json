@@ -1,0 +1,66 @@
+{
+  "url": "https://www.justus.ws/",
+  "requestedUrl": "https://www.justus.ws/",
+  "timestamp": 1754166216793,
+  "ranks": {
+    "hundos": 489,
+    "performance": 577,
+    "accessibility": 780,
+    "cumulative": 494
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.98,
+    "accessibility": 0.95,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 393
+  },
+  "firstContentfulPaint": 1608.8664999999999,
+  "speedIndex": 1608.8664999999999,
+  "largestContentfulPaint": 1608.8664999999999,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.07251672141316591,
+  "timeToInteractive": 1608.8665,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 76.884,
+  "weight": {
+    "summary": "16 requests • 636.6 KiB",
+    "total": 651919,
+    "image": 24577,
+    "imageCount": 2,
+    "script": 32154,
+    "scriptCount": 2,
+    "document": 3145,
+    "font": 555173,
+    "fontCount": 5,
+    "stylesheet": 19398,
+    "stylesheetCount": 5,
+    "thirdParty": 355490,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 853,
+    "+weight.total": 266,
+    "-weight.document": 192,
+    "+weight.document": 886,
+    "-weight.script": 427,
+    "+weight.script": 380,
+    "-weight.image": 218,
+    "+weight.image": 647,
+    "-weight.font": 722,
+    "+weight.font": 23,
+    "+weight.fontCount": 12,
+    "-timeToFirstByte": 527,
+    "-totalBlockingTime": 139,
+    "-largestContentfulPaint": 618
+  },
+  "axe": {
+    "passes": 398,
+    "violations": 5
+  }
+}

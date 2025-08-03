@@ -1,0 +1,66 @@
+{
+  "url": "https://maprunner.co.uk/",
+  "requestedUrl": "https://maprunner.co.uk/",
+  "timestamp": 1754166987122,
+  "ranks": {
+    "hundos": 693,
+    "performance": 599,
+    "accessibility": 838,
+    "cumulative": 682
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.98,
+    "accessibility": 0.93,
+    "bestPractices": 1,
+    "seo": 0.92,
+    "total": 383
+  },
+  "firstContentfulPaint": 1914.3955,
+  "speedIndex": 1914.3955,
+  "largestContentfulPaint": 1914.3955,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1914.3955,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 155.76299999999998,
+  "weight": {
+    "summary": "18 requests • 177.1 KiB",
+    "total": 181310,
+    "image": 128897,
+    "imageCount": 11,
+    "script": 538,
+    "scriptCount": 1,
+    "document": 4633,
+    "font": 39056,
+    "fontCount": 1,
+    "stylesheet": 5333,
+    "stylesheetCount": 2,
+    "thirdParty": 40199,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 499,
+    "+weight.total": 620,
+    "-weight.document": 365,
+    "+weight.document": 713,
+    "-weight.script": 14,
+    "+weight.script": 793,
+    "-weight.image": 474,
+    "+weight.image": 391,
+    "-weight.font": 190,
+    "+weight.font": 555,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 760,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 737
+  },
+  "axe": {
+    "passes": 319,
+    "violations": 1
+  }
+}

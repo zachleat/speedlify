@@ -1,0 +1,66 @@
+{
+  "url": "https://manu.ninja/",
+  "requestedUrl": "https://manu.ninja/",
+  "timestamp": 1754170564894,
+  "ranks": {
+    "hundos": 719,
+    "performance": 543,
+    "accessibility": 1036,
+    "cumulative": 723
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.99,
+    "accessibility": 0.83,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 382
+  },
+  "firstContentfulPaint": 1221.834,
+  "speedIndex": 2039.437172900968,
+  "largestContentfulPaint": 1750.8780000000002,
+  "totalBlockingTime": 15,
+  "cumulativeLayoutShift": 0.046164383300369996,
+  "timeToInteractive": 4164.2684,
+  "maxPotentialFirstInputDelay": 69,
+  "timeToFirstByte": 570.52,
+  "weight": {
+    "summary": "14 requests • 392.2 KiB",
+    "total": 401596,
+    "image": 56614,
+    "imageCount": 2,
+    "script": 254366,
+    "scriptCount": 4,
+    "document": 14151,
+    "font": 63730,
+    "fontCount": 3,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 253665,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 729,
+    "+weight.total": 390,
+    "-weight.document": 826,
+    "+weight.document": 252,
+    "-weight.script": 672,
+    "+weight.script": 135,
+    "-weight.image": 340,
+    "+weight.image": 525,
+    "-weight.font": 335,
+    "+weight.font": 410,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 1087,
+    "-totalBlockingTime": 27,
+    "-largestContentfulPaint": 72
+  },
+  "axe": {
+    "passes": 1352,
+    "violations": 56
+  }
+}

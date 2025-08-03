@@ -1,0 +1,66 @@
+{
+  "url": "https://tipr.mobi/",
+  "requestedUrl": "https://tipr.mobi/",
+  "timestamp": 1754169743451,
+  "ranks": {
+    "hundos": 532,
+    "performance": 70,
+    "accessibility": 686,
+    "cumulative": 515
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 1,
+    "accessibility": 0.96,
+    "bestPractices": 0.96,
+    "seo": 1,
+    "total": 392
+  },
+  "firstContentfulPaint": 854.061,
+  "speedIndex": 854.061,
+  "largestContentfulPaint": 854.061,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 854.061,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 2.302,
+  "weight": {
+    "summary": "10 requests • 12 KiB",
+    "total": 12242,
+    "image": 564,
+    "imageCount": 2,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 4974,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 58,
+    "+weight.total": 1061,
+    "-weight.document": 390,
+    "+weight.document": 688,
+    "-weight.script": 2,
+    "+weight.script": 806,
+    "-weight.image": 12,
+    "+weight.image": 853,
+    "-weight.font": 1,
+    "+weight.font": 745,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 2,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 281
+  },
+  "axe": {
+    "passes": 120,
+    "violations": 1
+  }
+}

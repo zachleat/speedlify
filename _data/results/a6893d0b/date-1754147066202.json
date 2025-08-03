@@ -1,0 +1,66 @@
+{
+  "url": "https://jmhobbs.github.io/",
+  "requestedUrl": "https://jmhobbs.github.io/",
+  "timestamp": 1754170889536,
+  "ranks": {
+    "hundos": 977,
+    "performance": 250,
+    "accessibility": 1070,
+    "cumulative": 977
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 1,
+    "accessibility": 0.78,
+    "bestPractices": 0.89,
+    "seo": 0.9,
+    "total": 357
+  },
+  "firstContentfulPaint": 1062.431,
+  "speedIndex": 1062.431,
+  "largestContentfulPaint": 1062.431,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1062.431,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 133.507,
+  "weight": {
+    "summary": "3 requests • 22.6 KiB",
+    "total": 23102,
+    "image": 0,
+    "imageCount": 0,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 16662,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 965,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 102,
+    "+weight.total": 1017,
+    "-weight.document": 864,
+    "+weight.document": 214,
+    "-weight.script": 2,
+    "+weight.script": 806,
+    "-weight.image": 1,
+    "+weight.image": 865,
+    "-weight.font": 1,
+    "+weight.font": 745,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 692,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 439
+  },
+  "axe": {
+    "passes": 7416,
+    "violations": 879
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "url": "https://engaged.ca.gov/",
+  "requestedUrl": "https://engaged.ca.gov/",
+  "timestamp": 1754157740824,
+  "ranks": {
+    "hundos": 708,
+    "performance": 851,
+    "accessibility": 647,
+    "cumulative": 711
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.89,
+    "accessibility": 0.97,
+    "bestPractices": 0.96,
+    "seo": 1,
+    "total": 382
+  },
+  "firstContentfulPaint": 2352.56,
+  "speedIndex": 2352.56,
+  "largestContentfulPaint": 3296.4379999999996,
+  "totalBlockingTime": 120,
+  "cumulativeLayoutShift": 0.0011014490534471874,
+  "timeToInteractive": 6238.4554,
+  "maxPotentialFirstInputDelay": 136,
+  "timeToFirstByte": 21.923000000000002,
+  "weight": {
+    "summary": "38 requests • 990.8 KiB",
+    "total": 1014549,
+    "image": 384937,
+    "imageCount": 21,
+    "script": 406886,
+    "scriptCount": 6,
+    "document": 7272,
+    "font": 144848,
+    "fontCount": 3,
+    "stylesheet": 68329,
+    "stylesheetCount": 4,
+    "thirdParty": 432494,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 922,
+    "+weight.total": 197,
+    "-weight.document": 578,
+    "+weight.document": 500,
+    "-weight.script": 721,
+    "+weight.script": 86,
+    "-weight.image": 659,
+    "+weight.image": 206,
+    "-weight.font": 560,
+    "+weight.font": 185,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 45,
+    "-totalBlockingTime": 110,
+    "-largestContentfulPaint": 139
+  },
+  "axe": {
+    "passes": 410,
+    "violations": 1
+  }
+}

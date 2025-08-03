@@ -1,0 +1,66 @@
+{
+  "url": "https://elewind-template.netlify.app/",
+  "requestedUrl": "https://elewind-template.netlify.app/",
+  "timestamp": 1754168568112,
+  "ranks": {
+    "hundos": 1024,
+    "performance": 1009,
+    "accessibility": 952,
+    "cumulative": 1023
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.75,
+    "accessibility": 0.9,
+    "bestPractices": 0.93,
+    "seo": 0.91,
+    "total": 349
+  },
+  "firstContentfulPaint": 1934.398,
+  "speedIndex": 2240.989999877168,
+  "largestContentfulPaint": 7459.989499999999,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.002920885993121439,
+  "timeToInteractive": 7459.989499999999,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 499.7,
+  "weight": {
+    "summary": "13 requests • 1.5 MiB",
+    "total": 1609349,
+    "image": 1508929,
+    "imageCount": 4,
+    "script": 55592,
+    "scriptCount": 2,
+    "document": 3101,
+    "font": 35420,
+    "fontCount": 2,
+    "stylesheet": 5006,
+    "stylesheetCount": 3,
+    "thirdParty": 91867,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 987,
+    "+weight.total": 132,
+    "-weight.document": 185,
+    "+weight.document": 893,
+    "-weight.script": 489,
+    "+weight.script": 318,
+    "-weight.image": 782,
+    "+weight.image": 83,
+    "-weight.font": 172,
+    "+weight.font": 573,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 1060,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 1087
+  },
+  "axe": {
+    "passes": 376,
+    "violations": 8
+  }
+}

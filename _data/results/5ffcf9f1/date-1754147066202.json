@@ -1,0 +1,66 @@
+{
+  "url": "https://akkordeonvirtuosi.de/",
+  "requestedUrl": "https://akkordeonvirtuosi.de/",
+  "timestamp": 1754167613917,
+  "ranks": {
+    "hundos": 3,
+    "performance": 123,
+    "accessibility": 448,
+    "cumulative": 173
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 915.6614900000001,
+  "speedIndex": 915.6614900000001,
+  "largestContentfulPaint": 915.6614900000001,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 915.6614900000002,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 74.12799999999999,
+  "weight": {
+    "summary": "23 requests • 1.6 MiB",
+    "total": 1720813,
+    "image": 509585,
+    "imageCount": 6,
+    "script": 995489,
+    "scriptCount": 4,
+    "document": 60424,
+    "font": 21590,
+    "fontCount": 2,
+    "stylesheet": 84755,
+    "stylesheetCount": 2,
+    "thirdParty": 1232735,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 996,
+    "+weight.total": 123,
+    "-weight.document": 1031,
+    "+weight.document": 47,
+    "-weight.script": 780,
+    "+weight.script": 27,
+    "-weight.image": 699,
+    "+weight.image": 166,
+    "-weight.font": 87,
+    "+weight.font": 658,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 516,
+    "-totalBlockingTime": 139,
+    "-largestContentfulPaint": 330
+  },
+  "axe": {
+    "passes": 186,
+    "violations": 1
+  }
+}

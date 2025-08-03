@@ -1,0 +1,66 @@
+{
+  "url": "https://karatronics.de/",
+  "requestedUrl": "https://karatronics.de/",
+  "timestamp": 1754159365919,
+  "ranks": {
+    "hundos": 814,
+    "performance": 646,
+    "accessibility": 1015,
+    "cumulative": 820
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.97,
+    "accessibility": 0.85,
+    "bestPractices": 0.93,
+    "seo": 1,
+    "total": 375
+  },
+  "firstContentfulPaint": 1076.9075,
+  "speedIndex": 1878.9614858040802,
+  "largestContentfulPaint": 2467.4285,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.0447083475172833,
+  "timeToInteractive": 2467.4285,
+  "maxPotentialFirstInputDelay": 45,
+  "timeToFirstByte": 248.01,
+  "weight": {
+    "summary": "58 requests • 1.8 MiB",
+    "total": 1894590,
+    "image": 197986,
+    "imageCount": 32,
+    "script": 269671,
+    "scriptCount": 9,
+    "document": 11342,
+    "font": 380744,
+    "fontCount": 7,
+    "stylesheet": 15647,
+    "stylesheetCount": 4,
+    "thirdParty": 273514,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 1008,
+    "+weight.total": 111,
+    "-weight.document": 756,
+    "+weight.document": 322,
+    "-weight.script": 685,
+    "+weight.script": 122,
+    "-weight.image": 552,
+    "+weight.image": 313,
+    "-weight.font": 705,
+    "+weight.font": 40,
+    "+weight.fontCount": 10,
+    "-timeToFirstByte": 917,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 867
+  },
+  "axe": {
+    "passes": 774,
+    "violations": 62
+  }
+}

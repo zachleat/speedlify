@@ -1,0 +1,66 @@
+{
+  "url": "https://www.adamdjbrett.com/",
+  "requestedUrl": "https://www.adamdjbrett.com/",
+  "timestamp": 1754152378831,
+  "ranks": {
+    "hundos": 622,
+    "performance": 813,
+    "accessibility": 744,
+    "cumulative": 634
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.91,
+    "accessibility": 0.96,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 387
+  },
+  "firstContentfulPaint": 2035.011,
+  "speedIndex": 2035.011,
+  "largestContentfulPaint": 3176.1045000000004,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.0000032251181027498834,
+  "timeToInteractive": 3176.1045000000004,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 222.509,
+  "weight": {
+    "summary": "20 requests • 560.6 KiB",
+    "total": 574072,
+    "image": 123323,
+    "imageCount": 4,
+    "script": 57381,
+    "scriptCount": 4,
+    "document": 45973,
+    "font": 277976,
+    "fontCount": 3,
+    "stylesheet": 36751,
+    "stylesheetCount": 3,
+    "thirdParty": 441428,
+    "thirdPartyCount": 5
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 827,
+    "+weight.total": 292,
+    "-weight.document": 1014,
+    "+weight.document": 64,
+    "-weight.script": 498,
+    "+weight.script": 309,
+    "-weight.image": 468,
+    "+weight.image": 397,
+    "-weight.font": 667,
+    "+weight.font": 78,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 885,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 976
+  },
+  "axe": {
+    "passes": 263,
+    "violations": 27
+  }
+}

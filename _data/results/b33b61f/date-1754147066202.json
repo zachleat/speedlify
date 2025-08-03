@@ -1,0 +1,66 @@
+{
+  "url": "https://cjlm.ca/",
+  "requestedUrl": "https://cjlm.ca/",
+  "timestamp": 1754159990664,
+  "ranks": {
+    "hundos": 890,
+    "performance": 1024,
+    "accessibility": 832,
+    "cumulative": 893
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.74,
+    "accessibility": 0.94,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 368
+  },
+  "firstContentfulPaint": 1982.946,
+  "speedIndex": 1982.946,
+  "largestContentfulPaint": 7865.892,
+  "totalBlockingTime": 28,
+  "cumulativeLayoutShift": 0.019413420758049107,
+  "timeToInteractive": 8075.892,
+  "maxPotentialFirstInputDelay": 119,
+  "timeToFirstByte": 56.851,
+  "weight": {
+    "summary": "25 requests • 1.4 MiB",
+    "total": 1519663,
+    "image": 1264146,
+    "imageCount": 11,
+    "script": 5280,
+    "scriptCount": 3,
+    "document": 138722,
+    "font": 94107,
+    "fontCount": 4,
+    "stylesheet": 11244,
+    "stylesheetCount": 2,
+    "thirdParty": 3719,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 971,
+    "+weight.total": 148,
+    "-weight.document": 1069,
+    "+weight.document": 9,
+    "-weight.script": 216,
+    "+weight.script": 591,
+    "-weight.image": 769,
+    "+weight.image": 96,
+    "-weight.font": 460,
+    "+weight.font": 285,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 372,
+    "-totalBlockingTime": 172,
+    "-largestContentfulPaint": 1090
+  },
+  "axe": {
+    "passes": 18894,
+    "violations": 425
+  }
+}

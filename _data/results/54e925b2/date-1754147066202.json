@@ -1,0 +1,66 @@
+{
+  "url": "https://chringel.dev/",
+  "requestedUrl": "https://chringel.dev/",
+  "timestamp": 1754148708182,
+  "ranks": {
+    "hundos": 429,
+    "performance": 489,
+    "accessibility": 214,
+    "cumulative": 415
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.99,
+    "accessibility": 1,
+    "bestPractices": 0.96,
+    "seo": 1,
+    "total": 395
+  },
+  "firstContentfulPaint": 1031.062,
+  "speedIndex": 1450.8131719038963,
+  "largestContentfulPaint": 2217.6275,
+  "totalBlockingTime": 5,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 2323.8605000000002,
+  "maxPotentialFirstInputDelay": 60,
+  "timeToFirstByte": 281.943,
+  "weight": {
+    "summary": "18 requests • 170 KiB",
+    "total": 174069,
+    "image": 72012,
+    "imageCount": 5,
+    "script": 60027,
+    "scriptCount": 4,
+    "document": 4218,
+    "font": 23628,
+    "fontCount": 2,
+    "stylesheet": 8506,
+    "stylesheetCount": 2,
+    "thirdParty": 55330,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 482,
+    "+weight.total": 637,
+    "-weight.document": 314,
+    "+weight.document": 764,
+    "-weight.script": 507,
+    "+weight.script": 300,
+    "-weight.image": 368,
+    "+weight.image": 497,
+    "-weight.font": 98,
+    "+weight.font": 647,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 949,
+    "-totalBlockingTime": 8,
+    "-largestContentfulPaint": 808
+  },
+  "axe": {
+    "passes": 222,
+    "violations": 0
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "url": "https://minimo.io/",
+  "requestedUrl": "https://minimo.io/",
+  "timestamp": 1754174078201,
+  "ranks": {
+    "hundos": 950,
+    "performance": 888,
+    "accessibility": 976,
+    "cumulative": 951
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.87,
+    "accessibility": 0.89,
+    "bestPractices": 1,
+    "seo": 0.85,
+    "total": 361
+  },
+  "firstContentfulPaint": 3140.17,
+  "speedIndex": 3140.17,
+  "largestContentfulPaint": 3140.17,
+  "totalBlockingTime": 11.500000000000227,
+  "cumulativeLayoutShift": 0.003286495683709772,
+  "timeToInteractive": 4050.753425000001,
+  "maxPotentialFirstInputDelay": 62,
+  "timeToFirstByte": 340.54499999999996,
+  "weight": {
+    "summary": "32 requests • 448.3 KiB",
+    "total": 459108,
+    "image": 241904,
+    "imageCount": 19,
+    "script": 62277,
+    "scriptCount": 4,
+    "document": 7866,
+    "font": 106201,
+    "fontCount": 3,
+    "stylesheet": 14735,
+    "stylesheetCount": 3,
+    "thirdParty": 255947,
+    "thirdPartyCount": 4
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 761,
+    "+weight.total": 358,
+    "-weight.document": 612,
+    "+weight.document": 466,
+    "-weight.script": 515,
+    "+weight.script": 292,
+    "-weight.image": 588,
+    "+weight.image": 277,
+    "-weight.font": 488,
+    "+weight.font": 257,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 979,
+    "-totalBlockingTime": 22,
+    "-largestContentfulPaint": 130
+  },
+  "axe": {
+    "passes": 1005,
+    "violations": 56
+  }
+}

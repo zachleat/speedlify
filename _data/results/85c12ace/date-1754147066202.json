@@ -1,0 +1,66 @@
+{
+  "url": "https://atom-editor.cc/",
+  "requestedUrl": "https://atom-editor.cc/",
+  "timestamp": 1754169225802,
+  "ranks": {
+    "hundos": 810,
+    "performance": 272,
+    "accessibility": 902,
+    "cumulative": 818
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 1,
+    "accessibility": 0.92,
+    "bestPractices": 1,
+    "seo": 0.83,
+    "total": 375
+  },
+  "firstContentfulPaint": 1099.232179473877,
+  "speedIndex": 1099.232179473877,
+  "largestContentfulPaint": 1708.911,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.0001522255744497945,
+  "timeToInteractive": 1708.911,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 33.082,
+  "weight": {
+    "summary": "22 requests • 263.5 KiB",
+    "total": 269843,
+    "image": 242000,
+    "imageCount": 18,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 4027,
+    "font": 18296,
+    "fontCount": 1,
+    "stylesheet": 0,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 603,
+    "+weight.total": 516,
+    "-weight.document": 296,
+    "+weight.document": 782,
+    "-weight.script": 2,
+    "+weight.script": 806,
+    "-weight.image": 589,
+    "+weight.image": 276,
+    "-weight.font": 66,
+    "+weight.font": 679,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 136,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 657
+  },
+  "axe": {
+    "passes": 310,
+    "violations": 15
+  }
+}

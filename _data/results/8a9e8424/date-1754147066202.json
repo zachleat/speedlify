@@ -1,0 +1,66 @@
+{
+  "url": "https://ryanprintup.com/",
+  "requestedUrl": "https://ryanprintup.com/",
+  "timestamp": 1754147753361,
+  "ranks": {
+    "hundos": 874,
+    "performance": 981,
+    "accessibility": 895,
+    "cumulative": 878
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.77,
+    "accessibility": 0.92,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 369
+  },
+  "firstContentfulPaint": 1006.4050000000001,
+  "speedIndex": 1006.4050000000001,
+  "largestContentfulPaint": 5936.209999999999,
+  "totalBlockingTime": 134,
+  "cumulativeLayoutShift": 0.00028773428673366876,
+  "timeToInteractive": 7952.315999999999,
+  "maxPotentialFirstInputDelay": 223,
+  "timeToFirstByte": 30.519000000000005,
+  "weight": {
+    "summary": "42 requests • 6.3 MiB",
+    "total": 6656528,
+    "image": 2169478,
+    "imageCount": 12,
+    "script": 821804,
+    "scriptCount": 17,
+    "document": 8626,
+    "font": 52154,
+    "fontCount": 3,
+    "stylesheet": 26432,
+    "stylesheetCount": 3,
+    "thirdParty": 872451,
+    "thirdPartyCount": 7
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 1090,
+    "+weight.total": 29,
+    "-weight.document": 658,
+    "+weight.document": 420,
+    "-weight.script": 771,
+    "+weight.script": 36,
+    "-weight.image": 812,
+    "+weight.image": 53,
+    "-weight.font": 274,
+    "+weight.font": 471,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 120,
+    "-totalBlockingTime": 112,
+    "-largestContentfulPaint": 205
+  },
+  "axe": {
+    "passes": 969,
+    "violations": 8
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "url": "https://chrisburnell.com/",
+  "requestedUrl": "https://chrisburnell.com/",
+  "timestamp": 1754159142832,
+  "ranks": {
+    "hundos": 360,
+    "performance": 667,
+    "accessibility": 371,
+    "cumulative": 376
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.96,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 396
+  },
+  "firstContentfulPaint": 1080.6756,
+  "speedIndex": 1080.6756,
+  "largestContentfulPaint": 2718.1560600000003,
+  "totalBlockingTime": 18,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 2725.9535860000005,
+  "maxPotentialFirstInputDelay": 68,
+  "timeToFirstByte": 76.89099999999999,
+  "weight": {
+    "summary": "14 requests • 208.9 KiB",
+    "total": 213933,
+    "image": 34840,
+    "imageCount": 3,
+    "script": 12668,
+    "scriptCount": 3,
+    "document": 27263,
+    "font": 132723,
+    "fontCount": 1,
+    "stylesheet": 6439,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 545,
+    "+weight.total": 574,
+    "-weight.document": 953,
+    "+weight.document": 125,
+    "-weight.script": 323,
+    "+weight.script": 484,
+    "-weight.image": 259,
+    "+weight.image": 606,
+    "-weight.font": 540,
+    "+weight.font": 205,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 528,
+    "-totalBlockingTime": 162,
+    "-largestContentfulPaint": 930
+  },
+  "axe": {
+    "passes": 768,
+    "violations": 1
+  }
+}

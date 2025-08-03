@@ -1,0 +1,66 @@
+{
+  "url": "https://saneef.com/",
+  "requestedUrl": "https://saneef.com/",
+  "timestamp": 1754176303142,
+  "ranks": {
+    "hundos": 590,
+    "performance": 484,
+    "accessibility": 947,
+    "cumulative": 586
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.99,
+    "accessibility": 0.9,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 389
+  },
+  "firstContentfulPaint": 1387.05,
+  "speedIndex": 1387.05,
+  "largestContentfulPaint": 1658.05,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1658.05,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 213.601,
+  "weight": {
+    "summary": "11 requests • 89.1 KiB",
+    "total": 91251,
+    "image": 0,
+    "imageCount": 0,
+    "script": 4018,
+    "scriptCount": 2,
+    "document": 14990,
+    "font": 60218,
+    "fontCount": 2,
+    "stylesheet": 2034,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 305,
+    "+weight.total": 814,
+    "-weight.document": 842,
+    "+weight.document": 236,
+    "-weight.script": 177,
+    "+weight.script": 630,
+    "-weight.image": 1,
+    "+weight.image": 865,
+    "-weight.font": 315,
+    "+weight.font": 430,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 873,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 631
+  },
+  "axe": {
+    "passes": 264,
+    "violations": 2
+  }
+}

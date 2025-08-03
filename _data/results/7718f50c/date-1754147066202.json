@@ -1,0 +1,66 @@
+{
+  "url": "https://www.atlas.bi/",
+  "requestedUrl": "https://www.atlas.bi/",
+  "timestamp": 1754163154657,
+  "ranks": {
+    "hundos": 884,
+    "performance": 692,
+    "accessibility": 1072,
+    "cumulative": 880
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.96,
+    "accessibility": 0.77,
+    "bestPractices": 0.96,
+    "seo": 1,
+    "total": 369
+  },
+  "firstContentfulPaint": 2043.594,
+  "speedIndex": 2043.594,
+  "largestContentfulPaint": 2423.2990000000004,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 2423.2990000000004,
+  "maxPotentialFirstInputDelay": 32,
+  "timeToFirstByte": 199.84999999999997,
+  "weight": {
+    "summary": "24 requests • 201.1 KiB",
+    "total": 205947,
+    "image": 82376,
+    "imageCount": 5,
+    "script": 63359,
+    "scriptCount": 11,
+    "document": 12268,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 12473,
+    "stylesheetCount": 1,
+    "thirdParty": 19115,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 530,
+    "+weight.total": 589,
+    "-weight.document": 779,
+    "+weight.document": 299,
+    "-weight.script": 518,
+    "+weight.script": 289,
+    "-weight.image": 397,
+    "+weight.image": 468,
+    "-weight.font": 1,
+    "+weight.font": 745,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 859,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 857
+  },
+  "axe": {
+    "passes": 370,
+    "violations": 23
+  }
+}

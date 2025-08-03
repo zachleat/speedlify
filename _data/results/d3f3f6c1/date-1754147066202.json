@@ -1,0 +1,66 @@
+{
+  "url": "https://atomic.financial/",
+  "requestedUrl": "https://atomic.financial/",
+  "timestamp": 1754177670954,
+  "ranks": {
+    "hundos": 862,
+    "performance": 818,
+    "accessibility": 522,
+    "cumulative": 865
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.91,
+    "accessibility": 1,
+    "bestPractices": 0.79,
+    "seo": 1,
+    "total": 370
+  },
+  "firstContentfulPaint": 1738.5186,
+  "speedIndex": 2268.5215145497455,
+  "largestContentfulPaint": 3236.3029000000006,
+  "totalBlockingTime": 69.5,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 8857.292649999998,
+  "maxPotentialFirstInputDelay": 109,
+  "timeToFirstByte": 45.244,
+  "weight": {
+    "summary": "42 requests • 793.8 KiB",
+    "total": 812891,
+    "image": 2225,
+    "imageCount": 6,
+    "script": 634873,
+    "scriptCount": 18,
+    "document": 109010,
+    "font": 31263,
+    "fontCount": 2,
+    "stylesheet": 19492,
+    "stylesheetCount": 1,
+    "thirdParty": 577246,
+    "thirdPartyCount": 8
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 893,
+    "+weight.total": 226,
+    "-weight.document": 1062,
+    "+weight.document": 16,
+    "-weight.script": 763,
+    "+weight.script": 44,
+    "-weight.image": 47,
+    "+weight.image": 818,
+    "-weight.font": 146,
+    "+weight.font": 599,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 302,
+    "-totalBlockingTime": 92,
+    "-largestContentfulPaint": 134
+  },
+  "axe": {
+    "passes": 2336,
+    "violations": 3
+  }
+}

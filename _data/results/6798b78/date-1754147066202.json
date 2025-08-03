@@ -1,0 +1,66 @@
+{
+  "url": "https://www.interroban.gg/",
+  "requestedUrl": "https://www.interroban.gg/",
+  "timestamp": 1754157008034,
+  "ranks": {
+    "hundos": 742,
+    "performance": 780,
+    "accessibility": 707,
+    "cumulative": 744
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.92,
+    "accessibility": 0.96,
+    "bestPractices": 1,
+    "seo": 0.92,
+    "total": 380
+  },
+  "firstContentfulPaint": 981.054,
+  "speedIndex": 981.054,
+  "largestContentfulPaint": 1744.281,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.1711528183404067,
+  "timeToInteractive": 1744.281,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 83.482,
+  "weight": {
+    "summary": "11 requests • 214.1 KiB",
+    "total": 219207,
+    "image": 26188,
+    "imageCount": 1,
+    "script": 7119,
+    "scriptCount": 1,
+    "document": 3428,
+    "font": 177070,
+    "fontCount": 4,
+    "stylesheet": 2980,
+    "stylesheetCount": 1,
+    "thirdParty": 33307,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 550,
+    "+weight.total": 569,
+    "-weight.document": 223,
+    "+weight.document": 855,
+    "-weight.script": 257,
+    "+weight.script": 550,
+    "-weight.image": 224,
+    "+weight.image": 641,
+    "-weight.font": 593,
+    "+weight.font": 152,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 553,
+    "-totalBlockingTime": 139,
+    "-largestContentfulPaint": 675
+  },
+  "axe": {
+    "passes": 367,
+    "violations": 4
+  }
+}

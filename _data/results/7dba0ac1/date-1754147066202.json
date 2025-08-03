@@ -1,0 +1,66 @@
+{
+  "url": "https://ramigs.dev/",
+  "requestedUrl": "https://ramigs.dev/",
+  "timestamp": 1754162345103,
+  "ranks": {
+    "hundos": 961,
+    "performance": 280,
+    "accessibility": 1097,
+    "cumulative": 962
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 1,
+    "accessibility": 0.68,
+    "bestPractices": 1,
+    "seo": 0.91,
+    "total": 359
+  },
+  "firstContentfulPaint": 1120.394,
+  "speedIndex": 1120.394,
+  "largestContentfulPaint": 1120.394,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.000007728189253714408,
+  "timeToInteractive": 1120.394,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 157.81100000000004,
+  "weight": {
+    "summary": "8 requests • 171.2 KiB",
+    "total": 175322,
+    "image": 54710,
+    "imageCount": 1,
+    "script": 7468,
+    "scriptCount": 1,
+    "document": 1425,
+    "font": 91258,
+    "fontCount": 2,
+    "stylesheet": 16973,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 488,
+    "+weight.total": 631,
+    "-weight.document": 32,
+    "+weight.document": 1046,
+    "-weight.script": 266,
+    "+weight.script": 541,
+    "-weight.image": 329,
+    "+weight.image": 536,
+    "-weight.font": 451,
+    "+weight.font": 294,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 765,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 466
+  },
+  "axe": {
+    "passes": 103,
+    "violations": 9
+  }
+}

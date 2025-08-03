@@ -1,0 +1,66 @@
+{
+  "url": "https://freshjuice.dev/",
+  "requestedUrl": "https://freshjuice.dev/",
+  "timestamp": 1754176389628,
+  "ranks": {
+    "hundos": 152,
+    "performance": 47,
+    "accessibility": 173,
+    "cumulative": 102
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 821.636,
+  "speedIndex": 821.636,
+  "largestContentfulPaint": 821.636,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 821.636,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 23.078000000000003,
+  "weight": {
+    "summary": "7 requests • 40.6 KiB",
+    "total": 41586,
+    "image": 0,
+    "imageCount": 0,
+    "script": 24583,
+    "scriptCount": 2,
+    "document": 13015,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 0,
+    "stylesheetCount": 1,
+    "thirdParty": 3804,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 160,
+    "+weight.total": 959,
+    "-weight.document": 792,
+    "+weight.document": 286,
+    "-weight.script": 396,
+    "+weight.script": 411,
+    "-weight.image": 1,
+    "+weight.image": 865,
+    "-weight.font": 1,
+    "+weight.font": 745,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 52,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 257
+  },
+  "axe": {
+    "passes": 267,
+    "violations": 0
+  }
+}

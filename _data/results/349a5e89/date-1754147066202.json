@@ -1,0 +1,66 @@
+{
+  "url": "https://olivier3lanc.github.io/",
+  "requestedUrl": "https://olivier3lanc.github.io/",
+  "timestamp": 1754160003976,
+  "ranks": {
+    "hundos": 41,
+    "performance": 330,
+    "accessibility": 505,
+    "cumulative": 219
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 1260.425,
+  "speedIndex": 1260.425,
+  "largestContentfulPaint": 1260.425,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.01917173841423265,
+  "timeToInteractive": 1260.425,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 52.50500000000001,
+  "weight": {
+    "summary": "26 requests • 388.1 KiB",
+    "total": 397433,
+    "image": 0,
+    "imageCount": 0,
+    "script": 50598,
+    "scriptCount": 14,
+    "document": 6328,
+    "font": 312515,
+    "fontCount": 2,
+    "stylesheet": 26663,
+    "stylesheetCount": 8,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 719,
+    "+weight.total": 400,
+    "-weight.document": 508,
+    "+weight.document": 570,
+    "-weight.script": 473,
+    "+weight.script": 334,
+    "-weight.image": 1,
+    "+weight.image": 865,
+    "-weight.font": 684,
+    "+weight.font": 61,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 345,
+    "-totalBlockingTime": 139,
+    "-largestContentfulPaint": 523
+  },
+  "axe": {
+    "passes": 145,
+    "violations": 2
+  }
+}

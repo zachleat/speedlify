@@ -62,12 +62,8 @@ module.exports = async function() {
 		// this was a bug when two different URLs resolved to the same URL and conflicted in resolvedUrl results.
 		// 1-indexed
 		skipIndeces: [
-			59,
-			234,
-			242,
-			519,
-			782,
-			838,
+			8,
+			100,
 		]
 	};
 };

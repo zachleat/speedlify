@@ -1,0 +1,66 @@
+{
+  "url": "https://mina.codes/",
+  "requestedUrl": "https://mina.codes/",
+  "timestamp": 1754154345039,
+  "ranks": {
+    "hundos": 309,
+    "performance": 579,
+    "accessibility": 541,
+    "cumulative": 317
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.98,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 398
+  },
+  "firstContentfulPaint": 1644.738,
+  "speedIndex": 1644.738,
+  "largestContentfulPaint": 1644.738,
+  "totalBlockingTime": 17,
+  "cumulativeLayoutShift": 0.08243675176991257,
+  "timeToInteractive": 3369.6314,
+  "maxPotentialFirstInputDelay": 76,
+  "timeToFirstByte": 118.106,
+  "weight": {
+    "summary": "22 requests • 327.5 KiB",
+    "total": 335331,
+    "image": 3531,
+    "imageCount": 3,
+    "script": 147470,
+    "scriptCount": 3,
+    "document": 6459,
+    "font": 159282,
+    "fontCount": 5,
+    "stylesheet": 15397,
+    "stylesheetCount": 3,
+    "thirdParty": 140489,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 676,
+    "+weight.total": 443,
+    "-weight.document": 519,
+    "+weight.document": 559,
+    "-weight.script": 599,
+    "+weight.script": 208,
+    "-weight.image": 65,
+    "+weight.image": 800,
+    "-weight.font": 580,
+    "+weight.font": 165,
+    "+weight.fontCount": 12,
+    "-timeToFirstByte": 641,
+    "-totalBlockingTime": 30,
+    "-largestContentfulPaint": 66
+  },
+  "axe": {
+    "passes": 154,
+    "violations": 3
+  }
+}

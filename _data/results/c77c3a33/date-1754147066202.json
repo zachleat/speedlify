@@ -1,0 +1,66 @@
+{
+  "url": "https://fossheim.io/",
+  "requestedUrl": "https://fossheim.io/",
+  "timestamp": 1754151326225,
+  "ranks": {
+    "hundos": 58,
+    "performance": 150,
+    "accessibility": 30,
+    "cumulative": 28
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 937.0260000000001,
+  "speedIndex": 937.0260000000001,
+  "largestContentfulPaint": 1837.026,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1837.026,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 36.77000000000001,
+  "weight": {
+    "summary": "8 requests • 300.6 KiB",
+    "total": 307861,
+    "image": 0,
+    "imageCount": 0,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 14362,
+    "font": 190595,
+    "fontCount": 6,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 647,
+    "+weight.total": 472,
+    "-weight.document": 831,
+    "+weight.document": 247,
+    "-weight.script": 2,
+    "+weight.script": 806,
+    "-weight.image": 1,
+    "+weight.image": 865,
+    "-weight.font": 610,
+    "+weight.font": 135,
+    "+weight.fontCount": 11,
+    "-timeToFirstByte": 213,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 715
+  },
+  "axe": {
+    "passes": 792,
+    "violations": 0
+  }
+}

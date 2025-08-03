@@ -1,0 +1,66 @@
+{
+  "url": "https://www.kilianfinger.com/",
+  "requestedUrl": "https://www.kilianfinger.com/",
+  "timestamp": 1754159664207,
+  "ranks": {
+    "hundos": 82,
+    "performance": 440,
+    "accessibility": 162,
+    "cumulative": 47
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 995.514,
+  "speedIndex": 2123.5348000293734,
+  "largestContentfulPaint": 1335.5140000000001,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1335.5140000000001,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 132.625,
+  "weight": {
+    "summary": "14 requests • 253.7 KiB",
+    "total": 259783,
+    "image": 197760,
+    "imageCount": 7,
+    "script": 312,
+    "scriptCount": 1,
+    "document": 3138,
+    "font": 47636,
+    "fontCount": 2,
+    "stylesheet": 3853,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 589,
+    "+weight.total": 530,
+    "-weight.document": 191,
+    "+weight.document": 887,
+    "-weight.script": 8,
+    "+weight.script": 799,
+    "-weight.image": 551,
+    "+weight.image": 314,
+    "-weight.font": 249,
+    "+weight.font": 496,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 689,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 544
+  },
+  "axe": {
+    "passes": 285,
+    "violations": 0
+  }
+}

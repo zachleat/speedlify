@@ -1,0 +1,66 @@
+{
+  "url": "https://aila.social/",
+  "requestedUrl": "https://aila.social/",
+  "timestamp": 1754177882435,
+  "ranks": {
+    "hundos": 978,
+    "performance": 1018,
+    "accessibility": 508,
+    "cumulative": 979
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.75,
+    "accessibility": 1,
+    "bestPractices": 0.82,
+    "seo": 1,
+    "total": 357
+  },
+  "firstContentfulPaint": 3536.8465000000006,
+  "speedIndex": 3536.8465000000006,
+  "largestContentfulPaint": 4654.347500000001,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 4654.347500000001,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 189.18800000000005,
+  "weight": {
+    "summary": "17 requests • 471.9 KiB",
+    "total": 483251,
+    "image": 15164,
+    "imageCount": 1,
+    "script": 95086,
+    "scriptCount": 5,
+    "document": 4512,
+    "font": 278309,
+    "fontCount": 2,
+    "stylesheet": 59751,
+    "stylesheetCount": 3,
+    "thirdParty": 363426,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 780,
+    "+weight.total": 339,
+    "-weight.document": 348,
+    "+weight.document": 730,
+    "-weight.script": 542,
+    "+weight.script": 265,
+    "-weight.image": 177,
+    "+weight.image": 688,
+    "-weight.font": 669,
+    "+weight.font": 76,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 844,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 1048
+  },
+  "axe": {
+    "passes": 118,
+    "violations": 2
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "url": "https://normadesign.it/en/",
+  "requestedUrl": "https://normadesign.it/",
+  "timestamp": 1754171600016,
+  "ranks": {
+    "hundos": 345,
+    "performance": 359,
+    "accessibility": 677,
+    "cumulative": 369
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 1,
+    "accessibility": 0.96,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 396
+  },
+  "firstContentfulPaint": 1379.586,
+  "speedIndex": 1379.586,
+  "largestContentfulPaint": 1379.586,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1379.5860000000002,
+  "maxPotentialFirstInputDelay": 25,
+  "timeToFirstByte": 12.791,
+  "weight": {
+    "summary": "19 requests • 453 KiB",
+    "total": 463908,
+    "image": 444309,
+    "imageCount": 11,
+    "script": 8218,
+    "scriptCount": 2,
+    "document": 7922,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 451419,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 764,
+    "+weight.total": 355,
+    "-weight.document": 615,
+    "+weight.document": 463,
+    "-weight.script": 275,
+    "+weight.script": 532,
+    "-weight.image": 682,
+    "+weight.image": 183,
+    "-weight.font": 1,
+    "+weight.font": 745,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 8,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 559
+  },
+  "axe": {
+    "passes": 582,
+    "violations": 1
+  }
+}

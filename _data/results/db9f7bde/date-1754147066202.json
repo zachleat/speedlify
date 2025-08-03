@@ -1,0 +1,66 @@
+{
+  "url": "https://www.doesitflip.com/",
+  "requestedUrl": "https://www.doesitflip.com/",
+  "timestamp": 1754150931977,
+  "ranks": {
+    "hundos": 581,
+    "performance": 557,
+    "accessibility": 911,
+    "cumulative": 577
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.98,
+    "accessibility": 0.91,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 389
+  },
+  "firstContentfulPaint": 962.2765,
+  "speedIndex": 962.2765,
+  "largestContentfulPaint": 2238.0919999999996,
+  "totalBlockingTime": 19.999999999999886,
+  "cumulativeLayoutShift": 0.061403783252741456,
+  "timeToInteractive": 2238.0919999999996,
+  "maxPotentialFirstInputDelay": 69.99999999999989,
+  "timeToFirstByte": 32.021,
+  "weight": {
+    "summary": "11 requests • 1.5 MiB",
+    "total": 1605371,
+    "image": 159798,
+    "imageCount": 3,
+    "script": 36622,
+    "scriptCount": 3,
+    "document": 14919,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 4058,
+    "stylesheetCount": 1,
+    "thirdParty": 159798,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 986,
+    "+weight.total": 133,
+    "-weight.document": 841,
+    "+weight.document": 237,
+    "-weight.script": 440,
+    "+weight.script": 367,
+    "-weight.image": 510,
+    "+weight.image": 355,
+    "-weight.font": 1,
+    "+weight.font": 745,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 129,
+    "-totalBlockingTime": 36,
+    "-largestContentfulPaint": 95
+  },
+  "axe": {
+    "passes": 813,
+    "violations": 0
+  }
+}

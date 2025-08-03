@@ -1,0 +1,66 @@
+{
+  "url": "https://www.spencerharston.com/",
+  "requestedUrl": "https://www.spencerharston.com/",
+  "timestamp": 1754157166982,
+  "ranks": {
+    "hundos": 322,
+    "performance": 488,
+    "accessibility": 631,
+    "cumulative": 321
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.99,
+    "accessibility": 0.99,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 398
+  },
+  "firstContentfulPaint": 1440,
+  "speedIndex": 1440,
+  "largestContentfulPaint": 1770,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.001208602258611843,
+  "timeToInteractive": 1770,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 25.722999999999992,
+  "weight": {
+    "summary": "9 requests • 29.9 KiB",
+    "total": 30655,
+    "image": 0,
+    "imageCount": 0,
+    "script": 4613,
+    "scriptCount": 2,
+    "document": 3448,
+    "font": 11094,
+    "fontCount": 1,
+    "stylesheet": 7424,
+    "stylesheetCount": 3,
+    "thirdParty": 4131,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 123,
+    "+weight.total": 996,
+    "-weight.document": 226,
+    "+weight.document": 852,
+    "-weight.script": 199,
+    "+weight.script": 608,
+    "-weight.image": 1,
+    "+weight.image": 865,
+    "-weight.font": 20,
+    "+weight.font": 725,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 95,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 682
+  },
+  "axe": {
+    "passes": 184,
+    "violations": 5
+  }
+}

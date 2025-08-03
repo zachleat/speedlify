@@ -1,0 +1,66 @@
+{
+  "url": "https://hidde.blog/",
+  "requestedUrl": "https://hidde.blog/",
+  "timestamp": 1754159966390,
+  "ranks": {
+    "hundos": 94,
+    "performance": 184,
+    "accessibility": 272,
+    "cumulative": 57
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 969.2599999999998,
+  "speedIndex": 969.2599999999998,
+  "largestContentfulPaint": 1681.8319999999997,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.0204885931057625,
+  "timeToInteractive": 1681.8319999999999,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 37.438,
+  "weight": {
+    "summary": "9 requests • 85.4 KiB",
+    "total": 87493,
+    "image": 0,
+    "imageCount": 0,
+    "script": 4779,
+    "scriptCount": 2,
+    "document": 11657,
+    "font": 63949,
+    "fontCount": 3,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 6367,
+    "thirdPartyCount": 4
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 294,
+    "+weight.total": 825,
+    "-weight.document": 762,
+    "+weight.document": 316,
+    "-weight.script": 204,
+    "+weight.script": 603,
+    "-weight.image": 1,
+    "+weight.image": 865,
+    "-weight.font": 336,
+    "+weight.font": 409,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 233,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 642
+  },
+  "axe": {
+    "passes": 154,
+    "violations": 0
+  }
+}

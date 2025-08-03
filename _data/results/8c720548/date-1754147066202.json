@@ -1,0 +1,66 @@
+{
+  "url": "https://www.award-winning-books.com/",
+  "requestedUrl": "https://www.award-winning-books.com/",
+  "timestamp": 1754148252244,
+  "ranks": {
+    "hundos": 705,
+    "performance": 742,
+    "accessibility": 989,
+    "cumulative": 724
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.94,
+    "accessibility": 0.88,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 382
+  },
+  "firstContentfulPaint": 1818.7849999999999,
+  "speedIndex": 1818.7849999999999,
+  "largestContentfulPaint": 2888.2729999999997,
+  "totalBlockingTime": 5.5,
+  "cumulativeLayoutShift": 0.00945542712177689,
+  "timeToInteractive": 3646.959025000001,
+  "maxPotentialFirstInputDelay": 61,
+  "timeToFirstByte": 24.268999999999977,
+  "weight": {
+    "summary": "87 requests • 1.5 MiB",
+    "total": 1545091,
+    "image": 1282372,
+    "imageCount": 67,
+    "script": 199910,
+    "scriptCount": 10,
+    "document": 11163,
+    "font": 35440,
+    "fontCount": 2,
+    "stylesheet": 13104,
+    "stylesheetCount": 2,
+    "thirdParty": 234691,
+    "thirdPartyCount": 7
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 977,
+    "+weight.total": 142,
+    "-weight.document": 749,
+    "+weight.document": 329,
+    "-weight.script": 646,
+    "+weight.script": 161,
+    "-weight.image": 771,
+    "+weight.image": 94,
+    "-weight.font": 173,
+    "+weight.font": 572,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 87,
+    "-totalBlockingTime": 9,
+    "-largestContentfulPaint": 951
+  },
+  "axe": {
+    "passes": 1361,
+    "violations": 104
+  }
+}

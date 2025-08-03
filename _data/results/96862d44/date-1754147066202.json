@@ -1,0 +1,66 @@
+{
+  "url": "https://outcome.doctrineofdiscovery.org/",
+  "requestedUrl": "https://outcome.doctrineofdiscovery.org/",
+  "timestamp": 1754165010123,
+  "ranks": {
+    "hundos": 789,
+    "performance": 873,
+    "accessibility": 974,
+    "cumulative": 791
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.88,
+    "accessibility": 0.89,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 377
+  },
+  "firstContentfulPaint": 2720.7780000000002,
+  "speedIndex": 2720.7780000000002,
+  "largestContentfulPaint": 3245.7780000000002,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.000020285320966692026,
+  "timeToInteractive": 3253.2780000000002,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 134.43699999999998,
+  "weight": {
+    "summary": "21 requests • 441.7 KiB",
+    "total": 452287,
+    "image": 34759,
+    "imageCount": 7,
+    "script": 46162,
+    "scriptCount": 4,
+    "document": 6718,
+    "font": 276604,
+    "fontCount": 2,
+    "stylesheet": 51049,
+    "stylesheetCount": 4,
+    "thirdParty": 311450,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 756,
+    "+weight.total": 363,
+    "-weight.document": 544,
+    "+weight.document": 534,
+    "-weight.script": 464,
+    "+weight.script": 343,
+    "-weight.image": 257,
+    "+weight.image": 608,
+    "-weight.font": 664,
+    "+weight.font": 81,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 699,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 982
+  },
+  "axe": {
+    "passes": 392,
+    "violations": 9
+  }
+}

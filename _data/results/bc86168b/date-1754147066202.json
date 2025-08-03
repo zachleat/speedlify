@@ -1,0 +1,66 @@
+{
+  "url": "https://ffconf.org/",
+  "requestedUrl": "https://ffconf.org/",
+  "timestamp": 1754174617945,
+  "ranks": {
+    "hundos": 541,
+    "performance": 269,
+    "accessibility": 919,
+    "cumulative": 552
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 1,
+    "accessibility": 0.91,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 391
+  },
+  "firstContentfulPaint": 974.5275000000001,
+  "speedIndex": 1095.6236881422997,
+  "largestContentfulPaint": 1333.1015000000002,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1333.1015000000002,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 135.14100000000002,
+  "weight": {
+    "summary": "22 requests • 126.6 KiB",
+    "total": 129610,
+    "image": 88949,
+    "imageCount": 12,
+    "script": 2192,
+    "scriptCount": 1,
+    "document": 6722,
+    "font": 25469,
+    "fontCount": 2,
+    "stylesheet": 5231,
+    "stylesheetCount": 3,
+    "thirdParty": 2685,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 391,
+    "+weight.total": 728,
+    "-weight.document": 545,
+    "+weight.document": 533,
+    "-weight.script": 113,
+    "+weight.script": 694,
+    "-weight.image": 411,
+    "+weight.image": 454,
+    "-weight.font": 104,
+    "+weight.font": 641,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 704,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 541
+  },
+  "axe": {
+    "passes": 236,
+    "violations": 5
+  }
+}

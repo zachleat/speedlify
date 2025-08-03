@@ -1,0 +1,65 @@
+{
+  "url": "https://www.orsymphony.org/",
+  "requestedUrl": "https://www.orsymphony.org/",
+  "timestamp": 1754170799488,
+  "ranks": {
+    "hundos": 1057,
+    "performance": 1000,
+    "accessibility": 834,
+    "cumulative": 1057
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.76,
+    "accessibility": 0.94,
+    "bestPractices": 0.75,
+    "seo": 0.92,
+    "total": 337
+  },
+  "firstContentfulPaint": 3431.4950000000003,
+  "speedIndex": 3747.7029303957625,
+  "largestContentfulPaint": 4457.022000000001,
+  "totalBlockingTime": 95.5,
+  "cumulativeLayoutShift": 0.016185835719908784,
+  "timeToInteractive": 13472.757100000003,
+  "maxPotentialFirstInputDelay": 105,
+  "timeToFirstByte": 14.418000000000006,
+  "weight": {
+    "summary": "71 requests • 5.5 MiB",
+    "total": 5756877,
+    "image": 278527,
+    "imageCount": 13,
+    "script": 1196345,
+    "scriptCount": 25,
+    "document": 145302,
+    "font": 161041,
+    "fontCount": 3,
+    "stylesheet": 64230,
+    "stylesheetCount": 8,
+    "thirdParty": 5043425,
+    "thirdPartyCount": 12
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 1084,
+    "+weight.total": 35,
+    "-weight.document": 1071,
+    "+weight.document": 7,
+    "-weight.script": 787,
+    "+weight.script": 20,
+    "-weight.image": 614,
+    "+weight.image": 251,
+    "-weight.font": 582,
+    "+weight.font": 163,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 10,
+    "-totalBlockingTime": 106,
+    "-largestContentfulPaint": 179
+  },
+  "axe": {
+    "error": "{\"name\":\"TimeoutError\"}"
+  }
+}

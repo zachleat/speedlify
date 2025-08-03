@@ -1,0 +1,66 @@
+{
+  "url": "https://www.freerk.dev/",
+  "requestedUrl": "https://www.freerk.dev/",
+  "timestamp": 1754165970543,
+  "ranks": {
+    "hundos": 649,
+    "performance": 126,
+    "accessibility": 547,
+    "cumulative": 645
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 0.96,
+    "seo": 0.9,
+    "total": 386
+  },
+  "firstContentfulPaint": 855.281,
+  "speedIndex": 922.6639098752975,
+  "largestContentfulPaint": 855.281,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 855.281,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 76.362,
+  "weight": {
+    "summary": "3 requests • 11.4 KiB",
+    "total": 11699,
+    "image": 0,
+    "imageCount": 0,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 1085,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 5122,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 54,
+    "+weight.total": 1065,
+    "-weight.document": 12,
+    "+weight.document": 1066,
+    "-weight.script": 2,
+    "+weight.script": 806,
+    "-weight.image": 1,
+    "+weight.image": 865,
+    "-weight.font": 1,
+    "+weight.font": 745,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 525,
+    "-totalBlockingTime": 139,
+    "-largestContentfulPaint": 282
+  },
+  "axe": {
+    "passes": 71,
+    "violations": 3
+  }
+}

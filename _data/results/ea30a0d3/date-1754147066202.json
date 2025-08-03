@@ -1,0 +1,66 @@
+{
+  "url": "https://www.atomwolf.org/",
+  "requestedUrl": "https://www.atomwolf.org/",
+  "timestamp": 1754158989209,
+  "ranks": {
+    "hundos": 210,
+    "performance": 32,
+    "accessibility": 202,
+    "cumulative": 141
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 804.106,
+  "speedIndex": 804.106,
+  "largestContentfulPaint": 804.106,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 804.106,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 34.44999999999999,
+  "weight": {
+    "summary": "6 requests • 14.4 KiB",
+    "total": 14738,
+    "image": 0,
+    "imageCount": 1,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 9059,
+    "font": 1654,
+    "fontCount": 1,
+    "stylesheet": 1344,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 73,
+    "+weight.total": 1046,
+    "-weight.document": 684,
+    "+weight.document": 394,
+    "-weight.script": 2,
+    "+weight.script": 806,
+    "-weight.image": 1,
+    "+weight.image": 865,
+    "-weight.font": 2,
+    "+weight.font": 743,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 139,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 245
+  },
+  "axe": {
+    "passes": 237,
+    "violations": 0
+  }
+}

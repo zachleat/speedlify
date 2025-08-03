@@ -1,0 +1,66 @@
+{
+  "url": "https://byggorebro.se/",
+  "requestedUrl": "https://byggorebro.se/",
+  "timestamp": 1754151206444,
+  "ranks": {
+    "hundos": 960,
+    "performance": 907,
+    "accessibility": 854,
+    "cumulative": 954
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.85,
+    "accessibility": 0.93,
+    "bestPractices": 0.82,
+    "seo": 1,
+    "total": 360
+  },
+  "firstContentfulPaint": 1715.0455,
+  "speedIndex": 1715.0455,
+  "largestContentfulPaint": 2196.7735,
+  "totalBlockingTime": 495.97749999999974,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 3245.236750000001,
+  "maxPotentialFirstInputDelay": 321,
+  "timeToFirstByte": 30.705,
+  "weight": {
+    "summary": "190 requests • 187.3 KiB",
+    "total": 191956,
+    "image": 5805,
+    "imageCount": 3,
+    "script": 43219,
+    "scriptCount": 166,
+    "document": 36231,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 34008,
+    "stylesheetCount": 1,
+    "thirdParty": 166620,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 510,
+    "+weight.total": 609,
+    "-weight.document": 994,
+    "+weight.document": 84,
+    "-weight.script": 458,
+    "+weight.script": 349,
+    "-weight.image": 94,
+    "+weight.image": 771,
+    "-weight.font": 1,
+    "+weight.font": 745,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 122,
+    "-totalBlockingTime": 132,
+    "-largestContentfulPaint": 93
+  },
+  "axe": {
+    "passes": 331,
+    "violations": 8
+  }
+}

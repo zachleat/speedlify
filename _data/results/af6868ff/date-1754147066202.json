@@ -1,0 +1,66 @@
+{
+  "url": "https://www.freecodecamp.org/news",
+  "requestedUrl": "https://www.freecodecamp.org/news",
+  "timestamp": 1754159330004,
+  "ranks": {
+    "hundos": 1001,
+    "performance": 1106,
+    "accessibility": 476,
+    "cumulative": 1001
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.53,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 353
+  },
+  "firstContentfulPaint": 1282.4899999999998,
+  "speedIndex": 1780.1505657491061,
+  "largestContentfulPaint": 9255.932499999999,
+  "totalBlockingTime": 65,
+  "cumulativeLayoutShift": 0.5295188108023453,
+  "timeToInteractive": 9263.537049999999,
+  "maxPotentialFirstInputDelay": 90,
+  "timeToFirstByte": 156.95299999999997,
+  "weight": {
+    "summary": "52 requests • 8.7 MiB",
+    "total": 9129434,
+    "image": 8586693,
+    "imageCount": 25,
+    "script": 467936,
+    "scriptCount": 13,
+    "document": 13865,
+    "font": 28202,
+    "fontCount": 2,
+    "stylesheet": 13570,
+    "stylesheetCount": 4,
+    "thirdParty": 9014179,
+    "thirdPartyCount": 5
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 1101,
+    "+weight.total": 18,
+    "-weight.document": 817,
+    "+weight.document": 261,
+    "-weight.script": 735,
+    "+weight.script": 72,
+    "-weight.image": 856,
+    "+weight.image": 9,
+    "-weight.font": 116,
+    "+weight.font": 629,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 764,
+    "-totalBlockingTime": 90,
+    "-largestContentfulPaint": 228
+  },
+  "axe": {
+    "passes": 1357,
+    "violations": 2
+  }
+}

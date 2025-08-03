@@ -1,0 +1,66 @@
+{
+  "url": "https://scott.ee/",
+  "requestedUrl": "https://scott.ee/",
+  "timestamp": 1754149797318,
+  "ranks": {
+    "hundos": 450,
+    "performance": 550,
+    "accessibility": 694,
+    "cumulative": 441
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.99,
+    "accessibility": 0.96,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 395
+  },
+  "firstContentfulPaint": 896.11,
+  "speedIndex": 2944.6571564594024,
+  "largestContentfulPaint": 1968.2199999999998,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1968.22,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 641.5400000000001,
+  "weight": {
+    "summary": "13 requests • 126.4 KiB",
+    "total": 129436,
+    "image": 5616,
+    "imageCount": 4,
+    "script": 16803,
+    "scriptCount": 1,
+    "document": 13092,
+    "font": 79085,
+    "fontCount": 1,
+    "stylesheet": 2948,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 390,
+    "+weight.total": 729,
+    "-weight.document": 794,
+    "+weight.document": 284,
+    "-weight.script": 352,
+    "+weight.script": 455,
+    "-weight.image": 92,
+    "+weight.image": 773,
+    "-weight.font": 421,
+    "+weight.font": 324,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 1099,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 750
+  },
+  "axe": {
+    "passes": 534,
+    "violations": 3
+  }
+}

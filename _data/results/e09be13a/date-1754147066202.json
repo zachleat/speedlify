@@ -1,0 +1,66 @@
+{
+  "url": "https://quickchart.io/",
+  "requestedUrl": "https://quickchart.io/",
+  "timestamp": 1754151101126,
+  "ranks": {
+    "hundos": 1019,
+    "performance": 652,
+    "accessibility": 1092,
+    "cumulative": 1022
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.97,
+    "accessibility": 0.71,
+    "bestPractices": 1,
+    "seo": 0.82,
+    "total": 350
+  },
+  "firstContentfulPaint": 1878.2520000000002,
+  "speedIndex": 2112.111098867707,
+  "largestContentfulPaint": 2344.998,
+  "totalBlockingTime": 31.5,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 6242.863400000001,
+  "maxPotentialFirstInputDelay": 107,
+  "timeToFirstByte": 83.05000000000001,
+  "weight": {
+    "summary": "27 requests • 469.2 KiB",
+    "total": 480456,
+    "image": 73739,
+    "imageCount": 11,
+    "script": 383915,
+    "scriptCount": 10,
+    "document": 14084,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 5759,
+    "stylesheetCount": 2,
+    "thirdParty": 382466,
+    "thirdPartyCount": 6
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 778,
+    "+weight.total": 341,
+    "-weight.document": 823,
+    "+weight.document": 255,
+    "-weight.script": 717,
+    "+weight.script": 90,
+    "-weight.image": 373,
+    "+weight.image": 492,
+    "-weight.font": 1,
+    "+weight.font": 745,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 551,
+    "-totalBlockingTime": 174,
+    "-largestContentfulPaint": 840
+  },
+  "axe": {
+    "passes": 629,
+    "violations": 73
+  }
+}

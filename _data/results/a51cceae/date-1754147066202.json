@@ -1,0 +1,66 @@
+{
+  "url": "https://torcellini.org/",
+  "requestedUrl": "https://torcellini.org/",
+  "timestamp": 1754173619728,
+  "ranks": {
+    "hundos": 453,
+    "performance": 541,
+    "accessibility": 465,
+    "cumulative": 431
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.99,
+    "accessibility": 1,
+    "bestPractices": 0.96,
+    "seo": 1,
+    "total": 395
+  },
+  "firstContentfulPaint": 1377.0230000000001,
+  "speedIndex": 1960.7023278958318,
+  "largestContentfulPaint": 1377.0230000000001,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.060069477536744235,
+  "timeToInteractive": 1377.0230000000001,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 252.92800000000003,
+  "weight": {
+    "summary": "4 requests • 37.5 KiB",
+    "total": 38420,
+    "image": 0,
+    "imageCount": 0,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 1869,
+    "font": 31489,
+    "fontCount": 1,
+    "stylesheet": 2938,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 151,
+    "+weight.total": 968,
+    "-weight.document": 63,
+    "+weight.document": 1015,
+    "-weight.script": 2,
+    "+weight.script": 806,
+    "-weight.image": 1,
+    "+weight.image": 865,
+    "-weight.font": 148,
+    "+weight.font": 597,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 925,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 558
+  },
+  "axe": {
+    "passes": 107,
+    "violations": 1
+  }
+}

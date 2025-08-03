@@ -1,0 +1,66 @@
+{
+  "url": "https://piraces.dev/",
+  "requestedUrl": "https://piraces.dev/",
+  "timestamp": 1754164929633,
+  "ranks": {
+    "hundos": 533,
+    "performance": 35,
+    "accessibility": 877,
+    "cumulative": 516
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 1,
+    "accessibility": 0.92,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 392
+  },
+  "firstContentfulPaint": 808,
+  "speedIndex": 808,
+  "largestContentfulPaint": 960,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 960,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 57.47200000000001,
+  "weight": {
+    "summary": "297 requests • 31.4 KiB",
+    "total": 32173,
+    "image": 0,
+    "imageCount": 0,
+    "script": -1,
+    "scriptCount": 1,
+    "document": 4833,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 126,
+    "+weight.total": 993,
+    "-weight.document": 378,
+    "+weight.document": 700,
+    "-weight.script": 1,
+    "+weight.script": 806,
+    "-weight.image": 1,
+    "+weight.image": 865,
+    "-weight.font": 1,
+    "+weight.font": 745,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 376,
+    "-totalBlockingTime": 139,
+    "-largestContentfulPaint": 376
+  },
+  "axe": {
+    "passes": 143,
+    "violations": 1
+  }
+}

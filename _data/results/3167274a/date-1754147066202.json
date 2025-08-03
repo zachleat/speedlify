@@ -1,0 +1,66 @@
+{
+  "url": "https://programrestoran.axcora.com/",
+  "requestedUrl": "https://programrestoran.axcora.com/",
+  "timestamp": 1754167678772,
+  "ranks": {
+    "hundos": 182,
+    "performance": 252,
+    "accessibility": 484,
+    "cumulative": 225
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 1066.35,
+  "speedIndex": 1066.35,
+  "largestContentfulPaint": 1310.6999999999998,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1310.6999999999998,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 169.745,
+  "weight": {
+    "summary": "7 requests • 35.8 KiB",
+    "total": 36705,
+    "image": 14848,
+    "imageCount": 5,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 18107,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 144,
+    "+weight.total": 975,
+    "-weight.document": 885,
+    "+weight.document": 193,
+    "-weight.script": 2,
+    "+weight.script": 806,
+    "-weight.image": 170,
+    "+weight.image": 695,
+    "-weight.font": 1,
+    "+weight.font": 745,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 802,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 534
+  },
+  "axe": {
+    "passes": 336,
+    "violations": 2
+  }
+}

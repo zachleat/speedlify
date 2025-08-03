@@ -1,0 +1,66 @@
+{
+  "url": "https://www.vigorteq.com/",
+  "requestedUrl": "https://www.vigorteq.com/",
+  "timestamp": 1754151359044,
+  "ranks": {
+    "hundos": 1091,
+    "performance": 1079,
+    "accessibility": 951,
+    "cumulative": 1091
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.66,
+    "accessibility": 0.9,
+    "bestPractices": 0.54,
+    "seo": 1,
+    "total": 310
+  },
+  "firstContentfulPaint": 2825.2920000000004,
+  "speedIndex": 6066.799889963382,
+  "largestContentfulPaint": 7987.420000000001,
+  "totalBlockingTime": 25,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 9041.678650000002,
+  "maxPotentialFirstInputDelay": 100,
+  "timeToFirstByte": 127.21100000000001,
+  "weight": {
+    "summary": "72 requests • 8.5 MiB",
+    "total": 8897303,
+    "image": 613388,
+    "imageCount": 23,
+    "script": 467903,
+    "scriptCount": 21,
+    "document": 10572,
+    "font": 297426,
+    "fontCount": 4,
+    "stylesheet": 153781,
+    "stylesheetCount": 13,
+    "thirdParty": 320768,
+    "thirdPartyCount": 5
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 1100,
+    "+weight.total": 19,
+    "-weight.document": 733,
+    "+weight.document": 345,
+    "-weight.script": 734,
+    "+weight.script": 73,
+    "-weight.image": 716,
+    "+weight.image": 149,
+    "-weight.font": 680,
+    "+weight.font": 65,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 663,
+    "-totalBlockingTime": 45,
+    "-largestContentfulPaint": 221
+  },
+  "axe": {
+    "passes": 367,
+    "violations": 7
+  }
+}

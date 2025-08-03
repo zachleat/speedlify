@@ -1,0 +1,66 @@
+{
+  "url": "https://fuzzylogic.me/",
+  "requestedUrl": "https://fuzzylogic.me/",
+  "timestamp": 1754174111812,
+  "ranks": {
+    "hundos": 52,
+    "performance": 134,
+    "accessibility": 151,
+    "cumulative": 23
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 928.787,
+  "speedIndex": 928.787,
+  "largestContentfulPaint": 1344.9645,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.001630691382041513,
+  "timeToInteractive": 1353.4080500000002,
+  "maxPotentialFirstInputDelay": 30,
+  "timeToFirstByte": 38.351,
+  "weight": {
+    "summary": "11 requests • 118.8 KiB",
+    "total": 121651,
+    "image": 56173,
+    "imageCount": 4,
+    "script": 2662,
+    "scriptCount": 1,
+    "document": 8870,
+    "font": 51125,
+    "fontCount": 3,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 41687,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 375,
+    "+weight.total": 744,
+    "-weight.document": 673,
+    "+weight.document": 405,
+    "-weight.script": 140,
+    "+weight.script": 667,
+    "-weight.image": 335,
+    "+weight.image": 530,
+    "-weight.font": 267,
+    "+weight.font": 478,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 252,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 545
+  },
+  "axe": {
+    "passes": 301,
+    "violations": 0
+  }
+}

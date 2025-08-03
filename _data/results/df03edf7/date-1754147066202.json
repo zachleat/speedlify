@@ -1,0 +1,66 @@
+{
+  "url": "https://www.humankode.com/",
+  "requestedUrl": "https://www.humankode.com/",
+  "timestamp": 1754174318650,
+  "ranks": {
+    "hundos": 417,
+    "performance": 120,
+    "accessibility": 766,
+    "cumulative": 432
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 1,
+    "accessibility": 0.95,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 395
+  },
+  "firstContentfulPaint": 914.425,
+  "speedIndex": 914.425,
+  "largestContentfulPaint": 914.425,
+  "totalBlockingTime": 30,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 2490.3050000000003,
+  "maxPotentialFirstInputDelay": 80,
+  "timeToFirstByte": 90.547,
+  "weight": {
+    "summary": "6 requests • 159.5 KiB",
+    "total": 163332,
+    "image": 0,
+    "imageCount": 0,
+    "script": 152705,
+    "scriptCount": 2,
+    "document": 7806,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 153255,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 463,
+    "+weight.total": 656,
+    "-weight.document": 609,
+    "+weight.document": 469,
+    "-weight.script": 608,
+    "+weight.script": 199,
+    "-weight.image": 1,
+    "+weight.image": 865,
+    "-weight.font": 1,
+    "+weight.font": 745,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 575,
+    "-totalBlockingTime": 173,
+    "-largestContentfulPaint": 327
+  },
+  "axe": {
+    "passes": 153,
+    "violations": 2
+  }
+}

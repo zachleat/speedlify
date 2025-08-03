@@ -1,0 +1,66 @@
+{
+  "url": "https://tracker.greenweb.org/",
+  "requestedUrl": "https://tracker.greenweb.org/",
+  "timestamp": 1754175475689,
+  "ranks": {
+    "hundos": 664,
+    "performance": 139,
+    "accessibility": 850,
+    "cumulative": 662
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 1,
+    "accessibility": 0.93,
+    "bestPractices": 1,
+    "seo": 0.92,
+    "total": 385
+  },
+  "firstContentfulPaint": 931.9760000000001,
+  "speedIndex": 931.9760000000001,
+  "largestContentfulPaint": 1236.2640000000001,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1236.2640000000001,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 55.293000000000006,
+  "weight": {
+    "summary": "8 requests • 14.4 KiB",
+    "total": 14758,
+    "image": 3105,
+    "imageCount": 1,
+    "script": 2006,
+    "scriptCount": 1,
+    "document": 3240,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 3506,
+    "stylesheetCount": 1,
+    "thirdParty": 4907,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 74,
+    "+weight.total": 1045,
+    "-weight.document": 206,
+    "+weight.document": 872,
+    "-weight.script": 103,
+    "+weight.script": 704,
+    "-weight.image": 59,
+    "+weight.image": 806,
+    "-weight.font": 1,
+    "+weight.font": 745,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 366,
+    "-totalBlockingTime": 139,
+    "-largestContentfulPaint": 513
+  },
+  "axe": {
+    "passes": 209,
+    "violations": 6
+  }
+}

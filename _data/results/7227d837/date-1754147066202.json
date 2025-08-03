@@ -1,0 +1,66 @@
+{
+  "url": "https://rethink.wtf/",
+  "requestedUrl": "https://rethink.wtf/",
+  "timestamp": 1754169949618,
+  "ranks": {
+    "hundos": 63,
+    "performance": 327,
+    "accessibility": 343,
+    "cumulative": 33
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 876.467,
+  "speedIndex": 1257.4141340706826,
+  "largestContentfulPaint": 1754.467,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.0020763750999661192,
+  "timeToInteractive": 1754.467,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 34.44399999999996,
+  "weight": {
+    "summary": "8 requests • 142.4 KiB",
+    "total": 145829,
+    "image": 108204,
+    "imageCount": 3,
+    "script": 3304,
+    "scriptCount": 1,
+    "document": 4575,
+    "font": 28919,
+    "fontCount": 2,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 4131,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 423,
+    "+weight.total": 696,
+    "-weight.document": 354,
+    "+weight.document": 724,
+    "-weight.script": 153,
+    "+weight.script": 654,
+    "-weight.image": 451,
+    "+weight.image": 414,
+    "-weight.font": 126,
+    "+weight.font": 619,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 138,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 678
+  },
+  "axe": {
+    "passes": 74,
+    "violations": 0
+  }
+}

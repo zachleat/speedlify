@@ -1,0 +1,66 @@
+{
+  "url": "https://quinndombrowski.com/",
+  "requestedUrl": "https://quinndombrowski.com/",
+  "timestamp": 1754167606284,
+  "ranks": {
+    "hundos": 856,
+    "performance": 1016,
+    "accessibility": 503,
+    "cumulative": 855
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.75,
+    "accessibility": 1,
+    "bestPractices": 0.96,
+    "seo": 1,
+    "total": 371
+  },
+  "firstContentfulPaint": 3026.62,
+  "speedIndex": 3026.62,
+  "largestContentfulPaint": 4928.874,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.07632332293464476,
+  "timeToInteractive": 4928.874,
+  "maxPotentialFirstInputDelay": 46,
+  "timeToFirstByte": 45.663,
+  "weight": {
+    "summary": "15 requests • 552.5 KiB",
+    "total": 565723,
+    "image": 369157,
+    "imageCount": 4,
+    "script": 42408,
+    "scriptCount": 1,
+    "document": 2709,
+    "font": 119693,
+    "fontCount": 3,
+    "stylesheet": 29467,
+    "stylesheetCount": 5,
+    "thirdParty": 135706,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 824,
+    "+weight.total": 295,
+    "-weight.document": 150,
+    "+weight.document": 928,
+    "-weight.script": 456,
+    "+weight.script": 351,
+    "-weight.image": 653,
+    "+weight.image": 212,
+    "-weight.font": 521,
+    "+weight.font": 224,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 306,
+    "-totalBlockingTime": 139,
+    "-largestContentfulPaint": 185
+  },
+  "axe": {
+    "passes": 149,
+    "violations": 2
+  }
+}

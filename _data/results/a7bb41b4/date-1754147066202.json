@@ -1,0 +1,66 @@
+{
+  "url": "https://www.virtualcomedycafe.com/",
+  "requestedUrl": "https://www.virtualcomedycafe.com/",
+  "timestamp": 1754153728140,
+  "ranks": {
+    "hundos": 307,
+    "performance": 565,
+    "accessibility": 414,
+    "cumulative": 314
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.98,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 398
+  },
+  "firstContentfulPaint": 1118.56,
+  "speedIndex": 1218.4305721368796,
+  "largestContentfulPaint": 2403.508,
+  "totalBlockingTime": 27,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 2403.508,
+  "maxPotentialFirstInputDelay": 77,
+  "timeToFirstByte": 209.85700000000003,
+  "weight": {
+    "summary": "9 requests • 1,003 KiB",
+    "total": 1027022,
+    "image": 944721,
+    "imageCount": 5,
+    "script": 59056,
+    "scriptCount": 2,
+    "document": 8026,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 59056,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 926,
+    "+weight.total": 193,
+    "-weight.document": 622,
+    "+weight.document": 456,
+    "-weight.script": 503,
+    "+weight.script": 304,
+    "-weight.image": 749,
+    "+weight.image": 116,
+    "-weight.font": 1,
+    "+weight.font": 745,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 869,
+    "-totalBlockingTime": 50,
+    "-largestContentfulPaint": 103
+  },
+  "axe": {
+    "passes": 281,
+    "violations": 1
+  }
+}

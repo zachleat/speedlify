@@ -1,0 +1,66 @@
+{
+  "url": "https://thejollyteapot.com/",
+  "requestedUrl": "https://thejollyteapot.com/",
+  "timestamp": 1754168907949,
+  "ranks": {
+    "hundos": 258,
+    "performance": 368,
+    "accessibility": 504,
+    "cumulative": 229
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 806.733,
+  "speedIndex": 1408.1742960779188,
+  "largestContentfulPaint": 806.733,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 806.733,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 134.87299999999993,
+  "weight": {
+    "summary": "2 requests • 2.4 KiB",
+    "total": 2434,
+    "image": 0,
+    "imageCount": 0,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 1588,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 3,
+    "+weight.total": 1116,
+    "-weight.document": 43,
+    "+weight.document": 1035,
+    "-weight.script": 2,
+    "+weight.script": 806,
+    "-weight.image": 1,
+    "+weight.image": 865,
+    "-weight.font": 1,
+    "+weight.font": 745,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 703,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 247
+  },
+  "axe": {
+    "passes": 147,
+    "violations": 2
+  }
+}

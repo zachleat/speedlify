@@ -1,0 +1,66 @@
+{
+  "url": "https://razorux.com/",
+  "requestedUrl": "https://razorux.com/",
+  "timestamp": 1754166407171,
+  "ranks": {
+    "hundos": 64,
+    "performance": 338,
+    "accessibility": 529,
+    "cumulative": 233
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 1097.1395,
+  "speedIndex": 1272.4567681016802,
+  "largestContentfulPaint": 1097.1395,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.008538428843688946,
+  "timeToInteractive": 1097.1395,
+  "maxPotentialFirstInputDelay": 28,
+  "timeToFirstByte": 35.28999999999999,
+  "weight": {
+    "summary": "21 requests • 146.6 KiB",
+    "total": 150165,
+    "image": 13654,
+    "imageCount": 5,
+    "script": 48142,
+    "scriptCount": 8,
+    "document": 12906,
+    "font": 65016,
+    "fontCount": 3,
+    "stylesheet": 7186,
+    "stylesheetCount": 2,
+    "thirdParty": 11945,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 436,
+    "+weight.total": 683,
+    "-weight.document": 790,
+    "+weight.document": 288,
+    "-weight.script": 467,
+    "+weight.script": 340,
+    "-weight.image": 161,
+    "+weight.image": 704,
+    "-weight.font": 348,
+    "+weight.font": 397,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 162,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 454
+  },
+  "axe": {
+    "passes": 458,
+    "violations": 3
+  }
+}

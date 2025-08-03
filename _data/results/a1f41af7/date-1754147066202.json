@@ -1,0 +1,66 @@
+{
+  "url": "https://www.brianbaldock.com/",
+  "requestedUrl": "https://www.brianbaldock.com/",
+  "timestamp": 1754150399773,
+  "ranks": {
+    "hundos": 40,
+    "performance": 232,
+    "accessibility": 487,
+    "cumulative": 218
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 1035.185,
+  "speedIndex": 1035.185,
+  "largestContentfulPaint": 1565.185,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1565.185,
+  "maxPotentialFirstInputDelay": 45,
+  "timeToFirstByte": 79.01899999999999,
+  "weight": {
+    "summary": "11 requests • 164.5 KiB",
+    "total": 168451,
+    "image": 75214,
+    "imageCount": 1,
+    "script": 813,
+    "scriptCount": 1,
+    "document": 18785,
+    "font": 69867,
+    "fontCount": 4,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 470,
+    "+weight.total": 649,
+    "-weight.document": 895,
+    "+weight.document": 183,
+    "-weight.script": 31,
+    "+weight.script": 776,
+    "-weight.image": 378,
+    "+weight.image": 487,
+    "-weight.font": 370,
+    "+weight.font": 375,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 533,
+    "-totalBlockingTime": 139,
+    "-largestContentfulPaint": 604
+  },
+  "axe": {
+    "passes": 275,
+    "violations": 2
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "url": "https://entitygarden.com/",
+  "requestedUrl": "https://entitygarden.com/",
+  "timestamp": 1754162501188,
+  "ranks": {
+    "hundos": 1075,
+    "performance": 1064,
+    "accessibility": 988,
+    "cumulative": 1075
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.68,
+    "accessibility": 0.88,
+    "bestPractices": 0.75,
+    "seo": 0.92,
+    "total": 323
+  },
+  "firstContentfulPaint": 3340.3055000000004,
+  "speedIndex": 3340.3055000000004,
+  "largestContentfulPaint": 17219.708500000004,
+  "totalBlockingTime": 34,
+  "cumulativeLayoutShift": 0.0004719140625856672,
+  "timeToInteractive": 17219.708500000004,
+  "maxPotentialFirstInputDelay": 77,
+  "timeToFirstByte": 220.09299999999996,
+  "weight": {
+    "summary": "53 requests • 3.5 MiB",
+    "total": 3699620,
+    "image": 1875481,
+    "imageCount": 10,
+    "script": 773955,
+    "scriptCount": 21,
+    "document": 65273,
+    "font": 457016,
+    "fontCount": 6,
+    "stylesheet": 196292,
+    "stylesheetCount": 8,
+    "thirdParty": 1464547,
+    "thirdPartyCount": 7
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 1062,
+    "+weight.total": 57,
+    "-weight.document": 1038,
+    "+weight.document": 40,
+    "-weight.script": 769,
+    "+weight.script": 38,
+    "-weight.image": 803,
+    "+weight.image": 62,
+    "-weight.font": 718,
+    "+weight.font": 27,
+    "+weight.fontCount": 11,
+    "-timeToFirstByte": 880,
+    "-totalBlockingTime": 60,
+    "-largestContentfulPaint": 234
+  },
+  "axe": {
+    "passes": 1276,
+    "violations": 45
+  }
+}

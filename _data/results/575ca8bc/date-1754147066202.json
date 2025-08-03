@@ -1,0 +1,66 @@
+{
+  "url": "https://jak2k.eu/",
+  "requestedUrl": "https://jak2k.schwanenberg.name/",
+  "timestamp": 1754156490606,
+  "ranks": {
+    "hundos": 734,
+    "performance": 693,
+    "accessibility": 849,
+    "cumulative": 731
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.96,
+    "accessibility": 0.93,
+    "bestPractices": 1,
+    "seo": 0.92,
+    "total": 381
+  },
+  "firstContentfulPaint": 2144.9345,
+  "speedIndex": 2144.9345,
+  "largestContentfulPaint": 2410.2445,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 2410.2445,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 125.351,
+  "weight": {
+    "summary": "18 requests • 28.2 KiB",
+    "total": 28915,
+    "image": 5948,
+    "imageCount": 9,
+    "script": 5014,
+    "scriptCount": 2,
+    "document": 13354,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 2373,
+    "stylesheetCount": 1,
+    "thirdParty": 1403,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 118,
+    "+weight.total": 1001,
+    "-weight.document": 806,
+    "+weight.document": 272,
+    "-weight.script": 209,
+    "+weight.script": 598,
+    "-weight.image": 97,
+    "+weight.image": 768,
+    "-weight.font": 1,
+    "+weight.font": 745,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 653,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 855
+  },
+  "axe": {
+    "passes": 54,
+    "violations": 5
+  }
+}

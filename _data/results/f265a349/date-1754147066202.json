@@ -1,0 +1,66 @@
+{
+  "url": "https://elrastrillo.pe/",
+  "requestedUrl": "https://elrastrillo.pe/",
+  "timestamp": 1754169247905,
+  "ranks": {
+    "hundos": 861,
+    "performance": 562,
+    "accessibility": 1067,
+    "cumulative": 869
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.98,
+    "accessibility": 0.79,
+    "bestPractices": 0.93,
+    "seo": 1,
+    "total": 370
+  },
+  "firstContentfulPaint": 878.748,
+  "speedIndex": 1171.0436058771134,
+  "largestContentfulPaint": 2492.748,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.0005318864775055108,
+  "timeToInteractive": 2492.748,
+  "maxPotentialFirstInputDelay": 47,
+  "timeToFirstByte": 37.298,
+  "weight": {
+    "summary": "73 requests • 1 MiB",
+    "total": 1086201,
+    "image": 898402,
+    "imageCount": 67,
+    "script": 633,
+    "scriptCount": 1,
+    "document": 4156,
+    "font": 177433,
+    "fontCount": 2,
+    "stylesheet": 5402,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 936,
+    "+weight.total": 183,
+    "-weight.document": 307,
+    "+weight.document": 771,
+    "-weight.script": 21,
+    "+weight.script": 786,
+    "-weight.image": 745,
+    "+weight.image": 120,
+    "-weight.font": 594,
+    "+weight.font": 151,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 229,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 876
+  },
+  "axe": {
+    "passes": 467,
+    "violations": 29
+  }
+}

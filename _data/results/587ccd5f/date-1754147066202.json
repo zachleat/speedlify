@@ -1,0 +1,66 @@
+{
+  "url": "https://darrenhickling.com/",
+  "requestedUrl": "https://darrenhickling.com/",
+  "timestamp": 1754176652388,
+  "ranks": {
+    "hundos": 893,
+    "performance": 1038,
+    "accessibility": 740,
+    "cumulative": 892
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.72,
+    "accessibility": 0.96,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 368
+  },
+  "firstContentfulPaint": 2458.2825000000003,
+  "speedIndex": 2458.2825000000003,
+  "largestContentfulPaint": 3257.0725,
+  "totalBlockingTime": 7,
+  "cumulativeLayoutShift": 0.34358214066554715,
+  "timeToInteractive": 3296.5026000000003,
+  "maxPotentialFirstInputDelay": 64,
+  "timeToFirstByte": 72.143,
+  "weight": {
+    "summary": "45 requests • 312.3 KiB",
+    "total": 319757,
+    "image": 37291,
+    "imageCount": 1,
+    "script": 79772,
+    "scriptCount": 14,
+    "document": 11717,
+    "font": 99735,
+    "fontCount": 3,
+    "stylesheet": 7174,
+    "stylesheetCount": 3,
+    "thirdParty": 101098,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 659,
+    "+weight.total": 460,
+    "-weight.document": 765,
+    "+weight.document": 313,
+    "-weight.script": 526,
+    "+weight.script": 281,
+    "-weight.image": 268,
+    "+weight.image": 597,
+    "-weight.font": 473,
+    "+weight.font": 272,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 506,
+    "-totalBlockingTime": 149,
+    "-largestContentfulPaint": 984
+  },
+  "axe": {
+    "passes": 384,
+    "violations": 23
+  }
+}

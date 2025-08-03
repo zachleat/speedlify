@@ -1,0 +1,66 @@
+{
+  "url": "https://www.vess.co.nz/",
+  "requestedUrl": "https://www.vess.co.nz/",
+  "timestamp": 1754176769846,
+  "ranks": {
+    "hundos": 459,
+    "performance": 591,
+    "accessibility": 596,
+    "cumulative": 466
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.98,
+    "accessibility": 1,
+    "bestPractices": 0.96,
+    "seo": 1,
+    "total": 394
+  },
+  "firstContentfulPaint": 1871.833,
+  "speedIndex": 1871.833,
+  "largestContentfulPaint": 2027.13,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 2027.13,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 300.278,
+  "weight": {
+    "summary": "13 requests • 303.8 KiB",
+    "total": 311124,
+    "image": 210400,
+    "imageCount": 3,
+    "script": 41330,
+    "scriptCount": 5,
+    "document": 29429,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 2539,
+    "stylesheetCount": 1,
+    "thirdParty": 40437,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 651,
+    "+weight.total": 468,
+    "-weight.document": 964,
+    "+weight.document": 114,
+    "-weight.script": 452,
+    "+weight.script": 355,
+    "-weight.image": 564,
+    "+weight.image": 301,
+    "-weight.font": 1,
+    "+weight.font": 745,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 963,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 763
+  },
+  "axe": {
+    "passes": 172,
+    "violations": 10
+  }
+}

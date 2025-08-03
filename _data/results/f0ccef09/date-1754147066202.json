@@ -1,0 +1,66 @@
+{
+  "url": "https://www.mikestilling.com/",
+  "requestedUrl": "https://www.mikestilling.com/",
+  "timestamp": 1754162522946,
+  "ranks": {
+    "hundos": 827,
+    "performance": 1030,
+    "accessibility": 527,
+    "cumulative": 827
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.74,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 374
+  },
+  "firstContentfulPaint": 1382.5610000000001,
+  "speedIndex": 3451.139032853841,
+  "largestContentfulPaint": 9440.393,
+  "totalBlockingTime": 31.5,
+  "cumulativeLayoutShift": 0.005843339975953807,
+  "timeToInteractive": 9446.043000000001,
+  "maxPotentialFirstInputDelay": 113,
+  "timeToFirstByte": 38.80099999999999,
+  "weight": {
+    "summary": "14 requests • 1.8 MiB",
+    "total": 1876580,
+    "image": 1545508,
+    "imageCount": 2,
+    "script": 61592,
+    "scriptCount": 2,
+    "document": 11736,
+    "font": 230079,
+    "fontCount": 5,
+    "stylesheet": 11376,
+    "stylesheetCount": 1,
+    "thirdParty": 3015,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 1007,
+    "+weight.total": 112,
+    "-weight.document": 767,
+    "+weight.document": 311,
+    "-weight.script": 512,
+    "+weight.script": 295,
+    "-weight.image": 786,
+    "+weight.image": 79,
+    "-weight.font": 637,
+    "+weight.font": 108,
+    "+weight.fontCount": 12,
+    "-timeToFirstByte": 258,
+    "-totalBlockingTime": 56,
+    "-largestContentfulPaint": 229
+  },
+  "axe": {
+    "passes": 757,
+    "violations": 3
+  }
+}

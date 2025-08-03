@@ -1,0 +1,66 @@
+{
+  "url": "https://www.loganayliffe.com/",
+  "requestedUrl": "https://www.loganayliffe.com/",
+  "timestamp": 1754168623621,
+  "ranks": {
+    "hundos": 550,
+    "performance": 283,
+    "accessibility": 760,
+    "cumulative": 546
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 1,
+    "accessibility": 0.95,
+    "bestPractices": 0.96,
+    "seo": 1,
+    "total": 391
+  },
+  "firstContentfulPaint": 898.74,
+  "speedIndex": 1125.2476581225396,
+  "largestContentfulPaint": 898.74,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 898.74,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 161.97300000000004,
+  "weight": {
+    "summary": "5 requests • 41.2 KiB",
+    "total": 42206,
+    "image": 37478,
+    "imageCount": 1,
+    "script": 1439,
+    "scriptCount": 1,
+    "document": 1626,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 1663,
+    "stylesheetCount": 2,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 165,
+    "+weight.total": 954,
+    "-weight.document": 45,
+    "+weight.document": 1033,
+    "-weight.script": 70,
+    "+weight.script": 737,
+    "-weight.image": 270,
+    "+weight.image": 595,
+    "-weight.font": 1,
+    "+weight.font": 745,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 778,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 306
+  },
+  "axe": {
+    "passes": 123,
+    "violations": 1
+  }
+}

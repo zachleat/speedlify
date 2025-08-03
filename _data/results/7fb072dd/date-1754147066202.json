@@ -1,0 +1,66 @@
+{
+  "url": "https://makkusu.dev/",
+  "requestedUrl": "https://makkusu.dev/",
+  "timestamp": 1754158662845,
+  "ranks": {
+    "hundos": 843,
+    "performance": 947,
+    "accessibility": 925,
+    "cumulative": 843
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.81,
+    "accessibility": 0.91,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 372
+  },
+  "firstContentfulPaint": 3661.274,
+  "speedIndex": 3661.274,
+  "largestContentfulPaint": 3661.274,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.036055648595833024,
+  "timeToInteractive": 3661.2740000000003,
+  "maxPotentialFirstInputDelay": 46,
+  "timeToFirstByte": 127.36499999999995,
+  "weight": {
+    "summary": "15 requests • 2.9 MiB",
+    "total": 3066701,
+    "image": 571,
+    "imageCount": 1,
+    "script": 4047,
+    "scriptCount": 4,
+    "document": 6198,
+    "font": 2797887,
+    "fontCount": 5,
+    "stylesheet": 242180,
+    "stylesheetCount": 2,
+    "thirdParty": 367975,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 1052,
+    "+weight.total": 67,
+    "-weight.document": 497,
+    "+weight.document": 581,
+    "-weight.script": 181,
+    "+weight.script": 626,
+    "-weight.image": 14,
+    "+weight.image": 851,
+    "-weight.font": 743,
+    "+weight.font": 2,
+    "+weight.fontCount": 12,
+    "-timeToFirstByte": 665,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 1011
+  },
+  "axe": {
+    "passes": 56,
+    "violations": 6
+  }
+}

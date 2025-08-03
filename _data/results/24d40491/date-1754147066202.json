@@ -1,0 +1,66 @@
+{
+  "url": "https://www.briangershon.com/",
+  "requestedUrl": "https://www.briangershon.com/",
+  "timestamp": 1754150489483,
+  "ranks": {
+    "hundos": 680,
+    "performance": 734,
+    "accessibility": 844,
+    "cumulative": 684
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.94,
+    "accessibility": 0.93,
+    "bestPractices": 0.96,
+    "seo": 1,
+    "total": 383
+  },
+  "firstContentfulPaint": 826.864,
+  "speedIndex": 826.864,
+  "largestContentfulPaint": 3150.498,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 3150.4980000000005,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 26.75399999999999,
+  "weight": {
+    "summary": "7 requests • 286 KiB",
+    "total": 292890,
+    "image": 279720,
+    "imageCount": 3,
+    "script": 2524,
+    "scriptCount": 1,
+    "document": 3786,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 3434,
+    "stylesheetCount": 1,
+    "thirdParty": 282244,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 625,
+    "+weight.total": 494,
+    "-weight.document": 266,
+    "+weight.document": 812,
+    "-weight.script": 134,
+    "+weight.script": 673,
+    "-weight.image": 616,
+    "+weight.image": 249,
+    "-weight.font": 1,
+    "+weight.font": 745,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 101,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 970
+  },
+  "axe": {
+    "passes": 115,
+    "violations": 2
+  }
+}

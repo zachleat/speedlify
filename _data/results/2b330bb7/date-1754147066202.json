@@ -1,0 +1,66 @@
+{
+  "url": "https://www.ciccarello.me/",
+  "requestedUrl": "https://www.ciccarello.me/",
+  "timestamp": 1754167468107,
+  "ranks": {
+    "hundos": 706,
+    "performance": 893,
+    "accessibility": 674,
+    "cumulative": 709
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.86,
+    "accessibility": 0.96,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 382
+  },
+  "firstContentfulPaint": 1166.4505,
+  "speedIndex": 1166.4505,
+  "largestContentfulPaint": 4121.3295,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 4121.3295,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 39.023000000000025,
+  "weight": {
+    "summary": "14 requests • 1.6 MiB",
+    "total": 1707846,
+    "image": 1680274,
+    "imageCount": 5,
+    "script": 7883,
+    "scriptCount": 2,
+    "document": 13332,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 5898,
+    "stylesheetCount": 3,
+    "thirdParty": 454045,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 995,
+    "+weight.total": 124,
+    "-weight.document": 805,
+    "+weight.document": 273,
+    "-weight.script": 269,
+    "+weight.script": 538,
+    "-weight.image": 790,
+    "+weight.image": 75,
+    "-weight.font": 1,
+    "+weight.font": 745,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 262,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 1032
+  },
+  "axe": {
+    "passes": 781,
+    "violations": 1
+  }
+}

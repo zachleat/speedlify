@@ -1,0 +1,66 @@
+{
+  "url": "https://blog.dwac.dev/",
+  "requestedUrl": "https://blog.dwac.dev/",
+  "timestamp": 1754150423151,
+  "ranks": {
+    "hundos": 157,
+    "performance": 18,
+    "accessibility": 204,
+    "cumulative": 105
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 795.3015,
+  "speedIndex": 795.3015,
+  "largestContentfulPaint": 1082.3015,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1082.3015,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 34.66900000000001,
+  "weight": {
+    "summary": "6 requests • 35.2 KiB",
+    "total": 36033,
+    "image": 941,
+    "imageCount": 1,
+    "script": 10135,
+    "scriptCount": 1,
+    "document": 3990,
+    "font": 19260,
+    "fontCount": 1,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 141,
+    "+weight.total": 978,
+    "-weight.document": 292,
+    "+weight.document": 786,
+    "-weight.script": 302,
+    "+weight.script": 505,
+    "-weight.image": 27,
+    "+weight.image": 838,
+    "-weight.font": 68,
+    "+weight.font": 677,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 141,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 448
+  },
+  "axe": {
+    "passes": 236,
+    "violations": 0
+  }
+}

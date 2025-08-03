@@ -1,0 +1,66 @@
+{
+  "url": "https://www.hockeycomputindo.com/",
+  "requestedUrl": "https://www.hockeycomputindo.com/",
+  "timestamp": 1754172278986,
+  "ranks": {
+    "hundos": 286,
+    "performance": 512,
+    "accessibility": 597,
+    "cumulative": 301
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.99,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 399
+  },
+  "firstContentfulPaint": 1626.826,
+  "speedIndex": 1626.826,
+  "largestContentfulPaint": 2003.496,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 2011.0294000000001,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 183.708,
+  "weight": {
+    "summary": "16 requests • 181.4 KiB",
+    "total": 185779,
+    "image": 54340,
+    "imageCount": 8,
+    "script": 26157,
+    "scriptCount": 1,
+    "document": 12722,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 45687,
+    "stylesheetCount": 3,
+    "thirdParty": 15707,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 502,
+    "+weight.total": 617,
+    "-weight.document": 785,
+    "+weight.document": 293,
+    "-weight.script": 406,
+    "+weight.script": 401,
+    "-weight.image": 328,
+    "+weight.image": 537,
+    "-weight.font": 1,
+    "+weight.font": 745,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 833,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 759
+  },
+  "axe": {
+    "passes": 558,
+    "violations": 11
+  }
+}

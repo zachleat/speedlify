@@ -1,0 +1,66 @@
+{
+  "url": "https://ethanmarcotte.com/",
+  "requestedUrl": "https://ethanmarcotte.com/",
+  "timestamp": 1754150789649,
+  "ranks": {
+    "hundos": 346,
+    "performance": 664,
+    "accessibility": 370,
+    "cumulative": 370
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.96,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 396
+  },
+  "firstContentfulPaint": 903.325,
+  "speedIndex": 903.325,
+  "largestContentfulPaint": 2103.325,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.10308084265719158,
+  "timeToInteractive": 2103.325,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 34.76399999999998,
+  "weight": {
+    "summary": "18 requests • 354.4 KiB",
+    "total": 362945,
+    "image": 185486,
+    "imageCount": 5,
+    "script": 1480,
+    "scriptCount": 1,
+    "document": 6714,
+    "font": 142378,
+    "fontCount": 5,
+    "stylesheet": 8654,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 694,
+    "+weight.total": 425,
+    "-weight.document": 543,
+    "+weight.document": 535,
+    "-weight.script": 71,
+    "+weight.script": 736,
+    "-weight.image": 539,
+    "+weight.image": 326,
+    "-weight.font": 556,
+    "+weight.font": 189,
+    "+weight.fontCount": 12,
+    "-timeToFirstByte": 142,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 785
+  },
+  "axe": {
+    "passes": 771,
+    "violations": 1
+  }
+}

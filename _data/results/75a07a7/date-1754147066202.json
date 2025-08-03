@@ -1,0 +1,66 @@
+{
+  "url": "https://lakeback.org/",
+  "requestedUrl": "https://lakeback.org/",
+  "timestamp": 1754153227957,
+  "ranks": {
+    "hundos": 1021,
+    "performance": 960,
+    "accessibility": 981,
+    "cumulative": 1019
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.8,
+    "accessibility": 0.88,
+    "bestPractices": 0.82,
+    "seo": 1,
+    "total": 350
+  },
+  "firstContentfulPaint": 3711.076499999999,
+  "speedIndex": 3711.076499999999,
+  "largestContentfulPaint": 3871.5875,
+  "totalBlockingTime": 6,
+  "cumulativeLayoutShift": 0.03504011713657616,
+  "timeToInteractive": 4200.2543000000005,
+  "maxPotentialFirstInputDelay": 62,
+  "timeToFirstByte": 193.462,
+  "weight": {
+    "summary": "20 requests • 2.6 MiB",
+    "total": 2760254,
+    "image": 1030465,
+    "imageCount": 5,
+    "script": 90213,
+    "scriptCount": 4,
+    "document": 43615,
+    "font": 185184,
+    "fontCount": 3,
+    "stylesheet": 20865,
+    "stylesheetCount": 4,
+    "thirdParty": 260959,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 1045,
+    "+weight.total": 74,
+    "-weight.document": 1008,
+    "+weight.document": 70,
+    "-weight.script": 539,
+    "+weight.script": 268,
+    "-weight.image": 755,
+    "+weight.image": 110,
+    "-weight.font": 601,
+    "+weight.font": 144,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 852,
+    "-totalBlockingTime": 10,
+    "-largestContentfulPaint": 1023
+  },
+  "axe": {
+    "passes": 378,
+    "violations": 8
+  }
+}

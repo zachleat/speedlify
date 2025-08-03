@@ -1,0 +1,66 @@
+{
+  "url": "https://www.conor.zone/en/",
+  "requestedUrl": "https://www.conor.zone/en/",
+  "timestamp": 1754161425593,
+  "ranks": {
+    "hundos": 361,
+    "performance": 133,
+    "accessibility": 709,
+    "cumulative": 396
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 1,
+    "accessibility": 0.96,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 396
+  },
+  "firstContentfulPaint": 928.569,
+  "speedIndex": 928.569,
+  "largestContentfulPaint": 928.569,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 928.569,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 27.426000000000016,
+  "weight": {
+    "summary": "14 requests • 120.2 KiB",
+    "total": 123047,
+    "image": 103909,
+    "imageCount": 6,
+    "script": 4633,
+    "scriptCount": 2,
+    "document": 6525,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 5806,
+    "stylesheetCount": 3,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 379,
+    "+weight.total": 740,
+    "-weight.document": 525,
+    "+weight.document": 553,
+    "-weight.script": 200,
+    "+weight.script": 607,
+    "-weight.image": 439,
+    "+weight.image": 426,
+    "-weight.font": 1,
+    "+weight.font": 745,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 111,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 343
+  },
+  "axe": {
+    "passes": 302,
+    "violations": 4
+  }
+}

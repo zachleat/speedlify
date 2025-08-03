@@ -1,0 +1,66 @@
+{
+  "url": "https://faceftw.dev/",
+  "requestedUrl": "https://faceftw.dev/",
+  "timestamp": 1754152385686,
+  "ranks": {
+    "hundos": 830,
+    "performance": 689,
+    "accessibility": 737,
+    "cumulative": 831
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.96,
+    "accessibility": 0.96,
+    "bestPractices": 0.82,
+    "seo": 1,
+    "total": 374
+  },
+  "firstContentfulPaint": 942.9860000000001,
+  "speedIndex": 1905.4600363112593,
+  "largestContentfulPaint": 2296.1445000000003,
+  "totalBlockingTime": 189.00000000000023,
+  "cumulativeLayoutShift": 0.000039838271364217935,
+  "timeToInteractive": 2364.445,
+  "maxPotentialFirstInputDelay": 232.00000000000023,
+  "timeToFirstByte": 57.12199999999999,
+  "weight": {
+    "summary": "14 requests • 342 KiB",
+    "total": 350196,
+    "image": 12638,
+    "imageCount": 1,
+    "script": 16840,
+    "scriptCount": 3,
+    "document": 7235,
+    "font": 289736,
+    "fontCount": 2,
+    "stylesheet": 9839,
+    "stylesheetCount": 1,
+    "thirdParty": 7119,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 689,
+    "+weight.total": 430,
+    "-weight.document": 575,
+    "+weight.document": 503,
+    "-weight.script": 354,
+    "+weight.script": 453,
+    "-weight.image": 151,
+    "+weight.image": 714,
+    "-weight.font": 676,
+    "+weight.font": 69,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 375,
+    "-totalBlockingTime": 200,
+    "-largestContentfulPaint": 824
+  },
+  "axe": {
+    "passes": 354,
+    "violations": 21
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "url": "https://www.imkhoi.com/",
+  "requestedUrl": "https://www.imkhoi.com/",
+  "timestamp": 1754148084331,
+  "ranks": {
+    "hundos": 738,
+    "performance": 949,
+    "accessibility": 423,
+    "cumulative": 739
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.8,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 380
+  },
+  "firstContentfulPaint": 955.8939999999998,
+  "speedIndex": 955.8939999999998,
+  "largestContentfulPaint": 5408.906999999999,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.0036081116278451077,
+  "timeToInteractive": 5408.906999999999,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 23.955,
+  "weight": {
+    "summary": "20 requests • 1.2 MiB",
+    "total": 1261422,
+    "image": 912239,
+    "imageCount": 1,
+    "script": 22623,
+    "scriptCount": 3,
+    "document": 2653,
+    "font": 261685,
+    "fontCount": 2,
+    "stylesheet": 7367,
+    "stylesheetCount": 3,
+    "thirdParty": 319249,
+    "thirdPartyCount": 4
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 950,
+    "+weight.total": 169,
+    "-weight.document": 146,
+    "+weight.document": 932,
+    "-weight.script": 386,
+    "+weight.script": 421,
+    "-weight.image": 748,
+    "+weight.image": 117,
+    "-weight.font": 654,
+    "+weight.font": 91,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 83,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 1065
+  },
+  "axe": {
+    "passes": 259,
+    "violations": 1
+  }
+}

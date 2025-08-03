@@ -1,0 +1,65 @@
+{
+  "url": "https://designremotely.co/closing-down/",
+  "requestedUrl": "https://designremotely.co/",
+  "timestamp": 1754167628738,
+  "ranks": {
+    "hundos": 807,
+    "performance": 528,
+    "accessibility": 624,
+    "cumulative": 821
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.99,
+    "accessibility": 1,
+    "bestPractices": 0.93,
+    "seo": 0.83,
+    "total": 375
+  },
+  "firstContentfulPaint": 1744.6709999999998,
+  "speedIndex": 1744.6709999999998,
+  "largestContentfulPaint": 1744.6709999999998,
+  "totalBlockingTime": 11,
+  "cumulativeLayoutShift": 0.022787910485686017,
+  "timeToInteractive": 4711.727750000001,
+  "maxPotentialFirstInputDelay": 66,
+  "timeToFirstByte": 59.421,
+  "weight": {
+    "summary": "22 requests • 609.3 KiB",
+    "total": 623886,
+    "image": 215,
+    "imageCount": 2,
+    "script": 572161,
+    "scriptCount": 12,
+    "document": 8063,
+    "font": 17597,
+    "fontCount": 1,
+    "stylesheet": 18262,
+    "stylesheetCount": 2,
+    "thirdParty": 588388,
+    "thirdPartyCount": 7
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 845,
+    "+weight.total": 274,
+    "-weight.document": 626,
+    "+weight.document": 452,
+    "-weight.script": 754,
+    "+weight.script": 53,
+    "-weight.image": 4,
+    "+weight.image": 861,
+    "-weight.font": 60,
+    "+weight.font": 685,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 400,
+    "-totalBlockingTime": 153,
+    "-largestContentfulPaint": 676
+  },
+  "axe": {
+    "error": "{\"name\":\"TimeoutError\"}"
+  }
+}

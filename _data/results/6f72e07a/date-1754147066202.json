@@ -1,0 +1,66 @@
+{
+  "url": "https://www.prestanda.co.uk/",
+  "requestedUrl": "https://www.prestanda.co.uk/",
+  "timestamp": 1754168512426,
+  "ranks": {
+    "hundos": 487,
+    "performance": 620,
+    "accessibility": 125,
+    "cumulative": 485
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.97,
+    "accessibility": 1,
+    "bestPractices": 0.96,
+    "seo": 1,
+    "total": 393
+  },
+  "firstContentfulPaint": 892.463,
+  "speedIndex": 955.3167381236076,
+  "largestContentfulPaint": 2069.093,
+  "totalBlockingTime": 6,
+  "cumulativeLayoutShift": 0.08524852417878925,
+  "timeToInteractive": 2069.093,
+  "maxPotentialFirstInputDelay": 56,
+  "timeToFirstByte": 127.62299999999999,
+  "weight": {
+    "summary": "15 requests • 152.1 KiB",
+    "total": 155764,
+    "image": 60677,
+    "imageCount": 4,
+    "script": 2524,
+    "scriptCount": 1,
+    "document": 14333,
+    "font": 75477,
+    "fontCount": 7,
+    "stylesheet": 1776,
+    "stylesheetCount": 1,
+    "thirdParty": 2992,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 448,
+    "+weight.total": 671,
+    "-weight.document": 830,
+    "+weight.document": 248,
+    "-weight.script": 134,
+    "+weight.script": 673,
+    "-weight.image": 350,
+    "+weight.image": 515,
+    "-weight.font": 403,
+    "+weight.font": 342,
+    "+weight.fontCount": 10,
+    "-timeToFirstByte": 667,
+    "-totalBlockingTime": 10,
+    "-largestContentfulPaint": 774
+  },
+  "axe": {
+    "passes": 337,
+    "violations": 0
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "url": "https://liberte.unices.org/",
+  "requestedUrl": "https://liberte.unices.org/",
+  "timestamp": 1754162181113,
+  "ranks": {
+    "hundos": 794,
+    "performance": 778,
+    "accessibility": 571,
+    "cumulative": 794
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.92,
+    "accessibility": 1,
+    "bestPractices": 0.93,
+    "seo": 0.91,
+    "total": 376
+  },
+  "firstContentfulPaint": 797.752,
+  "speedIndex": 858.0724082153322,
+  "largestContentfulPaint": 3302.752,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 3302.7520000000004,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 36.047,
+  "weight": {
+    "summary": "8 requests • 629.3 KiB",
+    "total": 644368,
+    "image": 543384,
+    "imageCount": 3,
+    "script": 0,
+    "scriptCount": 1,
+    "document": 1640,
+    "font": 77289,
+    "fontCount": 1,
+    "stylesheet": 6526,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 850,
+    "+weight.total": 269,
+    "-weight.document": 46,
+    "+weight.document": 1032,
+    "-weight.script": 2,
+    "+weight.script": 806,
+    "-weight.image": 703,
+    "+weight.image": 162,
+    "-weight.font": 409,
+    "+weight.font": 336,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 186,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 986
+  },
+  "axe": {
+    "passes": 117,
+    "violations": 5
+  }
+}

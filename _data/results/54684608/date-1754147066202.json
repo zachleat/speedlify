@@ -1,0 +1,66 @@
+{
+  "url": "https://mier.info/",
+  "requestedUrl": "https://mier.info/",
+  "timestamp": 1754171551412,
+  "ranks": {
+    "hundos": 260,
+    "performance": 472,
+    "accessibility": 563,
+    "cumulative": 295
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.99,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 399
+  },
+  "firstContentfulPaint": 1256.346,
+  "speedIndex": 1256.346,
+  "largestContentfulPaint": 1856.346,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.0045443347453569295,
+  "timeToInteractive": 1871.3460000000002,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 67.32600000000001,
+  "weight": {
+    "summary": "88 requests • 16.9 MiB",
+    "total": 17677327,
+    "image": 17546815,
+    "imageCount": 63,
+    "script": 16487,
+    "scriptCount": 13,
+    "document": 6536,
+    "font": 84407,
+    "fontCount": 4,
+    "stylesheet": 5960,
+    "stylesheetCount": 2,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 1112,
+    "+weight.total": 7,
+    "-weight.document": 527,
+    "+weight.document": 551,
+    "-weight.script": 347,
+    "+weight.script": 460,
+    "-weight.image": 861,
+    "+weight.image": 4,
+    "-weight.font": 435,
+    "+weight.font": 310,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 467,
+    "-totalBlockingTime": 139,
+    "-largestContentfulPaint": 721
+  },
+  "axe": {
+    "passes": 33,
+    "violations": 4
+  }
+}

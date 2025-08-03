@@ -1,0 +1,66 @@
+{
+  "url": "https://jfroehlich.net/",
+  "requestedUrl": "https://jfroehlich.net/",
+  "timestamp": 1754148958824,
+  "ranks": {
+    "hundos": 162,
+    "performance": 430,
+    "accessibility": 133,
+    "cumulative": 108
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 953.733,
+  "speedIndex": 1831.0774079629896,
+  "largestContentfulPaint": 1051.733,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1051.7330000000002,
+  "maxPotentialFirstInputDelay": 61,
+  "timeToFirstByte": 127.471,
+  "weight": {
+    "summary": "9 requests • 88.6 KiB",
+    "total": 90676,
+    "image": 20924,
+    "imageCount": 2,
+    "script": 596,
+    "scriptCount": 1,
+    "document": 20253,
+    "font": 37716,
+    "fontCount": 2,
+    "stylesheet": 3113,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 300,
+    "+weight.total": 819,
+    "-weight.document": 907,
+    "+weight.document": 171,
+    "-weight.script": 17,
+    "+weight.script": 790,
+    "-weight.image": 204,
+    "+weight.image": 661,
+    "-weight.font": 184,
+    "+weight.font": 561,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 666,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 428
+  },
+  "axe": {
+    "passes": 319,
+    "violations": 0
+  }
+}

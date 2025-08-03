@@ -1,0 +1,66 @@
+{
+  "url": "https://boehs.org/",
+  "requestedUrl": "https://boehs.org/",
+  "timestamp": 1754158829950,
+  "ranks": {
+    "hundos": 730,
+    "performance": 474,
+    "accessibility": 283,
+    "cumulative": 727
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.99,
+    "accessibility": 1,
+    "bestPractices": 0.82,
+    "seo": 1,
+    "total": 381
+  },
+  "firstContentfulPaint": 1287.1835999999998,
+  "speedIndex": 1287.1835999999998,
+  "largestContentfulPaint": 1867.0989999999997,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1867.099,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 60.724000000000004,
+  "weight": {
+    "summary": "10 requests • 84.7 KiB",
+    "total": 86769,
+    "image": 0,
+    "imageCount": 0,
+    "script": 4184,
+    "scriptCount": 2,
+    "document": 2272,
+    "font": 74380,
+    "fontCount": 3,
+    "stylesheet": 3108,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 293,
+    "+weight.total": 826,
+    "-weight.document": 104,
+    "+weight.document": 974,
+    "-weight.script": 187,
+    "+weight.script": 620,
+    "-weight.image": 1,
+    "+weight.image": 865,
+    "-weight.font": 394,
+    "+weight.font": 351,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 419,
+    "-totalBlockingTime": 139,
+    "-largestContentfulPaint": 724
+  },
+  "axe": {
+    "passes": 141,
+    "violations": 0
+  }
+}

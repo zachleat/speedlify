@@ -1,0 +1,66 @@
+{
+  "url": "https://alexandersandberg.com/",
+  "requestedUrl": "https://alexandersandberg.com/",
+  "timestamp": 1754155381269,
+  "ranks": {
+    "hundos": 467,
+    "performance": 19,
+    "accessibility": 864,
+    "cumulative": 483
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 1,
+    "accessibility": 0.93,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 393
+  },
+  "firstContentfulPaint": 795.96,
+  "speedIndex": 795.96,
+  "largestContentfulPaint": 1726.8645000000001,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1726.8645000000001,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 17.065999999999995,
+  "weight": {
+    "summary": "11 requests • 2.5 MiB",
+    "total": 2607822,
+    "image": 2584714,
+    "imageCount": 3,
+    "script": 5167,
+    "scriptCount": 3,
+    "document": 4479,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 4675,
+    "stylesheetCount": 1,
+    "thirdParty": 5146,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 1039,
+    "+weight.total": 80,
+    "-weight.document": 344,
+    "+weight.document": 734,
+    "-weight.script": 214,
+    "+weight.script": 593,
+    "-weight.image": 819,
+    "+weight.image": 46,
+    "-weight.font": 1,
+    "+weight.font": 745,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 19,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 666
+  },
+  "axe": {
+    "passes": 434,
+    "violations": 20
+  }
+}

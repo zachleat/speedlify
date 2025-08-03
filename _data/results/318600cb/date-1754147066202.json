@@ -1,0 +1,66 @@
+{
+  "url": "https://blog.lukaszwojcik.net/",
+  "requestedUrl": "https://offbeatbits.com/",
+  "timestamp": 1754163237287,
+  "ranks": {
+    "hundos": 497,
+    "performance": 521,
+    "accessibility": 825,
+    "cumulative": 497
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.99,
+    "accessibility": 0.94,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 393
+  },
+  "firstContentfulPaint": 1701.9750000000001,
+  "speedIndex": 1701.9750000000001,
+  "largestContentfulPaint": 1701.9750000000001,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1701.9750000000004,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 27.042000000000016,
+  "weight": {
+    "summary": "8 requests • 22.4 KiB",
+    "total": 22951,
+    "image": 0,
+    "imageCount": 0,
+    "script": 2077,
+    "scriptCount": 1,
+    "document": 7209,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 8500,
+    "stylesheetCount": 1,
+    "thirdParty": 202,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 100,
+    "+weight.total": 1019,
+    "-weight.document": 572,
+    "+weight.document": 506,
+    "-weight.script": 107,
+    "+weight.script": 700,
+    "-weight.image": 1,
+    "+weight.image": 865,
+    "-weight.font": 1,
+    "+weight.font": 745,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 105,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 651
+  },
+  "axe": {
+    "passes": 308,
+    "violations": 17
+  }
+}

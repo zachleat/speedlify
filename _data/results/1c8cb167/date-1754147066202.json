@@ -1,0 +1,66 @@
+{
+  "url": "https://jlhernando.com/",
+  "requestedUrl": "https://jlhernando.com/",
+  "timestamp": 1754147255702,
+  "ranks": {
+    "hundos": 462,
+    "performance": 317,
+    "accessibility": 805,
+    "cumulative": 459
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 1,
+    "accessibility": 0.94,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 394
+  },
+  "firstContentfulPaint": 848.647,
+  "speedIndex": 1229.7833540909767,
+  "largestContentfulPaint": 1155.339,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.03174564533265853,
+  "timeToInteractive": 1155.339,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 373.025,
+  "weight": {
+    "summary": "20 requests • 172.4 KiB",
+    "total": 176495,
+    "image": 17962,
+    "imageCount": 5,
+    "script": -1,
+    "scriptCount": 1,
+    "document": 5435,
+    "font": 42352,
+    "fontCount": 1,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 110020,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 490,
+    "+weight.total": 629,
+    "-weight.document": 422,
+    "+weight.document": 656,
+    "-weight.script": 1,
+    "+weight.script": 806,
+    "-weight.image": 190,
+    "+weight.image": 675,
+    "-weight.font": 211,
+    "+weight.font": 534,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 997,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 476
+  },
+  "axe": {
+    "passes": 158,
+    "violations": 1
+  }
+}

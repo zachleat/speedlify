@@ -1,0 +1,65 @@
+{
+  "url": "https://www.strollmag.com/",
+  "requestedUrl": "https://www.strollmag.com/",
+  "timestamp": 1754164515989,
+  "ranks": {
+    "hundos": 1102,
+    "performance": 1114,
+    "accessibility": 1082,
+    "cumulative": 1102
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.42,
+    "accessibility": 0.76,
+    "bestPractices": 0.79,
+    "seo": 1,
+    "total": 297
+  },
+  "firstContentfulPaint": 2097.542,
+  "speedIndex": 15898.097981513582,
+  "largestContentfulPaint": 14597.227499999999,
+  "totalBlockingTime": 34,
+  "cumulativeLayoutShift": 0.5155648446044212,
+  "timeToInteractive": 14597.2275,
+  "maxPotentialFirstInputDelay": 68,
+  "timeToFirstByte": 43.698999999999984,
+  "weight": {
+    "summary": "137 requests • 6.9 MiB",
+    "total": 7201918,
+    "image": 1863985,
+    "imageCount": 35,
+    "script": 683187,
+    "scriptCount": 20,
+    "document": 24864,
+    "font": 73292,
+    "fontCount": 2,
+    "stylesheet": 44233,
+    "stylesheetCount": 4,
+    "thirdParty": 6944516,
+    "thirdPartyCount": 35
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 1095,
+    "+weight.total": 24,
+    "-weight.document": 939,
+    "+weight.document": 139,
+    "-weight.script": 764,
+    "+weight.script": 43,
+    "-weight.image": 802,
+    "+weight.image": 63,
+    "-weight.font": 387,
+    "+weight.font": 358,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 291,
+    "-totalBlockingTime": 60,
+    "-largestContentfulPaint": 231
+  },
+  "axe": {
+    "error": "{\"name\":\"TimeoutError\"}"
+  }
+}

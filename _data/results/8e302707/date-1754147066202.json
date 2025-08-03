@@ -1,0 +1,66 @@
+{
+  "url": "https://craigerskine.com/",
+  "requestedUrl": "https://craigerskine.com/",
+  "timestamp": 1754167249917,
+  "ranks": {
+    "hundos": 811,
+    "performance": 967,
+    "accessibility": 713,
+    "cumulative": 817
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.79,
+    "accessibility": 0.96,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 375
+  },
+  "firstContentfulPaint": 2780.401,
+  "speedIndex": 2780.401,
+  "largestContentfulPaint": 4531.919000000001,
+  "totalBlockingTime": 95.5,
+  "cumulativeLayoutShift": 0.0016437620690190468,
+  "timeToInteractive": 5650.4848,
+  "maxPotentialFirstInputDelay": 145,
+  "timeToFirstByte": 35.828,
+  "weight": {
+    "summary": "42 requests • 1.1 MiB",
+    "total": 1164258,
+    "image": 761243,
+    "imageCount": 27,
+    "script": 317373,
+    "scriptCount": 4,
+    "document": 11793,
+    "font": 48464,
+    "fontCount": 1,
+    "stylesheet": 2501,
+    "stylesheetCount": 2,
+    "thirdParty": 307302,
+    "thirdPartyCount": 4
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 943,
+    "+weight.total": 176,
+    "-weight.document": 769,
+    "+weight.document": 309,
+    "-weight.script": 707,
+    "+weight.script": 100,
+    "-weight.image": 733,
+    "+weight.image": 132,
+    "-weight.font": 255,
+    "+weight.font": 490,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 177,
+    "-totalBlockingTime": 106,
+    "-largestContentfulPaint": 181
+  },
+  "axe": {
+    "passes": 455,
+    "violations": 5
+  }
+}

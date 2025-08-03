@@ -1,0 +1,66 @@
+{
+  "url": "https://estelafranco.com/",
+  "requestedUrl": "https://estelafranco.com/",
+  "timestamp": 1754148228013,
+  "ranks": {
+    "hundos": 121,
+    "performance": 350,
+    "accessibility": 279,
+    "cumulative": 79
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 987.604,
+  "speedIndex": 1331.196848031616,
+  "largestContentfulPaint": 1279.64,
+  "totalBlockingTime": 12,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 2903.1295,
+  "maxPotentialFirstInputDelay": 74,
+  "timeToFirstByte": 424.81700000000006,
+  "weight": {
+    "summary": "7 requests • 178.8 KiB",
+    "total": 183072,
+    "image": 25222,
+    "imageCount": 2,
+    "script": 149526,
+    "scriptCount": 2,
+    "document": 5876,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 150228,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 500,
+    "+weight.total": 619,
+    "-weight.document": 465,
+    "+weight.document": 613,
+    "-weight.script": 603,
+    "+weight.script": 204,
+    "-weight.image": 222,
+    "+weight.image": 643,
+    "-weight.font": 1,
+    "+weight.font": 745,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 1021,
+    "-totalBlockingTime": 23,
+    "-largestContentfulPaint": 44
+  },
+  "axe": {
+    "passes": 144,
+    "violations": 0
+  }
+}

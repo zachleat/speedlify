@@ -1,0 +1,66 @@
+{
+  "url": "https://thomasrigby.com/",
+  "requestedUrl": "https://thomasrigby.com/",
+  "timestamp": 1754167957042,
+  "ranks": {
+    "hundos": 614,
+    "performance": 601,
+    "accessibility": 810,
+    "cumulative": 608
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.98,
+    "accessibility": 0.94,
+    "bestPractices": 0.96,
+    "seo": 1,
+    "total": 388
+  },
+  "firstContentfulPaint": 1922.208,
+  "speedIndex": 1922.208,
+  "largestContentfulPaint": 2095.411,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 2095.411,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 99.237,
+  "weight": {
+    "summary": "18 requests • 245.2 KiB",
+    "total": 251044,
+    "image": 53254,
+    "imageCount": 1,
+    "script": 3777,
+    "scriptCount": 3,
+    "document": 6147,
+    "font": 163027,
+    "fontCount": 5,
+    "stylesheet": 5973,
+    "stylesheetCount": 3,
+    "thirdParty": 1847,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 578,
+    "+weight.total": 541,
+    "-weight.document": 490,
+    "+weight.document": 588,
+    "-weight.script": 168,
+    "+weight.script": 639,
+    "-weight.image": 327,
+    "+weight.image": 538,
+    "-weight.font": 584,
+    "+weight.font": 161,
+    "+weight.fontCount": 12,
+    "-timeToFirstByte": 590,
+    "-totalBlockingTime": 139,
+    "-largestContentfulPaint": 781
+  },
+  "axe": {
+    "passes": 347,
+    "violations": 3
+  }
+}

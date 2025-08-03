@@ -1,0 +1,66 @@
+{
+  "url": "https://kromatic.fr/",
+  "requestedUrl": "https://kromatic.fr/",
+  "timestamp": 1754156255782,
+  "ranks": {
+    "hundos": 474,
+    "performance": 403,
+    "accessibility": 610,
+    "cumulative": 484
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 0.93,
+    "seo": 1,
+    "total": 393
+  },
+  "firstContentfulPaint": 1047.288,
+  "speedIndex": 1569.8091280633926,
+  "largestContentfulPaint": 1047.288,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1047.288,
+  "maxPotentialFirstInputDelay": 50,
+  "timeToFirstByte": 128.39500000000004,
+  "weight": {
+    "summary": "15 requests • 256.5 KiB",
+    "total": 262610,
+    "image": 235982,
+    "imageCount": 6,
+    "script": 5416,
+    "scriptCount": 3,
+    "document": 3338,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 1822,
+    "stylesheetCount": 3,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 593,
+    "+weight.total": 526,
+    "-weight.document": 214,
+    "+weight.document": 864,
+    "-weight.script": 219,
+    "+weight.script": 588,
+    "-weight.image": 578,
+    "+weight.image": 287,
+    "-weight.font": 1,
+    "+weight.font": 745,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 670,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 426
+  },
+  "axe": {
+    "passes": 160,
+    "violations": 28
+  }
+}
