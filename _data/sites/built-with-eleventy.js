@@ -40,7 +40,8 @@ module.exports = async function() {
 					});
 					let raw = g.findData();
 					let generatorValue = (raw || "").toLowerCase();
-					if(!generatorValue.includes("11ty") && !generatorValue.includes("eleventy")) {
+					if(generatorValue && !generatorValue.includes("11ty") && !generatorValue.includes("eleventy")) {
+						console.log( `<meta name=generator> mismatch for ${url}: ${generatorValue}. Skipping in results and should likely remove from 11ty-community repository` );
 						return false;
 					}
 				} catch(e) {
