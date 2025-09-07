@@ -1,0 +1,66 @@
+{
+  "url": "https://www.axcora.com/",
+  "requestedUrl": "https://www.axcora.com/",
+  "timestamp": 1757265909253,
+  "ranks": {
+    "hundos": 156,
+    "performance": 115,
+    "accessibility": 588,
+    "cumulative": 245
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 931.754,
+  "speedIndex": 931.754,
+  "largestContentfulPaint": 931.754,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 931.7540000000001,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 159.225,
+  "weight": {
+    "summary": "7 requests • 59.5 KiB",
+    "total": 60959,
+    "image": 22256,
+    "imageCount": 3,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 14346,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "sidequests": {
+    "-weight.total": 221,
+    "+weight.total": 903,
+    "-weight.document": 842,
+    "+weight.document": 246,
+    "-weight.script": 2,
+    "+weight.script": 824,
+    "-weight.image": 206,
+    "+weight.image": 656,
+    "-weight.font": 1,
+    "+weight.font": 744,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 722,
+    "-totalBlockingTime": 11,
+    "-largestContentfulPaint": 85
+  },
+  "axe": {
+    "passes": 261,
+    "violations": 7
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "url": "https://extensionworkshop.com/",
+  "requestedUrl": "https://extensionworkshop.com/",
+  "timestamp": 1757265910406,
+  "ranks": {
+    "hundos": 879,
+    "performance": 897,
+    "accessibility": 889,
+    "cumulative": 880
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.85,
+    "accessibility": 0.92,
+    "bestPractices": 1,
+    "seo": 0.92,
+    "total": 369
+  },
+  "firstContentfulPaint": 1357.005,
+  "speedIndex": 1970.875136975225,
+  "largestContentfulPaint": 4271.4215,
+  "totalBlockingTime": 12,
+  "cumulativeLayoutShift": 0.0022188017465720254,
+  "timeToInteractive": 4271.4215,
+  "maxPotentialFirstInputDelay": 62,
+  "timeToFirstByte": 95.014,
+  "weight": {
+    "summary": "42 requests • 736.9 KiB",
+    "total": 754585,
+    "image": 188225,
+    "imageCount": 29,
+    "script": 232036,
+    "scriptCount": 5,
+    "document": 28896,
+    "font": 249310,
+    "fontCount": 3,
+    "stylesheet": 38720,
+    "stylesheetCount": 1,
+    "thirdParty": 157184,
+    "thirdPartyCount": 4
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "sidequests": {
+    "-weight.total": 884,
+    "+weight.total": 240,
+    "-weight.document": 971,
+    "+weight.document": 117,
+    "-weight.script": 674,
+    "+weight.script": 151,
+    "-weight.image": 542,
+    "+weight.image": 320,
+    "-weight.font": 644,
+    "+weight.font": 100,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 502,
+    "-totalBlockingTime": 36,
+    "-largestContentfulPaint": 1008
+  },
+  "axe": {
+    "passes": 642,
+    "violations": 6
+  }
+}

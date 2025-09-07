@@ -1,0 +1,66 @@
+{
+  "url": "https://www.tabulate.io/",
+  "requestedUrl": "https://www.tabulate.io/",
+  "timestamp": 1757266021003,
+  "ranks": {
+    "hundos": 734,
+    "performance": 831,
+    "accessibility": 946,
+    "cumulative": 738
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.9,
+    "accessibility": 0.9,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 380
+  },
+  "firstContentfulPaint": 2079.033,
+  "speedIndex": 2247.98965797801,
+  "largestContentfulPaint": 3329.194,
+  "totalBlockingTime": 44,
+  "cumulativeLayoutShift": 0.04089179314695945,
+  "timeToInteractive": 3329.1940000000004,
+  "maxPotentialFirstInputDelay": 94,
+  "timeToFirstByte": 123.69800000000004,
+  "weight": {
+    "summary": "26 requests • 2.1 MiB",
+    "total": 2202680,
+    "image": 1963752,
+    "imageCount": 8,
+    "script": 107783,
+    "scriptCount": 6,
+    "document": 8892,
+    "font": 108360,
+    "fontCount": 4,
+    "stylesheet": 11286,
+    "stylesheetCount": 2,
+    "thirdParty": 109910,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 2,
+    "total": 2
+  },
+  "sidequests": {
+    "-weight.total": 1024,
+    "+weight.total": 100,
+    "-weight.document": 687,
+    "+weight.document": 401,
+    "-weight.script": 571,
+    "+weight.script": 254,
+    "-weight.image": 799,
+    "+weight.image": 63,
+    "-weight.font": 495,
+    "+weight.font": 249,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 588,
+    "-totalBlockingTime": 91,
+    "-largestContentfulPaint": 945
+  },
+  "axe": {
+    "passes": 477,
+    "violations": 3
+  }
+}

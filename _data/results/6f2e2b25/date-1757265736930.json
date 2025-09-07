@@ -1,0 +1,66 @@
+{
+  "url": "https://borsch.dev/",
+  "requestedUrl": "https://borsch.dev/",
+  "timestamp": 1757265934890,
+  "ranks": {
+    "hundos": 391,
+    "performance": 119,
+    "accessibility": 323,
+    "cumulative": 360
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 0.96,
+    "seo": 1,
+    "total": 396
+  },
+  "firstContentfulPaint": 883.844,
+  "speedIndex": 936.1167020264627,
+  "largestContentfulPaint": 883.844,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 883.844,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 302.313,
+  "weight": {
+    "summary": "5 requests • 24.5 KiB",
+    "total": 25039,
+    "image": 10517,
+    "imageCount": 1,
+    "script": 6631,
+    "scriptCount": 2,
+    "document": 4377,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 2
+  },
+  "sidequests": {
+    "-weight.total": 106,
+    "+weight.total": 1018,
+    "-weight.document": 339,
+    "+weight.document": 749,
+    "-weight.script": 256,
+    "+weight.script": 569,
+    "-weight.image": 128,
+    "+weight.image": 734,
+    "-weight.font": 1,
+    "+weight.font": 744,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 950,
+    "-totalBlockingTime": 11,
+    "-largestContentfulPaint": 552
+  },
+  "axe": {
+    "passes": 105,
+    "violations": 0
+  }
+}

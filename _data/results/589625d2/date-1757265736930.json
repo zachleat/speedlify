@@ -1,0 +1,66 @@
+{
+  "url": "https://acnorris.uk/",
+  "requestedUrl": "https://acnorris.uk/",
+  "timestamp": 1757265947800,
+  "ranks": {
+    "hundos": 942,
+    "performance": 963,
+    "accessibility": 1044,
+    "cumulative": 937
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.8,
+    "accessibility": 0.82,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 362
+  },
+  "firstContentfulPaint": 3647.49,
+  "speedIndex": 3647.49,
+  "largestContentfulPaint": 3807.3869999999997,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.026047995139732685,
+  "timeToInteractive": 3807.3869999999997,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 40.230999999999995,
+  "weight": {
+    "summary": "13 requests • 164.1 KiB",
+    "total": 168035,
+    "image": 1528,
+    "imageCount": 4,
+    "script": 155972,
+    "scriptCount": 4,
+    "document": 4568,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 121464,
+    "thirdPartyCount": 4
+  },
+  "run": {
+    "number": 2,
+    "total": 2
+  },
+  "sidequests": {
+    "-weight.total": 473,
+    "+weight.total": 651,
+    "-weight.document": 363,
+    "+weight.document": 725,
+    "-weight.script": 627,
+    "+weight.script": 198,
+    "-weight.image": 41,
+    "+weight.image": 821,
+    "-weight.font": 1,
+    "+weight.font": 744,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 243,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 493
+  },
+  "axe": {
+    "passes": 109,
+    "violations": 2
+  }
+}

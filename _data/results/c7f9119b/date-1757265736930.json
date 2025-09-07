@@ -1,0 +1,66 @@
+{
+  "url": "https://blog.felipestanzani.com/",
+  "requestedUrl": "https://blog.felipestanzani.com/",
+  "timestamp": 1757265909213,
+  "ranks": {
+    "hundos": 818,
+    "performance": 887,
+    "accessibility": 986,
+    "cumulative": 818
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.86,
+    "accessibility": 0.88,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 374
+  },
+  "firstContentfulPaint": 2628.192,
+  "speedIndex": 2628.192,
+  "largestContentfulPaint": 3578.9010000000003,
+  "totalBlockingTime": 7,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 4076.5770000000007,
+  "maxPotentialFirstInputDelay": 57,
+  "timeToFirstByte": 82.89000000000001,
+  "weight": {
+    "summary": "11 requests • 393 KiB",
+    "total": 402424,
+    "image": 16668,
+    "imageCount": 1,
+    "script": 143082,
+    "scriptCount": 1,
+    "document": 18309,
+    "font": 40547,
+    "fontCount": 2,
+    "stylesheet": 10345,
+    "stylesheetCount": 3,
+    "thirdParty": 187479,
+    "thirdPartyCount": 4
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "sidequests": {
+    "-weight.total": 734,
+    "+weight.total": 390,
+    "-weight.document": 903,
+    "+weight.document": 185,
+    "-weight.script": 609,
+    "+weight.script": 216,
+    "-weight.image": 181,
+    "+weight.image": 681,
+    "-weight.font": 203,
+    "+weight.font": 541,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 474,
+    "-totalBlockingTime": 24,
+    "-largestContentfulPaint": 963
+  },
+  "axe": {
+    "passes": 730,
+    "violations": 24
+  }
+}

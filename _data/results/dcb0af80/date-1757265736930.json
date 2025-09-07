@@ -1,0 +1,66 @@
+{
+  "url": "https://www.naprogu.pl/",
+  "requestedUrl": "https://www.naprogu.pl/",
+  "timestamp": 1757265936012,
+  "ranks": {
+    "hundos": 741,
+    "performance": 862,
+    "accessibility": 876,
+    "cumulative": 736
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.88,
+    "accessibility": 0.92,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 380
+  },
+  "firstContentfulPaint": 2525.406,
+  "speedIndex": 2525.406,
+  "largestContentfulPaint": 3465.446,
+  "totalBlockingTime": 60.5,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 5281.4145499999995,
+  "maxPotentialFirstInputDelay": 107,
+  "timeToFirstByte": 604.995,
+  "weight": {
+    "summary": "23 requests • 1 MiB",
+    "total": 1088288,
+    "image": 668261,
+    "imageCount": 8,
+    "script": 340791,
+    "scriptCount": 5,
+    "document": 53896,
+    "font": 12707,
+    "fontCount": 1,
+    "stylesheet": 8920,
+    "stylesheetCount": 2,
+    "thirdParty": 332632,
+    "thirdPartyCount": 4
+  },
+  "run": {
+    "number": 2,
+    "total": 2
+  },
+  "sidequests": {
+    "-weight.total": 941,
+    "+weight.total": 183,
+    "-weight.document": 1029,
+    "+weight.document": 59,
+    "-weight.script": 722,
+    "+weight.script": 103,
+    "-weight.image": 718,
+    "+weight.image": 144,
+    "-weight.font": 32,
+    "+weight.font": 712,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 1096,
+    "-totalBlockingTime": 109,
+    "-largestContentfulPaint": 955
+  },
+  "axe": {
+    "passes": 5547,
+    "violations": 2
+  }
+}

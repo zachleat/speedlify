@@ -1,0 +1,66 @@
+{
+  "url": "https://www.psxi.cat/",
+  "requestedUrl": "https://www.psxi.cat/",
+  "timestamp": 1757265946481,
+  "ranks": {
+    "hundos": 259,
+    "performance": 452,
+    "accessibility": 369,
+    "cumulative": 276
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.99,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 399
+  },
+  "firstContentfulPaint": 1213.8980000000001,
+  "speedIndex": 1213.8980000000001,
+  "largestContentfulPaint": 2102.898,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 2102.898,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 36.978999999999985,
+  "weight": {
+    "summary": "10 requests • 238.3 KiB",
+    "total": 244010,
+    "image": 196822,
+    "imageCount": 5,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 5879,
+    "font": 33789,
+    "fontCount": 3,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 33789,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 2,
+    "total": 2
+  },
+  "sidequests": {
+    "-weight.total": 571,
+    "+weight.total": 553,
+    "-weight.document": 473,
+    "+weight.document": 615,
+    "-weight.script": 2,
+    "+weight.script": 824,
+    "-weight.image": 551,
+    "+weight.image": 311,
+    "-weight.font": 161,
+    "+weight.font": 583,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 185,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 353
+  },
+  "axe": {
+    "passes": 969,
+    "violations": 1
+  }
+}

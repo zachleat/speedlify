@@ -1,0 +1,66 @@
+{
+  "url": "https://blog.imkhoi.com/",
+  "requestedUrl": "https://blog.khoiuna.info/",
+  "timestamp": 1757265931175,
+  "ranks": {
+    "hundos": 635,
+    "performance": 797,
+    "accessibility": 776,
+    "cumulative": 629
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.92,
+    "accessibility": 0.95,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 387
+  },
+  "firstContentfulPaint": 2651.9765,
+  "speedIndex": 2651.9765,
+  "largestContentfulPaint": 2651.9765,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 2651.9765,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 23.129000000000005,
+  "weight": {
+    "summary": "10 requests • 53.5 KiB",
+    "total": 54749,
+    "image": 0,
+    "imageCount": 0,
+    "script": 37998,
+    "scriptCount": 2,
+    "document": 3665,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 11487,
+    "stylesheetCount": 4,
+    "thirdParty": 42833,
+    "thirdPartyCount": 4
+  },
+  "run": {
+    "number": 2,
+    "total": 2
+  },
+  "sidequests": {
+    "-weight.total": 203,
+    "+weight.total": 921,
+    "-weight.document": 264,
+    "+weight.document": 824,
+    "-weight.script": 460,
+    "+weight.script": 365,
+    "-weight.image": 1,
+    "+weight.image": 862,
+    "-weight.font": 1,
+    "+weight.font": 744,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 31,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 429
+  },
+  "axe": {
+    "passes": 368,
+    "violations": 3
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "url": "https://simplyexplained.com/",
+  "requestedUrl": "https://savjee.be/",
+  "timestamp": 1757265909173,
+  "ranks": {
+    "hundos": 915,
+    "performance": 932,
+    "accessibility": 961,
+    "cumulative": 922
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.83,
+    "accessibility": 0.9,
+    "bestPractices": 1,
+    "seo": 0.92,
+    "total": 365
+  },
+  "firstContentfulPaint": 2060.088,
+  "speedIndex": 2060.088,
+  "largestContentfulPaint": 3964.4635,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.0997977902909812,
+  "timeToInteractive": 4002.0252499999997,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 65.184,
+  "weight": {
+    "summary": "12 requests • 426.5 KiB",
+    "total": 436705,
+    "image": 406599,
+    "imageCount": 6,
+    "script": 4019,
+    "scriptCount": 1,
+    "document": 7019,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 13090,
+    "stylesheetCount": 1,
+    "thirdParty": 21443,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "sidequests": {
+    "-weight.total": 751,
+    "+weight.total": 373,
+    "-weight.document": 571,
+    "+weight.document": 517,
+    "-weight.script": 193,
+    "+weight.script": 632,
+    "-weight.image": 667,
+    "+weight.image": 195,
+    "-weight.font": 1,
+    "+weight.font": 744,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 402,
+    "-totalBlockingTime": 11,
+    "-largestContentfulPaint": 496
+  },
+  "axe": {
+    "passes": 234,
+    "violations": 24
+  }
+}

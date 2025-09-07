@@ -1,0 +1,66 @@
+{
+  "url": "https://www.chris-snowden.me/",
+  "requestedUrl": "https://www.chris-snowden.me/",
+  "timestamp": 1757265908432,
+  "ranks": {
+    "hundos": 1000,
+    "performance": 1026,
+    "accessibility": 582,
+    "cumulative": 1000
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.74,
+    "accessibility": 1,
+    "bestPractices": 0.79,
+    "seo": 1,
+    "total": 353
+  },
+  "firstContentfulPaint": 1031.0708,
+  "speedIndex": 2156.781760853212,
+  "largestContentfulPaint": 4280.365,
+  "totalBlockingTime": 14,
+  "cumulativeLayoutShift": 0.22412434206963594,
+  "timeToInteractive": 4280.365,
+  "maxPotentialFirstInputDelay": 64,
+  "timeToFirstByte": 110.37099999999998,
+  "weight": {
+    "summary": "20 requests • 296.6 KiB",
+    "total": 303681,
+    "image": 685,
+    "imageCount": 3,
+    "script": 149242,
+    "scriptCount": 2,
+    "document": 28218,
+    "font": 59126,
+    "fontCount": 2,
+    "stylesheet": 3004,
+    "stylesheetCount": 1,
+    "thirdParty": 30995,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 1,
+    "total": 2
+  },
+  "sidequests": {
+    "-weight.total": 646,
+    "+weight.total": 478,
+    "-weight.document": 968,
+    "+weight.document": 120,
+    "-weight.script": 619,
+    "+weight.script": 206,
+    "-weight.image": 20,
+    "+weight.image": 842,
+    "-weight.font": 311,
+    "+weight.font": 433,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 541,
+    "-totalBlockingTime": 42,
+    "-largestContentfulPaint": 1009
+  },
+  "axe": {
+    "passes": 159,
+    "violations": 6
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "url": "https://cats-in-residence.org/",
+  "requestedUrl": "https://cats-in-residence.org/",
+  "timestamp": 1757266020195,
+  "ranks": {
+    "hundos": 39,
+    "performance": 153,
+    "accessibility": 154,
+    "cumulative": 18
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 980.799,
+  "speedIndex": 980.799,
+  "largestContentfulPaint": 1857.9905,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.0325799941362336,
+  "timeToInteractive": 1857.9905,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 56.78899999999999,
+  "weight": {
+    "summary": "10 requests • 146.3 KiB",
+    "total": 149794,
+    "image": 72889,
+    "imageCount": 5,
+    "script": 2192,
+    "scriptCount": 1,
+    "document": 5284,
+    "font": 62540,
+    "fontCount": 1,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 75086,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 2,
+    "total": 2
+  },
+  "sidequests": {
+    "-weight.total": 432,
+    "+weight.total": 692,
+    "-weight.document": 419,
+    "+weight.document": 669,
+    "-weight.script": 117,
+    "+weight.script": 708,
+    "-weight.image": 369,
+    "+weight.image": 493,
+    "-weight.font": 329,
+    "+weight.font": 415,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 336,
+    "-totalBlockingTime": 11,
+    "-largestContentfulPaint": 766
+  },
+  "axe": {
+    "passes": 299,
+    "violations": 0
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "url": "https://www.patrickxchong.com/",
+  "requestedUrl": "https://www.patrickxchong.com/",
+  "timestamp": 1757265864828,
+  "ranks": {
+    "hundos": 42,
+    "performance": 111,
+    "accessibility": 400,
+    "cumulative": 182
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 925.802,
+  "speedIndex": 925.802,
+  "largestContentfulPaint": 1562.573,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1562.5730000000003,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 23.56899999999999,
+  "weight": {
+    "summary": "11 requests • 120.1 KiB",
+    "total": 122933,
+    "image": 88016,
+    "imageCount": 6,
+    "script": 16709,
+    "scriptCount": 1,
+    "document": 11821,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 5384,
+    "stylesheetCount": 1,
+    "thirdParty": 17024,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 1,
+    "total": 2
+  },
+  "sidequests": {
+    "-weight.total": 376,
+    "+weight.total": 748,
+    "-weight.document": 778,
+    "+weight.document": 310,
+    "-weight.script": 364,
+    "+weight.script": 461,
+    "-weight.image": 401,
+    "+weight.image": 461,
+    "-weight.font": 1,
+    "+weight.font": 744,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 35,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 238
+  },
+  "axe": {
+    "passes": 406,
+    "violations": 1
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "url": "https://bikes.emilyhorsman.com/",
+  "requestedUrl": "https://bikes.emilyhorsman.com/",
+  "timestamp": 1757266020972,
+  "ranks": {
+    "hundos": 837,
+    "performance": 948,
+    "accessibility": 380,
+    "cumulative": 838
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.81,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 0.91,
+    "total": 372
+  },
+  "firstContentfulPaint": 807.5315,
+  "speedIndex": 807.5315,
+  "largestContentfulPaint": 5103.6915,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 5103.691500000001,
+  "maxPotentialFirstInputDelay": 42,
+  "timeToFirstByte": 60.782,
+  "weight": {
+    "summary": "12 requests • 1,007.9 KiB",
+    "total": 1032107,
+    "image": 998649,
+    "imageCount": 4,
+    "script": 20808,
+    "scriptCount": 4,
+    "document": 5928,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 14215,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 2,
+    "total": 2
+  },
+  "sidequests": {
+    "-weight.total": 931,
+    "+weight.total": 193,
+    "-weight.document": 480,
+    "+weight.document": 608,
+    "-weight.script": 390,
+    "+weight.script": 435,
+    "-weight.image": 752,
+    "+weight.image": 110,
+    "-weight.font": 1,
+    "+weight.font": 744,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 351,
+    "-totalBlockingTime": 11,
+    "-largestContentfulPaint": 1038
+  },
+  "axe": {
+    "passes": 638,
+    "violations": 1
+  }
+}

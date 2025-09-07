@@ -1,0 +1,66 @@
+{
+  "url": "https://unbreaking.org/",
+  "requestedUrl": "https://unbreaking.org/",
+  "timestamp": 1757265930928,
+  "ranks": {
+    "hundos": 762,
+    "performance": 979,
+    "accessibility": 130,
+    "cumulative": 759
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.78,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 378
+  },
+  "firstContentfulPaint": 810.843,
+  "speedIndex": 810.843,
+  "largestContentfulPaint": 6331.843,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 6331.843000000001,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 16.568000000000005,
+  "weight": {
+    "summary": "24 requests • 1,011.3 KiB",
+    "total": 1035605,
+    "image": 10235,
+    "imageCount": 3,
+    "script": 7742,
+    "scriptCount": 7,
+    "document": 4630,
+    "font": 1004816,
+    "fontCount": 4,
+    "stylesheet": 1981,
+    "stylesheetCount": 2,
+    "thirdParty": 5764,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 2,
+    "total": 2
+  },
+  "sidequests": {
+    "-weight.total": 932,
+    "+weight.total": 192,
+    "-weight.document": 370,
+    "+weight.document": 718,
+    "-weight.script": 279,
+    "+weight.script": 546,
+    "-weight.image": 123,
+    "+weight.image": 739,
+    "-weight.font": 736,
+    "+weight.font": 8,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 14,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 515
+  },
+  "axe": {
+    "passes": 338,
+    "violations": 0
+  }
+}

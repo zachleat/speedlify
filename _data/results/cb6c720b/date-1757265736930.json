@@ -1,0 +1,66 @@
+{
+  "url": "https://blog.mozilla.org/addons/",
+  "requestedUrl": "https://blog.mozilla.org/addons/",
+  "timestamp": 1757265930934,
+  "ranks": {
+    "hundos": 1030,
+    "performance": 793,
+    "accessibility": 924,
+    "cumulative": 1029
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.92,
+    "accessibility": 0.91,
+    "bestPractices": 0.82,
+    "seo": 0.83,
+    "total": 348
+  },
+  "firstContentfulPaint": 2423.424,
+  "speedIndex": 2423.424,
+  "largestContentfulPaint": 2648.424,
+  "totalBlockingTime": 110,
+  "cumulativeLayoutShift": 0.0018854732485268698,
+  "timeToInteractive": 2691.924,
+  "maxPotentialFirstInputDelay": 235,
+  "timeToFirstByte": 289.135,
+  "weight": {
+    "summary": "25 requests • 449.6 KiB",
+    "total": 460371,
+    "image": 28936,
+    "imageCount": 7,
+    "script": 187241,
+    "scriptCount": 7,
+    "document": 12070,
+    "font": 202195,
+    "fontCount": 3,
+    "stylesheet": 27839,
+    "stylesheetCount": 3,
+    "thirdParty": 139736,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 2,
+    "total": 2
+  },
+  "sidequests": {
+    "-weight.total": 768,
+    "+weight.total": 356,
+    "-weight.document": 786,
+    "+weight.document": 302,
+    "-weight.script": 652,
+    "+weight.script": 173,
+    "-weight.image": 231,
+    "+weight.image": 631,
+    "-weight.font": 613,
+    "+weight.font": 131,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 938,
+    "-totalBlockingTime": 135,
+    "-largestContentfulPaint": 872
+  },
+  "axe": {
+    "passes": 557,
+    "violations": 8
+  }
+}

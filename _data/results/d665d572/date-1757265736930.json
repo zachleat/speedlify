@@ -1,0 +1,66 @@
+{
+  "url": "https://okuno.osaka/",
+  "requestedUrl": "https://okuno.osaka/",
+  "timestamp": 1757265910353,
+  "ranks": {
+    "hundos": 28,
+    "performance": 427,
+    "accessibility": 609,
+    "cumulative": 248
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 912.372,
+  "speedIndex": 2046.4857200713636,
+  "largestContentfulPaint": 912.372,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 912.372,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 89.239,
+  "weight": {
+    "summary": "23 requests • 3.6 MiB",
+    "total": 3763452,
+    "image": 103866,
+    "imageCount": 3,
+    "script": 296204,
+    "scriptCount": 11,
+    "document": 8356,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 340624,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "sidequests": {
+    "-weight.total": 1069,
+    "+weight.total": 55,
+    "-weight.document": 656,
+    "+weight.document": 432,
+    "-weight.script": 711,
+    "+weight.script": 114,
+    "-weight.image": 439,
+    "+weight.image": 423,
+    "-weight.font": 1,
+    "+weight.font": 744,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 492,
+    "-totalBlockingTime": 11,
+    "-largestContentfulPaint": 77
+  },
+  "axe": {
+    "passes": 300,
+    "violations": 25
+  }
+}

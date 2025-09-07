@@ -64,7 +64,7 @@ module.exports = async function() {
 		// 1-indexed
 		skipIndeces: [
 			8,
-			100,
+			60,
 		]
 	};
 };

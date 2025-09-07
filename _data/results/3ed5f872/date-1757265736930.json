@@ -1,0 +1,66 @@
+{
+  "url": "https://www.srva.ai/",
+  "requestedUrl": "https://www.srva.ai/",
+  "timestamp": 1757266019297,
+  "ranks": {
+    "hundos": 272,
+    "performance": 487,
+    "accessibility": 22,
+    "cumulative": 260
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.99,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 399
+  },
+  "firstContentfulPaint": 1599.31,
+  "speedIndex": 1599.31,
+  "largestContentfulPaint": 1599.31,
+  "totalBlockingTime": 11,
+  "cumulativeLayoutShift": 0.02556640751457105,
+  "timeToInteractive": 1681.81,
+  "maxPotentialFirstInputDelay": 72,
+  "timeToFirstByte": 27.41900000000001,
+  "weight": {
+    "summary": "17 requests • 574.4 KiB",
+    "total": 588213,
+    "image": 26102,
+    "imageCount": 8,
+    "script": 18454,
+    "scriptCount": 1,
+    "document": 16605,
+    "font": 83709,
+    "fontCount": 3,
+    "stylesheet": 6878,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 2
+  },
+  "sidequests": {
+    "-weight.total": 836,
+    "+weight.total": 288,
+    "-weight.document": 879,
+    "+weight.document": 209,
+    "-weight.script": 379,
+    "+weight.script": 446,
+    "-weight.image": 220,
+    "+weight.image": 642,
+    "-weight.font": 432,
+    "+weight.font": 312,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 64,
+    "-totalBlockingTime": 34,
+    "-largestContentfulPaint": 713
+  },
+  "axe": {
+    "passes": 1047,
+    "violations": 0
+  }
+}

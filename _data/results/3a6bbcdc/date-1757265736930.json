@@ -1,0 +1,66 @@
+{
+  "url": "https://dieter.ca/",
+  "requestedUrl": "https://dieter.ca/",
+  "timestamp": 1757265936132,
+  "ranks": {
+    "hundos": 556,
+    "performance": 274,
+    "accessibility": 911,
+    "cumulative": 548
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 1,
+    "accessibility": 0.91,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 391
+  },
+  "firstContentfulPaint": 898.73,
+  "speedIndex": 1228.9132939586639,
+  "largestContentfulPaint": 898.73,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 898.73,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 441.17199999999997,
+  "weight": {
+    "summary": "3 requests • 9.9 KiB",
+    "total": 10095,
+    "image": 0,
+    "imageCount": 0,
+    "script": 1915,
+    "scriptCount": 1,
+    "document": 7220,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 2
+  },
+  "sidequests": {
+    "-weight.total": 50,
+    "+weight.total": 1074,
+    "-weight.document": 579,
+    "+weight.document": 509,
+    "-weight.script": 98,
+    "+weight.script": 727,
+    "-weight.image": 1,
+    "+weight.image": 862,
+    "-weight.font": 1,
+    "+weight.font": 744,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 1036,
+    "-totalBlockingTime": 11,
+    "-largestContentfulPaint": 558
+  },
+  "axe": {
+    "passes": 74,
+    "violations": 1
+  }
+}

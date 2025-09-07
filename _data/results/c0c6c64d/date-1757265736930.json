@@ -1,0 +1,66 @@
+{
+  "url": "https://hohiemer.com/",
+  "requestedUrl": "https://hohiemer.com/",
+  "timestamp": 1757265930556,
+  "ranks": {
+    "hundos": 308,
+    "performance": 595,
+    "accessibility": 231,
+    "cumulative": 303
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.98,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 398
+  },
+  "firstContentfulPaint": 1822.2519999999997,
+  "speedIndex": 1966.779802233051,
+  "largestContentfulPaint": 2044.02,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.030137832804058004,
+  "timeToInteractive": 2044.02,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 512.951,
+  "weight": {
+    "summary": "22 requests • 906.5 KiB",
+    "total": 928209,
+    "image": 679189,
+    "imageCount": 10,
+    "script": 10153,
+    "scriptCount": 3,
+    "document": 3466,
+    "font": 227512,
+    "fontCount": 2,
+    "stylesheet": 4789,
+    "stylesheetCount": 2,
+    "thirdParty": 918391,
+    "thirdPartyCount": 4
+  },
+  "run": {
+    "number": 2,
+    "total": 2
+  },
+  "sidequests": {
+    "-weight.total": 911,
+    "+weight.total": 213,
+    "-weight.document": 240,
+    "+weight.document": 848,
+    "-weight.script": 313,
+    "+weight.script": 512,
+    "-weight.image": 719,
+    "+weight.image": 143,
+    "-weight.font": 630,
+    "+weight.font": 114,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 1075,
+    "-totalBlockingTime": 11,
+    "-largestContentfulPaint": 791
+  },
+  "axe": {
+    "passes": 211,
+    "violations": 0
+  }
+}

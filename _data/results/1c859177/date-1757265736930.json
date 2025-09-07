@@ -1,0 +1,66 @@
+{
+  "url": "https://spyrath.dev/",
+  "requestedUrl": "https://spyrath.dev/",
+  "timestamp": 1757266020080,
+  "ranks": {
+    "hundos": 984,
+    "performance": 1054,
+    "accessibility": 860,
+    "cumulative": 983
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.71,
+    "accessibility": 0.93,
+    "bestPractices": 1,
+    "seo": 0.92,
+    "total": 356
+  },
+  "firstContentfulPaint": 3039.426,
+  "speedIndex": 3039.426,
+  "largestContentfulPaint": 6596.9755000000005,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.058074560577300156,
+  "timeToInteractive": 6604.53095,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 663.261,
+  "weight": {
+    "summary": "32 requests • 951.5 KiB",
+    "total": 974323,
+    "image": 406635,
+    "imageCount": 9,
+    "script": 34485,
+    "scriptCount": 2,
+    "document": 23339,
+    "font": 441452,
+    "fontCount": 9,
+    "stylesheet": 65346,
+    "stylesheetCount": 10,
+    "thirdParty": 66838,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 2,
+    "total": 2
+  },
+  "sidequests": {
+    "-weight.total": 918,
+    "+weight.total": 206,
+    "-weight.document": 942,
+    "+weight.document": 146,
+    "-weight.script": 448,
+    "+weight.script": 377,
+    "-weight.image": 668,
+    "+weight.image": 194,
+    "-weight.font": 714,
+    "+weight.font": 30,
+    "+weight.fontCount": 8,
+    "-timeToFirstByte": 1106,
+    "-totalBlockingTime": 11,
+    "-largestContentfulPaint": 1067
+  },
+  "axe": {
+    "passes": 655,
+    "violations": 17
+  }
+}

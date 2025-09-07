@@ -1,0 +1,66 @@
+{
+  "url": "https://cosmo-digital.at/",
+  "requestedUrl": "https://cosmo-digital.at/",
+  "timestamp": 1757265935851,
+  "ranks": {
+    "hundos": 65,
+    "performance": 301,
+    "accessibility": 376,
+    "cumulative": 184
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 924.38,
+  "speedIndex": 1288.132609921694,
+  "largestContentfulPaint": 1524.38,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.025741876336014134,
+  "timeToInteractive": 1524.38,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 273.318,
+  "weight": {
+    "summary": "50 requests • 304.7 KiB",
+    "total": 311982,
+    "image": 154633,
+    "imageCount": 29,
+    "script": 6548,
+    "scriptCount": 6,
+    "document": 8809,
+    "font": 113161,
+    "fontCount": 6,
+    "stylesheet": 11036,
+    "stylesheetCount": 4,
+    "thirdParty": 3247,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 2,
+    "total": 2
+  },
+  "sidequests": {
+    "-weight.total": 657,
+    "+weight.total": 467,
+    "-weight.document": 680,
+    "+weight.document": 408,
+    "-weight.script": 255,
+    "+weight.script": 570,
+    "-weight.image": 498,
+    "+weight.image": 364,
+    "-weight.font": 506,
+    "+weight.font": 238,
+    "+weight.fontCount": 11,
+    "-timeToFirstByte": 927,
+    "-totalBlockingTime": 11,
+    "-largestContentfulPaint": 699
+  },
+  "axe": {
+    "passes": 699,
+    "violations": 1
+  }
+}

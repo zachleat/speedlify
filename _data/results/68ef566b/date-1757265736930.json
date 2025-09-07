@@ -1,0 +1,65 @@
+{
+  "url": "https://gerencialeite.com.br/",
+  "requestedUrl": "https://gerencialeite.com.br/",
+  "timestamp": 1757265910328,
+  "ranks": {
+    "hundos": 787,
+    "performance": 950,
+    "accessibility": 802,
+    "cumulative": 799
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.81,
+    "accessibility": 0.95,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 376
+  },
+  "firstContentfulPaint": 975.198,
+  "speedIndex": 1135.884708065462,
+  "largestContentfulPaint": 3119.8575,
+  "totalBlockingTime": 13.5,
+  "cumulativeLayoutShift": 0.24812172240429844,
+  "timeToInteractive": 3524.309,
+  "maxPotentialFirstInputDelay": 60,
+  "timeToFirstByte": 37.34300000000002,
+  "weight": {
+    "summary": "25 requests • 473.5 KiB",
+    "total": 484858,
+    "image": 238498,
+    "imageCount": 16,
+    "script": 234589,
+    "scriptCount": 3,
+    "document": 4887,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 4113,
+    "stylesheetCount": 1,
+    "thirdParty": 235565,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "sidequests": {
+    "-weight.total": 785,
+    "+weight.total": 339,
+    "-weight.document": 392,
+    "+weight.document": 696,
+    "-weight.script": 676,
+    "+weight.script": 149,
+    "-weight.image": 582,
+    "+weight.image": 280,
+    "-weight.font": 1,
+    "+weight.font": 744,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 202,
+    "-totalBlockingTime": 40,
+    "-largestContentfulPaint": 925
+  },
+  "axe": {
+    "error": "{\"name\":\"TimeoutError\"}"
+  }
+}

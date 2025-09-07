@@ -1,0 +1,66 @@
+{
+  "url": "https://www.alfieaward.com/",
+  "requestedUrl": "https://www.alfieaward.com/",
+  "timestamp": 1757265865618,
+  "ranks": {
+    "hundos": 871,
+    "performance": 1046,
+    "accessibility": 646,
+    "cumulative": 872
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.72,
+    "accessibility": 0.98,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 370
+  },
+  "firstContentfulPaint": 2210.0950000000003,
+  "speedIndex": 3089.8952991222154,
+  "largestContentfulPaint": 76817.81199999996,
+  "totalBlockingTime": 11,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 78661.05199999997,
+  "maxPotentialFirstInputDelay": 61,
+  "timeToFirstByte": 183.226,
+  "weight": {
+    "summary": "41 requests • 16.5 MiB",
+    "total": 17277398,
+    "image": 16400004,
+    "imageCount": 30,
+    "script": 70250,
+    "scriptCount": 3,
+    "document": 9343,
+    "font": 43279,
+    "fontCount": 2,
+    "stylesheet": 14167,
+    "stylesheetCount": 2,
+    "thirdParty": 100798,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 1,
+    "total": 2
+  },
+  "sidequests": {
+    "-weight.total": 1113,
+    "+weight.total": 11,
+    "-weight.document": 702,
+    "+weight.document": 386,
+    "-weight.script": 541,
+    "+weight.script": 284,
+    "-weight.image": 857,
+    "+weight.image": 5,
+    "-weight.font": 219,
+    "+weight.font": 525,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 777,
+    "-totalBlockingTime": 34,
+    "-largestContentfulPaint": 1122
+  },
+  "axe": {
+    "passes": 602,
+    "violations": 35
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "url": "https://www.usac.ucla.edu/",
+  "requestedUrl": "https://usac.ucla.edu/",
+  "timestamp": 1757265930579,
+  "ranks": {
+    "hundos": 1076,
+    "performance": 1118,
+    "accessibility": 638,
+    "cumulative": 1076
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.45,
+    "accessibility": 0.98,
+    "bestPractices": 1,
+    "seo": 0.85,
+    "total": 328
+  },
+  "firstContentfulPaint": 4112.3105,
+  "speedIndex": 7310.393344682475,
+  "largestContentfulPaint": 23194.8995,
+  "totalBlockingTime": 593,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 23194.8995,
+  "maxPotentialFirstInputDelay": 482,
+  "timeToFirstByte": 34.04099999999998,
+  "weight": {
+    "summary": "38 requests • 3.7 MiB",
+    "total": 3861813,
+    "image": 398363,
+    "imageCount": 3,
+    "script": 3090912,
+    "scriptCount": 19,
+    "document": 34219,
+    "font": 129343,
+    "fontCount": 8,
+    "stylesheet": 185443,
+    "stylesheetCount": 4,
+    "thirdParty": 3827301,
+    "thirdPartyCount": 5
+  },
+  "run": {
+    "number": 2,
+    "total": 2
+  },
+  "sidequests": {
+    "-weight.total": 1071,
+    "+weight.total": 53,
+    "-weight.document": 990,
+    "+weight.document": 98,
+    "-weight.script": 823,
+    "+weight.script": 2,
+    "-weight.image": 664,
+    "+weight.image": 198,
+    "-weight.font": 533,
+    "+weight.font": 211,
+    "+weight.fontCount": 9,
+    "-timeToFirstByte": 94,
+    "-totalBlockingTime": 172,
+    "-largestContentfulPaint": 1117
+  },
+  "axe": {
+    "passes": 799,
+    "violations": 1
+  }
+}

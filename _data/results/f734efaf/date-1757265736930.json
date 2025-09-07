@@ -1,0 +1,66 @@
+{
+  "url": "https://www.simoncox.com/",
+  "requestedUrl": "https://www.simoncox.com/",
+  "timestamp": 1757265932588,
+  "ranks": {
+    "hundos": 883,
+    "performance": 836,
+    "accessibility": 78,
+    "cumulative": 883
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.89,
+    "accessibility": 1,
+    "bestPractices": 0.79,
+    "seo": 1,
+    "total": 368
+  },
+  "firstContentfulPaint": 848.749,
+  "speedIndex": 848.749,
+  "largestContentfulPaint": 3766.8365000000003,
+  "totalBlockingTime": 14,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 3774.9367500000008,
+  "maxPotentialFirstInputDelay": 64,
+  "timeToFirstByte": 65.15700000000001,
+  "weight": {
+    "summary": "23 requests • 144.3 KiB",
+    "total": 147756,
+    "image": 68528,
+    "imageCount": 12,
+    "script": 58000,
+    "scriptCount": 5,
+    "document": 11524,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 60495,
+    "thirdPartyCount": 5
+  },
+  "run": {
+    "number": 2,
+    "total": 2
+  },
+  "sidequests": {
+    "-weight.total": 425,
+    "+weight.total": 699,
+    "-weight.document": 771,
+    "+weight.document": 317,
+    "-weight.script": 519,
+    "+weight.script": 306,
+    "-weight.image": 362,
+    "+weight.image": 500,
+    "-weight.font": 1,
+    "+weight.font": 744,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 401,
+    "-totalBlockingTime": 42,
+    "-largestContentfulPaint": 979
+  },
+  "axe": {
+    "passes": 457,
+    "violations": 0
+  }
+}

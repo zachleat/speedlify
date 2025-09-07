@@ -1,0 +1,66 @@
+{
+  "url": "https://declos.ca/",
+  "requestedUrl": "https://declos.ca/",
+  "timestamp": 1757265932181,
+  "ranks": {
+    "hundos": 1092,
+    "performance": 1045,
+    "accessibility": 1102,
+    "cumulative": 1092
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.72,
+    "accessibility": 0.68,
+    "bestPractices": 0.79,
+    "seo": 0.92,
+    "total": 311
+  },
+  "firstContentfulPaint": 2978.2634999999996,
+  "speedIndex": 2978.2634999999996,
+  "largestContentfulPaint": 5777.063499999999,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.06925425543493678,
+  "timeToInteractive": 5785.21845,
+  "maxPotentialFirstInputDelay": 48,
+  "timeToFirstByte": 49.271,
+  "weight": {
+    "summary": "47 requests • 1.5 MiB",
+    "total": 1529152,
+    "image": 624625,
+    "imageCount": 16,
+    "script": 529329,
+    "scriptCount": 11,
+    "document": 19347,
+    "font": 78359,
+    "fontCount": 2,
+    "stylesheet": 36418,
+    "stylesheetCount": 9,
+    "thirdParty": 650899,
+    "thirdPartyCount": 8
+  },
+  "run": {
+    "number": 2,
+    "total": 2
+  },
+  "sidequests": {
+    "-weight.total": 978,
+    "+weight.total": 146,
+    "-weight.document": 913,
+    "+weight.document": 175,
+    "-weight.script": 761,
+    "+weight.script": 64,
+    "-weight.image": 714,
+    "+weight.image": 148,
+    "-weight.font": 412,
+    "+weight.font": 332,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 300,
+    "-totalBlockingTime": 11,
+    "-largestContentfulPaint": 1051
+  },
+  "axe": {
+    "passes": 340,
+    "violations": 31
+  }
+}

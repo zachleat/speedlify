@@ -1,0 +1,66 @@
+{
+  "url": "https://www.industrialempathy.com/",
+  "requestedUrl": "https://www.industrialempathy.com/",
+  "timestamp": 1757265935827,
+  "ranks": {
+    "hundos": 510,
+    "performance": 34,
+    "accessibility": 897,
+    "cumulative": 529
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 1,
+    "accessibility": 0.92,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 392
+  },
+  "firstContentfulPaint": 810.837,
+  "speedIndex": 813.6929399164201,
+  "largestContentfulPaint": 1377.837,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1377.837,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 26.846999999999994,
+  "weight": {
+    "summary": "14 requests • 145.2 KiB",
+    "total": 148711,
+    "image": 0,
+    "imageCount": 0,
+    "script": 8192,
+    "scriptCount": 3,
+    "document": 6245,
+    "font": 88062,
+    "fontCount": 2,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 2
+  },
+  "sidequests": {
+    "-weight.total": 429,
+    "+weight.total": 695,
+    "-weight.document": 512,
+    "+weight.document": 576,
+    "-weight.script": 289,
+    "+weight.script": 536,
+    "-weight.image": 1,
+    "+weight.image": 862,
+    "-weight.font": 442,
+    "+weight.font": 302,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 55,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 214
+  },
+  "axe": {
+    "passes": 479,
+    "violations": 11
+  }
+}

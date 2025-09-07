@@ -1,0 +1,66 @@
+{
+  "url": "https://dryan.com/",
+  "requestedUrl": "https://dryan.com/",
+  "timestamp": 1757265931193,
+  "ranks": {
+    "hundos": 389,
+    "performance": 205,
+    "accessibility": 474,
+    "cumulative": 380
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 0.96,
+    "seo": 1,
+    "total": 396
+  },
+  "firstContentfulPaint": 1078.709,
+  "speedIndex": 1078.709,
+  "largestContentfulPaint": 1545.7190000000003,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1545.7190000000005,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 22.86699999999999,
+  "weight": {
+    "summary": "7 requests • 25.8 KiB",
+    "total": 26458,
+    "image": 223,
+    "imageCount": 1,
+    "script": 7037,
+    "scriptCount": 2,
+    "document": 5744,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 10926,
+    "stylesheetCount": 1,
+    "thirdParty": 5068,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 2,
+    "total": 2
+  },
+  "sidequests": {
+    "-weight.total": 109,
+    "+weight.total": 1015,
+    "-weight.document": 461,
+    "+weight.document": 627,
+    "-weight.script": 263,
+    "+weight.script": 562,
+    "-weight.image": 5,
+    "+weight.image": 857,
+    "-weight.font": 1,
+    "+weight.font": 744,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 27,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 235
+  },
+  "axe": {
+    "passes": 58,
+    "violations": 1
+  }
+}

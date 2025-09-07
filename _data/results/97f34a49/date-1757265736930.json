@@ -1,0 +1,66 @@
+{
+  "url": "https://www.kandji.io/",
+  "requestedUrl": "https://www.kandji.io/",
+  "timestamp": 1757266021229,
+  "ranks": {
+    "hundos": 1081,
+    "performance": 1094,
+    "accessibility": 689,
+    "cumulative": 1086
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.62,
+    "accessibility": 0.96,
+    "bestPractices": 0.61,
+    "seo": 1,
+    "total": 323
+  },
+  "firstContentfulPaint": 5362.476,
+  "speedIndex": 5362.476,
+  "largestContentfulPaint": 8566.1685,
+  "totalBlockingTime": 2,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 9778.561899999999,
+  "maxPotentialFirstInputDelay": 54,
+  "timeToFirstByte": 36.68600000000001,
+  "weight": {
+    "summary": "42 requests • 1.4 MiB",
+    "total": 1463308,
+    "image": 170834,
+    "imageCount": 12,
+    "script": 418803,
+    "scriptCount": 6,
+    "document": 694676,
+    "font": 76276,
+    "fontCount": 1,
+    "stylesheet": 26887,
+    "stylesheetCount": 1,
+    "thirdParty": 401368,
+    "thirdPartyCount": 4
+  },
+  "run": {
+    "number": 2,
+    "total": 2
+  },
+  "sidequests": {
+    "-weight.total": 969,
+    "+weight.total": 155,
+    "-weight.document": 1085,
+    "+weight.document": 3,
+    "-weight.script": 738,
+    "+weight.script": 87,
+    "-weight.image": 527,
+    "+weight.image": 335,
+    "-weight.font": 401,
+    "+weight.font": 343,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 172,
+    "-totalBlockingTime": 14,
+    "-largestContentfulPaint": 1093
+  },
+  "axe": {
+    "passes": 1209,
+    "violations": 2
+  }
+}

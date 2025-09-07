@@ -1,0 +1,66 @@
+{
+  "url": "https://carteakey.dev/",
+  "requestedUrl": "https://carteakey.dev/",
+  "timestamp": 1757265909099,
+  "ranks": {
+    "hundos": 1055,
+    "performance": 1047,
+    "accessibility": 1077,
+    "cumulative": 1054
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.72,
+    "accessibility": 0.77,
+    "bestPractices": 0.96,
+    "seo": 0.92,
+    "total": 337
+  },
+  "firstContentfulPaint": 3208.486,
+  "speedIndex": 3397.722196741137,
+  "largestContentfulPaint": 5645.255,
+  "totalBlockingTime": 39,
+  "cumulativeLayoutShift": 0.002645049256655429,
+  "timeToInteractive": 5645.255000000001,
+  "maxPotentialFirstInputDelay": 80,
+  "timeToFirstByte": 189.457,
+  "weight": {
+    "summary": "16 requests • 518.5 KiB",
+    "total": 530936,
+    "image": 154880,
+    "imageCount": 2,
+    "script": 217141,
+    "scriptCount": 4,
+    "document": 7755,
+    "font": 136792,
+    "fontCount": 3,
+    "stylesheet": 11035,
+    "stylesheetCount": 2,
+    "thirdParty": 331509,
+    "thirdPartyCount": 5
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "sidequests": {
+    "-weight.total": 804,
+    "+weight.total": 320,
+    "-weight.document": 613,
+    "+weight.document": 475,
+    "-weight.script": 671,
+    "+weight.script": 154,
+    "-weight.image": 499,
+    "+weight.image": 363,
+    "-weight.font": 546,
+    "+weight.font": 198,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 798,
+    "-totalBlockingTime": 86,
+    "-largestContentfulPaint": 1047
+  },
+  "axe": {
+    "passes": 255,
+    "violations": 31
+  }
+}

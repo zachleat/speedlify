@@ -1,0 +1,65 @@
+{
+  "url": "https://www.simpleerb.com/",
+  "requestedUrl": "https://www.simpleerb.com/",
+  "timestamp": 1757266020209,
+  "ranks": {
+    "hundos": 947,
+    "performance": 938,
+    "accessibility": 623,
+    "cumulative": 952
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.82,
+    "accessibility": 1,
+    "bestPractices": 0.79,
+    "seo": 1,
+    "total": 361
+  },
+  "firstContentfulPaint": 966.137,
+  "speedIndex": 966.137,
+  "largestContentfulPaint": 4714.615,
+  "totalBlockingTime": 122,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 5874.31985,
+  "maxPotentialFirstInputDelay": 133,
+  "timeToFirstByte": 32.086,
+  "weight": {
+    "summary": "25 requests • 564.1 KiB",
+    "total": 577626,
+    "image": 76139,
+    "imageCount": 6,
+    "script": 449277,
+    "scriptCount": 8,
+    "document": 28646,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 7218,
+    "stylesheetCount": 1,
+    "thirdParty": 511778,
+    "thirdPartyCount": 8
+  },
+  "run": {
+    "number": 2,
+    "total": 2
+  },
+  "sidequests": {
+    "-weight.total": 832,
+    "+weight.total": 292,
+    "-weight.document": 970,
+    "+weight.document": 118,
+    "-weight.script": 744,
+    "+weight.script": 81,
+    "-weight.image": 380,
+    "+weight.image": 482,
+    "-weight.font": 1,
+    "+weight.font": 744,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 86,
+    "-totalBlockingTime": 138,
+    "-largestContentfulPaint": 1033
+  },
+  "axe": {
+    "error": "{\"name\":\"TimeoutError\"}"
+  }
+}

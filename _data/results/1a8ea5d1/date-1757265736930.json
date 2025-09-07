@@ -1,0 +1,66 @@
+{
+  "url": "https://alfafire.se/",
+  "requestedUrl": "https://alfafire.se/",
+  "timestamp": 1757266021543,
+  "ranks": {
+    "hundos": 793,
+    "performance": 739,
+    "accessibility": 577,
+    "cumulative": 794
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.94,
+    "accessibility": 1,
+    "bestPractices": 0.82,
+    "seo": 1,
+    "total": 376
+  },
+  "firstContentfulPaint": 1560,
+  "speedIndex": 1560,
+  "largestContentfulPaint": 2910,
+  "totalBlockingTime": 92,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 2925,
+  "maxPotentialFirstInputDelay": 234,
+  "timeToFirstByte": 164.354,
+  "weight": {
+    "summary": "24 requests • 257.8 KiB",
+    "total": 264010,
+    "image": 159658,
+    "imageCount": 11,
+    "script": 48340,
+    "scriptCount": 5,
+    "document": 7013,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 45359,
+    "stylesheetCount": 4,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 2
+  },
+  "sidequests": {
+    "-weight.total": 597,
+    "+weight.total": 527,
+    "-weight.document": 569,
+    "+weight.document": 519,
+    "-weight.script": 484,
+    "+weight.script": 341,
+    "-weight.image": 506,
+    "+weight.image": 356,
+    "-weight.font": 1,
+    "+weight.font": 744,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 741,
+    "-totalBlockingTime": 130,
+    "-largestContentfulPaint": 906
+  },
+  "axe": {
+    "passes": 378,
+    "violations": 6
+  }
+}

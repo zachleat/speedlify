@@ -1,0 +1,66 @@
+{
+  "url": "https://pracowniawschodnia.pl/",
+  "requestedUrl": "https://pracowniawschodnia.pl/",
+  "timestamp": 1757265909385,
+  "ranks": {
+    "hundos": 359,
+    "performance": 663,
+    "accessibility": 441,
+    "cumulative": 373
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.96,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 396
+  },
+  "firstContentfulPaint": 1256.6319999999998,
+  "speedIndex": 1425.6648480606555,
+  "largestContentfulPaint": 2818.407,
+  "totalBlockingTime": 21,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 2818.407,
+  "maxPotentialFirstInputDelay": 71,
+  "timeToFirstByte": 148.437,
+  "weight": {
+    "summary": "11 requests • 262.1 KiB",
+    "total": 268419,
+    "image": 9040,
+    "imageCount": 4,
+    "script": 135826,
+    "scriptCount": 1,
+    "document": 5983,
+    "font": 102915,
+    "fontCount": 2,
+    "stylesheet": 12441,
+    "stylesheetCount": 1,
+    "thirdParty": 136378,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "sidequests": {
+    "-weight.total": 606,
+    "+weight.total": 518,
+    "-weight.document": 483,
+    "+weight.document": 605,
+    "-weight.script": 590,
+    "+weight.script": 235,
+    "-weight.image": 115,
+    "+weight.image": 747,
+    "-weight.font": 478,
+    "+weight.font": 266,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 682,
+    "-totalBlockingTime": 59,
+    "-largestContentfulPaint": 889
+  },
+  "axe": {
+    "passes": 216,
+    "violations": 1
+  }
+}

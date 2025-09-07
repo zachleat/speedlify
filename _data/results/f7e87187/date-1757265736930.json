@@ -1,0 +1,66 @@
+{
+  "url": "https://www.dsev.dk/",
+  "requestedUrl": "https://www.dsev.dk/",
+  "timestamp": 1757265758057,
+  "ranks": {
+    "hundos": 1025,
+    "performance": 971,
+    "accessibility": 1026,
+    "cumulative": 1023
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.79,
+    "accessibility": 0.84,
+    "bestPractices": 0.96,
+    "seo": 0.91,
+    "total": 350
+  },
+  "firstContentfulPaint": 3026.2629999999995,
+  "speedIndex": 3026.2629999999995,
+  "largestContentfulPaint": 3176.2630000000004,
+  "totalBlockingTime": 4,
+  "cumulativeLayoutShift": 0.18899602232029705,
+  "timeToInteractive": 3283.6136500000002,
+  "maxPotentialFirstInputDelay": 58,
+  "timeToFirstByte": 43.394000000000005,
+  "weight": {
+    "summary": "18 requests • 230.1 KiB",
+    "total": 235612,
+    "image": 82237,
+    "imageCount": 2,
+    "script": 89594,
+    "scriptCount": 5,
+    "document": 13517,
+    "font": 35540,
+    "fontCount": 1,
+    "stylesheet": 10922,
+    "stylesheetCount": 3,
+    "thirdParty": 130221,
+    "thirdPartyCount": 5
+  },
+  "run": {
+    "number": 1,
+    "total": 2
+  },
+  "sidequests": {
+    "-weight.total": 565,
+    "+weight.total": 559,
+    "-weight.document": 817,
+    "+weight.document": 271,
+    "-weight.script": 557,
+    "+weight.script": 268,
+    "-weight.image": 393,
+    "+weight.image": 469,
+    "-weight.font": 175,
+    "+weight.font": 569,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 266,
+    "-totalBlockingTime": 18,
+    "-largestContentfulPaint": 930
+  },
+  "axe": {
+    "passes": 343,
+    "violations": 8
+  }
+}

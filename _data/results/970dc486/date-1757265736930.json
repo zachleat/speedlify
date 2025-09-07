@@ -1,0 +1,66 @@
+{
+  "url": "https://alex.zappa.dev/",
+  "requestedUrl": "https://alex.zappa.dev/",
+  "timestamp": 1757265910624,
+  "ranks": {
+    "hundos": 155,
+    "performance": 145,
+    "accessibility": 116,
+    "cumulative": 103
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 967.4480000000001,
+  "speedIndex": 967.4480000000001,
+  "largestContentfulPaint": 1632.842,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1632.842,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 75.221,
+  "weight": {
+    "summary": "8 requests • 43.6 KiB",
+    "total": 44605,
+    "image": 0,
+    "imageCount": 1,
+    "script": 22556,
+    "scriptCount": 2,
+    "document": 8756,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 7446,
+    "stylesheetCount": 1,
+    "thirdParty": 3315,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 2,
+    "total": 2
+  },
+  "sidequests": {
+    "-weight.total": 172,
+    "+weight.total": 952,
+    "-weight.document": 677,
+    "+weight.document": 411,
+    "-weight.script": 401,
+    "+weight.script": 424,
+    "-weight.image": 1,
+    "+weight.image": 862,
+    "-weight.font": 1,
+    "+weight.font": 744,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 451,
+    "-totalBlockingTime": 11,
+    "-largestContentfulPaint": 258
+  },
+  "axe": {
+    "passes": 364,
+    "violations": 0
+  }
+}

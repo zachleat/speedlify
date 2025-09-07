@@ -1,0 +1,66 @@
+{
+  "url": "https://nooshu.com/",
+  "requestedUrl": "https://nooshu.com/",
+  "timestamp": 1757265758531,
+  "ranks": {
+    "hundos": 194,
+    "performance": 138,
+    "accessibility": 28,
+    "cumulative": 131
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 959.906,
+  "speedIndex": 959.906,
+  "largestContentfulPaint": 1259.906,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1259.906,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 123.137,
+  "weight": {
+    "summary": "7 requests • 27.7 KiB",
+    "total": 28326,
+    "image": 0,
+    "imageCount": 0,
+    "script": 5464,
+    "scriptCount": 3,
+    "document": 8832,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 5432,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 1,
+    "total": 2
+  },
+  "sidequests": {
+    "-weight.total": 115,
+    "+weight.total": 1009,
+    "-weight.document": 683,
+    "+weight.document": 405,
+    "-weight.script": 231,
+    "+weight.script": 594,
+    "-weight.image": 1,
+    "+weight.image": 862,
+    "-weight.font": 1,
+    "+weight.font": 744,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 586,
+    "-totalBlockingTime": 11,
+    "-largestContentfulPaint": 188
+  },
+  "axe": {
+    "passes": 803,
+    "violations": 0
+  }
+}

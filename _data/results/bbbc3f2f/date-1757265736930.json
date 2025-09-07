@@ -1,0 +1,66 @@
+{
+  "url": "https://noktorum.com/",
+  "requestedUrl": "https://noktorum.com/",
+  "timestamp": 1757265757851,
+  "ranks": {
+    "hundos": 596,
+    "performance": 641,
+    "accessibility": 475,
+    "cumulative": 595
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.97,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 0.92,
+    "total": 389
+  },
+  "firstContentfulPaint": 1901.3895,
+  "speedIndex": 1957.8166340940475,
+  "largestContentfulPaint": 2351.3894999999998,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 2351.3894999999998,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 133.164,
+  "weight": {
+    "summary": "11 requests • 91.1 KiB",
+    "total": 93300,
+    "image": 47670,
+    "imageCount": 1,
+    "script": 4734,
+    "scriptCount": 2,
+    "document": 1367,
+    "font": 30463,
+    "fontCount": 2,
+    "stylesheet": 4236,
+    "stylesheetCount": 2,
+    "thirdParty": 32076,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 1,
+    "total": 2
+  },
+  "sidequests": {
+    "-weight.total": 308,
+    "+weight.total": 816,
+    "-weight.document": 28,
+    "+weight.document": 1060,
+    "-weight.script": 213,
+    "+weight.script": 612,
+    "-weight.image": 306,
+    "+weight.image": 556,
+    "-weight.font": 143,
+    "+weight.font": 601,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 624,
+    "-totalBlockingTime": 11,
+    "-largestContentfulPaint": 391
+  },
+  "axe": {
+    "passes": 57,
+    "violations": 1
+  }
+}

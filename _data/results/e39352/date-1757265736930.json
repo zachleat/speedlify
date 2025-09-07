@@ -1,0 +1,66 @@
+{
+  "url": "https://benediktmeurer.de/",
+  "requestedUrl": "https://benediktmeurer.de/",
+  "timestamp": 1757265781532,
+  "ranks": {
+    "hundos": 697,
+    "performance": 41,
+    "accessibility": 1040,
+    "cumulative": 697
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 1,
+    "accessibility": 0.83,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 383
+  },
+  "firstContentfulPaint": 802.997,
+  "speedIndex": 830.4226208135024,
+  "largestContentfulPaint": 802.997,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 802.997,
+  "maxPotentialFirstInputDelay": 41,
+  "timeToFirstByte": 34.847999999999985,
+  "weight": {
+    "summary": "7 requests • 68.3 KiB",
+    "total": 69930,
+    "image": 0,
+    "imageCount": 0,
+    "script": 603,
+    "scriptCount": 1,
+    "document": 4355,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 3109,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 1,
+    "total": 2
+  },
+  "sidequests": {
+    "-weight.total": 250,
+    "+weight.total": 874,
+    "-weight.document": 337,
+    "+weight.document": 751,
+    "-weight.script": 19,
+    "+weight.script": 806,
+    "-weight.image": 1,
+    "+weight.image": 862,
+    "-weight.font": 1,
+    "+weight.font": 744,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 102,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 19
+  },
+  "axe": {
+    "passes": 345,
+    "violations": 51
+  }
+}

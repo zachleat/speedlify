@@ -1,0 +1,66 @@
+{
+  "url": "https://blog.frost.kiwi/",
+  "requestedUrl": "https://blog.frost.kiwi/",
+  "timestamp": 1757266021182,
+  "ranks": {
+    "hundos": 35,
+    "performance": 47,
+    "accessibility": 409,
+    "cumulative": 181
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 837.0645,
+  "speedIndex": 837.0645,
+  "largestContentfulPaint": 837.0645,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 837.0645,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 47.96100000000001,
+  "weight": {
+    "summary": "19 requests • 129.5 KiB",
+    "total": 132585,
+    "image": 114461,
+    "imageCount": 16,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 8854,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 2
+  },
+  "sidequests": {
+    "-weight.total": 393,
+    "+weight.total": 731,
+    "-weight.document": 684,
+    "+weight.document": 404,
+    "-weight.script": 2,
+    "+weight.script": 824,
+    "-weight.image": 454,
+    "+weight.image": 408,
+    "-weight.font": 1,
+    "+weight.font": 744,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 297,
+    "-totalBlockingTime": 11,
+    "-largestContentfulPaint": 543
+  },
+  "axe": {
+    "passes": 325,
+    "violations": 1
+  }
+}

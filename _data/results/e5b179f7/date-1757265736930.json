@@ -1,0 +1,65 @@
+{
+  "url": "https://zellwk.com/",
+  "requestedUrl": "https://zellwk.com/",
+  "timestamp": 1757265793702,
+  "ranks": {
+    "hundos": 1021,
+    "performance": 957,
+    "accessibility": 964,
+    "cumulative": 1025
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.81,
+    "accessibility": 0.9,
+    "bestPractices": 0.79,
+    "seo": 1,
+    "total": 350
+  },
+  "firstContentfulPaint": 2558.431,
+  "speedIndex": 2558.431,
+  "largestContentfulPaint": 4376.271500000001,
+  "totalBlockingTime": 40,
+  "cumulativeLayoutShift": 0.007678038667216648,
+  "timeToInteractive": 7315.7164,
+  "maxPotentialFirstInputDelay": 96,
+  "timeToFirstByte": 173.957,
+  "weight": {
+    "summary": "35 requests • 911.8 KiB",
+    "total": 933658,
+    "image": 165481,
+    "imageCount": 7,
+    "script": 542869,
+    "scriptCount": 12,
+    "document": 26423,
+    "font": 183194,
+    "fontCount": 7,
+    "stylesheet": 11687,
+    "stylesheetCount": 3,
+    "thirdParty": 554336,
+    "thirdPartyCount": 7
+  },
+  "run": {
+    "number": 1,
+    "total": 2
+  },
+  "sidequests": {
+    "-weight.total": 913,
+    "+weight.total": 211,
+    "-weight.document": 961,
+    "+weight.document": 127,
+    "-weight.script": 766,
+    "+weight.script": 59,
+    "-weight.image": 516,
+    "+weight.image": 346,
+    "-weight.font": 595,
+    "+weight.font": 149,
+    "+weight.fontCount": 10,
+    "-timeToFirstByte": 757,
+    "-totalBlockingTime": 87,
+    "-largestContentfulPaint": 1015
+  },
+  "axe": {
+    "error": "{\"name\":\"TimeoutError\"}"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "url": "https://bentleydavis.com/",
+  "requestedUrl": "https://bentleydavis.com/",
+  "timestamp": 1757265909262,
+  "ranks": {
+    "hundos": 1035,
+    "performance": 1052,
+    "accessibility": 1043,
+    "cumulative": 1035
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.71,
+    "accessibility": 0.83,
+    "bestPractices": 1,
+    "seo": 0.92,
+    "total": 346
+  },
+  "firstContentfulPaint": 2720.558,
+  "speedIndex": 2720.558,
+  "largestContentfulPaint": 11040.017,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 11040.017,
+  "maxPotentialFirstInputDelay": 48,
+  "timeToFirstByte": 468.976,
+  "weight": {
+    "summary": "29 requests • 22.5 MiB",
+    "total": 23608064,
+    "image": 23385581,
+    "imageCount": 11,
+    "script": 144600,
+    "scriptCount": 10,
+    "document": 13083,
+    "font": 16577,
+    "fontCount": 1,
+    "stylesheet": 2157,
+    "stylesheetCount": 1,
+    "thirdParty": 192923,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "sidequests": {
+    "-weight.total": 1119,
+    "+weight.total": 5,
+    "-weight.document": 805,
+    "+weight.document": 283,
+    "-weight.script": 613,
+    "+weight.script": 212,
+    "-weight.image": 860,
+    "+weight.image": 2,
+    "-weight.font": 58,
+    "+weight.font": 686,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 1050,
+    "-totalBlockingTime": 11,
+    "-largestContentfulPaint": 1104
+  },
+  "axe": {
+    "passes": 647,
+    "violations": 96
+  }
+}

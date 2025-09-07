@@ -1,0 +1,66 @@
+{
+  "url": "https://my.stuffandthings.lol/",
+  "requestedUrl": "https://my.stuffandthings.lol/",
+  "timestamp": 1757265910347,
+  "ranks": {
+    "hundos": 553,
+    "performance": 408,
+    "accessibility": 166,
+    "cumulative": 545
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 0.91,
+    "total": 391
+  },
+  "firstContentfulPaint": 1035.6,
+  "speedIndex": 1752.3569479959012,
+  "largestContentfulPaint": 1035.6,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1035.6,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 260.74199999999996,
+  "weight": {
+    "summary": "9 requests • 89 KiB",
+    "total": 91154,
+    "image": 22693,
+    "imageCount": 4,
+    "script": 17696,
+    "scriptCount": 1,
+    "document": 12801,
+    "font": 13868,
+    "fontCount": 1,
+    "stylesheet": 15481,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "sidequests": {
+    "-weight.total": 303,
+    "+weight.total": 821,
+    "-weight.document": 795,
+    "+weight.document": 293,
+    "-weight.script": 374,
+    "+weight.script": 451,
+    "-weight.image": 209,
+    "+weight.image": 653,
+    "-weight.font": 40,
+    "+weight.font": 704,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 913,
+    "-totalBlockingTime": 11,
+    "-largestContentfulPaint": 619
+  },
+  "axe": {
+    "passes": 285,
+    "violations": 0
+  }
+}

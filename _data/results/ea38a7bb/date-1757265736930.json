@@ -1,0 +1,66 @@
+{
+  "url": "https://www.splitinfinities.com/",
+  "requestedUrl": "https://www.splitinfinities.com/",
+  "timestamp": 1757265792437,
+  "ranks": {
+    "hundos": 1018,
+    "performance": 1104,
+    "accessibility": 812,
+    "cumulative": 1017
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.57,
+    "accessibility": 0.94,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 351
+  },
+  "firstContentfulPaint": 7747.2015,
+  "speedIndex": 7790.496709999468,
+  "largestContentfulPaint": 14273.349000000002,
+  "totalBlockingTime": 8.5,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 14273.349000000002,
+  "maxPotentialFirstInputDelay": 41.5,
+  "timeToFirstByte": 27.44099999999999,
+  "weight": {
+    "summary": "100 requests • 1.5 MiB",
+    "total": 1536311,
+    "image": 30978,
+    "imageCount": 4,
+    "script": 203701,
+    "scriptCount": 63,
+    "document": 3507,
+    "font": 854072,
+    "fontCount": 3,
+    "stylesheet": 424621,
+    "stylesheetCount": 2,
+    "thirdParty": 1484791,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 1,
+    "total": 2
+  },
+  "sidequests": {
+    "-weight.total": 980,
+    "+weight.total": 144,
+    "-weight.document": 244,
+    "+weight.document": 844,
+    "-weight.script": 664,
+    "+weight.script": 161,
+    "-weight.image": 243,
+    "+weight.image": 619,
+    "-weight.font": 734,
+    "+weight.font": 10,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 65,
+    "-totalBlockingTime": 28,
+    "-largestContentfulPaint": 1107
+  },
+  "axe": {
+    "passes": 338,
+    "violations": 4
+  }
+}

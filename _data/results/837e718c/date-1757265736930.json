@@ -1,0 +1,66 @@
+{
+  "url": "https://meinamsterdam.nl/",
+  "requestedUrl": "https://meinamsterdam.nl/",
+  "timestamp": 1757265910374,
+  "ranks": {
+    "hundos": 85,
+    "performance": 358,
+    "accessibility": 371,
+    "cumulative": 188
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 1052.512,
+  "speedIndex": 1495.4854940340992,
+  "largestContentfulPaint": 1202.512,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1202.5120000000002,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 102.96199999999999,
+  "weight": {
+    "summary": "9 requests • 156.6 KiB",
+    "total": 160370,
+    "image": 2947,
+    "imageCount": 1,
+    "script": 1675,
+    "scriptCount": 1,
+    "document": 10864,
+    "font": 98499,
+    "fontCount": 2,
+    "stylesheet": 29834,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "sidequests": {
+    "-weight.total": 459,
+    "+weight.total": 665,
+    "-weight.document": 750,
+    "+weight.document": 338,
+    "-weight.script": 81,
+    "+weight.script": 744,
+    "-weight.image": 60,
+    "+weight.image": 802,
+    "-weight.font": 469,
+    "+weight.font": 275,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 520,
+    "-totalBlockingTime": 11,
+    "-largestContentfulPaint": 169
+  },
+  "axe": {
+    "passes": 779,
+    "violations": 1
+  }
+}

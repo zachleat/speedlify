@@ -1,0 +1,66 @@
+{
+  "url": "https://www.aldr.dev/",
+  "requestedUrl": "https://www.aldr.dev/",
+  "timestamp": 1757265930937,
+  "ranks": {
+    "hundos": 64,
+    "performance": 356,
+    "accessibility": 95,
+    "cumulative": 36
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 967.332,
+  "speedIndex": 1477.3903919976235,
+  "largestContentfulPaint": 1044.3319999999999,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.0012698150002020355,
+  "timeToInteractive": 1044.3319999999999,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 34.56900000000002,
+  "weight": {
+    "summary": "14 requests • 155.9 KiB",
+    "total": 159632,
+    "image": 75985,
+    "imageCount": 7,
+    "script": 879,
+    "scriptCount": 1,
+    "document": 6177,
+    "font": 71016,
+    "fontCount": 3,
+    "stylesheet": 4368,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 2
+  },
+  "sidequests": {
+    "-weight.total": 457,
+    "+weight.total": 667,
+    "-weight.document": 503,
+    "+weight.document": 585,
+    "-weight.script": 40,
+    "+weight.script": 785,
+    "-weight.image": 379,
+    "+weight.image": 483,
+    "-weight.font": 369,
+    "+weight.font": 375,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 97,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 124
+  },
+  "axe": {
+    "passes": 404,
+    "violations": 0
+  }
+}

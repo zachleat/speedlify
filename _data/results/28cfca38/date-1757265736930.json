@@ -1,0 +1,66 @@
+{
+  "url": "https://robinrendle.com/",
+  "requestedUrl": "https://robinrendle.com/",
+  "timestamp": 1757265909088,
+  "ranks": {
+    "hundos": 804,
+    "performance": 436,
+    "accessibility": 1082,
+    "cumulative": 806
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.99,
+    "accessibility": 0.76,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 375
+  },
+  "firstContentfulPaint": 887.815,
+  "speedIndex": 887.815,
+  "largestContentfulPaint": 1314.815,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.06805242088509367,
+  "timeToInteractive": 1314.815,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 37.197,
+  "weight": {
+    "summary": "7 requests • 213.3 KiB",
+    "total": 218445,
+    "image": 119471,
+    "imageCount": 1,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 8185,
+    "font": 73873,
+    "fontCount": 2,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "sidequests": {
+    "-weight.total": 552,
+    "+weight.total": 572,
+    "-weight.document": 645,
+    "+weight.document": 443,
+    "-weight.script": 2,
+    "+weight.script": 824,
+    "-weight.image": 462,
+    "+weight.image": 400,
+    "-weight.font": 384,
+    "+weight.font": 360,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 195,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 204
+  },
+  "axe": {
+    "passes": 97,
+    "violations": 4
+  }
+}

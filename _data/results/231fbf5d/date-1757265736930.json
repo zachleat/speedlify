@@ -1,0 +1,66 @@
+{
+  "url": "https://limulus.net/",
+  "requestedUrl": "https://limulus.net/",
+  "timestamp": 1757265761834,
+  "ranks": {
+    "hundos": 92,
+    "performance": 230,
+    "accessibility": 200,
+    "cumulative": 54
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 932.2629999999999,
+  "speedIndex": 1132.685177978945,
+  "largestContentfulPaint": 1676.763,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1676.763,
+  "maxPotentialFirstInputDelay": 33.5,
+  "timeToFirstByte": 293.78499999999997,
+  "weight": {
+    "summary": "8 requests • 203.3 KiB",
+    "total": 208227,
+    "image": 0,
+    "imageCount": 0,
+    "script": 41525,
+    "scriptCount": 3,
+    "document": 4938,
+    "font": 137784,
+    "fontCount": 1,
+    "stylesheet": 4863,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 1,
+    "total": 2
+  },
+  "sidequests": {
+    "-weight.total": 540,
+    "+weight.total": 584,
+    "-weight.document": 397,
+    "+weight.document": 691,
+    "-weight.script": 470,
+    "+weight.script": 355,
+    "-weight.image": 1,
+    "+weight.image": 862,
+    "-weight.font": 547,
+    "+weight.font": 197,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 944,
+    "-totalBlockingTime": 11,
+    "-largestContentfulPaint": 730
+  },
+  "axe": {
+    "passes": 245,
+    "violations": 0
+  }
+}

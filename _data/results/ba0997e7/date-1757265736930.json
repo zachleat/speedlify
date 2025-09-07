@@ -1,0 +1,66 @@
+{
+  "url": "https://bite-sized-a11y.com/lander",
+  "requestedUrl": "https://bite-sized-a11y.com/",
+  "timestamp": 1757265908661,
+  "ranks": {
+    "hundos": 1100,
+    "performance": 877,
+    "accessibility": 1113,
+    "cumulative": 1100
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.87,
+    "accessibility": 0.65,
+    "bestPractices": 0.79,
+    "seo": 0.73,
+    "total": 304
+  },
+  "firstContentfulPaint": 2214.4010000000003,
+  "speedIndex": 2487.954306033993,
+  "largestContentfulPaint": 3592.6349999999993,
+  "totalBlockingTime": 65.5,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 3876.36255,
+  "maxPotentialFirstInputDelay": 166,
+  "timeToFirstByte": 47.211999999999996,
+  "weight": {
+    "summary": "17 requests • 353.1 KiB",
+    "total": 361613,
+    "image": 1266,
+    "imageCount": 3,
+    "script": 342494,
+    "scriptCount": 4,
+    "document": 4567,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 10737,
+    "stylesheetCount": 1,
+    "thirdParty": 360068,
+    "thirdPartyCount": 5
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "sidequests": {
+    "-weight.total": 701,
+    "+weight.total": 423,
+    "-weight.document": 362,
+    "+weight.document": 726,
+    "-weight.script": 723,
+    "+weight.script": 102,
+    "-weight.image": 36,
+    "+weight.image": 826,
+    "-weight.font": 1,
+    "+weight.font": 744,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 292,
+    "-totalBlockingTime": 113,
+    "-largestContentfulPaint": 966
+  },
+  "axe": {
+    "passes": 139,
+    "violations": 9
+  }
+}

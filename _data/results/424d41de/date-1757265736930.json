@@ -1,0 +1,66 @@
+{
+  "url": "https://www.gifgun.io/",
+  "requestedUrl": "https://www.gifgun.io/",
+  "timestamp": 1757265792479,
+  "ranks": {
+    "hundos": 880,
+    "performance": 931,
+    "accessibility": 953,
+    "cumulative": 881
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.83,
+    "accessibility": 0.9,
+    "bestPractices": 0.96,
+    "seo": 1,
+    "total": 369
+  },
+  "firstContentfulPaint": 871.6724999999998,
+  "speedIndex": 2038.7160999379153,
+  "largestContentfulPaint": 1332.5929999999998,
+  "totalBlockingTime": 34.5,
+  "cumulativeLayoutShift": 0.34137197618839404,
+  "timeToInteractive": 3112.1407499999996,
+  "maxPotentialFirstInputDelay": 83,
+  "timeToFirstByte": 27.07799999999999,
+  "weight": {
+    "summary": "70 requests • 27.1 MiB",
+    "total": 28387736,
+    "image": 154080,
+    "imageCount": 29,
+    "script": 145649,
+    "scriptCount": 5,
+    "document": 10461,
+    "font": 64545,
+    "fontCount": 5,
+    "stylesheet": 11466,
+    "stylesheetCount": 11,
+    "thirdParty": 28291702,
+    "thirdPartyCount": 4
+  },
+  "run": {
+    "number": 1,
+    "total": 2
+  },
+  "sidequests": {
+    "-weight.total": 1120,
+    "+weight.total": 4,
+    "-weight.document": 735,
+    "+weight.document": 353,
+    "-weight.script": 616,
+    "+weight.script": 209,
+    "-weight.image": 496,
+    "+weight.image": 366,
+    "-weight.font": 336,
+    "+weight.font": 408,
+    "+weight.fontCount": 12,
+    "-timeToFirstByte": 60,
+    "-totalBlockingTime": 80,
+    "-largestContentfulPaint": 680
+  },
+  "axe": {
+    "passes": 990,
+    "violations": 9
+  }
+}

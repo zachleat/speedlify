@@ -1,0 +1,66 @@
+{
+  "url": "https://micah.torcellini.org/",
+  "requestedUrl": "https://micah.torcellini.org/",
+  "timestamp": 1757265908528,
+  "ranks": {
+    "hundos": 159,
+    "performance": 294,
+    "accessibility": 110,
+    "cumulative": 105
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 1277.4075,
+  "speedIndex": 1277.4075,
+  "largestContentfulPaint": 1727.4075,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.0033877648400691884,
+  "timeToInteractive": 1727.4075000000003,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 192.51999999999998,
+  "weight": {
+    "summary": "12 requests • 58.8 KiB",
+    "total": 60165,
+    "image": 0,
+    "imageCount": 0,
+    "script": 3371,
+    "scriptCount": 2,
+    "document": 4011,
+    "font": 39538,
+    "fontCount": 4,
+    "stylesheet": 3558,
+    "stylesheetCount": 1,
+    "thirdParty": 1299,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "sidequests": {
+    "-weight.total": 218,
+    "+weight.total": 906,
+    "-weight.document": 302,
+    "+weight.document": 786,
+    "-weight.script": 168,
+    "+weight.script": 657,
+    "-weight.image": 1,
+    "+weight.image": 862,
+    "-weight.font": 196,
+    "+weight.font": 548,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 804,
+    "-totalBlockingTime": 11,
+    "-largestContentfulPaint": 286
+  },
+  "axe": {
+    "passes": 377,
+    "violations": 0
+  }
+}

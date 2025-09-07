@@ -1,0 +1,66 @@
+{
+  "url": "https://bennypowers.dev/",
+  "requestedUrl": "https://bennypowers.dev/",
+  "timestamp": 1757266021449,
+  "ranks": {
+    "hundos": 731,
+    "performance": 680,
+    "accessibility": 491,
+    "cumulative": 730
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.96,
+    "accessibility": 1,
+    "bestPractices": 0.93,
+    "seo": 0.91,
+    "total": 380
+  },
+  "firstContentfulPaint": 2200.5786437301635,
+  "speedIndex": 2200.5786437301635,
+  "largestContentfulPaint": 2256.396287460327,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.001859230081781685,
+  "timeToInteractive": 2256.396287460327,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 307.047,
+  "weight": {
+    "summary": "27 requests • 1.2 MiB",
+    "total": 1278362,
+    "image": 1031663,
+    "imageCount": 10,
+    "script": 14245,
+    "scriptCount": 7,
+    "document": 78586,
+    "font": 110017,
+    "fontCount": 2,
+    "stylesheet": 3647,
+    "stylesheetCount": 4,
+    "thirdParty": 126058,
+    "thirdPartyCount": 4
+  },
+  "run": {
+    "number": 2,
+    "total": 2
+  },
+  "sidequests": {
+    "-weight.total": 957,
+    "+weight.total": 167,
+    "-weight.document": 1055,
+    "+weight.document": 33,
+    "-weight.script": 345,
+    "+weight.script": 480,
+    "-weight.image": 756,
+    "+weight.image": 106,
+    "-weight.font": 500,
+    "+weight.font": 244,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 954,
+    "-totalBlockingTime": 11,
+    "-largestContentfulPaint": 820
+  },
+  "axe": {
+    "passes": 245,
+    "violations": 2
+  }
+}

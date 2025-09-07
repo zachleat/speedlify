@@ -1,0 +1,66 @@
+{
+  "url": "https://eastford.news/",
+  "requestedUrl": "https://eastford.news/",
+  "timestamp": 1757266018546,
+  "ranks": {
+    "hundos": 180,
+    "performance": 98,
+    "accessibility": 86,
+    "cumulative": 121
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 913.892,
+  "speedIndex": 913.892,
+  "largestContentfulPaint": 1363.892,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1363.892,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 72.27000000000001,
+  "weight": {
+    "summary": "12 requests • 37.8 KiB",
+    "total": 38749,
+    "image": 14399,
+    "imageCount": 3,
+    "script": 2889,
+    "scriptCount": 2,
+    "document": 5101,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 2398,
+    "stylesheetCount": 1,
+    "thirdParty": 1084,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 3,
+    "total": 4
+  },
+  "sidequests": {
+    "-weight.total": 156,
+    "+weight.total": 968,
+    "-weight.document": 409,
+    "+weight.document": 679,
+    "-weight.script": 150,
+    "+weight.script": 675,
+    "-weight.image": 159,
+    "+weight.image": 703,
+    "-weight.font": 1,
+    "+weight.font": 744,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 436,
+    "-totalBlockingTime": 11,
+    "-largestContentfulPaint": 213
+  },
+  "axe": {
+    "passes": 438,
+    "violations": 0
+  }
+}

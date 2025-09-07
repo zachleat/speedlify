@@ -1,0 +1,66 @@
+{
+  "url": "https://bored.horse/",
+  "requestedUrl": "https://bored.horse/",
+  "timestamp": 1757265907918,
+  "ranks": {
+    "hundos": 628,
+    "performance": 469,
+    "accessibility": 981,
+    "cumulative": 632
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.99,
+    "accessibility": 0.88,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 387
+  },
+  "firstContentfulPaint": 1380.3879999999995,
+  "speedIndex": 1380.3879999999995,
+  "largestContentfulPaint": 1707.6059999999993,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1707.6059999999993,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 188.24400000000003,
+  "weight": {
+    "summary": "15 requests • 173.5 KiB",
+    "total": 177702,
+    "image": 35929,
+    "imageCount": 1,
+    "script": 36541,
+    "scriptCount": 4,
+    "document": 3220,
+    "font": 91962,
+    "fontCount": 1,
+    "stylesheet": 6043,
+    "stylesheetCount": 2,
+    "thirdParty": 33084,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 1,
+    "total": 2
+  },
+  "sidequests": {
+    "-weight.total": 497,
+    "+weight.total": 627,
+    "-weight.document": 218,
+    "+weight.document": 870,
+    "-weight.script": 455,
+    "+weight.script": 370,
+    "-weight.image": 260,
+    "+weight.image": 602,
+    "-weight.font": 453,
+    "+weight.font": 291,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 793,
+    "-totalBlockingTime": 11,
+    "-largestContentfulPaint": 278
+  },
+  "axe": {
+    "passes": 200,
+    "violations": 7
+  }
+}

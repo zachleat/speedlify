@@ -1,0 +1,66 @@
+{
+  "url": "https://bruijn.me/",
+  "requestedUrl": "https://bruijn.me/",
+  "timestamp": 1757265909381,
+  "ranks": {
+    "hundos": 1119,
+    "performance": 750,
+    "accessibility": 1123,
+    "cumulative": 1119
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.94,
+    "accessibility": null,
+    "bestPractices": 1,
+    "seo": 0.91,
+    "total": 285
+  },
+  "firstContentfulPaint": 1234.6740000000002,
+  "speedIndex": 2221.171714901488,
+  "largestContentfulPaint": 2349.942,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.12098086857074677,
+  "timeToInteractive": 2349.942,
+  "maxPotentialFirstInputDelay": 39,
+  "timeToFirstByte": 117.76499999999999,
+  "weight": {
+    "summary": "14 requests • 3.7 MiB",
+    "total": 3875832,
+    "image": 3776717,
+    "imageCount": 5,
+    "script": 72493,
+    "scriptCount": 2,
+    "document": 3044,
+    "font": 17208,
+    "fontCount": 2,
+    "stylesheet": 5061,
+    "stylesheetCount": 1,
+    "thirdParty": 3714,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "sidequests": {
+    "-weight.total": 1072,
+    "+weight.total": 52,
+    "-weight.document": 190,
+    "+weight.document": 898,
+    "-weight.script": 542,
+    "+weight.script": 283,
+    "-weight.image": 830,
+    "+weight.image": 32,
+    "-weight.font": 59,
+    "+weight.font": 685,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 571,
+    "-totalBlockingTime": 11,
+    "-largestContentfulPaint": 390
+  },
+  "axe": {
+    "passes": 271,
+    "violations": 10
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "url": "https://nathan-long.com/",
+  "requestedUrl": "https://nathan-long.com/",
+  "timestamp": 1757265781665,
+  "ranks": {
+    "hundos": 410,
+    "performance": 692,
+    "accessibility": 440,
+    "cumulative": 420
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.95,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 395
+  },
+  "firstContentfulPaint": 877.795,
+  "speedIndex": 877.795,
+  "largestContentfulPaint": 2901.295,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 2901.295,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 49.66399999999999,
+  "weight": {
+    "summary": "19 requests • 478.4 KiB",
+    "total": 489917,
+    "image": 37605,
+    "imageCount": 1,
+    "script": 7878,
+    "scriptCount": 6,
+    "document": 4537,
+    "font": 423517,
+    "fontCount": 6,
+    "stylesheet": 8070,
+    "stylesheetCount": 1,
+    "thirdParty": 42563,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 1,
+    "total": 2
+  },
+  "sidequests": {
+    "-weight.total": 788,
+    "+weight.total": 336,
+    "-weight.document": 356,
+    "+weight.document": 732,
+    "-weight.script": 280,
+    "+weight.script": 545,
+    "-weight.image": 266,
+    "+weight.image": 596,
+    "-weight.font": 713,
+    "+weight.font": 31,
+    "+weight.fontCount": 11,
+    "-timeToFirstByte": 301,
+    "-totalBlockingTime": 11,
+    "-largestContentfulPaint": 904
+  },
+  "axe": {
+    "passes": 216,
+    "violations": 1
+  }
+}

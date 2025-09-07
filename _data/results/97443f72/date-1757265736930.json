@@ -1,0 +1,65 @@
+{
+  "url": "https://www.webjump.ai/en/home/",
+  "requestedUrl": "https://contentthread.com/",
+  "timestamp": 1757265759173,
+  "ranks": {
+    "hundos": 1120,
+    "performance": 1121,
+    "accessibility": 1019,
+    "cumulative": 1120
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.4,
+    "accessibility": 0.85,
+    "bestPractices": 0.71,
+    "seo": 0.85,
+    "total": 281
+  },
+  "firstContentfulPaint": 2968.36432,
+  "speedIndex": 32105.804977086773,
+  "largestContentfulPaint": 5359.848579999999,
+  "totalBlockingTime": 143.5,
+  "cumulativeLayoutShift": 0.9076549210206561,
+  "timeToInteractive": 12689.385309,
+  "maxPotentialFirstInputDelay": 103,
+  "timeToFirstByte": 156.04000000000002,
+  "weight": {
+    "summary": "117 requests • 5.4 MiB",
+    "total": 5710870,
+    "image": 4489089,
+    "imageCount": 48,
+    "script": 1068027,
+    "scriptCount": 36,
+    "document": 2685,
+    "font": 106243,
+    "fontCount": 4,
+    "stylesheet": 19133,
+    "stylesheetCount": 5,
+    "thirdParty": 826040,
+    "thirdPartyCount": 10
+  },
+  "run": {
+    "number": 1,
+    "total": 2
+  },
+  "sidequests": {
+    "-weight.total": 1088,
+    "+weight.total": 36,
+    "-weight.document": 155,
+    "+weight.document": 933,
+    "-weight.script": 803,
+    "+weight.script": 22,
+    "-weight.image": 836,
+    "+weight.image": 26,
+    "-weight.font": 489,
+    "+weight.font": 255,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 708,
+    "-totalBlockingTime": 145,
+    "-largestContentfulPaint": 1043
+  },
+  "axe": {
+    "error": "{\"name\":\"TimeoutError\"}"
+  }
+}

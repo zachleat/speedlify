@@ -1,0 +1,66 @@
+{
+  "url": "https://fedmentor.dev/",
+  "requestedUrl": "https://fedmentor.dev/",
+  "timestamp": 1757265908489,
+  "ranks": {
+    "hundos": 107,
+    "performance": 66,
+    "accessibility": 56,
+    "cumulative": 66
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 839.2095,
+  "speedIndex": 874.5811660454751,
+  "largestContentfulPaint": 1101.2095,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.00004886367478814952,
+  "timeToInteractive": 1101.2095,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 36.182000000000016,
+  "weight": {
+    "summary": "6 requests • 71.8 KiB",
+    "total": 73524,
+    "image": 0,
+    "imageCount": 0,
+    "script": 918,
+    "scriptCount": 1,
+    "document": 12981,
+    "font": 46182,
+    "fontCount": 3,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 1,
+    "total": 2
+  },
+  "sidequests": {
+    "-weight.total": 258,
+    "+weight.total": 866,
+    "-weight.document": 801,
+    "+weight.document": 287,
+    "-weight.script": 42,
+    "+weight.script": 783,
+    "-weight.image": 1,
+    "+weight.image": 862,
+    "-weight.font": 239,
+    "+weight.font": 505,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 154,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 145
+  },
+  "axe": {
+    "passes": 545,
+    "violations": 0
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "url": "https://www.kiwisat.org.nz/",
+  "requestedUrl": "https://www.kiwisat.org.nz/",
+  "timestamp": 1757265761791,
+  "ranks": {
+    "hundos": 580,
+    "performance": 559,
+    "accessibility": 902,
+    "cumulative": 583
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.98,
+    "accessibility": 0.92,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 390
+  },
+  "firstContentfulPaint": 1013.73,
+  "speedIndex": 1146.6264080691337,
+  "largestContentfulPaint": 2478.679,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 2478.679,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 149.88799999999998,
+  "weight": {
+    "summary": "9 requests • 35.4 KiB",
+    "total": 36229,
+    "image": 719,
+    "imageCount": 1,
+    "script": 22441,
+    "scriptCount": 2,
+    "document": 2997,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 4263,
+    "stylesheetCount": 1,
+    "thirdParty": 8080,
+    "thirdPartyCount": 4
+  },
+  "run": {
+    "number": 1,
+    "total": 2
+  },
+  "sidequests": {
+    "-weight.total": 148,
+    "+weight.total": 976,
+    "-weight.document": 183,
+    "+weight.document": 905,
+    "-weight.script": 399,
+    "+weight.script": 426,
+    "-weight.image": 23,
+    "+weight.image": 839,
+    "-weight.font": 1,
+    "+weight.font": 744,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 688,
+    "-totalBlockingTime": 11,
+    "-largestContentfulPaint": 412
+  },
+  "axe": {
+    "passes": 171,
+    "violations": 26
+  }
+}

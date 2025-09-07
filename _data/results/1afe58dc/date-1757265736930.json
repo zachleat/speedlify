@@ -1,0 +1,66 @@
+{
+  "url": "https://practical.guide/",
+  "requestedUrl": "https://practical.guide/",
+  "timestamp": 1757265946533,
+  "ranks": {
+    "hundos": 1008,
+    "performance": 598,
+    "accessibility": 1084,
+    "cumulative": 1009
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.98,
+    "accessibility": 0.76,
+    "bestPractices": 0.96,
+    "seo": 0.82,
+    "total": 352
+  },
+  "firstContentfulPaint": 1985.5045,
+  "speedIndex": 2048.303250096131,
+  "largestContentfulPaint": 1985.5045,
+  "totalBlockingTime": 26.5,
+  "cumulativeLayoutShift": 0.014712945335237195,
+  "timeToInteractive": 5521.1421,
+  "maxPotentialFirstInputDelay": 83,
+  "timeToFirstByte": 136.89999999999998,
+  "weight": {
+    "summary": "15 requests • 3.9 MiB",
+    "total": 4090595,
+    "image": 3743834,
+    "imageCount": 5,
+    "script": 264732,
+    "scriptCount": 3,
+    "document": 10117,
+    "font": 65837,
+    "fontCount": 2,
+    "stylesheet": 5063,
+    "stylesheetCount": 2,
+    "thirdParty": 333124,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 2,
+    "total": 2
+  },
+  "sidequests": {
+    "-weight.total": 1075,
+    "+weight.total": 49,
+    "-weight.document": 720,
+    "+weight.document": 368,
+    "-weight.script": 690,
+    "+weight.script": 135,
+    "-weight.image": 829,
+    "+weight.image": 33,
+    "-weight.font": 350,
+    "+weight.font": 394,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 639,
+    "-totalBlockingTime": 69,
+    "-largestContentfulPaint": 783
+  },
+  "axe": {
+    "passes": 272,
+    "violations": 24
+  }
+}

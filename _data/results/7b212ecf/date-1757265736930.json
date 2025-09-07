@@ -1,0 +1,66 @@
+{
+  "url": "https://tanks.jandewil.de/",
+  "requestedUrl": "https://tanks.jandewil.de/",
+  "timestamp": 1757265934879,
+  "ranks": {
+    "hundos": 830,
+    "performance": 995,
+    "accessibility": 523,
+    "cumulative": 834
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.77,
+    "accessibility": 1,
+    "bestPractices": 0.96,
+    "seo": 1,
+    "total": 373
+  },
+  "firstContentfulPaint": 1740.269,
+  "speedIndex": 2356.4472815012896,
+  "largestContentfulPaint": 6254.204,
+  "totalBlockingTime": 45,
+  "cumulativeLayoutShift": 0.0010652195548600258,
+  "timeToInteractive": 6620.7914,
+  "maxPotentialFirstInputDelay": 130,
+  "timeToFirstByte": 38.84599999999999,
+  "weight": {
+    "summary": "44 requests • 1 MiB",
+    "total": 1051837,
+    "image": 227949,
+    "imageCount": 6,
+    "script": 110731,
+    "scriptCount": 23,
+    "document": 7887,
+    "font": 688836,
+    "fontCount": 6,
+    "stylesheet": 12104,
+    "stylesheetCount": 4,
+    "thirdParty": 734147,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 2,
+    "total": 2
+  },
+  "sidequests": {
+    "-weight.total": 936,
+    "+weight.total": 188,
+    "-weight.document": 625,
+    "+weight.document": 463,
+    "-weight.script": 572,
+    "+weight.script": 253,
+    "-weight.image": 572,
+    "+weight.image": 290,
+    "-weight.font": 729,
+    "+weight.font": 15,
+    "+weight.fontCount": 11,
+    "-timeToFirstByte": 231,
+    "-totalBlockingTime": 8,
+    "-largestContentfulPaint": 513
+  },
+  "axe": {
+    "passes": 4245,
+    "violations": 3
+  }
+}

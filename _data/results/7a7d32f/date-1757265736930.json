@@ -1,0 +1,66 @@
+{
+  "url": "https://ruby-style-guide.shopify.dev/",
+  "requestedUrl": "https://ruby-style-guide.shopify.dev/",
+  "timestamp": 1757265997515,
+  "ranks": {
+    "hundos": 850,
+    "performance": 746,
+    "accessibility": 1054,
+    "cumulative": 853
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.94,
+    "accessibility": 0.82,
+    "bestPractices": 0.96,
+    "seo": 1,
+    "total": 372
+  },
+  "firstContentfulPaint": 1983.682,
+  "speedIndex": 1983.682,
+  "largestContentfulPaint": 2748.911,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 2748.911,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 90.371,
+  "weight": {
+    "summary": "5 requests • 83.5 KiB",
+    "total": 85527,
+    "image": 0,
+    "imageCount": 0,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 14382,
+    "font": 14007,
+    "fontCount": 1,
+    "stylesheet": 51647,
+    "stylesheetCount": 2,
+    "thirdParty": 14849,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 2,
+    "total": 2
+  },
+  "sidequests": {
+    "-weight.total": 292,
+    "+weight.total": 832,
+    "-weight.document": 843,
+    "+weight.document": 245,
+    "-weight.script": 2,
+    "+weight.script": 824,
+    "-weight.image": 1,
+    "+weight.image": 862,
+    "-weight.font": 41,
+    "+weight.font": 703,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 494,
+    "-totalBlockingTime": 11,
+    "-largestContentfulPaint": 438
+  },
+  "axe": {
+    "passes": 3413,
+    "violations": 147
+  }
+}

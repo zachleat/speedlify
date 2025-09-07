@@ -1,0 +1,66 @@
+{
+  "url": "https://ninerakes.com/",
+  "requestedUrl": "https://ninerakes.com/",
+  "timestamp": 1757265935989,
+  "ranks": {
+    "hundos": 631,
+    "performance": 614,
+    "accessibility": 960,
+    "cumulative": 636
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.97,
+    "accessibility": 0.9,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 387
+  },
+  "firstContentfulPaint": 1039.7659999999998,
+  "speedIndex": 1039.7659999999998,
+  "largestContentfulPaint": 1709.4595,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.10692588092345079,
+  "timeToInteractive": 1709.4595,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 46.542,
+  "weight": {
+    "summary": "10 requests • 79.5 KiB",
+    "total": 81402,
+    "image": 468,
+    "imageCount": 1,
+    "script": 51890,
+    "scriptCount": 5,
+    "document": 5024,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 8467,
+    "stylesheetCount": 2,
+    "thirdParty": 9127,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 2,
+    "total": 2
+  },
+  "sidequests": {
+    "-weight.total": 282,
+    "+weight.total": 842,
+    "-weight.document": 404,
+    "+weight.document": 684,
+    "-weight.script": 495,
+    "+weight.script": 330,
+    "-weight.image": 10,
+    "+weight.image": 852,
+    "-weight.font": 1,
+    "+weight.font": 744,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 287,
+    "-totalBlockingTime": 11,
+    "-largestContentfulPaint": 736
+  },
+  "axe": {
+    "passes": 224,
+    "violations": 22
+  }
+}

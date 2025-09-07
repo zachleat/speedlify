@@ -1,0 +1,66 @@
+{
+  "url": "https://spaghetti.directory/",
+  "requestedUrl": "https://spaghetti.directory/",
+  "timestamp": 1757266018557,
+  "ranks": {
+    "hundos": 674,
+    "performance": 502,
+    "accessibility": 1018,
+    "cumulative": 677
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.99,
+    "accessibility": 0.85,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 384
+  },
+  "firstContentfulPaint": 1678.5529999999999,
+  "speedIndex": 1678.5529999999999,
+  "largestContentfulPaint": 1678.5529999999999,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.007698124098050929,
+  "timeToInteractive": 1678.5529999999999,
+  "maxPotentialFirstInputDelay": 18,
+  "timeToFirstByte": 61.21500000000003,
+  "weight": {
+    "summary": "11 requests • 107.9 KiB",
+    "total": 110503,
+    "image": 0,
+    "imageCount": 0,
+    "script": 6168,
+    "scriptCount": 2,
+    "document": 4519,
+    "font": 68101,
+    "fontCount": 2,
+    "stylesheet": 4328,
+    "stylesheetCount": 2,
+    "thirdParty": 12893,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 2,
+    "total": 2
+  },
+  "sidequests": {
+    "-weight.total": 350,
+    "+weight.total": 774,
+    "-weight.document": 355,
+    "+weight.document": 733,
+    "-weight.script": 248,
+    "+weight.script": 577,
+    "-weight.image": 1,
+    "+weight.image": 862,
+    "-weight.font": 362,
+    "+weight.font": 382,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 355,
+    "-totalBlockingTime": 11,
+    "-largestContentfulPaint": 731
+  },
+  "axe": {
+    "passes": 436,
+    "violations": 67
+  }
+}

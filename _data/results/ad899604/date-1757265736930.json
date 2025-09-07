@@ -1,0 +1,66 @@
+{
+  "url": "https://switowski.com/",
+  "requestedUrl": "https://switowski.com/",
+  "timestamp": 1757266020570,
+  "ranks": {
+    "hundos": 670,
+    "performance": 911,
+    "accessibility": 375,
+    "cumulative": 670
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.84,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 384
+  },
+  "firstContentfulPaint": 1383.92,
+  "speedIndex": 1383.92,
+  "largestContentfulPaint": 4533.92,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 4608.92,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 222.6,
+  "weight": {
+    "summary": "14 requests • 636.1 KiB",
+    "total": 651386,
+    "image": 579121,
+    "imageCount": 5,
+    "script": 32632,
+    "scriptCount": 2,
+    "document": 23526,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 9627,
+    "stylesheetCount": 1,
+    "thirdParty": 2267,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 2,
+    "total": 2
+  },
+  "sidequests": {
+    "-weight.total": 859,
+    "+weight.total": 265,
+    "-weight.document": 943,
+    "+weight.document": 145,
+    "-weight.script": 444,
+    "+weight.script": 381,
+    "-weight.image": 707,
+    "+weight.image": 155,
+    "-weight.font": 1,
+    "+weight.font": 744,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 858,
+    "-totalBlockingTime": 11,
+    "-largestContentfulPaint": 1025
+  },
+  "axe": {
+    "passes": 732,
+    "violations": 1
+  }
+}

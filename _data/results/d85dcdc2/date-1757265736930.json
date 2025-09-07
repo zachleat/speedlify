@@ -1,0 +1,66 @@
+{
+  "url": "https://input.relcfp.com/",
+  "requestedUrl": "https://input.relcfp.com/",
+  "timestamp": 1757265793755,
+  "ranks": {
+    "hundos": 531,
+    "performance": 530,
+    "accessibility": 837,
+    "cumulative": 513
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.99,
+    "accessibility": 0.93,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 392
+  },
+  "firstContentfulPaint": 1732.946,
+  "speedIndex": 1972.7299179474353,
+  "largestContentfulPaint": 1732.946,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1732.946,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 228.59900000000002,
+  "weight": {
+    "summary": "10 requests • 41.9 KiB",
+    "total": 42931,
+    "image": 696,
+    "imageCount": 1,
+    "script": 8260,
+    "scriptCount": 2,
+    "document": 4385,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 7031,
+    "stylesheetCount": 1,
+    "thirdParty": 7119,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 1,
+    "total": 2
+  },
+  "sidequests": {
+    "-weight.total": 168,
+    "+weight.total": 956,
+    "-weight.document": 340,
+    "+weight.document": 748,
+    "-weight.script": 292,
+    "+weight.script": 533,
+    "-weight.image": 22,
+    "+weight.image": 840,
+    "-weight.font": 1,
+    "+weight.font": 744,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 867,
+    "-totalBlockingTime": 11,
+    "-largestContentfulPaint": 743
+  },
+  "axe": {
+    "passes": 498,
+    "violations": 1
+  }
+}

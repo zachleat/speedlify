@@ -1,0 +1,66 @@
+{
+  "url": "https://crinkles.dev/",
+  "requestedUrl": "https://crinkles.dev/",
+  "timestamp": 1757265908404,
+  "ranks": {
+    "hundos": 187,
+    "performance": 413,
+    "accessibility": 57,
+    "cumulative": 127
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 1183.2930000000001,
+  "speedIndex": 1791.5832680632589,
+  "largestContentfulPaint": 1183.2930000000001,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1183.2930000000001,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 240.32200000000003,
+  "weight": {
+    "summary": "8 requests • 52.4 KiB",
+    "total": 53656,
+    "image": 579,
+    "imageCount": 2,
+    "script": 3739,
+    "scriptCount": 1,
+    "document": 33913,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 7016,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 1,
+    "total": 2
+  },
+  "sidequests": {
+    "-weight.total": 198,
+    "+weight.total": 926,
+    "-weight.document": 989,
+    "+weight.document": 99,
+    "-weight.script": 178,
+    "+weight.script": 647,
+    "-weight.image": 16,
+    "+weight.image": 846,
+    "-weight.font": 1,
+    "+weight.font": 744,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 888,
+    "-totalBlockingTime": 11,
+    "-largestContentfulPaint": 652
+  },
+  "axe": {
+    "passes": 544,
+    "violations": 0
+  }
+}

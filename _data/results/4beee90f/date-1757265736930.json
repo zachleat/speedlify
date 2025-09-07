@@ -1,0 +1,66 @@
+{
+  "url": "https://riafin.com/",
+  "requestedUrl": "https://riafin.com/",
+  "timestamp": 1757265792344,
+  "ranks": {
+    "hundos": 1097,
+    "performance": 1103,
+    "accessibility": 1088,
+    "cumulative": 1097
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.57,
+    "accessibility": 0.75,
+    "bestPractices": 0.75,
+    "seo": 1,
+    "total": 307
+  },
+  "firstContentfulPaint": 3121.9304999999995,
+  "speedIndex": 3121.9304999999995,
+  "largestContentfulPaint": 6358.823,
+  "totalBlockingTime": 5,
+  "cumulativeLayoutShift": 0.28442203131497945,
+  "timeToInteractive": 6358.823,
+  "maxPotentialFirstInputDelay": 55,
+  "timeToFirstByte": 157.519,
+  "weight": {
+    "summary": "55 requests • 2 MiB",
+    "total": 2119886,
+    "image": 1513981,
+    "imageCount": 9,
+    "script": 324719,
+    "scriptCount": 27,
+    "document": 11053,
+    "font": 223087,
+    "fontCount": 6,
+    "stylesheet": 45500,
+    "stylesheetCount": 9,
+    "thirdParty": 183395,
+    "thirdPartyCount": 4
+  },
+  "run": {
+    "number": 1,
+    "total": 2
+  },
+  "sidequests": {
+    "-weight.total": 1019,
+    "+weight.total": 105,
+    "-weight.document": 756,
+    "+weight.document": 332,
+    "-weight.script": 719,
+    "+weight.script": 106,
+    "-weight.image": 779,
+    "+weight.image": 83,
+    "-weight.font": 624,
+    "+weight.font": 120,
+    "+weight.fontCount": 11,
+    "-timeToFirstByte": 717,
+    "-totalBlockingTime": 20,
+    "-largestContentfulPaint": 1064
+  },
+  "axe": {
+    "passes": 481,
+    "violations": 24
+  }
+}

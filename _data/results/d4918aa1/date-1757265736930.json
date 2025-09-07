@@ -1,0 +1,66 @@
+{
+  "url": "https://blog.glitch.com/",
+  "requestedUrl": "https://blog.glitch.com/",
+  "timestamp": 1757265760688,
+  "ranks": {
+    "hundos": 770,
+    "performance": 925,
+    "accessibility": 767,
+    "cumulative": 770
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.83,
+    "accessibility": 0.95,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 378
+  },
+  "firstContentfulPaint": 1029.205,
+  "speedIndex": 1029.205,
+  "largestContentfulPaint": 2929.205,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.24892666087436652,
+  "timeToInteractive": 2929.205,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 78.52399999999999,
+  "weight": {
+    "summary": "9 requests • 469.7 KiB",
+    "total": 481012,
+    "image": 104257,
+    "imageCount": 6,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 15633,
+    "font": 345915,
+    "fontCount": 1,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 1,
+    "total": 2
+  },
+  "sidequests": {
+    "-weight.total": 783,
+    "+weight.total": 341,
+    "-weight.document": 865,
+    "+weight.document": 223,
+    "-weight.script": 2,
+    "+weight.script": 824,
+    "-weight.image": 442,
+    "+weight.image": 420,
+    "-weight.font": 695,
+    "+weight.font": 49,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 461,
+    "-totalBlockingTime": 11,
+    "-largestContentfulPaint": 455
+  },
+  "axe": {
+    "passes": 332,
+    "violations": 2
+  }
+}

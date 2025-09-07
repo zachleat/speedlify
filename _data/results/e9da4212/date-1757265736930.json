@@ -1,0 +1,66 @@
+{
+  "url": "https://swelldiary.com/",
+  "requestedUrl": "https://swelldiary.com/",
+  "timestamp": 1757266020155,
+  "ranks": {
+    "hundos": 930,
+    "performance": 589,
+    "accessibility": 963,
+    "cumulative": 935
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.98,
+    "accessibility": 0.9,
+    "bestPractices": 0.75,
+    "seo": 1,
+    "total": 363
+  },
+  "firstContentfulPaint": 1888.6484999999998,
+  "speedIndex": 1888.6484999999998,
+  "largestContentfulPaint": 1888.6484999999998,
+  "totalBlockingTime": 20.5,
+  "cumulativeLayoutShift": 0.022781481302334795,
+  "timeToInteractive": 4972.9794999999995,
+  "maxPotentialFirstInputDelay": 89,
+  "timeToFirstByte": 26.165999999999997,
+  "weight": {
+    "summary": "23 requests • 353.1 KiB",
+    "total": 361586,
+    "image": 75485,
+    "imageCount": 6,
+    "script": 198885,
+    "scriptCount": 4,
+    "document": 7411,
+    "font": 45419,
+    "fontCount": 3,
+    "stylesheet": 30396,
+    "stylesheetCount": 3,
+    "thirdParty": 351314,
+    "thirdPartyCount": 7
+  },
+  "run": {
+    "number": 2,
+    "total": 2
+  },
+  "sidequests": {
+    "-weight.total": 700,
+    "+weight.total": 424,
+    "-weight.document": 595,
+    "+weight.document": 493,
+    "-weight.script": 659,
+    "+weight.script": 166,
+    "-weight.image": 378,
+    "+weight.image": 484,
+    "-weight.font": 234,
+    "+weight.font": 510,
+    "+weight.fontCount": 14,
+    "-timeToFirstByte": 40,
+    "-totalBlockingTime": 57,
+    "-largestContentfulPaint": 768
+  },
+  "axe": {
+    "passes": 2010,
+    "violations": 187
+  }
+}

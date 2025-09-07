@@ -1,0 +1,66 @@
+{
+  "url": "https://gemma.ee/",
+  "requestedUrl": "https://gemma.ee/",
+  "timestamp": 1757265909048,
+  "ranks": {
+    "hundos": 482,
+    "performance": 760,
+    "accessibility": 74,
+    "cumulative": 480
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.93,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 393
+  },
+  "firstContentfulPaint": 846.359,
+  "speedIndex": 1065.7846039067267,
+  "largestContentfulPaint": 3282.718,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 3282.718,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 210.50799999999998,
+  "weight": {
+    "summary": "15 requests • 600.7 KiB",
+    "total": 615094,
+    "image": 483804,
+    "imageCount": 6,
+    "script": 16660,
+    "scriptCount": 1,
+    "document": 10553,
+    "font": 94934,
+    "fontCount": 2,
+    "stylesheet": 1435,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "sidequests": {
+    "-weight.total": 847,
+    "+weight.total": 277,
+    "-weight.document": 739,
+    "+weight.document": 349,
+    "-weight.script": 362,
+    "+weight.script": 463,
+    "-weight.image": 691,
+    "+weight.image": 171,
+    "-weight.font": 460,
+    "+weight.font": 284,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 828,
+    "-totalBlockingTime": 11,
+    "-largestContentfulPaint": 939
+  },
+  "axe": {
+    "passes": 461,
+    "violations": 0
+  }
+}

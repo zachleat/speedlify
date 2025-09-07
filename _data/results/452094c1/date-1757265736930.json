@@ -1,0 +1,66 @@
+{
+  "url": "https://www.equilibrario.com/en/",
+  "requestedUrl": "https://www.equilibrario.com/en/",
+  "timestamp": 1757265947735,
+  "ranks": {
+    "hundos": 372,
+    "performance": 661,
+    "accessibility": 401,
+    "cumulative": 376
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.96,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 396
+  },
+  "firstContentfulPaint": 1170.8125,
+  "speedIndex": 1170.8125,
+  "largestContentfulPaint": 2653.717,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.000505870524809995,
+  "timeToInteractive": 2653.717,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 252.797,
+  "weight": {
+    "summary": "8 requests • 188.2 KiB",
+    "total": 192706,
+    "image": 0,
+    "imageCount": 0,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 21554,
+    "font": 165219,
+    "fontCount": 4,
+    "stylesheet": 4376,
+    "stylesheetCount": 1,
+    "thirdParty": 165219,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 2,
+    "total": 2
+  },
+  "sidequests": {
+    "-weight.total": 518,
+    "+weight.total": 606,
+    "-weight.document": 932,
+    "+weight.document": 156,
+    "-weight.script": 2,
+    "+weight.script": 824,
+    "-weight.image": 1,
+    "+weight.image": 862,
+    "-weight.font": 581,
+    "+weight.font": 163,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 904,
+    "-totalBlockingTime": 11,
+    "-largestContentfulPaint": 873
+  },
+  "axe": {
+    "passes": 404,
+    "violations": 1
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "url": "https://ma.tthew.berlin/",
+  "requestedUrl": "https://ma.tthew.berlin/",
+  "timestamp": 1757265947673,
+  "ranks": {
+    "hundos": 165,
+    "performance": 307,
+    "accessibility": 535,
+    "cumulative": 231
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 1099.501,
+  "speedIndex": 1300.995489940786,
+  "largestContentfulPaint": 1099.501,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.0045010403344091995,
+  "timeToInteractive": 1099.501,
+  "maxPotentialFirstInputDelay": 49,
+  "timeToFirstByte": 215.361,
+  "weight": {
+    "summary": "3 requests • 110.5 KiB",
+    "total": 113203,
+    "image": 0,
+    "imageCount": 0,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 25786,
+    "font": 22767,
+    "fontCount": 1,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 2
+  },
+  "sidequests": {
+    "-weight.total": 358,
+    "+weight.total": 766,
+    "-weight.document": 956,
+    "+weight.document": 132,
+    "-weight.script": 2,
+    "+weight.script": 824,
+    "-weight.image": 1,
+    "+weight.image": 862,
+    "-weight.font": 95,
+    "+weight.font": 649,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 842,
+    "-totalBlockingTime": 11,
+    "-largestContentfulPaint": 637
+  },
+  "axe": {
+    "passes": 310,
+    "violations": 3
+  }
+}

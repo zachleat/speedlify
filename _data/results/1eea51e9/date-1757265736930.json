@@ -1,0 +1,66 @@
+{
+  "url": "https://csenf.de/",
+  "requestedUrl": "https://csenf.de/",
+  "timestamp": 1757265760579,
+  "ranks": {
+    "hundos": 892,
+    "performance": 390,
+    "accessibility": 1008,
+    "cumulative": 892
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 1,
+    "accessibility": 0.86,
+    "bestPractices": 1,
+    "seo": 0.82,
+    "total": 368
+  },
+  "firstContentfulPaint": 1076.69,
+  "speedIndex": 1596.0101980977056,
+  "largestContentfulPaint": 1076.69,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1076.69,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 134.014,
+  "weight": {
+    "summary": "5 requests • 142.7 KiB",
+    "total": 146106,
+    "image": 0,
+    "imageCount": 0,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 4467,
+    "font": 61304,
+    "fontCount": 1,
+    "stylesheet": 53710,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 1,
+    "total": 2
+  },
+  "sidequests": {
+    "-weight.total": 420,
+    "+weight.total": 704,
+    "-weight.document": 353,
+    "+weight.document": 735,
+    "-weight.script": 2,
+    "+weight.script": 824,
+    "-weight.image": 1,
+    "+weight.image": 862,
+    "-weight.font": 321,
+    "+weight.font": 423,
+    "+weight.fontCount": 16,
+    "-timeToFirstByte": 631,
+    "-totalBlockingTime": 11,
+    "-largestContentfulPaint": 135
+  },
+  "axe": {
+    "passes": 358,
+    "violations": 43
+  }
+}

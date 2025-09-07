@@ -1,0 +1,66 @@
+{
+  "url": "https://kareldesmet.be/",
+  "requestedUrl": "https://www.kareldesmet.be/",
+  "timestamp": 1757265864818,
+  "ranks": {
+    "hundos": 808,
+    "performance": 1017,
+    "accessibility": 350,
+    "cumulative": 800
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.75,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 375
+  },
+  "firstContentfulPaint": 2668.132,
+  "speedIndex": 2668.132,
+  "largestContentfulPaint": 5715.184000000001,
+  "totalBlockingTime": 44,
+  "cumulativeLayoutShift": 0.037258284385954785,
+  "timeToInteractive": 5715.184000000001,
+  "maxPotentialFirstInputDelay": 75,
+  "timeToFirstByte": 133.022,
+  "weight": {
+    "summary": "14 requests • 486.3 KiB",
+    "total": 497973,
+    "image": 196237,
+    "imageCount": 1,
+    "script": 260967,
+    "scriptCount": 3,
+    "document": 1008,
+    "font": 34064,
+    "fontCount": 2,
+    "stylesheet": 3676,
+    "stylesheetCount": 3,
+    "thirdParty": 297319,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 1,
+    "total": 2
+  },
+  "sidequests": {
+    "-weight.total": 790,
+    "+weight.total": 334,
+    "-weight.document": 9,
+    "+weight.document": 1079,
+    "-weight.script": 679,
+    "+weight.script": 146,
+    "-weight.image": 550,
+    "+weight.image": 312,
+    "-weight.font": 162,
+    "+weight.font": 582,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 622,
+    "-totalBlockingTime": 91,
+    "-largestContentfulPaint": 1050
+  },
+  "axe": {
+    "passes": 58,
+    "violations": 0
+  }
+}

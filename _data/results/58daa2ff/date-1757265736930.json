@@ -1,0 +1,66 @@
+{
+  "url": "https://withleaf.io/",
+  "requestedUrl": "https://withleaf.io/",
+  "timestamp": 1757265930322,
+  "ranks": {
+    "hundos": 1091,
+    "performance": 969,
+    "accessibility": 1010,
+    "cumulative": 1091
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.79,
+    "accessibility": 0.86,
+    "bestPractices": 0.57,
+    "seo": 0.91,
+    "total": 313
+  },
+  "firstContentfulPaint": 2842.969,
+  "speedIndex": 2842.969,
+  "largestContentfulPaint": 4454.6555,
+  "totalBlockingTime": 70.5,
+  "cumulativeLayoutShift": 0.005193306447984355,
+  "timeToInteractive": 8805.51445,
+  "maxPotentialFirstInputDelay": 130,
+  "timeToFirstByte": 213.531,
+  "weight": {
+    "summary": "134 requests • 7.4 MiB",
+    "total": 7765995,
+    "image": 741172,
+    "imageCount": 35,
+    "script": 562191,
+    "scriptCount": 16,
+    "document": 30834,
+    "font": 127836,
+    "fontCount": 4,
+    "stylesheet": 21432,
+    "stylesheetCount": 8,
+    "thirdParty": 7719520,
+    "thirdPartyCount": 22
+  },
+  "run": {
+    "number": 2,
+    "total": 2
+  },
+  "sidequests": {
+    "-weight.total": 1100,
+    "+weight.total": 24,
+    "-weight.document": 980,
+    "+weight.document": 108,
+    "-weight.script": 769,
+    "+weight.script": 56,
+    "-weight.image": 727,
+    "+weight.image": 135,
+    "-weight.font": 532,
+    "+weight.font": 212,
+    "+weight.fontCount": 13,
+    "-timeToFirstByte": 837,
+    "-totalBlockingTime": 117,
+    "-largestContentfulPaint": 1020
+  },
+  "axe": {
+    "passes": 923,
+    "violations": 60
+  }
+}

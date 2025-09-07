@@ -1,0 +1,66 @@
+{
+  "url": "https://michaelharley.net/",
+  "requestedUrl": "https://mharley.dev/",
+  "timestamp": 1757265946610,
+  "ranks": {
+    "hundos": 601,
+    "performance": 645,
+    "accessibility": 720,
+    "cumulative": 600
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.97,
+    "accessibility": 0.96,
+    "bestPractices": 0.96,
+    "seo": 1,
+    "total": 389
+  },
+  "firstContentfulPaint": 2031.862,
+  "speedIndex": 2031.862,
+  "largestContentfulPaint": 2050.362,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 2052.2120000000004,
+  "maxPotentialFirstInputDelay": 37,
+  "timeToFirstByte": 46.98100000000001,
+  "weight": {
+    "summary": "8 requests • 52 KiB",
+    "total": 53278,
+    "image": 2035,
+    "imageCount": 3,
+    "script": 2526,
+    "scriptCount": 1,
+    "document": 45805,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 3090,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 2,
+    "total": 2
+  },
+  "sidequests": {
+    "-weight.total": 195,
+    "+weight.total": 929,
+    "-weight.document": 1020,
+    "+weight.document": 68,
+    "-weight.script": 137,
+    "+weight.script": 688,
+    "-weight.image": 46,
+    "+weight.image": 816,
+    "-weight.font": 1,
+    "+weight.font": 744,
+    "+weight.fontCount": 17,
+    "-timeToFirstByte": 290,
+    "-totalBlockingTime": 11,
+    "-largestContentfulPaint": 792
+  },
+  "axe": {
+    "passes": 307,
+    "violations": 5
+  }
+}

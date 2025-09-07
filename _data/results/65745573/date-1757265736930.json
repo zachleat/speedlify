@@ -1,0 +1,66 @@
+{
+  "url": "https://loosethought.com/",
+  "requestedUrl": "https://loosethought.com/",
+  "timestamp": 1757265947668,
+  "ranks": {
+    "hundos": 563,
+    "performance": 449,
+    "accessibility": 935,
+    "cumulative": 582
+  },
+  "lighthouse": {
+    "version": "12.8.1",
+    "performance": 0.99,
+    "accessibility": 0.91,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 390
+  },
+  "firstContentfulPaint": 1135.459,
+  "speedIndex": 1135.459,
+  "largestContentfulPaint": 1803.88,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.007059034134893677,
+  "timeToInteractive": 1803.88,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 94.46000000000001,
+  "weight": {
+    "summary": "14 requests • 281.6 KiB",
+    "total": 288316,
+    "image": 178570,
+    "imageCount": 5,
+    "script": 3302,
+    "scriptCount": 1,
+    "document": 14246,
+    "font": 85148,
+    "fontCount": 2,
+    "stylesheet": 5119,
+    "stylesheetCount": 2,
+    "thirdParty": 99251,
+    "thirdPartyCount": 5
+  },
+  "run": {
+    "number": 2,
+    "total": 2
+  },
+  "sidequests": {
+    "-weight.total": 624,
+    "+weight.total": 500,
+    "-weight.document": 838,
+    "+weight.document": 250,
+    "-weight.script": 160,
+    "+weight.script": 665,
+    "-weight.image": 533,
+    "+weight.image": 329,
+    "-weight.font": 436,
+    "+weight.font": 308,
+    "+weight.fontCount": 15,
+    "-timeToFirstByte": 500,
+    "-totalBlockingTime": 11,
+    "-largestContentfulPaint": 310
+  },
+  "axe": {
+    "passes": 544,
+    "violations": 26
+  }
+}
