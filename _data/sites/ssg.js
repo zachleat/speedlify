@@ -31,5 +31,6 @@ module.exports = {
 	],
 	skipUrls: [
 		"https://hexo.io/zh-cn/",
+		"https://record-collector.net/",
 	]
 };
