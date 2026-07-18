@@ -133,7 +133,7 @@ function Sparkline({
 			? `
 	<div class="x-axis">
 		<time datetime="${msToISO(startTime)}">${msToDate(startTime)}</time>
-		<time datetime="${msToISO(startTime)}">${msToDate(endTime)}</time>
+		<time datetime="${msToISO(endTime)}">${msToDate(endTime)}</time>
 	</div>`
 			: ''
 	}
