@@ -67,7 +67,7 @@ counts:
 					<img src="{{ site[newestKey].url | hostingImageUrl }}" width="60" height="60" alt="Hosting avatar for {{ site[newestKey].url | displayUrl }}" class="leaderboard-list-entry-thumbnail small" loading="lazy" decoding="async">
 				</td>
 			{%- if site[newestKey].error %}
-				<td colspan="2"></td>
+				<td colspan="3"></td>
 			{%- else %}
 				{%- set counts = counts | hundoCountTotals(site[newestKey]) %}
 				<td class="leaderboard-score">{% if showRank %}<is-land on:visible><speedlify-score class="leaderboard-score-circles{% if hundos === 4 %} leaderboard-score-circles-400{% endif %}" raw-data='{{ site[newestKey] | toJSON | safe }}'></speedlify-score></is-land><span class="leaderboard-score-sum leaderboard-number">{% if hundos === 4 %}😍{% else %}{{ site[newestKey] | lighthouseTotal }}{% endif %}</span>{% endif %}{% lighthouseSparkline site %}</td>
