@@ -141,8 +141,8 @@ module.exports = function(eleventyConfig) {
 	eleventyConfig.addFilter("displayDate", function(timestamp) {
 		let months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 		let date = new Date(timestamp);
-		let day = `${months[date.getMonth()]} ${pad(date.getDate())}`;
-		return `${day} <span class="leaderboard-hide-md">${pad(date.getHours())}:${pad(date.getMinutes())}</span>`;
+		let day = `${pad(date.getDate())} ${months[date.getMonth()]}`;
+		return `${day} <span class="leaderboard-hide-md">${date.getFullYear()}</span>`;
 	});
 
 	eleventyConfig.addFilter("sortCumulativeScore", (obj) => {
