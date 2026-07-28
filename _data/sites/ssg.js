@@ -28,6 +28,9 @@ module.exports = {
 		"https://remix.run/",
 		"https://www.solidjs.com/",
 		"https://lume.land/",
+		"https://qwik.dev/",
+		"https://reactrouter.com/",
+		"https://tanstack.com/",
 	],
 	skipUrls: [
 		"https://hexo.io/zh-cn/",
